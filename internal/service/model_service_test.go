@@ -298,6 +298,70 @@ func TestModelInfoWithTenantExtraAppliesEmbeddingConstraints(t *testing.T) {
 	}
 }
 
+func TestResolveTenantModelInfoBuildsDynamicModelMetadata(t *testing.T) {
+	maxDimension := 1024
+	maxBatchSize := 32
+	tests := []struct {
+		name       string
+		provider   string
+		model      *entity.TenantModel
+		wantType   string
+		wantMaxDim *int
+	}{
+		{
+			name:     "chat model",
+			provider: "DeepSeek",
+			model: &entity.TenantModel{
+				ModelName: "dynamic-chat-model",
+				ModelType: int(entity.ModelTypeChat),
+				Extra:     `{"max_tokens":128000}`,
+			},
+			wantType: "chat",
+		},
+		{
+			name:     "embedding model",
+			provider: "Ollama",
+			model: &entity.TenantModel{
+				ModelName: "dynamic-embedding-model",
+				ModelType: int(entity.ModelTypeEmbedding),
+				Extra:     `{"max_dimension":1024,"max_batch_size":32,"dimensions":[1024]}`,
+			},
+			wantType:   "embedding",
+			wantMaxDim: &maxDimension,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			info, err := resolveTenantModelInfo(tt.provider, tt.model.ModelName, tt.model)
+			if err != nil {
+				t.Fatalf("resolveTenantModelInfo() error = %v", err)
+			}
+			if info.Name != tt.model.ModelName {
+				t.Fatalf("Name = %q, want %q", info.Name, tt.model.ModelName)
+			}
+			if !info.ModelTypeMap[tt.wantType] {
+				t.Fatalf("ModelTypeMap = %#v, want %q enabled", info.ModelTypeMap, tt.wantType)
+			}
+			if tt.wantMaxDim != nil {
+				if info.MaxDimension == nil || *info.MaxDimension != *tt.wantMaxDim {
+					t.Fatalf("MaxDimension = %v, want %d", info.MaxDimension, *tt.wantMaxDim)
+				}
+				if info.MaxBatchSize == nil || *info.MaxBatchSize != maxBatchSize {
+					t.Fatalf("MaxBatchSize = %v, want %d", info.MaxBatchSize, maxBatchSize)
+				}
+			}
+		})
+	}
+}
+
+func TestResolveTenantModelInfoRejectsUnknownCatalogModelWithoutTenantModel(t *testing.T) {
+	_, err := resolveTenantModelInfo("DeepSeek", "missing-dynamic-model", nil)
+	if err == nil || !strings.Contains(err.Error(), "not found") {
+		t.Fatalf("resolveTenantModelInfo() error = %v, want not found", err)
+	}
+}
+
 func setupModelProviderServiceTestDB(t *testing.T) *gorm.DB {
 	t.Helper()
 	db, err := gorm.Open(sqlite.Open(":memory:"), &gorm.Config{TranslateError: true})

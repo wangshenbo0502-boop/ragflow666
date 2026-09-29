@@ -2647,6 +2647,28 @@ func modelInfoWithTenantExtra(modelInfo *modelModule.Model, modelEntity *entity.
 	return &model, nil
 }
 
+func resolveTenantModelInfo(providerName, modelName string, modelEntity *entity.TenantModel) (*modelModule.Model, error) {
+	modelInfo, err := dao.GetModelProviderManager().GetModelByName(providerName, modelName)
+	if err != nil {
+		if modelEntity == nil {
+			return nil, fmt.Errorf("provider %s model %s not found", providerName, modelName)
+		}
+
+		modelTypes := entity.ModelType(modelEntity.ModelType).HumanReadable()
+		modelTypeMap := make(map[string]bool, len(modelTypes))
+		for _, modelType := range modelTypes {
+			modelTypeMap[modelType] = true
+		}
+		modelInfo = &modelModule.Model{
+			Name:         modelEntity.ModelName,
+			ModelTypes:   modelTypes,
+			ModelTypeMap: modelTypeMap,
+		}
+	}
+
+	return modelInfoWithTenantExtra(modelInfo, modelEntity)
+}
+
 func maxTokensFromTenantModelExtra(modelEntity *entity.TenantModel, fallback int) (int, error) {
 	if modelEntity == nil || strings.TrimSpace(modelEntity.Extra) == "" {
 		return fallback, nil
@@ -2712,11 +2734,7 @@ func (m *ModelProviderService) getModelInstanceAndProviderByName(ctx context.Con
 		return nil, errors.New("provider not found")
 	}
 
-	modelInfo, err := dao.GetModelProviderManager().GetModelByName(*providerName, *modelName)
-	if err != nil {
-		return nil, errors.New(fmt.Sprintf("provider %s model %s not found", *providerName, *modelName))
-	}
-	modelInfo, err = modelInfoWithTenantExtra(modelInfo, modelEntity)
+	modelInfo, err := resolveTenantModelInfo(*providerName, *modelName, modelEntity)
 	if err != nil {
 		return nil, err
 	}
@@ -2787,11 +2805,7 @@ func (m *ModelProviderService) getModelInstanceAndProviderByID(ctx context.Conte
 		return nil, errors.New("provider not found")
 	}
 
-	modelInfo, err := dao.GetModelProviderManager().GetModelByName(providerEntity.ProviderName, modelEntity.ModelName)
-	if err != nil {
-		return nil, errors.New(fmt.Sprintf("provider %s model %s not found", providerEntity.ProviderName, modelEntity.ModelName))
-	}
-	modelInfo, err = modelInfoWithTenantExtra(modelInfo, modelEntity)
+	modelInfo, err := resolveTenantModelInfo(providerEntity.ProviderName, modelEntity.ModelName, modelEntity)
 	if err != nil {
 		return nil, err
 	}
