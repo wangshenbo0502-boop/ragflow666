@@ -11,7 +11,7 @@ import notification from '@/utils/notification';
 import { trim } from 'lodash';
 import { useCallback, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useParams } from 'react-router';
+import { useLocation, useNavigate, useParams } from 'react-router';
 import { v4 as uuid } from 'uuid';
 import { runChatCompletionStream } from '../chat-stream/run-stream';
 import {
@@ -67,6 +67,17 @@ export const useSendMessage = () => {
   const { conversationId } = useGetChatSearchParams();
   const { t } = useTranslation();
   const { handleInputChange, value, setValue } = useHandleMessageInputChange();
+  const location = useLocation();
+  const navigate = useNavigate();
+  useEffect(() => {
+    const question = location.state?.railwayQuestion;
+    if (typeof question !== 'string') return;
+    setValue(question);
+    navigate(`${location.pathname}${location.search}`, {
+      replace: true,
+      state: null,
+    });
+  }, [location.state, location.pathname, location.search, navigate, setValue]);
 
   const { handleUploadFile, isUploading, removeFile, files, clearFiles } =
     useUploadFile();

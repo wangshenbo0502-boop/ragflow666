@@ -50,6 +50,7 @@ export function SingleChatBox({ conversation }: IProps) {
     useClickDrawer();
 
   const showInternet = useShowInternet();
+  const isRailway = currentDialog.prompt_config?.domain === 'railway';
 
   const messageReferences = useMessageReferences(
     messages,
@@ -83,9 +84,9 @@ export function SingleChatBox({ conversation }: IProps) {
     <section className="flex flex-col h-full gap-4">
       <div
         ref={messageContainerRef}
-        className="p-5 flex-1 overflow-auto min-h-0 scrollbar-auto"
+        className="p-3 md:p-5 flex-1 overflow-auto min-h-0 scrollbar-auto"
       >
-        <div className="w-full pr-5">
+        <div className="w-full md:pr-5">
           {messages?.map((message, i) => (
             <MessageItem
               loading={
@@ -111,7 +112,7 @@ export function SingleChatBox({ conversation }: IProps) {
         <div ref={scrollRef} />
       </div>
 
-      <div className="p-5 pt-0">
+      <div className="p-3 pt-0 md:p-5 md:pt-0">
         <NextMessageInput
           disabled={disabled}
           sendDisabled={sendDisabled}
@@ -128,8 +129,8 @@ export function SingleChatBox({ conversation }: IProps) {
           onUpload={handleUploadFile}
           isUploading={isUploading}
           removeFile={removeFile}
-          showReasoning
-          showInternet={showInternet}
+          showReasoning={!isRailway}
+          showInternet={!isRailway && showInternet}
         />
         {visible && (
           <PdfSheet

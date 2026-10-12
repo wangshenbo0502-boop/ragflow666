@@ -27,13 +27,6 @@ jest.mock('react-i18next', () => ({
 
 jest.mock('@/utils', () => ({ rsaPsw: jest.fn() }));
 jest.mock('@/components/svg-icon', () => () => null);
-jest.mock('@/components/spotlight', () => () => null);
-jest.mock('./bg', () => ({ BgSvg: () => null }));
-jest.mock('./card', () => ({
-  __esModule: true,
-  default: ({ children }: { children: React.ReactNode }) => children,
-  FlipFaceContext: jest.requireActual('react').createContext('front'),
-}));
 
 const MockUseSystemConfig = jest.mocked(useSystemConfig);
 const OriginalResizeObserver = globalThis.ResizeObserver;

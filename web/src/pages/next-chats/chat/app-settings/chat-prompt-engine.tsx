@@ -28,12 +28,14 @@ import { useTranslation } from 'react-i18next';
 import { DynamicVariableForm } from './dynamic-variable';
 
 interface ChatPromptEngineProps {
+  railway?: boolean;
   prefix?: string;
   collapseOpen?: boolean;
   onCollapseOpenChange?: (open: boolean) => void;
 }
 
 export function ChatPromptEngine({
+  railway = false,
   prefix = '',
   collapseOpen,
   onCollapseOpenChange,
@@ -102,30 +104,34 @@ export function ChatPromptEngine({
       onOpenChange={onCollapseOpenChange}
     >
       <div className="space-y-8">
-        <FormField
-          control={form.control}
-          name={prefixName(prefix, 'prompt_config.empty_response')}
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel tooltip={t('chat.emptyResponseTip')}>
-                {t('chat.emptyResponse')}
-              </FormLabel>
-              <FormControl>
-                <Textarea
-                  {...field}
-                  placeholder={t('chat.emptyResponsePlaceholder')}
-                  dir={getDirAttribute(emptyResponseValue || '')}
-                ></Textarea>
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
-        <SwitchFormField
-          name={prefixName(prefix, 'prompt_config.quote')}
-          label={t('chat.quote')}
-          tooltip={t('chat.quoteTip')}
-        ></SwitchFormField>
+        {!railway && (
+          <FormField
+            control={form.control}
+            name={prefixName(prefix, 'prompt_config.empty_response')}
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel tooltip={t('chat.emptyResponseTip')}>
+                  {t('chat.emptyResponse')}
+                </FormLabel>
+                <FormControl>
+                  <Textarea
+                    {...field}
+                    placeholder={t('chat.emptyResponsePlaceholder')}
+                    dir={getDirAttribute(emptyResponseValue || '')}
+                  ></Textarea>
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+        )}
+        {!railway && (
+          <SwitchFormField
+            name={prefixName(prefix, 'prompt_config.quote')}
+            label={t('chat.quote')}
+            tooltip={t('chat.quoteTip')}
+          ></SwitchFormField>
+        )}
         <SwitchFormField
           name={prefixName(prefix, 'prompt_config.keyword')}
           label={t('chat.keyword')}
@@ -136,7 +142,7 @@ export function ChatPromptEngine({
           label={t('chat.tts')}
           tooltip={t('chat.ttsTip')}
         ></SwitchFormField>
-        <WebSearchFormField prefix={prefix} />
+        {!railway && <WebSearchFormField prefix={prefix} />}
         <MetadataFilter></MetadataFilter>
         <FormField
           control={form.control}
@@ -194,25 +200,27 @@ export function ChatPromptEngine({
             )}
           />
         )}
-        <FormField
-          control={form.control}
-          name={prefixName(prefix, 'prompt_config.system')}
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>{t('chat.system')}</FormLabel>
-              <FormControl>
-                <Textarea
-                  {...field}
-                  rows={8}
-                  placeholder={t('chat.systemPlaceholder')}
-                  className="overflow-y-auto"
-                  dir={getDirAttribute(systemPromptValue || '')}
-                />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+        {!railway && (
+          <FormField
+            control={form.control}
+            name={prefixName(prefix, 'prompt_config.system')}
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>{t('chat.system')}</FormLabel>
+                <FormControl>
+                  <Textarea
+                    {...field}
+                    rows={8}
+                    placeholder={t('chat.systemPlaceholder')}
+                    className="overflow-y-auto"
+                    dir={getDirAttribute(systemPromptValue || '')}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+        )}
         <SimilaritySliderFormField
           isTooltipShown
           similarityName={prefixName(prefix, 'similarity_threshold')}
@@ -232,9 +240,11 @@ export function ChatPromptEngine({
           label={t('chat.multiTurn')}
           tooltip={t('chat.multiTurnTip')}
         ></SwitchFormField>
-        <DynamicVariableForm
-          name={prefixName(prefix, 'prompt_config.parameters')}
-        ></DynamicVariableForm>
+        {!railway && (
+          <DynamicVariableForm
+            name={prefixName(prefix, 'prompt_config.parameters')}
+          ></DynamicVariableForm>
+        )}
       </div>
     </Collapse>
   );

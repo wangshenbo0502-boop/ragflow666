@@ -44,7 +44,7 @@ const ThemeProviderContext = createContext<ThemeProviderState>(initialState);
 
 export function ThemeProvider({
   children,
-  defaultTheme = ThemeEnum.Dark,
+  defaultTheme = ThemeEnum.Light,
   storageKey = 'vite-ui-theme',
   ...props
 }: ThemeProviderProps) {
