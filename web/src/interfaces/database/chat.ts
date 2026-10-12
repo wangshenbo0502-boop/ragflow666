@@ -9,6 +9,8 @@ export interface IDocumentDownloadInfo {
 }
 
 export interface PromptConfig {
+  domain?: 'railway';
+  railway_scene?: 'safety' | 'passenger' | 'equipment' | 'training';
   empty_response: string;
   parameters: Parameter[];
   prologue: string;

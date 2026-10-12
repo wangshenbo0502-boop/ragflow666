@@ -222,6 +222,11 @@ func (s *ChatPipelineService) AsyncChat(
 	if role, _ := lastMsg["role"].(string); role != "user" {
 		return nil, fmt.Errorf("the last content of this conversation is not from user")
 	}
+	chat = prepareRailwayChat(chat)
+	kwargs = prepareRailwayOptions(chat, kwargs)
+	if response, unbound := railwayUnboundResponse(chat); unbound {
+		return response, nil
+	}
 
 	// Resolve what this conversation can reach BEFORE dispatching: whether it
 	// has knowledge bases, and whether web search is enabled.
@@ -418,6 +423,9 @@ func (s *ChatPipelineService) AsyncChat(
 		if promptConfigQuote, ok := promptConfig["quote"].(bool); ok {
 			quote = quote && promptConfigQuote
 		}
+		if promptConfig["domain"] == "railway" {
+			quote = true
+		}
 		// The dialog's configured no-answer line ("空回复"). An answer that only
 		// reports it is decorated as if quoting were off, so it carries neither
 		// citation markers nor a document reference (decorateQuote).
@@ -431,7 +439,7 @@ func (s *ChatPipelineService) AsyncChat(
 		// Only runs on the last question
 		// HIT → return structured result directly.
 		// MISS → fall through to vector search.
-		if len(fieldMap) > 0 && chatModel != nil && len(kbs) > 0 {
+		if !isRailwayChat(chat) && len(fieldMap) > 0 && chatModel != nil && len(kbs) > 0 {
 			common.Info("Phase 6: Use SQL to retrieval")
 			common.Debug("field_map retrieved", zap.Any("field_map", fieldMap))
 			ans, sqlErr := s.useSQL(
@@ -1036,7 +1044,7 @@ func (s *ChatPipelineService) AsyncChat(
 		// If empty_response is not configured, fall through to the LLM call
 		// with an empty knowledge context.
 		//
-		// EXCEPTION: when the user attached files to their message, the
+		// Outside railway evidence mode, when the user attached files, the
 		// attachment text provides context that should be sent to the LLM
 		// even if KB retrieval returned nothing — and image attachments
 		// must reach a vision model instead of being swallowed by the
@@ -1052,7 +1060,7 @@ func (s *ChatPipelineService) AsyncChat(
 		//      final event (dialog_service.py:807); consumers that only look at
 		//      the final event (e.g. the OpenAI-compatible endpoint) would
 		//      otherwise see an empty reply.
-		if emptyResponseApplies(len(knowledges), attachments, hasImageAttachments) {
+		if emptyResponseApplies(chat, len(knowledges), attachments, hasImageAttachments) {
 			if emptyResp, ok := promptConfig["empty_response"].(string); ok && emptyResp != "" {
 				finalReference := kbinfos
 				if !quote {
@@ -1571,6 +1579,9 @@ func (s *ChatPipelineService) AsyncChatSolo(
 	config map[string]interface{},
 ) (<-chan AsyncChatResult, error) {
 
+	if isRailwayChat(chat) {
+		return s.AsyncChat(ctx, userID, chat, messages, stream, config)
+	}
 	out := make(chan AsyncChatResult, 16)
 
 	go func() {
@@ -2442,11 +2453,10 @@ func gateImageAttachments(llmID, modelType string, images []string) (kept []stri
 }
 
 // emptyResponseApplies reports whether the configured empty-response
-// fallback should short-circuit the LLM call: only when retrieval found
-// nothing AND the message carries no attachment context (text or images)
-// the model could still answer from.
-func emptyResponseApplies(knowledgeCount int, attachments string, imageAttachments bool) bool {
-	return knowledgeCount == 0 && attachments == "" && !imageAttachments
+// fallback should short-circuit the LLM call. Railway mode requires indexed
+// evidence; other chats may use attachment context when retrieval is empty.
+func emptyResponseApplies(chat *entity.Chat, knowledgeCount int, attachments string, imageAttachments bool) bool {
+	return knowledgeCount == 0 && (isRailwayChat(chat) || (attachments == "" && !imageAttachments))
 }
 
 // splitFileAttachments mirrors Python's `split_file_attachments` at

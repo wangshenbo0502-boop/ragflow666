@@ -7,3 +7,6 @@ docker/entrypoint.sh text eol=lf executable
 # were previously corrupted by the mixed-line-ending / end-of-file fixers.
 *.msg binary
 
+# Official archives are hashed before upload; keep their bytes on Windows.
+web/public/railway/*.md text eol=lf
+

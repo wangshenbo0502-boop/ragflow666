@@ -1,3 +1,11 @@
+# 轨知 RailMind
+
+本仓库基于 RAGFlow 改造为铁路知识与故障分析辅助智能体，提供安全规章、客运服务、设备背景采集和学习培训四个场景。界面采用白底、黑字与蓝色重点，保留知识库、引用问答、会话管理和工作流，精简通用推广与冗余入口。
+
+项目功能、官方资料来源、运行方法和验证边界见 [铁路智能体说明](docs/railway-agent.md)。六份国家铁路局公开资料存档位于 `web/public/railway/`，可从工作台导入个人知识库；现场作业仍以有效规程和授权人员为准。
+
+下方保留上游 RAGFlow 的说明与归属信息。
+
 <div align="center">
 <a href="https://cloud.ragflow.io/">
 <img src="https://raw.githubusercontent.com/infiniflow/ragflow/main/web/src/assets/logo-with-text.svg" width="520" alt="ragflow logo">

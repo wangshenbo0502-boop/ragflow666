@@ -14,9 +14,8 @@ import { pick } from 'lodash';
 import { Plus } from 'lucide-react';
 import { useCallback, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useSearchParams } from 'react-router';
+import { useNavigate, useSearchParams } from 'react-router';
 import { ChatCard } from './chat-card';
-import { useCreateChatDialog } from './hooks/use-create-chat';
 import { useRenameChat } from './hooks/use-rename-chat';
 
 export default function ChatList() {
@@ -43,13 +42,7 @@ export default function ChatList() {
     onChatRenameOk,
     chatRenameLoading,
   } = useRenameChat();
-  const {
-    createChatVisible,
-    showCreateChatModal,
-    hideCreateChatModal,
-    onCreateChatOk,
-    createChatLoading,
-  } = useCreateChatDialog();
+  const navigate = useNavigate();
 
   const handlePageChange = useCallback(
     (page: number, pageSize?: number) => {
@@ -66,8 +59,8 @@ export default function ChatList() {
   });
 
   const handleShowCreateModal = useCallback(() => {
-    showCreateChatModal();
-  }, [showCreateChatModal]);
+    navigate('/');
+  }, [navigate]);
 
   const [searchParams, setSearchParams] = useSearchParams();
   const isCreate = searchParams.get('isCreate') === 'true';
@@ -89,39 +82,25 @@ export default function ChatList() {
         title: initialChatName,
       };
     }
-    if (createChatVisible) {
-      return {
-        hideModal: hideCreateChatModal,
-        onOk: onCreateChatOk,
-        initialName: '',
-        loading: createChatLoading,
-        title: t('chat.createChat'),
-      };
-    }
     return null;
   }, [
     chatRenameVisible,
-    createChatVisible,
     hideChatRenameModal,
     onChatRenameOk,
     initialChatName,
     chatRenameLoading,
-    hideCreateChatModal,
-    onCreateChatOk,
-    createChatLoading,
-    t,
   ]);
 
   return (
     <>
-      {loading && !data.chats?.length ? (
+      {loading && !data?.chats?.length ? (
         <article
           className="size-full flex items-center justify-center"
           data-testid="chats-list"
         >
           <Spin size="large" />
         </article>
-      ) : data.chats?.length || searchString ? (
+      ) : data?.chats?.length || searchString ? (
         <article
           className="size-full min-w-0 flex flex-col"
           data-testid="chats-list"
@@ -143,7 +122,7 @@ export default function ChatList() {
             </ListFilterBar>
           </header>
 
-          {data.chats?.length ? (
+          {data?.chats?.length ? (
             <>
               <CardContainer className="flex-1 overflow-auto px-5">
                 {data.chats.map((x) => (
@@ -186,7 +165,7 @@ export default function ChatList() {
             size="large"
             className="w-[480px] p-14"
             type={EmptyCardType.Chat}
-            onClick={() => handleShowCreateModal()}
+            onClick={handleShowCreateModal}
             testId="chats-empty-create"
           />
         </article>

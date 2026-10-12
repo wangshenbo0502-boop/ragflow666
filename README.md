@@ -1,3 +1,9 @@
+# RailMind Railway Assistant
+
+This repository adapts RAGFlow into a railway knowledge assistant with safety, passenger service, equipment context, and training workflows. It retains retrieval, cited conversations, knowledge management, and agent workflows with a focused white, black, and blue interface.
+
+See the [project guide](docs/railway-agent.md) for the implementation, six official railway source archives, setup, and validation limits. The upstream documentation and attribution follow below.
+
 <div align="center">
 <a href="https://cloud.ragflow.io/">
 <img src="https://raw.githubusercontent.com/infiniflow/ragflow/main/web/src/assets/logo-with-text.svg" width="520" alt="ragflow logo">
