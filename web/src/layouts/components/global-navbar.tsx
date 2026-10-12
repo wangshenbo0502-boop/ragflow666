@@ -14,10 +14,7 @@ import { HomeIcon } from '@/components/svg-icon';
 const PathMap = {
   [Routes.Datasets]: [Routes.Datasets, Routes.DatasetBase],
   [Routes.Chats]: [Routes.Chats, Routes.Chat],
-  [Routes.Searches]: [Routes.Searches, Routes.Search],
   [Routes.Agents]: [Routes.Agents, Routes.AgentTemplates],
-  [Routes.Memories]: [Routes.Memories, Routes.Memory, Routes.MemoryMessage],
-  [Routes.Files]: [Routes.Files],
 } as const;
 
 // Match on path-segment boundaries, not a loose substring, so e.g.
@@ -51,30 +48,11 @@ const menuItems = [
     'data-testid': 'nav-chat',
   },
   {
-    path: Routes.Searches,
-    name: 'header.search',
-    icon: MenuItemsIcon,
-    icon_name: 'searches',
-    'data-testid': 'nav-search',
-  },
-  {
     path: Routes.Agents,
     name: 'header.flow',
     icon: MenuItemsIcon,
     icon_name: 'agents',
     'data-testid': 'nav-agent',
-  },
-  {
-    path: Routes.Memories,
-    name: 'header.memories',
-    icon: MenuItemsIcon,
-    icon_name: 'memory',
-  },
-  {
-    path: Routes.Files,
-    name: 'header.fileManager',
-    icon: MenuItemsIcon,
-    icon_name: 'file',
   },
 ];
 
@@ -267,7 +245,7 @@ export function MobileNavbar({ renderFooter }: MobileNavbarProps) {
         className="flex w-[min(85vw,18rem)] flex-col gap-0 p-0 sm:w-72"
       >
         <div className="flex shrink-0 justify-center py-5">
-          <img src="/logo.svg" alt="RAGFlow logo" className="size-9" />
+          <span className="text-lg font-semibold">轨知 RailMind</span>
         </div>
 
         <nav className="min-h-0 flex-1 overflow-y-auto py-3">

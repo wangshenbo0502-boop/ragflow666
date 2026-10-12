@@ -1,40 +1,53 @@
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
   useFetchSessionList,
   useFetchSessionManually,
   useGetChatSearchParams,
 } from '@/hooks/use-chat-request';
 import { IClientConversation } from '@/interfaces/database/chat';
+import { useIsMobile } from '@/components/hooks/use-mobile';
+import { Button } from '@/components/ui/button';
+import {
+  Sheet,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet';
+import { MessagesSquare } from 'lucide-react';
 import { RootLayoutContainer } from '@/layouts/root-layout';
-import { cn } from '@/lib/utils';
 import { isEmpty } from 'lodash';
-import { LucideArrowBigLeft, LucideArrowUpRight } from 'lucide-react';
-import { useEffect, useMemo, useState } from 'react';
+import { type KeyboardEvent, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useHandleClickConversationCard } from '../hooks/use-click-card';
 import { ChatSettings } from './app-settings/chat-settings';
-import { MultipleChatBox } from './chat-box/next-multiple-chat-box';
 import { SingleChatBox } from './chat-box/single-chat-box';
 import { Sessions } from './sessions';
-import { useAddChatBox } from './use-add-box';
-import { useSwitchDebugMode } from './use-switch-debug-mode';
 
 export default function Chat() {
   const { t } = useTranslation();
   const [currentConversation, setCurrentConversation] =
     useState<IClientConversation>({} as IClientConversation);
+  const isMobile = useIsMobile();
+  const [sessionsOpen, setSessionsOpen] = useState(false);
 
   const { fetchSessionManually } = useFetchSessionManually();
 
-  const { handleConversationCardClick, controller, stopOutputMessage } =
-    useHandleClickConversationCard();
-
-  const { isDebugMode, switchDebugMode } = useSwitchDebugMode();
-  const { removeChatBox, addChatBox, chatBoxIds, hasSingleChatBox } =
-    useAddChatBox(isDebugMode);
+  const { handleConversationCardClick } = useHandleClickConversationCard();
+  const handleMobileConversation = (id: string, isNew: boolean) => {
+    handleConversationCardClick(id, isNew);
+    setSessionsOpen(false);
+  };
+  const closeSessions = () => setSessionsOpen(false);
+  const handleSessionsKeyDown = (event: KeyboardEvent<HTMLElement>) => {
+    if (event.key === 'Escape') {
+      event.stopPropagation();
+      closeSessions();
+    }
+  };
 
   const { conversationId, isNew } = useGetChatSearchParams();
+  useEffect(() => {
+    setSessionsOpen(false);
+  }, [conversationId]);
 
   const { data: dialogList } = useFetchSessionList();
 
@@ -66,78 +79,58 @@ export default function Chat() {
     };
   }, [conversationId, isNew, fetchSessionManually]);
 
-  if (isDebugMode) {
-    return (
-      <section
-        className="pt-5 pb-14 h-[100vh] flex flex-col"
-        data-testid="chat-detail-multimodel-root"
-      >
-        <header className="px-10 pb-5">
-          <div className="mb-5">
-            <Button
-              variant="outline"
-              onClick={switchDebugMode}
-              data-testid="chat-detail-multimodel-back"
-            >
-              <LucideArrowBigLeft />
-              <span>{t('common.back')}</span>
-            </Button>
-          </div>
-
-          <span className="text-2xl">
-            {t('chat.multipleModels')} ({chatBoxIds.length}/3)
-          </span>
-        </header>
-
-        <MultipleChatBox
-          chatBoxIds={chatBoxIds}
-          controller={controller}
-          removeChatBox={removeChatBox}
-          addChatBox={addChatBox}
-          stopOutputMessage={stopOutputMessage}
-          conversation={currentConversation}
-        ></MultipleChatBox>
-      </section>
-    );
-  }
-
   return (
     <RootLayoutContainer>
       <section className="h-full flex flex-col" data-testid="chat-detail">
-        <article className="flex flex-1 min-h-0 pb-9">
-          <Sessions
-            handleConversationCardClick={handleConversationCardClick}
-          ></Sessions>
+        <article className="relative flex flex-1 min-h-0 pb-3 md:pb-9">
+          {!isMobile && (
+            <Sessions
+              handleConversationCardClick={handleConversationCardClick}
+            />
+          )}
 
-          <Card className="flex-1 min-w-0 bg-transparent border-none shadow-none h-full">
-            <CardContent className="flex p-0 h-full">
-              <Card className="flex flex-col flex-1 bg-transparent min-w-0 overflow-hidden">
-                <CardHeader
-                  className={cn('p-5', {
-                    'border-b-0.5 border-border-button': hasSingleChatBox,
-                  })}
-                >
-                  <CardTitle className="flex justify-between items-center text-base gap-2">
-                    <div className="truncate">{currentConversationName}</div>
-
-                    <Button
-                      variant="ghost"
-                      onClick={switchDebugMode}
-                      data-testid="chat-detail-multimodel-toggle"
+          <div className="flex flex-1 min-w-0 h-full">
+            <div className="flex flex-col flex-1 min-w-0 overflow-hidden">
+              <header className="flex min-w-0 items-center gap-3 border-b border-border-button p-3 md:p-5">
+                {isMobile && (
+                  <Sheet open={sessionsOpen} onOpenChange={setSessionsOpen}>
+                    <SheetTrigger asChild>
+                      <Button
+                        variant="ghost"
+                        size="icon-sm"
+                        aria-label={t('chat.conversations')}
+                        title={t('chat.conversations')}
+                      >
+                        <MessagesSquare className="size-4" />
+                      </Button>
+                    </SheetTrigger>
+                    <SheetContent
+                      side="left"
+                      className="flex w-[min(340px,90vw)] flex-col p-0"
+                      closeIcon={false}
+                      onKeyDown={handleSessionsKeyDown}
                     >
-                      <LucideArrowUpRight />
-                      {t('chat.multipleModels')}
-                    </Button>
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="flex-1 p-0 min-h-0">
-                  <SingleChatBox conversation={currentConversation} />
-                </CardContent>
-              </Card>
+                      <SheetTitle className="sr-only">
+                        {t('chat.conversations')}
+                      </SheetTitle>
+                      <Sessions
+                        handleConversationCardClick={handleMobileConversation}
+                        onClose={closeSessions}
+                      />
+                    </SheetContent>
+                  </Sheet>
+                )}
+                <h1 className="min-w-0 truncate text-base font-medium">
+                  {currentConversationName}
+                </h1>
+              </header>
+              <div className="flex-1 min-h-0">
+                <SingleChatBox conversation={currentConversation} />
+              </div>
+            </div>
 
-              <ChatSettings hasSingleChatBox={hasSingleChatBox}></ChatSettings>
-            </CardContent>
-          </Card>
+            <ChatSettings hasSingleChatBox />
+          </div>
         </article>
       </section>
     </RootLayoutContainer>

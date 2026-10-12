@@ -219,7 +219,7 @@ func TestGateImageAttachmentsKeepsImagesForVisionModel(t *testing.T) {
 // the model is the only consumer of the image, so the canned response
 // would swallow it before the multimodal conversion.
 func TestEmptyResponseAppliesRequiresNoAttachments(t *testing.T) {
-	if !emptyResponseApplies(0, "", false) {
+	if !emptyResponseApplies(nil, 0, "", false) {
 		t.Fatal("no knowledge and no attachments: the fallback applies")
 	}
 	for _, tc := range []struct {
@@ -232,7 +232,7 @@ func TestEmptyResponseAppliesRequiresNoAttachments(t *testing.T) {
 		{"text attachments present", 0, "doc text", false},
 		{"image-only request", 0, "", true},
 	} {
-		if emptyResponseApplies(tc.knowledges, tc.attachments, tc.images) {
+		if emptyResponseApplies(nil, tc.knowledges, tc.attachments, tc.images) {
 			t.Fatalf("%s: fallback must not apply", tc.name)
 		}
 	}

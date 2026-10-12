@@ -1,4 +1,6 @@
 import { Button } from '@/components/ui/button';
+import { useIsMobile } from '@/components/hooks/use-mobile';
+import { Sheet, SheetContent, SheetTitle } from '@/components/ui/sheet';
 import { Form } from '@/components/ui/form';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { DatasetMetadata } from '@/constants/chat';
@@ -17,7 +19,7 @@ import {
 import { zodResolver } from '@hookform/resolvers/zod';
 import { isEmpty, omit } from 'lodash';
 import { LucidePanelRightClose, LucideSettings } from 'lucide-react';
-import { useEffect } from 'react';
+import { type KeyboardEvent, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router';
@@ -32,6 +34,7 @@ import { getWebSearchProvider } from '../web-search-api-key';
 type ChatSettingsProps = { hasSingleChatBox: boolean };
 
 export function ChatSettings({ hasSingleChatBox }: ChatSettingsProps) {
+  const isMobile = useIsMobile();
   const { data } = useFetchChat();
 
   const chatSettingSchema = useChatSettingSchema();
@@ -44,8 +47,22 @@ export function ChatSettings({ hasSingleChatBox }: ChatSettingsProps) {
   const { id } = useParams();
   const { t } = useTranslation();
 
-  const { visible: settingVisible, switchVisible: switchSettingVisible } =
-    useSetModalState(false);
+  const {
+    visible: settingVisible,
+    switchVisible: switchSettingVisible,
+    showModal: showSettings,
+    hideModal: hideSettings,
+  } = useSetModalState(false);
+  const handleSettingsOpen = (open: boolean) => {
+    if (open) showSettings();
+    else hideSettings();
+  };
+  const handleSettingsKeyDown = (event: KeyboardEvent<HTMLElement>) => {
+    if (event.key === 'Escape') {
+      event.stopPropagation();
+      hideSettings();
+    }
+  };
 
   const {
     formContainerRef,
@@ -102,6 +119,16 @@ export function ChatSettings({ hasSingleChatBox }: ChatSettingsProps) {
       values,
       'llm_setting.',
     );
+    if (data.prompt_config?.domain === 'railway') {
+      nextValues.prompt_config = {
+        ...nextValues.prompt_config,
+        domain: 'railway',
+        railway_scene: data.prompt_config.railway_scene,
+        quote: true,
+        reasoning: false,
+        web_search_provider: '',
+      };
+    }
     const referenceMetadata = nextValues?.prompt_config?.reference_metadata;
     if (
       referenceMetadata &&
@@ -157,7 +184,10 @@ export function ChatSettings({ hasSingleChatBox }: ChatSettingsProps) {
       prompt_config: {
         ...data.prompt_config,
         // reset() skips undefined values, so fall back to '' to clear the field
-        web_search_provider: getWebSearchProvider(data.prompt_config) ?? '',
+        web_search_provider:
+          data.prompt_config?.domain === 'railway'
+            ? ''
+            : (getWebSearchProvider(data.prompt_config) ?? ''),
         reference_metadata: normalizedReferenceMetadata,
       },
       ...llmSettingEnabledValues,
@@ -170,82 +200,104 @@ export function ChatSettings({ hasSingleChatBox }: ChatSettingsProps) {
 
   useRevalidateStaleDatasetIds(form, datasetsFetched);
 
+  const panel = (
+    <section
+      data-testid="chat-detail-settings"
+      className={cn(
+        'transition-[width] ease-out duration-300 flex-shrink-0 flex flex-col overflow-hidden',
+        isMobile ? 'h-full w-full' : settingVisible ? 'w-[440px]' : 'w-0',
+      )}
+    >
+      {settingVisible && (
+        <>
+          <div className="p-5 pb-2 flex justify-between items-center text-base">
+            {t('chat.chatSetting')}
+
+            <Button
+              variant="transparent"
+              size="icon-sm"
+              className="border-0"
+              onClick={hideSettings}
+              aria-label={t('chat.cancel')}
+              data-testid="chat-detail-settings-close"
+            >
+              <LucidePanelRightClose className="size-4" />
+            </Button>
+          </div>
+
+          <Form {...form}>
+            <form
+              ref={formContainerRef}
+              onSubmit={form.handleSubmit(onSubmit, handleInvalidSubmit)}
+              className="flex-1 flex flex-col min-h-0"
+            >
+              <ScrollArea
+                className="flex-1 min-h-0"
+                viewportClassName="[&>div]:!block"
+              >
+                <section className="p-5 space-y-6 overflow-auto flex-1 min-h-0">
+                  <ChatBasicSetting
+                    collapseOpen={modelSettingOpen}
+                    onCollapseOpenChange={onModelSettingOpenChange}
+                  ></ChatBasicSetting>
+                  <ChatPromptEngine
+                    railway={data.prompt_config?.domain === 'railway'}
+                    collapseOpen={advancedSettingOpen}
+                    onCollapseOpenChange={onAdvancedSettingOpenChange}
+                  ></ChatPromptEngine>
+                </section>
+              </ScrollArea>
+
+              <div className="shrink-0 p-5 pt-4 space-x-5 text-right">
+                <Button
+                  type="button"
+                  variant={'outline'}
+                  onClick={hideSettings}
+                  data-testid="chat-detail-settings-cancel"
+                >
+                  {t('chat.cancel')}
+                </Button>
+                <SavingButton loading={loading}></SavingButton>
+              </div>
+            </form>
+          </Form>
+        </>
+      )}
+    </section>
+  );
+
   return (
     <>
-      {settingVisible || (
-        <div className="p-5">
+      {(isMobile || !settingVisible) && (
+        <div className="p-3 md:p-5">
           <Button
             onClick={switchSettingVisible}
             disabled={!hasSingleChatBox}
-            variant={'ghost'}
+            variant="ghost"
             size="icon-sm"
+            aria-label={t('chat.chatSetting')}
+            title={t('chat.chatSetting')}
             data-testid="chat-settings"
           >
             <LucideSettings />
           </Button>
         </div>
       )}
-
-      <section
-        data-testid="chat-detail-settings"
-        className={cn(
-          'transition-[width] ease-out duration-300 flex-shrink-0 flex flex-col overflow-hidden',
-          settingVisible ? 'w-[440px]' : 'w-0',
-        )}
-      >
-        {settingVisible && (
-          <>
-            <div className="p-5 pb-2 flex justify-between items-center text-base">
-              {t('chat.chatSetting')}
-
-              <Button
-                variant="transparent"
-                size="icon-sm"
-                className="border-0"
-                onClick={switchSettingVisible}
-                data-testid="chat-detail-settings-close"
-              >
-                <LucidePanelRightClose
-                  className="size-4 cursor-pointer"
-                  onClick={switchSettingVisible}
-                />
-              </Button>
-            </div>
-
-            <Form {...form}>
-              <form
-                ref={formContainerRef}
-                onSubmit={form.handleSubmit(onSubmit, handleInvalidSubmit)}
-                className="flex-1 flex flex-col min-h-0"
-              >
-                <ScrollArea viewportClassName="[&>div]:!block">
-                  <section className="p-5 space-y-6 overflow-auto flex-1 min-h-0">
-                    <ChatBasicSetting
-                      collapseOpen={modelSettingOpen}
-                      onCollapseOpenChange={onModelSettingOpenChange}
-                    ></ChatBasicSetting>
-                    <ChatPromptEngine
-                      collapseOpen={advancedSettingOpen}
-                      onCollapseOpenChange={onAdvancedSettingOpenChange}
-                    ></ChatPromptEngine>
-                  </section>
-                </ScrollArea>
-
-                <div className="p-5 pt-4 space-x-5 text-right">
-                  <Button
-                    variant={'outline'}
-                    onClick={switchSettingVisible}
-                    data-testid="chat-detail-settings-cancel"
-                  >
-                    {t('chat.cancel')}
-                  </Button>
-                  <SavingButton loading={loading}></SavingButton>
-                </div>
-              </form>
-            </Form>
-          </>
-        )}
-      </section>
+      {isMobile ? (
+        <Sheet open={settingVisible} onOpenChange={handleSettingsOpen}>
+          <SheetContent
+            side="right"
+            className="w-full max-w-full p-0"
+            closeIcon={false}
+            onKeyDown={handleSettingsKeyDown}
+          >
+            <SheetTitle className="sr-only">{t('chat.chatSetting')}</SheetTitle>
+            {panel}
+          </SheetContent>
+        </Sheet>
+      ) : (
+        panel
+      )}
     </>
   );
 }

@@ -39,8 +39,11 @@ import { ConversationDropdown } from './conversation-dropdown';
 type SessionProps = Pick<
   ReturnType<typeof useHandleClickConversationCard>,
   'handleConversationCardClick'
->;
-export function Sessions({ handleConversationCardClick }: SessionProps) {
+> & { onClose?: () => void };
+export function Sessions({
+  handleConversationCardClick,
+  onClose,
+}: SessionProps) {
   const { t } = useTranslation();
   const {
     list: conversationList,
@@ -193,7 +196,7 @@ export function Sessions({ handleConversationCardClick }: SessionProps) {
 
   return (
     <aside
-      className="p-5 w-[296px] flex flex-col"
+      className="h-full min-h-0 p-5 w-full md:w-[296px] shrink-0 flex flex-col"
       role="complementary"
       data-testid="chat-detail-sessions"
     >
@@ -234,7 +237,8 @@ export function Sessions({ handleConversationCardClick }: SessionProps) {
           variant="transparent"
           size="icon-sm"
           className="border-0 ml-auto"
-          onClick={switchVisible}
+          onClick={onClose ?? switchVisible}
+          aria-label={t('chat.cancel')}
           data-testid="chat-detail-sessions-close"
         >
           <LucidePanelLeftClose />
@@ -322,7 +326,7 @@ export function Sessions({ handleConversationCardClick }: SessionProps) {
         ></SearchInput>
       </div>
 
-      <div className="flex-1 overflow-auto">
+      <div className="flex-1 min-h-0 overflow-auto">
         {selectionMode ? (
           <ul className="space-y-2" role="listbox" aria-multiselectable>
             {conversationList.map((x) => (

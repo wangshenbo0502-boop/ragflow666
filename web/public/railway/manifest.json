@@ -1,0 +1,74 @@
+[
+  {
+    "id": "railway-safety",
+    "title": "铁路安全管理条例",
+    "category": "safety",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/xzzf/202111/t20211111_261218.shtml",
+    "publisher": "国家铁路局",
+    "collectedAt": "2026-10-12T08:03:06.574Z",
+    "characters": 13618,
+    "sha256": "c0ba3d51ad47d7e1d71818f5c310c65792a977d7164e92592bcfa00a4e56b1d0",
+    "file": "railway-safety.md",
+    "versionStatus": "官方网页存档，适用版本需由使用单位复核"
+  },
+  {
+    "id": "railway-emergency",
+    "title": "铁路交通事故应急救援和调查处理条例",
+    "category": "safety",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/xzzf/202111/t20211111_261219.shtml",
+    "publisher": "国家铁路局",
+    "collectedAt": "2026-10-12T08:03:07.192Z",
+    "characters": 5023,
+    "sha256": "4c50a068cf7d186ee35e3417570e28def870d4c8d4d95f3ceb0a94ad7b91a9b5",
+    "file": "railway-emergency.md",
+    "versionStatus": "官方网页存档，适用版本需由使用单位复核"
+  },
+  {
+    "id": "passenger-transport",
+    "title": "铁路旅客运输规程",
+    "category": "passenger",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202211/t20221117_338894.shtml",
+    "publisher": "国家铁路局",
+    "collectedAt": "2026-10-12T08:03:08.598Z",
+    "characters": 5643,
+    "sha256": "58caf1c1a4abf7f6414b76a858afac11bd84d23e394840841401a56d344d6e48",
+    "file": "passenger-transport.md",
+    "versionStatus": "官方网页存档，适用版本需由使用单位复核"
+  },
+  {
+    "id": "passenger-security",
+    "title": "铁路旅客运输安全检查管理办法",
+    "category": "passenger",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202401/t20240102_344299.shtml",
+    "publisher": "国家铁路局",
+    "collectedAt": "2026-10-12T08:03:09.490Z",
+    "characters": 5423,
+    "sha256": "6a5f984ecbdb0fda12531d401b60868b79bc0907cb68cc808591ba88c99a4ba1",
+    "file": "passenger-security.md",
+    "versionStatus": "官方网页存档，适用版本需由使用单位复核"
+  },
+  {
+    "id": "real-name-tickets",
+    "title": "铁路旅客车票实名制管理办法",
+    "category": "passenger",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202211/t20221125_339122.shtml",
+    "publisher": "国家铁路局",
+    "collectedAt": "2026-10-12T08:03:10.313Z",
+    "characters": 3614,
+    "sha256": "18c2b65c8884f61c9eeff92da689d8fb69e40296a3cce76b2d736eb03e5f0e69",
+    "file": "real-name-tickets.md",
+    "versionStatus": "官方网页存档，适用版本需由使用单位复核"
+  },
+  {
+    "id": "equipment-quality",
+    "title": "铁路设备质量安全监督管理办法",
+    "category": "equipment",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202308/t20230828_342877.shtml",
+    "publisher": "国家铁路局",
+    "collectedAt": "2026-10-12T08:03:11.153Z",
+    "characters": 5630,
+    "sha256": "33932741e1bfd0823621ec3896a685f70b8da26c1b7b7df9354575df87c6f830",
+    "file": "equipment-quality.md",
+    "versionStatus": "官方网页存档，适用版本需由使用单位复核"
+  }
+]

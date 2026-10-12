@@ -228,15 +228,6 @@ const routeConfigOptions = [
         Component: () => import('@/pages/next-chats'),
       },
       {
-        path: Routes.Searches,
-        Component: () => import('@/pages/next-searches'),
-      },
-      {
-        path: `${Routes.Search}/:id`,
-        layout: false,
-        Component: () => import('@/pages/next-search'),
-      },
-      {
         path: Routes.Agents,
         Component: () => import('@/pages/agents'),
       },
@@ -244,32 +235,6 @@ const routeConfigOptions = [
         path: Routes.AgentTemplates,
         layout: false,
         Component: () => import('@/pages/agents/agent-templates'),
-      },
-      {
-        path: Routes.Memories,
-        Component: () => import('@/pages/memories'),
-      },
-      {
-        path: `${Routes.Memory}`,
-        Component: () => import('@/pages/memory'),
-        children: [
-          {
-            path: `${Routes.Memory}/${Routes.MemoryMessage}/:id`,
-            Component: () => import('@/pages/memory/memory-message'),
-          },
-          {
-            path: `${Routes.Memory}/${Routes.MemorySetting}/:id`,
-            Component: () => import('@/pages/memory/memory-setting'),
-          },
-        ],
-      },
-      {
-        path: Routes.Files,
-        Component: () => import('@/pages/files'),
-      },
-      {
-        path: Routes.Skills,
-        Component: () => import('@/pages/skills'),
       },
       {
         path: Routes.UserSetting,
@@ -336,10 +301,6 @@ const routeConfigOptions = [
     layout: false,
     Component: () =>
       import('@/pages/user-setting/compilation-templates/edit-next'),
-  },
-  {
-    path: `${Routes.SearchShare}`,
-    Component: () => import('@/pages/next-search/share'),
   },
   {
     path: `${Routes.DatasetBase}${Routes.Compilation}/:id`,
