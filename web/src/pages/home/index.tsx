@@ -1,18 +1,20 @@
 import { Button } from '@/components/ui/button';
+import { RailScrollHeading } from '@/components/rail-scroll-heading';
+import { RailScrollDiagram } from '@/components/rail-scroll-diagram';
 import { IngestionTaskStatus } from '@/constants/knowledge';
+import { useRailMotion } from '@/hooks/use-rail-motion';
 import type { RailwayScene } from '@/interfaces/database/railway';
 import dayjs from 'dayjs';
 import {
   ArrowDownToLine,
+  ArrowDown,
   ArrowUp,
   ArrowUpRight,
   BookOpen,
-  Check,
   ChevronDown,
   FileText,
   GraduationCap,
   LoaderCircle,
-  MessagesSquare,
   ShieldCheck,
   Ticket,
   Wrench,
@@ -85,9 +87,10 @@ const DocumentStatuses: Record<string, string> = {
 
 export default function Home() {
   const workbench = useRailwayWorkbench();
+  const pageRef = useRef<HTMLElement>(null);
+  useRailMotion(pageRef);
   const questionRef = useRef<HTMLTextAreaElement>(null);
   const activeScene = Scenes.find((scene) => scene.value === workbench.scene)!;
-  const SceneIcon = activeScene.icon;
   const documentCount = workbench.documents.data?.length || 0;
   const handleScene = (event: React.MouseEvent<HTMLButtonElement>) =>
     workbench.setScene(event.currentTarget.dataset.scene as RailwayScene);
@@ -95,6 +98,12 @@ export default function Home() {
     workbench.setDatasetId(event.target.value);
   const handleImport = () => workbench.initialize.mutate();
   const handleStart = () => workbench.start.mutate();
+  const handleFocusQuestion = () => {
+    document
+      .getElementById('rail-workspace')
+      ?.scrollIntoView({ block: 'start' });
+    questionRef.current?.focus({ preventScroll: true });
+  };
   const handleQuestion = (event: React.ChangeEvent<HTMLTextAreaElement>) =>
     workbench.setQuestion(event.target.value);
   const handleExample = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -129,271 +138,307 @@ export default function Home() {
             : '';
 
   return (
-    <article className="rail-page rail-workbench">
+    <article ref={pageRef} className="rail-page rail-workbench">
       <div className="rail-page-inner">
-        <header className="rail-page-heading">
+        <header className="rail-page-heading rail-workbench-heading">
           <div>
             <p className="rail-eyebrow">
-              工作空间 <span>/</span> WORKSPACE
+              <i className="rail-status-dot" aria-hidden />
+              RAILMIND <span>/</span> 铁路知识工作空间
             </p>
-            <h1>铁路工作台</h1>
-            <p>从一个问题开始，找到有依据的答案。</p>
+            <h1>
+              轨知 RailMind.
+              <span>
+                <span className="rail-hero-phrase">铁路知识，</span>
+                <wbr />
+                <span className="rail-hero-phrase">有据可循。</span>
+              </span>
+            </h1>
+            <p className="rail-hero-description">
+              连接规章、资料与现场问题。从一个问题开始，
+              <br className="max-sm:hidden" />
+              找到有依据的答案。
+            </p>
+            <div className="rail-hero-actions">
+              <Button className="rail-primary" onClick={handleFocusQuestion}>
+                开始铁路提问
+                <ArrowUpRight className="size-4" />
+              </Button>
+              <Link to="/chats" className="rail-text-link">
+                我的铁路问答
+              </Link>
+            </div>
           </div>
-          <Link to="/chats" className="rail-secondary-link">
-            <MessagesSquare className="size-4" />
-            我的铁路问答
-            <ArrowUpRight className="size-4" />
-          </Link>
+          <div className="rail-hero-footer">
+            <span>
+              铁路知识与故障分析辅助
+              <span className="rail-hero-divider">/</span>
+              {workbench.readyDocumentCount} 份资料已就绪
+            </span>
+            <button
+              type="button"
+              onClick={handleFocusQuestion}
+              aria-label="前往铁路提问"
+            >
+              WORKSPACE <ArrowDown className="size-3" />
+            </button>
+          </div>
         </header>
-        <div className="rail-workspace">
+        <div className="rail-workspace" id="rail-workspace" data-rail-stage>
+          <div className="rail-stage-label">
+            <span className="rail-section-index">01 / WORKSPACE</span>
+            <span>从一个问题开始</span>
+            <div className="rail-stage-line" aria-hidden>
+              <i />
+            </div>
+          </div>
           <section className="rail-question-space" aria-label="铁路提问">
-            <div className="rail-section-title">
-              <span className="rail-section-index">01</span>
-              <h2>你想了解什么？</h2>
-            </div>
-            <div className="rail-scene-tabs" role="group" aria-label="问答场景">
-              {Scenes.map(({ value, label, icon: Icon }) => (
-                <button
-                  key={value}
-                  type="button"
-                  data-scene={value}
-                  aria-pressed={workbench.scene === value}
-                  onClick={handleScene}
-                >
-                  <Icon className="size-4" />
-                  <span>{label}</span>
-                </button>
-              ))}
-            </div>
-            <div className="rail-composer">
-              <div className="rail-composer-context">
-                <SceneIcon className="size-4" />
-                <span>{activeScene.hint}</span>
-              </div>
-              {workbench.scene === 'equipment' && (
-                <div className="rail-equipment-fields">
-                  <EquipmentIntake
-                    value={workbench.equipment}
-                    onChange={workbench.setEquipment}
-                  />
-                </div>
-              )}
-              <textarea
-                ref={questionRef}
-                id="railway-question"
-                aria-label="铁路问题"
-                value={workbench.question}
-                onChange={handleQuestion}
-                onKeyDown={handleKeyDown}
-                placeholder="描述你的问题，或从下方选择一个问题…"
-              />
-              <div className="rail-composer-footer">
-                <div className="rail-dataset-select">
-                  <BookOpen className="size-4 shrink-0" />
-                  <select
-                    aria-label="资料范围"
-                    value={workbench.selectedId}
-                    onChange={handleDataset}
+            <RailScrollHeading lines={['你想了解的，', '让知识来回答。']} />
+            <div data-rail-reveal>
+              <div
+                className="rail-scene-tabs"
+                role="group"
+                aria-label="问答场景"
+              >
+                {Scenes.map(({ value, label, icon: Icon }) => (
+                  <button
+                    key={value}
+                    type="button"
+                    data-scene={value}
+                    aria-pressed={workbench.scene === value}
+                    onClick={handleScene}
                   >
-                    <option value="">选择铁路知识库</option>
-                    {workbench.datasets.data?.map((dataset) => (
-                      <option key={dataset.id} value={dataset.id}>
-                        {dataset.name}
-                      </option>
-                    ))}
-                  </select>
-                  <ChevronDown className="size-3.5 shrink-0" />
-                </div>
-                <Button
-                  className="rail-primary rail-start-button"
-                  onClick={handleStart}
-                  disabled={!workbench.canStart || workbench.start.isPending}
-                  aria-label="开始铁路对话"
-                >
-                  {workbench.start.isPending ? (
-                    <LoaderCircle className="size-4 animate-spin" />
-                  ) : (
-                    <ArrowUp className="size-4" />
-                  )}
-                  <span>
-                    {workbench.start.isPending ? '正在创建' : '开始对话'}
-                  </span>
-                </Button>
+                    <Icon className="size-4" />
+                    <span>{label}</span>
+                  </button>
+                ))}
               </div>
-            </div>
-            {unavailableReason && (
-              <p className="rail-form-status" role="status">
-                {unavailableReason}
-              </p>
-            )}
-            {error && (
-              <p role="alert" className="rail-error">
-                {error.message}
-              </p>
-            )}
-            <div className="rail-examples">
-              <h3>
-                试着问一问 <span>{activeScene.label}</span>
-              </h3>
-              {Questions[workbench.scene].map((question) => (
+              <div className="rail-composer">
+                {workbench.scene === 'equipment' && (
+                  <div className="rail-equipment-fields">
+                    <EquipmentIntake
+                      value={workbench.equipment}
+                      onChange={workbench.setEquipment}
+                    />
+                  </div>
+                )}
+                <textarea
+                  ref={questionRef}
+                  id="railway-question"
+                  aria-label="铁路问题"
+                  value={workbench.question}
+                  onChange={handleQuestion}
+                  onKeyDown={handleKeyDown}
+                  placeholder={activeScene.hint + '…'}
+                />
+                <div className="rail-composer-footer">
+                  <div className="rail-dataset-select">
+                    <BookOpen className="size-4 shrink-0" />
+                    <select
+                      aria-label="资料范围"
+                      value={workbench.selectedId}
+                      onChange={handleDataset}
+                    >
+                      <option value="">选择铁路知识库</option>
+                      {workbench.datasets.data?.map((dataset) => (
+                        <option key={dataset.id} value={dataset.id}>
+                          {dataset.name}
+                        </option>
+                      ))}
+                    </select>
+                    <ChevronDown className="size-3.5 shrink-0" />
+                  </div>
+                  <Button
+                    className="rail-primary rail-start-button"
+                    onClick={handleStart}
+                    disabled={!workbench.canStart || workbench.start.isPending}
+                    aria-label="开始铁路对话"
+                  >
+                    {workbench.start.isPending ? (
+                      <LoaderCircle className="size-4 animate-spin" />
+                    ) : (
+                      <ArrowUp className="size-4" />
+                    )}
+                    <span>
+                      {workbench.start.isPending ? '正在创建' : '开始对话'}
+                    </span>
+                  </Button>
+                </div>
+              </div>
+              {unavailableReason && (
+                <p className="rail-form-status" role="status">
+                  {unavailableReason}
+                </p>
+              )}
+              {error && (
+                <p role="alert" className="rail-error">
+                  {error.message}
+                </p>
+              )}
+              <div className="rail-suggestion">
+                <span>试着问</span>
                 <button
-                  key={question}
                   type="button"
-                  data-question={question}
+                  data-question={Questions[workbench.scene][0]}
                   onClick={handleExample}
                 >
-                  <MessagesSquare className="size-4" />
-                  <span>{question}</span>
-                  <ArrowUpRight className="size-4" />
+                  <span>{Questions[workbench.scene][0]}</span>
+                  <ArrowUpRight className="size-3.5 shrink-0" />
                 </button>
-              ))}
-            </div>
-            <div className="rail-safety-note">
-              <ShieldCheck className="size-4 shrink-0" />
-              <p>
-                回答仅供参考。现场作业以有效规程、授权人员及应急预案为准；实时票务请通过
-                12306 核实。
+              </div>
+              <details className="rail-preparation">
+                <summary>
+                  <span>
+                    <i className="rail-status-dot" aria-hidden />
+                    知识与模型准备
+                  </span>
+                  <span>
+                    {workbench.readyDocumentCount} 份资料已就绪{' '}
+                    <ChevronDown className="size-3.5" />
+                  </span>
+                </summary>
+                <div className="rail-preparation-body">
+                  <div className="rail-preparation-links">
+                    <Link to="/datasets">
+                      管理知识库 <ArrowUpRight className="size-3.5" />
+                    </Link>
+                    <Link to="/user-setting/model">
+                      模型设置 <ArrowUpRight className="size-3.5" />
+                    </Link>
+                  </div>
+                  <p className="rail-form-status">
+                    对话模型{workbench.models.llm_id ? '已就绪' : '待配置'} ·
+                    嵌入模型{workbench.models.embd_id ? '已就绪' : '待配置'}
+                  </p>
+                  <Button
+                    variant="outline"
+                    className="rail-import-button"
+                    onClick={handleImport}
+                    disabled={
+                      workbench.initialize.isPending ||
+                      !workbench.models.embd_id
+                    }
+                  >
+                    {workbench.initialize.isPending ? (
+                      <LoaderCircle className="size-4 animate-spin" />
+                    ) : (
+                      <ArrowDownToLine className="size-4" />
+                    )}
+                    导入官方铁路资料
+                  </Button>
+                  {workbench.progress && (
+                    <p role="status" className="rail-form-status">
+                      {workbench.progress}
+                    </p>
+                  )}
+                  {!!documentCount && (
+                    <details className="rail-document-details">
+                      <summary>
+                        查看资料解析状态
+                        <ChevronDown className="size-4" />
+                      </summary>
+                      <ul>
+                        {workbench.documents.data?.map((doc) => (
+                          <li key={doc.id}>
+                            <div>
+                              <FileText className="size-3.5 shrink-0" />
+                              <span>{doc.name}</span>
+                              <small>
+                                {DocumentStatuses[doc.ingestion_status] ||
+                                  '待确认'}
+                              </small>
+                            </div>
+                            {doc.ingestion_status ===
+                              IngestionTaskStatus.FAILED && (
+                              <p className="rail-error">
+                                {doc.progress_msg ||
+                                  '解析失败，请检查模型和任务服务后重试'}
+                              </p>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    </details>
+                  )}
+                </div>
+              </details>
+              <p className="rail-safety-note">
+                回答仅供参考，现场作业以有效规程和应急预案为准。
               </p>
             </div>
           </section>
-          <aside className="rail-context-space" aria-label="知识与模型准备">
-            <div className="rail-section-title">
-              <span className="rail-section-index">02</span>
-              <h2>知识准备</h2>
-              <Link to="/datasets" aria-label="管理知识库" title="管理知识库">
-                <ArrowUpRight className="size-4" />
+        </div>
+        <section
+          className="rail-capability"
+          data-rail-stage
+          data-rail-diagram-stage
+        >
+          <div className="rail-capability-scene">
+            <div className="rail-capability-copy">
+              <p className="rail-section-index">02 / KNOWLEDGE</p>
+              <RailScrollHeading lines={['分散的资料，', '相连的知识。']} />
+              <p className="rail-capability-description">
+                安全规章、客运资料、设备记录。
+                <br />
+                汇入知识库，让每一次提问都有依据。
+              </p>
+              <Link to="/datasets" className="rail-capability-link">
+                管理知识库 <ArrowUpRight className="size-4" />
               </Link>
             </div>
-            <div className="rail-ready-overview">
-              <div>
-                <BookOpen className="size-5" />
-                <span>可用资料</span>
-              </div>
-              <p>
-                <strong>
-                  {workbench.readyDocumentCount.toString().padStart(2, '0')}
-                </strong>
-                <span>
-                  / {documentCount.toString().padStart(2, '0')} 份已解析
-                </span>
-              </p>
-              <progress
-                aria-label="资料解析进度"
-                max={Math.max(documentCount, 1)}
-                value={workbench.readyDocumentCount}
-              />
-            </div>
-            <Button
-              variant="outline"
-              className="rail-import-button"
-              onClick={handleImport}
-              disabled={
-                workbench.initialize.isPending || !workbench.models.embd_id
-              }
-            >
-              {workbench.initialize.isPending ? (
-                <LoaderCircle className="size-4 animate-spin" />
-              ) : (
-                <ArrowDownToLine className="size-4" />
-              )}
-              导入官方铁路资料
-            </Button>
-            {workbench.progress && (
-              <p role="status" className="rail-form-status">
-                {workbench.progress}
-              </p>
-            )}
-            {!!documentCount && (
-              <details className="rail-document-details">
-                <summary>
-                  查看资料解析状态
-                  <ChevronDown className="size-4" />
-                </summary>
-                <ul>
-                  {workbench.documents.data?.map((doc) => (
-                    <li key={doc.id}>
-                      <div>
-                        <FileText className="size-3.5 shrink-0" />
-                        <span>{doc.name}</span>
-                        <small>
-                          {DocumentStatuses[doc.ingestion_status] || '待确认'}
-                        </small>
-                      </div>
-                      {doc.ingestion_status === IngestionTaskStatus.FAILED && (
-                        <p className="rail-error">
-                          {doc.progress_msg ||
-                            '解析失败，请检查模型和任务服务后重试'}
-                        </p>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </details>
-            )}
-            <div className="rail-model-status">
-              <h3>
-                模型配置
-                <Link
-                  to="/user-setting/model"
-                  aria-label="模型设置"
-                  title="模型设置"
-                >
-                  <ArrowUpRight className="size-4" />
-                </Link>
-              </h3>
-              <p>
-                <span>对话模型</span>
-                <span className={workbench.models.llm_id ? 'is-ready' : ''}>
-                  {workbench.models.llm_id && <Check className="size-3.5" />}
-                  {workbench.models.llm_id ? '已就绪' : '待配置'}
-                </span>
-              </p>
-              <p>
-                <span>嵌入模型</span>
-                <span className={workbench.models.embd_id ? 'is-ready' : ''}>
-                  {workbench.models.embd_id && <Check className="size-3.5" />}
-                  {workbench.models.embd_id ? '已就绪' : '待配置'}
-                </span>
-              </p>
-            </div>
-            <p className="rail-context-note">
-              公开规章可用于业务查询。设备故障分析还需补充合法取得的专业检修手册。
-            </p>
-          </aside>
-        </div>
-        <section className="rail-source-section">
-          <div className="rail-section-title">
-            <span className="rail-section-index">03</span>
-            <h2>官方资料档案</h2>
-            <span className="rail-source-caption">
-              来源可追溯 · 适用版本需复核
-            </span>
+            <RailScrollDiagram variant="server" />
           </div>
-          {workbench.sources.error && (
-            <p role="alert" className="rail-error">
-              {workbench.sources.error.message}
-            </p>
-          )}
-          <div className="rail-source-grid">
-            {workbench.sources.data?.map((source) => (
-              <a
-                key={source.id}
-                href={source.url}
-                target="_blank"
-                rel="noreferrer"
-                className="rail-source"
-              >
-                <FileText className="size-4 shrink-0" />
-                <div>
-                  <h3>{source.title}</h3>
-                  <p>
-                    {source.publisher} · 采集于{' '}
-                    {dayjs(source.collectedAt).format('YYYY.MM.DD')}
-                  </p>
-                </div>
-                <ArrowUpRight className="size-4 shrink-0" />
-              </a>
-            ))}
+        </section>
+        <section className="rail-archive-section">
+          <div
+            className="rail-capability"
+            data-rail-stage
+            data-rail-diagram-stage
+          >
+            <div className="rail-capability-scene">
+              <div className="rail-capability-copy">
+                <p className="rail-section-index">03 / ARCHIVE</p>
+                <RailScrollHeading lines={['官方资料。', '有源可循。']} />
+                <p className="rail-capability-description">
+                  回到原文，核对依据。
+                  <br />
+                  每一份资料，都保留来源与采集日期。
+                </p>
+                <a href="#rail-sources" className="rail-capability-link">
+                  查阅资料来源 <ArrowDown className="size-4" />
+                </a>
+              </div>
+              <RailScrollDiagram variant="browser" />
+            </div>
+          </div>
+          <div id="rail-sources" className="rail-archive-list">
+            {workbench.sources.error && (
+              <p role="alert" className="rail-error">
+                {workbench.sources.error.message}
+              </p>
+            )}
+            <div className="rail-source-grid">
+              {workbench.sources.data?.map((source) => (
+                <a
+                  key={source.id}
+                  href={source.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rail-source"
+                  data-rail-reveal
+                >
+                  <FileText className="size-4 shrink-0" />
+                  <div>
+                    <h3>{source.title}</h3>
+                    <p>
+                      {source.publisher} · 采集于{' '}
+                      {dayjs(source.collectedAt).format('YYYY.MM.DD')}
+                    </p>
+                  </div>
+                  <ArrowUpRight className="size-4 shrink-0" />
+                </a>
+              ))}
+            </div>
           </div>
         </section>
         <footer className="rail-page-caption">

@@ -124,11 +124,11 @@ export function DatasetTable({
   return (
     <div className="w-full">
       <Table
-        rootClassName={
+        rootClassName={`rail-document-table ${
           bulkOperateBarVisible
             ? 'max-h-[calc(100vh-320px)]'
             : 'max-h-[calc(100vh-280px)]'
-        }
+        }`}
       >
         <TableHeader>
           {table.getHeaderGroups().map((headerGroup) => (
@@ -177,7 +177,7 @@ export function DatasetTable({
           )}
         </TableBody>
       </Table>
-      <div className="flex items-center justify-end  py-4 absolute bottom-3 right-8">
+      <div className="flex flex-wrap items-center justify-end py-4">
         <div className="space-x-2">
           <RAGFlowPagination
             {...pick(pagination, 'current', 'pageSize')}

@@ -6,6 +6,7 @@ import type {
 } from '@/interfaces/database/railway';
 import { IngestionTaskStatus } from '@/constants/knowledge';
 import { registerNextServer } from '@/utils/register-server';
+import { v4 as uuid } from 'uuid';
 import chatService from './next-chat-service';
 
 export const RailwayDatasetName = '轨知 · 铁路公开规章';
@@ -186,7 +187,7 @@ export async function createRailwayChat(
   };
   return unwrap<{ id: string }>(
     await chatService.createChat({
-      name: `轨知 · ${names[scene]}`,
+      name: `轨知 · ${names[scene]} · ${uuid()}`,
       language: 'Chinese',
       dataset_ids: [datasetId],
       llm_id: model,

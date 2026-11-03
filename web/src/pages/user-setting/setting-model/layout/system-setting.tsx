@@ -48,10 +48,11 @@ function ModelFieldItem({
   onChange,
 }: ModelFieldItemProps) {
   const { t } = useTranslate('setting');
+  const handleChange = (nextValue: string) => onChange(id, nextValue);
 
   return (
-    <div className="flex gap-3 items-center">
-      <label className="block text-sm font-normal text-text-secondary w-1/4 max-w-[150px]">
+    <div className="rail-model-field">
+      <label className="block text-sm font-normal text-text-secondary">
         {isRequired && <span className="text-state-error">*</span>}
         {label}
         {tooltip && (
@@ -66,11 +67,11 @@ function ModelFieldItem({
           </Tooltip>
         )}
       </label>
-      <div className="w-3/4 flex-1">
+      <div className="min-w-0">
         <ModelTreeSelect
           modelTypes={ModelTypeMap[id as keyof typeof ModelTypeMap] ?? ['chat']}
           value={value}
-          onChange={(val) => onChange(id, val)}
+          onChange={handleChange}
           placeholder={t('selectModelPlaceholder')}
           showSearch
           allowClear={id !== 'llm_id'}
@@ -142,9 +143,9 @@ function SystemSetting() {
   }, [defaultModelDictionary, t]);
 
   return (
-    <article className="rounded-lg w-full">
-      <header className="py-5 px-10">
-        <h2 className="text-2xl font-medium text-text-primary">
+    <article className="rail-model-defaults">
+      <header>
+        <h2 className="text-2xl font-normal text-text-primary">
           {t('systemModelSettings')}
         </h2>
         <p className="mt-1 text-sm text-text-secondary ">
@@ -152,7 +153,7 @@ function SystemSetting() {
         </p>
       </header>
 
-      <div className="px-10 py-6 space-y-6 max-h-[70vh] overflow-y-auto ">
+      <div className="space-y-8">
         {llmList.map((item) => (
           <ModelFieldItem
             key={item.id}

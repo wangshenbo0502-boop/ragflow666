@@ -97,28 +97,38 @@ export default function TestingForm({
     refetch();
   }
 
+  function handleQuestionKeyDown(
+    event: React.KeyboardEvent<HTMLTextAreaElement>,
+  ) {
+    if (
+      event.key === 'Enter' &&
+      !event.shiftKey &&
+      !event.nativeEvent.isComposing
+    ) {
+      event.preventDefault();
+      form.handleSubmit(onSubmit)();
+    }
+  }
+
   return (
     <Form {...form}>
       <form
-        className="size-full flex flex-col"
+        className="rail-retrieval-form"
         onSubmit={form.handleSubmit(onSubmit)}
       >
-        <div className="px-5 h-0 flex-1">
-          <FormContainer className="p-5 h-full overflow-auto">
-            <SimilaritySliderFormField
-              isTooltipShown={true}
-            ></SimilaritySliderFormField>
-            <RerankFormFields ownerTenantId={ownerTenantId}></RerankFormFields>
-            <CrossLanguageFormField
-              name={'cross_languages'}
-            ></CrossLanguageFormField>
-            <MetadataFilter prefix=""></MetadataFilter>
-            <RerankCandidatesCountFormField></RerankCandidatesCountFormField>
-            <TopSelectFormItem></TopSelectFormItem>
-          </FormContainer>
-        </div>
-
-        <footer className="flex-0 p-5">
+        <FormContainer className="rail-retrieval-fields">
+          <SimilaritySliderFormField
+            isTooltipShown={true}
+          ></SimilaritySliderFormField>
+          <RerankFormFields ownerTenantId={ownerTenantId}></RerankFormFields>
+          <CrossLanguageFormField
+            name={'cross_languages'}
+          ></CrossLanguageFormField>
+          <MetadataFilter prefix=""></MetadataFilter>
+          <RerankCandidatesCountFormField></RerankCandidatesCountFormField>
+          <TopSelectFormItem></TopSelectFormItem>
+        </FormContainer>
+        <footer>
           <FormField
             control={form.control}
             name="question"
@@ -127,12 +137,7 @@ export default function TestingForm({
                 <FormControl>
                   <Textarea
                     {...field}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' && !e.shiftKey) {
-                        e.preventDefault();
-                        form.handleSubmit(onSubmit)();
-                      }
-                    }}
+                    onKeyDown={handleQuestionKeyDown}
                   ></Textarea>
                 </FormControl>
 
@@ -147,7 +152,6 @@ export default function TestingForm({
               disabled={!trim(question)}
               loading={loading}
             >
-              {/* {!loading && <CirclePlay />} */}
               {t('knowledgeDetails.testingLabel')}
               <Send />
             </ButtonLoading>

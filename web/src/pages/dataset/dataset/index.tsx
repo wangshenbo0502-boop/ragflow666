@@ -146,7 +146,7 @@ export default function Dataset() {
   return (
     <Card
       as="article"
-      className="mb-5 mr-5 min-w-[880px] bg-transparent shadow-none"
+      className="rail-dataset-files min-w-0 border-0 rounded-none bg-transparent shadow-none"
     >
       <CardHeader as="header" className="p-5 space-y-0">
         <ListFilterBar
@@ -171,7 +171,7 @@ export default function Dataset() {
         >
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button size="default">
+              <Button size="default" className="rail-primary">
                 <LucidePlus />
                 {t('knowledgeDetails.addFile')}
               </Button>

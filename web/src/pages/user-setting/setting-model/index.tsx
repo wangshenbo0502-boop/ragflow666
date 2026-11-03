@@ -14,7 +14,6 @@
  *  limitations under the License.
  */
 
-import Spotlight from '@/components/spotlight';
 import message from '@/components/ui/message';
 import { useTranslate } from '@/hooks/common-hooks';
 import {
@@ -282,12 +281,11 @@ const SettingModelV2: FC = () => {
   );
 
   return (
-    <div className="flex w-full h-full border-[0.5px] border-border-button rounded-lg relative overflow-hidden">
-      <Spotlight />
-      <section className="flex flex-col gap-4 w-[320px] shrink-0 px-5 border-r-[0.5px] border-border-button overflow-auto scrollbar-auto">
+    <div className="rail-model-layout">
+      <section className="rail-provider-sidebar flex flex-col gap-4 px-5 overflow-auto scrollbar-auto">
         <Sidebar selection={selection} onSelect={setSelection} />
       </section>
-      <section className="flex-1 flex flex-col overflow-hidden">
+      <section className="flex-1 min-w-0 min-h-0 flex flex-col overflow-hidden">
         {selection === 'default' ? (
           <div className="flex-1 overflow-auto scrollbar-auto">
             <SystemSetting />

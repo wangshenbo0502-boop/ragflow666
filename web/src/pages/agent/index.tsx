@@ -309,7 +309,7 @@ export default function Agent() {
   );
 
   return (
-    <section className="h-full" data-testid="agent-detail">
+    <section className="rail-agent-editor h-full" data-testid="agent-detail">
       <PageHeader>
         <section>
           <Breadcrumb>
