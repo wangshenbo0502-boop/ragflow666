@@ -1,5 +1,7 @@
 .typeahead-popover {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  background: var(--bg-component);
+  color: rgb(var(--text-primary));
+  border: 1px solid var(--border-button);
   border-radius: 8px;
   position: fixed;
   z-index: 1000;
@@ -19,7 +21,8 @@
 }
 
 .typeahead-popover ul li.selected {
-  background: #eee;
+  background: var(--bg-accent);
+  color: rgb(var(--accent-primary));
 }
 
 .typeahead-popover li {

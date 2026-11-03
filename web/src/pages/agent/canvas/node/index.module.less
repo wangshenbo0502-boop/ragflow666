@@ -1,15 +1,15 @@
 .dark {
-  background: rgb(63, 63, 63) !important;
+  background: var(--bg-component) !important;
 }
 .ragNode {
   .commonNode();
   .nodeName {
     font-size: 10px;
-    color: black;
+    color: rgb(var(--text-primary));
   }
   label {
     display: block;
-    color: #777;
+    color: rgb(var(--text-secondary));
     font-size: 12px;
   }
   .description {
@@ -24,17 +24,17 @@
   }
 }
 
-@lightBackgroundColor: rgba(150, 150, 150, 0.1);
-@darkBackgroundColor: rgba(150, 150, 150, 0.2);
+@lightBackgroundColor: var(--bg-card);
+@darkBackgroundColor: var(--bg-input);
 
 .selectedNode {
-  border: 1.5px solid rgb(59, 118, 244);
+  border: 1.5px solid rgb(var(--accent-primary));
 }
 
 .selectedIterationNode {
-  border-bottom: 1.5px solid rgb(59, 118, 244);
-  border-inline-start: 1.5px solid rgb(59, 118, 244);
-  border-inline-end: 1.5px solid rgb(59, 118, 244);
+  border-bottom: 1.5px solid rgb(var(--accent-primary));
+  border-inline-start: 1.5px solid rgb(var(--accent-primary));
+  border-inline-end: 1.5px solid rgb(var(--accent-primary));
 }
 
 .iterationHeader {
@@ -42,9 +42,9 @@
 }
 
 .selectedHeader {
-  border-top: 1.9px solid rgb(59, 118, 244);
-  border-inline-start: 1.9px solid rgb(59, 118, 244);
-  border-inline-end: 1.9px solid rgb(59, 118, 244);
+  border-top: 1.9px solid rgb(var(--accent-primary));
+  border-inline-start: 1.9px solid rgb(var(--accent-primary));
+  border-inline-end: 1.9px solid rgb(var(--accent-primary));
 }
 
 .handle {
@@ -53,8 +53,8 @@
   justify-content: center;
   width: 12px;
   height: 12px;
-  background: rgb(59, 88, 253);
-  border: 1px solid white;
+  background: rgb(var(--accent-primary));
+  border: 1px solid var(--bg-base);
   z-index: 1;
   background-image: url('@/assets/svg/plus.svg');
   background-size: cover;
@@ -73,11 +73,11 @@
 
   .nodeName {
     font-size: 10px;
-    color: black;
+    color: rgb(var(--text-primary));
   }
   label {
     display: block;
-    color: #777;
+    color: rgb(var(--text-secondary));
     font-size: 12px;
   }
 
@@ -102,21 +102,21 @@
   width: auto;
   height: 100%;
   padding: 8px;
-  border-radius: 10px;
+  border-radius: 8px;
   min-height: 128px;
   .noteTitle {
-    background-color: #edfcff;
+    background-color: var(--bg-accent);
     font-size: 12px;
     padding: 6px 6px 4px;
-    border-start-start-radius: 10px;
-    border-start-end-radius: 10px;
+    border-start-start-radius: 8px;
+    border-start-end-radius: 8px;
   }
   .noteTitleDark {
-    background-color: #edfcff;
+    background-color: var(--bg-accent);
     font-size: 12px;
     padding: 6px 6px 4px;
-    border-start-start-radius: 10px;
-    border-start-end-radius: 10px;
+    border-start-start-radius: 8px;
+    border-start-end-radius: 8px;
   }
   .noteForm {
     margin-top: 4px;
@@ -139,8 +139,8 @@
 
 .iterationNode {
   .commonNodeShadow();
-  border-end-start-radius: 10px;
-  border-end-end-radius: 10px;
+  border-end-start-radius: 8px;
+  border-end-end-radius: 8px;
 }
 
 .nodeText {
@@ -212,14 +212,14 @@
   font-size: 12px;
 
   .emailConfig {
-    background: rgba(0, 0, 0, 0.02);
+    background: var(--bg-card);
     border-radius: 4px;
     padding: 8px;
     position: relative;
     cursor: pointer;
 
     &:hover {
-      background: rgba(0, 0, 0, 0.04);
+      background: var(--bg-input);
     }
 
     .configItem {
@@ -232,13 +232,13 @@
       }
 
       .configLabel {
-        color: #666;
+        color: rgb(var(--text-secondary));
         width: 45px;
         flex-shrink: 0;
       }
 
       .configValue {
-        color: #333;
+        color: rgb(var(--text-primary));
         word-break: break-word;
         overflow-wrap: break-word;
       }
@@ -249,27 +249,27 @@
       inset-inline-end: 8px;
       top: 50%;
       transform: translateY(-50%);
-      color: #666;
+      color: rgb(var(--text-secondary));
       font-size: 12px;
     }
   }
 
   .jsonExample {
-    background: #f5f5f5;
+    background: var(--bg-input);
     border-radius: 4px;
     padding: 8px;
     margin-top: 4px;
     animation: slideDown 0.2s ease-out;
 
     .jsonTitle {
-      color: #666;
+      color: rgb(var(--text-secondary));
       margin-bottom: 4px;
     }
 
     .jsonContent {
       margin: 0;
-      color: #333;
-      font-family: monospace;
+      color: rgb(var(--text-primary));
+      font-family: var(--rail-mono);
     }
   }
 }

@@ -9,10 +9,11 @@ export default function DatasetWrapper() {
 
   return (
     <KnowledgeBaseProvider knowledgeBase={data} loading={loading}>
-      <article className="pt-3 size-full grid grid-cols-[auto_1fr] grid-rows-1">
+      <article className="rail-feature-shell">
         <SideBar dataset={data} />
-
-        <Outlet />
+        <div className="rail-feature-content">
+          <Outlet />
+        </div>
       </article>
     </KnowledgeBaseProvider>
   );

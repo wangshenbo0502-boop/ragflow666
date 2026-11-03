@@ -62,7 +62,7 @@ export function SideBar({ dataset: data }: PropType) {
   }, [t]);
 
   return (
-    <aside className="flex flex-col w-64 relative">
+    <aside className="rail-feature-sidebar flex flex-col relative">
       <header
         className="px-5 pb-4 grid grid-cols-[auto_1fr] grid-rows-[auto_auto] gap-x-3"
         style={{
@@ -72,7 +72,7 @@ export function SideBar({ dataset: data }: PropType) {
         <RAGFlowAvatar
           avatar={data.avatar}
           name={data.name}
-          className="size-16"
+          className="size-10"
           style={{ gridArea: 'avatar' }}
         />
 
@@ -112,8 +112,8 @@ export function SideBar({ dataset: data }: PropType) {
                   block
                   variant="ghost"
                   className={cn(
-                    'justify-start gap-2.5 px-3 relative h-10 text-base',
-                    active && 'bg-bg-card text-text-primary',
+                    'rail-sidebar-link justify-start gap-2.5 px-3 relative h-10 text-sm',
+                    active && 'is-active text-accent-primary',
                   )}
                   to={`${Routes.DatasetBase}${item.key}/${id}`}
                 >

@@ -127,10 +127,11 @@ export default function Agents() {
   return (
     <>
       <article
-        className="size-full min-w-0 flex flex-col"
+        className="rail-agents size-full min-w-0 flex flex-col"
         data-testid="agents-list"
       >
-        <header className="mb-4 min-w-0 px-5 pt-8">
+        <header className="mb-8 min-w-0">
+          <p className="rail-eyebrow mb-5">RAILMIND / AUTOMATION</p>
           <ListFilterBar
             title={t('flow.agents')}
             icon="agents"
@@ -142,7 +143,7 @@ export default function Agents() {
           >
             <DropdownMenu>
               <DropdownMenuTrigger data-testid="create-agent" asChild>
-                <Button>
+                <Button className="rail-primary" aria-label={t('flow.agents')}>
                   <Plus className="size-[1em]" />
                 </Button>
               </DropdownMenuTrigger>

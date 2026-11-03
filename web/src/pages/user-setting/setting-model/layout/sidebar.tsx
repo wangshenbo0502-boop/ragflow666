@@ -55,6 +55,12 @@ export function Sidebar({ selection, onSelect }: SidebarProps) {
   const { data: providers } = useFetchAvailableProviders();
   const { data: addedProviders } = useFetchAddedProviders();
   const [search, setSearch] = useState('');
+  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) =>
+    setSearch(event.target.value);
+  const handleSelect = (event: React.MouseEvent<HTMLButtonElement>) => {
+    const provider = event.currentTarget.dataset.provider;
+    if (provider) onSelect(provider);
+  };
 
   // Any provider present in `addedProviders` is treated as "added" and
   // sorted first in the list. We deliberately do NOT fetch each added
@@ -87,7 +93,9 @@ export function Sidebar({ selection, onSelect }: SidebarProps) {
             ? 'bg-bg-input text-text-primary'
             : 'text-text-secondary hover:bg-bg-input hover:text-text-primary',
         )}
-        onClick={() => onSelect('default')}
+        onClick={handleSelect}
+        data-provider="default"
+        aria-pressed={selection === 'default'}
         data-testid="sidebar-default-models"
       >
         <span className="font-medium">{t('setting.systemModelSettings')}</span>
@@ -100,7 +108,7 @@ export function Sidebar({ selection, onSelect }: SidebarProps) {
 
       <SearchInput
         value={search}
-        onChange={(e) => setSearch(e.target.value)}
+        onChange={handleSearch}
         placeholder={t('setting.search')}
         data-testid="sidebar-provider-search"
         className="w-full border-none"
@@ -114,7 +122,9 @@ export function Sidebar({ selection, onSelect }: SidebarProps) {
             <button
               key={provider.name}
               type="button"
-              onClick={() => onSelect(provider.name)}
+              onClick={handleSelect}
+              data-provider={provider.name}
+              aria-pressed={isActive}
               data-testid={`sidebar-provider-${provider.name}`}
               className={cn(
                 'flex items-center gap-3 px-3 py-2 rounded-md text-left transition-colors',

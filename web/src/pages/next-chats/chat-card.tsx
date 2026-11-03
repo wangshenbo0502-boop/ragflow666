@@ -1,7 +1,6 @@
 import { MoreButton } from '@/components/more-button';
 import { IDialog } from '@/interfaces/database/chat';
 import type { RailwayScene } from '@/interfaces/database/railway';
-import dayjs from 'dayjs';
 import {
   ArrowUpRight,
   GraduationCap,
@@ -18,22 +17,18 @@ const SceneDetails = {
   safety: {
     label: '规章与安全',
     icon: ShieldCheck,
-    description: '检索铁路安全规章，核对作业要求与应急处置依据。',
   },
   training: {
     label: '知识与学习',
     icon: GraduationCap,
-    description: '梳理专业知识与业务要点，让学习有据可循。',
   },
   equipment: {
     label: '设备与检修',
     icon: Wrench,
-    description: '结合设备现象与专业资料，辅助定位和分析故障。',
   },
   passenger: {
     label: '出行与服务',
     icon: Ticket,
-    description: '查询客运规程与服务要求，解答旅客运输业务问题。',
   },
 };
 
@@ -64,39 +59,24 @@ export function ChatCard({ data, showChatRenameModal }: ChatCardProps) {
       data-scene={scene}
       data-agent-name={data.name}
     >
-      <div className="rail-assistant-top">
+      <Link to={target} className="rail-assistant-main">
         <span className="rail-assistant-icon">
           <Icon className="size-5" />
         </span>
-        <span className="rail-assistant-tag">
-          {detail?.label || '知识问答'}
-        </span>
-        <ChatDropdown chat={data} showChatRenameModal={showChatRenameModal}>
-          <MoreButton
-            className="!opacity-100 !size-7"
-            aria-label={`${data.name}的操作`}
-          />
-        </ChatDropdown>
-      </div>
-      <h2>
-        <Link to={target}>{data.name}</Link>
-      </h2>
-      <p className="rail-assistant-description">
-        {detail?.description ||
-          data.description ||
-          '基于知识库资料的专业问答。'}
-      </p>
-      <div className="rail-assistant-footer">
-        <span>
-          {data.update_time
-            ? `${dayjs(data.update_time).format('MM.DD')} 更新`
-            : '铁路知识助手'}
-        </span>
-        <Link to={target}>
-          进入对话
-          <ArrowUpRight className="size-4" />
-        </Link>
-      </div>
+        <div>
+          <span className="rail-assistant-tag">
+            {detail?.label || '知识问答'}
+          </span>
+          <h2>{data.name}</h2>
+        </div>
+        <ArrowUpRight className="rail-assistant-arrow size-5" />
+      </Link>
+      <ChatDropdown chat={data} showChatRenameModal={showChatRenameModal}>
+        <MoreButton
+          className="!opacity-100 !size-7"
+          aria-label={`${data.name}的操作`}
+        />
+      </ChatDropdown>
     </article>
   );
 }

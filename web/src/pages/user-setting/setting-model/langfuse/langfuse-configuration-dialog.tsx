@@ -62,7 +62,7 @@ export function LangfuseConfigurationDialog({
         <DialogFooter className="!justify-between">
           <a
             href="https://langfuse.com/docs"
-            className="flex items-center gap-2 underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+            className="flex items-center gap-2 underline text-accent-primary hover:opacity-80"
             target="_blank"
             rel="noreferrer"
           >

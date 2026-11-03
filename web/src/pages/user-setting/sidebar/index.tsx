@@ -68,7 +68,7 @@ export function SideBar() {
   const { logout } = useLogout();
 
   return (
-    <aside className="shrink-0 w-16 md:w-[303px] bg-bg-base flex flex-col overflow-hidden">
+    <aside className="rail-settings-sidebar shrink-0 bg-bg-base flex flex-col overflow-hidden">
       <header>
         <h1 className="px-2 md:px-6 flex gap-2.5 items-center justify-center md:justify-start font-normal">
           <RAGFlowAvatar
@@ -96,8 +96,8 @@ export function SideBar() {
                   variant="ghost"
                   aria-label={label}
                   className={cn(
-                    'relative h-10 text-base max-md:size-10 max-md:p-0 max-md:justify-center justify-start gap-2.5 px-2 md:px-3',
-                    activeItemKey === key && 'bg-bg-card text-text-primary',
+                    'rail-sidebar-link relative h-10 text-sm max-md:size-10 max-md:p-0 max-md:justify-center justify-start gap-2.5 px-2 md:px-3',
+                    activeItemKey === key && 'is-active text-accent-primary',
                   )}
                   onClick={handleMenuClick(key)}
                 >

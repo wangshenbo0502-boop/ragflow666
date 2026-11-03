@@ -52,9 +52,7 @@ beforeEach(() => {
       ok: true,
       json: async () => [Source],
       arrayBuffer: async () =>
-        new TextEncoder().encode(
-          `${Source.url}\n${'正文'.repeat(700)}`,
-        ).buffer,
+        new TextEncoder().encode(`${Source.url}\n${'正文'.repeat(700)}`).buffer,
       url,
     }),
   );
@@ -62,7 +60,9 @@ beforeEach(() => {
     ...ok([Dataset]),
     data: { ...ok([Dataset]).data, total_datasets: 1 },
   });
-  Api.documents.mockResolvedValue(ok({ docs: [document('COMPLETED')], total: 1 }));
+  Api.documents.mockResolvedValue(
+    ok({ docs: [document('COMPLETED')], total: 1 }),
+  );
   Api.parse.mockResolvedValue(ok({ success_count: 1 }));
   Api.upload.mockResolvedValue(ok([]));
 });
@@ -111,9 +111,9 @@ test('uploads verified bytes and queues the persisted document', async () => {
   Api.documents
     .mockResolvedValueOnce(ok({ docs: [], total: 0 }))
     .mockResolvedValueOnce(ok({ docs: [document('UNSTART')], total: 1 }));
-  await expect(
-    importRailwaySources('embed', 'owner', jest.fn()),
-  ).resolves.toBe('kb-1');
+  await expect(importRailwaySources('embed', 'owner', jest.fn())).resolves.toBe(
+    'kb-1',
+  );
   const file = Api.upload.mock.calls[0][0].data.get('file') as File;
   expect(file.name).toBe(Source.file);
   expect(file.size).toBe(
@@ -142,7 +142,9 @@ test('active tasks are left running on retry', () => {
 });
 
 test('stopped tasks can be retried without reuploading the document', async () => {
-  Api.documents.mockResolvedValue(ok({ docs: [document('STOPPED')], total: 1 }));
+  Api.documents.mockResolvedValue(
+    ok({ docs: [document('STOPPED')], total: 1 }),
+  );
   await importRailwaySources('embed', 'owner', jest.fn());
   expect(Api.upload).not.toHaveBeenCalled();
   expect(Api.parse).toHaveBeenCalledWith(
@@ -198,4 +200,27 @@ test('creation preserves the scene and knowledge binding', async () => {
       }),
     }),
   );
+});
+
+test('repeated starts create distinct chat names for the same scene', async () => {
+  const names = new Set<string>();
+  (chatService.createChat as jest.Mock).mockImplementation(async (payload) => {
+    if (names.has(payload.name)) {
+      return {
+        data: { code: 102, message: 'duplicated chat name in creating chat' },
+      };
+    }
+    names.add(payload.name);
+    return ok({ id: `chat-${names.size}` });
+  });
+
+  const first = await createRailwayChat('kb-1', 'chat-model', 'safety');
+  const second = await createRailwayChat('kb-1', 'chat-model', 'safety');
+
+  expect(first.id).toBe('chat-1');
+  expect(second.id).toBe('chat-2');
+  expect([...names]).toEqual([
+    expect.stringMatching(/^轨知 · 安全规章 · /),
+    expect.stringMatching(/^轨知 · 安全规章 · /),
+  ]);
 });

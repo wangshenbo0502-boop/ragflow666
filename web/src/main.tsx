@@ -20,6 +20,7 @@ import ReactDOM from 'react-dom/client';
 import '../tailwind.css';
 import App from './app';
 import './global.less';
+import './styles/levo-theme.css';
 import { initLanguage } from './locales/config';
 // oxlint-disable-next-line no-restricted-imports -- bootstrap gate: resolve the backend variant before first render
 import { fetchBackendLanguage } from './utils/backend-runtime';

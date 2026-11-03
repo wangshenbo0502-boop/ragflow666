@@ -10,7 +10,7 @@ import styles from './index.module.less';
 const TooltipColorMap = {
   combo: 'text-red-600',
   node: 'text-black',
-  edge: 'text-blue-600',
+  edge: 'text-accent-primary',
 };
 
 const getMaxSize = (node: any) => {

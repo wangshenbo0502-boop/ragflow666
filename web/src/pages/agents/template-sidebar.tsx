@@ -110,13 +110,14 @@ export function SideBar({
                   variant={active ? 'secondary' : 'ghost'}
                   className={cn(
                     'w-full justify-start gap-4 px-6 py-8 relative rounded-none',
+                    active && 'text-accent-primary',
                   )}
                   onClick={() => handleMenuClick(item.key)}
                 >
                   <item.icon className="w-6 h-6" />
                   <span>{item.label}</span>
                   {active && (
-                    <div className="absolute right-0 w-[5px] h-[66px] bg-primary rounded-l-xl shadow-[0_0_5.94px_#7561ff,0_0_11.88px_#7561ff,0_0_41.58px_#7561ff,0_0_83.16px_#7561ff,0_0_142.56px_#7561ff,0_0_249.48px_#7561ff]" />
+                    <div className="absolute right-0 w-px h-8 bg-accent-primary" />
                   )}
                 </Button>
               );

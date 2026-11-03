@@ -28,7 +28,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm, UseFormReturn } from 'react-hook-form';
 import { z } from 'zod';
 import { NICKNAME_PATTERN } from '../user-setting/profile/constants';
-import { TrainFront } from 'lucide-react';
+import { ArrowUpRight, TrainFront } from 'lucide-react';
 
 type LoginFormContentProps = {
   title: string;
@@ -55,18 +55,26 @@ function LoginFormContent({
   t,
   disablePasswordLogin,
 }: LoginFormContentProps) {
+  const handleChannelClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    const channel = event.currentTarget.dataset.channel;
+    if (channel) handleLoginWithChannel(channel);
+  };
+
   return (
-    <div className="flex flex-col items-center justify-center w-full">
-      <div className="text-center mb-8">
-        <h2 className="text-xl font-semibold text-text-primary">
+    <div className="rail-auth-form">
+      <div className="rail-auth-form-heading">
+        <p className="rail-eyebrow">
+          {title === 'login' ? '01 / SIGN IN' : '02 / CREATE ACCOUNT'}
+        </p>
+        <h2>
           {title === 'login' ? t('loginTitle') : t('signUpTitle')}
         </h2>
       </div>
-      <div className="w-full max-w-[440px] rounded-lg border border-border-button bg-bg-component px-5 pb-4 pt-6 sm:px-8">
+      <div className="w-full">
         {!disablePasswordLogin && (
           <Form {...form}>
             <form
-              className="flex flex-col gap-8 text-text-primary "
+              className="flex flex-col gap-6 text-text-primary"
               data-testid="auth-form"
               data-active="true"
               onSubmit={form.handleSubmit(onCheck)}
@@ -169,23 +177,24 @@ function LoginFormContent({
                 data-testid="auth-submit"
                 type="submit"
                 loading={loading}
-                className="w-full my-8"
+                className="rail-auth-submit w-full"
               >
                 {title === 'login' ? t('login') : t('continue')}
+                <ArrowUpRight className="size-4" />
               </ButtonLoading>
             </form>
           </Form>
         )}
 
         {title === 'login' && channels && channels.length > 0 && (
-          <div className={disablePasswordLogin ? 'py-8' : 'mt-3 border'}>
+          <div className="rail-auth-channels">
             {channels.map((item) => (
               <Button
                 variant={'transparent'}
                 key={item.channel}
-                onClick={() => handleLoginWithChannel(item.channel)}
-                style={{ marginTop: 10 }}
-                className={disablePasswordLogin ? 'w-full' : ''}
+                data-channel={item.channel}
+                onClick={handleChannelClick}
+                className="w-full justify-start"
               >
                 <div className="flex items-center">
                   <SvgIcon
@@ -202,7 +211,7 @@ function LoginFormContent({
         )}
 
         {!disablePasswordLogin && title === 'login' && registerEnabled && (
-          <div className="mt-10 text-right">
+          <div className="mt-8 text-left">
             <p className="text-text-disabled text-sm">
               {t('signInTip')}
               <Button
@@ -217,7 +226,7 @@ function LoginFormContent({
           </div>
         )}
         {!disablePasswordLogin && title === 'register' && (
-          <div className="mt-10 text-right">
+          <div className="mt-8 text-left">
             <p className="text-text-disabled text-sm">
               {t('signUpTip')}
               <Button
@@ -345,18 +354,35 @@ const Login = () => {
   };
 
   return (
-    <>
-      <div className="h-full overflow-auto bg-bg-base">
-        <div className="mx-auto flex w-full max-w-xl flex-col items-center px-5 pt-8 text-text-primary">
-          <div className="mb-4 flex items-center gap-3">
-            <TrainFront className="size-8 text-accent-primary" />
-            <h1 className="text-2xl font-semibold">轨知 RailMind</h1>
+      <main className="rail-auth">
+        <header className="rail-auth-nav">
+          <span className="rail-auth-brand">
+            <TrainFront className="size-5" />
+            轨知 <span>RailMind</span>
+          </span>
+          <span className="rail-auth-nav-caption">铁路知识与故障分析辅助</span>
+        </header>
+        <div className="rail-auth-body">
+          <div className="rail-auth-heading">
+            <p className="rail-eyebrow">
+              <i className="rail-status-dot" aria-hidden />
+              RAILMIND <span>/</span> 铁路智能工作空间
+            </p>
+            <h1>
+              轨知 RailMind
+              <span>让知识，有据可循。</span>
+            </h1>
+            <p className="rail-auth-description">
+              连接规章、资料与现场问题。
+              <br />
+              从一个问题开始，找到有依据的答案。
+            </p>
+            <div className="rail-auth-index" aria-hidden>
+              <span>01 <b>知识检索</b></span>
+              <span>02 <b>铁路问答</b></span>
+              <span>03 <b>故障分析</b></span>
+            </div>
           </div>
-          <p className="text-sm text-text-secondary">
-            铁路知识与故障分析辅助智能体
-          </p>
-        </div>
-        <div className="mx-auto flex w-full max-w-xl items-center justify-center px-5 py-8">
           <LoginFormContent
             title={title}
             form={form}
@@ -370,8 +396,11 @@ const Login = () => {
             disablePasswordLogin={!!config?.disablePasswordLogin}
           />
         </div>
-      </div>
-    </>
+        <footer className="rail-auth-footer">
+          <span>轨知 RAILMIND</span>
+          <span>知识可追溯 · 作业以有效规程为准</span>
+        </footer>
+      </main>
   );
 };
 

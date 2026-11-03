@@ -4,17 +4,20 @@ import { Button } from '@/components/ui/button';
 import { RAGFlowPagination } from '@/components/ui/ragflow-pagination';
 import { Spin } from '@/components/ui/spin';
 import { ListDeletionKey } from '@/constants/list-deletion';
+import { useRailMotion } from '@/hooks/use-rail-motion';
 import { useGoToPreviousPageOnEmpty } from '@/hooks/logic-hooks';
 import { useFetchChatList } from '@/hooks/use-chat-request';
 import { buildOwnersFilter } from '@/utils/list-filter-util';
 import { ArrowUpRight, BookOpen, MessagesSquare, Plus } from 'lucide-react';
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useNavigate, useSearchParams } from 'react-router';
 import { ChatCard } from './chat-card';
 import { useRenameChat } from './hooks/use-rename-chat';
 
 export default function ChatList() {
+  const pageRef = useRef<HTMLElement>(null);
+  useRailMotion(pageRef);
   const list = useFetchChatList();
   const {
     data,
@@ -49,15 +52,15 @@ export default function ChatList() {
   }, [searchParams, navigate]);
   return (
     <>
-      <article className="rail-page" data-testid="chats-list">
+      <article ref={pageRef} className="rail-page" data-testid="chats-list">
         <div className="rail-page-inner">
           <header className="rail-page-heading">
             <div>
               <p className="rail-eyebrow">
                 专业问答 <span>/</span> ASSISTANTS
               </p>
-              <h1>铁路问答</h1>
-              <p>继续与铁路知识对话，让问题有迹可循。</p>
+              <h1>铁路问答。</h1>
+              <p>与知识，继续对话。</p>
             </div>
             <Button
               className="rail-primary gap-2"
@@ -68,19 +71,9 @@ export default function ChatList() {
               新建铁路问答
             </Button>
           </header>
-          <div className="rail-chat-intro">
-            <div>
-              <MessagesSquare className="size-5" />
-              <div>
-                <h2>你的专业铁路助手</h2>
-                <p>安全规章、客运服务、设备分析与学习培训</p>
-              </div>
-            </div>
-            <span>{data?.total || 0} 个助手</span>
-          </div>
           <ListFilterBar
             className="rail-list-tools"
-            title="我的铁路助手"
+            title={`我的铁路助手 · ${data?.total || 0}`}
             searchString={searchString}
             onSearchChange={list.handleInputChange}
             filters={owners}
@@ -92,7 +85,7 @@ export default function ChatList() {
               <Spin size="large" />
             </div>
           ) : data?.chats?.length ? (
-            <div className="rail-chat-grid">
+            <div className="rail-chat-grid" data-rail-reveal>
               {data.chats.map((chat) => (
                 <ChatCard
                   key={chat.id}

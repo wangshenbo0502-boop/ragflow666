@@ -370,7 +370,7 @@ const GmailTokenField = ({ value, onChange }: GmailTokenFieldProps) => {
               </span>
             ) : null}
             {pendingCredentials && !hasVerifiedTokens ? (
-              <span className="rounded-full bg-blue-100 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-blue-700">
+              <span className="rounded-full bg-accent-primary/10 px-2 py-0.5 text-[11px] font-medium uppercase text-accent-primary">
                 Uploaded (pending)
               </span>
             ) : null}

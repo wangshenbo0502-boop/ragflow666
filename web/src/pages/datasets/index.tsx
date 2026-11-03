@@ -4,19 +4,12 @@ import { Button } from '@/components/ui/button';
 import { RAGFlowPagination } from '@/components/ui/ragflow-pagination';
 import { Spin } from '@/components/ui/spin';
 import { ListDeletionKey } from '@/constants/list-deletion';
+import { useRailMotion } from '@/hooks/use-rail-motion';
 import { useGoToPreviousPageOnEmpty } from '@/hooks/logic-hooks';
 import { useFetchNextKnowledgeListByPage } from '@/hooks/use-knowledge-request';
-import {
-  ArrowUpRight,
-  BookOpen,
-  FileText,
-  FolderOpen,
-  Layers3,
-  Plus,
-  ShieldCheck,
-} from 'lucide-react';
-import { useCallback, useEffect } from 'react';
-import { Link, useSearchParams } from 'react-router';
+import { FolderOpen, Plus } from 'lucide-react';
+import { useCallback, useEffect, useRef } from 'react';
+import { useSearchParams } from 'react-router';
 import { DatasetCard } from './dataset-card';
 import { DatasetCreatingDialog } from './dataset-creating-dialog';
 import { useSaveKnowledge } from './hooks';
@@ -24,6 +17,8 @@ import { useRenameDataset } from './use-rename-dataset';
 import { useSelectOwners } from './use-select-owners';
 
 export default function Datasets() {
+  const pageRef = useRef<HTMLElement>(null);
+  useRailMotion(pageRef);
   const {
     visible,
     hideModal,
@@ -66,25 +61,17 @@ export default function Datasets() {
       setSearchParams(next, { replace: true });
     }
   }, [searchParams, setSearchParams, showModal]);
-  const documents = datasets.reduce(
-    (sum, item) => sum + (item.document_count || 0),
-    0,
-  );
-  const chunks = datasets.reduce(
-    (sum, item) => sum + (item.chunk_count || 0),
-    0,
-  );
   return (
     <>
-      <article className="rail-page" data-testid="datasets-list">
+      <article ref={pageRef} className="rail-page" data-testid="datasets-list">
         <div className="rail-page-inner">
           <header className="rail-page-heading">
             <div>
               <p className="rail-eyebrow">
                 知识管理 <span>/</span> KNOWLEDGE
               </p>
-              <h1>铁路知识库</h1>
-              <p>规章有据可查，知识有源可循。</p>
+              <h1>铁路知识库。</h1>
+              <p>每一份知识，都有来处。</p>
             </div>
             <Button className="rail-primary gap-2" onClick={showModal}>
               <Plus className="size-4" />
@@ -92,52 +79,14 @@ export default function Datasets() {
             </Button>
           </header>
           <div>
-            <section className="min-w-0" aria-label="知识库目录">
-              <dl className="rail-library-summary">
-                <div>
-                  <dt>
-                    <BookOpen />
-                    知识库总数
-                  </dt>
-                  <dd>
-                    {total_datasets || 0}
-                    <small>个知识库</small>
-                  </dd>
-                </div>
-                <div>
-                  <dt>
-                    <FileText />
-                    当前页文档
-                  </dt>
-                  <dd>
-                    {documents.toLocaleString()}
-                    <small>份资料</small>
-                  </dd>
-                </div>
-                <div>
-                  <dt>
-                    <Layers3 />
-                    当前页知识片段
-                  </dt>
-                  <dd>
-                    {chunks.toLocaleString()}
-                    <small>个片段</small>
-                  </dd>
-                </div>
-              </dl>
-              <div className="rail-library-tabs">
-                <span>
-                  <FolderOpen className="size-3.5" />
-                  全部知识库<small>{total_datasets || 0}</small>
-                </span>
-                <Link to="/">
-                  前往工作台提问
-                  <ArrowUpRight className="size-3.5" />
-                </Link>
-              </div>
+            <section
+              className="min-w-0"
+              aria-label="知识库目录"
+              data-rail-reveal
+            >
               <ListFilterBar
                 className="rail-list-tools"
-                title="知识库目录"
+                title={`全部知识库 · ${total_datasets || 0}`}
                 searchString={searchString}
                 onSearchChange={list.handleInputChange}
                 value={filterValue}
@@ -165,16 +114,6 @@ export default function Datasets() {
                         showDatasetRenameModal={rename.showDatasetRenameModal}
                       />
                     ))}
-                  </div>
-                  <div className="rail-library-bottom">
-                    <ShieldCheck className="size-4" />
-                    <span>
-                      文档解析完成后，可在铁路工作台中选择知识库进行问答。
-                    </span>
-                    <Link to="/">
-                      开始提问
-                      <ArrowUpRight className="size-3.5" />
-                    </Link>
                   </div>
                 </>
               ) : (
