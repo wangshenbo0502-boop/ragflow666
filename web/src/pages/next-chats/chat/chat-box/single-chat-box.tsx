@@ -7,6 +7,7 @@ import { useFetchChat, useGetChatSearchParams } from '@/hooks/use-chat-request';
 import { useFetchUserInfo } from '@/hooks/use-user-setting-request';
 import { IClientConversation } from '@/interfaces/database/chat';
 import { buildMessageUuidWithRole } from '@/utils/chat';
+import { BookOpenText } from 'lucide-react';
 import { useEffect } from 'react';
 import {
   useGetSendButtonDisabled,
@@ -81,12 +82,19 @@ export function SingleChatBox({ conversation }: IProps) {
   ]);
 
   return (
-    <section className="flex flex-col h-full gap-4">
+    <section className="rail-message-area flex flex-col h-full gap-4">
       <div
         ref={messageContainerRef}
-        className="p-3 md:p-5 flex-1 overflow-auto min-h-0 scrollbar-auto"
+        className="rail-message-scroll p-3 md:p-5 flex-1 overflow-auto min-h-0 scrollbar-auto"
       >
-        <div className="w-full md:pr-5">
+        <div className="rail-message-content w-full">
+          {isRailway && !messages?.length && (
+            <div className="rail-conversation-empty">
+              <BookOpenText className="size-7" aria-hidden="true" />
+              <h2>{currentDialog.name || '铁路知识问答'}</h2>
+              <p>{currentDialog.prompt_config?.prologue}</p>
+            </div>
+          )}
           {messages?.map((message, i) => (
             <MessageItem
               loading={
@@ -112,7 +120,7 @@ export function SingleChatBox({ conversation }: IProps) {
         <div ref={scrollRef} />
       </div>
 
-      <div className="p-3 pt-0 md:p-5 md:pt-0">
+      <div className="rail-message-composer p-3 pt-0 md:p-5 md:pt-0">
         <NextMessageInput
           disabled={disabled}
           sendDisabled={sendDisabled}

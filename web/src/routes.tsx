@@ -228,15 +228,6 @@ const routeConfigOptions = [
         Component: () => import('@/pages/next-chats'),
       },
       {
-        path: Routes.Agents,
-        Component: () => import('@/pages/agents'),
-      },
-      {
-        path: Routes.AgentTemplates,
-        layout: false,
-        Component: () => import('@/pages/agents/agent-templates'),
-      },
-      {
         path: Routes.UserSetting,
         Component: () => import('@/pages/user-setting'),
         layout: false,
@@ -246,30 +237,8 @@ const routeConfigOptions = [
             element: <Navigate to={`/user-setting/model`} replace />,
           },
           {
-            path: `${Routes.UserSetting}/profile`,
-            Component: () => import('@/pages/user-setting/profile'),
-          },
-          /*
-          {
-            path: `${Routes.UserSetting}/locale`,
-            Component: () => import('@/pages/user-setting/setting-locale'),
-          },
-          */
-          {
             path: `${Routes.UserSetting}/model`,
             Component: () => import('@/pages/user-setting/setting-model'),
-          },
-          {
-            path: `${Routes.UserSetting}/team`,
-            Component: () => import('@/pages/user-setting/setting-team'),
-          },
-          {
-            path: `${Routes.UserSetting}${Routes.Api}`,
-            Component: () => import('@/pages/user-setting/setting-api'),
-          },
-          {
-            path: `${Routes.UserSetting}${Routes.Mcp}`,
-            Component: () => import('@/pages/user-setting/mcp'),
           },
 
           {

@@ -41,7 +41,7 @@ export function DatasetDropdown({
   }, [dataset.id, deleteKnowledge]);
 
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>{children}</DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuItem onClick={handleShowDatasetRenameModal}>

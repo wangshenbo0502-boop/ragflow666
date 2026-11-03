@@ -1,8 +1,54 @@
 # RailMind Railway Assistant
 
-This repository adapts RAGFlow into a railway knowledge assistant with safety, passenger service, equipment context, and training workflows. It retains retrieval, cited conversations, knowledge management, and agent workflows with a focused white, black, and blue interface.
+This repository adapts RAGFlow into a railway knowledge assistant for safety regulations, passenger service, equipment analysis, and training. It retains knowledge management, retrieval, cited conversations, and session history with a restrained white, charcoal, and blue interface.
 
 See the [project guide](docs/railway-agent.md) for the implementation, six official railway source archives, setup, and validation limits. The upstream documentation and attribution follow below.
+
+## RailMind Interface
+
+- **Workbench:** choose a railway scenario and knowledge base, compose a question, and check document and model readiness.
+- **Knowledge:** search and manage libraries in a table with document counts, indexed chunks, and update dates.
+- **Railway Q&A:** find scenario assistants and continue conversations with references, session history, and settings.
+- **Mobile:** responsive layouts and separate session/settings drawers keep the conversation readable.
+
+The screenshots below show the current UI with demonstration data. They do not represent model evaluation results.
+
+### Workbench
+
+![RailMind railway workbench](docs/images/railmind/workbench.png)
+
+### Knowledge Management
+
+![RailMind knowledge library](docs/images/railmind/knowledge.png)
+
+### Railway Q&A
+
+![RailMind railway assistants](docs/images/railmind/assistants.png)
+
+<details>
+<summary>Mobile conversation</summary>
+
+<img src="docs/images/railmind/conversation-mobile.png" alt="RailMind mobile conversation with session and settings drawers" width="390">
+
+</details>
+
+## Try RailMind Locally
+
+Start the Go backend and its dependencies using the [source startup guide](docs/develop/launch_ragflow_from_source.md), then start the frontend:
+
+```bash
+cd web
+npm ci
+npm run dev
+```
+
+Open the address printed by Vite. Its default port is `9222`; if occupied, Vite selects another port. The development proxy connects to the Go API on `9380` and admin API on `9381`.
+
+After signing in, configure default chat and embedding models, import the official railway documents from the workbench, and wait for parsing to complete before starting a conversation. Equipment analysis requires appropriate technical manuals and context; public regulations alone cannot establish a fault diagnosis.
+
+The frontend production build and browser interaction checks passed on November 3, 2026. Browser checks use API fixtures; full-repository TypeScript checks still report existing errors. See the [validation notes](docs/railway-agent.md#验证边界) for the distinction between UI checks and real retrieval/model testing.
+
+---
 
 <div align="center">
 <a href="https://cloud.ragflow.io/">

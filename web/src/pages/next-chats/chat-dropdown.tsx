@@ -41,7 +41,7 @@ export function ChatDropdown({
   }, [chat.id, deleteChat]);
 
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>{children}</DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuItem onClick={handleShowChatRenameModal}>

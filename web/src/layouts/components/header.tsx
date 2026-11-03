@@ -75,9 +75,11 @@ export function Header({
               aria-current={pathname === Routes.Root ? 'page' : undefined}
               className="flex shrink-0 items-center gap-2"
             >
-              <TrainFront className="size-8 text-accent-primary" />
-              <span className="text-base font-semibold whitespace-nowrap">
-                轨知 RailMind
+              <span className="rail-logo">
+                <TrainFront className="size-5" />
+              </span>
+              <span className="rail-wordmark">
+                轨知 <span>RailMind</span>
               </span>
             </Link>
           </div>

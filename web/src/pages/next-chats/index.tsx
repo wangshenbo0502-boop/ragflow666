@@ -1,6 +1,3 @@
-import { CardContainer } from '@/components/card-container';
-import { EmptyCardType } from '@/components/empty/constant';
-import { EmptyAppCard } from '@/components/empty/empty';
 import ListFilterBar from '@/components/list-filter-bar';
 import { RenameDialog } from '@/components/rename-dialog';
 import { Button } from '@/components/ui/button';
@@ -10,44 +7,32 @@ import { ListDeletionKey } from '@/constants/list-deletion';
 import { useGoToPreviousPageOnEmpty } from '@/hooks/logic-hooks';
 import { useFetchChatList } from '@/hooks/use-chat-request';
 import { buildOwnersFilter } from '@/utils/list-filter-util';
-import { pick } from 'lodash';
-import { Plus } from 'lucide-react';
-import { useCallback, useEffect, useMemo } from 'react';
+import { ArrowUpRight, BookOpen, MessagesSquare, Plus } from 'lucide-react';
+import { useCallback, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useNavigate, useSearchParams } from 'react-router';
+import { Link, useNavigate, useSearchParams } from 'react-router';
 import { ChatCard } from './chat-card';
 import { useRenameChat } from './hooks/use-rename-chat';
 
 export default function ChatList() {
+  const list = useFetchChatList();
   const {
     data,
-    setPagination,
     pagination,
-    handleInputChange,
+    setPagination,
     searchString,
     setSearchString,
     filterValue,
     setFilterValue,
-    handleFilterSubmit,
     loading,
-  } = useFetchChatList();
-  const { t } = useTranslation();
-  const { t: tc } = useTranslation('common');
-  const owners = [buildOwnersFilter(data?.chats ?? [], undefined, tc('owner'))];
-  const {
-    initialChatName,
-    chatRenameVisible,
-    showChatRenameModal,
-    hideChatRenameModal,
-    onChatRenameOk,
-    chatRenameLoading,
-  } = useRenameChat();
+  } = list;
+  const { t } = useTranslation('common');
+  const owners = [buildOwnersFilter(data?.chats ?? [], undefined, t('owner'))];
+  const rename = useRenameChat();
   const navigate = useNavigate();
-
+  const handleCreate = useCallback(() => navigate('/'), [navigate]);
   const handlePageChange = useCallback(
-    (page: number, pageSize?: number) => {
-      setPagination({ page, pageSize });
-    },
+    (page: number, pageSize?: number) => setPagination({ page, pageSize }),
     [setPagination],
   );
   useGoToPreviousPageOnEmpty(data?.chats?.length, loading, {
@@ -57,122 +42,107 @@ export default function ChatList() {
     filterValue,
     setFilterValue,
   });
-
-  const handleShowCreateModal = useCallback(() => {
-    navigate('/');
-  }, [navigate]);
-
-  const [searchParams, setSearchParams] = useSearchParams();
-  const isCreate = searchParams.get('isCreate') === 'true';
+  const [searchParams] = useSearchParams();
   useEffect(() => {
-    if (isCreate) {
-      handleShowCreateModal();
-      searchParams.delete('isCreate');
-      setSearchParams(searchParams);
-    }
-  }, [isCreate, handleShowCreateModal, searchParams, setSearchParams]);
-
-  const renameDialogProps = useMemo(() => {
-    if (chatRenameVisible) {
-      return {
-        hideModal: hideChatRenameModal,
-        onOk: onChatRenameOk,
-        initialName: initialChatName,
-        loading: chatRenameLoading,
-        title: initialChatName,
-      };
-    }
-    return null;
-  }, [
-    chatRenameVisible,
-    hideChatRenameModal,
-    onChatRenameOk,
-    initialChatName,
-    chatRenameLoading,
-  ]);
-
+    if (searchParams.get('isCreate') === 'true')
+      navigate('/', { replace: true });
+  }, [searchParams, navigate]);
   return (
     <>
-      {loading && !data?.chats?.length ? (
-        <article
-          className="size-full flex items-center justify-center"
-          data-testid="chats-list"
-        >
-          <Spin size="large" />
-        </article>
-      ) : data?.chats?.length || searchString ? (
-        <article
-          className="size-full min-w-0 flex flex-col"
-          data-testid="chats-list"
-        >
-          <header className="mb-4 min-w-0 px-5 pt-8">
-            <ListFilterBar
-              title={t('chat.chatApps')}
-              icon="chats"
-              onSearchChange={handleInputChange}
-              searchString={searchString}
-              filters={owners}
-              value={filterValue}
-              onChange={handleFilterSubmit}
+      <article className="rail-page" data-testid="chats-list">
+        <div className="rail-page-inner">
+          <header className="rail-page-heading">
+            <div>
+              <p className="rail-eyebrow">
+                专业问答 <span>/</span> ASSISTANTS
+              </p>
+              <h1>铁路问答</h1>
+              <p>继续与铁路知识对话，让问题有迹可循。</p>
+            </div>
+            <Button
+              className="rail-primary gap-2"
+              data-testid="create-chat"
+              onClick={handleCreate}
             >
-              <Button data-testid="create-chat" onClick={handleShowCreateModal}>
-                <Plus className="size-[1em]" />
-                {t('chat.createChat')}
-              </Button>
-            </ListFilterBar>
+              <Plus className="size-4" />
+              新建铁路问答
+            </Button>
           </header>
-
-          {data?.chats?.length ? (
-            <>
-              <CardContainer className="flex-1 overflow-auto px-5">
-                {data.chats.map((x) => (
-                  <ChatCard
-                    key={x.id}
-                    data={x}
-                    showChatRenameModal={showChatRenameModal}
-                  />
-                ))}
-              </CardContainer>
-
-              <footer className="mt-4 px-5 pb-5">
-                <RAGFlowPagination
-                  {...pick(pagination, 'current', 'pageSize')}
-                  total={pagination.total}
-                  onChange={handlePageChange}
+          <div className="rail-chat-intro">
+            <div>
+              <MessagesSquare className="size-5" />
+              <div>
+                <h2>你的专业铁路助手</h2>
+                <p>安全规章、客运服务、设备分析与学习培训</p>
+              </div>
+            </div>
+            <span>{data?.total || 0} 个助手</span>
+          </div>
+          <ListFilterBar
+            className="rail-list-tools"
+            title="我的铁路助手"
+            searchString={searchString}
+            onSearchChange={list.handleInputChange}
+            filters={owners}
+            value={filterValue}
+            onChange={list.handleFilterSubmit}
+          />
+          {loading && !data?.chats?.length ? (
+            <div className="rail-empty">
+              <Spin size="large" />
+            </div>
+          ) : data?.chats?.length ? (
+            <div className="rail-chat-grid">
+              {data.chats.map((chat) => (
+                <ChatCard
+                  key={chat.id}
+                  data={chat}
+                  showChatRenameModal={rename.showChatRenameModal}
                 />
-              </footer>
-            </>
+              ))}
+            </div>
           ) : (
-            <div className="flex-1 flex items-center justify-center">
-              <EmptyAppCard
-                showIcon
-                size="large"
-                className="w-[480px] p-14"
-                isSearch
-                type={EmptyCardType.Chat}
-                testId="chats-empty-create"
-              />
+            <div className="rail-empty" data-testid="chats-empty-create">
+              <MessagesSquare className="size-9" />
+              <h2>
+                {searchString ||
+                Object.values(filterValue).some((value) => value?.length)
+                  ? '没有找到匹配的助手'
+                  : '开启第一次铁路问答'}
+              </h2>
+              <p>安全规章 · 学习培训 · 设备分析 · 客运服务</p>
+              <Button variant="outline" onClick={handleCreate}>
+                <Plus className="size-4" />
+                新建铁路问答
+              </Button>
             </div>
           )}
-        </article>
-      ) : (
-        <article
-          className="size-full flex items-center justify-center"
-          data-testid="chats-list"
-        >
-          <EmptyAppCard
-            showIcon
-            size="large"
-            className="w-[480px] p-14"
-            type={EmptyCardType.Chat}
-            onClick={handleShowCreateModal}
-            testId="chats-empty-create"
-          />
-        </article>
-      )}
-
-      {renameDialogProps && (
-        <RenameDialog {...renameDialogProps}></RenameDialog>
+          <footer className="rail-list-footer">
+            <RAGFlowPagination
+              current={pagination.current}
+              pageSize={pagination.pageSize}
+              total={pagination.total}
+              onChange={handlePageChange}
+            />
+          </footer>
+          <div className="rail-page-caption">
+            <span>轨知 RailMind</span>
+            <Link to="/datasets" className="inline-flex items-center gap-2">
+              <BookOpen className="size-3" />
+              管理知识库
+              <ArrowUpRight className="size-3" />
+            </Link>
+          </div>
+        </div>
+      </article>
+      {rename.chatRenameVisible && (
+        <RenameDialog
+          hideModal={rename.hideChatRenameModal}
+          onOk={rename.onChatRenameOk}
+          initialName={rename.initialChatName}
+          loading={rename.chatRenameLoading}
+          title={rename.initialChatName}
+        />
       )}
     </>
   );
