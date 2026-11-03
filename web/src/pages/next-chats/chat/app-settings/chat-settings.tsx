@@ -269,7 +269,7 @@ export function ChatSettings({ hasSingleChatBox }: ChatSettingsProps) {
   return (
     <>
       {(isMobile || !settingVisible) && (
-        <div className="p-3 md:p-5">
+        <div className="rail-settings-trigger p-3 md:p-5">
           <Button
             onClick={switchSettingVisible}
             disabled={!hasSingleChatBox}

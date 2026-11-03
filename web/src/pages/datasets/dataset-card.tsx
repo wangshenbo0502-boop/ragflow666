@@ -1,55 +1,56 @@
-import { HomeCard } from '@/components/home-card';
 import { MoreButton } from '@/components/more-button';
-import { SharedBadge } from '@/components/shared-badge';
-import { Card, CardContent } from '@/components/ui/card';
-import { useNavigatePage } from '@/hooks/logic-hooks/navigate-hooks';
 import { IDataset } from '@/interfaces/database/dataset';
-import { t } from 'i18next';
-import { ChevronRight } from 'lucide-react';
+import { Routes } from '@/routes';
+import dayjs from 'dayjs';
+import { BookOpenText } from 'lucide-react';
+import { Link } from 'react-router';
 import { DatasetDropdown } from './dataset-dropdown';
 import { useRenameDataset } from './use-rename-dataset';
 
-export type DatasetCardProps = {
-  dataset: IDataset;
-} & Pick<ReturnType<typeof useRenameDataset>, 'showDatasetRenameModal'>;
+type DatasetCardProps = { dataset: IDataset } & Pick<
+  ReturnType<typeof useRenameDataset>,
+  'showDatasetRenameModal'
+>;
 
 export function DatasetCard({
   dataset,
   showDatasetRenameModal,
 }: DatasetCardProps) {
-  const { navigateToDataset } = useNavigatePage();
-
   return (
-    <HomeCard
-      data={{
-        ...dataset,
-        description: `${dataset.document_count} ${t('knowledgeDetails.files')}`,
-      }}
-      moreDropdown={
-        <DatasetDropdown
-          showDatasetRenameModal={showDatasetRenameModal}
-          dataset={dataset}
-        >
-          <MoreButton></MoreButton>
-        </DatasetDropdown>
-      }
-      sharedBadge={<SharedBadge>{dataset.nickname}</SharedBadge>}
-      onClick={navigateToDataset(dataset.id)}
-    />
-  );
-}
-
-export function SeeAllCard() {
-  const { navigateToDatasetList } = useNavigatePage();
-
-  return (
-    <Card
-      className="w-full flex-none h-full cursor-pointer"
-      onClick={() => navigateToDatasetList({ isCreate: false })}
-    >
-      <CardContent className="p-2.5 pt-1 w-full h-full flex items-center justify-center gap-1.5 text-text-secondary">
-        {t('common.seeAll')} <ChevronRight className="size-4" />
-      </CardContent>
-    </Card>
+    <article className="rail-dataset-row group">
+      <Link
+        to={`${Routes.Dataset}/${dataset.id}`}
+        className="rail-dataset-title"
+      >
+        <span className="rail-dataset-icon">
+          <BookOpenText className="size-5" />
+        </span>
+        <div className="min-w-0">
+          <h2>{dataset.name}</h2>
+          <p>
+            {dataset.description ||
+              `${dataset.document_count || 0} 份文档 · ${dataset.nickname || '个人知识库'}`}
+          </p>
+        </div>
+      </Link>
+      <span className="rail-dataset-number">{dataset.document_count || 0}</span>
+      <span className="rail-dataset-number">
+        {(dataset.chunk_count || 0).toLocaleString()}
+      </span>
+      <time className="rail-dataset-date">
+        {dataset.update_time
+          ? dayjs(dataset.update_time).format('YYYY.MM.DD')
+          : '—'}
+      </time>
+      <DatasetDropdown
+        dataset={dataset}
+        showDatasetRenameModal={showDatasetRenameModal}
+      >
+        <MoreButton
+          className="!opacity-100 !size-7"
+          aria-label={`${dataset.name}的操作`}
+        />
+      </DatasetDropdown>
+    </article>
   );
 }

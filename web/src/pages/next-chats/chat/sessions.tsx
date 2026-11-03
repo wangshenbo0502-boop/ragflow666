@@ -196,7 +196,7 @@ export function Sessions({
 
   return (
     <aside
-      className="h-full min-h-0 p-5 w-full md:w-[296px] shrink-0 flex flex-col"
+      className="rail-sessions h-full min-h-0 p-5 w-full md:w-[296px] shrink-0 flex flex-col"
       role="complementary"
       data-testid="chat-detail-sessions"
     >
@@ -245,9 +245,9 @@ export function Sessions({
         </Button>
       </header>
 
-      <div className="flex justify-between items-center mb-4 pt-10">
+      <div className="flex justify-between items-center mb-4 pt-7">
         <div className="flex items-center gap-3">
-          <span className="text-base font-bold">{t('chat.conversations')}</span>
+          <span className="text-sm font-medium">{t('chat.conversations')}</span>
           <data
             className="text-text-secondary text-xs"
             value={conversationList.length}

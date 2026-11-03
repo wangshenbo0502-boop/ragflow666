@@ -81,8 +81,11 @@ export default function Chat() {
 
   return (
     <RootLayoutContainer>
-      <section className="h-full flex flex-col" data-testid="chat-detail">
-        <article className="relative flex flex-1 min-h-0 pb-3 md:pb-9">
+      <section
+        className="rail-conversation h-full flex flex-col"
+        data-testid="chat-detail"
+      >
+        <article className="relative flex flex-1 min-h-0">
           {!isMobile && (
             <Sessions
               handleConversationCardClick={handleConversationCardClick}
@@ -91,7 +94,7 @@ export default function Chat() {
 
           <div className="flex flex-1 min-w-0 h-full">
             <div className="flex flex-col flex-1 min-w-0 overflow-hidden">
-              <header className="flex min-w-0 items-center gap-3 border-b border-border-button p-3 md:p-5">
+              <header className="rail-conversation-heading flex min-w-0 items-center gap-3 border-b border-border-button p-3 md:p-5">
                 {isMobile && (
                   <Sheet open={sessionsOpen} onOpenChange={setSessionsOpen}>
                     <SheetTrigger asChild>

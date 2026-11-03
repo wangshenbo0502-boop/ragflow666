@@ -4,6 +4,19 @@
 
 @layer base {
   :root {
+    --rail-accent: 52 95 211;
+    --rail-surface: #fafbfc;
+    --rail-ink: #24262b;
+    --rail-line: #e8eaee;
+    --rail-panel: #f3f5f8;
+    --rail-success: 35 126 97;
+    --rail-danger: #b83838;
+    --rail-muted: #66707e;
+    --rail-photo-text: #ffffff;
+    --rail-photo-shade: #102b24;
+    --rail-training: 116 93 177;
+    --rail-equipment: 183 112 42;
+    --rail-passenger: 60 112 177;
     --background: 0 0% 100%;
     --foreground: 222.2 47.4% 11.2%;
 
@@ -118,6 +131,17 @@
   }
 
   .dark {
+    --rail-accent: 135 170 255;
+    --rail-surface: #191a1e;
+    --rail-ink: #eeeff2;
+    --rail-line: #34363d;
+    --rail-panel: #24262b;
+    --rail-success: 104 203 163;
+    --rail-danger: #ed9494;
+    --rail-muted: #9ca2ad;
+    --rail-training: 178 158 230;
+    --rail-equipment: 226 171 108;
+    --rail-passenger: 133 177 230;
     --background: rgba(11, 10, 18, 1);
     --foreground: 213 31% 91%;
 
