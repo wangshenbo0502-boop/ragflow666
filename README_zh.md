@@ -12,7 +12,9 @@
 - Go 创建服务增加场景、模型及已完成解析且有知识片段的资料校验；后端执行结果仍待环境恢复后确认。
 - 进入聊天页只预填首问，检查内容后需要手动发送。
 
-配套文档：[用户使用说明](docs/railmind-user-manual.zh-CN.md) · [后续优化建议](docs/railmind-upgrade-proposal.zh-CN.md) · [优化进度与验证记录](docs/railmind-optimization-progress.md)。建议书中的后续任务不代表已经实现。
+配套文档：[用户使用说明 HTML](docs/railmind-user-manual.zh-CN.html)（[Markdown 原文](docs/railmind-user-manual.zh-CN.md)）· [后续优化建议](docs/railmind-upgrade-proposal.zh-CN.md) · [优化进度与验证记录](docs/railmind-optimization-progress.md)。建议书中的后续任务不代表已经实现。
+
+使用说明包含首次操作、各功能与子功能介绍、按钮作用、参数解释、示例和排错。第 16～26 章按页面详解工作台、知识库、聊天、知识成果、工作流、数据处理流程、编译算子、数据源、聊天渠道、管理和术语。在浏览器中打开 HTML 可搜索目录、离线阅读和打印；GitHub 页面展示的是 HTML 源码。维护人员安装前端依赖后，可运行 `node tools/scripts/render-user-manual.cjs` 从 Markdown 重新生成 HTML。
 
 ## 界面预览
 

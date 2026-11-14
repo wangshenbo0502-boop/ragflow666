@@ -12,7 +12,9 @@ See the [project guide](docs/railway-agent.md) for the implementation, six offic
 - Go creation validates railway scenarios, configured models, and completed documents with indexed chunks. Backend execution remains pending in the current development environment.
 - The first question is prefilled in the conversation. Review it and press Send to submit it.
 
-Read the [user manual](docs/railmind-user-manual.zh-CN.md), [upgrade proposal](docs/railmind-upgrade-proposal.zh-CN.md), and [optimization progress](docs/railmind-optimization-progress.md). The proposal describes planned work, not completed features.
+Read the [HTML user manual](docs/railmind-user-manual.zh-CN.html) ([Markdown](docs/railmind-user-manual.zh-CN.md)), [upgrade proposal](docs/railmind-upgrade-proposal.zh-CN.md), and [optimization progress](docs/railmind-optimization-progress.md). The proposal describes planned work, not completed features.
+
+The Chinese manual includes first-use walkthroughs and detailed explanations of features, subfeatures, buttons, settings, and troubleshooting. Chapters 16–26 cover the workbench, knowledge libraries, chat, knowledge artifacts, workflows, ingestion pipelines, compilation operators, data sources, chat channels, administration, and terminology. Open the HTML file in a browser for searchable navigation and printing; GitHub displays its source. After installing frontend dependencies, regenerate it with `node tools/scripts/render-user-manual.cjs`.
 
 ## RailMind Interface
 
