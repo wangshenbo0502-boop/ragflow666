@@ -19,8 +19,8 @@ import {
   Ticket,
   Wrench,
 } from 'lucide-react';
-import { useRef } from 'react';
-import { Link } from 'react-router';
+import { useCallback, useEffect, useRef } from 'react';
+import { Link, useLocation } from 'react-router';
 import { EquipmentIntake } from './equipment-intake';
 import { useRailwayWorkbench } from './use-railway-workbench';
 
@@ -86,10 +86,12 @@ const DocumentStatuses: Record<string, string> = {
 };
 
 export default function Home() {
+  const { hash, key } = useLocation();
   const workbench = useRailwayWorkbench();
   const pageRef = useRef<HTMLElement>(null);
   useRailMotion(pageRef);
   const questionRef = useRef<HTMLTextAreaElement>(null);
+  const startingRef = useRef(false);
   const activeScene = Scenes.find((scene) => scene.value === workbench.scene)!;
   const documentCount = workbench.documents.data?.length || 0;
   const handleScene = (event: React.MouseEvent<HTMLButtonElement>) =>
@@ -97,13 +99,38 @@ export default function Home() {
   const handleDataset = (event: React.ChangeEvent<HTMLSelectElement>) =>
     workbench.setDatasetId(event.target.value);
   const handleImport = () => workbench.initialize.mutate();
-  const handleStart = () => workbench.start.mutate();
-  const handleFocusQuestion = () => {
-    document
-      .getElementById('rail-workspace')
-      ?.scrollIntoView({ block: 'start' });
-    questionRef.current?.focus({ preventScroll: true });
+  const handleStart = () => {
+    if (!workbench.canStart || workbench.start.isPending || startingRef.current)
+      return;
+
+    startingRef.current = true;
+    workbench.start.mutate(undefined, {
+      onSettled: () => {
+        startingRef.current = false;
+      },
+    });
   };
+  const handleFocusQuestion = useCallback(() => {
+    const workspace = document.getElementById('rail-workspace');
+    const questionInput = questionRef.current;
+    const page = pageRef.current;
+    if (!workspace || !questionInput || !page) return;
+
+    const questionBottom =
+      questionInput.getBoundingClientRect().bottom -
+      workspace.getBoundingClientRect().top;
+    if (questionBottom > page.getBoundingClientRect().height) {
+      questionInput.scrollIntoView({ block: 'center' });
+    } else {
+      workspace.scrollIntoView({ block: 'start' });
+    }
+    questionInput.focus({ preventScroll: true });
+  }, []);
+  useEffect(() => {
+    if (hash !== '#rail-workspace') return;
+    const frame = requestAnimationFrame(handleFocusQuestion);
+    return () => cancelAnimationFrame(frame);
+  }, [hash, key, handleFocusQuestion]);
   const handleQuestion = (event: React.ChangeEvent<HTMLTextAreaElement>) =>
     workbench.setQuestion(event.target.value);
   const handleExample = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -117,7 +144,7 @@ export default function Home() {
       !event.nativeEvent.isComposing
     ) {
       event.preventDefault();
-      if (workbench.canStart && !workbench.start.isPending) handleStart();
+      handleStart();
     }
   };
   const error =

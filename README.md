@@ -4,14 +4,24 @@ This repository adapts RAGFlow into a railway knowledge assistant for safety reg
 
 See the [project guide](docs/railway-agent.md) for the implementation, six official railway source archives, setup, and validation limits. The upstream documentation and attribution follow below.
 
+## November 14, 2026 Update
+
+- Both **New Railway Q&A** entries open the same workbench, focus the question field, and reuse its scenario, knowledge base, and model configuration.
+- Repeated clicks are guarded while creation is pending. A failed creation keeps the question and equipment context for retry.
+- Railway cards use the saved domain and scenario for classification; renaming a generic assistant does not enable railway rules.
+- Go creation validates railway scenarios, configured models, and completed documents with indexed chunks. Backend execution remains pending in the current development environment.
+- The first question is prefilled in the conversation. Review it and press Send to submit it.
+
+Read the [user manual](docs/railmind-user-manual.zh-CN.md), [upgrade proposal](docs/railmind-upgrade-proposal.zh-CN.md), and [optimization progress](docs/railmind-optimization-progress.md). The proposal describes planned work, not completed features.
+
 ## RailMind Interface
 
 - **Workbench:** choose a railway scenario and knowledge base, compose a question, and check document and model readiness.
 - **Knowledge:** search and manage libraries in a table with document counts, indexed chunks, and update dates.
 - **Railway Q&A:** find scenario assistants and continue conversations with references, session history, and settings.
-- **Mobile:** responsive layouts and separate session/settings drawers keep the conversation readable.
+- **Mobile:** responsive page layouts; current mobile conversation and settings behavior still needs acceptance testing.
 
-The screenshots below show the current UI with demonstration data. They do not represent model evaluation results.
+The screenshots below are earlier interface previews with demonstration data. They do not verify this update or represent model evaluation results.
 
 ### Workbench
 
@@ -46,7 +56,7 @@ Open the address printed by Vite. Its default port is `9222`; if occupied, Vite 
 
 After signing in, configure default chat and embedding models, import the official railway documents from the workbench, and wait for parsing to complete before starting a conversation. Equipment analysis requires appropriate technical manuals and context; public regulations alone cannot establish a fault diagnosis.
 
-The frontend production build and browser interaction checks passed on November 3, 2026. Browser checks use API fixtures; full-repository TypeScript checks still report existing errors. See the [validation notes](docs/railway-agent.md#验证边界) for the distinction between UI checks and real retrieval/model testing.
+On November 14, 2026, this publication passed 35 focused frontend tests, the production build, and checks for the changed frontend files. Desktop and mobile browser checks passed for entry navigation, visible input focus, and returning to the list, using API fixtures. The full TypeScript check reports 197 diagnostics outside the changed files; it does not pass. Go tests and real retrieval/model acceptance remain pending because the required backend environment is unavailable. See the [progress record](docs/railmind-optimization-progress.md) for commands, results, and limits.
 
 ---
 

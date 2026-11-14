@@ -33,13 +33,14 @@ const SceneDetails = {
 };
 
 function getScene(data: IDialog): RailwayScene | undefined {
-  if (data.prompt_config?.railway_scene)
-    return data.prompt_config.railway_scene;
-  if (data.name.includes('安全')) return 'safety';
-  if (data.name.includes('学习') || data.name.includes('培训'))
-    return 'training';
-  if (data.name.includes('设备')) return 'equipment';
-  if (data.name.includes('客运')) return 'passenger';
+  const scene = data.prompt_config?.railway_scene;
+  if (
+    data.prompt_config?.domain === 'railway' &&
+    scene &&
+    Object.hasOwn(SceneDetails, scene)
+  ) {
+    return scene;
+  }
   return undefined;
 }
 

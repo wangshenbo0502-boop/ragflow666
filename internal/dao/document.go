@@ -177,6 +177,23 @@ func buildDocumentListIngestionStatusExpression(db *gorm.DB) string {
 	END`
 }
 
+// HasCompletedChunks reports whether a dataset has a visible, completed
+// document with indexed chunks, using the same task status as the document list.
+func (dao *DocumentDAO) HasCompletedChunks(ctx context.Context, db *gorm.DB, kbID string) (bool, error) {
+	var ids []string
+	ingestionStatus := buildDocumentListIngestionStatusExpression(db)
+	err := db.WithContext(ctx).Table("document").
+		Select("document.id").
+		Joins("JOIN file2document ON file2document.document_id = document.id").
+		Joins("JOIN file ON file.id = file2document.file_id").
+		Joins(latestIngestionTaskJoin).
+		Where("document.kb_id = ? AND document.chunk_num > ?", kbID, 0).
+		Where("("+ingestionStatus+") = ?", common.COMPLETED).
+		Limit(1).
+		Scan(&ids).Error
+	return len(ids) > 0, err
+}
+
 // ListByKBIDWithOptions lists documents by knowledge base ID with filters.
 func (dao *DocumentDAO) ListByKBIDWithOptions(ctx context.Context, db *gorm.DB, opts DocumentListOptions) ([]*entity.DocumentListItem, int64, error) {
 	var documents []*entity.DocumentListItem

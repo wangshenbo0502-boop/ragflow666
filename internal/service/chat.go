@@ -223,7 +223,11 @@ func (s *ChatService) Create(ctx context.Context, userID string, req map[string]
 	}
 	req["name"] = name
 
-	if datasetIDsValue, ok := req["dataset_ids"]; ok {
+	datasetIDsValue, hasDatasetIDs := req["dataset_ids"]
+	if !hasDatasetIDs {
+		datasetIDsValue, hasDatasetIDs = req["kb_ids"]
+	}
+	if hasDatasetIDs {
 		kbIDs, err := s.validateCreateDatasetIDs(ctx, datasetIDsValue, userID)
 		if err != nil {
 			return nil, common.CodeDataError, err
@@ -337,6 +341,9 @@ func (s *ChatService) Create(ctx context.Context, userID string, req map[string]
 	}
 
 	chat := buildCreateChatEntity(req, userID)
+	if err := validateRailwayChatCreation(ctx, dao.DB, chat); err != nil {
+		return nil, common.CodeDataError, err
+	}
 	if err = s.chatDAO.Create(ctx, dao.DB, chat); err != nil {
 		return nil, common.CodeDataError, fmt.Errorf("failed to create chat: %w", err)
 	}

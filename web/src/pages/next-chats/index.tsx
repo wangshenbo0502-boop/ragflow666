@@ -9,9 +9,9 @@ import { useGoToPreviousPageOnEmpty } from '@/hooks/logic-hooks';
 import { useFetchChatList } from '@/hooks/use-chat-request';
 import { buildOwnersFilter } from '@/utils/list-filter-util';
 import { ArrowUpRight, BookOpen, MessagesSquare, Plus } from 'lucide-react';
-import { useCallback, useEffect, useRef } from 'react';
+import { useCallback, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link, useNavigate, useSearchParams } from 'react-router';
+import { Link, Navigate, useSearchParams } from 'react-router';
 import { ChatCard } from './chat-card';
 import { useRenameChat } from './hooks/use-rename-chat';
 
@@ -32,8 +32,6 @@ export default function ChatList() {
   const { t } = useTranslation('common');
   const owners = [buildOwnersFilter(data?.chats ?? [], undefined, t('owner'))];
   const rename = useRenameChat();
-  const navigate = useNavigate();
-  const handleCreate = useCallback(() => navigate('/'), [navigate]);
   const handlePageChange = useCallback(
     (page: number, pageSize?: number) => setPagination({ page, pageSize }),
     [setPagination],
@@ -46,10 +44,9 @@ export default function ChatList() {
     setFilterValue,
   });
   const [searchParams] = useSearchParams();
-  useEffect(() => {
-    if (searchParams.get('isCreate') === 'true')
-      navigate('/', { replace: true });
-  }, [searchParams, navigate]);
+  if (searchParams.get('isCreate') === 'true') {
+    return <Navigate to="/home#rail-workspace" replace />;
+  }
   return (
     <>
       <article ref={pageRef} className="rail-page" data-testid="chats-list">
@@ -65,10 +62,12 @@ export default function ChatList() {
             <Button
               className="rail-primary gap-2"
               data-testid="create-chat"
-              onClick={handleCreate}
+              asChild
             >
-              <Plus className="size-4" />
-              新建铁路问答
+              <Link to="/home#rail-workspace">
+                <Plus className="size-4" />
+                新建铁路问答
+              </Link>
             </Button>
           </header>
           <ListFilterBar
@@ -104,9 +103,11 @@ export default function ChatList() {
                   : '开启第一次铁路问答'}
               </h2>
               <p>安全规章 · 学习培训 · 设备分析 · 客运服务</p>
-              <Button variant="outline" onClick={handleCreate}>
-                <Plus className="size-4" />
-                新建铁路问答
+              <Button variant="outline" asChild>
+                <Link to="/home#rail-workspace">
+                  <Plus className="size-4" />
+                  新建铁路问答
+                </Link>
               </Button>
             </div>
           )}

@@ -1,9 +1,15 @@
 package service
 
 import (
+	"context"
+	"errors"
+	"fmt"
 	"strings"
 
+	"ragflow/internal/dao"
 	"ragflow/internal/entity"
+
+	"gorm.io/gorm"
 )
 
 const railwayEmptyResponse = "当前知识库没有检索到足够的铁路资料，无法给出可靠结论。请补充设备型号、故障现象、适用线路和规章版本，或上传相应规程。涉及行车、信号、供电及现场作业，请由授权人员依据有效规程核实；本助手不发布作业或调度指令。"
@@ -53,6 +59,46 @@ func prepareRailwayChat(chat *entity.Chat) *entity.Chat {
 
 func isRailwayChat(chat *entity.Chat) bool {
 	return chat != nil && chat.PromptConfig["domain"] == "railway"
+}
+
+func validateRailwayChatCreation(ctx context.Context, db *gorm.DB, chat *entity.Chat) error {
+	if !isRailwayChat(chat) {
+		return nil
+	}
+	switch chat.PromptConfig["railway_scene"] {
+	case "safety", "passenger", "equipment", "training":
+	default:
+		return errors.New("请选择有效的铁路问答场景")
+	}
+	modelRef := chat.LLMID
+	if chat.TenantLLMID != nil && strings.TrimSpace(*chat.TenantLLMID) != "" {
+		modelRef = *chat.TenantLLMID
+	}
+	modelID, err := resolveCreateLLMID(ctx, modelRef, chat.TenantID, chat.LLMSetting)
+	if err != nil {
+		return fmt.Errorf("铁路对话模型不可用：%w", err)
+	}
+	if modelID == "" {
+		return errors.New("请先配置铁路对话模型")
+	}
+	chat.TenantLLMID = &modelID
+	if len(chat.KBIDs) == 0 {
+		return errors.New("请选择铁路知识库")
+	}
+	for _, rawID := range chat.KBIDs {
+		datasetID, ok := rawID.(string)
+		if !ok || strings.TrimSpace(datasetID) == "" {
+			return errors.New("请选择有效的铁路知识库")
+		}
+		ready, err := dao.NewDocumentDAO().HasCompletedChunks(ctx, db, datasetID)
+		if err != nil {
+			return fmt.Errorf("无法确认铁路资料解析状态：%w", err)
+		}
+		if !ready {
+			return errors.New("铁路知识库暂无已完成解析且可检索的资料，请完成解析后重试")
+		}
+	}
+	return nil
 }
 
 // Railway answers use indexed evidence, not caller-supplied knowledge or tools.

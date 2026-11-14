@@ -183,6 +183,10 @@ const routeConfigOptions = [
         path: Routes.Root,
         Component: () => import('@/pages/home'),
       },
+      {
+        path: Routes.Home,
+        Component: () => import('@/pages/home'),
+      },
     ],
   },
   {
