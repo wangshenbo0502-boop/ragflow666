@@ -1,6 +1,12 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router';
-import { BookOpen, House, Menu, MessagesSquare } from 'lucide-react';
+import {
+  BookOpen,
+  House,
+  LayoutGrid,
+  Menu,
+  MessagesSquare,
+} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
@@ -20,6 +26,7 @@ const MenuItems = [
     icon: MessagesSquare,
     testId: 'nav-chat',
   },
+  { path: Routes.Agents, name: '更多', icon: LayoutGrid, testId: 'nav-agents' },
 ];
 
 function useActivePath() {
@@ -31,6 +38,13 @@ function useActivePath() {
     return Routes.Datasets;
   if (pathname === Routes.Chats || pathname.startsWith(`${Routes.Chat}/`))
     return Routes.Chats;
+  if (
+    pathname === Routes.Agents ||
+    (pathname.startsWith(`${Routes.Agent}/`) &&
+      pathname !== Routes.AgentShare) ||
+    pathname.startsWith(`${Routes.Pipeline}/`)
+  )
+    return Routes.Agents;
   return pathname;
 }
 

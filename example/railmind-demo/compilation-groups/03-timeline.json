@@ -1,0 +1,40 @@
+{
+  "name": "演示编译 03 交接事项时间线",
+  "description": "从邮件和纪要生成按时间排列的决定、行动和待确认事项。",
+  "templates": [
+    {
+      "kind": "timeline",
+      "name": "交接决定与行动",
+      "config": {
+        "entity": {
+          "description": "You are a robust events-timeline extractor. Extract a complete, source-grounded chronological sequence, preserving the source order and the relationship between each timestamp and the event or events that occur at that time.",
+          "fields": [
+            {
+              "description": "the date or time reference (clean, no extraneous text)",
+              "rule": "- Format: prefer ISO 8601 (YYYY-MM-DD) or a normalized human-readable form\n  (e.g., \"March 5, 2024\").\n- If only a relative time (e.g., \"yesterday\", \"next week\", \"three days later\",\n  \"at age twenty-eight\"), convert to absolute when the context allows; otherwise\n  preserve the original expression instead of dropping it.\n- \"timestamp\" must be non-empty (or exactly \"-1\" if no valid time/date).\n- If a chunk contains multiple events with distinct timestamps, expand them\n  in chronological order:\n    - Each event → {\"timestamp\":\"...\",\"event\":\"...\",\"chunk_id\":\"<chunk_ID>\"}.\n- Do not use \"-1\" for a time expression merely because it is relative, historical,\n  approximate, or lacks a calendar year. Use \"-1\" only when no time reference exists.\n- Keep language and numbering style of \"timestamp\" consistent with the input.\n",
+              "type": "timestamp"
+            },
+            {
+              "description": "the event description associated with the timestamp (concise, no metadata)",
+              "rule": "- Length restriction:\n    • Chinese event: ≤40 characters\n    • English event: ≤120 characters\n- \"event\" must be non-empty whenever the source describes an action, state,\n  appointment, birth, death, battle, movement, appointment, or other event.\n- Every timestamp must be paired with at least one event when an event is present\n  in the same or immediately following source context. Do not emit timestamps alone\n  when the associated event can be identified.\n- Preserve the core action and key entities; omit redundant phrasing.\n",
+              "type": "event"
+            }
+          ]
+        },
+        "global_rules": "区分发信时间、会议时间、执行截止时间。保留事项、责任人、状态和来源。未知日期照录原文并标待确认，不推断具体日期。未审批的建议标注为草案。",
+        "kind": "timeline",
+        "rechunk_rules": "- Group only adjacent source chunks that belong to the same event or continuous time period.\n- Preserve source order: use every source chunk exactly once; do not omit, overlap, duplicate, or reorder chunks.\n- Split when the event, time period, or semantic focus changes.\n- Keep self-contained tables, lists, figures, and code blocks intact; do not split their internal structure.\n- Do not invent, rewrite, or return source text; return only chunk grouping metadata.\n",
+        "relation": {
+          "description": "You are an expert sequential reasoning assistant specializing in chronological timelines.",
+          "fields": [
+            {
+              "description": "Events are arranged in strict chronological order (earliest to latest).",
+              "rule": "- \"-1\" for timestamp or event indicates invalid or missing data; such entries\n  do not participate in ordering.\n- Create an ordered relation for every pair of adjacent valid timeline items in\n  source order; do not select only highlights or leave known items disconnected.\n- A timestamp and the event(s) occurring at that timestamp are adjacent timeline\n  items unless the source places another event between them. Preserve textual order\n  when multiple events share one timestamp.\n- Follow explicit temporal indicators (e.g., \"then\", \"afterwards\", \"later\", \"at 3 PM\");\n  otherwise use source order as the tie-breaker.\n- Connect consecutive source chunks across batch boundaries when the last item in\n  one chunk and the first item in the next chunk belong to the same chronology.\n- Use only extracted entity names as endpoints. Do not invent or skip intermediary items.\n- Keep language and date formatting consistent across the timeline.\n",
+              "type": "ordered"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

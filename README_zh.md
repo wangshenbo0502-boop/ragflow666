@@ -4,7 +4,42 @@
 
 项目功能、官方资料来源、运行方法和验证边界见 [铁路智能体说明](docs/railway-agent.md)。六份国家铁路局公开资料存档位于 `web/public/railway/`，可从工作台导入个人知识库；现场作业仍以有效规程和授权人员为准。
 
-## 本轮更新：2026 年 11 月 14 日
+## 优化前版本备份：2026 年 11 月 15 日
+
+本次保存聊天模式优化前的现有源码，包含 Go 后端、React 前端、铁路资料与演示配置、本地启停脚本，以及已有的生图和语音集成。
+
+- 已保存的会话支持通过 `@生图` 生成图片、连续编辑，通过 `@语音` 生成语音回答或明确要求的短歌；生成的媒体随回答保留在会话中。
+- 生图使用 `gpt-image-2.5-sunburst`；本地语音使用 Qwen3-TTS 的 Serena 音色，唱歌使用 ACE-Step 并传入合成的 Serena 参考音频。
+- 输入框支持多附件、粘贴截图、拖入图片和失败上传重试；图片理解需要具备视觉能力的对话模型。
+- [聊天模式优化方案](docs/chat-mode-optimization-proposal.zh-CN.md)中的可靠性、任务调度、模型路由和资源管理改造属于后续工作，不计入本次备份的已实现功能。
+
+这是源码备份，不是正式发布或新一轮验收结果。本地工作区仍有未完成的上游合并，备份保存当前磁盘文件内容，不替代合并处理。下方 11 月 14 日的检查记录仅说明此前验证，本次快照尚未重新执行这些检查。
+
+已配置好的 Windows 本机环境可在仓库根目录启动和关闭：
+
+```powershell
+.\tools\scripts\start-local-project.ps1
+.\tools\scripts\stop-local-project.ps1
+```
+
+启动后访问 `http://localhost/`。脚本依赖已准备的 Docker 环境、`bin/` 中的 Go 程序、`web/dist/` 前端构建、本地语音与音乐资源，以及 `.cache/compose.local-startup.yml`。具体准备与使用方法见[本地媒体说明](docs/chat-media-local.md)和[本地启动说明](docs/ai-local-startup-guide.md)。
+
+Git 备份不包含 Docker 数据卷、数据库、上传和生成的对象、被忽略的程序与模型文件、缓存，以及私有的 `docker/.env` 和 `.run/chat-media.env` 凭据。本次提交排除 `docker/.env`，本机文件继续保留；其他机器可从 `docker/.env.example` 开始配置，并单独填写凭据。仅恢复源码快照不能完整恢复本机服务和业务数据。
+
+### 队友首次配置
+
+全新克隆后，在仓库根目录准备本机私有配置：
+
+```powershell
+Copy-Item docker/.env.example docker/.env
+New-Item -ItemType File -Path docker/.env.local
+```
+
+编辑 `docker/.env`：替换示例密码，填写自己的 API Key，并将 `RAGFLOW_IMAGE` 设置为根据本仓库构建或已取得的镜像。模板包含数据库、存储、队列、应用端口和可选媒体配置。Ollama、语音及音乐引擎需单独准备，仅填写环境变量不会自动安装或注册模型。
+
+之后按 [Docker 部署说明](docker/README.md)检查 Compose 配置并启动服务。Windows 媒体启停脚本还需要上述本地资源，全新克隆不会自带这些文件。不要提交 `.env` 和 `.env.local`。
+
+## 此前更新：2026 年 11 月 14 日
 
 - 两处“新建铁路问答”统一进入工作台并聚焦问题框，复用场景、知识库和默认模型配置。
 - 创建请求期间防止重复点击；失败后保留问题和设备背景，便于重试。
@@ -58,7 +93,7 @@ npm run dev
 
 登录后配置默认对话模型和嵌入模型，从工作台导入官方铁路资料，等待解析完成，再选择知识库发起对话。设备分析需要补充适用的专业手册和现场背景，公开规章不能单独支持确定性故障诊断。
 
-2026 年 11 月 14 日，本次上传版本通过 35 项前端针对性测试、生产构建及本轮前端文件检查。使用接口测试数据完成桌面与手机浏览器检查，确认入口跳转、问题框可见且聚焦、返回列表正常。全仓 TypeScript 检查有 197 条诊断，未通过，诊断未涉及本轮修改文件。受后端环境限制，Go 测试与真实检索、模型链路尚未验收。命令、结果及限制见[优化进度](docs/railmind-optimization-progress.md)。
+2026 年 11 月 14 日，开发工作区通过 35 项前端针对性测试、生产构建及本轮前端文件检查，其全仓 TypeScript 检查仍有 46 条既有诊断。基于 GitHub main 单独整理的上传版本通过接口测试数据下的桌面和手机入口检查，全仓类型检查为 197 条诊断。受后端环境限制，Go 测试与真实检索、模型链路尚未验收。两个版本的结果及限制见[优化进度](docs/railmind-optimization-progress.md)。
 
 下方保留上游 RAGFlow 的说明与归属信息。
 
@@ -122,15 +157,16 @@ npm run dev
 
 - 💡 [RAGFlow 是什么？](#-RAGFlow-是什么)
 - 🎮 [快速开始](#-快速开始)
-- 📌 [近期更新](#-近期更新)
+- 🔥 [近期更新](#-近期更新)
 - 🌟 [主要功能](#-主要功能)
 - 🔎 [系统架构](#-系统架构)
 - 🏠 [本地部署](#-本地部署)
 - 📚 [技术文档](#-技术文档)
 - 📜 [路线图](#-路线图)
-- 🏄 [贡献指南](#-贡献指南)
-- 🙌 [加入社区](#-加入社区)
+- 🏄 [开源社区](#-开源社区)
+- 🙌 [贡献指南](#-贡献指南)
 - 🤝 [商务合作](#-商务合作)
+- 👥 [加入社区](#-加入社区)
 
 </details>
 
@@ -151,25 +187,13 @@ npm run dev
 
 ## 🔥 近期更新
 
+- 2026-09-30 发布 RAGFlow 1.0.0-rc1。
 - 2026-09-10 支持通过 Sitemap 接入网站内容。
 - 2026-08-19 推出知识编译，支持在文档级和知识库级生成 Wiki、Graph、Tree、PageIndex、Mind Map、Timeline 及 Skills。
 - 2026-08-19 推出 Agentic RAG，支持 Low、Medium、High、Ultra 四种思考模式。
 - 2026-07-02 支持 Google BigQuery 数据源接入与增量同步。
-- 2026-06-29 支持 WhatsApp、钉钉和企业微信聊天渠道。
-- 2026-05-26 新增 Browser 组件，支持 Agent 自主浏览和操作网页。
-- 2026-04-21 提供七种预置数据摄取流水线模板。
-- 2026-04-21 支持 Agent 应用发布、沙箱代码执行与图表生成。
-- 2026-04-21 支持用户级记忆存储和检索。
 
-更多更新请参阅[完整发布记录](./docs/release_notes.md)。
-
-## 🎉 关注项目
-
-⭐️ 点击右上角的 Star 关注 RAGFlow，可以获取最新发布的实时通知！🌟
-
-<div align="center" style="margin-top:20px;margin-bottom:20px;">
-<img alt="RAGFlow feature updates" src="https://github.com/user-attachments/assets/18c9707e-b8aa-4caf-a154-037089c105ba" width="1200"/>
-</div>
+更多更新请参阅[完整发布记录](https://ragflow.io/docs/dev/release_notes)。
 
 ## 🌟 主要功能
 
@@ -195,13 +219,6 @@ npm run dev
 - 通过多轮检索与推理获取更完整的上下文，帮助生成有依据的回答。
 - 支持 Low、Medium、High、Ultra 思考模式，可按问题复杂度控制检索和推理深度。
 
-### ⚙️ **Go 原生服务架构**
-
-- API、Admin、Ingestor 和 Syncer 由 Go 服务统一提供。
-- DeepDoc 在 Go 进程内运行，负责版面分析、OCR 和表格识别。
-- Go 服务通过 CGO 调用原生文档解析库和 ONNX Runtime。
-- MCP 和 Sandbox Executor 作为可选能力按需启用。
-
 ### 🌱 **有理有据、最大程度降低幻觉（hallucination）**
 
 - 文本切片过程可视化，支持手动调整。
@@ -226,7 +243,7 @@ npm run dev
 
 ## 🏠 本地部署
 
-本地部署提供 Docker 部署和源码启动两种方式：Docker 适合快速体验、集成测试和生产部署；源码启动适合 Go 服务开发、调试和二次开发。Docker 部署无需安装 Go，源码启动需要安装 `go.mod` 指定的 Go 版本；前端开发还需要 Node.js 和 npm。
+本地部署提供 Docker 部署和源码启动两种方式：Docker 适合快速体验、集成测试和生产部署；源码启动适合 RAGFlow 开发和调试。Docker 部署无需安装 Go 编译器，源码启动需要安装 `go.mod` 指定版本的 Go 编译器；前端开发还需要 Node.js 和 npm。
 
 ### 🐳 Docker 部署
 
@@ -234,15 +251,12 @@ npm run dev
 
 - 建议起步配置：4 核 CPU、16 GB 内存和 50 GB 可用磁盘。实际资源需求取决于文档引擎、数据规模、解析任务和并发量；启用本地模型或其他额外组件时，请同时满足相应组件的资源要求。
 - Docker ≥ 24.0.0，Docker Compose ≥ v2.26.1。
-- [gVisor](https://gvisor.dev/docs/user_guide/install/)：仅在使用 Self-Managed 容器 Sandbox 时需要安装和配置。
-
-Docker 部署无需在宿主机安装 Go。使用 Self-Managed 容器 Sandbox 时需要额外安装和配置 gVisor，其他 Sandbox Provider 不要求在 RAGFlow 主机上安装 gVisor。
 
 > ⚠️ **提示：** 如果你尚未在本机安装 Docker（Windows、macOS 或 Linux），可以参考 [Install Docker Engine](https://docs.docker.com/engine/install/) 自行安装。
 
 #### 🚀 启动服务器
 
-1. 如果使用 Elasticsearch，将 Docker 主机的 `vm.max_map_count` 设置为至少 262144。使用 Infinity 时通常不需要执行此步骤：
+1. 如果使用 Elasticsearch，将 Docker 宿主机的 `vm.max_map_count` 设置为至少 262144。使用 Infinity 时则不需要执行此步骤：
 
    > 如需确认 `vm.max_map_count` 的大小：
    >
@@ -269,32 +283,38 @@ Docker 部署无需在宿主机安装 Go。使用 Self-Managed 容器 Sandbox �
    git clone https://github.com/infiniflow/ragflow.git
    ```
 
-3. 构建 Go 版镜像并使用 Go 版 Compose 配置启动服务器：
+3. 切换到发布标签并使用 Docker Compose 启动服务器：
 
-   > ⚠️ **提示：** Go 镜像的正式构建目标为 `linux/amd64`。详细平台、资源和 macOS 要求请参阅[Go Docker 镜像构建与平台支持说明](./docs/develop/build_docker_image.mdx)。
-
-   > 首次部署需要先构建 Go 镜像，构建时间取决于网络和机器性能。
-
-   将以下值写入 `docker/.env`：
-
-   ```dotenv
-   RAGFLOW_IMAGE=ragflow:go-local
-   ```
+   进入仓库中的 Docker 部署目录。
 
    ```bash
-   cd ragflow
-   docker build --platform linux/amd64 -f Dockerfile -t ragflow:go-local .
-   cd docker
-   docker compose --env-file .env -f docker-compose.yml up -d
+   cd ragflow/docker
    ```
 
-   默认 MySQL 配置下，Go 镜像入口会先执行数据库迁移，再通过 `bin/ragflow_server` 启动 Syncer、Admin、API 和 Ingestor。
+   切换到 `v1.0.0` 发布标签。
+
+   ```bash
+   git checkout v1.0.0
+   ```
+
+   在启动 RAGFlow 服务及其依赖服务。
+
+   ```bash
+   docker compose -f docker-compose.yml up -d
+   ```
+
+   > 💡 **镜像下载提示：** 如果无法从默认仓库拉取镜像，请先在 `docker/.env` 中将 `RAGFLOW_IMAGE` 设置为以下镜像源之一，并保留 `v1.0.0` 标签：
+   >
+   > - 华为云：`swr.cn-north-4.myhuaweicloud.com/infiniflow/ragflow:v1.0.0`
+   > - 阿里云：`registry.cn-hangzhou.aliyuncs.com/infiniflow/ragflow:v1.0.0`
+
+   默认 MySQL 配置下，镜像入口会先执行数据库迁移，再启动 Admin、Syncer、Ingestor 和 API 等服务。
 
    > RAGFlow 开源版 1.0 的 DeepDoc 版面分析、OCR 和表格识别使用 CPU 推理。
 
 4. 服务器启动成功后再次确认服务器状态：
 
-   使用 `docker compose --env-file .env -f docker-compose.yml ps` 检查依赖服务状态；依赖服务显示 `healthy` 且 RAGFlow 容器持续运行后，通过 HTTP 接口判断 RAGFlow 是否就绪（RAGFlow 容器本身未定义 Compose healthcheck）：
+   使用 `docker ps` 检查依赖服务状态；依赖服务显示 `healthy` 且 RAGFlow 容器持续运行后，通过 HTTP 接口判断 RAGFlow 是否就绪（RAGFlow 容器本身未定义 Compose healthcheck）：
 
    ```bash
    curl -f http://localhost/api/v1/system/healthz
@@ -305,13 +325,12 @@ Docker 部署无需在宿主机安装 Go。使用 Self-Managed 容器 Sandbox �
    如果服务启动异常，再查看对应容器日志：
 
    ```bash
-   # CPU 部署
-   docker compose --env-file .env -f docker-compose.yml logs --tail 50 ragflow-cpu
-
+   docker logs --tail 50 ragflow-cpu
    ```
 
 5. 在你的浏览器中输入你的服务器对应的 IP 地址并登录 RAGFlow。
    > 上面这个例子中，您只需输入 http://IP_OF_YOUR_MACHINE 即可：未改动过配置则无需输入端口（默认的 HTTP 服务端口 80）。
+
 6. 登录 RAGFlow 后，在模型提供商页面添加 LLM、Embedding 和 Reranker，并填写对应的模型名称、服务地址和 API key。
 
    > 详见 [llm_api_key_setup](https://ragflow.io/docs/dev/llm_api_key_setup)。
@@ -322,101 +341,95 @@ Docker 部署无需在宿主机安装 Go。使用 Self-Managed 容器 Sandbox �
 
 #### ⚙️ Docker 配置与调整
 
-Go 版 Docker 部署使用 `docker/.env` 和 `docker/docker-compose.yml`，使用 Kvrocks 存储缓存和 Checkpoint，并使用 NATS JetStream 作为消息队列。镜像、端口、密码、文档引擎及模型镜像源请按[Docker 配置说明](./docker/README.md)修改；平台限制和 macOS 运行要求请参阅[Go Docker 镜像构建与平台支持指南](./docs/develop/build_docker_image.mdx)。
+Docker 部署使用 `docker/.env` 和 `docker/docker-compose.yml`。镜像、端口、密码、文档引擎及模型镜像源请按[Docker 配置说明](./docker/README.md)修改；平台支持（注意：macOS 暂不受支持）请参阅[Go Docker 镜像构建与平台支持指南](./docs/develop/build_docker_image.mdx)。源码构建 Docker 镜像请参阅[Go Docker 镜像构建与平台支持指南](./docs/develop/build_docker_image.mdx)。
 
 切换文档引擎、修改配置后重启服务，以及保留或清理已有数据的操作，也请按照上述 Docker 配置文档执行。
 
-### 🔨 以源代码启动 Go 服务
+### 🔨 以源代码启动
 
 #### 📝 源码启动前提条件
 
-源码启动请安装 `go.mod` 中指定的 Go 版本（当前为 Go 1.27）、Clang 20、LLD 20、CMake ≥ 4.0、PCRE2 开发文件和 CGO 所需的原生库。仅开发 React 前端时需要 Node.js 和 npm。
-
-1. 克隆仓库，并安装 `go.mod` 中指定的 Go 版本（当前为 Go 1.27）、Clang 20、LLD 20、CMake ≥ 4.0，以及 PCRE2 开发文件。Go 服务依赖 CGO 和原生静态库；[build.sh](./build.sh) 会设置所需的构建参数。
+1. 克隆仓库，并安装 `go.mod` 中指定版本的 Go 编译器（当前为 Go 1.27）、Clang 20、LLD 20、CMake ≥ 4.0、PCRE2 开发文件 CGO 依赖的静态库；[build.sh](./build.sh) 会设置所需的构建参数。
 
    ```bash
    git clone https://github.com/infiniflow/ragflow.git
    cd ragflow
    ```
 
-2. 按 [Go 依赖下载脚本](./ragflow_deps/download_go_deps.py)准备原生库和模型文件，再编译 Go 服务：
+2. 运行依赖下载脚本，准备 Go 构建所需链接的原生静态库（`download_dev_deps.py`）与后端运行时加载的模型/分词器资源（`download_deps.py`）：
 
    ```bash
-   python3 -m venv /tmp/ragflow-go-download-venv
-   /tmp/ragflow-go-download-venv/bin/python -m pip install requests huggingface-hub
-   /tmp/ragflow-go-download-venv/bin/python ragflow_deps/download_go_deps.py
-   bash build.sh --all
+   uv run tools/scripts/download_dev_deps.py
+   uv run deps/download_deps.py
    ```
 
-   下载脚本负责准备 Go 构建所需的原生库和模型资源，并需要 `requests` 和 `huggingface-hub`。如果已通过其他方式准备好相同资源，可跳过这一步。Go 服务从仓库根目录启动时会自动查找 `rag/res/deepdoc`；如需从其他目录启动，请将 `DEEPDOC_MODEL_DIR` 设为该目录的绝对路径。
+   `download_dev_deps.py` 拉取并解压 pdfium、pdf_oxide、office_oxide、onnxruntime 等到 `~/ragflow-native-libs`；`download_deps.py` 拉取 cl100k 词表、DeepDoc 模型与 embedding 分词器资源到 `deps/`。两个脚本均为 Python 脚本，`uv run` 会自动安装其声明的依赖（`requests`，模型与分词器下载还需 `huggingface-hub`）。如果已通过其他方式准备好相同资源，可跳过这一步。Go 服务从仓库根目录启动时会自动查找 `internal/rag/res/deepdoc`；如需从其他目录启动，请将 `DEEPDOC_MODEL_DIR` 设为该目录的绝对路径。
 
-3. 启动本地依赖服务，并确认 **conf/service_conf.yaml** 中的主机与端口对应宿主机可访问的地址。Go 源码服务通过 `localhost:6379` 连接 Compose 暴露的 Kvrocks；Go Docker 服务则在容器网络中连接 Kvrocks。如果使用默认 Elasticsearch，还需先将 Docker 主机的 `vm.max_map_count` 设为至少 `262144`。
+3. 编译：
+
+   ```bash
+   ./build.sh --all
+   ```
+
+4. 启动本地依赖服务，并确认 **conf/service_conf.yaml** 中的主机与端口对应宿主机可访问的地址。如果使用 Elasticsearch，还需先将 Docker 主机的 `vm.max_map_count` 设为至少 `262144`。
 
    ```bash
    sudo sysctl -w vm.max_map_count=262144
-   docker compose --env-file docker/.env -f docker/docker-compose-base.yml \
-     up -d --wait es01 mysql minio nats kvrocks clickhouse
+   docker compose --env-file docker/.env -f docker/docker-compose-base.yml up -d --wait es01 mysql minio nats kvrocks
    ```
 
-4. 先迁移数据库，再分别在 5 个独立终端中按顺序启动 Go 服务（命令均在仓库根目录运行）。每次只在对应终端中执行该终端下方的命令，不要把所有命令一次性粘贴到同一个终端。迁移命令无需设置 `RAGFLOW_DEV_MODE`；开发环境中的 Admin、Ingestor、Syncer 和 API 按下方命令设置 `RAGFLOW_DEV_MODE=true`。迁移命令执行完成后即可关闭终端，其他 4 个服务终端需要保持运行。
-
-   终端 1：迁移数据库。
+5. 数据迁移：
 
    ```bash
    ./bin/ragflow_server --migrate
    ```
 
-   终端 2：启动 Admin（目标端口 `9381`）。
+6. 启动 4 个终端分别启动 4 个服务：
+
+   终端 1：启动 Admin，监听端口 `9381`。
 
    ```bash
-   RAGFLOW_DEV_MODE=true ./bin/ragflow_server --admin
+   ./bin/ragflow_server --admin
    ```
-
-   终端 3：启动 Ingestor。
 
    ```bash
-   RAGFLOW_DEV_MODE=true ./bin/ragflow_server --ingestor
+   ./bin/ragflow_server --ingestor
    ```
 
-   终端 4：启动 Syncer。
+   终端 3：启动 Syncer。
 
    ```bash
-   RAGFLOW_DEV_MODE=true ./bin/ragflow_server --syncer
+   ./bin/ragflow_server --syncer
    ```
 
-   终端 5：启动 API（目标端口 `9380`）。
+   终端 4：启动 API，监听端口 `9380`。
 
    ```bash
-   RAGFLOW_DEV_MODE=true ./bin/ragflow_server --api
+   ./bin/ragflow_server --api
    ```
 
-   各启动模式的作用如下：
+   各启动参数的作用如下：
 
    - `--migrate`：执行数据库迁移，完成后即可退出。
    - `--admin`：启动 Admin 服务，负责管理和初始化操作。
    - `--ingestor`：启动 Ingestor 服务，负责数据摄取和解析任务。
-   - `--syncer`：启动 Syncer 服务，负责数据同步任务。
-   - `--api`：启动 API 服务，为 Web、SDK 和外部客户端提供接口。
+   - `--syncer`：启动 Syncer 服务，负责外部数据源的数据同步任务。
+   - `--api`：启动 API 服务，为 Web 和 SDK 提供 API 接口。
 
-   `RAGFLOW_DEV_MODE=true` 仅用于开发环境关闭代码版本与数据库迁移版本之间的降级检查，不会执行迁移或改变数据库结构，生产部署不要设置此变量。Admin 应先于其他服务启动。数据库迁移完成后，`RAGFLOW_DEV_MODE=true bash build.sh --run` 可作为便捷方式启动 Admin、Ingestor 和 API；该命令不启动 Syncer，需要完整服务链路时仍应另行执行 `RAGFLOW_DEV_MODE=true ./bin/ragflow_server --syncer`。
-
-5. 仅在前端开发时安装 Node.js 和 npm，然后启动 React 前端：
+7. 仅在前端开发时安装 Node.js 和 npm，然后启动 React 前端：
 
    ```bash
    cd web
    npm install
-   API_PROXY_SCHEME=go npm run dev
    ```
 
-   服务启动后，在另一个终端确认 Go API 已就绪：
+   服务启动后，运行下面命令来确认 API 服务已就绪：
 
    ```bash
    curl -f http://127.0.0.1:9380/api/v1/system/healthz
    ```
 
-   返回 HTTP 200 表示 API 可以正常响应。前端、ClickHouse 和 DeepDoc 的完整验证步骤请参阅[从源代码启动服务](./docs/develop/launch_ragflow_from_source.md#5-verify-the-startup)。
-
-   开发结束时，在各服务终端按 `Ctrl+C` 停止进程。如需停止依赖但保留容器以便下次使用，运行 `docker compose --env-file docker/.env -f docker/docker-compose-base.yml stop es01 mysql minio nats kvrocks clickhouse`；如需删除依赖容器和 Compose 网络但保留命名数据卷，运行 `docker compose --env-file docker/.env -f docker/docker-compose-base.yml down`。
+   返回 HTTP 200 表示 API 可以正常响应。前端 和 DeepDoc 的完整验证步骤请参阅[从源代码启动服务](./docs/develop/launch_ragflow_from_source.md#5-verify-the-startup)。
 
 详情请见 [从源代码启动服务](./docs/develop/launch_ragflow_from_source.md)。
 

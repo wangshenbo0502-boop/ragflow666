@@ -17,9 +17,11 @@ import { getAuthorization } from '@/utils/authorization-util';
 import { EventSourceParserStream } from 'eventsource-parser/stream';
 
 export type ChatCompletionStreamParams = {
+  messageId?: string;
   chatId?: string;
   sessionId: string;
-  messages: IMessage[];
+  question: string;
+  files?: IMessage['files'];
   enableThinking?: string;
   enableInternet?: boolean;
   llmSetting?: Variable;
@@ -40,9 +42,11 @@ function normalizeThinkingForRequest(thinking?: Variable['thinking']) {
 
 export function requestChatCompletionStream(
   {
+    messageId,
     chatId,
     sessionId,
-    messages,
+    question,
+    files,
     enableThinking,
     enableInternet,
     llmSetting,
@@ -68,8 +72,13 @@ export function requestChatCompletionStream(
     body: JSON.stringify({
       chat_id: chatId,
       session_id: sessionId,
-      messages,
-      pass_all_history_messages: true,
+      ...(messageId
+        ? {
+            messages: [
+              { id: messageId, role: 'user', content: question, files },
+            ],
+          }
+        : { question, files }),
       reasoning: Number(enableThinking),
       internet: enableInternet,
       ...(temperature === undefined ? {} : { temperature }),

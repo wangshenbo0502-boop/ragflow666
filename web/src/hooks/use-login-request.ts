@@ -16,16 +16,13 @@
 
 import message from '@/components/ui/message';
 import { Authorization } from '@/constants/authorization';
-import userService, {
-  getLoginChannels,
-  loginWithChannel,
-} from '@/services/user-service';
+import userService from '@/services/user-service';
 import {
   default as authorizationUtil,
   redirectToLogin,
   default as storage,
 } from '@/utils/authorization-util';
-import { useMutation, useQuery } from '@tanstack/react-query';
+import { useMutation } from '@tanstack/react-query';
 import { useTranslation } from 'react-i18next';
 import { useSaveSetting } from './use-user-setting-request';
 
@@ -38,36 +35,6 @@ export interface IRegisterRequestBody extends ILoginRequestBody {
   nickname: string;
 }
 
-export interface ILoginChannel {
-  channel: string;
-  display_name: string;
-  icon: string;
-}
-
-export const useLoginChannels = () => {
-  const { data, isLoading } = useQuery({
-    queryKey: ['loginChannels'],
-    queryFn: async () => {
-      const { data: res = {} } = await getLoginChannels();
-      return res.data || [];
-    },
-  });
-
-  return { channels: data as ILoginChannel[], loading: isLoading };
-};
-
-export const useLoginWithChannel = () => {
-  const { isPending: loading, mutateAsync } = useMutation({
-    mutationKey: ['loginWithChannel'],
-    mutationFn: async (channel: string) => {
-      loginWithChannel(channel);
-      return Promise.resolve();
-    },
-  });
-
-  return { loading, login: mutateAsync };
-};
-
 export const useLogin = () => {
   const { saveSetting } = useSaveSetting(true);
   const {
@@ -79,10 +46,6 @@ export const useLogin = () => {
     mutationFn: async (params: { email: string; password: string }) => {
       const { data: res = {}, response } = await userService.login(params);
       if (res.code === 0) {
-        // The language is based on the .lng stored in the client's local storage.
-        // The language stored in the database is for agent template resources,
-        // since the agent template resources are stored on the server.
-        saveSetting({ language: storage.getLanguage() });
         const { data } = res;
         const authorization = response.headers.get(Authorization);
         const token = data.access_token;
@@ -91,11 +54,13 @@ export const useLogin = () => {
           name: data.nickname,
           email: data.email,
         };
-        authorizationUtil.setItems({
-          Authorization: authorization,
+        authorizationUtil.saveLoginCredentials({
+          authorization,
+          token,
           userInfo: JSON.stringify(userInfo),
-          Token: token,
         });
+        // Keep server-rendered templates in the browser's selected language.
+        saveSetting({ language: storage.getLanguage() });
       }
       return res.code;
     },

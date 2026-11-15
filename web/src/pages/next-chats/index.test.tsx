@@ -32,6 +32,15 @@ jest.mock('@/components/ui/ragflow-pagination', () => ({
 jest.mock('@/components/rename-dialog', () => ({
   RenameDialog: () => null,
 }));
+jest.mock(
+  '@/ee/components/privilege-management/privilege-management-dialog',
+  () => ({
+    PrivilegeManagementDialog: () => null,
+  }),
+);
+jest.mock('@/ee/pages/next-chats/use-show-privilege-dialog', () => ({
+  useShowPrivilegeDialog: () => ({}),
+}));
 jest.mock('./hooks/use-rename-chat', () => ({
   useRenameChat: () => ({}),
 }));
@@ -47,6 +56,9 @@ jest.mock('@/components/rail-scroll-heading', () => ({
 }));
 jest.mock('@/components/rail-scroll-diagram', () => ({
   RailScrollDiagram: () => null,
+}));
+jest.mock('@/components/rail-archive-diagram', () => ({
+  RailArchiveDiagram: () => null,
 }));
 jest.mock('../home/equipment-intake', () => ({
   EquipmentIntake: () => null,

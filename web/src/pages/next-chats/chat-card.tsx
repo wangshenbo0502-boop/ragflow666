@@ -44,12 +44,16 @@ function getScene(data: IDialog): RailwayScene | undefined {
   return undefined;
 }
 
-type ChatCardProps = { data: IDialog } & Pick<
+type ChatCardProps = { data: IDialog; showPrivilegeModal(): void } & Pick<
   ReturnType<typeof useRenameChat>,
   'showChatRenameModal'
 >;
 
-export function ChatCard({ data, showChatRenameModal }: ChatCardProps) {
+export function ChatCard({
+  data,
+  showChatRenameModal,
+  showPrivilegeModal,
+}: ChatCardProps) {
   const scene = getScene(data);
   const detail = scene ? SceneDetails[scene] : undefined;
   const Icon = detail?.icon || MessagesSquare;
@@ -72,7 +76,11 @@ export function ChatCard({ data, showChatRenameModal }: ChatCardProps) {
         </div>
         <ArrowUpRight className="rail-assistant-arrow size-5" />
       </Link>
-      <ChatDropdown chat={data} showChatRenameModal={showChatRenameModal}>
+      <ChatDropdown
+        chat={data}
+        showChatRenameModal={showChatRenameModal}
+        showPrivilegeModal={showPrivilegeModal}
+      >
         <MoreButton
           className="!opacity-100 !size-7"
           aria-label={`${data.name}的操作`}

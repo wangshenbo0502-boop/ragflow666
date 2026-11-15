@@ -33,7 +33,7 @@ function useLazyRef<T>(fn: () => T) {
     ref.current = fn();
   }
 
-  return ref as React.RefObject<T>;
+  return ref as React.MutableRefObject<T>;
 }
 
 type Direction = 'ltr' | 'rtl';
@@ -130,6 +130,7 @@ function createStore(
             ...fileState,
             progress: action.progress,
             status: 'uploading',
+            error: undefined,
           });
         }
         return { ...state, files };
@@ -142,6 +143,7 @@ function createStore(
             ...fileState,
             progress: 100,
             status: 'success',
+            error: undefined,
           });
         }
         return { ...state, files };
@@ -405,6 +407,47 @@ function FileUploadRoot(props: FileUploadRootProps) {
     };
   }, [files, urlCache]);
 
+  const onFilesUpload = React.useCallback(
+    async (files: File[]) => {
+      try {
+        for (const file of files) {
+          store.dispatch({ type: 'SET_PROGRESS', file, progress: 0 });
+        }
+
+        if (onUpload) {
+          await onUpload(files, {
+            onProgress,
+            onSuccess: (file) => {
+              store.dispatch({ type: 'SET_SUCCESS', file });
+            },
+            onError: (file, error) => {
+              store.dispatch({
+                type: 'SET_ERROR',
+                file,
+                error: error.message ?? 'Upload failed',
+              });
+            },
+          });
+        } else {
+          for (const file of files) {
+            store.dispatch({ type: 'SET_SUCCESS', file });
+          }
+        }
+      } catch (error) {
+        const errorMessage =
+          error instanceof Error ? error.message : 'Upload failed';
+        for (const file of files) {
+          store.dispatch({
+            type: 'SET_ERROR',
+            file,
+            error: errorMessage,
+          });
+        }
+      }
+    },
+    [store, onUpload, onProgress],
+  );
+
   const onFilesChange = React.useCallback(
     (originalFiles: File[]) => {
       if (disabled) return;
@@ -528,6 +571,7 @@ function FileUploadRoot(props: FileUploadRootProps) {
       onAccept,
       onFileAccept,
       onUpload,
+      onFilesUpload,
       maxFiles,
       onFileValidate,
       onFileReject,
@@ -535,47 +579,6 @@ function FileUploadRoot(props: FileUploadRootProps) {
       maxSize,
       disabled,
     ],
-  );
-
-  const onFilesUpload = React.useCallback(
-    async (files: File[]) => {
-      try {
-        for (const file of files) {
-          store.dispatch({ type: 'SET_PROGRESS', file, progress: 0 });
-        }
-
-        if (onUpload) {
-          await onUpload(files, {
-            onProgress,
-            onSuccess: (file) => {
-              store.dispatch({ type: 'SET_SUCCESS', file });
-            },
-            onError: (file, error) => {
-              store.dispatch({
-                type: 'SET_ERROR',
-                file,
-                error: error.message ?? 'Upload failed',
-              });
-            },
-          });
-        } else {
-          for (const file of files) {
-            store.dispatch({ type: 'SET_SUCCESS', file });
-          }
-        }
-      } catch (error) {
-        const errorMessage =
-          error instanceof Error ? error.message : 'Upload failed';
-        for (const file of files) {
-          store.dispatch({
-            type: 'SET_ERROR',
-            file,
-            error: errorMessage,
-          });
-        }
-      }
-    },
-    [store, onUpload, onProgress],
   );
 
   const onInputChange = React.useCallback(
@@ -640,11 +643,15 @@ function FileUploadRoot(props: FileUploadRootProps) {
 
 interface FileUploadDropzoneProps extends React.ComponentPropsWithoutRef<'div'> {
   asChild?: boolean;
+  openOnClick?: boolean;
+  openOnKeyDown?: boolean;
 }
 
 function FileUploadDropzone(props: FileUploadDropzoneProps) {
   const {
     asChild,
+    openOnClick = true,
+    openOnKeyDown = true,
     className,
     onClick: onClickProp,
     onDragOver: onDragOverProp,
@@ -665,7 +672,7 @@ function FileUploadDropzone(props: FileUploadDropzoneProps) {
     (event: React.MouseEvent<HTMLDivElement>) => {
       onClickProp?.(event);
 
-      if (event.defaultPrevented) return;
+      if (event.defaultPrevented || context.disabled || !openOnClick) return;
 
       const target = event.target;
 
@@ -677,31 +684,33 @@ function FileUploadDropzone(props: FileUploadDropzoneProps) {
         context.inputRef.current?.click();
       }
     },
-    [context.inputRef, onClickProp],
+    [context.inputRef, context.disabled, openOnClick, onClickProp],
   );
 
   const onDragOver = React.useCallback(
     (event: React.DragEvent<HTMLDivElement>) => {
       onDragOverProp?.(event);
 
-      if (event.defaultPrevented) return;
+      if (event.defaultPrevented || context.disabled) return;
+      if (!event.dataTransfer.types.includes('Files')) return;
 
       event.preventDefault();
       store.dispatch({ type: 'SET_DRAG_OVER', dragOver: true });
     },
-    [store, onDragOverProp],
+    [store, context.disabled, onDragOverProp],
   );
 
   const onDragEnter = React.useCallback(
     (event: React.DragEvent<HTMLDivElement>) => {
       onDragEnterProp?.(event);
 
-      if (event.defaultPrevented) return;
+      if (event.defaultPrevented || context.disabled) return;
+      if (!event.dataTransfer.types.includes('Files')) return;
 
       event.preventDefault();
       store.dispatch({ type: 'SET_DRAG_OVER', dragOver: true });
     },
-    [store, onDragEnterProp],
+    [store, context.disabled, onDragEnterProp],
   );
 
   const onDragLeave = React.useCallback(
@@ -735,6 +744,7 @@ function FileUploadDropzone(props: FileUploadDropzoneProps) {
       store.dispatch({ type: 'SET_DRAG_OVER', dragOver: false });
 
       const files = Array.from(event.dataTransfer.files);
+      if (context.disabled || files.length === 0) return;
       const inputElement = context.inputRef.current;
       if (!inputElement) return;
 
@@ -746,17 +756,14 @@ function FileUploadDropzone(props: FileUploadDropzoneProps) {
       inputElement.files = dataTransfer.files;
       inputElement.dispatchEvent(new Event('change', { bubbles: true }));
     },
-    [store, context.inputRef, onDropProp],
+    [store, context.inputRef, context.disabled, onDropProp],
   );
 
   const onPaste = React.useCallback(
     (event: React.ClipboardEvent<HTMLDivElement>) => {
       onPasteProp?.(event);
 
-      if (event.defaultPrevented) return;
-
-      event.preventDefault();
-      store.dispatch({ type: 'SET_DRAG_OVER', dragOver: false });
+      if (event.defaultPrevented || context.disabled) return;
 
       const items = event.clipboardData?.items;
       if (!items) return;
@@ -774,6 +781,8 @@ function FileUploadDropzone(props: FileUploadDropzoneProps) {
 
       if (files.length === 0) return;
 
+      event.preventDefault();
+      store.dispatch({ type: 'SET_DRAG_OVER', dragOver: false });
       const inputElement = context.inputRef.current;
       if (!inputElement) return;
 
@@ -785,7 +794,7 @@ function FileUploadDropzone(props: FileUploadDropzoneProps) {
       inputElement.files = dataTransfer.files;
       inputElement.dispatchEvent(new Event('change', { bubbles: true }));
     },
-    [store, context.inputRef, onPasteProp],
+    [store, context.inputRef, context.disabled, onPasteProp],
   );
 
   const onKeyDown = React.useCallback(
@@ -794,13 +803,15 @@ function FileUploadDropzone(props: FileUploadDropzoneProps) {
 
       if (
         !event.defaultPrevented &&
+        !context.disabled &&
+        openOnKeyDown &&
         (event.key === 'Enter' || event.key === ' ')
       ) {
         event.preventDefault();
         context.inputRef.current?.click();
       }
     },
-    [context.inputRef, onKeyDownProp],
+    [context.inputRef, context.disabled, openOnKeyDown, onKeyDownProp],
   );
 
   const DropzonePrimitive = asChild ? Slot : 'div';
@@ -1150,6 +1161,7 @@ function FileUploadItemMetadata(props: FileUploadItemMetadataProps) {
         <>
           <span
             id={itemContext.nameId}
+            title={itemContext.fileState.file.name}
             className={cn(
               'truncate font-medium text-sm',
               size === 'sm' && 'font-normal text-[13px] leading-snug',
@@ -1169,7 +1181,7 @@ function FileUploadItemMetadata(props: FileUploadItemMetadataProps) {
           {itemContext.fileState.error && (
             <span
               id={itemContext.messageId}
-              className="text-destructive text-xs"
+              className="break-words text-destructive text-xs"
             >
               {itemContext.fileState.error}
             </span>

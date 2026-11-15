@@ -26,6 +26,7 @@ import { IRemoveMessageById } from '@/hooks/logic-hooks';
 import { cn } from '@/lib/utils';
 import { removeThinkSection } from '@/utils/chat';
 import {
+  Loader2,
   LucidePauseCircle,
   LucideRefreshCw,
   LucideThumbsDown,
@@ -65,7 +66,10 @@ export const AssistantGroupButton = ({
     showModal: showPromptModal,
   } = useSetModalState();
   const { t } = useTranslation();
-  const { handleRead, ref, isPlaying } = useSpeech(content, audioBinary);
+  const { handleRead, ref, isPlaying, isLoading } = useSpeech(
+    content,
+    audioBinary,
+  );
 
   const copyText = useMemo(() => removeThinkSection(content), [content]);
 
@@ -76,7 +80,7 @@ export const AssistantGroupButton = ({
   return (
     <>
       <div
-        className="flex gap-1 opacity-0 transition-opacity group-hover:opacity-100"
+        className="flex gap-1 opacity-100 transition-opacity md:opacity-0 md:group-hover:opacity-100 focus-within:opacity-100"
         role="toolbar"
       >
         <CopyToClipboard
@@ -97,14 +101,20 @@ export const AssistantGroupButton = ({
                   onClick={handleRead}
                 >
                   <span>
-                    {isPlaying ? <LucidePauseCircle /> : <LucideVolume2 />}
+                    {isLoading ? (
+                      <Loader2 className="animate-spin" />
+                    ) : isPlaying ? (
+                      <LucidePauseCircle />
+                    ) : (
+                      <LucideVolume2 />
+                    )}
                   </span>
                 </Button>
               </TooltipTrigger>
               <TooltipContent>{t('chat.read')}</TooltipContent>
             </Tooltip>
 
-            <audio src="" ref={ref}></audio>
+            <audio ref={ref}></audio>
           </>
         )}
         {showLikeButton && (
@@ -163,12 +173,14 @@ interface UserGroupButtonProps extends Partial<IRemoveMessageById> {
   content: string;
   regenerateMessage?: () => void;
   sendLoading: boolean;
+  deleteDisabled?: boolean;
 }
 
 export const UserGroupButton = ({
   content,
   messageId,
   sendLoading,
+  deleteDisabled = false,
   removeMessageById,
   regenerateMessage,
 }: UserGroupButtonProps) => {
@@ -179,7 +191,7 @@ export const UserGroupButton = ({
   const { t } = useTranslation();
 
   return (
-    <div className="flex gap-1 opacity-0 transition-opacity group-hover:opacity-100">
+    <div className="flex gap-1 opacity-100 transition-opacity md:opacity-0 md:group-hover:opacity-100 focus-within:opacity-100">
       <CopyToClipboard
         text={content}
         className="border-0"
@@ -211,7 +223,8 @@ export const UserGroupButton = ({
               size="icon-xs"
               className="border-0"
               onClick={onRemoveMessage}
-              disabled={loading}
+              disabled={loading || deleteDisabled}
+              aria-label={t('common.delete')}
             >
               <LucideTrash2 />
             </Button>

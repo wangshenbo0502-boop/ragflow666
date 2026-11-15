@@ -1,0 +1,118 @@
+{
+  "name": "演示编译 04 规章知识 Wiki",
+  "description": "按操作主题在知识库级汇总规章和 FAQ，保留可追溯出处。",
+  "templates": [
+    {
+      "kind": "wiki",
+      "name": "规章与问答 Wiki",
+      "config": {
+        "claim": {
+          "fields": [
+            {
+              "statement": "A complete factual sentence stated in the source. Any sentence of the form 'X is Y', 'X has Y', 'X does Y', 'X was founded in Y', 'X is located in Y', 'X reported Y', etc. is a claim. Aim for at least 1-3 claims per entity per chunk that mentions it.",
+              "subject": "Entity/concept this claim is about (must match one of the entity/concept names extracted above)."
+            }
+          ]
+        },
+        "concept": {
+          "fields": [
+            {
+              "definition_excerpt": "Verbatim or near-verbatim defining phrase from the chunk.",
+              "term": "Concept name OR a thematic section topic (prefer the source's heading wording when coherent)."
+            }
+          ]
+        },
+        "entity": {
+          "description": "You are a robust graph entity extractor for knowledge graphs.",
+          "fields": [
+            {
+              "description": "A natural person (individual human).",
+              "rule": "- Full name preferred (e.g., \"Elon Musk\", not \"Musk\" alone if ambiguous).\n- Include titles only if integral to identity (e.g., \"Dr. Smith\").\n- Max length: 60 characters.\n",
+              "type": "person"
+            },
+            {
+              "description": "Organization, company, institution, agency, or any collective group.",
+              "rule": "- Use the official name when possible (e.g., \"United Nations\").\n- Abbreviations accepted if widely known (e.g., \"UN\", \"NASA\").\n- Max length: 80 characters.\n",
+              "type": "org"
+            },
+            {
+              "description": "Tangible or intangible product, service, software, or offering.",
+              "rule": "- Include version numbers if relevant (e.g., \"iPhone 14\").\n- Generic categories (e.g., \"smartphone\") only if no specific name is given.\n- Max length: 100 characters.\n",
+              "type": "product"
+            },
+            {
+              "description": "Law, policy, standard, guideline, or regulatory document.",
+              "rule": "- Use official title or identifier (e.g., \"GDPR\", \"OSHA standard 1910\").\n- Include jurisdiction if known (e.g., \"EU GDPR\").\n- Max length: 120 characters.\n",
+              "type": "regulation"
+            },
+            {
+              "description": "Geographic place (country, city, address, region, natural feature).",
+              "rule": "- Hierarchical format allowed (e.g., \"Paris, France\").\n- Avoid overly vague terms (e.g., \"there\") unless resolved.\n- Max length: 80 characters.\n",
+              "type": "location"
+            },
+            {
+              "description": "Technical system, platform, framework, or infrastructure.",
+              "rule": "- Distinct from product: system implies integrated environment\n  (e.g., \"Linux OS\", \"power grid\").\n- Use proper naming.\n- Max length: 100 characters.\n",
+              "type": "system"
+            },
+            {
+              "description": "Physical device, machinery, hardware, or tool.",
+              "rule": "- Specific model preferred (e.g., \"Boeing 737\").\n- Generic allowed only if precise type (e.g., \"drill press\").\n- Max length: 80 characters.\n",
+              "type": "equipment"
+            },
+            {
+              "description": "Entities that do not fit any above category.",
+              "rule": "- Use sparingly; prefer mapping to a defined type when possible.\n- Still provide a meaningful label.\n- Max length: 80 characters.\n",
+              "type": "other"
+            }
+          ]
+        },
+        "example": "- Page structure could be as following: (Not provided)\n",
+        "global_rules": "围绕巡检提交、资料复核、归档与纠正四类主题编写简洁中文条目。保留条款编号、入口、时限、操作前提与证据来源，冲突或缺证时列为待确认。",
+        "instruction": "- Each page must be a proper encyclopedic article, NOT a flat bullet list:\n- 1. Opening paragraph (2-4 sentences defining what this is). No heading.\n- 2. Sections with H2 headings, each starting with prose before sub-bullets.\n- 3. Bold key terms on first use; link them with [[ ]] wikilinks.\n- 4. Examples or implications where the source provides them.\n- 5. End with a \"## See also\" section listing wikilinks to highly related pages (less than 12).\n",
+        "kind": "wiki",
+        "mode": "topic",
+        "relation": {
+          "description": "You are an expert in extracting semantic relations between entities.",
+          "fields": [
+            {
+              "description": "Ownership or possession (legal or de facto).",
+              "rule": "- Direction from owner to owned: (A owns B).\n- Example: \"Company A owns product B\".\n",
+              "type": "owns"
+            },
+            {
+              "description": "Mereological relation — component to whole.",
+              "rule": "- Direction from part to whole: (A part_of B).\n- Example: \"Engine part_of car\".\n",
+              "type": "part_of"
+            },
+            {
+              "description": "Causal relation — event, action, or state leads to another.",
+              "rule": "- Direction from effect to cause: (A caused_by B) meaning B causes A.\n- Example: \"Accident caused_by brake failure\".\n",
+              "type": "caused_by"
+            },
+            {
+              "description": "Regulatory or governing relation (law/standard controls entity).",
+              "rule": "- Direction from regulator to regulated: (A regulates B).\n- Example: \"GDPR regulates data processing\".\n",
+              "type": "regulates"
+            },
+            {
+              "description": "Utilization — an entity employs or consumes another entity.",
+              "rule": "- Direction from user to used: (A uses B).\n- Example: \"System uses equipment\".\n",
+              "type": "uses"
+            },
+            {
+              "description": "Spatial containment — entity situated inside a location.",
+              "rule": "- Direction from located entity to containing location: (A located_in B).\n- Example: \"Office located_in city\".\n",
+              "type": "located_in"
+            },
+            {
+              "description": "Any meaningful relation not covered by the above types.",
+              "rule": "- Provide an explicit label in a \"relation_label\" field.\n- Direction must be clear.\n",
+              "type": "other"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

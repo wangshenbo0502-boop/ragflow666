@@ -48,11 +48,14 @@ export function useRailMotion(pageRef: RefObject<HTMLElement>) {
             '.rail-capability-scene',
           );
           const travel = bounds.height - (scene?.offsetHeight ?? height);
+          const entry = stage.hasAttribute('data-rail-diagram-entry');
           const progress = preference.matches
             ? 1
-            : travel > 1
-              ? clamp(-top / travel)
-              : clamp((height * 0.85 - top) / (height * 0.95));
+            : entry
+              ? clamp((height * 0.95 - top) / (height * 0.8))
+              : travel > 1
+                ? clamp(-top / travel)
+                : clamp((height * 0.85 - top) / (height * 0.95));
           stage.style.setProperty('--rail-diagram', String(progress));
           stage
             .querySelectorAll<SVGElement>('[data-rail-trace]')

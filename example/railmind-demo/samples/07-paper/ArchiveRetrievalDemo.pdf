@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 703 >>
+stream
+BT /F1 21 Tf 56 742 Td (Comparing Chunking for Archive Retrieval) Tj ET
+BT /F1 14 Tf 56 690 Td (1 Introduction) Tj ET
+BT /F1 14 Tf 318 690 Td (3 Observations) Tj ET
+BT /F1 10 Tf 56 660 Td (This fictional study defines the RAIL-PAPER-17) Tj ET
+BT /F1 10 Tf 318 660 Td (Row-level chunks preserve record attributes.) Tj ET
+BT /F1 10 Tf 56 642 Td (sample dataset for archive search evaluation.) Tj ET
+BT /F1 10 Tf 318 642 Td (Title-aware chunks make clauses traceable.) Tj ET
+BT /F1 14 Tf 56 601 Td (2 Method) Tj ET
+BT /F1 14 Tf 318 601 Td (4 Scope) Tj ET
+BT /F1 10 Tf 56 568 Td (Evaluate passages using recall at five results.) Tj ET
+BT /F1 10 Tf 318 568 Td (No production test results are reported.) Tj ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1065
+%%EOF

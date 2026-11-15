@@ -32,7 +32,10 @@ import { pick } from 'lodash';
 import { useMemo } from 'react';
 import { ShowManageMetadataModalProps } from '../components/metedata/interface';
 import ProcessLogModal from '../process-log-modal';
-import { ChangeParserDialog } from './change-parser-dialog';
+import {
+  ChangeParserDialog,
+  ReparseConfirmDialog,
+} from './change-parser-dialog';
 import { useShowLog } from './hooks';
 import { useChangeDocumentParser } from './use-change-document-parser';
 import { useDatasetTableColumns } from './use-dataset-table-columns';
@@ -70,6 +73,9 @@ export function DatasetTable({
     hideChangeParserModal,
     showChangeParserModal,
     changeParserRecord,
+    reparseVisible,
+    hideReparseModal,
+    confirmReparse,
   } = useChangeDocumentParser();
 
   const {
@@ -191,10 +197,17 @@ export function DatasetTable({
       {changeParserVisible && (
         <ChangeParserDialog
           record={changeParserRecord}
-          visible={changeParserVisible}
           onOk={onChangeParserOk}
           hideModal={hideChangeParserModal}
           loading={changeParserLoading}
+        />
+      )}
+
+      {reparseVisible && (
+        <ReparseConfirmDialog
+          visible={reparseVisible}
+          onOk={confirmReparse}
+          onCancel={hideReparseModal}
         />
       )}
 

@@ -25,6 +25,7 @@ import { citationMarkerReg } from '@/utils/citation-utils';
 import { getExtension } from '@/utils/document-util';
 import { supportsSourceLocate } from '@/utils/source-locate';
 import { getDirAttribute } from '@/utils/text-direction';
+import * as HoverCardPrimitive from '@radix-ui/react-hover-card';
 import DOMPurify from 'dompurify';
 import { memo, useCallback, useEffect, useMemo } from 'react';
 import Markdown from 'react-markdown';
@@ -41,6 +42,7 @@ import 'katex/dist/katex.min.css'; // `rehype-katex` does not import the CSS for
 import { useFetchDocumentThumbnailsByIds } from '@/hooks/use-document-request';
 import { useLoadingPause } from '@/hooks/use-loading-pause';
 import {
+  decodeAngleBracketEntities,
   escapeUnmatchedAngleBrackets,
   parseCitationIndex,
   preprocessLaTeX,
@@ -63,6 +65,40 @@ import {
 import styles from './index.module.less';
 import { sanitizeHtmlWithImagesAsText } from '@/utils/dom-util';
 import { SafeImg } from '@/components/safe-img';
+import { ChatMediaAudio } from '@/components/chat-media-audio';
+
+const MarkdownLink = ({ href, children, title }: any) => {
+  if (
+    /^\/api\/v1\/chats\/[a-f0-9]+\/sessions\/[a-f0-9]+\/media\/[a-f0-9]{32}\.wav$/.test(
+      href ?? '',
+    )
+  ) {
+    return <ChatMediaAudio src={href} />;
+  }
+  return (
+    <a title={title} href={href}>
+      {children}
+    </a>
+  );
+};
+
+const MarkdownImage = ({ src, alt, title }: any) => {
+  if (
+    /^\/api\/v1\/chats\/[a-f0-9]+\/sessions\/[a-f0-9]+\/media\/[a-f0-9]{32}\.(png|jpg|webp)$/.test(
+      src ?? '',
+    )
+  ) {
+    return (
+      <AuthenticatedImg
+        alt={alt ?? ''}
+        title={title}
+        src={src}
+        className="max-w-full h-auto"
+      />
+    );
+  }
+  return <SafeImg alt={alt} title={title} src={src} />;
+};
 
 const getChunkIndex = (match: string) => parseCitationIndex(match);
 const ReferenceMarkerReg = /(\[(?:ID:)?[0-9\u0660-\u0669\u06F0-\u06F9]+\])/g;
@@ -103,6 +139,9 @@ const MarkdownCode = (props: any) => {
   const { children, className, ...rest } = props;
   const restProps = omit(rest, 'node');
   const match = /language-(\w+)/.exec(className || '');
+  // Code content is literal for react-markdown, so the &lt;/&gt; entities
+  // restored by unescapeAngleBrackets survive parsing; decode them back.
+  const codeText = decodeAngleBracketEntities(String(children));
   return match ? (
     <SyntaxHighlighter
       {...restProps}
@@ -110,20 +149,13 @@ const MarkdownCode = (props: any) => {
       language={match[1]}
       wrapLongLines
     >
-      {String(children).replace(/\n$/, '')}
+      {codeText.replace(/\n$/, '')}
     </SyntaxHighlighter>
   ) : (
     <code {...restProps} className={classNames(className, 'text-wrap')}>
-      {children}
+      {codeText}
     </code>
   );
-};
-
-const formatMetadataValue = (value: unknown) => {
-  if (Array.isArray(value)) return value.join(', ');
-  if (value === null || value === undefined) return '';
-  if (typeof value === 'object') return JSON.stringify(value);
-  return String(value);
 };
 
 // TODO: The display of the table is inconsistent with the display previously placed in the MessageItem.
@@ -170,6 +202,8 @@ const MarkdownContent = ({
         (value: string) => replaceThinkToSection(value, thinkSummary),
         replaceRetrievingToSection,
         preprocessLaTeX,
+        // Entity decoding can expose a line-leading > after the first escape.
+        escapeUnmatchedAngleBrackets,
       )(nextText),
     );
   }, [content, loading, t]);
@@ -200,6 +234,12 @@ const MarkdownContent = ({
           return;
         }
         if (!documentUrl) return;
+        // Web page documents carry their own url; opening the internal
+        // /document route for them lands on an empty page.
+        if (/^https?:\/\//i.test(documentUrl)) {
+          window.open(documentUrl, '_blank', 'noopener,noreferrer');
+          return;
+        }
         window.open(
           `/document/${documentId}?ext=${fileExtension}&resource=${'document'}`,
           '_blank',
@@ -274,21 +314,6 @@ const MarkdownContent = ({
               className={classNames(styles.chunkContentText)}
               dir="auto"
             ></div>
-            {chunkItem?.document_metadata &&
-              Object.keys(chunkItem.document_metadata).length > 0 && (
-                <section className="space-y-1 border border-border-default rounded p-2">
-                  {Object.entries(chunkItem.document_metadata).map(
-                    ([key, value]) => (
-                      <div key={key} className="text-xs">
-                        <span className="text-text-secondary">{key}:</span>{' '}
-                        <span className="text-text-primary">
-                          {formatMetadataValue(value)}
-                        </span>
-                      </div>
-                    ),
-                  )}
-                </section>
-              )}
             {documentId && (
               <section className="flex gap-1">
                 {fileThumbnail ? (
@@ -348,9 +373,11 @@ const MarkdownContent = ({
                 </bdi>
               </HoverCardTrigger>
               {hasReference && (
-                <HoverCardContent className="max-w-3xl">
-                  {getPopoverContent(chunkIndex)}
-                </HoverCardContent>
+                <HoverCardPrimitive.Portal>
+                  <HoverCardContent className="max-w-3xl">
+                    {getPopoverContent(chunkIndex)}
+                  </HoverCardContent>
+                </HoverCardPrimitive.Portal>
               )}
             </HoverCard>
           );
@@ -371,7 +398,8 @@ const MarkdownContent = ({
         p: MarkdownParagraph,
         'custom-typography': ({ children }: { children: string }) =>
           renderReference(children),
-        img: SafeImg,
+        img: MarkdownImage,
+        a: MarkdownLink,
         code: MarkdownCode,
       }) as any,
     [renderReference],

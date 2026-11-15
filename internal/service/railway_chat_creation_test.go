@@ -51,8 +51,8 @@ func TestRailwayChatCreationPersistsSelectedConfiguration(t *testing.T) {
 	for _, scene := range []string{"safety", "passenger", "equipment", "training"} {
 		t.Run(scene, func(t *testing.T) {
 			db := setupRailwayChatCreationTestDB(t)
-			ctx := t.Context()
-			response, code, err := NewChatService().Create(ctx, "user-1", map[string]interface{}{
+			ctx := serviceTestContext(t, "user-1", "user-1")
+			response, code, err := NewChatService().Create(ctx, map[string]interface{}{
 				"name": "renamable assistant", "dataset_ids": []string{"kb-railway"},
 				"llm_id": "model-a",
 				"prompt_config": map[string]interface{}{
@@ -97,12 +97,8 @@ func TestRailwayChatCreationRejectsInvalidConfigurationWithoutSaving(t *testing.
 		{name: "missing dataset", scene: "safety", model: "model-a", kbIDs: []string{"missing"}},
 		{name: "private dataset", scene: "safety", model: "model-a", kbIDs: []string{"kb-private"},
 			alter: func(db *gorm.DB) error {
-				status := string(entity.StatusValid)
-				return db.Create(&entity.Knowledgebase{
-					ID: "kb-private", TenantID: "other-user", CreatedBy: "other-user",
-					Name: "private", ChunkNum: 10, Permission: string(entity.TenantPermissionMe),
-					Status: &status,
-				}).Error
+				insertForeignPrivateDatasetForChatTest(t, db)
+				return nil
 			}},
 		{name: "failed parsing", scene: "safety", model: "model-a", kbIDs: []string{"kb-railway"},
 			alter: func(db *gorm.DB) error {
@@ -129,7 +125,7 @@ func TestRailwayChatCreationRejectsInvalidConfigurationWithoutSaving(t *testing.
 					t.Fatal(err)
 				}
 			}
-			_, code, err := NewChatService().Create(t.Context(), "user-1", map[string]interface{}{
+			_, code, err := NewChatService().Create(serviceTestContext(t, "user-1", "user-1"), map[string]interface{}{
 				"name": "railway assistant", "dataset_ids": tt.kbIDs, "llm_id": tt.model,
 				"prompt_config": map[string]interface{}{"domain": "railway", "railway_scene": tt.scene},
 			})
@@ -146,7 +142,7 @@ func TestRailwayChatCreationRejectsInvalidConfigurationWithoutSaving(t *testing.
 
 func TestRailwayNamedGenericChatDoesNotRequireRailwayConfiguration(t *testing.T) {
 	setupChatRESTUpdateServiceTestDB(t)
-	response, code, err := NewChatService().Create(t.Context(), "user-1", map[string]interface{}{
+	response, code, err := NewChatService().Create(serviceTestContext(t, "user-1", "user-1"), map[string]interface{}{
 		"name": "铁路安全培训助手",
 	})
 	if err != nil || code != common.CodeSuccess || response["id"] == nil {

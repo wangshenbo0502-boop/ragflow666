@@ -2,22 +2,23 @@ import { NextMessageInput } from '@/components/message-input/next';
 import MessageItem from '@/components/message-item';
 import PdfSheet from '@/components/pdf-drawer';
 import { useClickDrawer } from '@/components/pdf-drawer/hooks';
+import { VirtualMessageList } from '@/components/virtual-message-list';
 import { MessageType } from '@/constants/chat';
-import { useFetchChat, useGetChatSearchParams } from '@/hooks/use-chat-request';
+import { useGetChatSearchParams } from '@/hooks/use-chat-request';
 import { useFetchUserInfo } from '@/hooks/use-user-setting-request';
 import { IClientConversation } from '@/interfaces/database/chat';
-import { buildMessageUuidWithRole } from '@/utils/chat';
-import { BookOpenText } from 'lucide-react';
 import { useEffect } from 'react';
 import {
   useGetSendButtonDisabled,
   useSendButtonDisabled,
 } from '../../hooks/use-button-disabled';
-import { useCreateConversationBeforeUploadDocument } from '../../hooks/use-create-conversation';
 import { useSendMessage } from '../../hooks/use-send-chat-message';
 import { useMessageReferences } from '../../hooks/use-message-references';
 import { EmptyReference } from '../../utils';
 import { useShowInternet } from '../use-show-internet';
+import { ComposerDatasetSelect } from './composer-dataset-select';
+import { ComposerModelSelect } from './composer-model-select';
+import { useComposerSettings } from './use-composer-settings';
 
 interface IProps {
   conversation: IClientConversation;
@@ -26,11 +27,12 @@ interface IProps {
 export function SingleChatBox({ conversation }: IProps) {
   const {
     value,
-    scrollRef,
+    virtualizer,
     messageContainerRef,
     sendLoading,
     messages,
     isUploading,
+    hasAttachments,
     handleInputChange,
     handlePressEnter,
     regenerateMessage,
@@ -41,22 +43,21 @@ export function SingleChatBox({ conversation }: IProps) {
     stopOutputMessage,
   } = useSendMessage();
   const { data: userInfo } = useFetchUserInfo();
-  const { data: currentDialog } = useFetchChat();
-  const { createConversationBeforeUploadDocument } =
-    useCreateConversationBeforeUploadDocument();
+  const {
+    dialog: currentDialog,
+    canEdit,
+    saveSettings,
+    saving,
+  } = useComposerSettings();
   const { conversationId } = useGetChatSearchParams();
   const disabled = useGetSendButtonDisabled();
-  const sendDisabled = useSendButtonDisabled(value);
+  const sendDisabled = useSendButtonDisabled(value, hasAttachments);
   const { visible, hideModal, documentId, selectedChunk, clickDocumentButton } =
     useClickDrawer();
 
   const showInternet = useShowInternet();
-  const isRailway = currentDialog.prompt_config?.domain === 'railway';
 
-  const messageReferences = useMessageReferences(
-    messages,
-    conversation.reference,
-  );
+  const messageReferences = useMessageReferences(messages);
 
   useEffect(() => {
     // Skip when the conversation prop is stale — its id doesn't match the
@@ -82,63 +83,72 @@ export function SingleChatBox({ conversation }: IProps) {
   ]);
 
   return (
-    <section className="rail-message-area flex flex-col h-full gap-4">
+    <section className="flex flex-col h-full gap-4">
       <div
         ref={messageContainerRef}
-        className="rail-message-scroll p-3 md:p-5 flex-1 overflow-auto min-h-0 scrollbar-auto"
+        className="p-5 flex-1 overflow-auto min-h-0 scrollbar-auto"
       >
-        <div className="rail-message-content w-full">
-          {isRailway && !messages?.length && (
-            <div className="rail-conversation-empty">
-              <BookOpenText className="size-7" aria-hidden="true" />
-              <h2>{currentDialog.name || '铁路知识问答'}</h2>
-              <p>{currentDialog.prompt_config?.prologue}</p>
-            </div>
-          )}
-          {messages?.map((message, i) => (
+        <VirtualMessageList
+          className="w-full pr-5"
+          items={messages ?? []}
+          virtualizer={virtualizer}
+          renderItem={(message, i) => (
             <MessageItem
               loading={
                 message.role === MessageType.Assistant &&
                 sendLoading &&
-                messages.length - 1 === i
+                (messages?.length ?? 0) - 1 === i
               }
-              key={buildMessageUuidWithRole(message)}
-              item={message}
               nickname={userInfo.nickname}
               avatar={userInfo.avatar}
               avatarDialog={currentDialog.icon}
+              item={message}
               reference={messageReferences.get(message) ?? EmptyReference}
               clickDocumentButton={clickDocumentButton}
               index={i}
-              isLast={i === messages.length - 1}
+              isLast={(messages?.length ?? 0) - 1 === i}
               removeMessageById={removeMessageById}
+              deleteDisabled={sendLoading}
               regenerateMessage={regenerateMessage}
               sendLoading={sendLoading}
             />
-          ))}
-        </div>
-        <div ref={scrollRef} />
+          )}
+        />
       </div>
 
-      <div className="rail-message-composer p-3 pt-0 md:p-5 md:pt-0">
+      <div className="p-5 pt-0">
         <NextMessageInput
-          disabled={disabled}
-          sendDisabled={sendDisabled}
+          mediaCommands
+          disabled={disabled || saving}
+          sendDisabled={sendDisabled || saving}
           sendLoading={sendLoading}
           value={value}
           resize="vertical"
           onInputChange={handleInputChange}
           onPressEnter={handlePressEnter}
           conversationId={conversationId}
-          createConversationBeforeUploadDocument={
-            createConversationBeforeUploadDocument
-          }
           stopOutputMessage={stopOutputMessage}
           onUpload={handleUploadFile}
           isUploading={isUploading}
           removeFile={removeFile}
-          showReasoning={!isRailway}
-          showInternet={!isRailway && showInternet}
+          showReasoning
+          showInternet={showInternet}
+          leadingActions={
+            <ComposerDatasetSelect
+              dialog={currentDialog}
+              saving={saving}
+              disabled={disabled || sendLoading || !canEdit}
+              saveSettings={saveSettings}
+            />
+          }
+          trailingActions={
+            <ComposerModelSelect
+              dialog={currentDialog}
+              saving={saving}
+              disabled={disabled || sendLoading || !canEdit}
+              saveSettings={saveSettings}
+            />
+          }
         />
         {visible && (
           <PdfSheet

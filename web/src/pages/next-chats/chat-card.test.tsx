@@ -19,6 +19,7 @@ function renderCard(name: string, prompt: Record<string, string> = {}) {
           } as unknown as import('@/interfaces/database/chat').IDialog
         }
         showChatRenameModal={jest.fn()}
+        showPrivilegeModal={jest.fn()}
       />
     </MemoryRouter>,
   );

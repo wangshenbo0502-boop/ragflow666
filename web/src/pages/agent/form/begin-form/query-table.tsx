@@ -98,7 +98,9 @@ export function QueryTable({ data = [], deleteRecord, showModal }: IProps) {
     {
       accessorKey: 'optional',
       header: t('flow.optional'),
-      cell: ({ row }) => <div>{row.getValue('optional') ? 'Yes' : 'No'}</div>,
+      cell: ({ row }) => (
+        <div>{t(row.getValue('optional') ? 'flow.yes' : 'flow.no')}</div>
+      ),
     },
     {
       id: 'actions',

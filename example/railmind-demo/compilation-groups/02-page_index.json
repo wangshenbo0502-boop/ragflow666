@@ -1,0 +1,64 @@
+{
+  "name": "演示编译 02 手册章节索引",
+  "description": "为条款、编号规则和归档手册生成可定位的目录与摘要层级。",
+  "templates": [
+    {
+      "kind": "page_index",
+      "name": "手册可定位目录",
+      "config": {
+        "entity": {
+          "description": "First extract all actual headings in source order, then extract the atomic claims under them. Treat explicit chapter markers such as 第N回、 第N章、Chapter N, numbered headings, and Markdown headings as titles even when they have no `#` marker. A `title` must appear in the source; copy it exactly and never invent one from a claim or summary. Titles have priority over claims: complete title extraction first and never replace a title with a claim. Do not downgrade an actual chapter heading to a claim. For other entities, use concise atomic, source-grounded names and descriptions. Do not invent.",
+          "fields": [
+            {
+              "description": "the heading text (clean, no page numbers or leader dots)",
+              "rule": "- Identify and emit every explicit heading or chapter marker first, in source order, including 第N回 even without Markdown syntax.\n- Copy the clean heading text; do not invent, paraphrase, or promote claims into titles.\n- Assign source_chunk_ids yourself: include every source chunk covered by the title's\n  section, not only the chunk containing the heading. A parent title includes the\n  chunks of its nested child sections; a child title includes only its own subtree.\n  Stop at the next title of the same or an ancestor level.\n- A line beginning with 第N回/第N章/第N节 or Chapter N is a title when it appears in the source.\n- Do not emit the same chapter heading as a claim.\n- Only after title extraction, emit the claims under the corresponding titles.\n- The title's own `description` may summarize the content beneath it, but\n  that summary never replaces emitting the individual claims: summarize\n  on the title, atomize on the claims.\n",
+              "type": "title"
+            },
+            {
+              "description": "an atomic, source-grounded proposition belonging to a title: a factual assertion, or a source-supported finding, outcome or conclusion. It is the same object the tree compiler calls a claim — an atomic proposition plus the verbatim evidence that grounds it.",
+              "rule": "- Extract EVERY explicit claim each source chunk supports: factual\n  assertions AND opinions, judgments, assessments, recommendations,\n  predictions and conclusions. Never rank, summarize, merge or drop\n  one as minor.\n- Self-contained: named subjects, readable alone. Never \"the article\",\n  \"the document\", \"it says\" or a bare pronoun — resolve the referent.\n- Faithful: never invent, strengthen or infer. Preserve modality,\n  uncertainty, negation, attribution, numbers, units and dates exactly.\n- Atomic: exactly one assertion, supportable by a single verbatim\n  sentence. Split compound sentences; never generalize across\n  sentences or sections.\n- If no single sentence supports a claim, SPLIT it until one does —\n  never emit one ungrounded. An unverifiable quote is dropped\n  downstream, so a claim without evidence is worthless.\n- Keep claims in the language of the source.\n",
+              "type": "claim"
+            }
+          ],
+          "output_fields": [
+            {
+              "description": "verbatim source text supporting this claim, copied exactly: a CONTIGUOUS substring of the chunk named by `chunk_id` — same words, same order, no paraphrase, no truncation, no added words — kept under 240 characters. For tables, infoboxes and bullet lists, quote the raw cell/row text exactly as it appears, keeping its separators and order. Emit for type `claim`; omit for `title`. A quote that cannot be located verbatim is rejected downstream, so never restate it.",
+              "name": "evidence",
+              "required": false,
+              "shape": "[{\"quote\": \"<verbatim source sentence, copied exactly>\", \"chunk_id\": \"<source chunk id the sentence was taken from>\"}]",
+              "type": "list"
+            }
+          ]
+        },
+        "global_rules": "按章、节、条和页面顺序生成目录。标题保留原文编号。每个条目概括该节的适用条件、要求和来源位置。",
+        "kind": "page_index",
+        "rechunk_rules": "- Group only adjacent source chunks into coherent semantic units for this page-index task.\n- Preserve source order: use every source chunk exactly once; do not omit, overlap, duplicate, or reorder chunks.\n- Keep each heading with the content it introduces, and split when the topic, section, or semantic focus changes.\n- Preserve document heading hierarchy: keep a parent heading with its introductory content and nearby child-section context.\n- Do not combine separate sections merely because their subjects are related; keep each section boundary recoverable.\n- Keep self-contained tables, lists, figures, and code blocks intact; do not split their internal rows or items.\n- Do not merge unrelated content. Do not invent, rewrite, or return source text; return only chunk grouping metadata.\n",
+        "relation": {
+          "description": "You are an expert logical reasoning assistant specializing in document hierarchy and source-grounded detail attachment. Build relations only from the entities in the current output. Preserve the title hierarchy and attach every claim to the nearest relevant title.",
+          "fields": [
+            {
+              "description": "Upper-level title includes lower-level title.",
+              "rule": "- \"-1\" is an invalid title; it does not belong to or include any other titles.\n- Must follow the hierarchical index/numbering (e.g., \"1\", \"2.1\", \"3.2.5\") when present.\n- A title may include a child title or a claim.\n- Every entity with type `claim` must have exactly one nearest-title parent.\n- A claim must not be attached directly to another claim.\n- Do not create relations between unrelated claims.\n- Every `from` and `to` value must exactly match an entity `name` in the current output.\n- Never use a source heading as an endpoint unless that heading was also emitted as a `title` entity.\n- Before returning, remove any relation whose endpoint is missing and verify that every claim has one parent relation.\n- Keep language of \"title\" the same as the input.\n- 第N回、 第N章 must include their actual child sections or claims when present.\n",
+              "type": "include"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "kind": "tree",
+      "name": "制度要点摘要树",
+      "config": {
+        "global_rules": "按提交、复核、归档、补充记录整理要点。保留原文规定的时限和例外条件。区分原文要求和示例。",
+        "kind": "tree",
+        "raptor": {
+          "claim_prompt": "## Task\nYou are a high-recall claim harvester for the TARGET chunks below. For EACH\nTARGET chunk, extract EVERY explicit atomic claim that chunk supports: factual\nassertions AND explicitly expressed opinions, beliefs, judgments, assessments,\nrecommendations, preferences, intentions, predictions, and hypotheses. Do not\nrank claims, summarize, merge claims, or omit a claim because it seems minor.\n\nA claim must be:\n- Self-contained: readable without the surrounding text, with named subjects.\n  Never write \"the article\", \"the document\", \"it says\", or a bare pronoun.\n  Resolve the referent to its name when attribution makes the claim clearer.\n- Faithful: stated only if that TARGET chunk supports it. Never invent,\n  strengthen, or infer. Preserve modality, uncertainty, negation, and\n  attribution exactly.\n- Atomic: exactly one fact. Split compound sentences.\n\n## Response Format\nReply with a single JSON object: {\"items\": [{\"type\": \"claim\", \"name\": \"<the claim, one sentence>\", \"description\": \"<optional restatement for retrieval>\", \"source_chunk_ids\": [\"<CHUNK_ID it was taken from>\"], \"evidence\": [{\"quote\": \"<the verbatim source sentence>\", \"chunk_id\": \"<CHUNK_ID it was taken from>\"}]}, ...]}.\n\nRules:\n- `evidence.quote` MUST be a CONTIGUOUS verbatim substring of the chunk cited\n  by `evidence.chunk_id`: same words, same order, no paraphrase, no truncation,\n  no added words. A quote that cannot be found verbatim is rejected downstream,\n  so never restate.\n- `evidence.chunk_id` and `source_chunk_ids` MUST identify the exact chunk the\n  claim and quote came from. Never cross-attribute a quote to a different chunk.\n- Keep each quote concise and under 240 characters.\n- For tables, infoboxes and bullet lists, the quote MUST be the raw cell/row\n  text exactly as it appears — keep its separators and order. Do NOT turn a\n  table row like \"Starring | Penn Badgley | Elizabeth Lail\" into a sentence\n  like \"Starring Penn Badgley Elizabeth Lail\"; that is a paraphrase and will\n  be rejected.\n- Preserve numbers, units, dates, names and qualifiers exactly.\n- Distribute claims across all TARGET chunks; do not skip a chunk because you\n  reached the cap — the cap is per chunk, not per batch.\n- If a TARGET chunk contains no extractable assertion, emit no claim for it.\n- Keep claims in the same language as the source.\nReturn JSON only, no commentary.",
+          "clustering_ratio": 0.5,
+          "clustering_threshold": 0.3,
+          "max_token": 512,
+          "prompt": "Summarize the paragraphs below without inventing facts or changing numbers.\nOutput exactly two parts in the same language as the source:\n1. First line: a concise title only.\n2. Following lines: a concise summary of the content.\nDo not output labels, Markdown headings, bullet points, or any other commentary.\n\nParagraphs:\n{cluster_content}"
+        }
+      }
+    }
+  ]
+}

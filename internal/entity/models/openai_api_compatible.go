@@ -89,11 +89,10 @@ func (m *OpenAIAPICompatibleModel) ChatWithMessages(ctx context.Context, modelNa
 		return nil, fmt.Errorf("messages is empty")
 	}
 
-	resolvedBaseURL, err := m.baseModel.GetBaseURL(apiConfig)
+	url, err := m.baseModel.EndpointURL(apiConfig, m.baseModel.URLSuffix.Chat)
 	if err != nil {
 		return nil, err
 	}
-	url := fmt.Sprintf("%s/%s", resolvedBaseURL, m.baseModel.URLSuffix.Chat)
 
 	// Build request body
 	reqBody := buildRequestBody(chatModelConfig, modelName, messages, false)
@@ -120,11 +119,10 @@ func (m *OpenAIAPICompatibleModel) ChatStreamlyWithSender(ctx context.Context, m
 		return fmt.Errorf("sender is required")
 	}
 
-	resolvedBaseURL, err := m.baseModel.GetBaseURL(apiConfig)
+	url, err := m.baseModel.EndpointURL(apiConfig, m.baseModel.URLSuffix.Chat)
 	if err != nil {
 		return err
 	}
-	url := fmt.Sprintf("%s/%s", resolvedBaseURL, m.baseModel.URLSuffix.Chat)
 
 	// Build request body with streaming enabled
 	reqBody := buildRequestBody(chatModelConfig, modelName, messages, true)
@@ -145,6 +143,8 @@ func (m *OpenAIAPICompatibleModel) ChatStreamlyWithSender(ctx context.Context, m
 func ttsVoiceForModel(modelName string) string {
 	lower := strings.ToLower(modelName)
 	switch {
+	case strings.Contains(lower, "qwen3-tts"):
+		return "serena"
 	case strings.Contains(lower, "cosyvoice"):
 		return modelName + ":anna"
 	case strings.Contains(lower, "fishaudio") || strings.Contains(lower, "fish-speech"):
@@ -182,11 +182,10 @@ func (m *OpenAIAPICompatibleModel) AudioSpeech(ctx context.Context, modelName *s
 	reqCtx, cancel := context.WithTimeout(ctx, nonStreamCallTimeout)
 	defer cancel()
 
-	resolvedBaseURL, err := m.baseModel.GetBaseURL(apiConfig)
+	url, err := m.baseModel.EndpointURL(apiConfig, m.baseModel.URLSuffix.TTS)
 	if err != nil {
 		return nil, err
 	}
-	url := fmt.Sprintf("%s/%s", strings.TrimSuffix(resolvedBaseURL, "/"), strings.TrimPrefix(m.baseModel.URLSuffix.TTS, "/"))
 
 	reqBody := map[string]interface{}{
 		"model": *modelName,
@@ -202,6 +201,14 @@ func (m *OpenAIAPICompatibleModel) AudioSpeech(ctx context.Context, modelName *s
 			for key, value := range ttsConfig.Params {
 				reqBody[key] = value
 			}
+		}
+	}
+
+	if strings.Contains(strings.ToLower(*modelName), "qwen3-tts") {
+		reqBody["response_format"] = "wav"
+		reqBody["language"] = "zh"
+		if strings.Contains(strings.ToLower(*modelName), "1.7b") && reqBody["instructions"] == nil {
+			reqBody["instructions"] = "用自然的台湾国语口音说话，年轻成年女生，温柔甜美、轻柔清亮，咬字清楚，语调柔和有起伏，避免播音腔和夸张夹嗓。"
 		}
 	}
 
@@ -235,7 +242,11 @@ func (m *OpenAIAPICompatibleModel) AudioSpeech(ctx context.Context, modelName *s
 		return nil, fmt.Errorf("%s TTS API error: %s, body: %s", m.Name(), resp.Status, string(body))
 	}
 
-	return &TTSResponse{Audio: body}, nil
+	mediaType := strings.Split(resp.Header.Get("Content-Type"), ";")[0]
+	if len(body) >= 12 && string(body[:4]) == "RIFF" && string(body[8:12]) == "WAVE" {
+		mediaType = "audio/wav"
+	}
+	return &TTSResponse{Audio: body, MediaType: mediaType}, nil
 }
 
 // AudioSpeechWithSender streams text-to-speech audio chunks.  This stub is
@@ -265,11 +276,10 @@ func (m *OpenAIAPICompatibleModel) TranscribeAudio(ctx context.Context, modelNam
 	reqCtx, cancel := context.WithTimeout(ctx, nonStreamCallTimeout)
 	defer cancel()
 
-	resolvedBaseURL, err := m.baseModel.GetBaseURL(apiConfig)
+	url, err := m.baseModel.EndpointURL(apiConfig, m.baseModel.URLSuffix.ASR)
 	if err != nil {
 		return nil, err
 	}
-	url := fmt.Sprintf("%s/%s", strings.TrimSuffix(resolvedBaseURL, "/"), strings.TrimPrefix(m.baseModel.URLSuffix.ASR, "/"))
 
 	var body bytes.Buffer
 	writer := multipart.NewWriter(&body)
@@ -344,4 +354,8 @@ func (m *OpenAIAPICompatibleModel) TranscribeAudio(ctx context.Context, modelNam
 // for connection verification.
 func (m *OpenAIAPICompatibleModel) TranscribeAudioWithSender(ctx context.Context, modelName *string, file *string, apiConfig *APIConfig, asrConfig *ASRConfig, modelUsage *common.ModelUsage, sender func(*string, *string) error) error {
 	return fmt.Errorf("%s ASR streaming not implemented", m.Name())
+}
+
+func (m *OpenAIAPICompatibleModel) Decide(ctx context.Context, modelName *string, request *DecideRequest, apiConfig *APIConfig, modelUsage *common.ModelUsage) (*DecideResponse, error) {
+	return nil, fmt.Errorf("%s: no such method: Decide", m.Name())
 }

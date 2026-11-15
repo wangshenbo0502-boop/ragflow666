@@ -49,7 +49,6 @@ func prepareRailwayChat(chat *entity.Chat) *entity.Chat {
 		}
 	}
 	copyChat.PromptConfig["quote"] = true
-	copyChat.PromptConfig["reasoning"] = false
 	copyChat.PromptConfig["empty_response"] = railwayEmptyResponse
 	copyChat.PromptConfig["parameters"] = []interface{}{
 		map[string]interface{}{"key": "knowledge", "optional": false},
@@ -114,7 +113,6 @@ func prepareRailwayOptions(chat *entity.Chat, options map[string]interface{}) ma
 		}
 		prepared[key] = value
 	}
-	prepared["reasoning"] = 0
 	prepared["internet"] = false
 	prepared["quote"] = true
 	return prepared

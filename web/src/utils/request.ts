@@ -19,17 +19,16 @@
 
 import message from '@/components/ui/message';
 import { Authorization } from '@/constants/authorization';
+import { handleEnterpriseResponseError } from '@/ee/utils/response-private';
 import { ResponseType } from '@/interfaces/database/base';
 import i18n from '@/locales/config';
-import authorizationUtil, {
-  getAuthorization,
-  redirectToLogin,
-} from '@/utils/authorization-util';
+import { getAuthorization } from '@/utils/authorization-util';
 import notification from '@/utils/notification';
 import { RequestMethod, extend } from 'umi-request';
 import { convertTheKeysOfTheObjectToSnake, isFormData } from './common-util';
 import { setCachedLlmList } from './llm-cache';
 import { addTenantParams } from './llm-util';
+import { handleRejectedSession } from './request-auth';
 
 const FAILED_TO_FETCH = 'Failed to fetch';
 
@@ -74,6 +73,9 @@ const errorHandler = (error: {
   message: string;
 }): Response => {
   const { response } = error;
+  if (response?.status === 401) {
+    return response;
+  }
   if (error.message === FAILED_TO_FETCH) {
     notification.error({
       description: i18n.t('message.networkAnomalyDescription'),
@@ -90,7 +92,7 @@ const errorHandler = (error: {
       });
     }
   }
-  return response ?? { data: { code: 1999 } };
+  return response ?? ({ data: { code: 1999 } } as unknown as Response);
 };
 
 const request: RequestMethod = extend({
@@ -98,9 +100,6 @@ const request: RequestMethod = extend({
   timeout: 300000,
   getResponse: true,
 });
-
-// avoid duplicate 401 redirects
-let isRedirecting = false;
 
 request.interceptors.request.use((url: string, options: any) => {
   const data = convertTheKeysOfTheObjectToSnake(options.data);
@@ -128,37 +127,26 @@ request.interceptors.request.use((url: string, options: any) => {
   };
 });
 
-request.interceptors.response.use(async (response: Response, options) => {
+request.interceptors.response.use(async (response: Response, options: any) => {
   if (response?.status === 413 || response?.status === 504) {
-    message.error(RetcodeMessage[response?.status as ResultCode]);
+    if (!options.noToast) {
+      return response;
+    }
   }
 
-  // Handle HTTP 401
   if (response?.status === 401) {
-    if (!isRedirecting) {
-      isRedirecting = true;
-
-      const data = await response
-        .clone()
-        .json()
-        .catch(() => ({}));
-
-      const messageText = data?.message || RetcodeMessage[401];
-      notification.error({
-        message: messageText,
-        description: messageText,
-        duration: 3,
-      });
-      authorizationUtil.removeAll();
-      redirectToLogin();
-    }
-
+    handleRejectedSession(new Headers(options.headers).get(Authorization));
     return response;
   }
 
   if (options.responseType === 'blob') {
     return response;
   }
+
+  // Per-request opt-out for response codes that the caller handles itself
+  // (e.g. a vanished folder on a list request is a normal navigation case,
+  // not a user-facing error).
+  const skipErrorCodes = options?.skipErrorCodes as number[] | undefined;
 
   const data: ResponseType = await response?.clone()?.json();
 
@@ -171,40 +159,33 @@ request.interceptors.response.use(async (response: Response, options) => {
   }
 
   if (data?.code === 100) {
-    message.error(data?.message);
-  } else if (data?.code === 401) {
-    if (!isRedirecting) {
-      isRedirecting = true;
-      notification.error({
-        message: data?.message,
-        description: data?.message,
-        duration: 3,
-      });
-      authorizationUtil.removeAll();
-      redirectToLogin();
+    if (!options.noToast) {
+      message.error(data?.message);
     }
-    authorizationUtil.removeAll();
-    redirectToLogin();
-  } else if (data?.code !== 0) {
-    notification.error({
-      message: `${i18n.t('message.hint')} : ${data?.code}`,
-      description: data?.message,
-      duration: 3,
-    });
+  } else if (data?.code === 401) {
+    handleRejectedSession(new Headers(options.headers).get(Authorization));
+  } else if (data?.code !== 0 && !skipErrorCodes?.includes(data?.code)) {
+    if (!(await handleEnterpriseResponseError(data, options))) {
+      if (!options.noToast) {
+        notification.error({
+          message: `${i18n.t('message.hint')} : ${data?.code}`,
+          description: data?.message,
+          duration: 3,
+        });
+      }
+    }
   }
   return response;
 });
 
 export default request;
 
-export const get = (url: string) => {
-  return request.get(url);
-};
-
-export const post = (url: string, body: any) => {
+export const post = (url: string, body?: any) => {
   return request.post(url, { data: body });
 };
 
-export const drop = () => {};
+export const drop = (url: string, body?: any) => {
+  return request.delete(url, { data: body });
+};
 
 export const put = () => {};

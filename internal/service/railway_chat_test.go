@@ -22,8 +22,8 @@ func TestPrepareRailwayChat(t *testing.T) {
 	if prepared.PromptConfig["quote"] != true || prepared.PromptConfig["empty_response"] != railwayEmptyResponse {
 		t.Fatal("railway evidence policy was not enforced")
 	}
-	if prepared.PromptConfig["reasoning"] != false || chat.PromptConfig["reasoning"] != true {
-		t.Fatal("railway retrieval mode must be isolated from saved settings")
+	if prepared.PromptConfig["reasoning"] != true || chat.PromptConfig["reasoning"] != true {
+		t.Fatal("railway retrieval settings must be preserved")
 	}
 	prompt := prepared.PromptConfig["system"].(string)
 	if !strings.Contains(prompt, "{knowledge}") || !strings.Contains(prompt, "设备维修手册") {
@@ -33,13 +33,13 @@ func TestPrepareRailwayChat(t *testing.T) {
 
 func TestPrepareRailwayOptions(t *testing.T) {
 	options := map[string]interface{}{
-		"knowledge": "unverified caller content", "reasoning": 4,
+		"knowledge": "unverified caller content", "reasoning": reasoningLevelAgentic,
 		"internet": true, "quote": false, "tools": "external",
 		"toolcall_session": "external session", "doc_ids": []string{"doc-1"},
 	}
 	chat := &entity.Chat{PromptConfig: entity.JSONMap{"domain": "railway"}}
 	prepared := prepareRailwayOptions(chat, options)
-	if resolveReasoningLevel(prepared, map[string]interface{}(chat.PromptConfig)) != 0 ||
+	if resolveReasoningLevel(prepared, map[string]interface{}(chat.PromptConfig)) != reasoningLevelAgentic ||
 		prepared["internet"] != false || prepared["quote"] != true {
 		t.Fatal("request flags must not bypass railway evidence mode")
 	}
@@ -51,11 +51,11 @@ func TestPrepareRailwayOptions(t *testing.T) {
 	if prepared["doc_ids"].([]string)[0] != "doc-1" {
 		t.Fatal("document selection must be preserved")
 	}
-	if options["reasoning"] != 4 || options["knowledge"] == nil || options["internet"] != true {
+	if options["reasoning"] != reasoningLevelAgentic || options["knowledge"] == nil || options["internet"] != true {
 		t.Fatal("caller options must not be mutated")
 	}
 	generic := prepareRailwayOptions(&entity.Chat{}, options)
-	if generic["reasoning"] != 4 || generic["knowledge"] == nil {
+	if generic["reasoning"] != reasoningLevelAgentic || generic["knowledge"] == nil {
 		t.Fatal("generic chat options must be preserved")
 	}
 	if got := prepareRailwayOptions(chat, nil); got["quote"] != true {

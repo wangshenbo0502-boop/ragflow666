@@ -1,5 +1,4 @@
 import { render, waitFor } from '@testing-library/react';
-import React from 'react';
 
 import { MessageType } from '@/constants/chat';
 import { SingleChatBox } from './single-chat-box';
@@ -11,6 +10,23 @@ jest.mock('@/components/message-input/next', () => ({
   NextMessageInput: () => null,
 }));
 jest.mock('@/components/message-item', () => () => null);
+jest.mock('./composer-model-select', () => ({
+  ComposerModelSelect: () => null,
+}));
+jest.mock('./composer-dataset-select', () => ({
+  ComposerDatasetSelect: () => null,
+}));
+jest.mock('./use-composer-settings', () => ({
+  useComposerSettings: () => ({
+    dialog: { icon: '' },
+    canEdit: true,
+    saving: false,
+    saveSettings: jest.fn(),
+  }),
+}));
+jest.mock('@/components/virtual-message-list', () => ({
+  VirtualMessageList: () => null,
+}));
 jest.mock('@/components/pdf-drawer', () => () => null);
 jest.mock('@/components/pdf-drawer/hooks', () => ({
   useClickDrawer: () => ({
@@ -76,7 +92,6 @@ function buildConversation(id: string) {
     update_date: '',
     update_time: 0,
     is_new: true as const,
-    reference: [],
     messages: [
       {
         id: 'old-message',

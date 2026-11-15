@@ -1,4 +1,6 @@
 import ListFilterBar from '@/components/list-filter-bar';
+import { PrivilegeManagementDialog } from '@/ee/components/privilege-management/privilege-management-dialog';
+import { useShowPrivilegeDialog } from '@/ee/pages/next-chats/use-show-privilege-dialog';
 import { RenameDialog } from '@/components/rename-dialog';
 import { Button } from '@/components/ui/button';
 import { RAGFlowPagination } from '@/components/ui/ragflow-pagination';
@@ -32,6 +34,7 @@ export default function ChatList() {
   const { t } = useTranslation('common');
   const owners = [buildOwnersFilter(data?.chats ?? [], undefined, t('owner'))];
   const rename = useRenameChat();
+  const privilege = useShowPrivilegeDialog();
   const handlePageChange = useCallback(
     (page: number, pageSize?: number) => setPagination({ page, pageSize }),
     [setPagination],
@@ -90,6 +93,7 @@ export default function ChatList() {
                   key={chat.id}
                   data={chat}
                   showChatRenameModal={rename.showChatRenameModal}
+                  showPrivilegeModal={privilege.handleShowPrivilegeModal(chat)}
                 />
               ))}
             </div>
@@ -136,6 +140,12 @@ export default function ChatList() {
           initialName={rename.initialChatName}
           loading={rename.chatRenameLoading}
           title={rename.initialChatName}
+        />
+      )}
+      {privilege.privilegeModalVisible && (
+        <PrivilegeManagementDialog
+          hideModal={privilege.hidePrivilegeModal}
+          initialValues={privilege.privilegeRecord}
         />
       )}
     </>
