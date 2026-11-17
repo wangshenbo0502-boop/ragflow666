@@ -8,9 +8,9 @@
 
 | 类别与缺口 | 下一步动作 | 通过证据 |
 | --- | --- | --- |
-| 已实现待真实验收：手机组合单分支失败/重试 | 先修正网关超时的未知结果结算，核对E68的524是否可确认停止；只运行手机场景，保留严格断言 | E68桌面复用；手机需真实图片、语音分支及刷新/下载/旧结果不变 |
+| 已实现待真实验收：手机组合单分支失败/重试 | 网关结算已修复并通过E76；继续核对E68的524是否可确认停止，再补手机场景，保留严格断言 | E68桌面复用；手机需真实图片、语音分支及刷新/下载/旧结果不变 |
 | 已完成本批验收：E63文本、跨两消息播放 | 复用E71/E72，不重复合成 | E71真实TTS精确输入及WAV；E72两条真实消息桌面/手机播放互斥 |
-| 公共路径缺陷：网关超时被误判为停止 | 已修复并正式部署；真实Worker不明确网关结果场景仍待验 | E70定向及DAO/service回归；E74正式版本核对 |
+| 公共路径缺陷：网关超时被误判为停止 | 已修复并正式部署；真实Worker 524保护通过，其他网关状态复用定向测试，不扩大实测范围 | E70定向及DAO/service回归；E74正式版本核对；E76真实Worker |
 | 控制能力已有实现、剩余场景待验 | 关联现有取消/恢复/权限/预算/资源清理/模型路由证据，仅补缺口 | 复用E10/E17/E20/E22/E24/E31/E53/E56/E69；R/W/T表未闭合部分保持未验收 |
 | 已正式部署、剩余运行场景待验 | API/Worker持久配置及重启已验；继续图片、权限预算、取消恢复及回退演练 | E74部署、真实语音阶段重试、重启及版本哈希；不等于正式环境全验收 |
 | 依赖核对：重排与旧unknown | 部署前后从实际后端调用重排并执行启用重排的KB检索；旧unknown只在确认上游停止后核对 | E45历史排序/检索有效；不得据年龄释放旧租约，正式部署后补实际证据 |
@@ -234,7 +234,7 @@ E23 首次失败记录保留在 `.run/chat-snapshot-revocation-e2e.log` 和 `.ru
 | R01 | IMPLEMENTED_UNVERIFIED | W01,W04 | run-stream、completion-stream；E01/E02 | 真实断流/全部事件故障 T25 |
 | R02 | IMPLEMENTED_UNVERIFIED | W01 | upload hook 顺序/移除/切页单测；真实多附件读取与引用顺序见`.run/chat-attachments-current-real-e2e.log` | 真图片附件发送编号及乱序上传浏览器路径 T02/T26 |
 | R03 | IN_PROGRESS | W01,W06 | chat_attachment、file 服务统一处理；E01 | API/UI 逐项缺失/越权/模型能力边界 |
-| R04 | IMPLEMENTED_UNVERIFIED | W07 | 历史文本及最终多模态预算 | T23/T28 长历史真实回归 |
+| R04 | IN_PROGRESS | W07 | 历史文本及最终多模态预算；E77真实跨轮旧附件读取；E78必需材料超限零调用拒绝 | T23/T28图片多轮、长历史及其余完整退出条件 |
 | R05 | IN_PROGRESS | W03,W04 | E11/E12/E14 文字歌词引用保存及阶段重试，E13 reference复用 | T29 双标签页及新版回答竞争 |
 | R06 | IN_PROGRESS | W04 | 模式入口及能力；E05/E06 真实提交 | 全部命令、模式切换和输入回归 |
 | R07 | IN_PROGRESS | W02,W03 | E21真Worker持久闭环；E23资源等待后冻结模型/KB/prompt/设置、停用及供应商身份变化阻断 | T31音色配置变动、模型专属撤权仍待验 |
@@ -252,7 +252,7 @@ E23 首次失败记录保留在 `.run/chat-snapshot-revocation-e2e.log` 和 `.ru
 | R19 | IN_PROGRESS | W06 | 模型身份重鉴权、未知费用拒绝、真实固定TTS/music；E23会话停用/身份变更在调用前阻断；`provider_identity_changed`实现和单测通过；E37区分健康门禁无候选与上游失败 | 专用身份错误码真实E2E仍未通过：E34未到资源等待检查点，E35当前隔离规划调用仍 `upstream_unavailable`；E37后尚未复跑；模型专属撤权/外发/费用对账、音色人工质量 |
 | R20 | IN_PROGRESS | W02,W07 | 结构化资源及实际父关系 E01；旧图指定续改/两参考图顺序/实际尺寸见`.run/chat-image-selected-parent-fixed-e2e.log`；父版本导航、编辑目标、原字节下载 E25 | 自动化不覆盖提示词遵循及生成视觉质量 |
 | R21 | IN_PROGRESS | W02,W08 | E53真实引用竞争、暂存孤儿发现、unknown保护、物理删除后记账失败及重试恢复；E05删除和物理清理 | T44 Put后实际进程崩溃；状态构造不替代故障进程验收 |
-| R22 | IN_PROGRESS | W07 | E02播放乱序、E05真播放/暂停/下载；E57两视口已有音频朗读复用、播放器互斥及卸载释放URL；E63共16项AST用例及共享路径回归，E64不同消息互斥单测 | T45不同真实消息浏览器互斥、新文本策略真实合成核对；E63尚未部署 |
+| R22 | IN_PROGRESS | W07 | E02/E05/E57播放与复用；E63/E64文本及互斥单测；E71真实TTS输入、E72跨消息两视口互斥；E74正式部署 | T45默认朗读独立模型路径、人工音色及其余完整退出条件 |
 | R23 | IN_PROGRESS | W03-W08 | attempts 用量/耗时/原因；E06 失败/部分/成功 | 全指标、清理告警、脱敏日志 T46 |
 | R24 | IN_PROGRESS | W01,W07 | WAV、图解码、流式边界 E01/E02/E04/E07；E56桌面/手机缓存撤权及跨租户读取拒绝 | T27全附件安全、T47配置上限真实超限 |
 | R25 | IN_PROGRESS | W03,W08 | E03 新 binary help；E05/E06 真隔离 ingestor | 重启/优雅停与 T36/T48 |
@@ -301,15 +301,15 @@ E23 首次失败记录保留在 `.run/chat-snapshot-revocation-e2e.log` 和 `.ru
 | T20 | PARTIAL | E53真实MySQL完成先1次/取消先1次/并发20次，唯一终态且文字引用版本不变；E17迟到音频 | 完整用户取消入口与浏览器时序矩阵 |
 | T21 | PASS | E17真实上游音频已生成但响应在途时删除，迟到无发布/复活，E14删除404 | 缓存权限另计T47 |
 | T22 | PASS | E04 引用竞争，E05 真物理清理；E31真实MinIO拒删、MySQL保留deleting fence及退避、拒绝新引用、恢复后完成清理且无悬空引用 | PostgreSQL未运行；非无限压力证明 |
-| T23 | PARTIAL | E01 历史上下文单测 | 真多轮文档/长历史 |
+| T23 | PARTIAL | E01历史上下文单测；E77真实第二轮无新附件，重读两份历史随机内容并保留顺序/引用/刷新 | 长历史及其余多模态预算边界 |
 | T24 | PARTIAL | E01 权限单测，E05 删除鉴权 | 真跨租户所有操作/事件 |
 | T25 | PARTIAL | E02 EOF/JSON/受理断流校准 | 损坏/重复/乱序/缺口全部 |
 | T26 | PARTIAL | 上传 hook 顺序/删除/切页单测 | 真页面上传乱序 |
 | T27 | PARTIAL | E01 文件/像素/WAV校验，E02超限流取消 | 真越权/注入/逐项反馈 |
-| T28 | PARTIAL | 最终上下文预算实现/单测 | 真必需材料超限 |
+| T28 | PARTIAL | 最终上下文预算实现/单测；E78真实上传必需材料超出测试自有2048-token上下文，明确失败且零模型调用 | 图片多轮、系统约束/最新要求保留及其余完整退出条件 |
 | T29 | PARTIAL | E05 阶段重试、E01答案条件写回；E04真实MySQL `answer_version_competing_tabs`；E23同正文新引用下迟到语音写回被拒 | 更广的双标签页操作路径及旧任务其它媒体迟到写回 |
 | T30 | PARTIAL | E05 voice、E06 image_voice 真实入口 | 命令/按钮全映射/未配服务 |
-| T31 | PARTIAL | E23验证冻结输入、原模型UUID和带引用语音保留；E69在新版隔离环境验证 `provider_identity_changed`，确认调用前阻断 | 模型专属撤权及外发策略等其余子场景 |
+| T31 | PARTIAL | E23冻结输入；E69新版隔离环境`provider_identity_changed`调用前阻断；E79真实排队后模型/实例停用均零调用拒绝 | 模型专属权限撤销、外发策略及其余子场景；停用不等于全部权限撤销 |
 | T32 | PARTIAL | E16真多页/筛选/详情/跳回/后端操作契约，E17删除后total0 | 完整操作矩阵 |
 | T33 | PARTIAL | E53真实208条事件分3页、未来/缺口游标重置、负游标及跨租户/撤权拒绝；E02 GET权威校准 | 浏览器重连及长列表删除同步 |
 | T34 | PASS | E20真实同键并发/异内容冲突/并发重试及TTS计数；E22旧epoch回写拒绝 | PostgreSQL未运行 |
@@ -332,9 +332,28 @@ E23 首次失败记录保留在 `.run/chat-snapshot-revocation-e2e.log` 和 `.ru
 
 `node .run/repair-chat-media.cjs voice user-model`：PASS。正式重启后的新任务`c9d22429937a4ba7be03493257ddf7a0`成功，language/audio各一次真实attempt、calls=2，生成2240ms WAV并持久发布。证据`.run/chat-media-repair-voice-user-model.json`。本项补齐E74“重启后新生成”的语音子项，不替代正式图片、知识引用及其他控制验收。阶段完成时间仍依赖剩余R/W/T与外部生图服务；北京时间11月18日不作为强制通过依据。
 
+## E76：真实Worker网关未知结果保护
+
+- `node .run/run-chat-voice-e2e.cjs gateway`经builder内`bash build.sh --test-e2e -run '^TestChatWorkerRealGatewayUnknown$' -count=1 -v ./internal/service/...`：PASS，6.99s。复用既有隔离API、Worker、MySQL、NATS、MinIO与真实规划/TTS服务；转发器收到完整有效WAV后只向Worker返回524，不模拟被测业务实现。
+- 任务`dab3da8cc3d24e6aacd9387a72061d67`最终`partial_succeeded/upstream_result_unknown/calls=3`；音频attempt仅一次并保持unknown、资源租约仍在、无媒体发布，文字包含两项知识答案及引用。直接请求重试被拒，原任务完整快照不变，真实TTS只转发一次。
+- 转发器计数证明本次实际合成已完成、响应已释放且无挂起，再经既有`ReconcileStopped`入口核对本任务；租约归零，文字/引用、调用数及终态不变。该明确证据只适用于本测试，不用于释放旧524或旧unknown。
+- 修改仅为既有故障E2E及私有转发/启动器；转发器语法、Go格式通过，已按PID/启动时间/脚本路径核对归属后重启空闲测试转发进程，正式应用容器ID/启动时间/重启数未变。首次归属检查因PowerShell日期自动解析后再次字符串解析丢失精度而拒绝，未执行停止；修正为直接DateTime比较后通过。日志`.run/chat-gateway-worker-real-20261117.log`。未修改生产Go代码，无需重新部署或重复全量回归。
+
+## E77/E78：历史附件追问与必需材料预算
+
+- E77：`node .run/run-chat-voice-e2e.cjs planning-history`，通过`build.sh --test-e2e`运行既有`TestChatAttachmentHistoryRealLifecycle`，PASS 9.22s。真实上传两份各含新随机码的文件，第一轮回答不含随机码；第二轮不附新文件，真实模型仍按原上传顺序读出两码、保留知识引用。核对冻结历史描述符及刷新读取一致。任务`2f63e455e5564aa6887beaf1f1c77e73`、`f63f32482bf14ad1a91f89187050c429`。TTS两次按场景预先503拒绝、真实合成计数零，不把该故障注入当语音成功。日志`.run/chat-attachment-history-planning-real-20261117.log`。
+- E78：`node .run/run-chat-voice-e2e.cjs planning-context`，同入口运行既有`TestChatAttachmentContextLimitRealLifecycle`，PASS 2.24s。仅测试自有模型克隆配置2048-token上限，真实上传必需材料后，任务`7990295d7e30425f8fc22f8dc9fde08d`为`failed/context_budget_exceeded/calls=0`，无attempt、无答案发布、无TTS请求；没有扩大真实模型容量或修改共享模型。测试退出前恢复测试聊天模型并移除自有克隆配置，原共享模型不变。日志`.run/chat-attachment-context-planning-real-20261117.log`。
+- 本批复用既有测试/隔离环境，只在私有启动器增加定向选择，不改业务源码，不重新部署。覆盖T23/T28的具体子项，不替代长历史、图片多轮及系统约束保留等全部退出条件。
+
+## E79：排队后模型与实例停用
+
+`node .run/run-chat-voice-e2e.cjs planning-disabled`，通过`build.sh --test-e2e`只运行既有`TestChatTaskRealSnapshotAndRevocation/model_disabled|instance_disabled`，PASS 11.57s（5.50s/6.06s）。复用新隔离真实API/Worker及数据库；仅用测试自有模型/实例克隆，在真实受理且资源等待后停用，再释放本测试占位。两场景均`failed/unsupported_capability/calls=0`、attempt为0，无TTS请求/媒体发布，冻结输入不变。测试自有占位及克隆按原清理路径恢复，未改共享供应商、模型或旧unknown。日志`.run/chat-model-disabled-planning-real-20261117.log`。此为停用控制，不等同模型专属ACL撤销或全部外发策略验收。
+
+E76～E79收尾只读核对：新隔离库资源租约0；旧两条任务仍unknown、对应租约仍5。TTS控制无挂起/待注入，正式容器ID和启动时间保持E74重启后记录、RestartCount=0。Go格式、私有脚本语法及所改文档`git diff --check`通过（仅LF/CRLF提示）；未执行无关联全仓构建/回归。
+
 ## 最近完成与下一步
 
-最新为E70～E74。E63文本真实合成及跨两条真实消息桌面/手机互斥通过；网关结果未知结算已修复并部署。正式四模式运行目标哈希，Worker开关持久、应用重启及媒体守护保活通过，真实语音只补音频成功，正式重排直连与系统检索再验通过。手机组合524的上游结果仍无法确认，原任务不重试；正式图片、权限预算/取消恢复矩阵、实际回退及R/W/T其余缺口继续。隔离API19383/浏览器19223仍可复用，旧unknown保留。下列暂停及旧阻塞描述均为历史记录，以本段和逐项最新证据为准。
+最新为E70～E79。正式部署与重启后新语音、重排及E63真实文本/跨消息播放已通过；E76补齐真实Worker网关524的unknown/租约/拒重试保护，E77/E78补齐跨轮历史附件与必需材料超限子项，E79补齐排队后模型/实例停用拒绝。手机组合524的上游结果仍无法确认，原任务不重试；正式图片、权限预算/取消恢复矩阵、实际回退及R/W/T其余缺口继续。隔离API19383/浏览器19223仍可复用，旧unknown保留。下列暂停及旧阻塞描述均为历史记录，以本段和逐项最新证据为准。
 
 本批最新：E63修复并验证AST朗读文本边界，E64补齐不同消息互斥单测，E65独立构建及API/ingestor启动检查通过。按用户最新要求，阶段说明已更新，本小批次收尾后暂停供其他AI审查；不继续推进剩余优化。新源码未部署，不同真实消息浏览器互斥及新文本策略真实合成核对仍未完成，R22/T45没有升级为通过。
 
