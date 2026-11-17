@@ -309,8 +309,13 @@ func TestChatWorkerRealCrashUnknown(t *testing.T) {
 func TestChatCancelDeleteRealLateAudio(t *testing.T) {
 	e := chatMediaE2E(t)
 	db := chatFaultDatabase(t)
-	for _, removeSession := range []bool{false, true} {
-		t.Run(fmt.Sprintf("delete_session_%t", removeSession), func(t *testing.T) {
+	scenarios := []string{"delete_session_false", "delete_session_true"}
+	if os.Getenv("RAGFLOW_TEST_CHAT_CANCEL_BROWSER") != "" {
+		scenarios = append(scenarios, "browser_desktop", "browser_mobile")
+	}
+	for _, scenario := range scenarios {
+		t.Run(scenario, func(t *testing.T) {
+			removeSession := scenario == "delete_session_true"
 			e := &chatVoiceE2E{t: t, origin: e.origin, token: e.token, client: e.client}
 			before := e.faultControl(map[string]any{"fail_next": 0, "hold_next": 1})
 			if before["holding"] != 0 {
@@ -319,7 +324,30 @@ func TestChatCancelDeleteRealLateAudio(t *testing.T) {
 			t.Cleanup(func() { e.faultControl(map[string]any{"release": true, "hold_next": 0}) })
 			chatID, sessionID, taskID := e.submitHeldVoice("Cancel with actual generated audio held")
 			e.waitRealAudioHeld(taskID, before)
-			if removeSession {
+			if strings.HasPrefix(scenario, "browser_") {
+				endpoint := os.Getenv("RAGFLOW_TEST_CHAT_CANCEL_BROWSER")
+				if endpoint != "http://host.docker.internal:19983/cancel-browser" {
+					t.Fatal("requires isolated cancellation browser callback")
+				}
+				raw, _ := json.Marshal(map[string]string{
+					"chat_id": chatID, "session_id": sessionID, "task_id": taskID,
+					"viewport": strings.TrimPrefix(scenario, "browser_"),
+				})
+				ctx, cancel := context.WithTimeout(t.Context(), 90*time.Second)
+				defer cancel()
+				req, err := http.NewRequestWithContext(ctx, http.MethodPost, endpoint, bytes.NewReader(raw))
+				if err != nil {
+					t.Fatal(err)
+				}
+				response, err := e.client.Do(req)
+				if err != nil {
+					t.Fatal("real cancellation browser callback failed")
+				}
+				response.Body.Close()
+				if response.StatusCode != http.StatusNoContent {
+					t.Fatal("real task-center cancellation failed; inspect browser diagnostics")
+				}
+			} else if removeSession {
 				e.request(http.MethodDelete, "/chats/"+chatID+"/sessions", map[string]any{"ids": []string{sessionID}}, nil)
 			} else {
 				e.request(http.MethodPost, "/chats/tasks/"+taskID+"/cancel", nil, nil)
