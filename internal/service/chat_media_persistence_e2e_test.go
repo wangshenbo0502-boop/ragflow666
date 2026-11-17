@@ -134,10 +134,22 @@ END`, trigger, sessionID)
 }
 
 func TestChatMediaRealCrashAfterPut(t *testing.T) {
+	runChatMediaRealCrashAfterPut(t, false)
+}
+
+func TestChatMediaRealCrashOrphanCleanup(t *testing.T) {
+	runChatMediaRealCrashAfterPut(t, true)
+}
+
+func runChatMediaRealCrashAfterPut(t *testing.T, cleanupOrphan bool) {
 	e := chatMediaE2E(t)
 	db := chatFaultDatabase(t)
 	store := chatPersistenceStore(t)
-	chatID, sessionID := e.newMediaSession("Actual Worker crash after MinIO Put")
+	title := "Actual Worker crash after MinIO Put"
+	if cleanupOrphan {
+		title = "Actual Worker crash orphan cleanup"
+	}
+	chatID, sessionID := e.newMediaSession(title)
 	pool, err := db.DB()
 	if err != nil {
 		t.Fatal(err)
@@ -260,6 +272,45 @@ END`, trigger, sessionID, barrier, barrier)
 		!reflect.DeepEqual(partial.RetryStages, []string{"audio"}) {
 		t.Fatalf("actual crash recovered unsafely: %s/%s upstream=%s calls=%d retry=%v",
 			partial.Task.State, partial.Task.ErrorCode, partial.Task.UpstreamStatus, partial.Task.Calls, partial.RetryStages)
+	}
+	if cleanupOrphan {
+		var journal entity.ChatMediaCleanup
+		deadline := time.Now().Add(3 * time.Minute)
+		for {
+			assetErr := db.Take(&asset, "id = ?", asset.ID).Error
+			journalErr := db.Take(&journal, "asset_id = ?", asset.ID).Error
+			if assetErr == nil && journalErr == nil && asset.State == "deleted" &&
+				journal.State == "done" && journal.Attempts == 1 && journal.LastError == "" {
+				break
+			}
+			if (assetErr != nil && assetErr != gorm.ErrRecordNotFound) ||
+				(journalErr != nil && journalErr != gorm.ErrRecordNotFound) {
+				t.Fatalf("cannot observe orphan cleanup: asset=%v journal=%v", assetErr, journalErr)
+			}
+			if time.Now().After(deadline) {
+				t.Fatalf("background orphan cleanup did not finish: asset=%s journal=%s attempts=%d",
+					asset.State, journal.State, journal.Attempts)
+			}
+			select {
+			case <-t.Context().Done():
+				t.Fatal("background orphan cleanup wait cancelled")
+			case <-time.After(time.Second):
+			}
+		}
+		exists, err := store.ObjectExists(t.Context(), asset.Bucket, asset.ObjectKey)
+		if err != nil || exists {
+			t.Fatalf("actual orphan remains in MinIO: exists=%t err=%v", exists, err)
+		}
+		var refs int64
+		if err := db.Model(&entity.ChatMediaReference{}).Where("asset_id = ?", asset.ID).Count(&refs).Error; err != nil || refs != 0 {
+			t.Fatalf("deleted orphan has references: count=%d err=%v", refs, err)
+		}
+		if partial.Task.Outputs["answer"] == nil || partial.Task.Outputs["audio"] != nil {
+			t.Fatal("orphan cleanup changed the recoverable text output")
+		}
+		t.Logf("PASS actual MinIO Put -> actual Worker SIGKILL -> natural lease recovery -> background orphan discovery -> MinIO deletion and durable journal completion; task=%s asset=%s",
+			admission.TaskID, asset.ID)
+		return
 	}
 	var retry entity.ChatTask
 	e.request(http.MethodPost, "/chats/tasks/"+partial.Task.ID+"/retry",
