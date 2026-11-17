@@ -15,6 +15,7 @@ import (
 	"gorm.io/gorm"
 
 	"ragflow/internal/common"
+	"ragflow/internal/dao"
 	"ragflow/internal/entity"
 	"ragflow/internal/server/config"
 	"ragflow/internal/storage"
@@ -217,7 +218,19 @@ END`, trigger, sessionID, barrier, barrier)
 				break
 			}
 		}
-		time.Sleep(100 * time.Millisecond)
+		details, err := dao.NewChatTaskDAO(db).Details(t.Context(), admission.TaskID)
+		if err != nil {
+			t.Fatal("cannot read task while waiting for actual Put")
+		}
+		if dao.IsChatTaskTerminal(details.Task.State) {
+			t.Fatalf("task reached terminal state before actual Put barrier: %s",
+				chatTaskSnapshotDiagnostic(db, details))
+		}
+		select {
+		case <-t.Context().Done():
+			t.Fatal("actual Put barrier wait cancelled")
+		case <-time.After(100 * time.Millisecond):
+		}
 	}
 	if asset.State != "staging" || int64(len(staged)) != asset.Bytes || len(staged) == 0 {
 		t.Fatal("actual Put did not reach the pre-commit barrier")
