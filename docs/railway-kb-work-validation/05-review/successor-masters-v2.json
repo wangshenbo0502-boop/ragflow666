@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-11-16T07:14:06.471Z",
+  "sources_officially_hash_matched": true,
+  "originals_modified": false,
+  "formal_dataset_modified": false,
+  "final_acceptance": false,
+  "documents": [
+    {
+      "doc_id": "DOC0025",
+      "domain": "GW",
+      "master_path": "03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "source_sha256": "e330a2ac525225eeb4e8fb71c5697cdb43ebeeb74311a71903425e53a00f894e",
+      "articles": 27,
+      "tables": 12,
+      "knowledge_points": 39,
+      "source_anomaly": null
+    },
+    {
+      "doc_id": "DOC0026",
+      "domain": "XH",
+      "master_path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "source_sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+      "articles": 27,
+      "tables": 11,
+      "knowledge_points": 38,
+      "source_anomaly": null
+    },
+    {
+      "doc_id": "DOC0027",
+      "domain": "XH",
+      "master_path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "source_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+      "articles": 27,
+      "tables": 8,
+      "knowledge_points": 35,
+      "source_anomaly": null
+    },
+    {
+      "doc_id": "DOC0028",
+      "domain": "GD",
+      "master_path": "03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "source_sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+      "articles": 27,
+      "tables": 11,
+      "knowledge_points": 38,
+      "source_anomaly": "官方附件含“晨云提议”，原样记录并阻塞解释"
+    }
+  ]
+}

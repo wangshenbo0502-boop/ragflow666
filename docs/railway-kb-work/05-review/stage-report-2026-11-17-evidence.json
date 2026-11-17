@@ -1,0 +1,740 @@
+{
+  "generated_at": "2026-11-17T06:08:23.393Z",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Independent review checkpoint; local snapshot, not a new remote acceptance run.",
+  "small_task_complete": true,
+  "overall_goal_accepted": false,
+  "wiki_in_scope": false,
+  "network_requests_during_snapshot": 0,
+  "new_model_requests_during_snapshot": 0,
+  "expansion": {
+    "frozen_baseline": 6,
+    "minimum": 18,
+    "preferred": 24,
+    "registered": 28,
+    "domains": {
+      "CL": 5,
+      "YS": 8,
+      "GW": 7,
+      "XH": 4,
+      "GD": 4
+    },
+    "statuses": {
+      "待结构验收": 18,
+      "待条款语义复核": 1,
+      "待归档": 2,
+      "已废止；历史原件与原库版本保留并停用作当前依据": 1,
+      "已入库待验证": 2,
+      "待复核": 3,
+      "试切通过": 1
+    },
+    "final_count_eligible_true_records": 0,
+    "accepted_effective_total": null,
+    "interpretation": "Final acceptance count unresolved; not a claim that effective sources are zero."
+  },
+  "formal_domains": {
+    "checked_at": "2026-11-17T04:34:42.873Z",
+    "snapshot_reused": true,
+    "domains": [
+      {
+        "code": "GW",
+        "id": "bfdad58d08714665b9f911bbb975cc92",
+        "name": "铁路工务与基础设施",
+        "documents": 0,
+        "chunks": 0,
+        "embedding_model": "bge-m3@ollama_local@Ollama",
+        "permission": "me",
+        "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+        "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f"
+      },
+      {
+        "code": "XH",
+        "id": "09f44dca26524a8790913faca5b8265e",
+        "name": "铁路通信信号与列车控制",
+        "documents": 0,
+        "chunks": 0,
+        "embedding_model": "bge-m3@ollama_local@Ollama",
+        "permission": "me",
+        "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+        "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f"
+      },
+      {
+        "code": "GD",
+        "id": "2c54b151d3c94e86be1fbbc5cc7896ac",
+        "name": "铁路牵引供电与电气设备",
+        "documents": 0,
+        "chunks": 0,
+        "embedding_model": "bge-m3@ollama_local@Ollama",
+        "permission": "me",
+        "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+        "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f"
+      },
+      {
+        "code": "CL",
+        "id": "08537d0556d5438d8afaf9641f212795",
+        "name": "铁路机车车辆与运用检修",
+        "documents": 2,
+        "chunks": 65,
+        "embedding_model": "bge-m3@ollama_local@Ollama",
+        "permission": "me",
+        "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+        "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f"
+      },
+      {
+        "code": "YS",
+        "id": "aa5368d09aed40fb83938a217ad16baa",
+        "name": "铁路运输组织与安全管理",
+        "documents": 0,
+        "chunks": 0,
+        "embedding_model": "bge-m3@ollama_local@Ollama",
+        "permission": "me",
+        "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+        "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f"
+      }
+    ]
+  },
+  "structure": {
+    "point_counts": {
+      "DOC0025": 303,
+      "DOC0026": 390,
+      "DOC0027": 200,
+      "DOC0028": 309
+    },
+    "total_points": 1202,
+    "model": "102e9861e4e24a73abb7cff80df6c52e",
+    "prompt_sha256": "59f659f830055b8c2c95d5292c9764b3765726e2b00c1cc682c57924b6fb9500",
+    "rules_sha256": "2576b753feed31276f1c4949ffb78ab23602e3adcb2a0d043078bda92c0e84d3",
+    "cache_checked_at": "2026-11-16T13:34:02.922Z",
+    "model_status": {
+      "pass": 1140,
+      "fail": 61,
+      "pending": 1
+    },
+    "reused_batches": 179,
+    "faithful_source_decisions": 56,
+    "pending_source_issues": [
+      {
+        "id": "DOC0025-SOURCE-NOTE-P2317",
+        "decision": "PENDING_SOURCE_ATTRIBUTION",
+        "source_location": "S0033原文段落2317（Word段落2635），附件4之后、附件5之前",
+        "rationale": "Page 34 and native paragraph 2317 confirm the complete four-part representative-product testing note. Its attachment/item scope is not established by adjacency; retain once as a separately located note with attribution pending."
+      },
+      {
+        "id": "DOC0028-S0036-T02-G064-064",
+        "decision": "PENDING_SOURCE_NOTATION",
+        "source_location": "S0036-T02 原行64；跨分组合并起点S0036-T02-R58C3",
+        "rationale": "Page 11 and native row 64 place the entire 12kg/50kg phrase only in C8 (300-350km/h); candidate already preserves that alignment and blanks in the other two classes. The slash meaning is unspecified in the source."
+      },
+      {
+        "id": "DOC0028-S0036-T02-G065-065",
+        "decision": "PENDING_SOURCE_PRODUCT_SCOPE",
+        "source_location": "S0036-T02 原行65；纵向合并起点S0036-T02-R65C3",
+        "rationale": "Page 11, row 65, material testing machine: product-name origin R65C3 is genuinely blank and starts a new merge; candidate correctly does not inherit ratchet compensation equipment. Requirement cells remain blank. The source does not resolve the applicable product."
+      },
+      {
+        "id": "DOC0028-S0036-T02-G066-066",
+        "decision": "PENDING_SOURCE_PRODUCT_SCOPE",
+        "source_location": "S0036-T02 原行66；纵向合并起点S0036-T02-R65C3",
+        "rationale": "Page 11, row 66, catenary fitting testing machine: product-name origin R65C3 is genuinely blank and starts a new merge; candidate correctly does not inherit ratchet compensation equipment. Requirement cells remain blank. The source does not resolve the applicable product."
+      },
+      {
+        "id": "DOC0028-S0036-T02-G067-067",
+        "decision": "PENDING_SOURCE_PRODUCT_SCOPE",
+        "source_location": "S0036-T02 原行67；纵向合并起点S0036-T02-R65C3",
+        "rationale": "Page 11, row 67, fitting vibration testing machine: product-name origin R65C3 is genuinely blank and starts a new merge; candidate correctly does not inherit ratchet compensation equipment. The candidate also correctly aligns 35/45/45mm with the three speed classes. The source does not resolve the applicable product."
+      },
+      {
+        "id": "DOC0028-S0036-T03-G003-003",
+        "decision": "PENDING_SOURCE_ANOMALY",
+        "source_location": "S0036-T03，原生数据行3-3（R3C1-R3C8）",
+        "rationale": "Native Word cell R3C8 contains the ordinary text 晨云提议 (paragraph 1375, Word paragraph 1544/start 9936), although page 16 appears blank at this cell. The official redownload matched the original hash. It is a source anomaly, not permission to delete or replace original text."
+      }
+    ],
+    "doc0026": {
+      "structure_accepted": true,
+      "trial_accepted": false,
+      "formal_import": false,
+      "retrieval_accepted": false,
+      "debug_chunks": 395,
+      "debug_business_complete": 390,
+      "debug_is_remote_ingestion": false
+    }
+  },
+  "doc0027": {
+    "reviewed_at": "2026-11-17T05:45:34.626Z",
+    "dataset_id": "8f7cbc152fc64d7b8d39da97028e5abe",
+    "document_id": "8896cd1f6eda42a8ad98bbac1cfeef3d",
+    "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+    "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+    "exported": 205,
+    "business": 200,
+    "metadata": [
+      {
+        "chunk_id": "895df51d4fd3f674",
+        "heading": "阅读范围",
+        "content_sha256": "34f2b1e562a36a6ca0199a741ee68d7ddf98a20e0d38b4aa691c0447fcc146cd",
+        "reason": "Scope, directory, empty parent heading or provenance only; not independent business evidence."
+      },
+      {
+        "chunk_id": "44295d2f88c01524",
+        "heading": "原文附件目录",
+        "content_sha256": "f6b131a8f86c77a422a53673d682d93c3d1208d9903b23317209b74ebade1659",
+        "reason": "Scope, directory, empty parent heading or provenance only; not independent business evidence."
+      },
+      {
+        "chunk_id": "5787dfc4c4623fe2",
+        "heading": "附件5",
+        "content_sha256": "b235b297a90d716647cd1859548bf89d1d18175aff41795bcdd29571db9b503b",
+        "reason": "Scope, directory, empty parent heading or provenance only; not independent business evidence."
+      },
+      {
+        "chunk_id": "cfbf646dd4f0a8f1",
+        "heading": "核验边界与后续验收",
+        "content_sha256": "e0e0a6e818f50edc3cce419d5219d8daef3df195c085527a95a46ebf4c5ffdc1",
+        "reason": "Scope, directory, empty parent heading or provenance only; not independent business evidence."
+      },
+      {
+        "chunk_id": "a6a4363f90c206d9",
+        "heading": "来源清单",
+        "content_sha256": "032c19253c27361b5762a11911e360ff33c8386790ab9af522773f3a2d99ed31",
+        "reason": "Scope, directory, empty parent heading or provenance only; not independent business evidence."
+      }
+    ],
+    "current_close_read": {
+      "business_chunks": 16,
+      "observations": [
+        {
+          "knowledge_point_id": "DOC0027-NOTICE",
+          "chunk_id": "e4a40e582221377f",
+          "actual_text_sha256": "fe942c9c9e936525ca921bbeb316dc54a23abcb46ec22a328d398a5794fda5b6",
+          "observation": "印发与施行日期分开，通知完整保留。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K001",
+          "chunk_id": "242b512250749da8",
+          "actual_text_sha256": "72c2508a5e8ad9849ee86f5326248969b1bb2216978f9a1c3f9c1389c846e064",
+          "observation": "目的、适用对象及依据完整，单条结构保留。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K004",
+          "chunk_id": "da19f29fe5bb0819",
+          "actual_text_sha256": "5e72450c927ef1c34f705aa1650f8e9131ad30d854252fa8d1a74ea5d5929c19",
+          "observation": "四项申请条件及附件指向完整。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K005",
+          "chunk_id": "706d1471623b9003",
+          "actual_text_sha256": "5bd96b2d9c9b08a2d7a2a4c8f52fd90f4acb997fe18dc89d9ab69b95948de6d4",
+          "observation": "十项材料、份数和外委能力条件同片保留。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K006",
+          "chunk_id": "48e810bb86b4d101",
+          "actual_text_sha256": "dfaf6211139c969a74124e4ae6ab24eef6d9820a9b5c41b028caf1f0d4542f10",
+          "observation": "延续或重新申请条件、除外项及近5年信息要求保留；第五条材料仍需跨条检索，不自行扩写。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K008",
+          "chunk_id": "32bca7613858195e",
+          "actual_text_sha256": "b6f99acf6b36b7b117dfe9923c883e661f9ff811588c17ccec6630620a04a4ce",
+          "observation": "当场更正、补正期限、逾期受理及书面凭证要求同片保留。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K013",
+          "chunk_id": "17fe0cbe0091502e",
+          "actual_text_sha256": "584287451420084b2330e2f514027367413345618992ad4a993655eecb4a10a6",
+          "observation": "20/10工作日、批准与告知条件、检验检测评审不计时例外同片保留。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K014",
+          "chunk_id": "b575fd867af0a139",
+          "actual_text_sha256": "f7af2ba10244e319e7cb86adceb211643b0d7a4e45f108d035a6efed5beee5e9",
+          "observation": "许可证项目和TXTX####—*****五个星号原样保留。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K015",
+          "chunk_id": "af47a054ee586803",
+          "actual_text_sha256": "b8d02006d869cfe69d50e971b2074f178a17c64e1540bd45bd0d24929d23926f",
+          "observation": "5年、届满60工作日前申请及名称变化不改有效期例外同片保留。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K023",
+          "chunk_id": "2793f136973fe271",
+          "actual_text_sha256": "b0c8f77f1d5346eb96b1507a1dd089038d182f957a6b33a94cc3d516d60c5443",
+          "observation": "撤销情形、欺骗贿赂应当撤销及3年限制同片保留。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K026",
+          "chunk_id": "2461823f25251f86",
+          "actual_text_sha256": "0f2548668f81e2703ef720540be5c1973e3df718388b285bd43cf897762bdbd3",
+          "observation": "最短业务片完整保留解释机关，不因短而合并。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K031",
+          "chunk_id": "4cc3be83065d556f",
+          "actual_text_sha256": "f62fd20433092c25892d4b7f78aed6d1aca1c7b606ed437f695a27419b0d368f",
+          "observation": "最长业务片保留7列表头、原生合并、空格未知及受理机构填写区说明。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-K035",
+          "chunk_id": "9d430110063a0aad",
+          "actual_text_sha256": "5ecbc6190a642effc229bfc307d479d279db5307e0600541ccbd923f9a4b0984",
+          "observation": "统计表两个不同分母、空白格和纵向合并保留，不推断填值。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-S0035-T01-G007-009",
+          "chunk_id": "5b36f7a0218229e3",
+          "actual_text_sha256": "34dad0cc671a43cd3cbd98bd3498baea02f79b8ed48de853c0b9c82d7b918fe6",
+          "observation": "LTE三类设备及合并产品编号、适用范围、执行标准和更新表注同片保留。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-S0035-T02-G089-089",
+          "chunk_id": "4bdec5678134bfab",
+          "actual_text_sha256": "f3e17cb10bac1dbd1bc63199e16ea0de59476f8f073162f59390646cf631c061",
+          "observation": "LTE检验过程专用测试软件的设备要求和备注仍空白，不推断无要求。"
+        },
+        {
+          "knowledge_point_id": "DOC0027-S0035-T03-G003-003",
+          "chunk_id": "f7fb9e68ff9dcabe",
+          "actual_text_sha256": "a4f299dd8d8d4957cca961fbf00afa5ab7f8089ba4a2b9f57813ba75d50fbc5e",
+          "observation": "关键项标识、质量体系对象和七部分审查及不合格项阈值共同前提同片保留。"
+        }
+      ],
+      "metadata_chunks": 5,
+      "scope": "Current full-text spot readings of actual chunks, backed by complete deterministic master comparison and reused source semantic judgments; no new original-page visual review."
+    },
+    "reused_semantic_batches": 31,
+    "model_judgments": {
+      "PASS": 198,
+      "FAIL": 2
+    },
+    "final_chunk_decisions": {
+      "PASS_FOR_FAITHFUL_SOURCE_CHUNK": 200
+    },
+    "quality_accepted": true,
+    "formal_import": false,
+    "retrieval_accepted": false,
+    "final_count_eligible": false,
+    "limitation": "This is semantic evidence reuse plus full actual fidelity checking, not 200 new independent visual transcriptions or model reviews. Existing visual records retain their bounded observations.",
+    "budget": {
+      "local_maximum_tokens": 1929,
+      "runtime": {
+        "model": "bge-m3",
+        "truncate": false,
+        "runtime_limit": 4096,
+        "prompt_eval_count": 1928,
+        "runtime_minus_local_tokens": -1,
+        "count_note": "Local tokenizer and runtime counts are recorded separately. Full input was accepted with truncate:false.",
+        "vector_dimensions": 1024,
+        "vector_sha256": "5bf9ab292706b507526cc00c9b3b243dcf19d04795de5615a95cea1740558430"
+      },
+      "total_tokenize_requests": 412,
+      "total_embedding_requests": 2,
+      "total_rerank_requests": 1,
+      "retries": 1,
+      "fees": null,
+      "total_ingestion_and_agent_cost_measured": false,
+      "limitation": "Budget validation uses the recorded query; later retrieval must budget its actual query independently."
+    }
+  },
+  "formal_imports": [
+    {
+      "doc_id": "DOC0022",
+      "dataset_id": "08537d0556d5438d8afaf9641f212795",
+      "document_id": "82c8e60f6dea4d53818c7a41bdcd53e6",
+      "exported_chunks": 29,
+      "accepted_business_chunks": 28,
+      "excluded_metadata": [
+        "410fdfc5a7575847"
+      ],
+      "quality_accepted": true,
+      "formal_import": true,
+      "retrieval_accepted": false,
+      "quality_path": "05-review/DOC0022-formal-quality-v5.json"
+    },
+    {
+      "doc_id": "DOC0023",
+      "dataset_id": "08537d0556d5438d8afaf9641f212795",
+      "document_id": "f96033bd4a174965b058630f7ea93a24",
+      "exported_chunks": 36,
+      "accepted_business_chunks": 35,
+      "excluded_metadata": [
+        "8f5096e398071687"
+      ],
+      "quality_accepted": true,
+      "formal_import": true,
+      "retrieval_accepted": false,
+      "quality_path": "05-review/DOC0023-formal-quality-v5.json"
+    }
+  ],
+  "retrieval": {
+    "checked_at": "2026-11-17T04:56:31.797Z",
+    "scope": "Two-document formal CL diagnostic regression; exposed cases, not final 70-question regression or independent holdout.",
+    "counts": {
+      "questions": 10,
+      "retrieval_answerable_complete_top5": 8,
+      "answerable": 8,
+      "no_evidence": 2,
+      "answerable_answer_pass": 8,
+      "no_evidence_core_boundary_pass": 2,
+      "no_evidence_complete_answer_pass": 0,
+      "no_evidence_complete_answer_partial": 2,
+      "cited_clause_associations": 20
+    },
+    "citation_support": {
+      "SUPPORTED": 19,
+      "PARTIAL_CAUSAL_CONDITION_OMITTED": 1
+    },
+    "parameters": {
+      "page_size": 5,
+      "knn_top_k": 128,
+      "knn_num_candidates": 256,
+      "use_kg": false,
+      "similarity_threshold": 0.1,
+      "vector_similarity_weight": 0.5,
+      "rerank_candidates_count": 64,
+      "rerank_id": "54b3e07f096e4b008cd789a563fd06ec"
+    },
+    "answer_context_limit": 12,
+    "local_acceptance": false,
+    "final_70_regression": false,
+    "independent_holdout": false,
+    "partial_answers": [
+      {
+        "test_id": "V5N01",
+        "decision": "PARTIAL",
+        "rationale": "核心拒答合格，未编造具体产品或全部版本认证状态，所引条款支持程序说明；末尾把国家铁路局并称认证/许可主管部门并建议查认证目录，现有证据不能建立列控软件安全认证职权及目录，应删除该无来源建议。"
+      },
+      {
+        "test_id": "V5N02",
+        "decision": "PARTIAL",
+        "rationale": "核心拒答合格，未编造按钮顺序；主动补述第三条定义时省略“由于设计、制造、标识等原因导致”，不能将不完整定义作为最终合格回答；建议只答证据不足，若补述定义则完整保留原因及危险限定。"
+      }
+    ],
+    "cost": {
+      "answer_requests": 11,
+      "answer_retries": 1,
+      "standalone_retrieval_requests": 10,
+      "answer_retrieval_requests": 11,
+      "new_semantic_review_requests": 0,
+      "semantic_points_reused": 63,
+      "tokens": null,
+      "fees": null,
+      "main_agent_cost": "未统计",
+      "note": "请求数为可观察API请求；底层嵌入/重排分批调用次数及全部费用未统计。"
+    }
+  },
+  "reranker": {
+    "checked_at": "2026-11-17T04:15:37.737Z",
+    "direct_http_status": 200,
+    "direct_succeeded": true,
+    "system_retrieval_succeeded": true,
+    "authentication": "Local HTTP service credential, not a paid provider key; secret omitted."
+  },
+  "local_verification": {
+    "passed": true,
+    "verified_bindings": [
+      {
+        "path": "review-doc0027-literal-trial.mjs",
+        "sha256": "605b1ed23a318685ce1e31e278f0f7f0b6013751dd626890acefa423db2f9a4d"
+      },
+      {
+        "path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+        "sha256": "e1079ba502a1c8231ebd9c8f6439d97e2b938dd394f533c2d96354f64ef4650f"
+      },
+      {
+        "path": "04-chunks/inputs/DOC0027-literal-da4500791353/DOC0027-literal.md",
+        "sha256": "da4500791353035c581a7a1fbe50d0007814950b7b226c208b96230864eb1eac"
+      },
+      {
+        "path": "04-chunks/inputs/DOC0027-literal-da4500791353/manifest.json",
+        "sha256": "9ee72b45bd5b6fd02b655861fe888e373c2db0d603f5fe49bbfeea215aaac63c"
+      },
+      {
+        "path": "04-chunks/actual/DOC0027-successor-trial.json",
+        "sha256": "cd2379d6895ccb6a711d6571d79d4001a04263f2338cdfa995ce06e626cce2d2"
+      },
+      {
+        "path": "05-review/DOC0027-structure-decision-2026-11-16.json",
+        "sha256": "a3ff801f5b5e82b9b841f1f4b75737f8ba20376c800f421c3542d64dd07b1636"
+      },
+      {
+        "path": "05-review/DOC0027-literal-actual-budget-2026-11-17.json",
+        "sha256": "68975cb028f2138ff48ee15396e4c230fa83a2861e8018d517dbf2a04d679c4b"
+      },
+      {
+        "path": "01-originals/attachments/S0034-1.docx",
+        "sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80"
+      },
+      {
+        "path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+        "sha256": "75476103b646acef6139e8f2ca025ba1f402a85c123328ecdca3cdc15bdf7022"
+      },
+      {
+        "path": "04-chunks/expected/DOC0026-successor-v3.json",
+        "sha256": "1f0751a442be89cd1ec901d37ee8b940c4901b2cb1d442a70dd7eef58fd29fa2"
+      },
+      {
+        "path": "05-review/successor-structure/S0034-native-tables-v2.json",
+        "sha256": "cadc3ea5476ce3ef5cc0161aa2971eafbc1646671f2bc42cdaa1e4cd64d02fa9"
+      },
+      {
+        "path": "05-review/successor-visual/S0034-original.pdf",
+        "sha256": "5326300d27e9b6068fef2b842041268498cb34052661d150efbd9a27b188dada"
+      },
+      {
+        "path": "04-chunks/actual/DOC0022-successor-formal.json",
+        "sha256": "cd908c32d354381fc4947c59b62221fa0024f2bbb334db0c6ce09b570b84745b"
+      },
+      {
+        "path": "05-review/revision-preflight-v5-2026-11-17T04-25-13-113Z/DOC0022-structure-decision.json",
+        "sha256": "3c54f0c74fddd185f269fb6cc381b96c3406bc13b6ad6bf0f7bc3bb3447a22ec"
+      },
+      {
+        "path": "04-chunks/actual/DOC0023-successor-formal.json",
+        "sha256": "7d7a6698e69549e19c670e01e986c71ef2339a35b46eed745018b3aa2e02e438"
+      },
+      {
+        "path": "05-review/revision-preflight-v5-2026-11-17T04-25-13-113Z/DOC0023-structure-decision.json",
+        "sha256": "4f01f1d644d4256a12bca53227bf6467ef53dc5f968f93dd5af8fc82ec2b3fae"
+      }
+    ],
+    "checks": [
+      "current file hashes",
+      "register and ledger bindings",
+      "five distinct formal dataset IDs and saved counts",
+      "1202 expected points",
+      "DOC0027 200 enabled plus 5 disabled",
+      "DOC0026 debug-only boundary",
+      "formal DOC0022/23 quality evidence",
+      "19 supported plus 1 partial citation",
+      "six unresolved source issues"
+    ]
+  },
+  "files": [
+    {
+      "path": "05-review/stage-report-2026-11-17.md",
+      "sha256": "2bd860c2172e27d37750501791f1609bae3708a75060e3489ab50ed3d1a95b3d"
+    },
+    {
+      "path": "stage-report-snapshot-2026-11-17.mjs",
+      "sha256": "e8f7f82a94bd894cc5521437ae5311f03f05d632b7b7fca1f3fa0ff33cf07f12"
+    },
+    {
+      "path": "00-control/progress.md",
+      "sha256": "7f7c5834a0e2e27e92eb2ca5c4af6e2757f867f3a1d8073a31279c27d89a9767"
+    },
+    {
+      "path": "00-control/chunk-review.md",
+      "sha256": "930c738f920af394c9818270a2665a88d83fdf56ff66fceed0c6f3d962e01e14"
+    },
+    {
+      "path": "00-control/structure-register.md",
+      "sha256": "055bf814ab3a3babf532b34a204e263e6b35a1c6f861ff283e4ec6070d5cd93d"
+    },
+    {
+      "path": "00-control/document-register.json",
+      "sha256": "270ac8b54eaf51b29af2a744b7b8feef23c5d956caacdc54729f45c9623afaf4"
+    },
+    {
+      "path": "00-control/successor-import-ledger.json",
+      "sha256": "0fac09f04a6652ff0ae2222f98a1fef955bbf25da14217df95124513140111f6"
+    },
+    {
+      "path": "00-control/baseline.md",
+      "sha256": "afbad05c8a7cdb33ffc465d2109694da6a8b2e86053f5e0f6a340caa3cbf9dcd"
+    },
+    {
+      "path": "00-control/dataset-map.md",
+      "sha256": "3351c5d4d11c9a68e661a50d6e36f3230dbbbd05cb6c7b893929a7b27331b3bd"
+    },
+    {
+      "path": "00-control/formal-domain-map.json",
+      "sha256": "b83615b038159c9e78c16531ab8652658f5cd30bf1efac160076a93da9ba2496"
+    },
+    {
+      "path": "00-control/gap-register.md",
+      "sha256": "d80b4734353a8687f6ab73548d7be4b9f5e2f0a056e3c68a4d0f010a5c14995f"
+    },
+    {
+      "path": "rebuild-baseline-batch-01.mjs",
+      "sha256": "f09c281b7d2728fec1bca778e2dfcfc7f2449bd890ef27eda0a1e6c113bda1f2"
+    },
+    {
+      "path": "05-review/formal-domain-current-2026-11-17.json",
+      "sha256": "d196122c0a5e5138fcdf482f0aca445ad4ba133792c67248ac5ee3630d42ef4c"
+    },
+    {
+      "path": "05-review/DOC0026-structure-decision-2026-11-17.json",
+      "sha256": "f925287bc909fc67969a7f3fc4b3bcb1ef988d1f075edeb6fa692d8838f399ae"
+    },
+    {
+      "path": "05-review/DOC0027-literal-trial-quality-2026-11-17.json",
+      "sha256": "0f033aab6ccf2d28004cc56ed422a789ca3ca3ea8f880752e861c424d44926e3"
+    },
+    {
+      "path": "05-review/DOC0027-literal-actual-budget-2026-11-17.json",
+      "sha256": "68975cb028f2138ff48ee15396e4c230fa83a2861e8018d517dbf2a04d679c4b"
+    },
+    {
+      "path": "05-review/DOC0027-literal-budget-initial-assertion-2026-11-17.json",
+      "sha256": "6638ff8052f65b7725c24cb28dc97b6f5467d8df87f2090dbda2a18f4ec2eb61"
+    },
+    {
+      "path": "05-review/DOC0026-literal-markdown-debug-2026-11-17T05-28-41-615Z.json",
+      "sha256": "93553338b017fac7d52c168394cc921d7e4a2e4fc0556810c5c67b7c1251854d"
+    },
+    {
+      "path": "04-chunks/inputs/DOC0026-literal-1e53deb5b6e2/manifest.json",
+      "sha256": "ee1b0ebc1c1a765316e439c93b91b7fe7c72f781b2635fb63e9b176c0de2d6df"
+    },
+    {
+      "path": "05-review/DOC0027-trial-quality-rejection-2026-11-16.json",
+      "sha256": "4e9c72c147f866ab388393705f43dd592b90da6d67d2160871329f257b9e3d0e"
+    },
+    {
+      "path": "05-review/DOC0027-raw-markdown-binding-rejection.json",
+      "sha256": "f56bd59adcda412288c493661c4ff54bd3c8d6ba6523df52fba33030f22c4812"
+    },
+    {
+      "path": "00-control/raw-markdown-trial-pipeline.json",
+      "sha256": "e396084439c821e636ed1b80530110c2b15da6b4dd43cc455ada0154284b4c2d"
+    },
+    {
+      "path": "05-review/successor-semantic-review/cache-verification.json",
+      "sha256": "b7fe922d5c0e58860073f38208b64cff61760a40a2b61e7b5326c81d122db8a2"
+    },
+    {
+      "path": "05-review/successor-semantic-adjudication-v2.json",
+      "sha256": "b7886ce97e03fbbce688751e0ded33475404dca67ff0bb98163471fc5bbdf571"
+    },
+    {
+      "path": "05-review/generator-validation-2026-11-16T13-47-58-053Z.json",
+      "sha256": "7618e20ad6097fe4855ed26749fae821017a1dc1bc36006399e80c975527ed5d"
+    },
+    {
+      "path": "05-review/source-table-alignment-2026-11-16T13-44-40-254Z/evidence.json",
+      "sha256": "bf80dff0388a5e40c404595e1e5dab7495ba1524cc4b1dc36fc7e5387042dd0d"
+    },
+    {
+      "path": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/evidence.json",
+      "sha256": "ffc8528c6feb80f9e6aea43f67d25f7d33a2236940917d4ecebf8ebeddf999d6"
+    },
+    {
+      "path": "05-review/revision-formal-tests-v5/answer-review.json",
+      "sha256": "da7975dcc1398c6f6f6a2f5fb2b7cc8a47c21ccd240b2851bac8cfa9f53339fb"
+    },
+    {
+      "path": "05-review/rerank-authenticated-2026-11-17T04-15-37-737Z.json",
+      "sha256": "55e719721f943f4907f81c49bae0309954237d12d53159ca32d7e730652d9508"
+    },
+    {
+      "path": "05-review/rerank-authentication-provenance-2026-11-16.json",
+      "sha256": "da4e7b17db5bd7bc4c6b8011bb314769ea0b4ddf7cc896719b185031b7bd6849"
+    },
+    {
+      "path": "05-review/DOC0022-formal-quality-v5.json",
+      "sha256": "8d6504785b2a1a6f609313cbef6a9a7de9b11a74183276ebc896c03edac3a379"
+    },
+    {
+      "path": "05-review/DOC0023-formal-quality-v5.json",
+      "sha256": "22012dbf2f7c882e7fd2540cd7e13267d2760876e46336d9c4a6ef94188d7626"
+    },
+    {
+      "path": "review-doc0027-literal-trial.mjs",
+      "sha256": "605b1ed23a318685ce1e31e278f0f7f0b6013751dd626890acefa423db2f9a4d"
+    },
+    {
+      "path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "sha256": "e1079ba502a1c8231ebd9c8f6439d97e2b938dd394f533c2d96354f64ef4650f"
+    },
+    {
+      "path": "04-chunks/inputs/DOC0027-literal-da4500791353/DOC0027-literal.md",
+      "sha256": "da4500791353035c581a7a1fbe50d0007814950b7b226c208b96230864eb1eac"
+    },
+    {
+      "path": "04-chunks/inputs/DOC0027-literal-da4500791353/manifest.json",
+      "sha256": "9ee72b45bd5b6fd02b655861fe888e373c2db0d603f5fe49bbfeea215aaac63c"
+    },
+    {
+      "path": "04-chunks/actual/DOC0027-successor-trial.json",
+      "sha256": "cd2379d6895ccb6a711d6571d79d4001a04263f2338cdfa995ce06e626cce2d2"
+    },
+    {
+      "path": "05-review/DOC0027-structure-decision-2026-11-16.json",
+      "sha256": "a3ff801f5b5e82b9b841f1f4b75737f8ba20376c800f421c3542d64dd07b1636"
+    },
+    {
+      "path": "01-originals/attachments/S0034-1.docx",
+      "sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80"
+    },
+    {
+      "path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "sha256": "75476103b646acef6139e8f2ca025ba1f402a85c123328ecdca3cdc15bdf7022"
+    },
+    {
+      "path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "sha256": "1f0751a442be89cd1ec901d37ee8b940c4901b2cb1d442a70dd7eef58fd29fa2"
+    },
+    {
+      "path": "05-review/successor-structure/S0034-native-tables-v2.json",
+      "sha256": "cadc3ea5476ce3ef5cc0161aa2971eafbc1646671f2bc42cdaa1e4cd64d02fa9"
+    },
+    {
+      "path": "05-review/successor-visual/S0034-original.pdf",
+      "sha256": "5326300d27e9b6068fef2b842041268498cb34052661d150efbd9a27b188dada"
+    },
+    {
+      "path": "04-chunks/actual/DOC0022-successor-formal.json",
+      "sha256": "cd908c32d354381fc4947c59b62221fa0024f2bbb334db0c6ce09b570b84745b"
+    },
+    {
+      "path": "05-review/revision-preflight-v5-2026-11-17T04-25-13-113Z/DOC0022-structure-decision.json",
+      "sha256": "3c54f0c74fddd185f269fb6cc381b96c3406bc13b6ad6bf0f7bc3bb3447a22ec"
+    },
+    {
+      "path": "04-chunks/actual/DOC0023-successor-formal.json",
+      "sha256": "7d7a6698e69549e19c670e01e986c71ef2339a35b46eed745018b3aa2e02e438"
+    },
+    {
+      "path": "05-review/revision-preflight-v5-2026-11-17T04-25-13-113Z/DOC0023-structure-decision.json",
+      "sha256": "4f01f1d644d4256a12bca53227bf6467ef53dc5f968f93dd5af8fc82ec2b3fae"
+    },
+    {
+      "path": "04-chunks/expected/DOC0025-successor-v3.json",
+      "sha256": "ee5f7704b75491c2f554469e241d54d2c7967e401e84f5097bb77f1fbe247d7b"
+    },
+    {
+      "path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "sha256": "ed8a9240c065db7cfd20562ca9a94764166c33ea0c6e0bcfd7468767aa995a7d"
+    },
+    {
+      "path": "04-chunks/expected/DOC0028-successor-v3.json",
+      "sha256": "ce3ef8f683e0266dc1bd4526473d761a783a5f50dda8cd6b8999ade10d48d0b7"
+    },
+    {
+      "path": "04-chunks/expected/DOC0001-article-audit.json",
+      "sha256": "f6c5b8bce5e3a0b9ea13681f0f44758f9ab6126c917fdfd9c1d2e18c127edfa9"
+    },
+    {
+      "path": "04-chunks/expected/DOC0002-article-audit.json",
+      "sha256": "3fe1b8d629be1d0b8f59f50cc33eb30856520e3f16e165cec93da8a9f9ceeb3c"
+    },
+    {
+      "path": "04-chunks/expected/DOC0003-article-audit.json",
+      "sha256": "52676ec4aa0671d4721a0d8ed777dc0603af475a86a3d98a6b1c30aaa90fb364"
+    },
+    {
+      "path": "04-chunks/expected/DOC0004-article-audit.json",
+      "sha256": "adc79c4106e0ac6b0cd562d8fb9bb9a969208118c5cde186af9af58ff1156050"
+    },
+    {
+      "path": "04-chunks/expected/DOC0005-article-audit.json",
+      "sha256": "3e1c15693f94476454adb242dc64c1c64e16262f2a776999044c37b8d2b59d3e"
+    },
+    {
+      "path": "04-chunks/expected/DOC0006-article-audit.json",
+      "sha256": "c6c1981e5846b3107bb7acd1ef6384069c420f146b7e80bbc12bbca149bcc904"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "signature": "54e1b86b55db428c610d0915bfbd59ba3e60bf5510c62588b725c809d19f35ed",
+  "started_at": "2026-11-15T17:37:34.823Z",
+  "retrieval_finished_at": "2026-11-15T17:37:53.469Z",
+  "user_app_before": {
+    "create_time": 1794666627121,
+    "created_by": "f8123cce6b744a88bde9137a8fab0ed1",
+    "description": null,
+    "id": "3b0470c7c4fb414dab6d32c19dfee8da",
+    "name": "6",
+    "search_config": {
+      "rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+      "use_rerank": true
+    },
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "update_time": 1794668238511
+  },
+  "audit_search_id": "0fc64361a85349508c008e35a40ec0da",
+  "audit_config": {
+    "kb_ids": [
+      "66ff4d9d5ff748af8e83080bd7482f04"
+    ],
+    "chat_id": "102e9861e4e24a73abb7cff80df6c52e",
+    "top_k": 128,
+    "rerank_candidates_count": 100,
+    "use_kg": false,
+    "keyword": false,
+    "similarity_threshold": 0.1,
+    "vector_similarity_weight": 0.5,
+    "llm_setting": {
+      "temperature": 0.1,
+      "temperature_enabled": true
+    }
+  },
+  "answer_context_limit": 12,
+  "answers_finished_at": "2026-11-15T17:41:53.888Z",
+  "user_app_after": {
+    "create_time": 1794666627121,
+    "created_by": "f8123cce6b744a88bde9137a8fab0ed1",
+    "description": null,
+    "id": "3b0470c7c4fb414dab6d32c19dfee8da",
+    "name": "6",
+    "search_config": {
+      "rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+      "use_rerank": true
+    },
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "update_time": 1794668238511
+  }
+}

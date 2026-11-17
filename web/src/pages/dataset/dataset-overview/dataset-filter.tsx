@@ -27,13 +27,12 @@ const DatasetFilter = (
     onOpenChange,
     active = LogTabs.FILE_LOGS,
     setActive,
-    ...rest
   } = props;
   const { t } = useTranslation();
   const filterCount = useMemo(() => {
     return typeof value === 'object' && value !== null
       ? Object.values(value).reduce((pre, cur) => {
-          return pre + cur.length;
+          return pre + (Array.isArray(cur) ? cur.length : Number(cur) || 0);
         }, 0)
       : 0;
   }, [value]);
@@ -48,6 +47,10 @@ const DatasetFilter = (
               value: LogTabs.DATASET_LOGS,
               label: t('knowledgeDetails.datasetLogs'),
             },
+            {
+              value: LogTabs.DATASOURCE_LOGS,
+              label: t('knowledgeDetails.datasourceLogs'),
+            },
           ]}
           onChange={(value) =>
             setActive?.(value as (typeof LogTabs)[keyof typeof LogTabs])
@@ -55,22 +58,24 @@ const DatasetFilter = (
         />
       </div>
 
-      <div className="flex items-center gap-4">
-        <FilterPopover
-          value={value}
-          onChange={onChange}
-          filters={filters}
-          onOpenChange={onOpenChange}
-        >
-          <FilterButton count={filterCount}></FilterButton>
-        </FilterPopover>
+      {active !== LogTabs.DATASOURCE_LOGS && (
+        <div className="flex items-center gap-4">
+          <FilterPopover
+            value={value}
+            onChange={onChange}
+            filters={filters}
+            onOpenChange={onOpenChange}
+          >
+            <FilterButton count={filterCount}></FilterButton>
+          </FilterPopover>
 
-        <SearchInput
-          value={searchString}
-          onChange={onSearchChange}
-          className="w-32"
-        ></SearchInput>
-      </div>
+          <SearchInput
+            value={searchString}
+            onChange={onSearchChange}
+            className="w-32"
+          ></SearchInput>
+        </div>
+      )}
     </div>
   );
 };

@@ -1,0 +1,190 @@
+{
+  "checked_at": "2026-11-16T14:58:24.649Z",
+  "source_evidence": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/evidence.json",
+  "scope": "官方合并全文对照和已确认转录修正；保留旧版证据与稳定ID，不增加文献数",
+  "snapshots": [
+    {
+      "original_path": "03-domains/CL/DOC0022_铁路机车车辆设计制造维修进口许可办法.md",
+      "history_path": "05-review/history/pre-revision-v5/03-domains/CL/DOC0022_铁路机车车辆设计制造维修进口许可办法.md",
+      "sha256": "a626bb84fcf0f20881f8c48b9a2e2265f398e4f79fc1ad6ebf8ea6ff289d64b3"
+    },
+    {
+      "original_path": "03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+      "history_path": "05-review/history/pre-revision-v5/03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+      "sha256": "9bf32f445d6f5c37082e6d828ba29ef8e183dca7df8b1945f668d4dc1f0cb9ba"
+    },
+    {
+      "original_path": "00-control/document-register.json",
+      "history_path": "05-review/history/pre-revision-v5/00-control/document-register.json",
+      "sha256": "403fd75b39264c00cd85a622bae1ee7589f5b13c581fcefdbda1aae39ccd15bb"
+    },
+    {
+      "original_path": "00-control/source-register.json",
+      "history_path": "05-review/history/pre-revision-v5/00-control/source-register.json",
+      "sha256": "fe448d97ef2ed348f6e2b38bb8cb93c653a6eb0bb7cde5d57db26a1dfcc498e4"
+    },
+    {
+      "original_path": "00-control/selected-sources.json",
+      "history_path": "05-review/history/pre-revision-v5/00-control/selected-sources.json",
+      "sha256": "544d2563c395aaefde93662b8013292b1080f33ee8dd0d2c73727dc052996dcc"
+    },
+    {
+      "original_path": "00-control/document-register-full.json",
+      "history_path": "05-review/history/pre-revision-v5/00-control/document-register-full.json",
+      "sha256": "7436aa40e8bc76f88fd4993a4fec2d0f1bd3385c4eb49306b106aec63a9b04c1"
+    },
+    {
+      "original_path": "00-control/structure-register.json",
+      "history_path": "05-review/history/pre-revision-v5/00-control/structure-register.json",
+      "sha256": "0dfb1f9cc065763fe7b77bf6875afcae709befc37113b9e7206a1bf8b8c0ca5a"
+    },
+    {
+      "original_path": "00-control/document-register.md",
+      "history_path": "05-review/history/pre-revision-v5/00-control/document-register.md",
+      "sha256": "ffa034187107d32a3628dcf803e8ab5d243e449abbce164feef5aa9ac84da6ad"
+    },
+    {
+      "original_path": "00-control/domain-register.md",
+      "history_path": "05-review/history/pre-revision-v5/00-control/domain-register.md",
+      "sha256": "2092c9f64b45151f8153b35304eaf63d96e6457aac54ef3087ee8372cf1678b8"
+    },
+    {
+      "original_path": "00-control/structure-register.md",
+      "history_path": "05-review/history/pre-revision-v5/00-control/structure-register.md",
+      "sha256": "432cd39db2f91001a53291d9da81b238f3638c000f73fed5b13cd93592d46312"
+    },
+    {
+      "original_path": "00-control/source-register.md",
+      "history_path": "05-review/history/pre-revision-v5/00-control/source-register.md",
+      "sha256": "7ff7d90e0b4db534db63c295d319b1a587d13daa70b59144bd4f77432ed233a6"
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "DOC0022",
+      "source_id": "S0037",
+      "previous_source_id": "S0030",
+      "expected_path": "04-chunks/expected/DOC0022-v5.json",
+      "master_path": "03-domains/CL/DOC0022_铁路机车车辆设计制造维修进口许可办法.md",
+      "master_sha256": "684ca577a353bc72dce0abe8290574aed5e87fd6520b22b97ecfb8c2bf716f57",
+      "stable_knowledge_point_ids": [
+        "DOC0022-K01",
+        "DOC0022-K02",
+        "DOC0022-K03",
+        "DOC0022-K04",
+        "DOC0022-K05",
+        "DOC0022-K06",
+        "DOC0022-K07",
+        "DOC0022-K08",
+        "DOC0022-K09",
+        "DOC0022-K10",
+        "DOC0022-K11",
+        "DOC0022-K12",
+        "DOC0022-K13",
+        "DOC0022-K14",
+        "DOC0022-K15",
+        "DOC0022-K16",
+        "DOC0022-K17",
+        "DOC0022-K18",
+        "DOC0022-K19",
+        "DOC0022-K20",
+        "DOC0022-K21",
+        "DOC0022-K22",
+        "DOC0022-K23",
+        "DOC0022-K24",
+        "DOC0022-K25",
+        "DOC0022-K26",
+        "DOC0022-K27",
+        "DOC0022-K28"
+      ],
+      "changed_articles": [],
+      "source_prefix_changed_points": 28,
+      "historical_trial_invalidation": "输入哈希变化，v4结果仅作为历史证据"
+    },
+    {
+      "doc_id": "DOC0023",
+      "source_id": "S0038",
+      "previous_source_id": "S0031",
+      "expected_path": "04-chunks/expected/DOC0023-v5.json",
+      "master_path": "03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+      "master_sha256": "741c54bb4f62853b13fa1ee9941a4ce0a0a05e602a6e301d0fe89c59dd5f06d3",
+      "stable_knowledge_point_ids": [
+        "DOC0023-K01",
+        "DOC0023-K02",
+        "DOC0023-K03",
+        "DOC0023-K04",
+        "DOC0023-K05",
+        "DOC0023-K06",
+        "DOC0023-K07",
+        "DOC0023-K08",
+        "DOC0023-K09",
+        "DOC0023-K10",
+        "DOC0023-K11",
+        "DOC0023-K12",
+        "DOC0023-K13",
+        "DOC0023-K14",
+        "DOC0023-K15",
+        "DOC0023-K16",
+        "DOC0023-K17",
+        "DOC0023-K18",
+        "DOC0023-K19",
+        "DOC0023-K20",
+        "DOC0023-K21",
+        "DOC0023-K22",
+        "DOC0023-K23",
+        "DOC0023-K24",
+        "DOC0023-K25",
+        "DOC0023-K26",
+        "DOC0023-K27",
+        "DOC0023-K28",
+        "DOC0023-K29",
+        "DOC0023-K30",
+        "DOC0023-K31",
+        "DOC0023-K32",
+        "DOC0023-K33",
+        "DOC0023-K34",
+        "DOC0023-K35"
+      ],
+      "changed_articles": [
+        {
+          "knowledge_point_id": "DOC0023-K07",
+          "article": "第七条",
+          "previous_body": "生产企业是缺陷产品召回的实施主体，应当建立完善的产品质量安全档案和相关管理制度，准确记录并保存有关产品设计、制造、销售、标识、检验等信息，建立用户访问和质量分析制度，分析可能存在的缺陷，履行缺陷产品召回的义务并承担相关费用。生产企业制造的铁路机车车辆经监造，符合要求后，方可投入使用。\n\n本办法所称监造是指由铁路运输企业等铁路机车车辆采购单位或者其委托的专业单位，依据有关产品质量的法律、行政法规以及国家其他有关规定，根据合同约定，按照规定的程序和范围，在机车车辆产品生产企业对生产过程和实物质量实施监督检查，并对产品的符合性作出专业判断。",
+          "corrected_body": "生产企业是缺陷产品召回的实施主体，应当建立完善的产品质量安全档案和相关管理制度，准确记录并保存相关产品设计、制造、销售、标识、检验等信息，建立用户访问和质量分析制度，分析可能存在的缺陷，履行缺陷产品召回的义务并承担相关费用。生产企业制造的铁路机车车辆经监造，符合要求后，方可投入使用。\n\n本办法所称监造是指由铁路运输企业等铁路机车车辆采购单位或者其委托的专业单位，依据有关产品质量的法律、行政法规以及国家其他有关规定，根据合同约定，按照规定的程序和范围，在机车车辆产品生产企业对生产过程和实物质量实施监督检查，并对产品的符合性作出专业判断。",
+          "decision": "官方合并HTML/PDF及修正决定原件核对；修正本地转录，不修改原件"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K14",
+          "article": "第十四条",
+          "previous_body": "在缺陷调查过程中，可以采取以下措施：\n\n（一）进入相关企业的生产经营场所进行现场调查；\n\n（二）查阅、复制相关资料、档案和记录；\n\n（三）向相关单位和个人了解产品可能存在缺陷的情况，公开征求相关信息。\n\n（四）依法可以采取的其他措施。",
+          "corrected_body": "在缺陷调查过程中，可以采取以下措施：\n\n（一）进入相关企业的生产经营场所进行现场调查；\n\n（二）查阅、复制相关资料、档案和记录；\n\n（三）向相关单位和个人了解产品可能存在缺陷的情况，公开征求相关信息；\n\n（四）依法可以采取的其他措施。",
+          "decision": "官方合并HTML/PDF及修正决定原件核对；修正本地转录，不修改原件"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K30",
+          "article": "第三十条",
+          "previous_body": "生产企业违反本办法规定，有下列情形之一的，由国家铁路局责令限期改正。\n\n（一）未按规定保存缺陷产品信息的；\n\n（二）未按规定制定并提供召回计划或未按计划实施召回的；\n\n（三）未按规定提供相关报告和信息的；\n\n（四）不配合产品缺陷调查的；\n\n（五）未按规定停止制造、销售、进口存在缺陷的产品的；\n\n（六）故意隐瞒、虚报或者以不正当方式处理产品缺陷的。",
+          "corrected_body": "生产企业违反本办法规定，有下列情形之一的，由国家铁路局责令限期改正：\n\n（一）未按规定保存缺陷产品信息的；\n\n（二）未按规定制定并提供召回计划或未按计划实施召回的；\n\n（三）未按规定提供相关报告和信息的；\n\n（四）不配合产品缺陷调查的；\n\n（五）未按规定停止制造、销售、进口存在缺陷的产品的；\n\n（六）故意隐瞒、虚报或者以不正当方式处理产品缺陷的。",
+          "decision": "官方合并HTML/PDF及修正决定原件核对；修正本地转录，不修改原件"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K31",
+          "article": "第三十一条",
+          "previous_body": "生产企业未按规定召回缺陷产品，未采取措施消除缺陷的，国家铁路局应当责令其改正，拒不改正的，按下列规定处罚：\n\n（一）情节较轻的，处缺陷产品货值金额1%～5%的罚款；\n\n（二）情节较重的，处缺陷产品货值金额5％～8％的罚款；\n\n（三）情节严重的，处缺陷产品货值金额８％～10％的罚款，并吊销生产企业相应的行政许可证件。\n\n构成犯罪的，依法追究刑事责任。",
+          "corrected_body": "生产企业未按规定召回缺陷产品，未采取措施消除缺陷的，国家铁路局应当责令其改正；拒不改正的，按下列规定处罚：\n\n（一）情节较轻的，处缺陷产品货值金额1%～5%的罚款；\n\n（二）情节较重的，处缺陷产品货值金额5％～8％的罚款；\n\n（三）情节严重的，处缺陷产品货值金额８％～10％的罚款，并吊销生产企业相应的行政许可证件。\n\n构成犯罪的，依法追究刑事责任。",
+          "decision": "官方合并HTML/PDF及修正决定原件核对；修正本地转录，不修改原件"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K32",
+          "article": "第三十二条",
+          "previous_body": "从事缺陷产品召回监督管理工作的人员违反本办法规定、有下列行为之一的，依法给予行政处分。涉嫌犯罪的，移交司法机关处理。\n\n（一）将当事企业提供的技术资料、档案等用于缺陷调查以外其他用途的；\n\n（二）泄露当事企业商业秘密的；\n\n（三）有玩忽职守、徇私舞弊、滥用职权及其他失职、渎职行为的。",
+          "corrected_body": "从事缺陷产品召回监督管理工作的人员违反本办法规定、有下列行为之一的，依法给予行政处分；涉嫌犯罪的，移交司法机关处理：\n\n（一）将当事企业提供的技术资料、档案等用于缺陷调查以外其他用途的；\n\n（二）泄露当事企业商业秘密的；\n\n（三）有玩忽职守、徇私舞弊、滥用职权及其他失职、渎职行为的。",
+          "decision": "官方合并HTML/PDF及修正决定原件核对；修正本地转录，不修改原件"
+        }
+      ],
+      "source_prefix_changed_points": 35,
+      "historical_trial_invalidation": "输入哈希变化，v4结果仅作为历史证据"
+    }
+  ],
+  "remote_mutation": false
+}

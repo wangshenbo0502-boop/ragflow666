@@ -1,0 +1,135 @@
+{
+  "decided_at": "2026-11-17T05:19:16.408Z",
+  "doc_id": "DOC0026",
+  "decision": "STRUCTURE_ACCEPTED_FOR_FAITHFUL_SOURCE_TRIAL",
+  "structure_accepted": true,
+  "trial_accepted": false,
+  "formal_import": false,
+  "retrieval_accepted": false,
+  "bindings": {
+    "original": {
+      "path": "01-originals/attachments/S0034-1.docx",
+      "sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80"
+    },
+    "master": {
+      "path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "sha256": "fea88cfaf5b808a8eb6c453f8227c6433a6ba7df38769f5712cd4c53300e7c9b"
+    },
+    "expected": {
+      "path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "sha256": "1f0751a442be89cd1ec901d37ee8b940c4901b2cb1d442a70dd7eef58fd29fa2"
+    },
+    "native": {
+      "path": "05-review/successor-structure/S0034-native-tables-v2.json",
+      "sha256": "cadc3ea5476ce3ef5cc0161aa2971eafbc1646671f2bc42cdaa1e4cd64d02fa9"
+    },
+    "original_pdf": {
+      "path": "05-review/successor-visual/S0034-original.pdf",
+      "sha256": "5326300d27e9b6068fef2b842041268498cb34052661d150efbd9a27b188dada"
+    }
+  },
+  "metadata_only_change": {
+    "before_path": "05-review/history/DOC0026-before-structure-decision-2026-11-17/DOC0026-master.md",
+    "before_sha256": "41b9e9d81b67088ecf79bba8b1658a25ad30e1e12dc10810d9bfa21f57fe780c",
+    "after_sha256": "fea88cfaf5b808a8eb6c453f8227c6433a6ba7df38769f5712cd4c53300e7c9b",
+    "business_region_unchanged": true,
+    "candidate_expected_file_unchanged": true,
+    "semantic_cache_reused_batches": 56,
+    "new_semantic_requests": 0
+  },
+  "deterministic_checks": {
+    "unique_points": 390,
+    "heading_levels_valid": true,
+    "paragraph_coverage": 129,
+    "nonempty_native_cells": 1108,
+    "native_tables": 11,
+    "native_mapping_exact": true,
+    "candidate_sections_complete": true,
+    "tokenizer_sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+    "embedding_maximum_tokens": 1788,
+    "embedding_model_runtime_limit_verified": true
+  },
+  "semantic_review": {
+    "model_pass": 388,
+    "faithful_source_adjudications": 2,
+    "decisions": [
+      "DOC0026-S0034-T03-G167-167",
+      "DOC0026-K038"
+    ],
+    "interpretation": "Blank source cells remain blank/unknown; no compliance conclusion inferred."
+  },
+  "visual_review": {
+    "pages_viewed": 37,
+    "evidence": "05-review/DOC0026-preflight-2026-11-17T05-13-59-313Z/visual-review.json",
+    "limitation": "All 37 pages were viewed across the continuing task. Pages 1-15 and 18-29 observations are carried from the immediately preceding handover; pages 16,17,37 reuse unchanged hash-bound bounded evidence; pages 30-36 were viewed in this continuation. Visual inspection covered full pages, headings, table boundaries, conditions, units, blank cells and cross-page continuations. It does not claim independent visual transcription of every cell or legal interpretation of blank cells.",
+    "observations_evidence": "05-review/successor-visual/DOC0026-page-observations-2026-11-17.json"
+  },
+  "source_version": {
+    "doc_id": "DOC0026",
+    "source_id": "S0034",
+    "local_original_path": "01-originals/attachments/S0034-1.docx",
+    "local_original_sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+    "official_page": {
+      "requested_url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/zuti/xzxk/202603/t20260306_350846.shtml",
+      "snapshot_path": "05-review/successor-official-2026-11-16T13-32-29-538Z/S0034.html",
+      "snapshot_sha256": "db20454cbb9468d8a1badca637876a6c3aafb5489ec34dbf95d12eb1643f3609"
+    },
+    "attachments": [
+      {
+        "title": "国家铁路局关于印发《铁路信号设备生产企业审批实施细则》的通知（国铁设备监规〔2026〕5号）(1).docx",
+        "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/zuti/xzxk/202603/P020260306509904280912.docx",
+        "http_status": 200,
+        "bytes": 134263,
+        "snapshot_path": "05-review/successor-official-2026-11-16T13-32-29-538Z/S0034-attachment-1.docx",
+        "sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+        "matches_local_original": true
+      }
+    ],
+    "listed_in_current_directory": true,
+    "source_identity_verified": true,
+    "legal_effectiveness": "Official identity, stated effective date and joint-notice repeal relationship verified; later amendment search is bounded to the fetched licensing directory.",
+    "scope": "The current NRA administrative-licensing directory and the four individual pages and joint notice, including their linked attachments. No site-wide, national legal database or regulator interpretation search was performed.",
+    "effectiveness_boundary": "Official identity, stated effective date and joint-notice repeal relationship verified; later amendment search is bounded to the fetched licensing directory."
+  },
+  "budgets": {
+    "embedding_runtime_limit": 4096,
+    "maximum_prefixed_candidate_tokens": 1788,
+    "nontruncating_embedding_evidence": "05-review/DOC0026-embedding-budget-2026-11-17T05-14-18-634Z.json",
+    "reranker_evidence": "05-review/DOC0026-preflight-2026-11-17T05-13-59-313Z/reranker-budget.json"
+  },
+  "dependencies": [
+    {
+      "path": "05-review/DOC0026-preflight-2026-11-17T05-13-59-313Z/summary.json",
+      "sha256": "2fb74dad6a979f01dd1303e13b9d1a3424c96460c2c2293ae8c0ffcf2d6d2550"
+    },
+    {
+      "path": "05-review/DOC0026-embedding-budget-2026-11-17T05-14-18-634Z.json",
+      "sha256": "d930ab158a018eb1f96a4839043a084b67beda4ca072681e0f857eac75c4bfcd"
+    },
+    {
+      "path": "05-review/successor-official-2026-11-16T13-32-29-538Z/evidence.json",
+      "sha256": "b4dc0dd2bad897b987b9de66f761f9c2198a44eabc0a792bd931041f8624c0b7"
+    },
+    {
+      "path": "05-review/DOC0026-preflight-2026-11-17T05-13-59-313Z/visual-review.json",
+      "sha256": "afbe305a1440c59b085480ea5d66ccdea89e35083ace11c8663b62fa7b5f2a90"
+    },
+    {
+      "path": "05-review/successor-visual/DOC0026-page-observations-2026-11-17.json",
+      "sha256": "aabad1084ebe65fcbfb57549a067aad702330823cc11414cdb58e9c65f0a2271"
+    },
+    {
+      "path": "05-review/successor-visual/bounded-review-v1.json",
+      "sha256": "c40fd48fc980cec04c6e9b1308bd19e3175eade55032de3148a4fe2df7a48202"
+    },
+    {
+      "path": "05-review/successor-semantic-review/cache-verification.json",
+      "sha256": "b7fe922d5c0e58860073f38208b64cff61760a40a2b61e7b5326c81d122db8a2"
+    },
+    {
+      "path": "05-review/successor-semantic-adjudication-v2.json",
+      "sha256": "b7886ce97e03fbbce688751e0ded33475404dca67ff0bb98163471fc5bbdf571"
+    }
+  ],
+  "limitation": "Approval concerns faithful source structure and eligibility for trial, not a permit determination, universal legal currency, actual chunk quality or retrieval acceptance."
+}

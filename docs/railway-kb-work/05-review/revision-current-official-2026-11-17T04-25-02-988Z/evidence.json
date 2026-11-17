@@ -1,0 +1,685 @@
+{
+  "checked_at": "2026-11-17T04:25:04.228Z",
+  "records": [
+    {
+      "doc_id": "DOC0022",
+      "title": "铁路机车车辆设计制造维修进口许可办法",
+      "official_version_statement": "（2013年12月24日交通运输部令第13号发布 根据2019年2月3日交通运输部《关于修改〈铁路机车车辆设计制造维修进口许可办法〉的决定》修正）",
+      "current_catalog": {
+        "requested_url": "https://xxgk.mot.gov.cn/2020/gz/index_9.html",
+        "final_url": "https://xxgk.mot.gov.cn/2020/gz/index_9.html",
+        "http_status": 200,
+        "checked_at": "2026-11-17T04:25:03.489Z",
+        "snapshot_path": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/catalog-9.html",
+        "sha256": "934e6dbfb83c12f3a828c33b5860c4f29949b66347af428ffa294d6c6f69fa22",
+        "bytes": 48969
+      },
+      "catalog_link_verified": true,
+      "official_page": {
+        "requested_url": "https://xxgk.mot.gov.cn/gz/202112/t20211223_3632653.html",
+        "final_url": "https://xxgk.mot.gov.cn/gz/202112/t20211223_3632653.html",
+        "http_status": 200,
+        "checked_at": "2026-11-17T04:25:03.649Z",
+        "snapshot_path": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/DOC0022.html",
+        "sha256": "4503f44835ff552cd4deb2dc3bf86b904495a928aeacff4a5173f90619b2d871",
+        "bytes": 30728
+      },
+      "body_path": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/DOC0022.txt",
+      "body_sha256": "951fb9d9231e0f09cdd9e8d208c33fb3ecee1f752f3c2a2496258506e26f3d3f",
+      "attachments": [
+        {
+          "requested_url": "https://xxgk.mot.gov.cn/gz/202112/W020211223540808062796.pdf",
+          "final_url": "https://xxgk.mot.gov.cn/gz/202112/W020211223540808062796.pdf",
+          "http_status": 200,
+          "checked_at": "2026-11-16T14:47:06.775Z",
+          "snapshot_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022.pdf",
+          "sha256": "7922e18323032861596b4fb1efe661ba5c9fcd81b7941f644e2799cdf9dcd49a",
+          "bytes": 499164,
+          "link_text": "下载图片版",
+          "reused": true,
+          "link_rechecked_at": "2026-11-17T04:25:03.662Z",
+          "reuse_scope": "Unchanged official attachment URL; cached bytes/hash and qualified visual review reused. Remote PDF bytes not downloaded again."
+        }
+      ],
+      "master_path": "03-domains/CL/DOC0022_铁路机车车辆设计制造维修进口许可办法.md",
+      "master_sha256": "684ca577a353bc72dce0abe8290574aed5e87fd6520b22b97ecfb8c2bf716f57",
+      "expected_path": "04-chunks/expected/DOC0022-v5.json",
+      "expected_sha256": "97852f5e308ecb47e62e76756a35ea96de5acd753563007bccd9325e7b8db70a",
+      "article_count": 28,
+      "comparisons": [
+        {
+          "knowledge_point_id": "DOC0022-K01",
+          "article": "第一条",
+          "official_body_sha256": "084d4a07bc4ec7a4c6206793bbc85d5f4c3ba803e5af6bb037aa18c11218b4a5",
+          "local_body_sha256": "084d4a07bc4ec7a4c6206793bbc85d5f4c3ba803e5af6bb037aa18c11218b4a5",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K02",
+          "article": "第二条",
+          "official_body_sha256": "250d45e707b81a1e2eb2e0ee0af0402308474416d61e273e311b3110c0f2cae5",
+          "local_body_sha256": "250d45e707b81a1e2eb2e0ee0af0402308474416d61e273e311b3110c0f2cae5",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K03",
+          "article": "第三条",
+          "official_body_sha256": "7a280bc2fdca37e6084d704bec6f5606ecb828cf8cda35d93cf153eb9a13ee71",
+          "local_body_sha256": "a92c492eb96db54531a9bbe36fb220e94b220ad1cffad0473b3c57197f0fc0eb",
+          "exact_ignoring_whitespace": false,
+          "quotes_only": true,
+          "official_body": "设计、制造、维修或者进口新型铁路机车车辆，应当分别向国家铁路局申请领取型号合格证、制造许可证、维修许可证或者进口许可证。\n\n设计新型铁路机车车辆，设计企业应当取得型号合格证；已取得型号合格证的产品，制造企业在投入批量制造之前，应当取得制造许可证；承担铁路机车车辆整机性能恢复性修理（即\"大修\"）的维修企业在维修样车投入运营前，应当取得维修许可证；进口新型铁路机车车辆，在该产品投入运营前，国内进口企业应当取得进口许可证。",
+          "local_body": "设计、制造、维修或者进口新型铁路机车车辆，应当分别向国家铁路局申请领取型号合格证、制造许可证、维修许可证或者进口许可证。\n\n设计新型铁路机车车辆，设计企业应当取得型号合格证；已取得型号合格证的产品，制造企业在投入批量制造之前，应当取得制造许可证；承担铁路机车车辆整机性能恢复性修理（即“大修”）的维修企业在维修样车投入运营前，应当取得维修许可证；进口新型铁路机车车辆，在该产品投入运营前，国内进口企业应当取得进口许可证。",
+          "semantic_decision": "Requires source adjudication"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K04",
+          "article": "第四条",
+          "official_body_sha256": "7b9df6e8b39e933acb193badb540d4457ce87bb8cc1e96779933bb198558a536",
+          "local_body_sha256": "7b9df6e8b39e933acb193badb540d4457ce87bb8cc1e96779933bb198558a536",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K05",
+          "article": "第五条",
+          "official_body_sha256": "6c1d24016835b9ae85cf2d1961d015abe834db895c46f4304997cc7c064a444e",
+          "local_body_sha256": "6c1d24016835b9ae85cf2d1961d015abe834db895c46f4304997cc7c064a444e",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K06",
+          "article": "第六条",
+          "official_body_sha256": "1ed684d8656579a32e519d0c8915ac6e657b8249dd5204abe934f37cafad03c5",
+          "local_body_sha256": "1ed684d8656579a32e519d0c8915ac6e657b8249dd5204abe934f37cafad03c5",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K07",
+          "article": "第七条",
+          "official_body_sha256": "73f92e0df6217da19e23009605a505d3557b40ae6b1289454404343ecfb96995",
+          "local_body_sha256": "73f92e0df6217da19e23009605a505d3557b40ae6b1289454404343ecfb96995",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K08",
+          "article": "第八条",
+          "official_body_sha256": "d452aeafe562962aba1f928e810d0df99cac2473fb0e95a76bf6e7164e094610",
+          "local_body_sha256": "d452aeafe562962aba1f928e810d0df99cac2473fb0e95a76bf6e7164e094610",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K09",
+          "article": "第九条",
+          "official_body_sha256": "d512a49b4ce86ec7716c5900de27cff6a094e1952025ae5111539173fec9bd77",
+          "local_body_sha256": "d512a49b4ce86ec7716c5900de27cff6a094e1952025ae5111539173fec9bd77",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K10",
+          "article": "第十条",
+          "official_body_sha256": "a1752775d837e545fd06d302546860cfb3917a6e55d47f5f85b29059682639d5",
+          "local_body_sha256": "a1752775d837e545fd06d302546860cfb3917a6e55d47f5f85b29059682639d5",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K11",
+          "article": "第十一条",
+          "official_body_sha256": "801796824f2acc7f86cb27b54a051013cbb5d9fcbf5c778d3b8ae02157adc249",
+          "local_body_sha256": "801796824f2acc7f86cb27b54a051013cbb5d9fcbf5c778d3b8ae02157adc249",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K12",
+          "article": "第十二条",
+          "official_body_sha256": "ea3123bd8d3605f2e2bc11379be888a875cba088398a4f90a701e588d11791f1",
+          "local_body_sha256": "ea3123bd8d3605f2e2bc11379be888a875cba088398a4f90a701e588d11791f1",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K13",
+          "article": "第十三条",
+          "official_body_sha256": "3d6d90f5bda9c3524cc87615fa8b106317603931e98f5542f7899da72e0c700d",
+          "local_body_sha256": "3d6d90f5bda9c3524cc87615fa8b106317603931e98f5542f7899da72e0c700d",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K14",
+          "article": "第十四条",
+          "official_body_sha256": "f97dbc32212a080e362fe5a1e348f32cf902635b95798b941bba26d78bbc7369",
+          "local_body_sha256": "f97dbc32212a080e362fe5a1e348f32cf902635b95798b941bba26d78bbc7369",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K15",
+          "article": "第十五条",
+          "official_body_sha256": "016a8be0462603fa06e40cd8b0753e57794a2b32c3617c149a7e915f333c2b76",
+          "local_body_sha256": "016a8be0462603fa06e40cd8b0753e57794a2b32c3617c149a7e915f333c2b76",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K16",
+          "article": "第十六条",
+          "official_body_sha256": "ce1a685076827ac700e1802e1171e4e1a67306d1ba59f6601ee963ab6cfb769d",
+          "local_body_sha256": "ce1a685076827ac700e1802e1171e4e1a67306d1ba59f6601ee963ab6cfb769d",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K17",
+          "article": "第十七条",
+          "official_body_sha256": "f16a05e65d075866d173edde2665d959aad96a6a42e6edba98427bcea2f87682",
+          "local_body_sha256": "f16a05e65d075866d173edde2665d959aad96a6a42e6edba98427bcea2f87682",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K18",
+          "article": "第十八条",
+          "official_body_sha256": "b503f8cc1f45793835053b71aca83915a101860bb555d09beb52a82a59986a92",
+          "local_body_sha256": "b503f8cc1f45793835053b71aca83915a101860bb555d09beb52a82a59986a92",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K19",
+          "article": "第十九条",
+          "official_body_sha256": "db757442f32969580e2e3c56f2ac1fb7667977bf87a1c640c1a1bfc7f9a14b8f",
+          "local_body_sha256": "db757442f32969580e2e3c56f2ac1fb7667977bf87a1c640c1a1bfc7f9a14b8f",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K20",
+          "article": "第二十条",
+          "official_body_sha256": "63736780b32074ee0a37a5b541c5be7b42bfdb5454be09a691dc0a16b1b33693",
+          "local_body_sha256": "63736780b32074ee0a37a5b541c5be7b42bfdb5454be09a691dc0a16b1b33693",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K21",
+          "article": "第二十一条",
+          "official_body_sha256": "4d7c08d0a750382e254c2587831c8b215d1aac12c02997238986efe52005ce8c",
+          "local_body_sha256": "4d7c08d0a750382e254c2587831c8b215d1aac12c02997238986efe52005ce8c",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K22",
+          "article": "第二十二条",
+          "official_body_sha256": "594778ceea20b791c19d03571b467de5653574debbc717924c8c753b0900a2d2",
+          "local_body_sha256": "594778ceea20b791c19d03571b467de5653574debbc717924c8c753b0900a2d2",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K23",
+          "article": "第二十三条",
+          "official_body_sha256": "e88df4c015d6c36febcd6b10e757004525d0329ba1a0256b00abd20dd1921887",
+          "local_body_sha256": "e88df4c015d6c36febcd6b10e757004525d0329ba1a0256b00abd20dd1921887",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K24",
+          "article": "第二十四条",
+          "official_body_sha256": "e2e9465a6a909926d7ddd751e09f65321ddf524c07fb2b935379a1a1d8d54d05",
+          "local_body_sha256": "e2e9465a6a909926d7ddd751e09f65321ddf524c07fb2b935379a1a1d8d54d05",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K25",
+          "article": "第二十五条",
+          "official_body_sha256": "86324c7d53dd0582a0cf268d0ac9ee6cee935764fd919d6393810021cc48c0e0",
+          "local_body_sha256": "86324c7d53dd0582a0cf268d0ac9ee6cee935764fd919d6393810021cc48c0e0",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K26",
+          "article": "第二十六条",
+          "official_body_sha256": "4e73cd31213318ffad35fa95850d2a2fcf25fdc1209d041ff4c4cd1f1c7c3c2c",
+          "local_body_sha256": "4e73cd31213318ffad35fa95850d2a2fcf25fdc1209d041ff4c4cd1f1c7c3c2c",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K27",
+          "article": "第二十七条",
+          "official_body_sha256": "2f054846cecb6decd41734fbf436f2c6542078dceb5758f007e0286784bf3da9",
+          "local_body_sha256": "2f054846cecb6decd41734fbf436f2c6542078dceb5758f007e0286784bf3da9",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K28",
+          "article": "第二十八条",
+          "official_body_sha256": "88323cbb5151fc5cdd586fe246eef608134bdc393a5ea48b532211966cba89c5",
+          "local_body_sha256": "88323cbb5151fc5cdd586fe246eef608134bdc393a5ea48b532211966cba89c5",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        }
+      ],
+      "source_status": "Listed in the official current-effective regulation catalog at the recorded access time",
+      "semantic_review_passed": false,
+      "formal_import_passed": false
+    },
+    {
+      "doc_id": "DOC0023",
+      "title": "铁路专用设备缺陷产品召回管理办法",
+      "official_version_statement": "（2015年11月19日交通运输部令第23号发布 根据2018年8月31日交通运输部《关于修改〈铁路专用设备缺陷产品召回管理办法〉的决定》修正）",
+      "current_catalog": {
+        "requested_url": "https://xxgk.mot.gov.cn/2020/gz/index_10.html",
+        "final_url": "https://xxgk.mot.gov.cn/2020/gz/index_10.html",
+        "http_status": 200,
+        "checked_at": "2026-11-17T04:25:03.860Z",
+        "snapshot_path": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/catalog-10.html",
+        "sha256": "a45d57ba95da82b5cc330c07b62b9ed909b3c4bce4f1bc431d25ecd29ffde04e",
+        "bytes": 47862
+      },
+      "catalog_link_verified": true,
+      "official_page": {
+        "requested_url": "https://xxgk.mot.gov.cn/gz/202112/t20211224_3632922.html",
+        "final_url": "https://xxgk.mot.gov.cn/gz/202112/t20211224_3632922.html",
+        "http_status": 200,
+        "checked_at": "2026-11-17T04:25:04.220Z",
+        "snapshot_path": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/DOC0023.html",
+        "sha256": "0678ed216bb777355875dc5dc191fc9745717e67c533f346a7f8ec17cd3e86c8",
+        "bytes": 26815
+      },
+      "body_path": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/DOC0023.txt",
+      "body_sha256": "cecc8d65961b210b172639496dfbfc7a5fe2bc6d021f05c5684e8749115c45d2",
+      "attachments": [
+        {
+          "requested_url": "https://xxgk.mot.gov.cn/gz/202112/W020211224523932861569.pdf",
+          "final_url": "https://xxgk.mot.gov.cn/gz/202112/W020211224523932861569.pdf",
+          "http_status": 200,
+          "checked_at": "2026-11-16T14:47:07.557Z",
+          "snapshot_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023.pdf",
+          "sha256": "0a7ab0b7cc901b8be0630b7a4810701fdfe32a78e2f92672443b6fa7e2f75617",
+          "bytes": 367140,
+          "link_text": "下载图片版",
+          "reused": true,
+          "link_rechecked_at": "2026-11-17T04:25:04.228Z",
+          "reuse_scope": "Unchanged official attachment URL; cached bytes/hash and qualified visual review reused. Remote PDF bytes not downloaded again."
+        }
+      ],
+      "master_path": "03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+      "master_sha256": "69ede999c3545fa5a2f8044ab61dbe15e77faf359f8627a3a5cba35c5b2beed6",
+      "expected_path": "04-chunks/expected/DOC0023-v5.json",
+      "expected_sha256": "b2e06bad3a6700e7f9429ca569ada60def61262b5761307be07fcef99d4cfef6",
+      "article_count": 35,
+      "comparisons": [
+        {
+          "knowledge_point_id": "DOC0023-K01",
+          "article": "第一条",
+          "official_body_sha256": "ce16418ffc5b1536b3d8492651781fef4879c8f8fcf40dfe59fbd1169437e3ff",
+          "local_body_sha256": "ce16418ffc5b1536b3d8492651781fef4879c8f8fcf40dfe59fbd1169437e3ff",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K02",
+          "article": "第二条",
+          "official_body_sha256": "a97e7b8c7fad6ad37b45fcaf4d2df91badcc30bcbc061e17364e3203f7cef111",
+          "local_body_sha256": "a97e7b8c7fad6ad37b45fcaf4d2df91badcc30bcbc061e17364e3203f7cef111",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K03",
+          "article": "第三条",
+          "official_body_sha256": "3815d9c6c864b8342c662bcb6b122b6e90969e33cd20d5014a51a65184ec8e60",
+          "local_body_sha256": "3815d9c6c864b8342c662bcb6b122b6e90969e33cd20d5014a51a65184ec8e60",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K04",
+          "article": "第四条",
+          "official_body_sha256": "9913766bba867eb8c283178a9d6dc8b682740ebc969d7bf37acb1e36433b4667",
+          "local_body_sha256": "9913766bba867eb8c283178a9d6dc8b682740ebc969d7bf37acb1e36433b4667",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K05",
+          "article": "第五条",
+          "official_body_sha256": "fd473c95a7f3ad18290e159b92e5f0a294b19f79ed96a61d657f37a13c81064e",
+          "local_body_sha256": "fd473c95a7f3ad18290e159b92e5f0a294b19f79ed96a61d657f37a13c81064e",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K06",
+          "article": "第六条",
+          "official_body_sha256": "52f257539d3bae16dc771922e32af7683eb6e71ff21b1592bdaba2eae10e100e",
+          "local_body_sha256": "52f257539d3bae16dc771922e32af7683eb6e71ff21b1592bdaba2eae10e100e",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K07",
+          "article": "第七条",
+          "official_body_sha256": "4ee091b0be2620283085cbe3ab5d63ba72e0ffdf80cc19e6280cbb6b8907c8d6",
+          "local_body_sha256": "4ee091b0be2620283085cbe3ab5d63ba72e0ffdf80cc19e6280cbb6b8907c8d6",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K08",
+          "article": "第八条",
+          "official_body_sha256": "0544057e339ebcf4397f313eefb75b22102262fdf239d01fc723ca2b8fdb5460",
+          "local_body_sha256": "0544057e339ebcf4397f313eefb75b22102262fdf239d01fc723ca2b8fdb5460",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K09",
+          "article": "第九条",
+          "official_body_sha256": "b24aab41e5837b0dbd2765e994e9cc1af7ef55aeed83e380ff24254c2e76dc1e",
+          "local_body_sha256": "b24aab41e5837b0dbd2765e994e9cc1af7ef55aeed83e380ff24254c2e76dc1e",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K10",
+          "article": "第十条",
+          "official_body_sha256": "16b464793ee915e65f1405bf608a31ff6710f49687f848778913c4fed643f712",
+          "local_body_sha256": "16b464793ee915e65f1405bf608a31ff6710f49687f848778913c4fed643f712",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K11",
+          "article": "第十一条",
+          "official_body_sha256": "7aeafa59d7c411b615a36acf91e1310536611d373500f1cbe833fcfe2aa55cd6",
+          "local_body_sha256": "7aeafa59d7c411b615a36acf91e1310536611d373500f1cbe833fcfe2aa55cd6",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K12",
+          "article": "第十二条",
+          "official_body_sha256": "f49a3d92954f3aff94c0ea1926cbca4613421b018db4a29abc004973c68cf984",
+          "local_body_sha256": "f49a3d92954f3aff94c0ea1926cbca4613421b018db4a29abc004973c68cf984",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K13",
+          "article": "第十三条",
+          "official_body_sha256": "cdff02ac64d3fd7cacbc4f27505e3b2ed83ebbade6cbbc87380ba501a8c57ad7",
+          "local_body_sha256": "cdff02ac64d3fd7cacbc4f27505e3b2ed83ebbade6cbbc87380ba501a8c57ad7",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K14",
+          "article": "第十四条",
+          "official_body_sha256": "cc85cdc1daa21b1dcd82ec4f639978eaf88087e0cb3f85b4d6428ef7fb4e7d37",
+          "local_body_sha256": "cc85cdc1daa21b1dcd82ec4f639978eaf88087e0cb3f85b4d6428ef7fb4e7d37",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K15",
+          "article": "第十五条",
+          "official_body_sha256": "a3aeb6f1800bc0da93fba9bf659b5013fc068837c796c91e5ac68abbc0344af4",
+          "local_body_sha256": "a3aeb6f1800bc0da93fba9bf659b5013fc068837c796c91e5ac68abbc0344af4",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K16",
+          "article": "第十六条",
+          "official_body_sha256": "176590d465d8f5103734fa96329f83fe5c80e67592e1923a4b5c04730fd56c99",
+          "local_body_sha256": "176590d465d8f5103734fa96329f83fe5c80e67592e1923a4b5c04730fd56c99",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K17",
+          "article": "第十七条",
+          "official_body_sha256": "9151e3038f96eb4e86551a79346f19621758729f610900cb9cd66ce3ae97ce3a",
+          "local_body_sha256": "9151e3038f96eb4e86551a79346f19621758729f610900cb9cd66ce3ae97ce3a",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K18",
+          "article": "第十八条",
+          "official_body_sha256": "543eb7cfdc191ef0ee8a10fd5779c4fb242644d30df411d91787cc05c993a072",
+          "local_body_sha256": "543eb7cfdc191ef0ee8a10fd5779c4fb242644d30df411d91787cc05c993a072",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K19",
+          "article": "第十九条",
+          "official_body_sha256": "dce4a5f4861a7a30d8d4330593dfcbd0b0b6c0c1fb3d9767921977d6368bebac",
+          "local_body_sha256": "dce4a5f4861a7a30d8d4330593dfcbd0b0b6c0c1fb3d9767921977d6368bebac",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K20",
+          "article": "第二十条",
+          "official_body_sha256": "b0865406bc9a3ec255dc0a5fbd16492e3738247e941009927f8963c9b96500a4",
+          "local_body_sha256": "b0865406bc9a3ec255dc0a5fbd16492e3738247e941009927f8963c9b96500a4",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K21",
+          "article": "第二十一条",
+          "official_body_sha256": "c7b83aa90c64ebb8e77e2b5bf7e42326a9f71720ebf7128671de4deef201365c",
+          "local_body_sha256": "c7b83aa90c64ebb8e77e2b5bf7e42326a9f71720ebf7128671de4deef201365c",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K22",
+          "article": "第二十二条",
+          "official_body_sha256": "8fd18ed31677770ad759874c28d50ece50ea88641c9215a68adc05e3a3e2545b",
+          "local_body_sha256": "8fd18ed31677770ad759874c28d50ece50ea88641c9215a68adc05e3a3e2545b",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K23",
+          "article": "第二十三条",
+          "official_body_sha256": "dc51fb573809659bb39910a42774102267b2ce8360f8028bfef164def51467ec",
+          "local_body_sha256": "dc51fb573809659bb39910a42774102267b2ce8360f8028bfef164def51467ec",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K24",
+          "article": "第二十四条",
+          "official_body_sha256": "465d59d52089386bd3de4633f763f5e849db3d5f091bd0509dfe6d833fa29b12",
+          "local_body_sha256": "465d59d52089386bd3de4633f763f5e849db3d5f091bd0509dfe6d833fa29b12",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K25",
+          "article": "第二十五条",
+          "official_body_sha256": "0b38701516d9c7f551b5004105bc88fb6efd3df80e3211b4077f702e7305bbbb",
+          "local_body_sha256": "0b38701516d9c7f551b5004105bc88fb6efd3df80e3211b4077f702e7305bbbb",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K26",
+          "article": "第二十六条",
+          "official_body_sha256": "2af9bc336f20490ca67bc8e14b254262585869bac25fe7333980163772e5b63c",
+          "local_body_sha256": "2af9bc336f20490ca67bc8e14b254262585869bac25fe7333980163772e5b63c",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K27",
+          "article": "第二十七条",
+          "official_body_sha256": "a88e23e5c6af2ab9ebbdaac23930ab7c000bc56f690667f8f01fbe388f2932aa",
+          "local_body_sha256": "a88e23e5c6af2ab9ebbdaac23930ab7c000bc56f690667f8f01fbe388f2932aa",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K28",
+          "article": "第二十八条",
+          "official_body_sha256": "ff3132501179258e6d9e416106a53433f9ef5ef6c45a4c62d2eb5b69791f8752",
+          "local_body_sha256": "ff3132501179258e6d9e416106a53433f9ef5ef6c45a4c62d2eb5b69791f8752",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K29",
+          "article": "第二十九条",
+          "official_body_sha256": "6e175109b8a5e4d3be3d3907ea107082c6961e05ad271427d780f8bf76942344",
+          "local_body_sha256": "6e175109b8a5e4d3be3d3907ea107082c6961e05ad271427d780f8bf76942344",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K30",
+          "article": "第三十条",
+          "official_body_sha256": "9b392971e03a4b7550657b8fe8ca45c6f02f59a92f0482a5857d05206f4b895f",
+          "local_body_sha256": "9b392971e03a4b7550657b8fe8ca45c6f02f59a92f0482a5857d05206f4b895f",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K31",
+          "article": "第三十一条",
+          "official_body_sha256": "abdf7b0cf14923a416a95a5ae6d5b21b8abcfcd95e6daaa4981571d0927fa8eb",
+          "local_body_sha256": "abdf7b0cf14923a416a95a5ae6d5b21b8abcfcd95e6daaa4981571d0927fa8eb",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K32",
+          "article": "第三十二条",
+          "official_body_sha256": "f4ad3494122c6ebc2ba78ff4a52322a407c94d86b4fe6d5445116da1a1cbe664",
+          "local_body_sha256": "f4ad3494122c6ebc2ba78ff4a52322a407c94d86b4fe6d5445116da1a1cbe664",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K33",
+          "article": "第三十三条",
+          "official_body_sha256": "b42de61b8d0df914b60d7c18df4b9229393fa3bbe22b20208911e4a6daf297b1",
+          "local_body_sha256": "b42de61b8d0df914b60d7c18df4b9229393fa3bbe22b20208911e4a6daf297b1",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K34",
+          "article": "第三十四条",
+          "official_body_sha256": "20f2364450e53ff49b0cb17562450748cf4510fba37313c58d037f73983bd08e",
+          "local_body_sha256": "20f2364450e53ff49b0cb17562450748cf4510fba37313c58d037f73983bd08e",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K35",
+          "article": "第三十五条",
+          "official_body_sha256": "1d78f9db4bcca1e64e55a19375baefdc74216c491eb2de84d7450f00d6a8a548",
+          "local_body_sha256": "1d78f9db4bcca1e64e55a19375baefdc74216c491eb2de84d7450f00d6a8a548",
+          "exact_ignoring_whitespace": true,
+          "quotes_only": false,
+          "semantic_decision": "Text identity only; not semantic approval"
+        }
+      ],
+      "source_status": "Listed in the official current-effective regulation catalog at the recorded access time",
+      "semantic_review_passed": false,
+      "formal_import_passed": false
+    }
+  ],
+  "scope": "Two freshly retrieved official MOT current-effective catalog pages and linked full texts, with unchanged PDF links and qualified cached PDF evidence; article comparison against current local candidates.",
+  "limitations": [
+    "Official current catalog evidence is not an exhaustive search of all later notices.",
+    "Literal differences require adjudication against the amendment and consolidated originals.",
+    "No local master, expected points, document register, pipeline or remote KB was changed."
+  ],
+  "elapsed_ms": 1240,
+  "model_requests": 0,
+  "remote_mutation": false
+}

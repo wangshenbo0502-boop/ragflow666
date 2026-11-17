@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-11-16T12:48:00.429Z",
+  "datasets": [
+    {
+      "id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "name": "轨知 · 铁路公开规章",
+      "classification": "original formal dataset",
+      "document_count": 75,
+      "chunk_count": 3411,
+      "accessible": true
+    },
+    {
+      "id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "name": "铁路资料优化试验-GW-工务与基础设施",
+      "classification": "isolation trial",
+      "document_count": 21,
+      "chunk_count": 1305,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "22ac4f4c9f7847c2b180d66be5a88389",
+      "accessible": true
+    },
+    {
+      "id": "8f7cbc152fc64d7b8d39da97028e5abe",
+      "name": "铁路资料优化试验-XH-通信信号与列车控制",
+      "classification": "isolation trial",
+      "document_count": 8,
+      "chunk_count": 303,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "accessible": true
+    },
+    {
+      "id": "6b3ebc8cdb424cc4b489f80a4bf8718c",
+      "name": "铁路资料优化试验-GD-牵引供电与电气设备",
+      "classification": "isolation trial",
+      "document_count": 11,
+      "chunk_count": 412,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "accessible": true
+    },
+    {
+      "id": "0fb4da10e6ad4dd0bc7071b4407fe038",
+      "name": "铁路资料优化试验-CL-机车车辆与运用检修",
+      "classification": "isolation trial",
+      "document_count": 20,
+      "chunk_count": 778,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "accessible": true
+    },
+    {
+      "id": "6276358588ab4dbb8c17baf7600b95c4",
+      "name": "铁路资料优化试验-YS-运输组织与安全管理",
+      "classification": "isolation trial",
+      "document_count": 26,
+      "chunk_count": 1291,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "accessible": true
+    }
+  ],
+  "five_formal_domain_datasets_complete": false,
+  "original_dataset_modified": false
+}

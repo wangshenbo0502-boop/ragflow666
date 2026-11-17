@@ -1,0 +1,2956 @@
+{
+  "checked_at": "2026-11-16T14:13:43.546Z",
+  "doc_id": "DOC0027",
+  "dataset_id": "8f7cbc152fc64d7b8d39da97028e5abe",
+  "document_id": "47b972521e2346668848f6e0575c0d54",
+  "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+  "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+  "bindings": {
+    "master": {
+      "path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "sha256": "e1079ba502a1c8231ebd9c8f6439d97e2b938dd394f533c2d96354f64ef4650f"
+    },
+    "expected": {
+      "path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "sha256": "ed8a9240c065db7cfd20562ca9a94764166c33ea0c6e0bcfd7468767aa995a7d"
+    },
+    "actual": {
+      "path": "04-chunks/actual/DOC0027-successor-trial.json",
+      "sha256": "3d67528c1bbf33b43a62b6b98529fd4db62d51df6a53960662b444eb1709bec4",
+      "snapshot_path": "05-review/history/DOC0027-trial-3d67528c1bbf.json"
+    }
+  },
+  "actual_chunks": 545,
+  "expected_points": 200,
+  "deterministic_full_body_matches": 28,
+  "maximum_tokens_with_filename": 1904,
+  "table_checks": [
+    {
+      "knowledge_point_id": "DOC0027-S0035-T01-G002-002",
+      "source_location": "S0035-T01，原生数据行2-2",
+      "expected_body_sha256": "4279463e0e77b6b6a4610da426a4a44056f6d34a74530a4305b64f2d37f2f31b",
+      "expected_table_sha256": "536f65231f0cd83ea08fac219af4d27ea780e9f4e34a802db0967576babbe437",
+      "heading_chunk_ids": [
+        "29e854e2f835ebf9"
+      ],
+      "table_chunk_ids": [
+        "bf42ad828a1f3600"
+      ],
+      "source_chunk_ids": [
+        "4bf3355d0430cad1"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T01-G003-004",
+      "source_location": "S0035-T01，原生数据行3-4",
+      "expected_body_sha256": "18dea570ef467cf0552ed444c18bb758b634ddb136eca86377443f4f03e858c5",
+      "expected_table_sha256": "aef70665ee07db954c03691b65523212a712286d185626221f084dc86128bfbb",
+      "heading_chunk_ids": [
+        "a1bef2ee6bf27363"
+      ],
+      "table_chunk_ids": [
+        "a4c507ede872199d"
+      ],
+      "source_chunk_ids": [
+        "38e90e973e63723b"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T01-G005-005",
+      "source_location": "S0035-T01，原生数据行5-5",
+      "expected_body_sha256": "4df52f28da581f027e7c4317696e068bc178e06dddc4e374bcc7f08150dcfd09",
+      "expected_table_sha256": "396f3d4e9494f046aeeb7a2212652408fcaac372f0cc9afe4a558a7103f9f033",
+      "heading_chunk_ids": [
+        "604ae031af4a25ac"
+      ],
+      "table_chunk_ids": [
+        "0fcdf1deec93f189"
+      ],
+      "source_chunk_ids": [
+        "cfeba9e811dba918"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T01-G006-006",
+      "source_location": "S0035-T01，原生数据行6-6",
+      "expected_body_sha256": "f37c405a6a4fcf67e0fdfa1573d168e988bbd890cdc96364629156d7b727cee2",
+      "expected_table_sha256": "aeb40a28bc09fa5c9cfeafbf25580df7d4a4ae23f07e8e109d29d2347eec41d8",
+      "heading_chunk_ids": [
+        "963fabaa6844e7ad"
+      ],
+      "table_chunk_ids": [
+        "2c42eb37d366cd86"
+      ],
+      "source_chunk_ids": [
+        "cb66923cc8a4dc64"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T01-G007-009",
+      "source_location": "S0035-T01，原生数据行7-9",
+      "expected_body_sha256": "1212188d43c55ecdc37fd2e1c7e327448881ed4a678ab9053216248d1e4a8930",
+      "expected_table_sha256": "5ecb79c9921023515860478dec8af0012498a8512744b1f522c5b843f2343cf7",
+      "heading_chunk_ids": [
+        "b723e3d8e7fa3971"
+      ],
+      "table_chunk_ids": [
+        "f4b087d0b02655c8"
+      ],
+      "source_chunk_ids": [
+        "268b03ba68cfce66"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G003-003",
+      "source_location": "S0035-T02，原生数据行3-3",
+      "expected_body_sha256": "8e4679f5c27074f750fac35f5ef96c84e8cea873cb7082dad8ff0b200a20663e",
+      "expected_table_sha256": "8bcc4e788b0ed6c3614e14f783c6faff804491460863c00386568309ad9bc97c",
+      "heading_chunk_ids": [
+        "09b35468da183bb2"
+      ],
+      "table_chunk_ids": [
+        "8415e21a43216a3b"
+      ],
+      "source_chunk_ids": [
+        "137af9c6bf3fd9b0"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G004-004",
+      "source_location": "S0035-T02，原生数据行4-4",
+      "expected_body_sha256": "25ce84e0bf30c2b994f3a1298c4d2fed1419b974d7586998661366cb94f2ba7b",
+      "expected_table_sha256": "3836db64e0140b46aefba1ca8a4c1ab9e5f4ab6e0509eea61de9d7e7b963d586",
+      "heading_chunk_ids": [
+        "0ebe06f9810a9a5f"
+      ],
+      "table_chunk_ids": [
+        "f7796293f98d4c7e"
+      ],
+      "source_chunk_ids": [
+        "d60a43d01c1f6854"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G005-005",
+      "source_location": "S0035-T02，原生数据行5-5",
+      "expected_body_sha256": "515621acce3ffe2adf0d1983c4e70cfbab36ad3b2758cac763f8980c3a676d7a",
+      "expected_table_sha256": "d9d624a71e22361987620ad49af013b6412c85752c17c52c9c41ff6c4c0c0fb9",
+      "heading_chunk_ids": [
+        "23192bdf40225af0"
+      ],
+      "table_chunk_ids": [
+        "5ad5054e40ff1f08"
+      ],
+      "source_chunk_ids": [
+        "4edd0b2797428083"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G006-006",
+      "source_location": "S0035-T02，原生数据行6-6",
+      "expected_body_sha256": "8bd8893042b7c546c35014cb4c327b0801edec52d94d66fd78c288dda16bc292",
+      "expected_table_sha256": "eca37f9438ce3113155b94bece5f49637921bed38b2d85398485f663e44d92f2",
+      "heading_chunk_ids": [
+        "f3e56d745a13f813"
+      ],
+      "table_chunk_ids": [
+        "a3ab26828389f0e7"
+      ],
+      "source_chunk_ids": [
+        "1866e524332c0613"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G007-007",
+      "source_location": "S0035-T02，原生数据行7-7",
+      "expected_body_sha256": "8d37c964273021b87209582f6c4e1bea1e561ecc693b7b407da759469e92fb23",
+      "expected_table_sha256": "2f5060adad299da4e0482568c87f31deaa1107a547c841087cb258538927a5a1",
+      "heading_chunk_ids": [
+        "378c4fe942933f0f"
+      ],
+      "table_chunk_ids": [
+        "20ae551dd24f9752"
+      ],
+      "source_chunk_ids": [
+        "0c0cf9ddc88e31a4"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G008-008",
+      "source_location": "S0035-T02，原生数据行8-8",
+      "expected_body_sha256": "81124fc1b613ad82519c4e0555db126c11edba138e8a5460315d65cf3fd08c28",
+      "expected_table_sha256": "d081cf3a08a907753ea7fc9d5d95d10ee5519c8d0bb2b542f3738ad6285fb933",
+      "heading_chunk_ids": [
+        "656141df0ffeb376"
+      ],
+      "table_chunk_ids": [
+        "4b3e591a3a07a35e"
+      ],
+      "source_chunk_ids": [
+        "9fb4d64b479ef21b"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G009-009",
+      "source_location": "S0035-T02，原生数据行9-9",
+      "expected_body_sha256": "ccb46b7f90b4fe80194fd10a79f82ca19362cffe589df1e9423cd392efa691e7",
+      "expected_table_sha256": "2ca21e4cb48e5a587b57cb4664258b4fb3e8817b0f2eabc07ef215ea2c5f5696",
+      "heading_chunk_ids": [
+        "a91f301306c47150"
+      ],
+      "table_chunk_ids": [
+        "de307e5bd2624c09"
+      ],
+      "source_chunk_ids": [
+        "263f14440503a651"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G010-010",
+      "source_location": "S0035-T02，原生数据行10-10",
+      "expected_body_sha256": "1064be6f097a34c58350801b45598ffd7582661a9a73ef35a8011a43853fbc44",
+      "expected_table_sha256": "ba3f2555bb07f7c4781d50b29093c10260066a9f073889b394259bbbb342df53",
+      "heading_chunk_ids": [
+        "99f38b4b4649b006"
+      ],
+      "table_chunk_ids": [
+        "9b40c1df9562fa22"
+      ],
+      "source_chunk_ids": [
+        "5b91274d6e961189"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G011-011",
+      "source_location": "S0035-T02，原生数据行11-11",
+      "expected_body_sha256": "6b0f2a52077c5397906b863d4e9f4306d7e59100d6d2100c8c3b4240264880bb",
+      "expected_table_sha256": "d7bd360f319c46ebf2355c5bd41c5519248492794f8e15fdaf352ecd386601ee",
+      "heading_chunk_ids": [
+        "8f443360a5084241"
+      ],
+      "table_chunk_ids": [
+        "cb764195086b0359"
+      ],
+      "source_chunk_ids": [
+        "11c4f2eedc60ccfa"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G012-012",
+      "source_location": "S0035-T02，原生数据行12-12",
+      "expected_body_sha256": "71b71ebec97e9c9c6b8a1939d3773e86a13246c774bb3ec9366ad2b91b7427b9",
+      "expected_table_sha256": "73b9ccc06dc0e9d40f31a383f23f2f114062cbb4ef71077091bfae9ef269a211",
+      "heading_chunk_ids": [
+        "7cdfb551eac4b156"
+      ],
+      "table_chunk_ids": [
+        "5c7eeaf6643b0b53"
+      ],
+      "source_chunk_ids": [
+        "d33b68076428dc7a"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G013-013",
+      "source_location": "S0035-T02，原生数据行13-13",
+      "expected_body_sha256": "9e6dca71a87f2c7ec2a6fd7bbc63483877decc52be7716fb576f8e427acf688f",
+      "expected_table_sha256": "e6db97cc32d0a5af9b9fae725188fbf506e5088c2b15c8c08f748b76ad6b2c44",
+      "heading_chunk_ids": [
+        "b8471ae2e04dc29c"
+      ],
+      "table_chunk_ids": [
+        "39daac08e1aeb5af"
+      ],
+      "source_chunk_ids": [
+        "a4798e4cc2f7302f"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G014-014",
+      "source_location": "S0035-T02，原生数据行14-14",
+      "expected_body_sha256": "fb788ce31c8f543c0cfafeeeae7143b070c11734be7d171a98594db136dac769",
+      "expected_table_sha256": "f8cf1cafe6e9122b283a27c1ba0c886b26424a421e8499ae0f4879029e7f9d9b",
+      "heading_chunk_ids": [
+        "4eb735ec9b5c1915"
+      ],
+      "table_chunk_ids": [
+        "8c301640cbd9bccf"
+      ],
+      "source_chunk_ids": [
+        "2efb15d558f3c48c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G015-015",
+      "source_location": "S0035-T02，原生数据行15-15",
+      "expected_body_sha256": "7692d62d68bcc82b3f1b154df4d34a711044c3be43af6a91c27fce47269b8548",
+      "expected_table_sha256": "716c78784a507f6804fb31b72d995f9f7dafe11f8a5cf6dd39d801fc4f8e83ce",
+      "heading_chunk_ids": [
+        "cf93cfe920eb2d9b"
+      ],
+      "table_chunk_ids": [
+        "ddd1c4e418e3e950"
+      ],
+      "source_chunk_ids": [
+        "656ce1d82be57b2c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G016-016",
+      "source_location": "S0035-T02，原生数据行16-16",
+      "expected_body_sha256": "61677e27184049a0a460ac26742fb914961d03d96cfa473b008f2f5d2a6de86e",
+      "expected_table_sha256": "2109c7acbe7a7a5592c92134e9433a5f20608cf4604fd0b5319406e1619eb6c2",
+      "heading_chunk_ids": [
+        "25f5bb2c5e318f6c"
+      ],
+      "table_chunk_ids": [
+        "8cc112504dec1606"
+      ],
+      "source_chunk_ids": [
+        "7e15a7c97d85b5ee"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G017-017",
+      "source_location": "S0035-T02，原生数据行17-17",
+      "expected_body_sha256": "f4fe07d52e800e238c664e693899d797fe2d676fa3221082e2d874afca693f52",
+      "expected_table_sha256": "1256571e7f0a194d2c7d5ae73c03c8f779cfba34ce1b78e89cca6d41c07db698",
+      "heading_chunk_ids": [
+        "c926d416c5f5d109"
+      ],
+      "table_chunk_ids": [
+        "961244e66992e655"
+      ],
+      "source_chunk_ids": [
+        "3cbf879219beb075"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G018-018",
+      "source_location": "S0035-T02，原生数据行18-18",
+      "expected_body_sha256": "5a55eca3b952d69348cde2ec47a6f4c1278ba0ab6a85182a6f2f4f75d5eef208",
+      "expected_table_sha256": "76c038db73a64bfc2b4bed547052af27637ff261a3b1ff5fe9fbfa830041f596",
+      "heading_chunk_ids": [
+        "f30280e095bf19a1"
+      ],
+      "table_chunk_ids": [
+        "1fa524acbd8ec4cb"
+      ],
+      "source_chunk_ids": [
+        "63f046c8449461b5"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G019-019",
+      "source_location": "S0035-T02，原生数据行19-19",
+      "expected_body_sha256": "1df89568ad16963abffdea99df8fe9f7f8f7667b9017566c821d5847d2d384c1",
+      "expected_table_sha256": "4940c9f787fca3c683c21abeb8d70846dc5796c2bf9c6528df090100d0cdc31e",
+      "heading_chunk_ids": [
+        "ed9a961db4fbd482"
+      ],
+      "table_chunk_ids": [
+        "9f7a853819ff527c"
+      ],
+      "source_chunk_ids": [
+        "c12c181083d8c915"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G020-020",
+      "source_location": "S0035-T02，原生数据行20-20",
+      "expected_body_sha256": "35c46765acc6b9f147b6e6d0d82f6949240f6f7680a85d795b8b30ff14f90a83",
+      "expected_table_sha256": "36142917851e5d9c915871448327058bcdd44f957f3169c9c92bf951fb5c294f",
+      "heading_chunk_ids": [
+        "06a92a560d80f44c"
+      ],
+      "table_chunk_ids": [
+        "0152dee3d866d0d4"
+      ],
+      "source_chunk_ids": [
+        "5a3ce873d345e450"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G021-021",
+      "source_location": "S0035-T02，原生数据行21-21",
+      "expected_body_sha256": "9f2b34f81e12baf86a229b5391348ac6c6030b6c67b5c3b015e13c3b88489f12",
+      "expected_table_sha256": "afbdbc0deda2dccbd00eb8167daf911f28349a8cdf07a9be1abe7fec9e75765b",
+      "heading_chunk_ids": [
+        "39a0ba9af13e84d0"
+      ],
+      "table_chunk_ids": [
+        "8056e3f9c7cf1401"
+      ],
+      "source_chunk_ids": [
+        "b2a8f7acd48d2410"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G022-022",
+      "source_location": "S0035-T02，原生数据行22-22",
+      "expected_body_sha256": "105980b03c790a30b76e2c811edee833ac92c708d464d1815203e37bbbcb6739",
+      "expected_table_sha256": "9ec54797acbc736b5e9ed2108a5cfcc81adfe52ef3e183c69a08b03ecbd0aef1",
+      "heading_chunk_ids": [
+        "7cb67d747d6b413a"
+      ],
+      "table_chunk_ids": [
+        "6f0cf653b8774a5e"
+      ],
+      "source_chunk_ids": [
+        "e6e81930d51dba80"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G023-023",
+      "source_location": "S0035-T02，原生数据行23-23",
+      "expected_body_sha256": "9d74e2878ed103ce1e7d39c79862dfc9085c796cd8632001ef79ae401d39e419",
+      "expected_table_sha256": "6d59b10a5c51440eb2b5646a31eb50b8c3a303917bdbc86c9a652dfda6490af6",
+      "heading_chunk_ids": [
+        "ea095d839d1ac773"
+      ],
+      "table_chunk_ids": [
+        "a537ee7f67b43cbe"
+      ],
+      "source_chunk_ids": [
+        "72cbd29f1f776096"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G024-024",
+      "source_location": "S0035-T02，原生数据行24-24",
+      "expected_body_sha256": "d33e0c29717436652ec8290264a27613e988ae5bd6ed7e7342affae6f7ed496d",
+      "expected_table_sha256": "4bd916a6360c40f712b88f7430fbd34907e7ca0d30cee7bc1dbda2f02f12961b",
+      "heading_chunk_ids": [
+        "d0c49e720a3baa62"
+      ],
+      "table_chunk_ids": [
+        "f41262ca13f0e974"
+      ],
+      "source_chunk_ids": [
+        "1876b95f54e39485"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G025-025",
+      "source_location": "S0035-T02，原生数据行25-25",
+      "expected_body_sha256": "e921f23527abea5be47fe08886f5b155354b02193a075f8a08b8b16b1fad3dc0",
+      "expected_table_sha256": "eb14fea67053c52efe3f6133629d4c3b475dba2b0c7d97f993d2d77326b3951b",
+      "heading_chunk_ids": [
+        "0831d77e03bca907"
+      ],
+      "table_chunk_ids": [
+        "7e00014ad38e2bb4"
+      ],
+      "source_chunk_ids": [
+        "1779e52de2f062ec"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G028-028",
+      "source_location": "S0035-T02，原生数据行28-28",
+      "expected_body_sha256": "c83c62dc379c5262726984f13e522d3f44fc0aecb3d81c576b9c31115f392a79",
+      "expected_table_sha256": "cb66e96c2ecb20b0b8260e4d21bce6c8e299f041e3ff23fed30fccfd3bc365de",
+      "heading_chunk_ids": [
+        "76477cd47b8ca703"
+      ],
+      "table_chunk_ids": [
+        "7f8ae8517c79fbcc"
+      ],
+      "source_chunk_ids": [
+        "e79e4292864bd38c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G029-029",
+      "source_location": "S0035-T02，原生数据行29-29",
+      "expected_body_sha256": "2e0a21f40fefbac0d7ece0c1a50cd5aa1b85a736a4ee68f1179eb4d0579b068c",
+      "expected_table_sha256": "ddf1ce7b45c8bb05558b919042b2ac6dcd475e201a12417fb55fb381345e08be",
+      "heading_chunk_ids": [
+        "80c90818f89f0b33"
+      ],
+      "table_chunk_ids": [
+        "a6552d7a106afd99"
+      ],
+      "source_chunk_ids": [
+        "f81fcdac8245362c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G030-030",
+      "source_location": "S0035-T02，原生数据行30-30",
+      "expected_body_sha256": "2ba69dca22993c19e9782756060fe02dea3a44c8fc734edb0a9458895bdbc7d7",
+      "expected_table_sha256": "f1ed63ff02ca88c5bfb7cc42cb5e3df20b333df52db87b68a726fe8f4ebd6b3b",
+      "heading_chunk_ids": [
+        "028b0f33f5d8533d"
+      ],
+      "table_chunk_ids": [
+        "a30ec3feb27a6e62"
+      ],
+      "source_chunk_ids": [
+        "2ff8bcbcbbc6e74a"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G031-031",
+      "source_location": "S0035-T02，原生数据行31-31",
+      "expected_body_sha256": "4566339dda5e38d3ebb1c531ffd98132ea1c74519b9370fd56c79c9640a09581",
+      "expected_table_sha256": "5a154b83c79e2ad1a4d5558a6483069f2e19f66e89bfa0eaf552f5d84775e18e",
+      "heading_chunk_ids": [
+        "41168162dced0722"
+      ],
+      "table_chunk_ids": [
+        "171205bf4efdea5a"
+      ],
+      "source_chunk_ids": [
+        "805941689e4ade64"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G032-032",
+      "source_location": "S0035-T02，原生数据行32-32",
+      "expected_body_sha256": "26de602678a9847c2e65b4169c2a7796dec2bb8adf62268db00b8d40007ffd18",
+      "expected_table_sha256": "97df2c6f86b4757a149798bc194d861eeb3ee8d4bcddb88c70f21e38fb1fe498",
+      "heading_chunk_ids": [
+        "c48204179b985cc7"
+      ],
+      "table_chunk_ids": [
+        "008598af546357a1"
+      ],
+      "source_chunk_ids": [
+        "e7d93aee0b9ec28e"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G033-033",
+      "source_location": "S0035-T02，原生数据行33-33",
+      "expected_body_sha256": "2cf13c9eaa91648d6f4f0aa046cf3bc5809f7d77c333b0d75b76199aa9bca39d",
+      "expected_table_sha256": "53192b66877513787fae66aefcf47153ac66ce468d87c7d705ca3c691c3cdc97",
+      "heading_chunk_ids": [
+        "d5cdb017d78715d6"
+      ],
+      "table_chunk_ids": [
+        "7343c16da55eddde"
+      ],
+      "source_chunk_ids": [
+        "e30c5e1de1e65012"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G034-034",
+      "source_location": "S0035-T02，原生数据行34-34",
+      "expected_body_sha256": "f20d0949f31e0922b40f78b116bcc1e79a4f1bf3d98a33eba85766e55f00c5da",
+      "expected_table_sha256": "448ea0e84ede4f0727a6965ab89be20a870ab2e4e0079f94d38d61c0ad1d991d",
+      "heading_chunk_ids": [
+        "c3be54e82715236a"
+      ],
+      "table_chunk_ids": [
+        "14159f4bcc15df81"
+      ],
+      "source_chunk_ids": [
+        "daab3647e77a1f28"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G035-035",
+      "source_location": "S0035-T02，原生数据行35-35",
+      "expected_body_sha256": "2ed2df5bc1bbff1b09b0772e3302a46f2b034b22eb921008a4db282f69e773ca",
+      "expected_table_sha256": "a49ec4a57b5143d9cd075d4674ced8f61e73957f3466567735f33be22f05365c",
+      "heading_chunk_ids": [
+        "67b3e916c357a353"
+      ],
+      "table_chunk_ids": [
+        "6d40d33bb220ee1b"
+      ],
+      "source_chunk_ids": [
+        "c7ce47836bb3ba20"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G036-036",
+      "source_location": "S0035-T02，原生数据行36-36",
+      "expected_body_sha256": "7aaf50ae332f5b8d5e7327bccf4b794530a4c6190e065e0458056e5cb89f366c",
+      "expected_table_sha256": "289bc0552f5441a4a113ce7097cedfe125e3d57f1d220c93a44d27bbe1e995b4",
+      "heading_chunk_ids": [
+        "b63abe16032f5ca6"
+      ],
+      "table_chunk_ids": [
+        "82eebb253ed759e9"
+      ],
+      "source_chunk_ids": [
+        "77134f1ea70eb6d7"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G037-037",
+      "source_location": "S0035-T02，原生数据行37-37",
+      "expected_body_sha256": "09a8f99a4aba918275506cc5ba22a276430111be9e6fd0bf344f22f63793bc06",
+      "expected_table_sha256": "89063c95e5c60444de49f0cbe694d91567c87a17709e46567d372b7d93524ebe",
+      "heading_chunk_ids": [
+        "af2857cc58889736"
+      ],
+      "table_chunk_ids": [
+        "3e28d8b5cc4d9c3a"
+      ],
+      "source_chunk_ids": [
+        "7c38a552b0b32d81"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G038-038",
+      "source_location": "S0035-T02，原生数据行38-38",
+      "expected_body_sha256": "3b773a972e58c08ff457cf0a75aaee1d9685554f8278ddde548888060f43c346",
+      "expected_table_sha256": "e837c8085b51bee604e9aee83d5105876eb9976ec8168185083849b24a71544a",
+      "heading_chunk_ids": [
+        "61a253fa80a0ac52"
+      ],
+      "table_chunk_ids": [
+        "b469e009f1efed04"
+      ],
+      "source_chunk_ids": [
+        "8cf3b58732fc702d"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G039-039",
+      "source_location": "S0035-T02，原生数据行39-39",
+      "expected_body_sha256": "8d9f8120c9257f7c5d46bff56ee270b9cf47ec07efefb08c02e0ef83488f7e8e",
+      "expected_table_sha256": "a67a0455717425bf24f5c0dca72058f6231df3a144ef19123a6e513023afaa26",
+      "heading_chunk_ids": [
+        "c9c37fb5c955a2c7"
+      ],
+      "table_chunk_ids": [
+        "ac7e0a3ba934a5e3"
+      ],
+      "source_chunk_ids": [
+        "0e4710e790a3e78b"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G040-040",
+      "source_location": "S0035-T02，原生数据行40-40",
+      "expected_body_sha256": "32f1a9500855ee96cc89e41df8f6a8888383a75ae21349146e644f54315773c0",
+      "expected_table_sha256": "c49c80fd1c6f18ec41a7bd8061ff5c8b0251d382df1dab71ca62c0d83590bb78",
+      "heading_chunk_ids": [
+        "64753736bb5b4c96"
+      ],
+      "table_chunk_ids": [
+        "b6cb9b7c86f382e5"
+      ],
+      "source_chunk_ids": [
+        "e978f64808c4e440"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G041-041",
+      "source_location": "S0035-T02，原生数据行41-41",
+      "expected_body_sha256": "cb5f8f7b4f55c48a891bead0b9ea815d24aa7d5702e9c55c6997589e22f2d682",
+      "expected_table_sha256": "9c0891ee256d201c671164a02e7490003713850ae52f7c0eb4e693730945e8f6",
+      "heading_chunk_ids": [
+        "78c86a9a5e4ccace"
+      ],
+      "table_chunk_ids": [
+        "05629c94c1c51bd2"
+      ],
+      "source_chunk_ids": [
+        "1a7b709ef4c38344"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G042-042",
+      "source_location": "S0035-T02，原生数据行42-42",
+      "expected_body_sha256": "e974744d3116cbdd485fdaa528ec26199a960101fbe2bb2ca0069ccd5cee5aa4",
+      "expected_table_sha256": "a4b0f2e0d56a15ed354fba95fd213be7843978d5f0391ea88da039efa4161e88",
+      "heading_chunk_ids": [
+        "dd6b929c46f1c470"
+      ],
+      "table_chunk_ids": [
+        "81ac2faeed7b5234"
+      ],
+      "source_chunk_ids": [
+        "0b9ff1df791aee66"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G043-043",
+      "source_location": "S0035-T02，原生数据行43-43",
+      "expected_body_sha256": "140212f3f1ecfdb90589257f459e74e86d3c63b27c963eb9931f6c56a205fcb4",
+      "expected_table_sha256": "bc7f00b02ec865d06045151b9120a0d89ce575dcb3778997cadaa1201f8702c6",
+      "heading_chunk_ids": [
+        "56a781123988a741"
+      ],
+      "table_chunk_ids": [
+        "f57262130b534247"
+      ],
+      "source_chunk_ids": [
+        "fe08f3a9d4428e4d"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G044-044",
+      "source_location": "S0035-T02，原生数据行44-44",
+      "expected_body_sha256": "e58a53297511c46afd4f86200d343eec9a8ac47a9ba5c13bc4254beb179505a8",
+      "expected_table_sha256": "e829e2094ad9b6c4d60bc1f02f13c826315286a166b0ca8c54826bb9cde73fd1",
+      "heading_chunk_ids": [
+        "b9dd4213d2f41a08"
+      ],
+      "table_chunk_ids": [
+        "e43306d166f135d7"
+      ],
+      "source_chunk_ids": [
+        "c1ad336917b3c23e"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G045-045",
+      "source_location": "S0035-T02，原生数据行45-45",
+      "expected_body_sha256": "07eee51874d86b1e8fc82e552136c859beff63830151670cabe262cd77f073ab",
+      "expected_table_sha256": "f1f8b08c715896d4387ba08ad177dd9739b96c6b6a219d1a594fe53808d9fedc",
+      "heading_chunk_ids": [
+        "546000a43b91c25d"
+      ],
+      "table_chunk_ids": [
+        "0e3de77f57a389ed"
+      ],
+      "source_chunk_ids": [
+        "76af4bd8712f774e"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G046-046",
+      "source_location": "S0035-T02，原生数据行46-46",
+      "expected_body_sha256": "a1425ad0e30f6c95d330ffdc8428473b6aa83c8eee5224a2ea67b2e9e32ba662",
+      "expected_table_sha256": "6e25e48b18664c34d36842ef45f55299cd78c589561f820f90d73d0c232c96eb",
+      "heading_chunk_ids": [
+        "bdd1ac19fcd9545e"
+      ],
+      "table_chunk_ids": [
+        "b005aa72d272e7e5"
+      ],
+      "source_chunk_ids": [
+        "03a752d894e16786"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G047-047",
+      "source_location": "S0035-T02，原生数据行47-47",
+      "expected_body_sha256": "654bbbfca5d22b281a66fbc63865150cff3792aa22fb990c10ea58b1e05efdd5",
+      "expected_table_sha256": "c001e429cb1fd317e35bdd58a1887920bfe817d6187e14c7d0847c91d672d857",
+      "heading_chunk_ids": [
+        "fdf37a374bd7e7c4"
+      ],
+      "table_chunk_ids": [
+        "c6cd5c7c152a7f4e"
+      ],
+      "source_chunk_ids": [
+        "afb58c020fc5ada2"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G048-048",
+      "source_location": "S0035-T02，原生数据行48-48",
+      "expected_body_sha256": "c702cd57f08725b8ed38a7a51c7bb60e52cb8d7f98682ceed5866cf62f75bbe6",
+      "expected_table_sha256": "e8785267ec592f0e40dba7626b12e954179863a187263468c9bd353be6bc8bd4",
+      "heading_chunk_ids": [
+        "b05e161562677431"
+      ],
+      "table_chunk_ids": [
+        "afec777054cedb27"
+      ],
+      "source_chunk_ids": [
+        "8d1d783805439108"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G049-049",
+      "source_location": "S0035-T02，原生数据行49-49",
+      "expected_body_sha256": "3be0ab2fae0d0c5bf78821b95dc1a46d32dedcbfccb9051c00215e1489f35103",
+      "expected_table_sha256": "12d62cbf3b075d33bfbf2e878d43238f0e8bb24425626cda0b36ff17e7f3f078",
+      "heading_chunk_ids": [
+        "ce03604c57c6a0fc"
+      ],
+      "table_chunk_ids": [
+        "e81be5fc59b2a99b"
+      ],
+      "source_chunk_ids": [
+        "5dcc99b26f78dbb0"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G052-052",
+      "source_location": "S0035-T02，原生数据行52-52",
+      "expected_body_sha256": "db876d967f82db268ce7f41d601521126790169b499ab66305455ebd42323aef",
+      "expected_table_sha256": "8ca3512432a3289f987e3ab4e0cd26414300c083966e38c301b4a0a38cf9f6bd",
+      "heading_chunk_ids": [
+        "7d3a59a151da8fe5"
+      ],
+      "table_chunk_ids": [
+        "05cfe5df4fc75093"
+      ],
+      "source_chunk_ids": [
+        "93c835008dc5395a"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G053-053",
+      "source_location": "S0035-T02，原生数据行53-53",
+      "expected_body_sha256": "bf584b510df2f2253c91fe0069d98aee47afc5866b16335a648b99cf746dbd1b",
+      "expected_table_sha256": "04e210e6018b24608bdb9397918970a3ff811903d23e466f3180bd2e9550a529",
+      "heading_chunk_ids": [
+        "103695b42d93e682"
+      ],
+      "table_chunk_ids": [
+        "861d5a052d18ee59"
+      ],
+      "source_chunk_ids": [
+        "a07442c83bf9ea8b"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G054-054",
+      "source_location": "S0035-T02，原生数据行54-54",
+      "expected_body_sha256": "9fb9fe24fc28d71712257420487e80757e40035d9dd7f5171c63b93a69a33963",
+      "expected_table_sha256": "c1f4550d51daff4cc4aaf016b30491b6d43e7ce682d0677ae18c193e8682199e",
+      "heading_chunk_ids": [
+        "538d3a4542d7544a"
+      ],
+      "table_chunk_ids": [
+        "f73a18283fc7e32f"
+      ],
+      "source_chunk_ids": [
+        "8bbee4fb227193f2"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G055-055",
+      "source_location": "S0035-T02，原生数据行55-55",
+      "expected_body_sha256": "41f1981b89c33622bd783e19de5145dae1b6fadfbecaf7a752595aadcd2e5e26",
+      "expected_table_sha256": "d8880cba7ea88573ec417b8781abfe12797c951fb400bf1015d6269d557ec55a",
+      "heading_chunk_ids": [
+        "4b390b48f62acdf2"
+      ],
+      "table_chunk_ids": [
+        "485aa2705e388ecf"
+      ],
+      "source_chunk_ids": [
+        "accb6158b3511782"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G056-056",
+      "source_location": "S0035-T02，原生数据行56-56",
+      "expected_body_sha256": "b2d52fb79cd632e9735ad60f535ea07206b51a1a57c0655423bbc3072e098732",
+      "expected_table_sha256": "cd0f89b8c5f7ea20240c14fe0f21b22fb9d55ec0095b27058cbbd57f6100be43",
+      "heading_chunk_ids": [
+        "a4dffc4c2d44d68b"
+      ],
+      "table_chunk_ids": [
+        "313d81817f36e343"
+      ],
+      "source_chunk_ids": [
+        "57f929f95f188f91"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G057-057",
+      "source_location": "S0035-T02，原生数据行57-57",
+      "expected_body_sha256": "5f9c57052763d2533705937106e99fd1bfcdde26ec604fbe6cbfb42a5bd8119d",
+      "expected_table_sha256": "a08c44f63cd7df2e6aa71b439677a30d47c7dbd434e35063c0a50bc12dd1cc8b",
+      "heading_chunk_ids": [
+        "d711b941c00a8c49"
+      ],
+      "table_chunk_ids": [
+        "7bcbf7b1f44b6a2f"
+      ],
+      "source_chunk_ids": [
+        "e2edb67282dc698a"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G058-058",
+      "source_location": "S0035-T02，原生数据行58-58",
+      "expected_body_sha256": "ab2d9ffb2ea4342c1b6ddd081e9b64a61832867b93bfae65bf69ef6086a7b3e8",
+      "expected_table_sha256": "1eb7da8f66415773a6079c797ab053f0171fdc5acdbd6db48ccd5977e6858bd9",
+      "heading_chunk_ids": [
+        "f3d629ac58ad7e38"
+      ],
+      "table_chunk_ids": [
+        "632792190d2cb7c0"
+      ],
+      "source_chunk_ids": [
+        "a9931e4bccd0c6f9"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G059-059",
+      "source_location": "S0035-T02，原生数据行59-59",
+      "expected_body_sha256": "205f3d6a8629b5b9a0d65cb30257a32b6d81c5b96812aaa135f42da70843505e",
+      "expected_table_sha256": "f2e056f588534eefdb1e97b4cd31c994eeacab3e8ed61b0f1500e1b36eecc516",
+      "heading_chunk_ids": [
+        "d908ec298227e639"
+      ],
+      "table_chunk_ids": [
+        "08e4b3196583ac92"
+      ],
+      "source_chunk_ids": [
+        "52a217a883253036"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G060-060",
+      "source_location": "S0035-T02，原生数据行60-60",
+      "expected_body_sha256": "62c8793e315382074c6c84010884ecc724275b20c2b53ef49b4422430ae301d9",
+      "expected_table_sha256": "cbe3aa7e56b528bf914622cd1a5a2e78bde8512cdfcb687b4542f70fb76d109a",
+      "heading_chunk_ids": [
+        "5a5cfe5b693cf61f"
+      ],
+      "table_chunk_ids": [
+        "d202d827fdbcd062"
+      ],
+      "source_chunk_ids": [
+        "6b94dab9392ee7e4"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G061-061",
+      "source_location": "S0035-T02，原生数据行61-61",
+      "expected_body_sha256": "83a2e2252dedcee67cf3f6b708a06482b015e8c8178f0565abad771ea8980755",
+      "expected_table_sha256": "ed447228d9514e4c653848fa7d4594b816ad6a3570c06906431fe1e64d67174e",
+      "heading_chunk_ids": [
+        "fd54870704188213"
+      ],
+      "table_chunk_ids": [
+        "dbf34bb374dc8f0e"
+      ],
+      "source_chunk_ids": [
+        "00ea8ad67378ba17"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G062-062",
+      "source_location": "S0035-T02，原生数据行62-62",
+      "expected_body_sha256": "48df5814b997687f245ce0e771949f40467b18a7fd3466641f2cbaf9e3f2d494",
+      "expected_table_sha256": "83808c1172a89c60945f7d443e119c9c856a4e1dd9733ebb0a3ba138935e4399",
+      "heading_chunk_ids": [
+        "0cb88cc430f755a1"
+      ],
+      "table_chunk_ids": [
+        "56b8b2adf1e227d4"
+      ],
+      "source_chunk_ids": [
+        "559a769d6c112ef3"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G063-063",
+      "source_location": "S0035-T02，原生数据行63-63",
+      "expected_body_sha256": "7fd84b374cda4c2c9b7d04a8a862a65b1daf2c552cc25a231662e2e6d432892c",
+      "expected_table_sha256": "79424cdb36a1861555932c70c2ed5a504a0783f60723aac03735ad2f822f14aa",
+      "heading_chunk_ids": [
+        "8ae9dbe863078c6f"
+      ],
+      "table_chunk_ids": [
+        "28722b6b308f2a5b"
+      ],
+      "source_chunk_ids": [
+        "0b6691938d56dca5"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G064-064",
+      "source_location": "S0035-T02，原生数据行64-64",
+      "expected_body_sha256": "edf5c59ddfc0f6c2d9f3b5793ce1dba0de12625c115037a10426a8bf9d68b1db",
+      "expected_table_sha256": "66a86f7d8c39c672fbd37d5cb9fba931b1a4e3f4f3c62f8e95540894b9fb14ba",
+      "heading_chunk_ids": [
+        "b141a0492d60c31e"
+      ],
+      "table_chunk_ids": [
+        "ac14cb5cc9640e01"
+      ],
+      "source_chunk_ids": [
+        "9e8d9dcdb3eb618e"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G065-065",
+      "source_location": "S0035-T02，原生数据行65-65",
+      "expected_body_sha256": "ba1605de6d32143aff922b1103fa7149125398ad6ef1675a86ddd658d68aab9a",
+      "expected_table_sha256": "f1fd8ee852800426b7aa02f6ce801fb884f050cc867a3560238486efc50bf98c",
+      "heading_chunk_ids": [
+        "4a2394f81d055ea3"
+      ],
+      "table_chunk_ids": [
+        "a26f28a158616d9f"
+      ],
+      "source_chunk_ids": [
+        "b29214b4e9db05fd"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G066-066",
+      "source_location": "S0035-T02，原生数据行66-66",
+      "expected_body_sha256": "f7c3829adf6e633178ddb291a4e96575ddce2a04c25b0220d4da97c7371e0bd0",
+      "expected_table_sha256": "1dc29d1c276737208fa02dd2e2d119ce2c1991c007d9f175fcbe70e5d7467ebd",
+      "heading_chunk_ids": [
+        "1fe8455d85741abb"
+      ],
+      "table_chunk_ids": [
+        "ecbe7b06b3ed11a5"
+      ],
+      "source_chunk_ids": [
+        "c191cd19144ab09c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G067-067",
+      "source_location": "S0035-T02，原生数据行67-67",
+      "expected_body_sha256": "401b64c72229f427a3621b05f0c3130338b913be27dab83ad0898f412abd9ef6",
+      "expected_table_sha256": "696a992b4004b5c80385ae46470cf47e83c78acbd0af2483ceba150a71d5b04e",
+      "heading_chunk_ids": [
+        "6ce9ebe623611ec9"
+      ],
+      "table_chunk_ids": [
+        "d62ca0fecf8d3412"
+      ],
+      "source_chunk_ids": [
+        "bfe55cbd21cec383"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G068-068",
+      "source_location": "S0035-T02，原生数据行68-68",
+      "expected_body_sha256": "7f4ae875e01937a2fadb60df9d005871f3ece0753f6136802380e23302ae46f6",
+      "expected_table_sha256": "252b77186da5d8a34da51ca33f8b44fb1cd82b5411874ede4dd257d564f253b1",
+      "heading_chunk_ids": [
+        "a1f44255ff0b9e37"
+      ],
+      "table_chunk_ids": [
+        "b6e5400a1546c699"
+      ],
+      "source_chunk_ids": [
+        "dcafd060f6abe10b"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G069-069",
+      "source_location": "S0035-T02，原生数据行69-69",
+      "expected_body_sha256": "b5e0afae0e4960921912e0db8f710695597ac81a464e05ac9e7b5c121444829b",
+      "expected_table_sha256": "287f1651083d5eeedd7f0adcb1610bd2595b7a028c52e282c8605e31e01783c8",
+      "heading_chunk_ids": [
+        "2fa68f804503f7c0"
+      ],
+      "table_chunk_ids": [
+        "7b1cc8d73889bc13"
+      ],
+      "source_chunk_ids": [
+        "8ea1901643a4ed30"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G072-072",
+      "source_location": "S0035-T02，原生数据行72-72",
+      "expected_body_sha256": "560272d1a25e45c5667f474259270be65c9ad85cf211aef47d1cd1da5bc1c9e7",
+      "expected_table_sha256": "f20ba24a8eb791d0b4a1b31796a9329fb6cfd10db55d8aa64357cab6bbfaca2e",
+      "heading_chunk_ids": [
+        "b9d1923c1867536e"
+      ],
+      "table_chunk_ids": [
+        "60e59ab9f367e95c"
+      ],
+      "source_chunk_ids": [
+        "511f36afd32c80ed"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G073-073",
+      "source_location": "S0035-T02，原生数据行73-73",
+      "expected_body_sha256": "1ad25761543e0b2c89b0445240c3fc63603cfdc6273f3cfa1cd14c9b59b20b33",
+      "expected_table_sha256": "da3b5da6ff74affd22a0152a67134af728b2cddf738ed5a74e3823d150301e5c",
+      "heading_chunk_ids": [
+        "6c23f29f6f9a019c"
+      ],
+      "table_chunk_ids": [
+        "992f99efba7be368"
+      ],
+      "source_chunk_ids": [
+        "eddd621cfcf4e38b"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G074-074",
+      "source_location": "S0035-T02，原生数据行74-74",
+      "expected_body_sha256": "746e71b3751dad89bfd3fe4ab27762abfb1614fda02572cea5a025f97b722198",
+      "expected_table_sha256": "688f194ae58b900db238209c428e26d5c80bb2d4d9d12579a1ad6531a5b63733",
+      "heading_chunk_ids": [
+        "7927ca1f56591e5a"
+      ],
+      "table_chunk_ids": [
+        "8f8d367356b9e036"
+      ],
+      "source_chunk_ids": [
+        "039d51f3a9300e5c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G075-075",
+      "source_location": "S0035-T02，原生数据行75-75",
+      "expected_body_sha256": "e551d511102a2241bb125cd274a356f0d072ebf139c563c456956051896584d5",
+      "expected_table_sha256": "6ed32cc8b7534af63b43154ed6242d1ae1d5af23bea276a690a56fb991164bfe",
+      "heading_chunk_ids": [
+        "a88f690a0d7d45a1"
+      ],
+      "table_chunk_ids": [
+        "2c0bb8fdeade037a"
+      ],
+      "source_chunk_ids": [
+        "1af6beaf49853c73"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G076-076",
+      "source_location": "S0035-T02，原生数据行76-76",
+      "expected_body_sha256": "4ceac7510cd2dfcae5cf99221079d65d2c3e17435ede88e13580889d039ad372",
+      "expected_table_sha256": "3472fe253d09da9672e9272709079964803dd2766ff21b71bf1d495e2edc75f9",
+      "heading_chunk_ids": [
+        "55953f8b53aa37f0"
+      ],
+      "table_chunk_ids": [
+        "a6b5765bf958a484"
+      ],
+      "source_chunk_ids": [
+        "1fb05592f2d885dc"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G077-077",
+      "source_location": "S0035-T02，原生数据行77-77",
+      "expected_body_sha256": "bb5155a8ebb17c8d2b16c40503321c50f94c394002e127070ce07cc4fb1c7e39",
+      "expected_table_sha256": "930cb819a621810ad0a75fd452b0f06855097577efbf7af2eccd0606c8fe17cb",
+      "heading_chunk_ids": [
+        "2cfbd0cd7daa041d"
+      ],
+      "table_chunk_ids": [
+        "3a1a878e54f01c4c"
+      ],
+      "source_chunk_ids": [
+        "8b892035aead0d7a"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G078-078",
+      "source_location": "S0035-T02，原生数据行78-78",
+      "expected_body_sha256": "97eb963b06ff9e1db84544fd25b5677da71892a3b0f56c4dbec828c17ea77dc7",
+      "expected_table_sha256": "4bec323558a13fdeb6bad8e2ac4218c0b498c3123b6076309ebcf533b50d84df",
+      "heading_chunk_ids": [
+        "0e939e6d41aa3f24"
+      ],
+      "table_chunk_ids": [
+        "30a2dbfbf5e86d08"
+      ],
+      "source_chunk_ids": [
+        "60dfcdeefd9c92cd"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G079-079",
+      "source_location": "S0035-T02，原生数据行79-79",
+      "expected_body_sha256": "32e4feae807bf0f36bafd9983407055556f34f04c853298817ea3e821e37530c",
+      "expected_table_sha256": "068d2db51c149489215c73714b917f352aeda9ceb542626cc8da28a07679c6cc",
+      "heading_chunk_ids": [
+        "aefb9d69045b1759"
+      ],
+      "table_chunk_ids": [
+        "941ef96758e0c034"
+      ],
+      "source_chunk_ids": [
+        "347c9af2953fd374"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G080-080",
+      "source_location": "S0035-T02，原生数据行80-80",
+      "expected_body_sha256": "fabab50ccdb64f923ef3d3798aef631aca74b71e134b2729a4859436d3a117f0",
+      "expected_table_sha256": "f0dda018b5795533f60443c2c60ffdfe91943218d8813fbd8e8391d6c96c73ab",
+      "heading_chunk_ids": [
+        "f27abbc667219c76"
+      ],
+      "table_chunk_ids": [
+        "1755634a2fc98c69"
+      ],
+      "source_chunk_ids": [
+        "b1bf0a55986f9ecd"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G081-081",
+      "source_location": "S0035-T02，原生数据行81-81",
+      "expected_body_sha256": "595fe402a7c4878de46793bebd241f96f1464caea9813362e34eec66ec739cd0",
+      "expected_table_sha256": "42e75a637d2bf662c00942997edbb99b9d28cca9465f18104246a57f2860a0a4",
+      "heading_chunk_ids": [
+        "071f73894bf37f42"
+      ],
+      "table_chunk_ids": [
+        "c59e2087d8ae2a72"
+      ],
+      "source_chunk_ids": [
+        "40ff4751421987ae"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G082-082",
+      "source_location": "S0035-T02，原生数据行82-82",
+      "expected_body_sha256": "e28c94040fb903a58f87d9016f458fb536778c7fc4b3e05b04ae1f3135a6af20",
+      "expected_table_sha256": "619243167aa680b66b82517f977e93ce30ec2bd46c73328fa3f5e83e5261c8f9",
+      "heading_chunk_ids": [
+        "64496d8b47e2d6d6"
+      ],
+      "table_chunk_ids": [
+        "cd60e6de7eda1afa"
+      ],
+      "source_chunk_ids": [
+        "567cda360ed9e059"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G083-083",
+      "source_location": "S0035-T02，原生数据行83-83",
+      "expected_body_sha256": "cb19e3d8fe27414b275dff42cdb61915b125f281845228b5b85dfd2ce6973869",
+      "expected_table_sha256": "c1410a1c67c876cf3659665212b1285d652e04d0c2a96205d5018406f7e015d4",
+      "heading_chunk_ids": [
+        "f5fe5d7dcdeaec64"
+      ],
+      "table_chunk_ids": [
+        "1cc2d2a30188b824"
+      ],
+      "source_chunk_ids": [
+        "b44bcae654d07184"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G084-084",
+      "source_location": "S0035-T02，原生数据行84-84",
+      "expected_body_sha256": "bf3555bc9ab9f6e67e21e52ec9bdccc49883a4a20584ceb8e3dfb1ed4e5c46bc",
+      "expected_table_sha256": "01f1eba09625cd8ad58cad8208628a5eeee1fdb0861f587d1b71ac28d72de85b",
+      "heading_chunk_ids": [
+        "40af176c41792c4f"
+      ],
+      "table_chunk_ids": [
+        "fdc83cb8f965296b"
+      ],
+      "source_chunk_ids": [
+        "374c5807eda43d37"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G085-085",
+      "source_location": "S0035-T02，原生数据行85-85",
+      "expected_body_sha256": "87b9411d2bfb7ae4f9a77cc4cdd7bf2932ffc3f5a9b09d93ad79eec7be3c3933",
+      "expected_table_sha256": "73ab750d89a27850acc2ac5ffe9c30ac614a285be8b1b9f056a51f36fa731e53",
+      "heading_chunk_ids": [
+        "1e1e38ccb345beb2"
+      ],
+      "table_chunk_ids": [
+        "4f0daff9416d5790"
+      ],
+      "source_chunk_ids": [
+        "5594fa2dd8540ae4"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G086-086",
+      "source_location": "S0035-T02，原生数据行86-86",
+      "expected_body_sha256": "dc8992932ca6e9ce4d71effc43a553d1e01b90d144af7c59293ae102a83ad441",
+      "expected_table_sha256": "a7f2fe1f106185f1f7d0c0efb6e8535ef0ddce5b23bd26f27af720d71ee7056e",
+      "heading_chunk_ids": [
+        "c7e38aa0f0511714"
+      ],
+      "table_chunk_ids": [
+        "6c6b48a611323c3b"
+      ],
+      "source_chunk_ids": [
+        "037b46b72bc92a4c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G087-087",
+      "source_location": "S0035-T02，原生数据行87-87",
+      "expected_body_sha256": "2e946a745fe35204622613aa62d3218229467f5b8260ecd88828d00804b3a0e7",
+      "expected_table_sha256": "84920e6a8735a227477c77e4e30e8ea6e2414f456737d930a758c28346260938",
+      "heading_chunk_ids": [
+        "ee9d674264ca0bd8"
+      ],
+      "table_chunk_ids": [
+        "7edb036a8a0a79f5"
+      ],
+      "source_chunk_ids": [
+        "986f17f7ec467936"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G088-088",
+      "source_location": "S0035-T02，原生数据行88-88",
+      "expected_body_sha256": "ea32d8adcb28e26687a7d3b630d164eb0f5c633a354caaab14959c6af9b822e7",
+      "expected_table_sha256": "8f2d48d067c6864d855c57cd8bd5c63d5ea2ec70a3a06b2a61c52c947d84b90d",
+      "heading_chunk_ids": [
+        "0c448967d260a4d9"
+      ],
+      "table_chunk_ids": [
+        "641376e3c30fc60c"
+      ],
+      "source_chunk_ids": [
+        "e72cbc63dd5ddf4d"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T02-G089-089",
+      "source_location": "S0035-T02，原生数据行89-89",
+      "expected_body_sha256": "d24fd50599c84532a7bb5cf9fd65569caeddde52345b550559346e2f3ecf44f5",
+      "expected_table_sha256": "b725f799796eaadab976ec45d1ac3ad82c159841ce7291bd8742fbb16f8e7f4d",
+      "heading_chunk_ids": [
+        "6d09fb14bf3e7ba1"
+      ],
+      "table_chunk_ids": [
+        "2ad51e646b56ade4"
+      ],
+      "source_chunk_ids": [
+        "3c8781a46392f622"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G003-003",
+      "source_location": "S0035-T03，原生数据行3-3",
+      "expected_body_sha256": "0e6971aa3b8cb6876cb4f4fd7d2c3e73b917ceabab277b222dda204b6d8c7fe9",
+      "expected_table_sha256": "45cb641c7195467b7a7e30f72fb096de9f30bbb31b4b0c44f96f398331dddbb0",
+      "heading_chunk_ids": [
+        "81a30a77fdd74398"
+      ],
+      "table_chunk_ids": [
+        "412a4b84a77fc98f"
+      ],
+      "source_chunk_ids": [
+        "d22ad08ebb2db607"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G004-004",
+      "source_location": "S0035-T03，原生数据行4-4",
+      "expected_body_sha256": "fe54695bf26c6346627c174e52ea5ddca5ec1786f2eff8c0d619e269549c1ea0",
+      "expected_table_sha256": "644c4d067cf982b5c4abad28cd133acd35771a69679c4c201e79198fb72a0c4c",
+      "heading_chunk_ids": [
+        "f8d1420619082724"
+      ],
+      "table_chunk_ids": [
+        "f33ebd532072150d"
+      ],
+      "source_chunk_ids": [
+        "ee985393008b8900"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G005-005",
+      "source_location": "S0035-T03，原生数据行5-5",
+      "expected_body_sha256": "5cf91fa6cbf21d3ee21e76ca47340d864f9c0475f71e11019c302d79369184ec",
+      "expected_table_sha256": "27a34fdb893af98ba131243afabc044fc4fd63824417fdcb3d8bbb92f3559961",
+      "heading_chunk_ids": [
+        "106f0808a6ec2bc0"
+      ],
+      "table_chunk_ids": [
+        "db01d0aa6cc13045"
+      ],
+      "source_chunk_ids": [
+        "d4e9a034849586dd"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G006-006",
+      "source_location": "S0035-T03，原生数据行6-6",
+      "expected_body_sha256": "abfd534f01c7ac843a04b6da95e4b89c3b8cba18763729afd1735edf7941bfec",
+      "expected_table_sha256": "583deff2bdfe1747c11fa4d0695edabc38afabede245013f9b08234a213f237c",
+      "heading_chunk_ids": [
+        "a65fab74fcb3c756"
+      ],
+      "table_chunk_ids": [
+        "e7712303dc9ecfd3"
+      ],
+      "source_chunk_ids": [
+        "47995e6771e5f43c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G007-007",
+      "source_location": "S0035-T03，原生数据行7-7",
+      "expected_body_sha256": "9d14ca3ee75f03039d0328d486ec449942fe397d83dc0cbfda3ade5db842c5ad",
+      "expected_table_sha256": "86fc672f462cbac6b84534ab94f01ee9e77322c90a96a15f53b9fcbf7aa77434",
+      "heading_chunk_ids": [
+        "6d339b08e1678fff"
+      ],
+      "table_chunk_ids": [
+        "bb578f1f1aa52aa4"
+      ],
+      "source_chunk_ids": [
+        "f42b19e3d4ece952"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G008-008",
+      "source_location": "S0035-T03，原生数据行8-8",
+      "expected_body_sha256": "f036d4d4388e9618ca7bf3cdf922ae02a67bd8bfa934bc44e0f53fd4208d8d31",
+      "expected_table_sha256": "1174a06879d9fe7316f6b3a64c9791ada9ab53e446de6deef9b078ba0319899f",
+      "heading_chunk_ids": [
+        "58d29b1a24dfa16a"
+      ],
+      "table_chunk_ids": [
+        "2260d581e1304bff"
+      ],
+      "source_chunk_ids": [
+        "cbf65a3b9691cb9a"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G009-009",
+      "source_location": "S0035-T03，原生数据行9-9",
+      "expected_body_sha256": "a22d01bf6de90ad57b4e56983870b8527c23dcccb0788dbbeb419a6789bcf4e9",
+      "expected_table_sha256": "20ac88d0bbf63ff8c49a56c109918e43ee826c26ac0b659a19db37e63cb1d316",
+      "heading_chunk_ids": [
+        "bd09cae22983498e"
+      ],
+      "table_chunk_ids": [
+        "35aede66f32a23b5"
+      ],
+      "source_chunk_ids": [
+        "6f111e0df31fd7b7"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G010-010",
+      "source_location": "S0035-T03，原生数据行10-10",
+      "expected_body_sha256": "b866b5cb24a3c54e8b2fb516749cdccf219d2a3b1c0bfd4ff0fb6a4384d1c909",
+      "expected_table_sha256": "dba69601c492818fadfff17cc9397901abf925ed205a7f7357aff17c24348f5c",
+      "heading_chunk_ids": [
+        "ca878048ca743bbe"
+      ],
+      "table_chunk_ids": [
+        "bb95b0bca120f82b"
+      ],
+      "source_chunk_ids": [
+        "ee0734bb3dcac6db"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G011-011",
+      "source_location": "S0035-T03，原生数据行11-11",
+      "expected_body_sha256": "df2a001ad70bcd04af7c128ac680c66412769729f17cf63cfe4eb68c9f6cfa76",
+      "expected_table_sha256": "54c224aecc9ce76ef699e23765d48b549ddfc2a49c801c683540ca979fffc4a3",
+      "heading_chunk_ids": [
+        "dae145432feee435"
+      ],
+      "table_chunk_ids": [
+        "5534b5118c979792"
+      ],
+      "source_chunk_ids": [
+        "56c729eacdf2becb"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G012-012",
+      "source_location": "S0035-T03，原生数据行12-12",
+      "expected_body_sha256": "f1c023658d509852417552a8b7d123d680f6e6c08140c05141f97898a2c1e165",
+      "expected_table_sha256": "d68f85631a391533964d4ba98672c7e6aeece746866c255af7e5770f5dfc7e8e",
+      "heading_chunk_ids": [
+        "f8971589a579c17e"
+      ],
+      "table_chunk_ids": [
+        "570bf9de7af31964"
+      ],
+      "source_chunk_ids": [
+        "4b5b1f81a50af6b7"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G013-013",
+      "source_location": "S0035-T03，原生数据行13-13",
+      "expected_body_sha256": "30c80b0d5aea9d24a5afe94e4f35e18683033d5b32f87861dc7271ba6c4ef04b",
+      "expected_table_sha256": "aba94eacc6a93f0389dfdff1b3270ef06694367bc26366aaf057e13cbaaaf8ca",
+      "heading_chunk_ids": [
+        "a19e8717835b1503"
+      ],
+      "table_chunk_ids": [
+        "b3e65ccb69a287d8"
+      ],
+      "source_chunk_ids": [
+        "416fb50be057651f"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G014-014",
+      "source_location": "S0035-T03，原生数据行14-14",
+      "expected_body_sha256": "d5d4ec28150af06b77f51fbba01ae77032b695e17afd578643b3254191b1c6ea",
+      "expected_table_sha256": "2c88daa0cfd96db7d626e4fa9643013eb00c133c803c0632f3792b512b703b7e",
+      "heading_chunk_ids": [
+        "b680a3d1f4bf3003"
+      ],
+      "table_chunk_ids": [
+        "9e73e526926c6f9e"
+      ],
+      "source_chunk_ids": [
+        "d4414e4ed324e9d1"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G015-015",
+      "source_location": "S0035-T03，原生数据行15-15",
+      "expected_body_sha256": "9f9152686484a6fbb8878996c8e20f0df6dd0a11b273f6c25562f9b734c03286",
+      "expected_table_sha256": "95977ba1643f607568a114479c1253633375713434f663843a519995e4b9fd3c",
+      "heading_chunk_ids": [
+        "2967f533fb29458c"
+      ],
+      "table_chunk_ids": [
+        "f52595a20b306581"
+      ],
+      "source_chunk_ids": [
+        "d69b32facc4b7a57"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G016-016",
+      "source_location": "S0035-T03，原生数据行16-16",
+      "expected_body_sha256": "64a2a8b49adf1289f656133fc2c26971ce4916fd9116dbbd71e11cd7d8604a39",
+      "expected_table_sha256": "e57c08d910cdc71c0afa167b4a01eccb64f17479af90c744d06c19b4e0d4843c",
+      "heading_chunk_ids": [
+        "3c59a059dd2586d2"
+      ],
+      "table_chunk_ids": [
+        "dc0ea4b0850ffbba"
+      ],
+      "source_chunk_ids": [
+        "dc0e42dd6067c93c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G017-017",
+      "source_location": "S0035-T03，原生数据行17-17",
+      "expected_body_sha256": "43c607d59bac5dc36d95a66c3671c4fa14ea6760a319fca08e6df883559bbd6f",
+      "expected_table_sha256": "92e281facf3e5443a05a98fd1065d04f2df2df2baa2db34ae455e755c9d5cce5",
+      "heading_chunk_ids": [
+        "869aad390917443a"
+      ],
+      "table_chunk_ids": [
+        "dc7aa85942d170ef"
+      ],
+      "source_chunk_ids": [
+        "ac083dc19f8da127"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G018-018",
+      "source_location": "S0035-T03，原生数据行18-18",
+      "expected_body_sha256": "79d17fa00b4a8d294276b5dfc85da39801a407a51aed846f4c5edbcc6093ccf5",
+      "expected_table_sha256": "6bef1aa7e33e154b351d817a4c05583122a6b8c7811ca7192a9af9e18bbea2fd",
+      "heading_chunk_ids": [
+        "1677c6bc603f49b5"
+      ],
+      "table_chunk_ids": [
+        "9aa4eb32925ddb37"
+      ],
+      "source_chunk_ids": [
+        "d9e28e5306e72d3e"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G019-019",
+      "source_location": "S0035-T03，原生数据行19-19",
+      "expected_body_sha256": "5b8e9af8011cd1b91a700be8ec5801afe1e644b1f2eece9fa88de06a68afe472",
+      "expected_table_sha256": "38f63052227fe347585ee4b678db662d2323d169cd32f12e41263bff184e4e5a",
+      "heading_chunk_ids": [
+        "22913f04d41e3313"
+      ],
+      "table_chunk_ids": [
+        "a54d1e2089aca835"
+      ],
+      "source_chunk_ids": [
+        "ed782e39801991d5"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G020-020",
+      "source_location": "S0035-T03，原生数据行20-20",
+      "expected_body_sha256": "e7b1d6022fba580945b21336f77fa291bf225be5ae676a7350444caac91e52c7",
+      "expected_table_sha256": "f7d4af9e195cb37b099aa1034248a3c8c36cc59175b37ea5f9d8ac056cf89228",
+      "heading_chunk_ids": [
+        "4b0ea43bfb1da6b4"
+      ],
+      "table_chunk_ids": [
+        "bd906c7b268e0ea2"
+      ],
+      "source_chunk_ids": [
+        "e95e3e5ee0e8344f"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G022-022",
+      "source_location": "S0035-T03，原生数据行22-22",
+      "expected_body_sha256": "5d23946e7d0707df855d2e6bf0f7eff692bb6110690186eaa871e5c5bfb34935",
+      "expected_table_sha256": "19057d1951c2ab34e5cf576d0e8e87c8e66cad4a5a04b9714a824809c0c0abc5",
+      "heading_chunk_ids": [
+        "2d4853a67d98de71"
+      ],
+      "table_chunk_ids": [
+        "fbfbe84e96225c0e"
+      ],
+      "source_chunk_ids": [
+        "431a30ef9b20ccba"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G023-023",
+      "source_location": "S0035-T03，原生数据行23-23",
+      "expected_body_sha256": "0e3e88ed792619e08889353dedf051359a9ed245b7e3fdf8cfa3564b801a69fa",
+      "expected_table_sha256": "3d13de7d41122cd3262e072783db31e0cc8babdd61c1fe5fc3fda26cd5087d87",
+      "heading_chunk_ids": [
+        "01c1a64122347d72"
+      ],
+      "table_chunk_ids": [
+        "d2e9242576edd5c6"
+      ],
+      "source_chunk_ids": [
+        "8010b79ddadefeaa"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G024-024",
+      "source_location": "S0035-T03，原生数据行24-24",
+      "expected_body_sha256": "01b0f594b46f27748b327271095fb30e0390c8d81cb2c119603398cea66b5d5b",
+      "expected_table_sha256": "0c74adf1b8b76e43aae09ca2f093f88542c1d0dfd7f5b75270dfbd254411a92f",
+      "heading_chunk_ids": [
+        "9e60e1df2b31f471"
+      ],
+      "table_chunk_ids": [
+        "a5fc91d4538daae4"
+      ],
+      "source_chunk_ids": [
+        "5df617f92b8a5e36"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G025-025",
+      "source_location": "S0035-T03，原生数据行25-25",
+      "expected_body_sha256": "07cc3865af6357a59d2174867f10264ea163e9878c0fff6e9e0ee455da98d2a2",
+      "expected_table_sha256": "397c3ea3eb39779e567515e309d83fed9d9faca360ea1e1ac007795ff54c50c9",
+      "heading_chunk_ids": [
+        "b2b02811d44983f8"
+      ],
+      "table_chunk_ids": [
+        "6060a7e9ae781970"
+      ],
+      "source_chunk_ids": [
+        "b0c60fd05aea331b"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G026-026",
+      "source_location": "S0035-T03，原生数据行26-26",
+      "expected_body_sha256": "3ca7f6ebfe12e2977389e39ec5967bd66165f088b04a37a3cadf66c87f81c4ba",
+      "expected_table_sha256": "89fa7565f6fd1045bcf6f16aa9e6835b2bb8be5f4d6b592bcb48288dfbd784b6",
+      "heading_chunk_ids": [
+        "316dc54de2bfc78e"
+      ],
+      "table_chunk_ids": [
+        "4ecd607448580aab"
+      ],
+      "source_chunk_ids": [
+        "3941ffc2af79269c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G027-027",
+      "source_location": "S0035-T03，原生数据行27-27",
+      "expected_body_sha256": "4c3c755334b04e8a04a52d403db907741eaffe00a56b596f9be41f0742a724ce",
+      "expected_table_sha256": "53bde009c9f72d5c21c240fdd25a3566d8cdf3a460a56410d87732734cda1468",
+      "heading_chunk_ids": [
+        "9ef11f2f52bb4716"
+      ],
+      "table_chunk_ids": [
+        "20625ea3f0620c9e"
+      ],
+      "source_chunk_ids": [
+        "72c0321ca353fa76"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G028-028",
+      "source_location": "S0035-T03，原生数据行28-28",
+      "expected_body_sha256": "f120d5ebfeec2e8c2c63ac8f6990a9c282c69856817e0f0874a74425b8eca527",
+      "expected_table_sha256": "5139eb6e855976bca81261bce8129fc5cb7a8741538b4d9c7ea20287f0880d94",
+      "heading_chunk_ids": [
+        "5275ed18554a8606"
+      ],
+      "table_chunk_ids": [
+        "6c65f211270ba780"
+      ],
+      "source_chunk_ids": [
+        "866a6b83572e4ea6"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G029-029",
+      "source_location": "S0035-T03，原生数据行29-29",
+      "expected_body_sha256": "45e65f53e80a4bcea83c9cead703176a50566882e210189b8584f247325c7294",
+      "expected_table_sha256": "aeaf7713fe17e2021ac3350eae444e7be7f77696c6973678dc875fae536340b5",
+      "heading_chunk_ids": [
+        "a8f93f3d28f20679"
+      ],
+      "table_chunk_ids": [
+        "e839a6bf93b67d04"
+      ],
+      "source_chunk_ids": [
+        "cc46e25e0bf9eea7"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G030-030",
+      "source_location": "S0035-T03，原生数据行30-30",
+      "expected_body_sha256": "ff412312a8491d10d48f56525a239a162cb63900e00290c47f2e8aa366b5310d",
+      "expected_table_sha256": "0724d5cc12804ffbb23f4a6e49db5d18baad305f25a6bc435a0ad7539cc4259c",
+      "heading_chunk_ids": [
+        "cbac0f80b992ddd6"
+      ],
+      "table_chunk_ids": [
+        "3880669b647fa964"
+      ],
+      "source_chunk_ids": [
+        "e2b0d52adb99a3fe"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G031-031",
+      "source_location": "S0035-T03，原生数据行31-31",
+      "expected_body_sha256": "86efc6f9583ae03151fc637dbc8de4c65972c05091b1b920f17ae7129c8999f6",
+      "expected_table_sha256": "4dbf331758c31a8dcab6ab8672b38521c61578a649f56a66958beb963dac764f",
+      "heading_chunk_ids": [
+        "7645129b6a9031a5"
+      ],
+      "table_chunk_ids": [
+        "e25cb20b52c46b4d"
+      ],
+      "source_chunk_ids": [
+        "46b47f8a06552062"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G033-033",
+      "source_location": "S0035-T03，原生数据行33-33",
+      "expected_body_sha256": "c28b7b039ca272dff424e44a5ca85652439f4bc5115a00c1bdb25949983e6d52",
+      "expected_table_sha256": "5d0864d23f83dbb23493e9af0eb2f6c092e5c70a6bedebc14b2c4ef33f29f97b",
+      "heading_chunk_ids": [
+        "7a15ddaaf5e6633d"
+      ],
+      "table_chunk_ids": [
+        "01a31dd9b612c7a1"
+      ],
+      "source_chunk_ids": [
+        "770ed732c15eb529"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G034-034",
+      "source_location": "S0035-T03，原生数据行34-34",
+      "expected_body_sha256": "353a3774f874dc0ddf3c394ba331dd2d9f5501301942b2c8081919f769005414",
+      "expected_table_sha256": "4c0981e33feb00a280d15f732cf9c7eb800d56adaa505a1fc4eeb249aa93b9bf",
+      "heading_chunk_ids": [
+        "378b9dce92c09232"
+      ],
+      "table_chunk_ids": [
+        "345a1ff2dfcdb442"
+      ],
+      "source_chunk_ids": [
+        "6fba63526d035f96"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G035-035",
+      "source_location": "S0035-T03，原生数据行35-35",
+      "expected_body_sha256": "2ecba1e0c905f07843218f3265204bb26b26fc1d13bde14c22277046cd89c99c",
+      "expected_table_sha256": "b8adb2eb0e4564d2aa15f7e7528c19d22aa588485716c4c4a907ae0a5d91716f",
+      "heading_chunk_ids": [
+        "bc6cfada27c35de1"
+      ],
+      "table_chunk_ids": [
+        "35566d069feed26f"
+      ],
+      "source_chunk_ids": [
+        "65040d33e6f2e7b4"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G036-036",
+      "source_location": "S0035-T03，原生数据行36-36",
+      "expected_body_sha256": "a6e16d5392dbb805b314b5373bf0136c64601a4dcfc2c88214265d3578a7bd2f",
+      "expected_table_sha256": "5f9ba5498855db547bcb3cd03292a9c884457a7c6a5119a178962ffbad78fdb3",
+      "heading_chunk_ids": [
+        "60fe3bed477caccf"
+      ],
+      "table_chunk_ids": [
+        "e3866d70143070a6"
+      ],
+      "source_chunk_ids": [
+        "42a5c7138055c8e2"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G037-037",
+      "source_location": "S0035-T03，原生数据行37-37",
+      "expected_body_sha256": "7b69b919c6dc11751d856eaa5bb3fa066d8ba3aa9cb1b83b10c52e3a6fd5baef",
+      "expected_table_sha256": "1ec266b287114acddce3796728debf4428b7a34913296bcc61813e1bdbdb382f",
+      "heading_chunk_ids": [
+        "442eb187aa472b14"
+      ],
+      "table_chunk_ids": [
+        "8fa01d17de608bfb"
+      ],
+      "source_chunk_ids": [
+        "672517ddfeeaa8db"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G038-038",
+      "source_location": "S0035-T03，原生数据行38-38",
+      "expected_body_sha256": "0119a5eb3761d395e2b209c9bb72ec5ef18830ea5ca3eec298429ca129375452",
+      "expected_table_sha256": "4f09b4ff32785454ead64bd33bacbd92abcbe00b64bc70ba39e0f02a5c4c6c65",
+      "heading_chunk_ids": [
+        "e6432856910fce45"
+      ],
+      "table_chunk_ids": [
+        "1c116930d360461a"
+      ],
+      "source_chunk_ids": [
+        "9f5dca5b8ca733bf"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G039-039",
+      "source_location": "S0035-T03，原生数据行39-39",
+      "expected_body_sha256": "d200d7df9f3663a99707043adb4cef69462f5aca395f7874f4e08a981585fbb6",
+      "expected_table_sha256": "401401ed5d5c961e9d53e7bfed9018001e0e48b6de2651b5dc70d35e5ba0276b",
+      "heading_chunk_ids": [
+        "89922bedecbd620f"
+      ],
+      "table_chunk_ids": [
+        "d712ecd74b1316ee"
+      ],
+      "source_chunk_ids": [
+        "9811726368ca8041"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G040-040",
+      "source_location": "S0035-T03，原生数据行40-40",
+      "expected_body_sha256": "24d5a4178089c05a33696fe9fe2df392fcc8052ae0f38a79987f22dc38794a17",
+      "expected_table_sha256": "ee3b21a8cca51512e36f6d84ccf3d247c47cefa970106535e7d3104eda47f0e0",
+      "heading_chunk_ids": [
+        "ad71a629bd6847e3"
+      ],
+      "table_chunk_ids": [
+        "122fd4094f27d642"
+      ],
+      "source_chunk_ids": [
+        "934b0a79a9630e45"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G041-041",
+      "source_location": "S0035-T03，原生数据行41-41",
+      "expected_body_sha256": "f7cb3cfe46c15aefb5fd998b2b5fe39d24b4447031f9c491d6cac50aae8654b2",
+      "expected_table_sha256": "b43139c94d9a54f1fd88cc197191bba752ec8ba95fa638d31e3e8cdfb81320c6",
+      "heading_chunk_ids": [
+        "83509a5be8afc7f3"
+      ],
+      "table_chunk_ids": [
+        "6b6cc26c1ee7a236"
+      ],
+      "source_chunk_ids": [
+        "896a833e3eff5ac5"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G042-042",
+      "source_location": "S0035-T03，原生数据行42-42",
+      "expected_body_sha256": "884d839b185686eae5f32001b2da55de2e604748c0dc16765b7028e646e5bda8",
+      "expected_table_sha256": "78067ff1b3c88a4992cbd8cae35599233dfeca64a1f3b236adf1f16a295f27f1",
+      "heading_chunk_ids": [
+        "46edce20eac5943f"
+      ],
+      "table_chunk_ids": [
+        "8f3a56b4281c853d"
+      ],
+      "source_chunk_ids": [
+        "f2ccb63e1079e17e"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G043-043",
+      "source_location": "S0035-T03，原生数据行43-43",
+      "expected_body_sha256": "c11d2012a3f08c3cab8818234637ede3d01db3905850c113010e6546f2853bc6",
+      "expected_table_sha256": "4b3fdc9f5e2a657b20adfc95c017c563c839ac3a91f16b6f4f04f34d8d17e1ad",
+      "heading_chunk_ids": [
+        "e18150295e3a4109"
+      ],
+      "table_chunk_ids": [
+        "d92af521cb5a94e2"
+      ],
+      "source_chunk_ids": [
+        "e042ca3af28d2b79"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G045-045",
+      "source_location": "S0035-T03，原生数据行45-45",
+      "expected_body_sha256": "46050f9d976fc61cf13a6f5e10e94b776f1a1eda4848ddc7f060755b21a4128b",
+      "expected_table_sha256": "fb15acffd7a2d261114bf8f41a1501316e411dd727743b70580b3d4948073cf9",
+      "heading_chunk_ids": [
+        "65c9143fb46e8319"
+      ],
+      "table_chunk_ids": [
+        "26fdd3fd302e7cdd"
+      ],
+      "source_chunk_ids": [
+        "0681aed5fd56ebca"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G046-046",
+      "source_location": "S0035-T03，原生数据行46-46",
+      "expected_body_sha256": "af1df50bc990920e6e5a7e1420b0f7c6522d24179859b111f979f72c71e0092a",
+      "expected_table_sha256": "13a1432735448b117611d1960e8da955d218413a706b88a6d6490fc8720bf1c7",
+      "heading_chunk_ids": [
+        "39dfdc1ac88441a0"
+      ],
+      "table_chunk_ids": [
+        "9b38811fb8c6ceea"
+      ],
+      "source_chunk_ids": [
+        "496c8e469b3739f9"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G047-047",
+      "source_location": "S0035-T03，原生数据行47-47",
+      "expected_body_sha256": "5d452a208024446b91dbf692bdeac6fe8cd54901249595c0991986280e161ac3",
+      "expected_table_sha256": "1c6fe69a0d845c719c0551a72f31f5279eaf12e3ab07db328f46029d4cbef643",
+      "heading_chunk_ids": [
+        "36e591e64392e814"
+      ],
+      "table_chunk_ids": [
+        "d151fe7c73ce1de6"
+      ],
+      "source_chunk_ids": [
+        "a7866e15c62a3ecd"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G048-048",
+      "source_location": "S0035-T03，原生数据行48-48",
+      "expected_body_sha256": "ff755c338204e2f4c7150e87bf8cee623b85088ab763fe73d147619ed03d2d14",
+      "expected_table_sha256": "13feba8ee01b0561de36d455fcd90cd1e938faac893f98d9e145e144b04880e6",
+      "heading_chunk_ids": [
+        "6479f81ca907475b"
+      ],
+      "table_chunk_ids": [
+        "5a93dbd9a97703c0"
+      ],
+      "source_chunk_ids": [
+        "f0a9befb5cf5ecba"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G049-049",
+      "source_location": "S0035-T03，原生数据行49-49",
+      "expected_body_sha256": "24dc1bc28283707f76eb7f4328127eab56d9f216006db836d5c78d871e833c22",
+      "expected_table_sha256": "0141fcbb9268ee0d5f6d6a23cc8d826a687e7cd88f697239bf046f6ab5fd54cf",
+      "heading_chunk_ids": [
+        "99eb99f93973d4e8"
+      ],
+      "table_chunk_ids": [
+        "5d8d2d33376edcae"
+      ],
+      "source_chunk_ids": [
+        "319204ef6b5eb146"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G050-050",
+      "source_location": "S0035-T03，原生数据行50-50",
+      "expected_body_sha256": "2dbc8bbafe709641794c5e5979625d4749a472c552449e526f06fdcf1491919a",
+      "expected_table_sha256": "33f2b6765eb2c736a72822a9313f95c5c931e2ed857faf9931c3493f76125ea0",
+      "heading_chunk_ids": [
+        "69dfc1ed55de9b61"
+      ],
+      "table_chunk_ids": [
+        "39c4a7960ddcfcf8"
+      ],
+      "source_chunk_ids": [
+        "c63caf4a66e0bf56"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G051-051",
+      "source_location": "S0035-T03，原生数据行51-51",
+      "expected_body_sha256": "bcb6eb0dc19299d1644d86202978c810c4c199cc0a28ae5040b0daf5a17496a6",
+      "expected_table_sha256": "1f1a8c9816a0b462e6ec83b221030c0427c38f5de5121f4303f745f46d460906",
+      "heading_chunk_ids": [
+        "5d2266075eae9497"
+      ],
+      "table_chunk_ids": [
+        "2be09d626a4e63bc"
+      ],
+      "source_chunk_ids": [
+        "f3081eb3cf4fda94"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G053-053",
+      "source_location": "S0035-T03，原生数据行53-53",
+      "expected_body_sha256": "18886456e5ae174e56567287867d014f7cb437af22bd6a73a9af1ba930bcbadd",
+      "expected_table_sha256": "fb6aa3608ea2c809eb51cfefe8cdd26189811ba41d3256e76318431f3a6f28ca",
+      "heading_chunk_ids": [
+        "25690a9b531b19f5"
+      ],
+      "table_chunk_ids": [
+        "ca83b3577ef91487"
+      ],
+      "source_chunk_ids": [
+        "0266533acf146445"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G054-054",
+      "source_location": "S0035-T03，原生数据行54-54",
+      "expected_body_sha256": "f834599b320908e2e6cb3a7518275bbbdee11c3e04c4c36c8a0e4006abc7f134",
+      "expected_table_sha256": "11f9aaba7bd6b5455ff530de7d2e4abca69dfb9f0e884845effcd8a5d17ef088",
+      "heading_chunk_ids": [
+        "c9c672b64cd9a227"
+      ],
+      "table_chunk_ids": [
+        "e94e2d8e1c2564c4"
+      ],
+      "source_chunk_ids": [
+        "080a448e1c971d65"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G055-055",
+      "source_location": "S0035-T03，原生数据行55-55",
+      "expected_body_sha256": "21c7443ad976bcf70681f4b2600466eba71041cb9cfe4756abe5b541818f9b71",
+      "expected_table_sha256": "8254fa91c838a61babfef4b89a21d179050917ca5a855f451a01648cf89a82fd",
+      "heading_chunk_ids": [
+        "ffd5f4283f4fd729"
+      ],
+      "table_chunk_ids": [
+        "322131321b689490"
+      ],
+      "source_chunk_ids": [
+        "efabbfce32b7c67d"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G056-056",
+      "source_location": "S0035-T03，原生数据行56-56",
+      "expected_body_sha256": "fc54f047884f06fd88765763048edd32ec0c4727f6f691f2fcc3479dda6bbab5",
+      "expected_table_sha256": "2e1d88c53f8775f68907c28b3fc6e0b3e9b064a5525bb7eeb212fb84e3a030d9",
+      "heading_chunk_ids": [
+        "c37b5f93eeaa911b"
+      ],
+      "table_chunk_ids": [
+        "945a71159e9278e7"
+      ],
+      "source_chunk_ids": [
+        "74acef2711883d12"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G057-057",
+      "source_location": "S0035-T03，原生数据行57-57",
+      "expected_body_sha256": "d01e0e83f67ed3b889b8600987825ff00f36add02e3666fa423f7a216870ee80",
+      "expected_table_sha256": "31d2d5c957dc40e7ed9b622e1a56c0e1ca14de3112df4898cf1d7e1b4d8d0bb6",
+      "heading_chunk_ids": [
+        "45155e15d3531989"
+      ],
+      "table_chunk_ids": [
+        "8e7813cc446e7d0f"
+      ],
+      "source_chunk_ids": [
+        "a5533312112bfce9"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G058-058",
+      "source_location": "S0035-T03，原生数据行58-58",
+      "expected_body_sha256": "01b54964da4d0fb01554e54a29e0fda74d4a2a99513d2196257c5c7c723f6bb3",
+      "expected_table_sha256": "49ecc859dbf77b35368be1a4509eb94b15ce3de511e9efe8ffd465be0a9f0399",
+      "heading_chunk_ids": [
+        "d04ff99265201401"
+      ],
+      "table_chunk_ids": [
+        "85911b69872d0d7f"
+      ],
+      "source_chunk_ids": [
+        "4400c9e081c33e26"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G059-059",
+      "source_location": "S0035-T03，原生数据行59-59",
+      "expected_body_sha256": "acc8220ea45a7cbf741f73adfb04d563d3dcded2a7b02d65bb33a1c46398f37e",
+      "expected_table_sha256": "0b93a812b60fc00a3e5ba8ee27fa9d68485b70573138d36d8533cf96a22ee3fc",
+      "heading_chunk_ids": [
+        "5311da54ed59bb88"
+      ],
+      "table_chunk_ids": [
+        "064811a11dc1db9c"
+      ],
+      "source_chunk_ids": [
+        "39cdb9e7b50b6bcb"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G060-060",
+      "source_location": "S0035-T03，原生数据行60-60",
+      "expected_body_sha256": "60b5c2e4512db3c63aa9344e2245ca8501b3517b3f320973272e246beed02881",
+      "expected_table_sha256": "5304cc735b48e7b14512354c865c9c19554a65c1edd794881865c424e1758141",
+      "heading_chunk_ids": [
+        "d192a3135262d8e3"
+      ],
+      "table_chunk_ids": [
+        "d86c5dba2f3b1fc6"
+      ],
+      "source_chunk_ids": [
+        "5f48c414fa6b2553"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G061-061",
+      "source_location": "S0035-T03，原生数据行61-61",
+      "expected_body_sha256": "887dad422413ae1b313bf5a3ca32429309cb2250c9860bde767a93819265935a",
+      "expected_table_sha256": "2f47794a362737cfcaa06fe01d67d4f2fe7368e844913b792208f4bb076674cd",
+      "heading_chunk_ids": [
+        "3d40ebe5f1d69942"
+      ],
+      "table_chunk_ids": [
+        "6ad292210970ae52"
+      ],
+      "source_chunk_ids": [
+        "62a39647ed9970c3"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G062-062",
+      "source_location": "S0035-T03，原生数据行62-62",
+      "expected_body_sha256": "6a3fe933501d907dd6fc8c27ee9fa4d4b448aa29300f3d92dcbcf06cc762b5db",
+      "expected_table_sha256": "ce62e3b56a2786b4b830eaca3cbc2b8abcb24c345a30a8f097e44e47dc7b2aad",
+      "heading_chunk_ids": [
+        "6057ee1fee6303a5"
+      ],
+      "table_chunk_ids": [
+        "035d12740477f1c2"
+      ],
+      "source_chunk_ids": [
+        "d18c4b9f1536334a"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G063-063",
+      "source_location": "S0035-T03，原生数据行63-63",
+      "expected_body_sha256": "92efa6417a83fff350205a2308b35812c03537d0ef3df3c0b4020315eb5d8bf8",
+      "expected_table_sha256": "3c89003e3802ca9be15afb3bd7909fc42415bc5ee33c9f7351bbd8f617ff4d23",
+      "heading_chunk_ids": [
+        "fea33667d001d1f9"
+      ],
+      "table_chunk_ids": [
+        "edea3d18a0a9ecfb"
+      ],
+      "source_chunk_ids": [
+        "d64ee32e7aed47c6"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G064-064",
+      "source_location": "S0035-T03，原生数据行64-64",
+      "expected_body_sha256": "dee941797bbdd5748d3d2d8f18831bf854bf55bc3a742db44e247e6e7f57eca7",
+      "expected_table_sha256": "18a9a8870f633d69d4c6436429655cee8fbbe82a8573b2fc87ebc0d9db891388",
+      "heading_chunk_ids": [
+        "3391eb7f9131d9cc"
+      ],
+      "table_chunk_ids": [
+        "92d5030604e8eae8"
+      ],
+      "source_chunk_ids": [
+        "d933eea244de371c"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G065-065",
+      "source_location": "S0035-T03，原生数据行65-65",
+      "expected_body_sha256": "b2f1d9bb51cf8cb98facadb68cf0937aece45f72f2d0834b0f3e09addc554525",
+      "expected_table_sha256": "ef2c4fbf3d7682343a4f060f1b49522e5d53148fc3f6b992cc1e3a22e64d9cc8",
+      "heading_chunk_ids": [
+        "7b6ac75eac6e24c3"
+      ],
+      "table_chunk_ids": [
+        "fa148bb9f4331635"
+      ],
+      "source_chunk_ids": [
+        "c7941dac8913b62d"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G067-067",
+      "source_location": "S0035-T03，原生数据行67-67",
+      "expected_body_sha256": "70bfd0222347d321110dabea7421d7037499282869d8c01e5677508d87fb39c8",
+      "expected_table_sha256": "e2123046a7c8a3dfdaba5f02bdff5878336d7d2cf27d0fefd82f1d44f2374083",
+      "heading_chunk_ids": [
+        "b2a2304a1787b186"
+      ],
+      "table_chunk_ids": [
+        "163d572a5a3385e4"
+      ],
+      "source_chunk_ids": [
+        "d671ffbbabfefa06"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G068-068",
+      "source_location": "S0035-T03，原生数据行68-68",
+      "expected_body_sha256": "049abf0e900242e1a5643a2309e2e24ec54f76580d7e63ffc90c0753ef0eaabe",
+      "expected_table_sha256": "257d1bcd298b4c08fa5f18d5a8aa57638e0e281a420881ea8dae72a3e4a4c2ed",
+      "heading_chunk_ids": [
+        "f9bed1993352cf44"
+      ],
+      "table_chunk_ids": [
+        "eb1a8fc224f4bdbd"
+      ],
+      "source_chunk_ids": [
+        "1e5690fa58c0c8ed"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G069-069",
+      "source_location": "S0035-T03，原生数据行69-69",
+      "expected_body_sha256": "3f511edeb9c96c97076ce98696efb74e53f68c2de5a8a59489ebbfd32e4b16b4",
+      "expected_table_sha256": "e2e97e89c93984f2a36e402bad7f3198e73c4ad6ee1f8369773d213e04a5442c",
+      "heading_chunk_ids": [
+        "056f601f01fb08a7"
+      ],
+      "table_chunk_ids": [
+        "7d86d4943850aeae"
+      ],
+      "source_chunk_ids": [
+        "56e3ac6e3469f09e"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G070-070",
+      "source_location": "S0035-T03，原生数据行70-70",
+      "expected_body_sha256": "2638e9cab31f0949ab2589533f01ef3f4bc73f4270fadd44d2e71a143f407363",
+      "expected_table_sha256": "69234cc8a94172a96764c8a105cc709147319107c96c2a60fc58115297f8d0bc",
+      "heading_chunk_ids": [
+        "900733b7c914f0f1"
+      ],
+      "table_chunk_ids": [
+        "dee0fe52e67eb76b"
+      ],
+      "source_chunk_ids": [
+        "39328ea853410070"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G071-071",
+      "source_location": "S0035-T03，原生数据行71-71",
+      "expected_body_sha256": "e47da7b27fe8d2c1b2cba8d01d991129770f33fb281b01f980614536d2b89169",
+      "expected_table_sha256": "2743df02c7da0f10ba0de5801d268834b53b4c723e0fde681000fda97e8c1f15",
+      "heading_chunk_ids": [
+        "2cdf64cd397dd52e"
+      ],
+      "table_chunk_ids": [
+        "747d537845a85412"
+      ],
+      "source_chunk_ids": [
+        "15c27f0c2957cbf0"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G072-072",
+      "source_location": "S0035-T03，原生数据行72-72",
+      "expected_body_sha256": "72198aa8e0a3288f101f7a3ac23d4578712835472cba58ba8501f8d4c2163d81",
+      "expected_table_sha256": "565d81aba794c86e199ce43e399b36d58a87138ed74e4fab9a7eeeecf92dacc6",
+      "heading_chunk_ids": [
+        "0be7f7b1082e4db8"
+      ],
+      "table_chunk_ids": [
+        "378e5dd3b22df043"
+      ],
+      "source_chunk_ids": [
+        "892562098e52dd22"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G073-073",
+      "source_location": "S0035-T03，原生数据行73-73",
+      "expected_body_sha256": "daf4803ac31ec107245d662891c2296be77071243269e9fd910fb75058bb5c5f",
+      "expected_table_sha256": "0ed6623ed140207133a3130ad3dceb8a9f01817d733604384642a303745af331",
+      "heading_chunk_ids": [
+        "d63e9d4b7e4714d3"
+      ],
+      "table_chunk_ids": [
+        "ec8c006eec2a96ef"
+      ],
+      "source_chunk_ids": [
+        "4913989b0f78c98f"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G075-075",
+      "source_location": "S0035-T03，原生数据行75-75",
+      "expected_body_sha256": "1c57fb443ef779ca5bf46fde5ed57dcb14269ca4c8b28166c7afdbc63c9e842c",
+      "expected_table_sha256": "f483f41d847f89c7c0fd2fcd1c4cf7b83211691423b61f64d05811d56bf875b1",
+      "heading_chunk_ids": [
+        "cbcd60a27a583446"
+      ],
+      "table_chunk_ids": [
+        "2d3add62d8bf4a26"
+      ],
+      "source_chunk_ids": [
+        "d5c07abe962a4151"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G076-076",
+      "source_location": "S0035-T03，原生数据行76-76",
+      "expected_body_sha256": "4f3b4a93d2960b0a7860b1e126460e7482a772dc163b692610b54260c83dedb9",
+      "expected_table_sha256": "3025bb5db8c5070cf1fb1e014626d81db5c27c55c15bf82781670cdff2222e3e",
+      "heading_chunk_ids": [
+        "aeb2d6daa90eadd8"
+      ],
+      "table_chunk_ids": [
+        "707760c49b02556f"
+      ],
+      "source_chunk_ids": [
+        "76e32df4d9e8aebe"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G077-077",
+      "source_location": "S0035-T03，原生数据行77-77",
+      "expected_body_sha256": "10c05661fe70936fb73080ec0dc7c94d87e26d14b3338989f59518b64b8a1f57",
+      "expected_table_sha256": "f01102fa063c3f40ae9b8b4162ab05007e65793a21806b1783bf48515354247d",
+      "heading_chunk_ids": [
+        "f21c7f4510933d8c"
+      ],
+      "table_chunk_ids": [
+        "48f9d9baa40be0f2"
+      ],
+      "source_chunk_ids": [
+        "a29a0d326979e7e9"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G078-078",
+      "source_location": "S0035-T03，原生数据行78-78",
+      "expected_body_sha256": "c238c9e6f76a0e98362c4177566b7954a6e1a4bc2b86cdc0e9547c6ea8aa6ff1",
+      "expected_table_sha256": "9cd0331450ef35e6d44d16eaedb8c4d4c5c04a489f5ef2d32d73345cb345db7f",
+      "heading_chunk_ids": [
+        "58012d985f029099"
+      ],
+      "table_chunk_ids": [
+        "5edcc77fad84d147"
+      ],
+      "source_chunk_ids": [
+        "5010aef7a787fd2e"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G079-079",
+      "source_location": "S0035-T03，原生数据行79-79",
+      "expected_body_sha256": "38a4046aeadd472dccd214c42b71549609f109f3db65415e19a5e901e349ebb9",
+      "expected_table_sha256": "a159c8d0496f5be1885f6df93c9536f0efd7467fe9ac24f7c080ceb65728ba81",
+      "heading_chunk_ids": [
+        "d391a77a4df23bb9"
+      ],
+      "table_chunk_ids": [
+        "47ca92750234be34"
+      ],
+      "source_chunk_ids": [
+        "b370d53310c8cf54"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G080-080",
+      "source_location": "S0035-T03，原生数据行80-80",
+      "expected_body_sha256": "42eaaaf9e65df6d37e97735ec198a8969b842883610f17b774fc15143cc5267e",
+      "expected_table_sha256": "0f3b719a8ea772071275511491f47d47c0698562e97ed6fd8ddaaf556f4314ea",
+      "heading_chunk_ids": [
+        "a36ebed23cff89b6"
+      ],
+      "table_chunk_ids": [
+        "ccccfb5bbaa118c4"
+      ],
+      "source_chunk_ids": [
+        "70b2743c663d9ce2"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G081-081",
+      "source_location": "S0035-T03，原生数据行81-81",
+      "expected_body_sha256": "807975ebf759c3bf2bfd068976d5c5a8a1366feabcd62ab3100c6364450cb1b2",
+      "expected_table_sha256": "97711912ad808d08165ba0682a436447a8367b124727acc01538edf5c3d2f271",
+      "heading_chunk_ids": [
+        "2f7b5316473f9081"
+      ],
+      "table_chunk_ids": [
+        "cfef12a466d3776c"
+      ],
+      "source_chunk_ids": [
+        "026a15d7cff8fa00"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G082-082",
+      "source_location": "S0035-T03，原生数据行82-82",
+      "expected_body_sha256": "b072f7172ba4784276c7f6872d6bb5d87293ea1ed4eea25e44f403637143fb4d",
+      "expected_table_sha256": "005852118d0bb47e86dc4930bc665a8897f888c9a4c5eb9119341f45ea229fc1",
+      "heading_chunk_ids": [
+        "9f8e3fbb41937295"
+      ],
+      "table_chunk_ids": [
+        "f8197691d605216a"
+      ],
+      "source_chunk_ids": [
+        "3232eb958cc4ea1b"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G083-083",
+      "source_location": "S0035-T03，原生数据行83-83",
+      "expected_body_sha256": "f2d7eb95bd74f54e36dedecfa6b85b743e022bb79afdd8efbf96f38ae3462fb9",
+      "expected_table_sha256": "3531cb39fe0394939a7e92b72d79cff8ff19e41559fe43e7aad430e36737ec24",
+      "heading_chunk_ids": [
+        "2e046c1bb385b883"
+      ],
+      "table_chunk_ids": [
+        "a810a8352716582f"
+      ],
+      "source_chunk_ids": [
+        "1f13520876bcee58"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G084-084",
+      "source_location": "S0035-T03，原生数据行84-84",
+      "expected_body_sha256": "dd80d0023182b002e42ac41654bd237bd1c1de513e75933d13babc8c1f5699ca",
+      "expected_table_sha256": "a1531eed54cacfbf173d70421a5dc12db374568d66ca6c2c48e353cedb42bfda",
+      "heading_chunk_ids": [
+        "7248f9f22d87f0c1"
+      ],
+      "table_chunk_ids": [
+        "4e015ea84af18fe2"
+      ],
+      "source_chunk_ids": [
+        "88d3c04db852df4a"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G085-085",
+      "source_location": "S0035-T03，原生数据行85-85",
+      "expected_body_sha256": "45fc6901dc618e00bfe9f83f2c86d97069d6ac34f20f075e86dff89f8fa1467f",
+      "expected_table_sha256": "37d8e47431d4d738fadd30e512d5a7abf64d39a3dd81560b74846bef2d730eb6",
+      "heading_chunk_ids": [
+        "f9d09824f9aec70b"
+      ],
+      "table_chunk_ids": [
+        "87eb6d0400ad4abc"
+      ],
+      "source_chunk_ids": [
+        "4cfb6dec2e86733d"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G086-086",
+      "source_location": "S0035-T03，原生数据行86-86",
+      "expected_body_sha256": "9e41d82832a341a4f6a899c4f556a20f636ddfe69044d3877017ac8cd2cb9480",
+      "expected_table_sha256": "a3d417dc15efb6ae3dcb2c2093695d190486892b4616c667fc77ceeb6d43a087",
+      "heading_chunk_ids": [
+        "63c55c23fc0f59e3"
+      ],
+      "table_chunk_ids": [
+        "233ef087d01fc00f"
+      ],
+      "source_chunk_ids": [
+        "5f8420ddc0c3efad"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G087-087",
+      "source_location": "S0035-T03，原生数据行87-87",
+      "expected_body_sha256": "5346825a8cf51748f098bab9b475549f95f1395273bb273f75ccac371825e8cc",
+      "expected_table_sha256": "56d6016f00913c6f87855eeba1810b2effda0d5eda05015ca596291ebb9e7d56",
+      "heading_chunk_ids": [
+        "27fc357bb63db38a"
+      ],
+      "table_chunk_ids": [
+        "afa56ec1edcc078e"
+      ],
+      "source_chunk_ids": [
+        "6ab609fcd71c0368"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-S0035-T03-G088-088",
+      "source_location": "S0035-T03，原生数据行88-88",
+      "expected_body_sha256": "fe2282328a404af390e5922c282bbc4b8ded711cd0973a55f636e6dad6de06d9",
+      "expected_table_sha256": "54d4a193e3bebb1d02e358f61e3801e7784a3e199f37499f6c5d61d2a9d21c2c",
+      "heading_chunk_ids": [
+        "f6646e18a3004996"
+      ],
+      "table_chunk_ids": [
+        "e91637ee9431603e"
+      ],
+      "source_chunk_ids": [
+        "389b9eaf2ba02768"
+      ],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-K031",
+      "source_location": "国铁设备监规〔2026〕6号；2026-02-28印发，2026-04-01施行，S0035-T04，原附件表格顺序 4",
+      "expected_body_sha256": "2cffcd84a976e13acec5da42a0c4a19082b3963bca797166e331fb5275492856",
+      "expected_table_sha256": "140cb629bec59ff3a9af9f7a5d792a4812b00da5b68fcdc4aa6507a68de23d89",
+      "heading_chunk_ids": [
+        "6a9e312ba4343860"
+      ],
+      "table_chunk_ids": [
+        "046a01a45717295f"
+      ],
+      "source_chunk_ids": [],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-K032",
+      "source_location": "国铁设备监规〔2026〕6号；2026-02-28印发，2026-04-01施行，S0035-T05，原附件表格顺序 5",
+      "expected_body_sha256": "142c91ff9fea44da84967e67fa5c5d32ecde2d232e8c61befb0aa8a73bafdd27",
+      "expected_table_sha256": "1a12791f17cc7cde4fc94c7b2fa81fd1729e2d12b23f669a76228d5819b243bf",
+      "heading_chunk_ids": [
+        "091ff1edada878aa"
+      ],
+      "table_chunk_ids": [
+        "e31fc216ae1d1df5"
+      ],
+      "source_chunk_ids": [],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-K033",
+      "source_location": "国铁设备监规〔2026〕6号；2026-02-28印发，2026-04-01施行，S0035-T06，原附件表格顺序 6",
+      "expected_body_sha256": "c474cde7557c975ef2d7d68632cf1367c88634ea774a8b3be73d09b92ba69710",
+      "expected_table_sha256": "fb2e45931fb891c6598a715edc424079564d68dd57f3b0c975bc87cc554e7a04",
+      "heading_chunk_ids": [
+        "bb064cb5cf40bbcc"
+      ],
+      "table_chunk_ids": [
+        "c036db4b0b5afd36"
+      ],
+      "source_chunk_ids": [],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-K034",
+      "source_location": "国铁设备监规〔2026〕6号；2026-02-28印发，2026-04-01施行，S0035-T07，原附件表格顺序 7",
+      "expected_body_sha256": "3cde3c0421dd236ec2b12b40b76d7f36c2cdb161a872f9ff979208e226228109",
+      "expected_table_sha256": "8e489308e30823e25c0af9944056716a10bb1bae9b0659cafcd71a9f14b41539",
+      "heading_chunk_ids": [
+        "df7a48552958d236"
+      ],
+      "table_chunk_ids": [
+        "3a42460f3fc3a22c"
+      ],
+      "source_chunk_ids": [],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    },
+    {
+      "knowledge_point_id": "DOC0027-K035",
+      "source_location": "国铁设备监规〔2026〕6号；2026-02-28印发，2026-04-01施行，S0035-T08，原附件表格顺序 8",
+      "expected_body_sha256": "aea56c2c81e80893047da70ece9ccce2decca6c5343f37b2def9e87b3524a9d7",
+      "expected_table_sha256": "49263cee52f24d9ee792fe1af564a5d312800b73a690f5ab4cc8e8a298bf595f",
+      "heading_chunk_ids": [
+        "30c17bda893479a4"
+      ],
+      "table_chunk_ids": [
+        "149c7901cf60f2a7"
+      ],
+      "source_chunk_ids": [],
+      "table_cells_preserved": true,
+      "same_chunk": false
+    }
+  ],
+  "table_summary": {
+    "expected_table_points": 171,
+    "cell_grids_found_in_actual_tables": 171,
+    "table_context_source_together": 0
+  },
+  "verified_literal_loss": {
+    "knowledge_point_id": "DOC0027-K014",
+    "chunk_id": "7444673d676d290e",
+    "expected": "TXTX####—*****",
+    "actual": "TXTX####—**",
+    "issue": "Markdown emphasis parsing removed literal asterisks from the five-digit certificate-number placeholder."
+  },
+  "decision": "chunk-quality-rejected",
+  "quality_accepted": false,
+  "formal_import": false,
+  "retrieval_accepted": false,
+  "rejected_workarounds": [
+    {
+      "route": "Rename the existing remote document from .md to .txt",
+      "reason": "The supported API validates equal old/new extensions; no rename request or direct database write was attempted.",
+      "code": "internal/service/document/document_dataset_update.go:validateDocumentName"
+    },
+    {
+      "route": "Increase table_context_size",
+      "reason": "Neighbor token windows do not guarantee the complete point and can mix unrelated points."
+    }
+  ],
+  "scope": "Structural and literal fidelity checks over exported actual chunks; does not replace source semantic or visual review.",
+  "remote_mutations": 0,
+  "new_model_requests": 0
+}

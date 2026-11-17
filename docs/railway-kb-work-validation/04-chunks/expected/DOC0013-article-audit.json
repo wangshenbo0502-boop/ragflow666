@@ -1,0 +1,499 @@
+{
+  "doc_id": "DOC0013",
+  "source_id": "S0014",
+  "source_path": "01-originals/web/S0014.txt",
+  "output_path": "03-domains/YS/DOC0013_铁路营业线施工安全管理办法.md",
+  "expected_article_count": 61,
+  "extracted_article_count": 61,
+  "output_sha256": "593c87de191f0bcd40d61a70265baee1c1feda14caf33628744d62ab42156ee6",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章　总 则",
+      "source_sha256": "5314897e37ee809c023bc18f1a5e882630ecf4eb5ddd2632cf8bed511592b8a1",
+      "output_sha256": "5314897e37ee809c023bc18f1a5e882630ecf4eb5ddd2632cf8bed511592b8a1",
+      "source_characters": 116,
+      "output_characters": 116
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章　总 则",
+      "source_sha256": "0299d187242ea64719993deae054b6624d991f040477dd693b10c27ebf1fdfa1",
+      "output_sha256": "0299d187242ea64719993deae054b6624d991f040477dd693b10c27ebf1fdfa1",
+      "source_characters": 126,
+      "output_characters": 126
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章　总 则",
+      "source_sha256": "5fa948a46d1a208205ba3cd83b763370592bdff3c45a0a7b6dd967a925bf6d26",
+      "output_sha256": "5fa948a46d1a208205ba3cd83b763370592bdff3c45a0a7b6dd967a925bf6d26",
+      "source_characters": 77,
+      "output_characters": 77
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章　总 则",
+      "source_sha256": "a3d351fadc3bd5719e3fb7ca65b47021c66e51075ea0de1aacc4685e62edf2c4",
+      "output_sha256": "a3d351fadc3bd5719e3fb7ca65b47021c66e51075ea0de1aacc4685e62edf2c4",
+      "source_characters": 147,
+      "output_characters": 147
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章　总 则",
+      "source_sha256": "2acd9383e3afa2c9c9f90c482b7dee922b5e17b58bb3f81eac78330d139ae52d",
+      "output_sha256": "2acd9383e3afa2c9c9f90c482b7dee922b5e17b58bb3f81eac78330d139ae52d",
+      "source_characters": 72,
+      "output_characters": 72
+    },
+    {
+      "article": "第六条",
+      "chapter": "第一章　总 则",
+      "source_sha256": "be17406f91ee2bb16e4a5aa37a6a13e4fc371dd588dacc52116228a9e721b788",
+      "output_sha256": "be17406f91ee2bb16e4a5aa37a6a13e4fc371dd588dacc52116228a9e721b788",
+      "source_characters": 257,
+      "output_characters": 257
+    },
+    {
+      "article": "第七条",
+      "chapter": "第一章　总 则",
+      "source_sha256": "a39ca091ae703ef0fbeac50f0727f5c43460a03b923b6888ac487dbcc6631d01",
+      "output_sha256": "a39ca091ae703ef0fbeac50f0727f5c43460a03b923b6888ac487dbcc6631d01",
+      "source_characters": 147,
+      "output_characters": 147
+    },
+    {
+      "article": "第八条",
+      "chapter": "第一章　总 则",
+      "source_sha256": "4ea7a41dd7e48861351f67c300fd8380bf78621eea780857f568b303dcff496d",
+      "output_sha256": "4ea7a41dd7e48861351f67c300fd8380bf78621eea780857f568b303dcff496d",
+      "source_characters": 124,
+      "output_characters": 124
+    },
+    {
+      "article": "第九条",
+      "chapter": "第二章　组织领导",
+      "source_sha256": "7e58c8700df82886df82134a7e166e41e703ce95a737ce0851449385e58087ad",
+      "output_sha256": "7e58c8700df82886df82134a7e166e41e703ce95a737ce0851449385e58087ad",
+      "source_characters": 72,
+      "output_characters": 72
+    },
+    {
+      "article": "第十条",
+      "chapter": "第二章　组织领导",
+      "source_sha256": "ff99c2eca534d3487b1f96a28ca256c1af7a81566eec988fe289c44482e99ee9",
+      "output_sha256": "ff99c2eca534d3487b1f96a28ca256c1af7a81566eec988fe289c44482e99ee9",
+      "source_characters": 128,
+      "output_characters": 128
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第二章　组织领导",
+      "source_sha256": "210f1031640cb16672a649379cf0e2b3c9102c5cab34befe0e1dd58de65e47f5",
+      "output_sha256": "210f1031640cb16672a649379cf0e2b3c9102c5cab34befe0e1dd58de65e47f5",
+      "source_characters": 344,
+      "output_characters": 344
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第二章　组织领导",
+      "source_sha256": "9b0899020a204d18239b1d934febd8dc76b1b53627d6c1c5381386d35a747f81",
+      "output_sha256": "9b0899020a204d18239b1d934febd8dc76b1b53627d6c1c5381386d35a747f81",
+      "source_characters": 580,
+      "output_characters": 580
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第二章　组织领导",
+      "source_sha256": "2c68d8e9f98bcd54299dc1281eda525b5bd75c41fddb4ce4265f93f5b6bb9462",
+      "output_sha256": "2c68d8e9f98bcd54299dc1281eda525b5bd75c41fddb4ce4265f93f5b6bb9462",
+      "source_characters": 312,
+      "output_characters": 312
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第二章　组织领导",
+      "source_sha256": "8179121690a899334e4a3c7e59e832b0ff27992d750cdc98eca60159beb57056",
+      "output_sha256": "8179121690a899334e4a3c7e59e832b0ff27992d750cdc98eca60159beb57056",
+      "source_characters": 44,
+      "output_characters": 44
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第二章　组织领导",
+      "source_sha256": "f109d1570533e7b5a21d978f365dd2d4e0e0006d97cd151267ad31472328fd8f",
+      "output_sha256": "f109d1570533e7b5a21d978f365dd2d4e0e0006d97cd151267ad31472328fd8f",
+      "source_characters": 69,
+      "output_characters": 69
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第二章　组织领导",
+      "source_sha256": "848b2f5470b25d84bad5dde7d3cf96de465e9c1412c06865882b38f754e9e842",
+      "output_sha256": "848b2f5470b25d84bad5dde7d3cf96de465e9c1412c06865882b38f754e9e842",
+      "source_characters": 193,
+      "output_characters": 193
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第二章　组织领导",
+      "source_sha256": "9489dbbd04f6a198a9f66a4f19768b0da9d920d7ce16d8035aca3f21fffeb97e",
+      "output_sha256": "9489dbbd04f6a198a9f66a4f19768b0da9d920d7ce16d8035aca3f21fffeb97e",
+      "source_characters": 214,
+      "output_characters": 214
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第三章　施工方案、计划管理",
+      "source_sha256": "466c9af08955e5f245a08685cb1c84496d57b2258b4150c08d83ae337ac0be27",
+      "output_sha256": "466c9af08955e5f245a08685cb1c84496d57b2258b4150c08d83ae337ac0be27",
+      "source_characters": 243,
+      "output_characters": 243
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第三章　施工方案、计划管理",
+      "source_sha256": "a642de2287fcac2ef74878c7ef345e4439259ac26663d74a4ca94951c55067e4",
+      "output_sha256": "a642de2287fcac2ef74878c7ef345e4439259ac26663d74a4ca94951c55067e4",
+      "source_characters": 309,
+      "output_characters": 309
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第三章　施工方案、计划管理",
+      "source_sha256": "29e96bdc06363a6bba245e3f4dde32e5cfa2ea8ec6cb72f83a610e25f09b0dfd",
+      "output_sha256": "29e96bdc06363a6bba245e3f4dde32e5cfa2ea8ec6cb72f83a610e25f09b0dfd",
+      "source_characters": 82,
+      "output_characters": 82
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第三章　施工方案、计划管理",
+      "source_sha256": "5e848cf2d63e46c5eb096d57abadc8b3f417afac1c17dface9435c0e198bb13b",
+      "output_sha256": "5e848cf2d63e46c5eb096d57abadc8b3f417afac1c17dface9435c0e198bb13b",
+      "source_characters": 256,
+      "output_characters": 256
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第三章　施工方案、计划管理",
+      "source_sha256": "98829c792dd83b82d407240596ab2824916bfedcc0e432d9b66bb6d8352ad9f4",
+      "output_sha256": "98829c792dd83b82d407240596ab2824916bfedcc0e432d9b66bb6d8352ad9f4",
+      "source_characters": 95,
+      "output_characters": 95
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "8f1d1ca34241f552f9efa75ebb2939e9f98d35e40eaf8bc49d6bc24522cf7395",
+      "output_sha256": "8f1d1ca34241f552f9efa75ebb2939e9f98d35e40eaf8bc49d6bc24522cf7395",
+      "source_characters": 104,
+      "output_characters": 104
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "b2f6783db503a6840e51fe871561a64cf29785785028281bdadad969f755f359",
+      "output_sha256": "b2f6783db503a6840e51fe871561a64cf29785785028281bdadad969f755f359",
+      "source_characters": 185,
+      "output_characters": 185
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "886439ff70e547b2403b24cd68c7cdc6521df5416a00b0556dd24edbb8eadcf6",
+      "output_sha256": "886439ff70e547b2403b24cd68c7cdc6521df5416a00b0556dd24edbb8eadcf6",
+      "source_characters": 103,
+      "output_characters": 103
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "a339f8923dd3f6f097764f214a106d4795b7ed876f9b1a20ff47814a7c832706",
+      "output_sha256": "a339f8923dd3f6f097764f214a106d4795b7ed876f9b1a20ff47814a7c832706",
+      "source_characters": 123,
+      "output_characters": 123
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "35a0349ecf54a7fd5657fe83a157658b251bbd91fef11abc42253564927f5adf",
+      "output_sha256": "35a0349ecf54a7fd5657fe83a157658b251bbd91fef11abc42253564927f5adf",
+      "source_characters": 67,
+      "output_characters": 67
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "bdd312b45c5bc37f4318554d4ffb4720722a54fa2939c63d0802e35c731f5925",
+      "output_sha256": "bdd312b45c5bc37f4318554d4ffb4720722a54fa2939c63d0802e35c731f5925",
+      "source_characters": 105,
+      "output_characters": 105
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "03dd5345748a44e1e107a85d2656a56b3ff6dfdf279e757c89cd8916cf1d8252",
+      "output_sha256": "03dd5345748a44e1e107a85d2656a56b3ff6dfdf279e757c89cd8916cf1d8252",
+      "source_characters": 108,
+      "output_characters": 108
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "ee339564c42d80d47b47d4026b9abea77a5038e43e5c878faa14a1522b022665",
+      "output_sha256": "ee339564c42d80d47b47d4026b9abea77a5038e43e5c878faa14a1522b022665",
+      "source_characters": 273,
+      "output_characters": 273
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "3c9152e2c6624e3eb3de0a24422f724ac0450ac61ab27517978718429c31f59a",
+      "output_sha256": "3c9152e2c6624e3eb3de0a24422f724ac0450ac61ab27517978718429c31f59a",
+      "source_characters": 146,
+      "output_characters": 146
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "d5b21091b57d6c30bb2ac6d7b7ebabf9996d3dc8a9a25d5c4d4ea7a49d051ae6",
+      "output_sha256": "d5b21091b57d6c30bb2ac6d7b7ebabf9996d3dc8a9a25d5c4d4ea7a49d051ae6",
+      "source_characters": 132,
+      "output_characters": 132
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "6613f5b967d7c6fd0993d4429f193a5b60d1ae12dc921e6d18ac9520974a3ead",
+      "output_sha256": "6613f5b967d7c6fd0993d4429f193a5b60d1ae12dc921e6d18ac9520974a3ead",
+      "source_characters": 57,
+      "output_characters": 57
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "b6bfbee9deedeb4b1c1a836d871fba80e056a63d0f73cde925ad846bf6eeb1c3",
+      "output_sha256": "b6bfbee9deedeb4b1c1a836d871fba80e056a63d0f73cde925ad846bf6eeb1c3",
+      "source_characters": 154,
+      "output_characters": 154
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "50441e9198309de19312bba1d0bd047ffef27d248da4aeaf170d5b261c93579f",
+      "output_sha256": "50441e9198309de19312bba1d0bd047ffef27d248da4aeaf170d5b261c93579f",
+      "source_characters": 106,
+      "output_characters": 106
+    },
+    {
+      "article": "第三十六条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "24bfcec90852e86ef42a135dba7c7d5ac1ab9b99830a9723eec87f4774a36c91",
+      "output_sha256": "24bfcec90852e86ef42a135dba7c7d5ac1ab9b99830a9723eec87f4774a36c91",
+      "source_characters": 89,
+      "output_characters": 89
+    },
+    {
+      "article": "第三十七条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "41a1c3987df5e3ce35cbba066962a3ba1024ceacb35973fbb542bdcab9407507",
+      "output_sha256": "41a1c3987df5e3ce35cbba066962a3ba1024ceacb35973fbb542bdcab9407507",
+      "source_characters": 93,
+      "output_characters": 93
+    },
+    {
+      "article": "第三十八条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "4a046a91db6f9e8f1f8441f622448cb52ad0d2da10af6c681f9a0717075e9d05",
+      "output_sha256": "4a046a91db6f9e8f1f8441f622448cb52ad0d2da10af6c681f9a0717075e9d05",
+      "source_characters": 76,
+      "output_characters": 76
+    },
+    {
+      "article": "第三十九条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "06e6777238cc85dda92567527a7ce82c3ab7f27a3858e034358d9af1451418e1",
+      "output_sha256": "06e6777238cc85dda92567527a7ce82c3ab7f27a3858e034358d9af1451418e1",
+      "source_characters": 74,
+      "output_characters": 74
+    },
+    {
+      "article": "第四十条",
+      "chapter": "第四章　组织实施",
+      "source_sha256": "0febb318387a1723d9be775947ba6a076b9a98137253510310fcd97b69a717b3",
+      "output_sha256": "0febb318387a1723d9be775947ba6a076b9a98137253510310fcd97b69a717b3",
+      "source_characters": 120,
+      "output_characters": 120
+    },
+    {
+      "article": "第四十一条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "fd6a33375afb65c4601fe1237198011f1a42ce8fc060edb8f681ec9126197b5b",
+      "output_sha256": "fd6a33375afb65c4601fe1237198011f1a42ce8fc060edb8f681ec9126197b5b",
+      "source_characters": 142,
+      "output_characters": 142
+    },
+    {
+      "article": "第四十二条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "847bd41433a03f2843ed212a59ec756dea03cc394bde3506bc98d3e22c3b18cb",
+      "output_sha256": "847bd41433a03f2843ed212a59ec756dea03cc394bde3506bc98d3e22c3b18cb",
+      "source_characters": 150,
+      "output_characters": 150
+    },
+    {
+      "article": "第四十三条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "d2b8997fa60c4d7daab5638bf506ac2c323afc03c258354349e9aa8a069caffa",
+      "output_sha256": "d2b8997fa60c4d7daab5638bf506ac2c323afc03c258354349e9aa8a069caffa",
+      "source_characters": 93,
+      "output_characters": 93
+    },
+    {
+      "article": "第四十四条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "880b6c6dabe3a09b1d8ade0ff7e905a9411be78911c895d4a2fecd8eda8c4017",
+      "output_sha256": "880b6c6dabe3a09b1d8ade0ff7e905a9411be78911c895d4a2fecd8eda8c4017",
+      "source_characters": 68,
+      "output_characters": 68
+    },
+    {
+      "article": "第四十五条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "1fe83da46aea0e22e83d3c1706417c5d8f25c45a545f7d0102b263e1507fa8a6",
+      "output_sha256": "1fe83da46aea0e22e83d3c1706417c5d8f25c45a545f7d0102b263e1507fa8a6",
+      "source_characters": 154,
+      "output_characters": 154
+    },
+    {
+      "article": "第四十六条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "4be3b6fbbb155f2391df83ac81d2f7af282fa02702307428bfb2364b04090b47",
+      "output_sha256": "4be3b6fbbb155f2391df83ac81d2f7af282fa02702307428bfb2364b04090b47",
+      "source_characters": 189,
+      "output_characters": 189
+    },
+    {
+      "article": "第四十七条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "09b8dfe29df4f2a8e8bfab61a9feb4205db4f0d30a5c7087eaba629cd2aadedf",
+      "output_sha256": "09b8dfe29df4f2a8e8bfab61a9feb4205db4f0d30a5c7087eaba629cd2aadedf",
+      "source_characters": 139,
+      "output_characters": 139
+    },
+    {
+      "article": "第四十八条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "f69e78fcc919843635b081b5972fda9dce49a0240c66f15c41bedd6df76325e3",
+      "output_sha256": "f69e78fcc919843635b081b5972fda9dce49a0240c66f15c41bedd6df76325e3",
+      "source_characters": 154,
+      "output_characters": 154
+    },
+    {
+      "article": "第四十九条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "e2565a8077644a1a4de92380422528d6765563b79eff55930e2197b192a09465",
+      "output_sha256": "e2565a8077644a1a4de92380422528d6765563b79eff55930e2197b192a09465",
+      "source_characters": 103,
+      "output_characters": 103
+    },
+    {
+      "article": "第五十条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "20a4fecdbefc6a9b425e3e82dad4791eb315e127baeb1408944cf49777de513c",
+      "output_sha256": "20a4fecdbefc6a9b425e3e82dad4791eb315e127baeb1408944cf49777de513c",
+      "source_characters": 206,
+      "output_characters": 206
+    },
+    {
+      "article": "第五十一条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "fee70dc519959af62b31d4e54b315ede7c161b5cd590614d0a82a5bb1973fb97",
+      "output_sha256": "fee70dc519959af62b31d4e54b315ede7c161b5cd590614d0a82a5bb1973fb97",
+      "source_characters": 185,
+      "output_characters": 185
+    },
+    {
+      "article": "第五十二条",
+      "chapter": "第五章　安全管理责任",
+      "source_sha256": "ec6c4aab028b01fb64e8ea258c1f81e96365214cc7979e0bb1159948930a84bb",
+      "output_sha256": "ec6c4aab028b01fb64e8ea258c1f81e96365214cc7979e0bb1159948930a84bb",
+      "source_characters": 259,
+      "output_characters": 259
+    },
+    {
+      "article": "第五十三条",
+      "chapter": "第六章　监督管理",
+      "source_sha256": "41690d26db46fda6dcf262b42ad6306ea5ac8ce98c334200e716cc69063e2bc6",
+      "output_sha256": "41690d26db46fda6dcf262b42ad6306ea5ac8ce98c334200e716cc69063e2bc6",
+      "source_characters": 147,
+      "output_characters": 147
+    },
+    {
+      "article": "第五十四条",
+      "chapter": "第六章　监督管理",
+      "source_sha256": "7e5fd9f9c441a9b75375659d72edc5bf9681494aeb46e4d5d853020780fb6e49",
+      "output_sha256": "7e5fd9f9c441a9b75375659d72edc5bf9681494aeb46e4d5d853020780fb6e49",
+      "source_characters": 88,
+      "output_characters": 88
+    },
+    {
+      "article": "第五十五条",
+      "chapter": "第六章　监督管理",
+      "source_sha256": "757c6a638c776ce59945622ad5e5223ecb28802f2ab2c4ea624a9cbac413feb0",
+      "output_sha256": "757c6a638c776ce59945622ad5e5223ecb28802f2ab2c4ea624a9cbac413feb0",
+      "source_characters": 83,
+      "output_characters": 83
+    },
+    {
+      "article": "第五十六条",
+      "chapter": "第六章　监督管理",
+      "source_sha256": "058035770729bfcde022f917a3eab5a83c9e2f5f3348b9a32519017daf444a63",
+      "output_sha256": "058035770729bfcde022f917a3eab5a83c9e2f5f3348b9a32519017daf444a63",
+      "source_characters": 98,
+      "output_characters": 98
+    },
+    {
+      "article": "第五十七条",
+      "chapter": "第六章　监督管理",
+      "source_sha256": "b36cd641404f5990ec844bab5a0efe8bc87537bc81bdf335108bbc1063e4faa3",
+      "output_sha256": "b36cd641404f5990ec844bab5a0efe8bc87537bc81bdf335108bbc1063e4faa3",
+      "source_characters": 48,
+      "output_characters": 48
+    },
+    {
+      "article": "第五十八条",
+      "chapter": "第六章　监督管理",
+      "source_sha256": "d52113a1381a5c0bf5c3948c80220357d3c761f30e07e3540c0f9ed8f81977b5",
+      "output_sha256": "d52113a1381a5c0bf5c3948c80220357d3c761f30e07e3540c0f9ed8f81977b5",
+      "source_characters": 81,
+      "output_characters": 81
+    },
+    {
+      "article": "第五十九条",
+      "chapter": "第七章　附 则",
+      "source_sha256": "eb2d433a54b8739e6afdc05bc73794cad61f6dde63ff2d298234b05f70b1694a",
+      "output_sha256": "eb2d433a54b8739e6afdc05bc73794cad61f6dde63ff2d298234b05f70b1694a",
+      "source_characters": 28,
+      "output_characters": 28
+    },
+    {
+      "article": "第六十条",
+      "chapter": "第七章　附 则",
+      "source_sha256": "af1f5c87f37e063dd00343b7107166c5aa3931206c4d6d490b195fcc3c5f7b49",
+      "output_sha256": "af1f5c87f37e063dd00343b7107166c5aa3931206c4d6d490b195fcc3c5f7b49",
+      "source_characters": 30,
+      "output_characters": 30
+    },
+    {
+      "article": "第六十一条",
+      "chapter": "第七章　附 则",
+      "source_sha256": "ee6b94369bad54b38079d98193bc149fba5f1fe6bb2bf1202bc3700badc1d75c",
+      "output_sha256": "ee6b94369bad54b38079d98193bc149fba5f1fe6bb2bf1202bc3700badc1d75c",
+      "source_characters": 100,
+      "output_characters": 100
+    }
+  ]
+}

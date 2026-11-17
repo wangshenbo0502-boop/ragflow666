@@ -1,0 +1,101 @@
+{
+  "report_date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "local_check_time_anchor": "2026-11-16T16:57:31+08:00",
+  "workspace": "D:/ragflow",
+  "artifact_root": "D:/ragflow/docs/railway-kb-work",
+  "scope": "Read-only local checks and two new report artifacts only. No generator execution, candidate regeneration, remote writes, current legal verification, or live retrieval run.",
+  "final_acceptance": false,
+  "baseline": { "F0": 6, "N0": 6, "S0": 6, "minimum_total": 18, "preferred_total": 24, "finally_accepted_total": null },
+  "historical_counts_not_current_acceptance": { "original_dataset_files": 75, "all_chunks_including_history": 3411, "previous_business_documents": 24, "previous_business_chunks": 1131 },
+  "candidate_audit_timestamp": "2026-11-16T08:36:28.528Z",
+  "candidate_totals": { "documents": 4, "points": 1199, "nonempty_body_paragraphs": 515, "native_tables": 42, "nonempty_native_cells": 4086, "assessment_tables": 5, "assessment_points": 415, "points_over_900_tokens": 494, "maximum_prefixed_tokens_archived": 1797, "reranker_budget_verified": false, "tokenizer_rerun_this_report": false },
+  "local_verification_method": "SHA-256 match against archived master/source audit; ID uniqueness; H1/H3 counts; whitespace and table-escape normalized paragraph and table-cell substring presence. Not semantic, visual, legal or retrieval acceptance.",
+  "documents": [
+    {
+      "doc_id": "DOC0025", "source_id": "S0033", "domain": "GW",
+      "master_path": "03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "original_path": "01-originals/attachments/S0033-1.docx",
+      "expected_path": "04-chunks/expected/DOC0025-successor-v3.json",
+      "master_sha256": "f9a66e3dade7ff392f8dbb4d1f2b625674329b4b6013096d94cc383858e056f0",
+      "original_sha256": "e330a2ac525225eeb4e8fb71c5697cdb43ebeeb74311a71903425e53a00f894e",
+      "expected_sha256": "0b048adb114a662af03b6ce187ef9adaf353f58341c9d9f1047307f0fb080e6b",
+      "point_count": 300, "paragraph_count": 131, "native_tables": 12, "nonempty_native_cells": 1265,
+      "over900": 114, "maximum_prefixed_tokens_archived": 1789,
+      "master_and_source_hashes_match_audit": true, "missing_master_paragraphs": [], "missing_native_cells": [],
+      "structure_accepted": false, "trial_executed": false, "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0026", "source_id": "S0034", "domain": "XH",
+      "master_path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "original_path": "01-originals/attachments/S0034-1.docx",
+      "expected_path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "master_sha256": "bde836de48b7ab2809fbe3c9f9fc8330e4382a5aef53d0966b2798925023c42b",
+      "original_sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+      "expected_sha256": "9e3531f7dc1de3510cc9c83a47e5864dd097a6b89562092e59032a039d111411",
+      "point_count": 390, "paragraph_count": 129, "native_tables": 11, "nonempty_native_cells": 1108,
+      "over900": 192, "maximum_prefixed_tokens_archived": 1788,
+      "master_and_source_hashes_match_audit": true, "missing_master_paragraphs": [], "missing_native_cells": [],
+      "structure_accepted": false, "trial_executed": false, "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0027", "source_id": "S0035", "domain": "XH",
+      "master_path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "original_path": "01-originals/attachments/S0035-1.docx",
+      "expected_path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "master_sha256": "373db848f7f8a69a61f123cf18e6d841aa0b4524e8ab971775c1ff54609a51f3",
+      "original_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+      "expected_sha256": "a3167b13cdfbc811ea5fd7167b87c303ed7d5a0be53cd66f7dec44884a88ac9c",
+      "point_count": 200, "paragraph_count": 126, "native_tables": 8, "nonempty_native_cells": 559,
+      "over900": 64, "maximum_prefixed_tokens_archived": 1787,
+      "master_and_source_hashes_match_audit": true, "missing_master_paragraphs": [], "missing_native_cells": [],
+      "structure_accepted": false, "trial_executed": false, "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0028", "source_id": "S0036", "domain": "GD",
+      "master_path": "03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "original_path": "01-originals/attachments/S0036-1.doc",
+      "expected_path": "04-chunks/expected/DOC0028-successor-v3.json",
+      "master_sha256": "d073b4d07f635075a77b4e7898ad778bb1db7e6340b8f97a3f542e66ae5290ab",
+      "original_sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+      "expected_sha256": "6c4912b6d8610a93bab355b4a614d55e55d54d996bedf57f3b9cd78b8a385f38",
+      "point_count": 309, "paragraph_count": 129, "native_tables": 11, "nonempty_native_cells": 1154,
+      "over900": 124, "maximum_prefixed_tokens_archived": 1797,
+      "master_and_source_hashes_match_audit": true, "missing_master_paragraphs": [], "missing_native_cells": [],
+      "structure_accepted": false, "trial_executed": false, "formal_import_executed": false
+    }
+  ],
+  "assessment_point_counts": { "S0033-T08": 81, "S0034-T05": 94, "S0034-T06": 78, "S0035-T03": 80, "S0036-T07": 82 },
+  "confirmed_defects": [
+    { "id": "P1-NOTE-ATTRIBUTION", "source_id": "S0033", "native_table": "S0033-T08", "source_paragraph": 2317, "word_paragraph": 2635, "affected_current_candidate_points": 81, "example_point": "DOC0025-S0033-T08-G003-003", "issue": "Ambiguous representative-product inspection note copied into assessment candidates; legal applicability not established; newer helper audit is not applied to current candidate files." },
+    { "id": "P1-GENERATOR", "file": "apply-successor-splits-v3.mjs", "tableContext_reference_lines": [155, 173], "standaloneTableNotes_loop_lines": [217, 239], "issue": "Missing imports or definitions for referenced context helpers; duplicate standalone-note insertion loops.", "node_check_syntax_passed": true, "generator_executed_this_report": false },
+    { "id": "P2-STALE-CONTROLS", "issue": "DOC0022/23 registry fields lag real isolated trial exports; context acceptance snapshot predates semantic reviews; Wiki control cites older regression; count_as_valid is not final_count_eligible." }
+  ],
+  "archived_trial_not_current_formal_import": [
+    { "doc_id": "DOC0022", "document_id": "98ab6f431ca546b6ae0dc7d68a9f9b35", "chunks": 29, "expected_points": 28, "unmapped_chunks": ["e44f76fadd9e8259"] },
+    { "doc_id": "DOC0023", "document_id": "09c031de678b4515937d37e133bcdce6", "chunks": 36, "expected_points": 35, "unmapped_chunks": ["bc13e0fb27e6ea67"] }
+  ],
+  "archived_regression_not_current_acceptance": { "questions": 70, "answerable": 58, "no_evidence": 12, "complete_evidence": 43, "rate_percent_rounded": 74.1, "target_percent": 90, "cross_domain": { "passed": 2, "total": 11 }, "evidence_answer_review": { "PASS": 29, "PARTIAL": 24, "FAIL": 5 }, "no_evidence_answer_review": { "PASS": 1, "PARTIAL": 6, "FAIL": 5 }, "holdout_exposed": true, "current_legal_effect_verified": false, "all_final_citations_audited": false },
+  "archived_runtime": { "path": "05-review/runtime-audit-v4.json", "checked_at": "2026-11-16T07:02:53.421Z", "retrieval_succeeded": false, "cause": "Reranker connection refused at host.docker.internal:8082/v1/rerank", "reprobed_this_report": false },
+  "artifact_sha256_at_report": {
+    "apply-successor-splits-v3.mjs": "278ce5625b16c7a62fe398e5b4128f8446e0fd421436fe38766f678357606a00",
+    "successor-table-context.mjs": "a739072e347bf0a1549972cacf2fa86aaeef318c57e978004504affb5463c818",
+    "audit-successor-context.mjs": "656ce4bf516c370389588c25d63d757b3fd9fecfdefe64f17663e66fd8b3a4ab",
+    "05-review/successor-masters-v3.json": "8fd6128b2459c634914f161711abc63e97aa11ea7047a646175033bd79a2745d",
+    "05-review/successor-table-context-audit.json": "be0ba4b80ae6df589578bfa18c73ae7a6488fd21735b87b417a79e43bb64ddcc",
+    "00-control/progress.md": "f28f0863a3962849c4a04c098f51ddea7c680e69db7b73fc1f1a4bc78e228113",
+    "00-control/document-register.json": "5f6b877cb0f577bc74c46c4aae5b0bcfaabc9bcc17ce735d5be4d33d4a82eac7",
+    "00-control/final-acceptance.md": "a7f3d24f806c18b6040ed4f787b6d260bb2c1bf48baf68172870f27649d6aa8f",
+    "00-control/context-acceptance-v3.json": "91f01f6a04b8bcec537e084055f1638736a71509797df589f94fc305d1d91752",
+    "05-review/evidence-semantic-review-v3.json": "5461e67c6a7943f553bdbd774b8e1eb164a46756fcca45a25c1b2e4d9cdf6e6a",
+    "05-review/no-evidence-semantic-review-v3.json": "e4276d35cd101920f2e0e7aa838f8205cbac47d959034bbe890e45a7eb373036",
+    "05-review/DOC0014-retirement-v1.json": "cab4251116d24118f1d98d7dc89632f9a5c28f1bd0b9eefaa781c99b3786b28a",
+    "05-review/DOC0014-test-validity-overlay.json": "82b91e3c5222c5d9b0887992ca5250465cd1847d7f960269d6fc756e19d4dc09"
+  },
+  "limitations": [
+    "Local observations and archived evidence are not a fresh live system audit.",
+    "Substring coverage does not prove row assignment, semantic integrity, legal effect, or visual correctness.",
+    "No current candidate structure acceptance, trial import, formal import, retrieval acceptance, or Wiki completion is claimed.",
+    "No reliable global completion percentage or exact completion date is available."
+  ]
+}

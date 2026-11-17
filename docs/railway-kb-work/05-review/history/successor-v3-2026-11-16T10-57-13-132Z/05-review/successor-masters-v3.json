@@ -1,0 +1,2172 @@
+{
+  "checked_at": "2026-11-16T10:47:32.981Z",
+  "history_snapshot": "05-review/history/successor-v3-2026-11-16T10-47-32-981Z",
+  "original_files_unchanged": true,
+  "formal_dataset_modified": false,
+  "final_acceptance": false,
+  "tokenizer_sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+  "reranker_budget_verified": false,
+  "token_scope": "Document/version/source/location/point heading prefix and complete candidate text; not actual pipeline output.",
+  "documents": [
+    {
+      "doc_id": "DOC0025",
+      "domain": "GW",
+      "master_path": "03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "71e2d157b821f2355ca5a890bd62a533d6ff6c3b0415145fa3c2340df452630c",
+      "master_sha256": "71e2d157b821f2355ca5a890bd62a533d6ff6c3b0415145fa3c2340df452630c",
+      "original_sha256": "e330a2ac525225eeb4e8fb71c5697cdb43ebeeb74311a71903425e53a00f894e",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0025-successor-v3.json",
+      "old_point_count": 39,
+      "article_count": 27,
+      "split_table_count": 2,
+      "row_point_count": 198,
+      "semantic_group_count": 270,
+      "semantic_parent_table_count": 8,
+      "preserved_other_point_count": 33,
+      "point_count": 303,
+      "paragraph_count": 131,
+      "substantive_uncovered_paragraphs": [],
+      "paragraph_coverage_verified": true,
+      "all_nonempty_native_cells_covered": true,
+      "maximum_prefixed_tokens": 1789,
+      "points_over_900": [
+        {
+          "id": "DOC0025-S0033-T03-G009-009",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0025-S0033-T03-G011-011",
+          "tokens": 907
+        },
+        {
+          "id": "DOC0025-S0033-T03-G012-012",
+          "tokens": 917
+        },
+        {
+          "id": "DOC0025-S0033-T03-G014-014",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0025-S0033-T03-G016-016",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0025-S0033-T04-G010-010",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0025-S0033-T04-G011-011",
+          "tokens": 925
+        },
+        {
+          "id": "DOC0025-S0033-T04-G012-012",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0025-S0033-T04-G013-013",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0025-S0033-T04-G015-015",
+          "tokens": 911
+        },
+        {
+          "id": "DOC0025-S0033-T05-G013-013",
+          "tokens": 915
+        },
+        {
+          "id": "DOC0025-S0033-T05-G014-014",
+          "tokens": 911
+        },
+        {
+          "id": "DOC0025-S0033-T05-G015-015",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0025-S0033-T05-G017-017",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0025-S0033-T06-G004-004",
+          "tokens": 950
+        },
+        {
+          "id": "DOC0025-S0033-T06-G005-005",
+          "tokens": 988
+        },
+        {
+          "id": "DOC0025-S0033-T06-G006-006",
+          "tokens": 988
+        },
+        {
+          "id": "DOC0025-S0033-T06-G007-007",
+          "tokens": 987
+        },
+        {
+          "id": "DOC0025-S0033-T06-G008-008",
+          "tokens": 994
+        },
+        {
+          "id": "DOC0025-S0033-T06-G009-009",
+          "tokens": 974
+        },
+        {
+          "id": "DOC0025-S0033-T06-G010-010",
+          "tokens": 991
+        },
+        {
+          "id": "DOC0025-S0033-T06-G011-011",
+          "tokens": 993
+        },
+        {
+          "id": "DOC0025-S0033-T06-G012-012",
+          "tokens": 993
+        },
+        {
+          "id": "DOC0025-S0033-T06-G013-013",
+          "tokens": 1007
+        },
+        {
+          "id": "DOC0025-S0033-T06-G014-014",
+          "tokens": 1005
+        },
+        {
+          "id": "DOC0025-S0033-T06-G015-015",
+          "tokens": 1000
+        },
+        {
+          "id": "DOC0025-S0033-T06-G016-016",
+          "tokens": 1014
+        },
+        {
+          "id": "DOC0025-S0033-T07-G010-010",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0025-S0033-T07-G012-012",
+          "tokens": 910
+        },
+        {
+          "id": "DOC0025-S0033-T07-G016-016",
+          "tokens": 918
+        },
+        {
+          "id": "DOC0025-S0033-T07-G017-017",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0025-S0033-T08-G004-004",
+          "tokens": 982
+        },
+        {
+          "id": "DOC0025-S0033-T08-G006-006",
+          "tokens": 965
+        },
+        {
+          "id": "DOC0025-S0033-T08-G007-007",
+          "tokens": 961
+        },
+        {
+          "id": "DOC0025-S0033-T08-G008-008",
+          "tokens": 965
+        },
+        {
+          "id": "DOC0025-S0033-T08-G010-010",
+          "tokens": 966
+        },
+        {
+          "id": "DOC0025-S0033-T08-G012-012",
+          "tokens": 972
+        },
+        {
+          "id": "DOC0025-S0033-T08-G013-013",
+          "tokens": 954
+        },
+        {
+          "id": "DOC0025-S0033-T08-G015-015",
+          "tokens": 957
+        },
+        {
+          "id": "DOC0025-S0033-T08-G016-016",
+          "tokens": 960
+        },
+        {
+          "id": "DOC0025-S0033-T08-G018-018",
+          "tokens": 990
+        },
+        {
+          "id": "DOC0025-S0033-T08-G019-019",
+          "tokens": 965
+        },
+        {
+          "id": "DOC0025-S0033-T08-G020-020",
+          "tokens": 983
+        },
+        {
+          "id": "DOC0025-S0033-T08-G024-024",
+          "tokens": 969
+        },
+        {
+          "id": "DOC0025-S0033-T08-G025-025",
+          "tokens": 979
+        },
+        {
+          "id": "DOC0025-S0033-T08-G026-026",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0025-S0033-T08-G027-027",
+          "tokens": 973
+        },
+        {
+          "id": "DOC0025-S0033-T08-G028-028",
+          "tokens": 963
+        },
+        {
+          "id": "DOC0025-S0033-T08-G030-030",
+          "tokens": 960
+        },
+        {
+          "id": "DOC0025-S0033-T08-G031-031",
+          "tokens": 969
+        },
+        {
+          "id": "DOC0025-S0033-T08-G032-032",
+          "tokens": 969
+        },
+        {
+          "id": "DOC0025-S0033-T08-G035-035",
+          "tokens": 966
+        },
+        {
+          "id": "DOC0025-S0033-T08-G036-036",
+          "tokens": 980
+        },
+        {
+          "id": "DOC0025-S0033-T08-G038-038",
+          "tokens": 990
+        },
+        {
+          "id": "DOC0025-S0033-T08-G039-039",
+          "tokens": 969
+        },
+        {
+          "id": "DOC0025-S0033-T08-G040-040",
+          "tokens": 962
+        },
+        {
+          "id": "DOC0025-S0033-T08-G041-041",
+          "tokens": 956
+        },
+        {
+          "id": "DOC0025-S0033-T08-G042-042",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0025-S0033-T08-G043-043",
+          "tokens": 962
+        },
+        {
+          "id": "DOC0025-S0033-T08-G046-046",
+          "tokens": 971
+        },
+        {
+          "id": "DOC0025-S0033-T08-G047-047",
+          "tokens": 922
+        },
+        {
+          "id": "DOC0025-S0033-T08-G048-048",
+          "tokens": 975
+        },
+        {
+          "id": "DOC0025-S0033-T08-G049-049",
+          "tokens": 944
+        },
+        {
+          "id": "DOC0025-S0033-T08-G050-050",
+          "tokens": 1002
+        },
+        {
+          "id": "DOC0025-S0033-T08-G051-051",
+          "tokens": 1022
+        },
+        {
+          "id": "DOC0025-S0033-T08-G052-052",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0025-S0033-T08-G054-054",
+          "tokens": 932
+        },
+        {
+          "id": "DOC0025-S0033-T08-G055-055",
+          "tokens": 994
+        },
+        {
+          "id": "DOC0025-S0033-T08-G056-056",
+          "tokens": 1015
+        },
+        {
+          "id": "DOC0025-S0033-T08-G058-058",
+          "tokens": 981
+        },
+        {
+          "id": "DOC0025-S0033-T08-G059-059",
+          "tokens": 967
+        },
+        {
+          "id": "DOC0025-S0033-T08-G060-060",
+          "tokens": 962
+        },
+        {
+          "id": "DOC0025-S0033-T08-G061-061",
+          "tokens": 910
+        },
+        {
+          "id": "DOC0025-S0033-T08-G062-062",
+          "tokens": 972
+        },
+        {
+          "id": "DOC0025-S0033-T08-G063-063",
+          "tokens": 971
+        },
+        {
+          "id": "DOC0025-S0033-T08-G064-064",
+          "tokens": 965
+        },
+        {
+          "id": "DOC0025-S0033-T08-G065-065",
+          "tokens": 985
+        },
+        {
+          "id": "DOC0025-S0033-T08-G068-068",
+          "tokens": 983
+        },
+        {
+          "id": "DOC0025-S0033-T08-G069-069",
+          "tokens": 929
+        },
+        {
+          "id": "DOC0025-S0033-T08-G070-070",
+          "tokens": 992
+        },
+        {
+          "id": "DOC0025-S0033-T08-G071-071",
+          "tokens": 1027
+        },
+        {
+          "id": "DOC0025-S0033-T08-G073-073",
+          "tokens": 965
+        },
+        {
+          "id": "DOC0025-S0033-T08-G074-074",
+          "tokens": 1005
+        },
+        {
+          "id": "DOC0025-S0033-T08-G076-076",
+          "tokens": 914
+        },
+        {
+          "id": "DOC0025-S0033-T08-G077-077",
+          "tokens": 981
+        },
+        {
+          "id": "DOC0025-S0033-T08-G078-078",
+          "tokens": 978
+        },
+        {
+          "id": "DOC0025-S0033-T08-G079-079",
+          "tokens": 1018
+        },
+        {
+          "id": "DOC0025-S0033-T08-G080-080",
+          "tokens": 976
+        },
+        {
+          "id": "DOC0025-S0033-T08-G081-081",
+          "tokens": 973
+        },
+        {
+          "id": "DOC0025-S0033-T08-G082-082",
+          "tokens": 966
+        },
+        {
+          "id": "DOC0025-S0033-T08-G083-083",
+          "tokens": 972
+        },
+        {
+          "id": "DOC0025-S0033-T08-G084-084",
+          "tokens": 968
+        },
+        {
+          "id": "DOC0025-S0033-T08-G085-085",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0025-S0033-T08-G086-086",
+          "tokens": 976
+        },
+        {
+          "id": "DOC0025-S0033-T08-G087-087",
+          "tokens": 916
+        },
+        {
+          "id": "DOC0025-S0033-T08-G088-088",
+          "tokens": 979
+        },
+        {
+          "id": "DOC0025-S0033-T08-G089-089",
+          "tokens": 985
+        },
+        {
+          "id": "DOC0025-K036",
+          "tokens": 1789
+        },
+        {
+          "id": "DOC0025-K039",
+          "tokens": 983
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0026",
+      "domain": "XH",
+      "master_path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "b30972fa5dbe437fb0b047d3ed1f88372df415ec345d13481126fa30dfd8a84b",
+      "master_sha256": "b30972fa5dbe437fb0b047d3ed1f88372df415ec345d13481126fa30dfd8a84b",
+      "original_sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "old_point_count": 38,
+      "article_count": 27,
+      "split_table_count": 3,
+      "row_point_count": 325,
+      "semantic_group_count": 357,
+      "semantic_parent_table_count": 6,
+      "preserved_other_point_count": 33,
+      "point_count": 390,
+      "paragraph_count": 129,
+      "substantive_uncovered_paragraphs": [],
+      "paragraph_coverage_verified": true,
+      "all_nonempty_native_cells_covered": true,
+      "maximum_prefixed_tokens": 1788,
+      "points_over_900": [
+        {
+          "id": "DOC0026-S0034-T03-G008-008",
+          "tokens": 1018
+        },
+        {
+          "id": "DOC0026-S0034-T03-G009-009",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0026-S0034-T03-G010-010",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0026-S0034-T03-G012-012",
+          "tokens": 916
+        },
+        {
+          "id": "DOC0026-S0034-T03-G013-013",
+          "tokens": 942
+        },
+        {
+          "id": "DOC0026-S0034-T03-G020-020",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0026-S0034-T03-G022-022",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0026-S0034-T03-G023-023",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0026-S0034-T03-G026-026",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0026-S0034-T03-G029-029",
+          "tokens": 901
+        },
+        {
+          "id": "DOC0026-S0034-T03-G031-031",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0026-S0034-T03-G032-032",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0026-S0034-T03-G033-033",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0026-S0034-T03-G035-035",
+          "tokens": 915
+        },
+        {
+          "id": "DOC0026-S0034-T03-G036-036",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0026-S0034-T03-G037-037",
+          "tokens": 914
+        },
+        {
+          "id": "DOC0026-S0034-T03-G039-039",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0026-S0034-T03-G043-043",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0026-S0034-T05-G003-003",
+          "tokens": 923
+        },
+        {
+          "id": "DOC0026-S0034-T05-G004-004",
+          "tokens": 996
+        },
+        {
+          "id": "DOC0026-S0034-T05-G005-005",
+          "tokens": 1017
+        },
+        {
+          "id": "DOC0026-S0034-T05-G006-006",
+          "tokens": 919
+        },
+        {
+          "id": "DOC0026-S0034-T05-G007-007",
+          "tokens": 1000
+        },
+        {
+          "id": "DOC0026-S0034-T05-G008-008",
+          "tokens": 996
+        },
+        {
+          "id": "DOC0026-S0034-T05-G009-009",
+          "tokens": 994
+        },
+        {
+          "id": "DOC0026-S0034-T05-G010-010",
+          "tokens": 917
+        },
+        {
+          "id": "DOC0026-S0034-T05-G011-011",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0026-S0034-T05-G012-012",
+          "tokens": 930
+        },
+        {
+          "id": "DOC0026-S0034-T05-G013-013",
+          "tokens": 1008
+        },
+        {
+          "id": "DOC0026-S0034-T05-G014-014",
+          "tokens": 989
+        },
+        {
+          "id": "DOC0026-S0034-T05-G015-015",
+          "tokens": 921
+        },
+        {
+          "id": "DOC0026-S0034-T05-G016-016",
+          "tokens": 991
+        },
+        {
+          "id": "DOC0026-S0034-T05-G017-017",
+          "tokens": 996
+        },
+        {
+          "id": "DOC0026-S0034-T05-G018-018",
+          "tokens": 918
+        },
+        {
+          "id": "DOC0026-S0034-T05-G019-019",
+          "tokens": 1032
+        },
+        {
+          "id": "DOC0026-S0034-T05-G020-020",
+          "tokens": 999
+        },
+        {
+          "id": "DOC0026-S0034-T05-G021-021",
+          "tokens": 928
+        },
+        {
+          "id": "DOC0026-S0034-T05-G023-023",
+          "tokens": 926
+        },
+        {
+          "id": "DOC0026-S0034-T05-G024-024",
+          "tokens": 1004
+        },
+        {
+          "id": "DOC0026-S0034-T05-G025-025",
+          "tokens": 1003
+        },
+        {
+          "id": "DOC0026-S0034-T05-G026-026",
+          "tokens": 1013
+        },
+        {
+          "id": "DOC0026-S0034-T05-G027-027",
+          "tokens": 938
+        },
+        {
+          "id": "DOC0026-S0034-T05-G028-028",
+          "tokens": 1008
+        },
+        {
+          "id": "DOC0026-S0034-T05-G029-029",
+          "tokens": 998
+        },
+        {
+          "id": "DOC0026-S0034-T05-G030-030",
+          "tokens": 1014
+        },
+        {
+          "id": "DOC0026-S0034-T05-G031-031",
+          "tokens": 916
+        },
+        {
+          "id": "DOC0026-S0034-T05-G032-032",
+          "tokens": 994
+        },
+        {
+          "id": "DOC0026-S0034-T05-G033-033",
+          "tokens": 1005
+        },
+        {
+          "id": "DOC0026-S0034-T05-G034-034",
+          "tokens": 1009
+        },
+        {
+          "id": "DOC0026-S0034-T05-G036-036",
+          "tokens": 927
+        },
+        {
+          "id": "DOC0026-S0034-T05-G037-037",
+          "tokens": 1003
+        },
+        {
+          "id": "DOC0026-S0034-T05-G038-038",
+          "tokens": 1016
+        },
+        {
+          "id": "DOC0026-S0034-T05-G039-039",
+          "tokens": 927
+        },
+        {
+          "id": "DOC0026-S0034-T05-G040-040",
+          "tokens": 1025
+        },
+        {
+          "id": "DOC0026-S0034-T05-G041-041",
+          "tokens": 1003
+        },
+        {
+          "id": "DOC0026-S0034-T05-G042-042",
+          "tokens": 989
+        },
+        {
+          "id": "DOC0026-S0034-T05-G043-043",
+          "tokens": 992
+        },
+        {
+          "id": "DOC0026-S0034-T05-G044-044",
+          "tokens": 946
+        },
+        {
+          "id": "DOC0026-S0034-T05-G045-045",
+          "tokens": 992
+        },
+        {
+          "id": "DOC0026-S0034-T05-G046-046",
+          "tokens": 996
+        },
+        {
+          "id": "DOC0026-S0034-T05-G048-048",
+          "tokens": 932
+        },
+        {
+          "id": "DOC0026-S0034-T05-G049-049",
+          "tokens": 1007
+        },
+        {
+          "id": "DOC0026-S0034-T05-G050-050",
+          "tokens": 956
+        },
+        {
+          "id": "DOC0026-S0034-T05-G051-051",
+          "tokens": 1009
+        },
+        {
+          "id": "DOC0026-S0034-T05-G052-052",
+          "tokens": 946
+        },
+        {
+          "id": "DOC0026-S0034-T05-G053-053",
+          "tokens": 1010
+        },
+        {
+          "id": "DOC0026-S0034-T05-G054-054",
+          "tokens": 949
+        },
+        {
+          "id": "DOC0026-S0034-T05-G056-056",
+          "tokens": 942
+        },
+        {
+          "id": "DOC0026-S0034-T05-G057-057",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0026-S0034-T05-G058-058",
+          "tokens": 1011
+        },
+        {
+          "id": "DOC0026-S0034-T05-G059-059",
+          "tokens": 1029
+        },
+        {
+          "id": "DOC0026-S0034-T05-G060-060",
+          "tokens": 998
+        },
+        {
+          "id": "DOC0026-S0034-T05-G061-061",
+          "tokens": 1002
+        },
+        {
+          "id": "DOC0026-S0034-T05-G062-062",
+          "tokens": 998
+        },
+        {
+          "id": "DOC0026-S0034-T05-G063-063",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0026-S0034-T05-G064-064",
+          "tokens": 1011
+        },
+        {
+          "id": "DOC0026-S0034-T05-G065-065",
+          "tokens": 931
+        },
+        {
+          "id": "DOC0026-S0034-T05-G066-066",
+          "tokens": 1016
+        },
+        {
+          "id": "DOC0026-S0034-T05-G067-067",
+          "tokens": 1003
+        },
+        {
+          "id": "DOC0026-S0034-T05-G068-068",
+          "tokens": 1000
+        },
+        {
+          "id": "DOC0026-S0034-T05-G069-069",
+          "tokens": 932
+        },
+        {
+          "id": "DOC0026-S0034-T05-G070-070",
+          "tokens": 1005
+        },
+        {
+          "id": "DOC0026-S0034-T05-G071-071",
+          "tokens": 1006
+        },
+        {
+          "id": "DOC0026-S0034-T05-G072-072",
+          "tokens": 1013
+        },
+        {
+          "id": "DOC0026-S0034-T05-G073-073",
+          "tokens": 943
+        },
+        {
+          "id": "DOC0026-S0034-T05-G074-074",
+          "tokens": 1023
+        },
+        {
+          "id": "DOC0026-S0034-T05-G075-075",
+          "tokens": 1013
+        },
+        {
+          "id": "DOC0026-S0034-T05-G076-076",
+          "tokens": 1007
+        },
+        {
+          "id": "DOC0026-S0034-T05-G077-077",
+          "tokens": 1002
+        },
+        {
+          "id": "DOC0026-S0034-T05-G078-078",
+          "tokens": 1022
+        },
+        {
+          "id": "DOC0026-S0034-T05-G080-080",
+          "tokens": 927
+        },
+        {
+          "id": "DOC0026-S0034-T05-G081-081",
+          "tokens": 1017
+        },
+        {
+          "id": "DOC0026-S0034-T05-G082-082",
+          "tokens": 933
+        },
+        {
+          "id": "DOC0026-S0034-T05-G083-083",
+          "tokens": 1007
+        },
+        {
+          "id": "DOC0026-S0034-T05-G084-084",
+          "tokens": 1000
+        },
+        {
+          "id": "DOC0026-S0034-T05-G085-085",
+          "tokens": 936
+        },
+        {
+          "id": "DOC0026-S0034-T05-G086-086",
+          "tokens": 999
+        },
+        {
+          "id": "DOC0026-S0034-T05-G087-087",
+          "tokens": 1039
+        },
+        {
+          "id": "DOC0026-S0034-T05-G089-089",
+          "tokens": 950
+        },
+        {
+          "id": "DOC0026-S0034-T05-G090-090",
+          "tokens": 1013
+        },
+        {
+          "id": "DOC0026-S0034-T05-G091-091",
+          "tokens": 1012
+        },
+        {
+          "id": "DOC0026-S0034-T05-G092-092",
+          "tokens": 1073
+        },
+        {
+          "id": "DOC0026-S0034-T05-G093-093",
+          "tokens": 1013
+        },
+        {
+          "id": "DOC0026-S0034-T05-G094-094",
+          "tokens": 1009
+        },
+        {
+          "id": "DOC0026-S0034-T05-G095-095",
+          "tokens": 1002
+        },
+        {
+          "id": "DOC0026-S0034-T05-G096-096",
+          "tokens": 1006
+        },
+        {
+          "id": "DOC0026-S0034-T05-G097-097",
+          "tokens": 1003
+        },
+        {
+          "id": "DOC0026-S0034-T05-G098-098",
+          "tokens": 948
+        },
+        {
+          "id": "DOC0026-S0034-T05-G099-099",
+          "tokens": 1012
+        },
+        {
+          "id": "DOC0026-S0034-T05-G100-100",
+          "tokens": 947
+        },
+        {
+          "id": "DOC0026-S0034-T05-G101-101",
+          "tokens": 1013
+        },
+        {
+          "id": "DOC0026-S0034-T05-G102-102",
+          "tokens": 1019
+        },
+        {
+          "id": "DOC0026-S0034-T06-G003-003",
+          "tokens": 923
+        },
+        {
+          "id": "DOC0026-S0034-T06-G004-004",
+          "tokens": 1017
+        },
+        {
+          "id": "DOC0026-S0034-T06-G005-005",
+          "tokens": 919
+        },
+        {
+          "id": "DOC0026-S0034-T06-G006-006",
+          "tokens": 1000
+        },
+        {
+          "id": "DOC0026-S0034-T06-G007-007",
+          "tokens": 996
+        },
+        {
+          "id": "DOC0026-S0034-T06-G008-008",
+          "tokens": 994
+        },
+        {
+          "id": "DOC0026-S0034-T06-G009-009",
+          "tokens": 918
+        },
+        {
+          "id": "DOC0026-S0034-T06-G010-010",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0026-S0034-T06-G011-011",
+          "tokens": 930
+        },
+        {
+          "id": "DOC0026-S0034-T06-G012-012",
+          "tokens": 1007
+        },
+        {
+          "id": "DOC0026-S0034-T06-G013-013",
+          "tokens": 989
+        },
+        {
+          "id": "DOC0026-S0034-T06-G014-014",
+          "tokens": 921
+        },
+        {
+          "id": "DOC0026-S0034-T06-G015-015",
+          "tokens": 992
+        },
+        {
+          "id": "DOC0026-S0034-T06-G016-016",
+          "tokens": 995
+        },
+        {
+          "id": "DOC0026-S0034-T06-G017-017",
+          "tokens": 919
+        },
+        {
+          "id": "DOC0026-S0034-T06-G018-018",
+          "tokens": 1031
+        },
+        {
+          "id": "DOC0026-S0034-T06-G019-019",
+          "tokens": 1000
+        },
+        {
+          "id": "DOC0026-S0034-T06-G020-020",
+          "tokens": 928
+        },
+        {
+          "id": "DOC0026-S0034-T06-G022-022",
+          "tokens": 925
+        },
+        {
+          "id": "DOC0026-S0034-T06-G023-023",
+          "tokens": 1004
+        },
+        {
+          "id": "DOC0026-S0034-T06-G024-024",
+          "tokens": 1014
+        },
+        {
+          "id": "DOC0026-S0034-T06-G025-025",
+          "tokens": 938
+        },
+        {
+          "id": "DOC0026-S0034-T06-G026-026",
+          "tokens": 1007
+        },
+        {
+          "id": "DOC0026-S0034-T06-G027-027",
+          "tokens": 998
+        },
+        {
+          "id": "DOC0026-S0034-T06-G028-028",
+          "tokens": 917
+        },
+        {
+          "id": "DOC0026-S0034-T06-G029-029",
+          "tokens": 995
+        },
+        {
+          "id": "DOC0026-S0034-T06-G030-030",
+          "tokens": 1005
+        },
+        {
+          "id": "DOC0026-S0034-T06-G031-031",
+          "tokens": 1008
+        },
+        {
+          "id": "DOC0026-S0034-T06-G033-033",
+          "tokens": 928
+        },
+        {
+          "id": "DOC0026-S0034-T06-G034-034",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0026-S0034-T06-G035-035",
+          "tokens": 1016
+        },
+        {
+          "id": "DOC0026-S0034-T06-G036-036",
+          "tokens": 924
+        },
+        {
+          "id": "DOC0026-S0034-T06-G037-037",
+          "tokens": 1027
+        },
+        {
+          "id": "DOC0026-S0034-T06-G038-038",
+          "tokens": 1002
+        },
+        {
+          "id": "DOC0026-S0034-T06-G039-039",
+          "tokens": 992
+        },
+        {
+          "id": "DOC0026-S0034-T06-G040-040",
+          "tokens": 990
+        },
+        {
+          "id": "DOC0026-S0034-T06-G041-041",
+          "tokens": 946
+        },
+        {
+          "id": "DOC0026-S0034-T06-G042-042",
+          "tokens": 994
+        },
+        {
+          "id": "DOC0026-S0034-T06-G044-044",
+          "tokens": 931
+        },
+        {
+          "id": "DOC0026-S0034-T06-G045-045",
+          "tokens": 1005
+        },
+        {
+          "id": "DOC0026-S0034-T06-G046-046",
+          "tokens": 958
+        },
+        {
+          "id": "DOC0026-S0034-T06-G047-047",
+          "tokens": 1008
+        },
+        {
+          "id": "DOC0026-S0034-T06-G048-048",
+          "tokens": 949
+        },
+        {
+          "id": "DOC0026-S0034-T06-G049-049",
+          "tokens": 1010
+        },
+        {
+          "id": "DOC0026-S0034-T06-G050-050",
+          "tokens": 946
+        },
+        {
+          "id": "DOC0026-S0034-T06-G052-052",
+          "tokens": 931
+        },
+        {
+          "id": "DOC0026-S0034-T06-G053-053",
+          "tokens": 1016
+        },
+        {
+          "id": "DOC0026-S0034-T06-G054-054",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0026-S0034-T06-G055-055",
+          "tokens": 927
+        },
+        {
+          "id": "DOC0026-S0034-T06-G056-056",
+          "tokens": 1015
+        },
+        {
+          "id": "DOC0026-S0034-T06-G057-057",
+          "tokens": 1002
+        },
+        {
+          "id": "DOC0026-S0034-T06-G058-058",
+          "tokens": 999
+        },
+        {
+          "id": "DOC0026-S0034-T06-G059-059",
+          "tokens": 945
+        },
+        {
+          "id": "DOC0026-S0034-T06-G060-060",
+          "tokens": 1006
+        },
+        {
+          "id": "DOC0026-S0034-T06-G061-061",
+          "tokens": 1005
+        },
+        {
+          "id": "DOC0026-S0034-T06-G062-062",
+          "tokens": 999
+        },
+        {
+          "id": "DOC0026-S0034-T06-G063-063",
+          "tokens": 1020
+        },
+        {
+          "id": "DOC0026-S0034-T06-G065-065",
+          "tokens": 929
+        },
+        {
+          "id": "DOC0026-S0034-T06-G066-066",
+          "tokens": 1017
+        },
+        {
+          "id": "DOC0026-S0034-T06-G067-067",
+          "tokens": 934
+        },
+        {
+          "id": "DOC0026-S0034-T06-G068-068",
+          "tokens": 1000
+        },
+        {
+          "id": "DOC0026-S0034-T06-G069-069",
+          "tokens": 934
+        },
+        {
+          "id": "DOC0026-S0034-T06-G070-070",
+          "tokens": 997
+        },
+        {
+          "id": "DOC0026-S0034-T06-G071-071",
+          "tokens": 1041
+        },
+        {
+          "id": "DOC0026-S0034-T06-G073-073",
+          "tokens": 950
+        },
+        {
+          "id": "DOC0026-S0034-T06-G074-074",
+          "tokens": 1016
+        },
+        {
+          "id": "DOC0026-S0034-T06-G075-075",
+          "tokens": 1013
+        },
+        {
+          "id": "DOC0026-S0034-T06-G076-076",
+          "tokens": 1073
+        },
+        {
+          "id": "DOC0026-S0034-T06-G077-077",
+          "tokens": 1013
+        },
+        {
+          "id": "DOC0026-S0034-T06-G078-078",
+          "tokens": 1009
+        },
+        {
+          "id": "DOC0026-S0034-T06-G079-079",
+          "tokens": 1002
+        },
+        {
+          "id": "DOC0026-S0034-T06-G080-080",
+          "tokens": 1005
+        },
+        {
+          "id": "DOC0026-S0034-T06-G081-081",
+          "tokens": 1002
+        },
+        {
+          "id": "DOC0026-S0034-T06-G082-082",
+          "tokens": 947
+        },
+        {
+          "id": "DOC0026-S0034-T06-G083-083",
+          "tokens": 1012
+        },
+        {
+          "id": "DOC0026-S0034-T06-G084-084",
+          "tokens": 951
+        },
+        {
+          "id": "DOC0026-S0034-T06-G085-085",
+          "tokens": 1014
+        },
+        {
+          "id": "DOC0026-S0034-T06-G086-086",
+          "tokens": 1019
+        },
+        {
+          "id": "DOC0026-K034",
+          "tokens": 1788
+        },
+        {
+          "id": "DOC0026-K037",
+          "tokens": 978
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0027",
+      "domain": "XH",
+      "master_path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "373db848f7f8a69a61f123cf18e6d841aa0b4524e8ab971775c1ff54609a51f3",
+      "master_sha256": "373db848f7f8a69a61f123cf18e6d841aa0b4524e8ab971775c1ff54609a51f3",
+      "original_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "old_point_count": 35,
+      "article_count": 27,
+      "split_table_count": 2,
+      "row_point_count": 161,
+      "semantic_group_count": 166,
+      "semantic_parent_table_count": 3,
+      "preserved_other_point_count": 34,
+      "point_count": 200,
+      "paragraph_count": 126,
+      "substantive_uncovered_paragraphs": [],
+      "paragraph_coverage_verified": true,
+      "all_nonempty_native_cells_covered": true,
+      "maximum_prefixed_tokens": 1787,
+      "points_over_900": [
+        {
+          "id": "DOC0027-S0035-T03-G004-004",
+          "tokens": 976
+        },
+        {
+          "id": "DOC0027-S0035-T03-G006-006",
+          "tokens": 959
+        },
+        {
+          "id": "DOC0027-S0035-T03-G007-007",
+          "tokens": 955
+        },
+        {
+          "id": "DOC0027-S0035-T03-G008-008",
+          "tokens": 953
+        },
+        {
+          "id": "DOC0027-S0035-T03-G010-010",
+          "tokens": 960
+        },
+        {
+          "id": "DOC0027-S0035-T03-G012-012",
+          "tokens": 966
+        },
+        {
+          "id": "DOC0027-S0035-T03-G013-013",
+          "tokens": 948
+        },
+        {
+          "id": "DOC0027-S0035-T03-G015-015",
+          "tokens": 951
+        },
+        {
+          "id": "DOC0027-S0035-T03-G016-016",
+          "tokens": 954
+        },
+        {
+          "id": "DOC0027-S0035-T03-G018-018",
+          "tokens": 990
+        },
+        {
+          "id": "DOC0027-S0035-T03-G019-019",
+          "tokens": 959
+        },
+        {
+          "id": "DOC0027-S0035-T03-G023-023",
+          "tokens": 963
+        },
+        {
+          "id": "DOC0027-S0035-T03-G024-024",
+          "tokens": 973
+        },
+        {
+          "id": "DOC0027-S0035-T03-G026-026",
+          "tokens": 966
+        },
+        {
+          "id": "DOC0027-S0035-T03-G027-027",
+          "tokens": 957
+        },
+        {
+          "id": "DOC0027-S0035-T03-G029-029",
+          "tokens": 954
+        },
+        {
+          "id": "DOC0027-S0035-T03-G030-030",
+          "tokens": 961
+        },
+        {
+          "id": "DOC0027-S0035-T03-G031-031",
+          "tokens": 965
+        },
+        {
+          "id": "DOC0027-S0035-T03-G034-034",
+          "tokens": 960
+        },
+        {
+          "id": "DOC0027-S0035-T03-G035-035",
+          "tokens": 975
+        },
+        {
+          "id": "DOC0027-S0035-T03-G037-037",
+          "tokens": 986
+        },
+        {
+          "id": "DOC0027-S0035-T03-G038-038",
+          "tokens": 961
+        },
+        {
+          "id": "DOC0027-S0035-T03-G039-039",
+          "tokens": 951
+        },
+        {
+          "id": "DOC0027-S0035-T03-G040-040",
+          "tokens": 949
+        },
+        {
+          "id": "DOC0027-S0035-T03-G041-041",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0027-S0035-T03-G042-042",
+          "tokens": 950
+        },
+        {
+          "id": "DOC0027-S0035-T03-G043-043",
+          "tokens": 956
+        },
+        {
+          "id": "DOC0027-S0035-T03-G046-046",
+          "tokens": 965
+        },
+        {
+          "id": "DOC0027-S0035-T03-G047-047",
+          "tokens": 916
+        },
+        {
+          "id": "DOC0027-S0035-T03-G048-048",
+          "tokens": 969
+        },
+        {
+          "id": "DOC0027-S0035-T03-G049-049",
+          "tokens": 908
+        },
+        {
+          "id": "DOC0027-S0035-T03-G050-050",
+          "tokens": 966
+        },
+        {
+          "id": "DOC0027-S0035-T03-G051-051",
+          "tokens": 907
+        },
+        {
+          "id": "DOC0027-S0035-T03-G054-054",
+          "tokens": 975
+        },
+        {
+          "id": "DOC0027-S0035-T03-G055-055",
+          "tokens": 957
+        },
+        {
+          "id": "DOC0027-S0035-T03-G057-057",
+          "tokens": 967
+        },
+        {
+          "id": "DOC0027-S0035-T03-G058-058",
+          "tokens": 960
+        },
+        {
+          "id": "DOC0027-S0035-T03-G059-059",
+          "tokens": 957
+        },
+        {
+          "id": "DOC0027-S0035-T03-G060-060",
+          "tokens": 901
+        },
+        {
+          "id": "DOC0027-S0035-T03-G061-061",
+          "tokens": 967
+        },
+        {
+          "id": "DOC0027-S0035-T03-G062-062",
+          "tokens": 971
+        },
+        {
+          "id": "DOC0027-S0035-T03-G063-063",
+          "tokens": 965
+        },
+        {
+          "id": "DOC0027-S0035-T03-G064-064",
+          "tokens": 959
+        },
+        {
+          "id": "DOC0027-S0035-T03-G065-065",
+          "tokens": 979
+        },
+        {
+          "id": "DOC0027-S0035-T03-G068-068",
+          "tokens": 977
+        },
+        {
+          "id": "DOC0027-S0035-T03-G070-070",
+          "tokens": 956
+        },
+        {
+          "id": "DOC0027-S0035-T03-G072-072",
+          "tokens": 958
+        },
+        {
+          "id": "DOC0027-S0035-T03-G073-073",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0027-S0035-T03-G075-075",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0027-S0035-T03-G076-076",
+          "tokens": 974
+        },
+        {
+          "id": "DOC0027-S0035-T03-G077-077",
+          "tokens": 972
+        },
+        {
+          "id": "DOC0027-S0035-T03-G078-078",
+          "tokens": 1033
+        },
+        {
+          "id": "DOC0027-S0035-T03-G079-079",
+          "tokens": 972
+        },
+        {
+          "id": "DOC0027-S0035-T03-G080-080",
+          "tokens": 966
+        },
+        {
+          "id": "DOC0027-S0035-T03-G081-081",
+          "tokens": 960
+        },
+        {
+          "id": "DOC0027-S0035-T03-G082-082",
+          "tokens": 965
+        },
+        {
+          "id": "DOC0027-S0035-T03-G083-083",
+          "tokens": 962
+        },
+        {
+          "id": "DOC0027-S0035-T03-G084-084",
+          "tokens": 907
+        },
+        {
+          "id": "DOC0027-S0035-T03-G085-085",
+          "tokens": 971
+        },
+        {
+          "id": "DOC0027-S0035-T03-G086-086",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0027-S0035-T03-G087-087",
+          "tokens": 973
+        },
+        {
+          "id": "DOC0027-S0035-T03-G088-088",
+          "tokens": 979
+        },
+        {
+          "id": "DOC0027-K031",
+          "tokens": 1787
+        },
+        {
+          "id": "DOC0027-K034",
+          "tokens": 1119
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0028",
+      "domain": "GD",
+      "master_path": "03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "3a8c7e82774dd39b4795e17d06567add1d143c71c20f7421bf75a2d1c33e5b1e",
+      "master_sha256": "9d992e39f53e60fea96da717f0e64f71f897e8821d1cbd2e08f25f34a7016fba",
+      "original_sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0028-successor-v3.json",
+      "old_point_count": 38,
+      "article_count": 27,
+      "split_table_count": 2,
+      "row_point_count": 228,
+      "semantic_group_count": 277,
+      "semantic_parent_table_count": 7,
+      "preserved_other_point_count": 32,
+      "point_count": 309,
+      "paragraph_count": 129,
+      "substantive_uncovered_paragraphs": [],
+      "paragraph_coverage_verified": true,
+      "all_nonempty_native_cells_covered": true,
+      "maximum_prefixed_tokens": 1797,
+      "points_over_900": [
+        {
+          "id": "DOC0028-S0036-T02-G005-005",
+          "tokens": 961
+        },
+        {
+          "id": "DOC0028-S0036-T02-G006-006",
+          "tokens": 956
+        },
+        {
+          "id": "DOC0028-S0036-T02-G007-007",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0028-S0036-T02-G008-008",
+          "tokens": 945
+        },
+        {
+          "id": "DOC0028-S0036-T02-G009-009",
+          "tokens": 910
+        },
+        {
+          "id": "DOC0028-S0036-T02-G010-010",
+          "tokens": 1023
+        },
+        {
+          "id": "DOC0028-S0036-T02-G011-011",
+          "tokens": 1029
+        },
+        {
+          "id": "DOC0028-S0036-T02-G012-012",
+          "tokens": 1056
+        },
+        {
+          "id": "DOC0028-S0036-T02-G013-013",
+          "tokens": 1033
+        },
+        {
+          "id": "DOC0028-S0036-T02-G015-015",
+          "tokens": 992
+        },
+        {
+          "id": "DOC0028-S0036-T02-G016-016",
+          "tokens": 986
+        },
+        {
+          "id": "DOC0028-S0036-T02-G017-017",
+          "tokens": 987
+        },
+        {
+          "id": "DOC0028-S0036-T02-G018-018",
+          "tokens": 974
+        },
+        {
+          "id": "DOC0028-S0036-T02-G019-019",
+          "tokens": 914
+        },
+        {
+          "id": "DOC0028-S0036-T02-G020-020",
+          "tokens": 964
+        },
+        {
+          "id": "DOC0028-S0036-T02-G021-021",
+          "tokens": 970
+        },
+        {
+          "id": "DOC0028-S0036-T02-G022-022",
+          "tokens": 976
+        },
+        {
+          "id": "DOC0028-S0036-T02-G023-023",
+          "tokens": 974
+        },
+        {
+          "id": "DOC0028-S0036-T02-G025-025",
+          "tokens": 996
+        },
+        {
+          "id": "DOC0028-S0036-T02-G026-026",
+          "tokens": 990
+        },
+        {
+          "id": "DOC0028-S0036-T02-G027-027",
+          "tokens": 991
+        },
+        {
+          "id": "DOC0028-S0036-T02-G028-028",
+          "tokens": 979
+        },
+        {
+          "id": "DOC0028-S0036-T02-G029-029",
+          "tokens": 918
+        },
+        {
+          "id": "DOC0028-S0036-T02-G030-030",
+          "tokens": 969
+        },
+        {
+          "id": "DOC0028-S0036-T02-G031-031",
+          "tokens": 974
+        },
+        {
+          "id": "DOC0028-S0036-T02-G032-032",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0028-S0036-T02-G033-033",
+          "tokens": 978
+        },
+        {
+          "id": "DOC0028-S0036-T02-G035-035",
+          "tokens": 952
+        },
+        {
+          "id": "DOC0028-S0036-T02-G036-036",
+          "tokens": 970
+        },
+        {
+          "id": "DOC0028-S0036-T02-G037-037",
+          "tokens": 956
+        },
+        {
+          "id": "DOC0028-S0036-T02-G038-038",
+          "tokens": 957
+        },
+        {
+          "id": "DOC0028-S0036-T02-G040-040",
+          "tokens": 977
+        },
+        {
+          "id": "DOC0028-S0036-T02-G041-041",
+          "tokens": 973
+        },
+        {
+          "id": "DOC0028-S0036-T02-G042-042",
+          "tokens": 915
+        },
+        {
+          "id": "DOC0028-S0036-T02-G043-043",
+          "tokens": 930
+        },
+        {
+          "id": "DOC0028-S0036-T02-G044-044",
+          "tokens": 958
+        },
+        {
+          "id": "DOC0028-S0036-T02-G045-045",
+          "tokens": 922
+        },
+        {
+          "id": "DOC0028-S0036-T02-G046-046",
+          "tokens": 970
+        },
+        {
+          "id": "DOC0028-S0036-T02-G047-047",
+          "tokens": 981
+        },
+        {
+          "id": "DOC0028-S0036-T02-G049-049",
+          "tokens": 915
+        },
+        {
+          "id": "DOC0028-S0036-T02-G051-051",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0028-S0036-T02-G053-053",
+          "tokens": 911
+        },
+        {
+          "id": "DOC0028-S0036-T02-G054-054",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0028-S0036-T02-G055-055",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0028-S0036-T02-G056-056",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0028-S0036-T02-G057-057",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0028-S0036-T02-G059-059",
+          "tokens": 911
+        },
+        {
+          "id": "DOC0028-S0036-T02-G060-060",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T02-G061-061",
+          "tokens": 908
+        },
+        {
+          "id": "DOC0028-S0036-T02-G062-062",
+          "tokens": 914
+        },
+        {
+          "id": "DOC0028-S0036-T02-G063-063",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T02-G064-064",
+          "tokens": 911
+        },
+        {
+          "id": "DOC0028-S0036-T02-G066-066",
+          "tokens": 901
+        },
+        {
+          "id": "DOC0028-S0036-T02-G068-068",
+          "tokens": 908
+        },
+        {
+          "id": "DOC0028-S0036-T02-G069-069",
+          "tokens": 940
+        },
+        {
+          "id": "DOC0028-S0036-T02-G072-072",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T02-G074-074",
+          "tokens": 901
+        },
+        {
+          "id": "DOC0028-S0036-T02-G075-075",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0028-S0036-T02-G077-077",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0028-S0036-T02-G118-118",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0028-S0036-T02-G130-130",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0028-S0036-T02-G132-132",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T02-G138-138",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T02-G143-143",
+          "tokens": 907
+        },
+        {
+          "id": "DOC0028-S0036-T02-G147-147",
+          "tokens": 930
+        },
+        {
+          "id": "DOC0028-S0036-T02-G148-148",
+          "tokens": 930
+        },
+        {
+          "id": "DOC0028-S0036-T02-G152-152",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T02-G161-161",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0028-S0036-T05-G004-004",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0028-S0036-T05-G005-005",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T05-G006-006",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T05-G008-008",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0028-S0036-T05-G009-009",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0028-S0036-T05-G010-010",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0028-S0036-T05-G011-011",
+          "tokens": 918
+        },
+        {
+          "id": "DOC0028-S0036-T05-G012-012",
+          "tokens": 916
+        },
+        {
+          "id": "DOC0028-S0036-T07-G003-003",
+          "tokens": 901
+        },
+        {
+          "id": "DOC0028-S0036-T07-G004-004",
+          "tokens": 999
+        },
+        {
+          "id": "DOC0028-S0036-T07-G006-006",
+          "tokens": 1011
+        },
+        {
+          "id": "DOC0028-S0036-T07-G007-007",
+          "tokens": 978
+        },
+        {
+          "id": "DOC0028-S0036-T07-G008-008",
+          "tokens": 1009
+        },
+        {
+          "id": "DOC0028-S0036-T07-G010-010",
+          "tokens": 983
+        },
+        {
+          "id": "DOC0028-S0036-T07-G011-011",
+          "tokens": 908
+        },
+        {
+          "id": "DOC0028-S0036-T07-G012-012",
+          "tokens": 988
+        },
+        {
+          "id": "DOC0028-S0036-T07-G013-013",
+          "tokens": 971
+        },
+        {
+          "id": "DOC0028-S0036-T07-G015-015",
+          "tokens": 974
+        },
+        {
+          "id": "DOC0028-S0036-T07-G016-016",
+          "tokens": 981
+        },
+        {
+          "id": "DOC0028-S0036-T07-G017-017",
+          "tokens": 929
+        },
+        {
+          "id": "DOC0028-S0036-T07-G018-018",
+          "tokens": 1007
+        },
+        {
+          "id": "DOC0028-S0036-T07-G019-019",
+          "tokens": 982
+        },
+        {
+          "id": "DOC0028-S0036-T07-G020-020",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0028-S0036-T07-G021-021",
+          "tokens": 1017
+        },
+        {
+          "id": "DOC0028-S0036-T07-G023-023",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0028-S0036-T07-G024-024",
+          "tokens": 986
+        },
+        {
+          "id": "DOC0028-S0036-T07-G025-025",
+          "tokens": 996
+        },
+        {
+          "id": "DOC0028-S0036-T07-G026-026",
+          "tokens": 942
+        },
+        {
+          "id": "DOC0028-S0036-T07-G027-027",
+          "tokens": 1006
+        },
+        {
+          "id": "DOC0028-S0036-T07-G028-028",
+          "tokens": 1043
+        },
+        {
+          "id": "DOC0028-S0036-T07-G029-029",
+          "tokens": 1017
+        },
+        {
+          "id": "DOC0028-S0036-T07-G031-031",
+          "tokens": 1021
+        },
+        {
+          "id": "DOC0028-S0036-T07-G032-032",
+          "tokens": 986
+        },
+        {
+          "id": "DOC0028-S0036-T07-G033-033",
+          "tokens": 987
+        },
+        {
+          "id": "DOC0028-S0036-T07-G035-035",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0028-S0036-T07-G036-036",
+          "tokens": 982
+        },
+        {
+          "id": "DOC0028-S0036-T07-G037-037",
+          "tokens": 1003
+        },
+        {
+          "id": "DOC0028-S0036-T07-G038-038",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T07-G039-039",
+          "tokens": 1009
+        },
+        {
+          "id": "DOC0028-S0036-T07-G040-040",
+          "tokens": 984
+        },
+        {
+          "id": "DOC0028-S0036-T07-G041-041",
+          "tokens": 980
+        },
+        {
+          "id": "DOC0028-S0036-T07-G042-042",
+          "tokens": 971
+        },
+        {
+          "id": "DOC0028-S0036-T07-G043-043",
+          "tokens": 925
+        },
+        {
+          "id": "DOC0028-S0036-T07-G044-044",
+          "tokens": 1012
+        },
+        {
+          "id": "DOC0028-S0036-T07-G046-046",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0028-S0036-T07-G047-047",
+          "tokens": 987
+        },
+        {
+          "id": "DOC0028-S0036-T07-G048-048",
+          "tokens": 937
+        },
+        {
+          "id": "DOC0028-S0036-T07-G049-049",
+          "tokens": 992
+        },
+        {
+          "id": "DOC0028-S0036-T07-G050-050",
+          "tokens": 924
+        },
+        {
+          "id": "DOC0028-S0036-T07-G051-051",
+          "tokens": 991
+        },
+        {
+          "id": "DOC0028-S0036-T07-G052-052",
+          "tokens": 922
+        },
+        {
+          "id": "DOC0028-S0036-T07-G054-054",
+          "tokens": 957
+        },
+        {
+          "id": "DOC0028-S0036-T07-G055-055",
+          "tokens": 1023
+        },
+        {
+          "id": "DOC0028-S0036-T07-G056-056",
+          "tokens": 1044
+        },
+        {
+          "id": "DOC0028-S0036-T07-G057-057",
+          "tokens": 908
+        },
+        {
+          "id": "DOC0028-S0036-T07-G058-058",
+          "tokens": 998
+        },
+        {
+          "id": "DOC0028-S0036-T07-G059-059",
+          "tokens": 984
+        },
+        {
+          "id": "DOC0028-S0036-T07-G060-060",
+          "tokens": 979
+        },
+        {
+          "id": "DOC0028-S0036-T07-G061-061",
+          "tokens": 933
+        },
+        {
+          "id": "DOC0028-S0036-T07-G062-062",
+          "tokens": 1002
+        },
+        {
+          "id": "DOC0028-S0036-T07-G063-063",
+          "tokens": 992
+        },
+        {
+          "id": "DOC0028-S0036-T07-G064-064",
+          "tokens": 988
+        },
+        {
+          "id": "DOC0028-S0036-T07-G065-065",
+          "tokens": 982
+        },
+        {
+          "id": "DOC0028-S0036-T07-G066-066",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0028-S0036-T07-G067-067",
+          "tokens": 1019
+        },
+        {
+          "id": "DOC0028-S0036-T07-G069-069",
+          "tokens": 946
+        },
+        {
+          "id": "DOC0028-S0036-T07-G070-070",
+          "tokens": 997
+        },
+        {
+          "id": "DOC0028-S0036-T07-G071-071",
+          "tokens": 911
+        },
+        {
+          "id": "DOC0028-S0036-T07-G072-072",
+          "tokens": 981
+        },
+        {
+          "id": "DOC0028-S0036-T07-G073-073",
+          "tokens": 914
+        },
+        {
+          "id": "DOC0028-S0036-T07-G074-074",
+          "tokens": 983
+        },
+        {
+          "id": "DOC0028-S0036-T07-G075-075",
+          "tokens": 1024
+        },
+        {
+          "id": "DOC0028-S0036-T07-G077-077",
+          "tokens": 929
+        },
+        {
+          "id": "DOC0028-S0036-T07-G078-078",
+          "tokens": 998
+        },
+        {
+          "id": "DOC0028-S0036-T07-G079-079",
+          "tokens": 995
+        },
+        {
+          "id": "DOC0028-S0036-T07-G080-080",
+          "tokens": 1054
+        },
+        {
+          "id": "DOC0028-S0036-T07-G081-081",
+          "tokens": 994
+        },
+        {
+          "id": "DOC0028-S0036-T07-G082-082",
+          "tokens": 990
+        },
+        {
+          "id": "DOC0028-S0036-T07-G083-083",
+          "tokens": 984
+        },
+        {
+          "id": "DOC0028-S0036-T07-G084-084",
+          "tokens": 989
+        },
+        {
+          "id": "DOC0028-S0036-T07-G085-085",
+          "tokens": 985
+        },
+        {
+          "id": "DOC0028-S0036-T07-G086-086",
+          "tokens": 925
+        },
+        {
+          "id": "DOC0028-S0036-T07-G087-087",
+          "tokens": 994
+        },
+        {
+          "id": "DOC0028-S0036-T07-G088-088",
+          "tokens": 929
+        },
+        {
+          "id": "DOC0028-S0036-T07-G089-089",
+          "tokens": 996
+        },
+        {
+          "id": "DOC0028-S0036-T07-G090-090",
+          "tokens": 999
+        },
+        {
+          "id": "DOC0028-K035",
+          "tokens": 1797
+        },
+        {
+          "id": "DOC0028-K038",
+          "tokens": 988
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    }
+  ]
+}

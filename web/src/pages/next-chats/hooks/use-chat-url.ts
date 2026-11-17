@@ -1,8 +1,8 @@
 import { ChatSearchParams } from '@/constants/chat';
 import { useGetChatSearchParams } from '@/hooks/use-chat-request';
 import { IMessage } from '@/interfaces/database/chat';
-import { useCallback, useMemo } from 'react';
-import { useSearchParams } from 'react-router';
+import { useCallback, useEffect, useMemo, useRef } from 'react';
+import { useLocation, useSearchParams } from 'react-router';
 import { useSetConversation } from './use-set-conversation';
 
 /**
@@ -57,10 +57,19 @@ export function useCreateConversationBeforeSendMessage() {
   const { conversationId, isNew } = useGetChatSearchParams();
   const { setConversation } = useSetConversation();
   const { setConversationBoth } = useChatUrlParams();
+  const location = useLocation();
+  const locationRef = useRef(location.key);
+  locationRef.current = location.key;
+  const mountedRef = useRef(true);
+  useEffect(() => {
+    mountedRef.current = true;
+    return () => { mountedRef.current = false; };
+  }, []);
 
   // Create conversation if it doesn't exist
   const createConversationBeforeSendMessage = useCallback(
     async (value: string) => {
+      const sourceLocation = locationRef.current;
       let currentMessages: Array<IMessage> = [];
       if (conversationId === '' || isNew === 'true') {
         const data = await setConversation(value);
@@ -68,17 +77,20 @@ export function useCreateConversationBeforeSendMessage() {
           return;
         }
         const backendConvId = data.data.id;
-        setConversationBoth(backendConvId, '');
+        const sourceStillCurrent = mountedRef.current && locationRef.current === sourceLocation;
+        if (sourceStillCurrent) setConversationBoth(backendConvId, '');
         currentMessages = data.data.messages;
         return {
           targetConversationId: backendConvId,
           currentMessages,
+          sourceStillCurrent,
         };
       }
 
       return {
         targetConversationId: conversationId,
         currentMessages,
+        sourceStillCurrent: mountedRef.current && locationRef.current === sourceLocation,
       };
     },
     [conversationId, isNew, setConversation, setConversationBoth],

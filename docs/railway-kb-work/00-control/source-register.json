@@ -1,0 +1,631 @@
+[
+  {
+    "source_id": "S0001",
+    "title": "铁路设备质量安全监督管理办法",
+    "publisher": "国家铁路局 / 原文所载发布机关",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202308/t20230828_342877.shtml",
+    "original_path": "01-originals/baseline/01_equipment-quality.md",
+    "access_date": "2026-11-15",
+    "status": "官方来源快照；效力逐项核验",
+    "domain": "CL"
+  },
+  {
+    "source_id": "S0002",
+    "title": "铁路旅客车票实名制管理办法",
+    "publisher": "国家铁路局 / 原文所载发布机关",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202211/t20221125_339122.shtml",
+    "original_path": "01-originals/baseline/02_real-name-tickets.md",
+    "access_date": "2026-11-15",
+    "status": "官方来源快照；效力逐项核验",
+    "domain": "YS"
+  },
+  {
+    "source_id": "S0003",
+    "title": "铁路旅客运输安全检查管理办法",
+    "publisher": "国家铁路局 / 原文所载发布机关",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202401/t20240102_344299.shtml",
+    "original_path": "01-originals/baseline/03_passenger-security.md",
+    "access_date": "2026-11-15",
+    "status": "官方来源快照；效力逐项核验",
+    "domain": "YS"
+  },
+  {
+    "source_id": "S0004",
+    "title": "铁路旅客运输规程",
+    "publisher": "国家铁路局 / 原文所载发布机关",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202211/t20221117_338894.shtml",
+    "original_path": "01-originals/baseline/04_passenger-transport.md",
+    "access_date": "2026-11-15",
+    "status": "官方来源快照；效力逐项核验",
+    "domain": "YS"
+  },
+  {
+    "source_id": "S0005",
+    "title": "铁路交通事故应急救援和调查处理条例",
+    "publisher": "国家铁路局 / 原文所载发布机关",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/xzzf/202111/t20211111_261219.shtml",
+    "original_path": "01-originals/baseline/05_railway-emergency.md",
+    "access_date": "2026-11-15",
+    "status": "官方来源快照；效力逐项核验",
+    "domain": "YS"
+  },
+  {
+    "source_id": "S0006",
+    "title": "铁路安全管理条例",
+    "publisher": "国家铁路局 / 原文所载发布机关",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/xzzf/202111/t20211111_261218.shtml",
+    "original_path": "01-originals/baseline/06_railway-safety.md",
+    "access_date": "2026-11-15",
+    "status": "官方来源快照；效力逐项核验",
+    "domain": "GW"
+  },
+  {
+    "source_id": "S0007",
+    "title": "铁路建设工程安全生产监督管理办法（2026）",
+    "publisher": "交通运输部政府网站",
+    "url": "https://xxgk.mot.gov.cn/jigou/fgs/202607/t20260710_4209313.html#10006-weixin-1-52626-6b3bffd01fdde4900130bc5a2751b6d1",
+    "original_path": "01-originals/web/S0007.txt",
+    "published": "2026-07-14 14:30",
+    "version": "2026",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "GW",
+    "attachments": []
+  },
+  {
+    "source_id": "S0008",
+    "title": "铁路建设工程竣工验收管理办法（2026）",
+    "publisher": "交通运输部政府网站",
+    "url": "https://xxgk.mot.gov.cn/jigou/fgs/202607/t20260710_4209314.html#10006-weixin-1-526",
+    "original_path": "01-originals/web/S0008.txt",
+    "published": "2026-07-14 14:30",
+    "version": "2026",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "GW",
+    "attachments": []
+  },
+  {
+    "source_id": "S0009",
+    "title": "铁路建设工程勘察设计管理办法",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202506/t20250620_349041.shtml",
+    "original_path": "01-originals/web/S0009.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "GW",
+    "attachments": []
+  },
+  {
+    "source_id": "S0010",
+    "title": "高速铁路基础设施运用状态检测管理办法",
+    "publisher": "国家铁路局 / 交通运输部（按来源页面）",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202206/P020220920526428716359.pdf",
+    "original_path": "01-originals/attachments/S0010-1.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "同一2018版PDF原件保留；与S0028官方HTML交叉核对，不新增文献计数",
+    "domain": "GW",
+    "attachments": [
+      {
+        "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202206/P020220920526428716359.pdf",
+        "original_path": "01-originals/attachments/S0010-1.pdf",
+        "text_path": "01-originals/attachments/S0010-1.txt",
+        "pages": 10,
+        "sha256": "12d6b13aea5453fdac1976dcb36c44747d02ebf4efae1ceb44dda86bd5b53b2d",
+        "characters": 3933
+      }
+    ],
+    "related_current_source_ids": [
+      "S0028"
+    ],
+    "relation": "same_publication_crosscheck",
+    "count_as_additional_document": false,
+    "evidence_path": "05-review/DOC0010-source-repair.json"
+  },
+  {
+    "source_id": "S0011",
+    "title": "铁路无线电管理办法",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202206/t20220624_327469.shtml",
+    "original_path": "01-originals/web/S0011.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "XH",
+    "attachments": []
+  },
+  {
+    "source_id": "S0012",
+    "title": "铁路关键信息基础设施安全保护管理办法",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202401/t20240102_344297.shtml",
+    "original_path": "01-originals/web/S0012.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "XH",
+    "attachments": []
+  },
+  {
+    "source_id": "S0014",
+    "title": "铁路营业线施工安全管理办法",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/202206/t20220620_327362.shtml",
+    "original_path": "01-originals/web/S0014.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "XH",
+    "attachments": []
+  },
+  {
+    "source_id": "S0016",
+    "title": "铁路运输基础设备生产企业审批实施细则（2025）",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/webbs/xzxk/gzzdu/gfxwj/202507/t20250714_349266.shtml",
+    "original_path": "01-originals/web/S0016.txt",
+    "published": "2025-05-16 09:56:41",
+    "version": "2025",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "GD",
+    "attachments": [
+      {
+        "url": "https://www.nra.gov.cn/webbs/xzxk/gzzdu/gfxwj/202507/P020250714546292955215.pdf",
+        "original_path": "01-originals/attachments/S0016-1.pdf",
+        "text_path": "01-originals/attachments/S0016-1.txt",
+        "pages": 49,
+        "sha256": "b7d5af2bbb63435ea41900ff10ed3576aa637df2e4da603c45b5c08388fc7a49",
+        "characters": 29707
+      }
+    ]
+  },
+  {
+    "source_id": "S0017",
+    "title": "铁路运输基础设备生产企业审批办法（2021修正）",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202206/t20220624_327471.shtml",
+    "original_path": "01-originals/web/S0017.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "2021",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "GD",
+    "attachments": []
+  },
+  {
+    "source_id": "S0018",
+    "title": "铁路专用产品质量监督抽查管理办法",
+    "publisher": "国家铁路局 / 交通运输部（按来源页面）",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/bumen/sbgls/202312/P020231204524552010353.pdf",
+    "original_path": "01-originals/attachments/S0018-1.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "2023版历史原件保留；2026版第五十五条载明2026-03-15起废止旧版，不作当前依据",
+    "domain": "GD",
+    "attachments": [
+      {
+        "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/bumen/sbgls/202312/P020231204524552010353.pdf",
+        "original_path": "01-originals/attachments/S0018-1.pdf",
+        "text_path": "01-originals/attachments/S0018-1.txt",
+        "pages": 23,
+        "sha256": "343200eb08639d493aea2b7b73c7ac46398fb39e78e04e7b268f5990a6042512",
+        "characters": 11541
+      }
+    ],
+    "related_current_source_ids": [
+      "S0029"
+    ],
+    "relation": "superseded_by",
+    "count_as_additional_document": false,
+    "evidence_path": "05-review/DOC0016-source-repair.json"
+  },
+  {
+    "source_id": "S0020",
+    "title": "铁路机车车辆驾驶人员资格许可办法（2024）",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202408/t20240822_346665.shtml",
+    "original_path": "01-originals/web/S0020.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "2024",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "CL",
+    "attachments": []
+  },
+  {
+    "source_id": "S0021",
+    "title": "铁路机车车辆驾驶人员资格考试管理办法",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/202204/t20220418_317074.shtml",
+    "original_path": "01-originals/web/S0021.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "CL",
+    "attachments": []
+  },
+  {
+    "source_id": "S0022",
+    "title": "铁路货物运输规则（2026）",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202602/t20260226_350797.shtml",
+    "original_path": "01-originals/web/S0022.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "2026",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "YS",
+    "attachments": []
+  },
+  {
+    "source_id": "S0023",
+    "title": "铁路运输服务质量监督管理办法",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202305/t20230519_341667.shtml",
+    "original_path": "01-originals/web/S0023.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "YS",
+    "attachments": []
+  },
+  {
+    "source_id": "S0024",
+    "title": "铁路危险货物运输安全监督管理规定",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202210/t20221021_338669.shtml",
+    "original_path": "01-originals/web/S0024.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "YS",
+    "attachments": []
+  },
+  {
+    "source_id": "S0025",
+    "title": "铁路机车车辆设计制造维修进口许可办法",
+    "publisher": "国家铁路局",
+    "url": "https://source.nra.gov.cn/jglz/sbjg/fgsb/202204/t20220405_292242.shtml",
+    "original_path": "01-originals/web/S0025.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "已核实存在官方修正；历史原件完整保留，禁止单独当作修正后版本",
+    "domain": "CL",
+    "attachments": [],
+    "related_current_source_ids": [
+      "S0030"
+    ],
+    "relation": "amended_by"
+  },
+  {
+    "source_id": "S0026",
+    "title": "铁路专用设备缺陷产品召回管理办法",
+    "publisher": "国家铁路局",
+    "url": "https://source.nra.gov.cn/jglz/sbjg/fgsb/202204/t20220405_292248.shtml",
+    "original_path": "01-originals/web/S0026.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "已核实存在官方修正；历史原件完整保留，禁止单独当作修正后版本",
+    "domain": "CL",
+    "attachments": [],
+    "related_current_source_ids": [
+      "S0031"
+    ],
+    "relation": "amended_by"
+  },
+  {
+    "source_id": "S0027",
+    "title": "高速铁路安全防护管理办法",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202207/t20220719_328628.shtml",
+    "original_path": "01-originals/web/S0027.txt",
+    "published": "原文内发布信息待逐项核验",
+    "version": "按原文公布版本",
+    "access_date": "2026-11-15",
+    "status": "官方来源正文已采集；效力状态待核验",
+    "domain": "GW",
+    "attachments": []
+  },
+  {
+    "source_id": "S0028",
+    "title": "高速铁路基础设施运用状态检测管理办法",
+    "publisher": "交通运输部",
+    "url": "https://xxgk.mot.gov.cn/2020/jigou/fgs/202006/t20200623_3308061.html",
+    "original_path": "01-originals/web/S0028.txt",
+    "published": "2018-08-31",
+    "version": "交通运输部令2018年第19号；2018-08-31公布，2018-10-01施行",
+    "scope": "设计开行时速250公里以上（含预留）、初期运营时速200公里以上的客运列车专线铁路基础设施运用状态检测。",
+    "domain": "GW",
+    "access_date": "2026-11-15",
+    "sha256": "f7e81e3856967689e082fbda0ef112773d6d9e9b3562d29696b9fd60f85b787b",
+    "status": "官方全文及施行条款已回读；截至审计日的后续修订/效力仍待核验",
+    "previous_source_ids": [
+      "S0010"
+    ],
+    "relation": "same_publication_crosscheck",
+    "source_identity": "同一2018版官方HTML交叉核对，不新增计数",
+    "count_as_additional_document": false,
+    "evidence_path": "05-review/DOC0010-source-repair.json"
+  },
+  {
+    "source_id": "S0029",
+    "title": "铁路专用产品质量监督抽查管理办法",
+    "publisher": "国家铁路局",
+    "url": "https://source.nra.gov.cn/jglz/sbjg/fgsb/202602/t20260224_350762.shtml",
+    "original_path": "01-originals/web/S0029.txt",
+    "published": "2026-02-09",
+    "version": "国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行",
+    "scope": "境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。",
+    "domain": "GD",
+    "access_date": "2026-11-15",
+    "sha256": "890c14dae4720b0d000df3a51e09e4c9d89527d5799cbe43f28d66fbb09ac9c1",
+    "status": "官方全文及施行条款已回读；截至审计日的后续修订/效力仍待核验",
+    "previous_source_ids": [
+      "S0018"
+    ],
+    "relation": "supersedes",
+    "source_identity": "替代2023版，不新增文献计数",
+    "count_as_additional_document": false,
+    "evidence_path": "05-review/DOC0016-source-repair.json"
+  },
+  {
+    "source_id": "S0030",
+    "title": "交通运输部关于修改《铁路机车车辆设计制造维修进口许可办法》的决定及重新公布全文",
+    "publisher": "交通运输部；国家铁路局公开",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202206/t20220624_327466.shtml",
+    "original_path": "01-originals/web/S0030.txt",
+    "published": "2019-02-03",
+    "version": "原交通运输部令2013年第13号；按2019年第3号决定修正，2019-02-03公布，2019-03-05施行",
+    "scope": "铁路机车车辆设计、制造、维修和进口许可；对象包括第二条规定的车辆与自轮运转特种设备。",
+    "domain": "CL",
+    "access_date": "2026-11-16",
+    "sha256": "28c5fda800cfa251c516e8bc6e6a7653521be6b4648f74f84b2191aa2bcbe753",
+    "status": "已核对2019年修正决定及重新公布全文；尚未完成截至2026-11-16的后续修订及现行效力终审，不能默认所有产品维修许可均为5年。",
+    "previous_source_ids": [
+      "S0025"
+    ],
+    "relation": "amends",
+    "count_as_additional_document": false,
+    "attachments": [],
+    "related_current_source_ids": [
+      "S0037"
+    ]
+  },
+  {
+    "source_id": "S0031",
+    "title": "交通运输部关于修改《铁路专用设备缺陷产品召回管理办法》的决定及重新公布全文",
+    "publisher": "交通运输部；国家铁路局公开",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202206/t20220624_327465.shtml",
+    "original_path": "01-originals/web/S0031.txt",
+    "published": "2018-08-31",
+    "version": "原交通运输部令2015年第23号；按2018年第18号决定修正，2018-08-31公布，2018-10-01施行",
+    "scope": "依法实行行政许可的铁路专用设备缺陷产品召回及监督管理；其他直接影响运输安全产品依第二条处理。",
+    "domain": "CL",
+    "access_date": "2026-11-16",
+    "sha256": "bc60f2cb868cbcff896d491557788f6207f21de17056eaa6e808e113c6a9d18f",
+    "status": "已核对2018年官方修正决定PDF第1、2页；第七条两款完整替换，监造定义仍属第七条；截至2026-11-16的后续修订及现行效力待终审。",
+    "previous_source_ids": [
+      "S0026"
+    ],
+    "relation": "amends",
+    "count_as_additional_document": false,
+    "attachments": [
+      {
+        "original_path": "01-originals/attachments/S0031-1.pdf",
+        "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202206/P020220624365785849781.pdf",
+        "sha256": "6d496b8fb670adf3a2041292f210e3a70d3923bc468702050a8d147d9bab5650"
+      }
+    ],
+    "related_current_source_ids": [
+      "S0038"
+    ]
+  },
+  {
+    "source_id": "S0032",
+    "title": "国家铁路局关于印发四项设备生产企业审批实施细则并废止原总则细则的公告",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/zuti/xzxk/202603/t20260305_350842.shtml",
+    "original_path": "01-originals/web/S0032.html",
+    "published": "2026-03-03",
+    "version": "四项细则分别为国铁设备监规〔2026〕4、5、6、7号；自2026-04-01施行；国铁设备监规〔2025〕14号同时废止",
+    "scope": "四项专业细则生效与原总则细则废止关系",
+    "domain": "GD",
+    "access_date": "2026-11-16",
+    "sha256": "c7aed86d451950f2d40ccacc59c61e8a5ec440549a20e48770f8d44d0b039dd4",
+    "status": "官方通知正文已核对；明确2026-04-01施行及原细则同时废止",
+    "relation": "supersedes",
+    "previous_source_ids": [
+      "S0016"
+    ],
+    "count_as_additional_document": false,
+    "attachments": []
+  },
+  {
+    "source_id": "S0033",
+    "title": "国家铁路局关于印发《铁路道岔设备生产企业审批实施细则》的通知",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/zuti/xzxk/202603/t20260305_350843.shtml",
+    "original_path": "01-originals/attachments/S0033-1.docx",
+    "attachment_path": "01-originals/attachments/S0033-1.docx",
+    "attachment_sha256": "e330a2ac525225eeb4e8fb71c5697cdb43ebeeb74311a71903425e53a00f894e",
+    "published": "2026-02-28",
+    "version": "国铁设备监规〔2026〕4号；2026-02-28印发，2026-04-01施行",
+    "scope": "铁路道岔设备生产企业审批实施细则",
+    "domain": "GW",
+    "access_date": "2026-11-16",
+    "status": "官方发布页与附件复下哈希匹配；原生表格/自动编号审计完成，主副本生成；逐单元格语义复核与效力终审待完成",
+    "relation": "supersedes_part_of",
+    "previous_source_ids": [
+      "S0016"
+    ],
+    "count_as_additional_document": false,
+    "attachments": [
+      {
+        "path": "01-originals/attachments/S0033-1.docx",
+        "sha256": "e330a2ac525225eeb4e8fb71c5697cdb43ebeeb74311a71903425e53a00f894e",
+        "extracted_path": "01-originals/attachments/S0033-1.txt"
+      }
+    ],
+    "official_attachment_sha256_verified": true,
+    "structure_audit_path": "05-review/successor-structure/S0033-native-tables-v2.json"
+  },
+  {
+    "source_id": "S0034",
+    "title": "国家铁路局关于印发《铁路信号设备生产企业审批实施细则》的通知",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/zuti/xzxk/202603/t20260306_350846.shtml",
+    "original_path": "01-originals/attachments/S0034-1.docx",
+    "attachment_path": "01-originals/attachments/S0034-1.docx",
+    "attachment_sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+    "published": "2026-02-28",
+    "version": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行",
+    "scope": "铁路信号设备生产企业审批实施细则",
+    "domain": "XH",
+    "access_date": "2026-11-16",
+    "status": "官方发布页与附件复下哈希匹配；原生表格/自动编号审计完成，主副本生成；逐单元格语义复核与效力终审待完成",
+    "relation": "supersedes_part_of",
+    "previous_source_ids": [
+      "S0016"
+    ],
+    "count_as_additional_document": false,
+    "attachments": [
+      {
+        "path": "01-originals/attachments/S0034-1.docx",
+        "sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+        "extracted_path": "01-originals/attachments/S0034-1.txt"
+      }
+    ],
+    "official_attachment_sha256_verified": true,
+    "structure_audit_path": "05-review/successor-structure/S0034-native-tables-v2.json"
+  },
+  {
+    "source_id": "S0035",
+    "title": "国家铁路局关于印发《铁路通信设备生产企业审批实施细则》的通知",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/zuti/xzxk/202603/t20260306_350847.shtml",
+    "original_path": "01-originals/attachments/S0035-1.docx",
+    "attachment_path": "01-originals/attachments/S0035-1.docx",
+    "attachment_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+    "published": "2026-02-28",
+    "version": "国铁设备监规〔2026〕6号；2026-02-28印发，2026-04-01施行",
+    "scope": "铁路通信设备生产企业审批实施细则",
+    "domain": "XH",
+    "access_date": "2026-11-16",
+    "status": "官方发布页与附件复下哈希匹配；原生表格/自动编号审计完成，主副本生成；逐单元格语义复核与效力终审待完成",
+    "relation": "supersedes_part_of",
+    "previous_source_ids": [
+      "S0016"
+    ],
+    "count_as_additional_document": false,
+    "attachments": [
+      {
+        "path": "01-originals/attachments/S0035-1.docx",
+        "sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+        "extracted_path": "01-originals/attachments/S0035-1.txt"
+      }
+    ],
+    "official_attachment_sha256_verified": true,
+    "structure_audit_path": "05-review/successor-structure/S0035-native-tables-v2.json"
+  },
+  {
+    "source_id": "S0036",
+    "title": "国家铁路局关于印发《铁路牵引供电设备生产企业审批实施细则》的通知",
+    "publisher": "国家铁路局",
+    "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/zuti/xzxk/202603/t20260306_350848.shtml",
+    "original_path": "01-originals/attachments/S0036-1.doc",
+    "attachment_path": "01-originals/attachments/S0036-1.doc",
+    "attachment_sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+    "published": "2026-02-28",
+    "version": "国铁设备监规〔2026〕7号；2026-02-28印发，2026-04-01施行",
+    "scope": "铁路牵引供电设备生产企业审批实施细则",
+    "domain": "GD",
+    "access_date": "2026-11-16",
+    "status": "官方发布页与附件复下哈希匹配；原生表格/自动编号审计完成，主副本生成；逐单元格语义复核与效力终审待完成",
+    "relation": "supersedes_part_of",
+    "previous_source_ids": [
+      "S0016"
+    ],
+    "count_as_additional_document": false,
+    "attachments": [
+      {
+        "path": "01-originals/attachments/S0036-1.doc",
+        "sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+        "extracted_path": "01-originals/attachments/S0036-1.txt"
+      }
+    ],
+    "official_attachment_sha256_verified": true,
+    "structure_audit_path": "05-review/successor-structure/S0036-native-tables-v2.json"
+  },
+  {
+    "source_id": "S0037",
+    "title": "铁路机车车辆设计制造维修进口许可办法",
+    "publisher": "交通运输部",
+    "url": "https://xxgk.mot.gov.cn/gz/202112/t20211223_3632653.html",
+    "original_path": "01-originals/web/S0037.txt",
+    "html_path": "01-originals/web/S0037.html",
+    "sha256": "951fb9d9231e0f09cdd9e8d208c33fb3ecee1f752f3c2a2496258506e26f3d3f",
+    "version": "原交通运输部令2013年第13号；按2019年第3号决定修正，2019-02-03公布，2019-03-05施行",
+    "published": "2019-02-03",
+    "scope": "铁路机车车辆设计、制造、维修和进口许可；对象包括第二条规定的车辆与自轮运转特种设备。",
+    "domain": "CL",
+    "access_date": "2026-11-16",
+    "status": "2026-11-16已在交通运输部现行有效规章目录定位同名同链接条目，核对所链官方合并全文及PDF；这是记录时点的官方目录证据，未穷尽所有后续公告。",
+    "current_catalog_verified": true,
+    "catalog_evidence_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/evidence.json",
+    "previous_source_ids": [
+      "S0030"
+    ],
+    "relation": "official_consolidation_of",
+    "count_as_additional_document": false,
+    "attachments": [
+      {
+        "original_path": "01-originals/attachments/S0037-1.pdf",
+        "url": "https://xxgk.mot.gov.cn/gz/202112/W020211223540808062796.pdf",
+        "sha256": "7922e18323032861596b4fb1efe661ba5c9fcd81b7941f644e2799cdf9dcd49a"
+      }
+    ]
+  },
+  {
+    "source_id": "S0038",
+    "title": "铁路专用设备缺陷产品召回管理办法",
+    "publisher": "交通运输部",
+    "url": "https://xxgk.mot.gov.cn/gz/202112/t20211224_3632922.html",
+    "original_path": "01-originals/web/S0038.txt",
+    "html_path": "01-originals/web/S0038.html",
+    "sha256": "cecc8d65961b210b172639496dfbfc7a5fe2bc6d021f05c5684e8749115c45d2",
+    "version": "原交通运输部令2015年第23号；按2018年第18号决定修正，2018-08-31公布，2018-10-01施行",
+    "published": "2018-08-31",
+    "scope": "依法实行行政许可的铁路专用设备缺陷产品召回及监督管理；其他直接影响运输安全产品依第二条处理。",
+    "domain": "CL",
+    "access_date": "2026-11-16",
+    "status": "2026-11-16已在交通运输部现行有效规章目录定位同名同链接条目，核对所链官方合并全文及PDF；这是记录时点的官方目录证据，未穷尽所有后续公告。",
+    "current_catalog_verified": true,
+    "catalog_evidence_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/evidence.json",
+    "previous_source_ids": [
+      "S0031"
+    ],
+    "relation": "official_consolidation_of",
+    "count_as_additional_document": false,
+    "attachments": [
+      {
+        "original_path": "01-originals/attachments/S0038-1.pdf",
+        "url": "https://xxgk.mot.gov.cn/gz/202112/W020211224523932861569.pdf",
+        "sha256": "0a7ab0b7cc901b8be0630b7a4810701fdfe32a78e2f92672443b6fa7e2f75617"
+      }
+    ]
+  }
+]

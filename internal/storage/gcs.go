@@ -75,18 +75,16 @@ func (m *GCSStorage) Health(ctx context.Context) bool {
 
 // Put uploads an object to GCS
 func (m *GCSStorage) Put(ctx context.Context, bucket, fnm string, binary []byte, tenantID ...string) error {
+	uploadCtx, cancel := context.WithCancel(ctx)
+	defer cancel()
 
 	obj := m.client.Bucket(bucket).Object(fnm)
-	w := obj.NewWriter(ctx)
+	w := obj.NewWriter(uploadCtx)
 
 	if _, err := w.Write(binary); err != nil {
 		return err
 	}
-	if err := w.Close(); err != nil {
-		return err
-	}
-
-	return nil
+	return w.Close()
 }
 
 // Get retrieves an object from GCS
@@ -104,6 +102,15 @@ func (m *GCSStorage) Get(ctx context.Context, bucket, fnm string, tenantID ...st
 	}
 
 	return data, nil
+}
+
+func (m *GCSStorage) GetBounded(ctx context.Context, bucket, key string, limit int64) ([]byte, error) {
+	reader, err := m.client.Bucket(bucket).Object(key).NewReader(ctx)
+	if err != nil {
+		return nil, err
+	}
+	defer reader.Close()
+	return readBounded(reader, limit)
 }
 
 // Remove removes an object from GCS

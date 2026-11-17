@@ -19,19 +19,19 @@ import { TFunction } from 'i18next';
 import { capitalize, lowerCase } from 'lodash';
 
 export function formatKindLabel(t: TFunction, kind: string): string {
-  if (kind === CompilationTemplateKind.Artifacts) {
-    return 'Wiki';
-  }
-  if (kind === CompilationTemplateKind.KnowledgeGraph) {
-    return t('knowledgeCompilation.graph');
-  }
-  if (kind === CompilationTemplateKind.PageIndex) {
-    return 'PageIndex';
-  }
-  if (kind === CompilationTemplateKind.MindMap) {
-    return 'Mindmap';
-  }
-  return capitalize(lowerCase(kind));
+  const labelKeys: Record<string, string> = {
+    [CompilationTemplateKind.Artifacts]: 'llmWiki',
+    [CompilationTemplateKind.KnowledgeGraph]: 'graph',
+    [CompilationTemplateKind.PageIndex]: 'pageIndex',
+    [CompilationTemplateKind.MindMap]: 'structureMindmap',
+    [CompilationTemplateKind.Timeline]: 'structureTimeline',
+    [CompilationTemplateKind.Tree]: 'tree',
+    [CompilationTemplateKind.Empty]: 'custom',
+    [CompilationTemplateKind.SessionGraph]: 'sessionGraph',
+    [CompilationTemplateKind.SessionEssence]: 'sessionEssence',
+  };
+  const key = labelKeys[kind];
+  return key ? t(`knowledgeCompilation.${key}`) : capitalize(lowerCase(kind));
 }
 export const isCreateCompilationTemplateGroup = (
   id?: string,

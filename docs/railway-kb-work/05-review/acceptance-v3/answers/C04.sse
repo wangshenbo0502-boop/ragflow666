@@ -1,0 +1,132 @@
+data: {"code":0,"message":"success","data":{"answer":"# 新建铁路投入运营前验收评估","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"与设备生产许可的约束对象\n\n根据","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"知识库内容，两者约束的对象不同，分别","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"如下：\n\n## 一、新建铁路投入运营","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"前验收评估\n\n**约束对象：铁路建设工程","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"（项目）及其建设单位、铁路运输企业","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"**\n\n- **《铁路安全管理条例》第十五","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"条**：铁路建设工程竣工，应当按照","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"国家有关规定组织验收，并由**铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"运输企业**进行运营安全评估。经验","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"收、评估合格，符合运营安全要求的","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，方可投入运营。\n- **《铁路建设工程","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"竣工验收管理办法》第五条**：铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"建设工程经初步验收合格后，由**铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"运输企业**组织进行运营安全评估","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，安全评估通过后方可开通初期运营","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"；正式验收合格后方可投入正式运营","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"。\n\n即：验收评估针对的是**铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"建设工程本身**，由建设单位组织验收","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"、铁路运输企业组织运营安全","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"评估，评估合格是投入运营的前","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"置条件。\n\n## 二、设备生产许可\n\n**","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"约束对象：铁路设备生产企业（特定","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"设备的设计、制造、维修、进口企业","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"）**\n\n- **《铁路设备质量安全监督","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"管理办法》第四条**：设计、制造、维修","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"或者进口新型铁路机车车辆，生产","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"铁路道岔及其转辙设备、铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"信号控制软件和控制设备、铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"牵引供电设备的企业，应当依法","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"取得相应许可。\n- **《铁路机车","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"车辆设计制造维修进口许可办法","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"》第三条**：设计、制造、维修或者","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"进口新型铁路机车车辆，应分别","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"向国家铁路局申请领取型号合格","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"证、制造许可证、维修许可证","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"或者进口许可证（设计企业取得型号","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"合格证；制造企业批量制造前取得","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"制造许可证；承担大修的维修","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"企业在维修样车投入运营前取得","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"维修许可证；进口企业在产品投入","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"运营前取得进口许可证）。\n- **","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"《铁路设备质量安全监督管理办法","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"》第二十九条**：未依法取得相应","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"许可生产相关设备的，由铁路监管部门","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"责令改正，立即停止生产、销售","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"相关铁路设备。\n\n即：生产许可针对","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"的是**企业主体及其生产的特定设备","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"产品**，属于事前准入管理。\n\n## 小结","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"\n\n| 事项 | 约束对象 | 性质","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":" |\n|---|---|---|\n| 竣工验收与","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"运营安全评估 | 铁路建设工程","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"项目（建设单位、铁路运输企业） | ","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"投入运营前的项目把关 |\n| 设备生产","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"许可 | 特定铁路设备的生产（","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"及设计、维修、进口）企业 | 企业与","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"产品的事前准入 |\n\n\u003e 说明：知识库","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"中未检索到专门针对\"新建铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"\"验收评估的独立单行法规名称","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，上述内容分别来自《铁路安全管理条例","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"》《铁路建设工程竣工验收管理办法","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"》及设备许可相关办法，二者分属","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"\"工程建设质量安全\"与\"设备质量","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"安全\"两个管理环节。","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"# 新建铁路投入运营前验收评估与设备生产许可的约束对象\n\n根据知识库内容，两者约束的对象不同，分别如下：\n\n## 一、新建铁路投入运营前验收评估\n\n**约束对象：铁路建设工程（项目）及其建设单位、铁路运输企业**\n\n- **《铁路安全管理条例》第十五条**：铁路建设工程竣工，应当按照国家有关规定组织验收，并由**铁路运输企业**进行运营安全评估。经验收、评估合格，符合运营安全要求的，方可投入运营。\n- **《铁路建设工程竣工验收管理办法》第五条**：铁路建设工程经初步验收合格后，由**铁路运输企业**组织进行运营安全评估，安全评估通过后方可开通初期运营；正式验收合格后方可投入正式运营。\n\n即：验收评估针对的是**铁路建设工程本身**，由建设单位组织验收、铁路运输企业组织运营安全评估，评估合格是投入运营的前置条件。\n\n## 二、设备生产许可\n\n**约束对象：铁路设备生产企业（特定设备的设计、制造、维修、进口企业）**\n\n- **《铁路设备质量安全监督管理办法》第四条**：设计、制造、维修或者进口新型铁路机车车辆，生产铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路牵引供电设备的企业，应当依法取得相应许可。\n- **《铁路机车车辆设计制造维修进口许可办法》第三条**：设计、制造、维修或者进口新型铁路机车车辆，应分别向国家铁路局申请领取型号合格证、制造许可证、维修许可证或者进口许可证（设计企业取得型号合格证；制造企业批量制造前取得制造许可证；承担大修的维修企业在维修样车投入运营前取得维修许可证；进口企业在产品投入运营前取得进口许可证）。\n- **《铁路设备质量安全监督管理办法》第二十九条**：未依法取得相应许可生产相关设备的，由铁路监管部门责令改正，立即停止生产、销售相关铁路设备。\n\n即：生产许可针对的是**企业主体及其生产的特定设备产品**，属于事前准入管理。\n\n## 小结\n\n| 事项 | 约束对象 | 性质 |\n|---|---|---|\n| 竣工验收与运营安全评估 | 铁路建设工程项目（建设单位、铁路运输企业） | 投入运营前的项目把关 |\n| 设备生产许可 | 特定铁路设备的生产（及设计、维修、进口）企业 | 企业与产品的事前准入 |\n\n\u003e 说明：知识库中未检索到专门针对\"新建铁路\"验收评估的独立单行法规名称，上述内容分别来自《铁路安全管理条例》《铁路建设工程竣工验收管理办法》及设备许可相关办法，二者分属\"工程建设质量安全\"与\"设备质量安全\"两个管理环节。","reference":{"chunks":[{"content":"# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十五条｜铁路建设工程竣工，应当按照国家有关规定组织验收，并由铁路运输企业进行运营安全评估\n证据定位： DOC0006-K15；S0006，第二章　铁路建设质量安全，第十五条。\n铁路建设工程竣工，应当按照国家有关规定组织验收，并由铁路运输企业进行运营安全评估。经验收、评估合格，符合运营安全要求的，方可投入运营。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"f1d4f7f3edba485ab62be14c8f690c99","document_metadata":null,"document_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md","id":"8c4f8b5d2a8cddfc","image_id":"","positions":"","row_id":"8c4f8b5d2a8cddfc","similarity":0.49373991096417524,"term_similarity":0.1524922219283505,"url":"","vector_similarity":0.8349876},{"content":"# 铁路机车车辆设计制造维修进口许可办法\n## 第一章 总则\n### 第三条｜设计、制造、维修或者进口新型铁路机车车辆\n证据定位： DOC0022-K03；S0025，第一章 总则，第三条。\n版本边界： 本片为2013年《铁路机车车辆设计制造维修进口许可办法》存档原文，尚未证明截至2026年11月16日无后续修订；具体许可须核验适用版本。\n设计、制造、维修或者进口新型铁路机车车辆，应分别向国家铁路局申请领取型号合格证、制造许可证、维修许可证或者进口许可证。\n设计新型铁路机车车辆，设计企业应当取得型号合格证；已取得型号合格证的产品，制造企业在投入批量制造之前，应当取得制造许可证；承担铁路机车车辆整机性能恢复性修理（即“大修”）的维修企业在维修样车投入运营前，应当取得维修许可证；进口新型铁路机车车辆，在该产品投入运营前，国内进口企业应当取得进口许可证。\n必要依赖（第二条原文）： 本办法所称铁路机车车辆，是指直接承担铁路公共运输和检测试验任务的铁路机车、动车组、客车、货车等移动设备，以及在铁路上运行并承担施工、维修、救援等作业的铁路轨道车、救援起重机、铺轨机和架桥机（组）车辆、接触网作业车和大型养路机械等自轮运转特种设备。需办理许可的铁路机车车辆目录由国家铁路局制定、调整并发布。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"b38e23ca674e4a988ccd7cf551961ac8","document_metadata":null,"document_name":"DOC0022_铁路机车车辆设计制造维修进口许可办法_精修_1025b74e494b.md","id":"7fa6d04c17576927","image_id":"","positions":"","row_id":"7fa6d04c17576927","similarity":0.4890398269908251,"term_similarity":0.15096265398165024,"url":"","vector_similarity":0.827117},{"content":"# 铁路建设工程竣工验收管理办法\n## 第一章  总    则\n### 第五条｜铁路建设工程经初步验收合格后，由铁路运输企业组织进行运营安全评估，安全评估通过后方可开通初期运营\n证据定位： DOC0008-K05；S0008，第一章  总    则，第五条。\n铁路建设工程经初步验收合格后，由铁路运输企业组织进行运营安全评估，安全评估通过后方可开通初期运营；正式验收合格后方可投入正式运营。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"09edda7a15934c83a97283a135334265","document_metadata":null,"document_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_796ca4c20367.md","id":"9ebfd564931ea840","image_id":"","positions":"","row_id":"9ebfd564931ea840","similarity":0.4818931279603201,"term_similarity":0.12161385592064008,"url":"","vector_similarity":0.8421724},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第四章　监督管理\n### 第十四条｜国家铁路局及其铁路监督管理机构应当对被许可企业进行监督检查\n证据定位： DOC0015-K14；S0017，第四章　监督管理，第十四条。\n国家铁路局及其铁路监督管理机构应当对被许可企业进行监督检查，监督检查时被许可企业应当配合检查并按要求提交相关材料。\n被许可企业应当按年度向国家铁路局提交企业产品质量保证和安全管理情况自查报告。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"2770fee85cdd477badcee7a52c32b5e0","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_fccbc38feba3.md","id":"a48bb6d502927b52","image_id":"","positions":"","row_id":"a48bb6d502927b52","similarity":0.47796391694286433,"term_similarity":0.12832213388572872,"url":"","vector_similarity":0.8276057},{"content":"# 铁路运输基础设备生产企业审批实施细则\n## 第四章 监督管理\n### 第二十条｜国家铁路局及地区铁路监督管理局应当依法加强对被许可企业的监督检查，在生产许可证有效期内随机抽查被许可企业\n证据定位： DOC0014-K20；S0016，第四章 监督管理，第二十条。\n国家铁路局及地区铁路监督管理局应当依法加强对被许可企业的监督检查，在生产许可证有效期内随机抽查被许可企业；对生产高速铁路产品或产品质量不良的企业，应当加大监督检查力度。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"964e86066ece4a378ef745846628f22a","document_metadata":null,"document_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_44c663cf24db.md","id":"325c4263deef3392","image_id":"","positions":"","row_id":"325c4263deef3392","similarity":0.47649510354677604,"term_similarity":0.12276247709355208,"url":"","vector_similarity":0.83022773},{"content":"# 高速铁路安全防护管理办法\n## 第三章 安全防护设施及管理\n### 第三十三条｜铁路建设单位应当按照相关法律法规和国家标准、行业标准\n证据定位： DOC0024-K33；S0027，第三章 安全防护设施及管理，第三十三条。\n铁路建设单位应当按照相关法律法规和国家标准、行业标准，在建设高速铁路客运站和直接为其运营服务的段、厂、调度指挥中心、到发中转货场、仓库时，确保相关安全防护设备设施同时设计、同时施工、同时投入生产和使用。\n必要依赖（第二条原文）： 本办法适用于设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路（以下称高速铁路）。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"72e43cd6234f411c91c19b36e58dc42a","document_metadata":null,"document_name":"DOC0024_高速铁路安全防护管理办法_精修_b227b4dda23b.md","id":"26cbe1a7c0929290","image_id":"","positions":"","row_id":"26cbe1a7c0929290","similarity":0.47575856975857933,"term_similarity":0.1481470395171587,"url":"","vector_similarity":0.8033701},{"content":"# 铁路运输基础设备生产企业审批实施细则\n## 附件1 设备目录\n### 设备目录的设备名称、适用范围和执行标准须联合核对\n证据定位： DOC0014-K29；S0016，附件1 设备目录，附件PDF文件页序1~6（印刷页12~17）。\n整理说明： 以下为原表核对说明，保留原表作为完整证据；不是逐单元格全文转录。原表：01-originals/attachments/S0016-1.pdf。该附件为2025年实施细则附件。\n附件1是铁路运输基础设备目录，分别列铁路道岔设备、辙叉、信号设备、通信设备、牵引供电设备。应按具体行的设备名称、适用范围、执行标准联合判断，不能把设备类别或系统名称当作某厂家具体型号已取得生产许可的证据。道岔和辙叉含合并速度等级单元格；完整对应关系保留原表，不将空白格猜填为通用范围。目录备注规定标准更新时按最新标准执行；存档标准号不能证明其截至查询日未更新。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"964e86066ece4a378ef745846628f22a","document_metadata":null,"document_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_44c663cf24db.md","id":"7d967b6a4f1bf43f","image_id":"","positions":"","row_id":"7d967b6a4f1bf43f","similarity":0.4731789208557272,"term_similarity":0.1341578417114544,"url":"","vector_similarity":0.8122},{"content":"# 铁路设备质量安全监督管理办法\n## 第四章 监督管理\n### 第二十八条｜铁路监管部门工作人员在履行铁路设备质量安全监管职责时\n证据定位： DOC0001-K28；S0001，第四章 监督管理，第二十八条。\n铁路监管部门工作人员在履行铁路设备质量安全监管职责时，应当出示有效执法证件，依法行使职权，不得影响被检查单位的正常生产经营活动。\n铁路监管部门工作人员与监管对象有利害关系的，应当回避。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"ca440839e1754d12b7e1c4921ca45451","document_metadata":null,"document_name":"DOC0001_铁路设备质量安全监督管理办法_精修_fdd8372b6cee.md","id":"9d780f7ef042ff27","image_id":"","positions":"","row_id":"9d780f7ef042ff27","similarity":0.47312523050896926,"term_similarity":0.1418267110179385,"url":"","vector_similarity":0.80442375},{"content":"# 铁路设备质量安全监督管理办法\n## 第一章 总 则\n### 第四条｜铁路设备生产企业和铁路运输企业应当加强铁路设备质量安全管理\n证据定位： DOC0001-K04；S0001，第一章 总 则，第四条。\n铁路设备生产企业和铁路运输企业应当加强铁路设备质量安全管理，落实质量安全管理责任，建立健全质量安全管理制度，依法设置质量安全管理机构或者配备质量安全管理人员，执行保障质量安全的国家标准、行业标准、技术规范，保证质量安全管理所必需的资金投入，确保投入使用的铁路设备符合质量安全要求。\n设计、制造、维修或者进口新型铁路机车车辆，生产铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路牵引供电设备的企业，应当依法取得相应许可。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"ca440839e1754d12b7e1c4921ca45451","document_metadata":null,"document_name":"DOC0001_铁路设备质量安全监督管理办法_精修_fdd8372b6cee.md","id":"62109d66f741b5c2","image_id":"","positions":"","row_id":"62109d66f741b5c2","similarity":0.4731085169428644,"term_similarity":0.12832213388572872,"url":"","vector_similarity":0.8178949},{"content":"# 铁路设备质量安全监督管理办法\n## 第五章 法律责任\n### 第二十九条｜铁路设备生产企业违反本办法第四条、第九条规定\n证据定位： DOC0001-K29；S0001，第五章 法律责任，第二十九条。\n铁路设备生产企业违反本办法第四条、第九条规定，未依法取得相应许可，或者生产国家明令淘汰或者不符合保障人体健康和人身、财产安全的国家标准、行业标准和技术规范的铁路设备的，由铁路监管部门责令改正，立即停止生产、销售相关铁路设备。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"ca440839e1754d12b7e1c4921ca45451","document_metadata":null,"document_name":"DOC0001_铁路设备质量安全监督管理办法_精修_fdd8372b6cee.md","id":"6fd1b8aaac8d0048","image_id":"","positions":"","row_id":"6fd1b8aaac8d0048","similarity":0.47217423194286434,"term_similarity":0.12832213388572872,"url":"","vector_similarity":0.81602633},{"content":"# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十七条｜需要与道路交叉的\n证据定位： DOC0006-K17；S0006，第二章　铁路建设质量安全，第十七条。\n新建、改建设计开行时速120公里以上列车的铁路或者设计运输量达到国务院铁路行业监督管理部门规定的较大运输量标准的铁路，需要与道路交叉的，应当设置立体交叉设施。\n新建、改建高速公路、一级公路或者城市道路中的快速路，需要与铁路交叉的，应当设置立体交叉设施，并优先选择下穿铁路的方案。\n已建成的属于前两款规定情形的铁路、道路为平面交叉的，应当逐步改造为立体交叉。\n新建、改建高速铁路需要与普通铁路、道路、渡槽、管线等设施交叉的，应当优先选择高速铁路上跨方案。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"f1d4f7f3edba485ab62be14c8f690c99","document_metadata":null,"document_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md","id":"7869f888e0810204","image_id":"","positions":"","row_id":"7869f888e0810204","similarity":0.47192706638891757,"term_similarity":0.1410886327778351,"url":"","vector_similarity":0.8027655},{"content":"# 铁路设备质量安全监督管理办法\n## 第五章 法律责任\n### 第三十二条｜铁路设备许可生产企业和铁路运输企业违反本办法第十二条、第二十一条相关规定\n证据定位： DOC0001-K32；S0001，第五章 法律责任，第三十二条。\n铁路设备许可生产企业和铁路运输企业违反本办法第十二条、第二十一条相关规定，未按要求上报有关信息的，由铁路监管部门依照《中华人民共和国安全生产法》《铁路交通事故应急救援和调查处理条例》等法律、行政法规的规定处理。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"ca440839e1754d12b7e1c4921ca45451","document_metadata":null,"document_name":"DOC0001_铁路设备质量安全监督管理办法_精修_fdd8372b6cee.md","id":"138fe36f663039b3","image_id":"","positions":"","row_id":"138fe36f663039b3","similarity":0.47177368694286437,"term_similarity":0.12832213388572872,"url":"","vector_similarity":0.81522524}],"doc_aggs":[{"count":26,"doc_id":"964e86066ece4a378ef745846628f22a","doc_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_44c663cf24db.md"},{"count":20,"doc_id":"ca440839e1754d12b7e1c4921ca45451","doc_name":"DOC0001_铁路设备质量安全监督管理办法_精修_fdd8372b6cee.md"},{"count":13,"doc_id":"2770fee85cdd477badcee7a52c32b5e0","doc_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_fccbc38feba3.md"},{"count":11,"doc_id":"09edda7a15934c83a97283a135334265","doc_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_796ca4c20367.md"},{"count":9,"doc_id":"a15a3e92b1334de9a02f70b832f13b21","doc_name":"DOC0007_铁路建设工程安全生产监督管理办法_精修_279bba6a0bf4.md"},{"count":6,"doc_id":"f1d4f7f3edba485ab62be14c8f690c99","doc_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md"},{"count":4,"doc_id":"7f4a63ea70074708bb56146b9a0ed4c6","doc_name":"DOC0013_铁路营业线施工安全管理办法_精修_981730ca3a85.md"},{"count":3,"doc_id":"b38e23ca674e4a988ccd7cf551961ac8","doc_name":"DOC0022_铁路机车车辆设计制造维修进口许可办法_精修_1025b74e494b.md"},{"count":2,"doc_id":"0274875f9f194edc8d82ab659d93483c","doc_name":"DOC0009_铁路建设工程勘察设计管理办法_精修_1a9bc45fa506.md"},{"count":2,"doc_id":"72e43cd6234f411c91c19b36e58dc42a","doc_name":"DOC0024_高速铁路安全防护管理办法_精修_b227b4dda23b.md"},{"count":1,"doc_id":"02c0111146324edb825854f35f894b40","doc_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_daf4e94c9627.md"},{"count":1,"doc_id":"2ab0ebc322de4a95b52687afc0ee42a4","doc_name":"DOC0003_铁路旅客运输安全检查管理办法_精修_2a149c37bf4c.md"},{"count":1,"doc_id":"d792115ed26546edade749fc0f539d21","doc_name":"DOC0023_铁路专用设备缺陷产品召回管理办法_精修_4c54cc836fcf.md"},{"count":1,"doc_id":"4095867ee3ac4e9eb711b162ae40bbf7","doc_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_06923619ea19.md"}]},"final":true}}
+
+data: {"code": 0, "message": "success", "data": true}
+

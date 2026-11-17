@@ -1,0 +1,2854 @@
+{
+  "doc_id": "DOC0006",
+  "source_id": "S0006",
+  "domain": "GW",
+  "phase": "trial",
+  "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+  "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+  "filename": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+  "sha256": "62effa50332bdb850d1e88778a19f715e09274a2f23fbf75ac281123a7e34c24",
+  "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+  "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+  "status": "full-body-verified",
+  "uploaded_at": "2026-11-15T17:50:56.065Z",
+  "chunk_count": 109,
+  "business_chunks": 108,
+  "verified_at": "2026-11-15T17:53:10.020Z",
+  "checked_at": "2026-11-15T17:53:13.568Z",
+  "ingestion_status": "COMPLETED",
+  "exported_count": 109,
+  "expected_points": 108,
+  "full_body_passed": 108,
+  "passed": true,
+  "checks": [
+    {
+      "knowledge_point_id": "DOC0006-K01",
+      "article": "第一条",
+      "expected_sha256": "47bc9aabafbc632e686b21cdd8ec95476416c6af49bec48176b15efc21279ea6",
+      "matching_chunk_ids": [
+        "81a279f25ad59498"
+      ],
+      "complete_chunk_ids": [
+        "81a279f25ad59498"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K02",
+      "article": "第二条",
+      "expected_sha256": "70d6c76c579f2d391caf9a6a118c277eb2f290d79778a7653bdc83b8944b7771",
+      "matching_chunk_ids": [
+        "d775a8ad9c16261c"
+      ],
+      "complete_chunk_ids": [
+        "d775a8ad9c16261c"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K03",
+      "article": "第三条",
+      "expected_sha256": "775705ea07d366e2d4b4cc65a0fec6364321a3e48386e023928dc1ac227fe11e",
+      "matching_chunk_ids": [
+        "56bc44185dec425e"
+      ],
+      "complete_chunk_ids": [
+        "56bc44185dec425e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K04",
+      "article": "第四条",
+      "expected_sha256": "1a08e8996e61003e4bfa69dbf3549a9997cf2d70bd8cee9c7e228eb7ce74c8fb",
+      "matching_chunk_ids": [
+        "e574b64195f22178"
+      ],
+      "complete_chunk_ids": [
+        "e574b64195f22178"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K05",
+      "article": "第五条",
+      "expected_sha256": "0d25786b4e8d611cb90efb32e89c34bc7b19a5b4c4783c90f4f3118ab31d73b3",
+      "matching_chunk_ids": [
+        "6d970bcbe03e258e"
+      ],
+      "complete_chunk_ids": [
+        "6d970bcbe03e258e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K06",
+      "article": "第六条",
+      "expected_sha256": "86213b11a17865e9a960e32efd622cd944edd080a4e26a1b9edafc0c36ad293b",
+      "matching_chunk_ids": [
+        "157c564f763d350b"
+      ],
+      "complete_chunk_ids": [
+        "157c564f763d350b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K07",
+      "article": "第七条",
+      "expected_sha256": "b62f16522c0c90a1978c7abfd556d05d4141ea0bf54f0756688c7c532f0b619b",
+      "matching_chunk_ids": [
+        "040fd6e72155c67f"
+      ],
+      "complete_chunk_ids": [
+        "040fd6e72155c67f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K08",
+      "article": "第八条",
+      "expected_sha256": "dc508f4469f41d414237da5e60b18e7bdc715dd18121d5b7db145846803a8f07",
+      "matching_chunk_ids": [
+        "3ab389944a444164"
+      ],
+      "complete_chunk_ids": [
+        "3ab389944a444164"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K09",
+      "article": "第九条",
+      "expected_sha256": "9e19e2cf02c6e86e803047e7f4e89ca8078edc5eac160355dd8af3f8400e400a",
+      "matching_chunk_ids": [
+        "be25880f4760bde5"
+      ],
+      "complete_chunk_ids": [
+        "be25880f4760bde5"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K10",
+      "article": "第十条",
+      "expected_sha256": "35312c499892e2b09bf21dc6140c6f09e9b5624897d05ee476ec135d4139bc67",
+      "matching_chunk_ids": [
+        "fc6aca306dbc4208"
+      ],
+      "complete_chunk_ids": [
+        "fc6aca306dbc4208"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K11",
+      "article": "第十一条",
+      "expected_sha256": "1948e66ad7d93d6768e2157f1aebe76bb96aef599383ee558fa77fb51585c971",
+      "matching_chunk_ids": [
+        "7427597b597df2d6"
+      ],
+      "complete_chunk_ids": [
+        "7427597b597df2d6"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K12",
+      "article": "第十二条",
+      "expected_sha256": "a9af981f6f3ed2ba8235869b5e72a854b97c9651353a2e260b623d45f05edc82",
+      "matching_chunk_ids": [
+        "7a83312886c82bb5"
+      ],
+      "complete_chunk_ids": [
+        "7a83312886c82bb5"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K13",
+      "article": "第十三条",
+      "expected_sha256": "dd58c32376a98827fd5c1c2c44c8c2a9687fc82572f3db69a781bee78de98146",
+      "matching_chunk_ids": [
+        "9c619c958869931f"
+      ],
+      "complete_chunk_ids": [
+        "9c619c958869931f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K14",
+      "article": "第十四条",
+      "expected_sha256": "ba05a6f0e2429104561579acd42cd59ddedb1d563b7488d373af57639117b761",
+      "matching_chunk_ids": [
+        "59750f0a229e324f"
+      ],
+      "complete_chunk_ids": [
+        "59750f0a229e324f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K15",
+      "article": "第十五条",
+      "expected_sha256": "11bb2c5734e6893e8975684595154d5716189565b3ca55517b12ec815f8f7662",
+      "matching_chunk_ids": [
+        "d99f98334f4875cd"
+      ],
+      "complete_chunk_ids": [
+        "d99f98334f4875cd"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K16",
+      "article": "第十六条",
+      "expected_sha256": "7f1864a836a5b996ba9f954afb6b733b1ed398c972fba378a93169739c127a92",
+      "matching_chunk_ids": [
+        "3ba6d5deedaf5603"
+      ],
+      "complete_chunk_ids": [
+        "3ba6d5deedaf5603"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K17",
+      "article": "第十七条",
+      "expected_sha256": "37370786bcae18b8c7ee3043e31751af629e2a81cc20bc1a6ac06dc98ce08fb8",
+      "matching_chunk_ids": [
+        "c06f66a8e378eb57"
+      ],
+      "complete_chunk_ids": [
+        "c06f66a8e378eb57"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K18",
+      "article": "第十八条",
+      "expected_sha256": "329b3cd7294dd73cbc7bc80bbcc8ba457ee8714102066d18dfce77b8965915ef",
+      "matching_chunk_ids": [
+        "a14eebab6af6ac6e"
+      ],
+      "complete_chunk_ids": [
+        "a14eebab6af6ac6e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K19",
+      "article": "第十九条",
+      "expected_sha256": "f39f09dba3b29c635787965b96790c4f1439560347ca56e0ff686204002017ab",
+      "matching_chunk_ids": [
+        "9954a46dafde3442"
+      ],
+      "complete_chunk_ids": [
+        "9954a46dafde3442"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K20",
+      "article": "第二十条",
+      "expected_sha256": "570eedcbc6a84f2e47aaec6f2658eccbcbdecc6d85a0b28987f6ebf8e95df52f",
+      "matching_chunk_ids": [
+        "e51609371b5396fb"
+      ],
+      "complete_chunk_ids": [
+        "e51609371b5396fb"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K21",
+      "article": "第二十一条",
+      "expected_sha256": "98c00cc681c5d1e70549ed94abcbc89d0f95d139ac90890a28b6306587a10e6b",
+      "matching_chunk_ids": [
+        "86f8090fe7e104e9"
+      ],
+      "complete_chunk_ids": [
+        "86f8090fe7e104e9"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K22",
+      "article": "第二十二条",
+      "expected_sha256": "19f882ae2aefca601266cc7b5302d74d8a44322fb29aa31d7fcf1cf24be0f52c",
+      "matching_chunk_ids": [
+        "920aab537db2e602"
+      ],
+      "complete_chunk_ids": [
+        "920aab537db2e602"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K23",
+      "article": "第二十三条",
+      "expected_sha256": "0d7731a9ad074fb8afd09371688f3023fe3028713139a1c2c122209805e4b2a0",
+      "matching_chunk_ids": [
+        "7976c2448953db4b"
+      ],
+      "complete_chunk_ids": [
+        "7976c2448953db4b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K24",
+      "article": "第二十四条",
+      "expected_sha256": "33d1d4ccc2c0b4f969924504663296fe282e5a8273668619abc61e8296145cf8",
+      "matching_chunk_ids": [
+        "c2f69aad6aa6be47"
+      ],
+      "complete_chunk_ids": [
+        "c2f69aad6aa6be47"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K25",
+      "article": "第二十五条",
+      "expected_sha256": "41afac29ef63e7fa44b5cd0cc59f1f3b748dbb47d16f3f8647f3ca6fe60cfb64",
+      "matching_chunk_ids": [
+        "dd76622a417c14da"
+      ],
+      "complete_chunk_ids": [
+        "dd76622a417c14da"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K26",
+      "article": "第二十六条",
+      "expected_sha256": "d0f128ae3405c007529be11b2b5ad8dd2afce4e7c87e8e9ddecd5be8d3a3c8e5",
+      "matching_chunk_ids": [
+        "bfe0f70c6aeec518"
+      ],
+      "complete_chunk_ids": [
+        "bfe0f70c6aeec518"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K27",
+      "article": "第二十七条",
+      "expected_sha256": "9b0410ac75a13a0e65cc6b848e83f71a364fb374340fa08e09d411a06fa09423",
+      "matching_chunk_ids": [
+        "14a894be3697c31c"
+      ],
+      "complete_chunk_ids": [
+        "14a894be3697c31c"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K28",
+      "article": "第二十八条",
+      "expected_sha256": "febdfabcba34544fd56ecb2951c6ce95ca601ac99842a652cb05061bd76d57b8",
+      "matching_chunk_ids": [
+        "7b4004868dd25fc1"
+      ],
+      "complete_chunk_ids": [
+        "7b4004868dd25fc1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K29",
+      "article": "第二十九条",
+      "expected_sha256": "e0729768b4807a287f08e30e77b78a2d24fcded8825ce0f639d9d7b63234f6ff",
+      "matching_chunk_ids": [
+        "4c5db15f2355b16e"
+      ],
+      "complete_chunk_ids": [
+        "4c5db15f2355b16e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K30",
+      "article": "第三十条",
+      "expected_sha256": "d4a3a24c6f758c806ad71dc80ccb669919a2304b96399b03b42344b03105fe16",
+      "matching_chunk_ids": [
+        "801aaf7251dbbfce"
+      ],
+      "complete_chunk_ids": [
+        "801aaf7251dbbfce"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K31",
+      "article": "第三十一条",
+      "expected_sha256": "3d63de0a3cb4151be68c88d437412f25880a23c210f85fe86c6ea1e9883dd0f9",
+      "matching_chunk_ids": [
+        "b14de318c4699e0d"
+      ],
+      "complete_chunk_ids": [
+        "b14de318c4699e0d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K32",
+      "article": "第三十二条",
+      "expected_sha256": "39bdb863c931c296689cb0b0f24a462dde8d1f7eeaefffc65de0e9bd105689e5",
+      "matching_chunk_ids": [
+        "31a4e3df0da0f882"
+      ],
+      "complete_chunk_ids": [
+        "31a4e3df0da0f882"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K33",
+      "article": "第三十三条",
+      "expected_sha256": "1b0ffc11d5ace4b97bc2c047f1e5b8447989b749cc2e04ca991075f04daa6912",
+      "matching_chunk_ids": [
+        "89fff8f8f6bb9992"
+      ],
+      "complete_chunk_ids": [
+        "89fff8f8f6bb9992"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K34",
+      "article": "第三十四条",
+      "expected_sha256": "fe24e15116c7e7043549619d3d7552579fd54a34ca41da21846e14b5bc03e3a4",
+      "matching_chunk_ids": [
+        "c0ca32ad6b5d237e"
+      ],
+      "complete_chunk_ids": [
+        "c0ca32ad6b5d237e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K35",
+      "article": "第三十五条",
+      "expected_sha256": "43b4bc1be6f2cf2fa7c3bd32ee665bfbac1d23b1325634ec2cdf318ec1e42988",
+      "matching_chunk_ids": [
+        "89d8047d0521384d"
+      ],
+      "complete_chunk_ids": [
+        "89d8047d0521384d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K36",
+      "article": "第三十六条",
+      "expected_sha256": "ad333774940973c4c5bc6cee0af8d5c205094895f9fcc6912286e272a7467385",
+      "matching_chunk_ids": [
+        "79a71eef2f33b151"
+      ],
+      "complete_chunk_ids": [
+        "79a71eef2f33b151"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K37",
+      "article": "第三十七条",
+      "expected_sha256": "22b7179b7be8c73256b2cfea7978fe171cdcd5ca43024aa9abd8463715fbb314",
+      "matching_chunk_ids": [
+        "22570d21b49be715"
+      ],
+      "complete_chunk_ids": [
+        "22570d21b49be715"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K38",
+      "article": "第三十八条",
+      "expected_sha256": "42cc421f124f32910e8c35e2f60e5ce437f64c1e9db6e057a555e6bab6ed3249",
+      "matching_chunk_ids": [
+        "f8c9796721152b22"
+      ],
+      "complete_chunk_ids": [
+        "f8c9796721152b22"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K39",
+      "article": "第三十九条",
+      "expected_sha256": "6a4da52b9b6402fde05b999f4427d2255d9631fc8fcbcfb26b285878f88b6a15",
+      "matching_chunk_ids": [
+        "96dbac006a7afcb8"
+      ],
+      "complete_chunk_ids": [
+        "96dbac006a7afcb8"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K40",
+      "article": "第四十条",
+      "expected_sha256": "832ad82c838784a877fa7f118c2693e1fa4f4c5d31db44f6e8272a0e8158e16a",
+      "matching_chunk_ids": [
+        "0ebdc436dc172119"
+      ],
+      "complete_chunk_ids": [
+        "0ebdc436dc172119"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K41",
+      "article": "第四十一条",
+      "expected_sha256": "20ef33631ac3d8f5543394febe0c26aeb54ed70a6d03098d22f28fae759b28ac",
+      "matching_chunk_ids": [
+        "23fa933440ca8573"
+      ],
+      "complete_chunk_ids": [
+        "23fa933440ca8573"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K42",
+      "article": "第四十二条",
+      "expected_sha256": "561faa618e0cbd06af438a1613e3fdec4eb3f6ead5179e19ea733cacebba68bd",
+      "matching_chunk_ids": [
+        "8e312287984535c9"
+      ],
+      "complete_chunk_ids": [
+        "8e312287984535c9"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K43",
+      "article": "第四十三条",
+      "expected_sha256": "02f8ac86de0ae071f1bad0d48516bfddeef9187cb3322bf392fcc4e71b7ee462",
+      "matching_chunk_ids": [
+        "45772a6c2308a705"
+      ],
+      "complete_chunk_ids": [
+        "45772a6c2308a705"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K44",
+      "article": "第四十四条",
+      "expected_sha256": "4b9517daddc0a04c79094204b0de52e4ec6a7750630a4e6db76e60d53f5d541c",
+      "matching_chunk_ids": [
+        "48724fb5c7f0588e"
+      ],
+      "complete_chunk_ids": [
+        "48724fb5c7f0588e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K45",
+      "article": "第四十五条",
+      "expected_sha256": "e0d7777349248e683cc841b5494e7f2e8a5bd4c298c188b50f5067b15b1b4cc0",
+      "matching_chunk_ids": [
+        "5695a70babc05f13"
+      ],
+      "complete_chunk_ids": [
+        "5695a70babc05f13"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K46",
+      "article": "第四十六条",
+      "expected_sha256": "434607ee2f807e983ea6897093898e73f765f88c278a17104bb5c2f3e307cdab",
+      "matching_chunk_ids": [
+        "7dcbc8c2a85870e2"
+      ],
+      "complete_chunk_ids": [
+        "7dcbc8c2a85870e2"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K47",
+      "article": "第四十七条",
+      "expected_sha256": "416dceaa17fd6f679704f3d16192008798050b3a2facf20f22e561aed7ad5dc9",
+      "matching_chunk_ids": [
+        "4a53581eb7153115"
+      ],
+      "complete_chunk_ids": [
+        "4a53581eb7153115"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K48",
+      "article": "第四十八条",
+      "expected_sha256": "5c09a6a69449551641268e8bcd1c816b341dec4cbda376c7a90952cc28e0a375",
+      "matching_chunk_ids": [
+        "92bfe47f84b0685c"
+      ],
+      "complete_chunk_ids": [
+        "92bfe47f84b0685c"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K49",
+      "article": "第四十九条",
+      "expected_sha256": "38ce2fbad791bc61c3553ed09cf42dbf71c3d2adb603a7992874afe71e9e7c6e",
+      "matching_chunk_ids": [
+        "17d3eb9fb56b5141"
+      ],
+      "complete_chunk_ids": [
+        "17d3eb9fb56b5141"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K50",
+      "article": "第五十条",
+      "expected_sha256": "9e038aeef6cffa65e9aa3042abbbeccafe4aa166f270482ea4cabf3e9d6690aa",
+      "matching_chunk_ids": [
+        "89c5e5e1ca179cd5"
+      ],
+      "complete_chunk_ids": [
+        "89c5e5e1ca179cd5"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K51",
+      "article": "第五十一条",
+      "expected_sha256": "f031f979425f104b9b577de13ed90c9b672c1b6a5afeab12cf29749857b6cd6e",
+      "matching_chunk_ids": [
+        "ac92f8a2a2796a9e"
+      ],
+      "complete_chunk_ids": [
+        "ac92f8a2a2796a9e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K52",
+      "article": "第五十二条",
+      "expected_sha256": "b63661d21939e684cf4e4fe4e15436640fc34e80ee22c48f84bebfd32c162691",
+      "matching_chunk_ids": [
+        "475e5ae36c06cf25"
+      ],
+      "complete_chunk_ids": [
+        "475e5ae36c06cf25"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K53",
+      "article": "第五十三条",
+      "expected_sha256": "ad7b74412d0f4dda517322e5ba5c4f60620d9e4a7b16c48fcea9e6a5b18990d6",
+      "matching_chunk_ids": [
+        "b778864e16c9e37d"
+      ],
+      "complete_chunk_ids": [
+        "b778864e16c9e37d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K54",
+      "article": "第五十四条",
+      "expected_sha256": "cd5ea26970233344e6b09a4ac4819211649d2ddb2b4841d6abdd133e112a063c",
+      "matching_chunk_ids": [
+        "4ff69b65c70f3fce"
+      ],
+      "complete_chunk_ids": [
+        "4ff69b65c70f3fce"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K55",
+      "article": "第五十五条",
+      "expected_sha256": "fbd12519527ea2dc05f90f7d2bc56a39474eedad62905b985f7a96a352427e7b",
+      "matching_chunk_ids": [
+        "df105ef613a6154a"
+      ],
+      "complete_chunk_ids": [
+        "df105ef613a6154a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K56",
+      "article": "第五十六条",
+      "expected_sha256": "ccb2ffb2e041a5ad7effe34eb146b3c5a4c6e8de17a03f61278871a48008edb7",
+      "matching_chunk_ids": [
+        "3ca837e8eb6e6dcd"
+      ],
+      "complete_chunk_ids": [
+        "3ca837e8eb6e6dcd"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K57",
+      "article": "第五十七条",
+      "expected_sha256": "d3e132f090be94eb6d2427e74dfa8cbe118f77f24e4ac40ef58cce9835191e70",
+      "matching_chunk_ids": [
+        "da1aec48eeb7c999"
+      ],
+      "complete_chunk_ids": [
+        "da1aec48eeb7c999"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K58",
+      "article": "第五十八条",
+      "expected_sha256": "f57680748acd9030864785eff3adc2f42f9a5ad82f0e63c6b52594b57ea628bc",
+      "matching_chunk_ids": [
+        "8778daa8387cbd62"
+      ],
+      "complete_chunk_ids": [
+        "8778daa8387cbd62"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K59",
+      "article": "第五十九条",
+      "expected_sha256": "c47ecc9944c9c831076a2f2f931b6997aa74b55de68386b7719b00706def8f69",
+      "matching_chunk_ids": [
+        "9268cfe36f83590d"
+      ],
+      "complete_chunk_ids": [
+        "9268cfe36f83590d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K60",
+      "article": "第六十条",
+      "expected_sha256": "d9e40a65aa9e9e6d9d1db6a1f2ee19bd53e1b6ee01b4cb0b39066383a4e590e5",
+      "matching_chunk_ids": [
+        "88a21bc111904986"
+      ],
+      "complete_chunk_ids": [
+        "88a21bc111904986"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K61",
+      "article": "第六十一条",
+      "expected_sha256": "a9d6614a7f60623f4859bd7f3fec8ac8f219584720a89bc0a0adcc369380891f",
+      "matching_chunk_ids": [
+        "51cac0a2dc0b80df"
+      ],
+      "complete_chunk_ids": [
+        "51cac0a2dc0b80df"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K62",
+      "article": "第六十二条",
+      "expected_sha256": "573969d149d06f56bb032a398794957931283a612c7b8235ea63eff424c66c56",
+      "matching_chunk_ids": [
+        "30369f8ce8b771b0"
+      ],
+      "complete_chunk_ids": [
+        "30369f8ce8b771b0"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K63",
+      "article": "第六十三条",
+      "expected_sha256": "c1afef4084041fd1570298f01e2623a0ef6d203077046137331a2299cc82e392",
+      "matching_chunk_ids": [
+        "636eca1944d21f5a"
+      ],
+      "complete_chunk_ids": [
+        "636eca1944d21f5a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K64",
+      "article": "第六十四条",
+      "expected_sha256": "4ee144bc59d0bc939b427f43c9ed5cd9ec1e62c7852b51671f8a442b86eced19",
+      "matching_chunk_ids": [
+        "238acf264f5854f2"
+      ],
+      "complete_chunk_ids": [
+        "238acf264f5854f2"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K65",
+      "article": "第六十五条",
+      "expected_sha256": "53b8eedf56f7fa8d277dea0cbee1a7ad8cc3d803f3d4f9a0540ffeca6457af54",
+      "matching_chunk_ids": [
+        "fd8d0e7c8a72b30d"
+      ],
+      "complete_chunk_ids": [
+        "fd8d0e7c8a72b30d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K66",
+      "article": "第六十六条",
+      "expected_sha256": "6137f58f57212a131b4401f6ecf2b3b0bf68d52b4a19f41722790561535e3c97",
+      "matching_chunk_ids": [
+        "f978312bef93b5cd"
+      ],
+      "complete_chunk_ids": [
+        "f978312bef93b5cd"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K67",
+      "article": "第六十七条",
+      "expected_sha256": "bc3c2c849ad884b6f76a60225464bc7f7ee7dd6f8efdf56e219a366c2a832dc0",
+      "matching_chunk_ids": [
+        "ba8e6894f46ab5ac"
+      ],
+      "complete_chunk_ids": [
+        "ba8e6894f46ab5ac"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K68",
+      "article": "第六十八条",
+      "expected_sha256": "a0396ad6ad29fd8d37de769f3b641b201cbbb6bc7e5bc036cf10914847381d77",
+      "matching_chunk_ids": [
+        "03c2d88a01cce174"
+      ],
+      "complete_chunk_ids": [
+        "03c2d88a01cce174"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K69",
+      "article": "第六十九条",
+      "expected_sha256": "e202858a4368cc45de8bc39207b979881bf151239427f9b8806019e8a6011f32",
+      "matching_chunk_ids": [
+        "dbc14b63adb78c55"
+      ],
+      "complete_chunk_ids": [
+        "dbc14b63adb78c55"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K70",
+      "article": "第七十条",
+      "expected_sha256": "9dc0b20a27ff0d5a67e4869ce49b845b3ef126c902e34a4e2a2dd45016c06a69",
+      "matching_chunk_ids": [
+        "83e1661908f4b4f0"
+      ],
+      "complete_chunk_ids": [
+        "83e1661908f4b4f0"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K71",
+      "article": "第七十一条",
+      "expected_sha256": "7583c96876e9865b763c3f4c3ffd3ae6cfc80a94a4c4a05a43567a587bd198c6",
+      "matching_chunk_ids": [
+        "c4da7809890ac37d"
+      ],
+      "complete_chunk_ids": [
+        "c4da7809890ac37d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K72",
+      "article": "第七十二条",
+      "expected_sha256": "048e5c59a2222d04bbdd12bc0faf8f7fd64c23565f05bb09156446e3f1a5ce1f",
+      "matching_chunk_ids": [
+        "ccaa2138cf37b59b"
+      ],
+      "complete_chunk_ids": [
+        "ccaa2138cf37b59b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K73",
+      "article": "第七十三条",
+      "expected_sha256": "f70318689aefacff1222c28c03c27b4d736b44fcf8e9f829a9edc056f315d70c",
+      "matching_chunk_ids": [
+        "7f7d31ba3326b5df"
+      ],
+      "complete_chunk_ids": [
+        "7f7d31ba3326b5df"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K74",
+      "article": "第七十四条",
+      "expected_sha256": "daa67be45b4b64bda24caae152eedec4f580795ede026edfb48edf6edd8527f0",
+      "matching_chunk_ids": [
+        "7d33228e346fca75"
+      ],
+      "complete_chunk_ids": [
+        "7d33228e346fca75"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K75",
+      "article": "第七十五条",
+      "expected_sha256": "d72f0bc1b6065b8fcab02034787bd83df59e974172b48e806a60534a12ab5e98",
+      "matching_chunk_ids": [
+        "7f93c8fe8617dffb"
+      ],
+      "complete_chunk_ids": [
+        "7f93c8fe8617dffb"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K76",
+      "article": "第七十六条",
+      "expected_sha256": "fcc1bda37d1694ab1db74e2cb4f9a64e5ef12b561ca8eba5c1a2674588c78d92",
+      "matching_chunk_ids": [
+        "7164f483f37bb38e"
+      ],
+      "complete_chunk_ids": [
+        "7164f483f37bb38e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K77",
+      "article": "第七十七条",
+      "expected_sha256": "7abbb6785493fe5f990ae4c3b86d2730821447b1eefd11b1fd1a84e81283af0a",
+      "matching_chunk_ids": [
+        "2b2e9f03e2f707d0"
+      ],
+      "complete_chunk_ids": [
+        "2b2e9f03e2f707d0"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K78",
+      "article": "第七十八条",
+      "expected_sha256": "f716bceab3354faedbd0ed95dfa509ab34230aa1bdcee498c8d9a6edc89f9fa8",
+      "matching_chunk_ids": [
+        "1a0e0fb4000f00b0"
+      ],
+      "complete_chunk_ids": [
+        "1a0e0fb4000f00b0"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K79",
+      "article": "第七十九条",
+      "expected_sha256": "516ef5bf988d34b2eeb79890afae7e3af2865442e0fb6011fb5fa6d15db85227",
+      "matching_chunk_ids": [
+        "eb41535ca287662f"
+      ],
+      "complete_chunk_ids": [
+        "eb41535ca287662f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K80",
+      "article": "第八十条",
+      "expected_sha256": "4b2d153f0886a18da639046588452928294f3d3b8ed96dafcd5730752d8c1c92",
+      "matching_chunk_ids": [
+        "3efa177b5cf80778"
+      ],
+      "complete_chunk_ids": [
+        "3efa177b5cf80778"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K81",
+      "article": "第八十一条",
+      "expected_sha256": "aae4fd7c38f734d974972999782a965e8e12b28a8e2c1e56a850f1abcc518da5",
+      "matching_chunk_ids": [
+        "c21dc8f60f2f90b5"
+      ],
+      "complete_chunk_ids": [
+        "c21dc8f60f2f90b5"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K82",
+      "article": "第八十二条",
+      "expected_sha256": "ab77e2119597c4a3d595e5dd01bf2d63c9886fc43e150a94fef92cdbee932878",
+      "matching_chunk_ids": [
+        "21fa0ea9e15593fd"
+      ],
+      "complete_chunk_ids": [
+        "21fa0ea9e15593fd"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K83",
+      "article": "第八十三条",
+      "expected_sha256": "ef7ebcf2f53e1c074956a64e555fb8b29f47fcb28a0b3eee2d9847e21d12cc8a",
+      "matching_chunk_ids": [
+        "371b423dda5888b2"
+      ],
+      "complete_chunk_ids": [
+        "371b423dda5888b2"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K84",
+      "article": "第八十四条",
+      "expected_sha256": "a3bfc364fed4344ccf46f44a73a73c1259494ef3a9b71c9d5758efe7d5ebcd32",
+      "matching_chunk_ids": [
+        "05ba322fdf15641b"
+      ],
+      "complete_chunk_ids": [
+        "05ba322fdf15641b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K85",
+      "article": "第八十五条",
+      "expected_sha256": "8a90351f6ce4f594a50a80a72f2f042c412ef41ccc506ad8b6285373dc5f96c9",
+      "matching_chunk_ids": [
+        "1bc813da3d763bf2"
+      ],
+      "complete_chunk_ids": [
+        "1bc813da3d763bf2"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K86",
+      "article": "第八十六条",
+      "expected_sha256": "7ce28923ed28f9308ae82a8e16aca2f2b98cdc7c6903db632a1fccdff68b8f04",
+      "matching_chunk_ids": [
+        "70906196ffea1ebf"
+      ],
+      "complete_chunk_ids": [
+        "70906196ffea1ebf"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K87",
+      "article": "第八十七条",
+      "expected_sha256": "2c0283aad895bce632f1611bb254dcc7bd62fb070848d6d3e43e5b12e6ccf55f",
+      "matching_chunk_ids": [
+        "0044ba9b552af87e"
+      ],
+      "complete_chunk_ids": [
+        "0044ba9b552af87e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K88",
+      "article": "第八十八条",
+      "expected_sha256": "5aa9d9891c074bfd53ca7b501ffdeab2979d2226bb21964c6d8cdbc26e48f03d",
+      "matching_chunk_ids": [
+        "c24f74447281a2c6"
+      ],
+      "complete_chunk_ids": [
+        "c24f74447281a2c6"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K89",
+      "article": "第八十九条",
+      "expected_sha256": "e32b1658a35e850d011577b771abbe717a1df50e0428d094d68da59284dcb565",
+      "matching_chunk_ids": [
+        "123c8b93d409f9ef"
+      ],
+      "complete_chunk_ids": [
+        "123c8b93d409f9ef"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K90",
+      "article": "第九十条",
+      "expected_sha256": "91a31aff911e4d03cad19d918c0d886f70c105ea0b2ad38309addaad576cf280",
+      "matching_chunk_ids": [
+        "211504967141a692"
+      ],
+      "complete_chunk_ids": [
+        "211504967141a692"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K91",
+      "article": "第九十一条",
+      "expected_sha256": "179bb1418a7b608e8d11b912e0595032297e0e81bbb7357059c2086098e102b6",
+      "matching_chunk_ids": [
+        "7ff414ecb98bbb74"
+      ],
+      "complete_chunk_ids": [
+        "7ff414ecb98bbb74"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K92",
+      "article": "第九十二条",
+      "expected_sha256": "a43ee8090bd8523d46f55549d524e2f1a65534f8f487602abdce41877c417912",
+      "matching_chunk_ids": [
+        "93b2472a3e33e112"
+      ],
+      "complete_chunk_ids": [
+        "93b2472a3e33e112"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K93",
+      "article": "第九十三条",
+      "expected_sha256": "2aa6d1b2623b36b4eb2b8f732d17b5641d8d4d9763760c1047378d4d94336c9a",
+      "matching_chunk_ids": [
+        "fe73e43df1975621"
+      ],
+      "complete_chunk_ids": [
+        "fe73e43df1975621"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K94",
+      "article": "第九十四条",
+      "expected_sha256": "ec45d58fc8d5ab1721dcc0b9ee67ad462cf20c785c959db042f51361cba2a26e",
+      "matching_chunk_ids": [
+        "43732073d69c45a6"
+      ],
+      "complete_chunk_ids": [
+        "43732073d69c45a6"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K95",
+      "article": "第九十五条",
+      "expected_sha256": "ec6f6731254a033974a2675b08a078eb2f7d08ac2b3fde116336c7dc4b3280ce",
+      "matching_chunk_ids": [
+        "0a55c2d90f2623cd"
+      ],
+      "complete_chunk_ids": [
+        "0a55c2d90f2623cd"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K96",
+      "article": "第九十六条",
+      "expected_sha256": "aa175974f0badb288c95e3d254f6aa9b593ee932c75a66bb5cf64c738f055717",
+      "matching_chunk_ids": [
+        "f55937611921c8a5"
+      ],
+      "complete_chunk_ids": [
+        "f55937611921c8a5"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K97",
+      "article": "第九十七条",
+      "expected_sha256": "ec1008d7fccd17ca9d91da7134aab43c5a1d8ceb47e2ab19e7712df9b1a1655f",
+      "matching_chunk_ids": [
+        "884b16bbe789ea07"
+      ],
+      "complete_chunk_ids": [
+        "884b16bbe789ea07"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K98",
+      "article": "第九十八条",
+      "expected_sha256": "99c3c86f055e1ae77950af4c5563a9aceb483b9c34f0bca16fe6f531db61b221",
+      "matching_chunk_ids": [
+        "9d374af826ba79ae"
+      ],
+      "complete_chunk_ids": [
+        "9d374af826ba79ae"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K99",
+      "article": "第九十九条",
+      "expected_sha256": "ed5dcdf4fd961f92aabd508ad0797d77f6cb0cad4dc8ffe571e8aba4cd2eda53",
+      "matching_chunk_ids": [
+        "a2c5f60d369aeb01"
+      ],
+      "complete_chunk_ids": [
+        "a2c5f60d369aeb01"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K100",
+      "article": "第一百条",
+      "expected_sha256": "3f6f339b17bc1b3be816e5b1e4bc39a6196ac419b87f965f25b58b07e83e34fc",
+      "matching_chunk_ids": [
+        "6f94a485ef183c53"
+      ],
+      "complete_chunk_ids": [
+        "6f94a485ef183c53"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K101",
+      "article": "第一百零一条",
+      "expected_sha256": "b02f25ac09772c14135539d6b9378bcda8c6655d527ef088334793c9a51f30d0",
+      "matching_chunk_ids": [
+        "3ab0d05f92ca5172"
+      ],
+      "complete_chunk_ids": [
+        "3ab0d05f92ca5172"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K102",
+      "article": "第一百零二条",
+      "expected_sha256": "f1ad3c0a3d3f53f94be240b71084e29c9ea3eedb2b5352299aed7139e5761c37",
+      "matching_chunk_ids": [
+        "7ae4f9b85ebd8a29"
+      ],
+      "complete_chunk_ids": [
+        "7ae4f9b85ebd8a29"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K103",
+      "article": "第一百零三条",
+      "expected_sha256": "2717ad3d4316a61842b8695f879ebb48c94554ec255f733530f09ca2733cf120",
+      "matching_chunk_ids": [
+        "70d860ad45054337"
+      ],
+      "complete_chunk_ids": [
+        "70d860ad45054337"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K104",
+      "article": "第一百零四条",
+      "expected_sha256": "95f185a8f3354ded6fcbb9ece245a2f2b84b6a8dd9ed0970efe3d081b6725e1e",
+      "matching_chunk_ids": [
+        "af6a4374fec4c9df"
+      ],
+      "complete_chunk_ids": [
+        "af6a4374fec4c9df"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K105",
+      "article": "第一百零五条",
+      "expected_sha256": "2cbdf3af725df30ae1861b9987cc6cfeb591bae5ba9f1d0b041a2cee5b8e1557",
+      "matching_chunk_ids": [
+        "aa11e27471ce9f1a"
+      ],
+      "complete_chunk_ids": [
+        "aa11e27471ce9f1a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K106",
+      "article": "第一百零六条",
+      "expected_sha256": "e29706cdb5f077f66baedea61bb34b5b2738e387cbf7cf9ddce7780592638325",
+      "matching_chunk_ids": [
+        "8e2bf68072213e7a"
+      ],
+      "complete_chunk_ids": [
+        "8e2bf68072213e7a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K107",
+      "article": "第一百零七条",
+      "expected_sha256": "7061128dbe00a46a69f634487e464ceac206b4989fa1e864fdd4895b2ac6ed6a",
+      "matching_chunk_ids": [
+        "e38d1791f0b63881"
+      ],
+      "complete_chunk_ids": [
+        "e38d1791f0b63881"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0006-K108",
+      "article": "第一百零八条",
+      "expected_sha256": "1f9ba524a7517d83671c4f11cefa744c43694242b7488f9d84959db633aa6645",
+      "matching_chunk_ids": [
+        "8ce4865102e77d3e"
+      ],
+      "complete_chunk_ids": [
+        "8ce4865102e77d3e"
+      ],
+      "passed": true
+    }
+  ],
+  "metadata_chunk_ids": [
+    "85753262aef9cc2e"
+  ],
+  "polluted_chunk_ids": [],
+  "chunks": [
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "81a279f25ad59498",
+      "content": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第一条｜为了加强铁路安全管理，保障铁路运输安全和畅通，保护人身安全和财产安全，制定本条例\n证据定位： DOC0006-K01；S0006，第一章　总　　则，第一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n为了加强铁路安全管理，保障铁路运输安全和畅通，保护人身安全和财产安全，制定本条例。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第一条｜为了加强铁路安全管理，保障铁路运输安全和畅通，保护人身安全和财产安全，制定本条例\n证据定位： DOC0006-K01；S0006，第一章　总　　则，第一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n为了加强铁路安全管理，保障铁路运输安全和畅通，保护人身安全和财产安全，制定本条例。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "81a279f25ad59498",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "d775a8ad9c16261c",
+      "content": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第二条｜铁路安全管理坚持安全第一、预防为主、综合治理的方针\n证据定位： DOC0006-K02；S0006，第一章　总　　则，第二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路安全管理坚持安全第一、预防为主、综合治理的方针。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第二条｜铁路安全管理坚持安全第一、预防为主、综合治理的方针\n证据定位： DOC0006-K02；S0006，第一章　总　　则，第二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路安全管理坚持安全第一、预防为主、综合治理的方针。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "d775a8ad9c16261c",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "56bc44185dec425e",
+      "content": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第三条｜国务院铁路行业监督管理部门负责全国铁路安全监督管理工作\n证据定位： DOC0006-K03；S0006，第一章　总　　则，第三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n国务院铁路行业监督管理部门负责全国铁路安全监督管理工作，国务院铁路行业监督管理部门设立的铁路监督管理机构负责辖区内的铁路安全监督管理工作。国务院铁路行业监督管理部门和铁路监督管理机构统称铁路监管部门。\n国务院有关部门依照法律和国务院规定的职责，负责铁路安全管理的有关工作。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第三条｜国务院铁路行业监督管理部门负责全国铁路安全监督管理工作\n证据定位： DOC0006-K03；S0006，第一章　总　　则，第三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n国务院铁路行业监督管理部门负责全国铁路安全监督管理工作，国务院铁路行业监督管理部门设立的铁路监督管理机构负责辖区内的铁路安全监督管理工作。国务院铁路行业监督管理部门和铁路监督管理机构统称铁路监管部门。\n国务院有关部门依照法律和国务院规定的职责，负责铁路安全管理的有关工作。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "56bc44185dec425e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e574b64195f22178",
+      "content": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第四条｜铁路沿线地方各级人民政府和县级以上地方人民政府有关部门应当按照各自职责\n证据定位： DOC0006-K04；S0006，第一章　总　　则，第四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路沿线地方各级人民政府和县级以上地方人民政府有关部门应当按照各自职责，加强保障铁路安全的教育，落实护路联防责任制，防范和制止危害铁路安全的行为，协调和处理保障铁路安全的有关事项，做好保障铁路安全的有关工作。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第四条｜铁路沿线地方各级人民政府和县级以上地方人民政府有关部门应当按照各自职责\n证据定位： DOC0006-K04；S0006，第一章　总　　则，第四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路沿线地方各级人民政府和县级以上地方人民政府有关部门应当按照各自职责，加强保障铁路安全的教育，落实护路联防责任制，防范和制止危害铁路安全的行为，协调和处理保障铁路安全的有关事项，做好保障铁路安全的有关工作。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "e574b64195f22178",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "6d970bcbe03e258e",
+      "content": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第五条｜从事铁路建设、运输、设备制造维修的单位应当加强安全管理\n证据定位： DOC0006-K05；S0006，第一章　总　　则，第五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n从事铁路建设、运输、设备制造维修的单位应当加强安全管理，建立健全安全生产管理制度，落实企业安全生产主体责任，设置安全管理机构或者配备安全管理人员，执行保障生产安全和产品质量安全的国家标准、行业标准，加强对从业人员的安全教育培训，保证安全生产所必需的资金投入。\n铁路建设、运输、设备制造维修单位的工作人员应当严格执行规章制度，实行标准化作业，保证铁路安全。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第五条｜从事铁路建设、运输、设备制造维修的单位应当加强安全管理\n证据定位： DOC0006-K05；S0006，第一章　总　　则，第五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n从事铁路建设、运输、设备制造维修的单位应当加强安全管理，建立健全安全生产管理制度，落实企业安全生产主体责任，设置安全管理机构或者配备安全管理人员，执行保障生产安全和产品质量安全的国家标准、行业标准，加强对从业人员的安全教育培训，保证安全生产所必需的资金投入。\n铁路建设、运输、设备制造维修单位的工作人员应当严格执行规章制度，实行标准化作业，保证铁路安全。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "6d970bcbe03e258e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "157c564f763d350b",
+      "content": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第六条｜铁路监管部门、铁路运输企业等单位应当按照国家有关规定制定突发事件应急预案，并组织应急演练\n证据定位： DOC0006-K06；S0006，第一章　总　　则，第六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门、铁路运输企业等单位应当按照国家有关规定制定突发事件应急预案，并组织应急演练。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第六条｜铁路监管部门、铁路运输企业等单位应当按照国家有关规定制定突发事件应急预案，并组织应急演练\n证据定位： DOC0006-K06；S0006，第一章　总　　则，第六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门、铁路运输企业等单位应当按照国家有关规定制定突发事件应急预案，并组织应急演练。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "157c564f763d350b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "040fd6e72155c67f",
+      "content": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第七条｜禁止扰乱铁路建设、运输秩序\n证据定位： DOC0006-K07；S0006，第一章　总　　则，第七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止扰乱铁路建设、运输秩序。禁止损坏或者非法占用铁路设施设备、铁路标志和铁路用地。\n任何单位或者个人发现损坏或者非法占用铁路设施设备、铁路标志、铁路用地以及其他影响铁路安全的行为，有权报告铁路运输企业，或者向铁路监管部门、公安机关或者其他有关部门举报。接到报告的铁路运输企业、接到举报的部门应当根据各自职责及时处理。\n对维护铁路安全作出突出贡献的单位或者个人，按照国家有关规定给予表彰奖励。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第一章　总　　则\n### 第七条｜禁止扰乱铁路建设、运输秩序\n证据定位： DOC0006-K07；S0006，第一章　总　　则，第七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止扰乱铁路建设、运输秩序。禁止损坏或者非法占用铁路设施设备、铁路标志和铁路用地。\n任何单位或者个人发现损坏或者非法占用铁路设施设备、铁路标志、铁路用地以及其他影响铁路安全的行为，有权报告铁路运输企业，或者向铁路监管部门、公安机关或者其他有关部门举报。接到报告的铁路运输企业、接到举报的部门应当根据各自职责及时处理。\n对维护铁路安全作出突出贡献的单位或者个人，按照国家有关规定给予表彰奖励。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "040fd6e72155c67f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3ab389944a444164",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第八条｜铁路建设工程的勘察、设计、施工、监理以及建设物资、设备的采购，应当依法进行招标\n证据定位： DOC0006-K08；S0006，第二章　铁路建设质量安全，第八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程的勘察、设计、施工、监理以及建设物资、设备的采购，应当依法进行招标。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第八条｜铁路建设工程的勘察、设计、施工、监理以及建设物资、设备的采购，应当依法进行招标\n证据定位： DOC0006-K08；S0006，第二章　铁路建设质量安全，第八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程的勘察、设计、施工、监理以及建设物资、设备的采购，应当依法进行招标。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "3ab389944a444164",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "be25880f4760bde5",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第九条｜从事铁路建设工程勘察、设计、施工、监理活动的单位应当依法取得相应资质\n证据定位： DOC0006-K09；S0006，第二章　铁路建设质量安全，第九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n从事铁路建设工程勘察、设计、施工、监理活动的单位应当依法取得相应资质，并在其资质等级许可的范围内从事铁路工程建设活动。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第九条｜从事铁路建设工程勘察、设计、施工、监理活动的单位应当依法取得相应资质\n证据定位： DOC0006-K09；S0006，第二章　铁路建设质量安全，第九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n从事铁路建设工程勘察、设计、施工、监理活动的单位应当依法取得相应资质，并在其资质等级许可的范围内从事铁路工程建设活动。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "be25880f4760bde5",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "fc6aca306dbc4208",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十条｜铁路建设单位应当选择具备相应资质等级的勘察、设计、施工、监理单位进行工程建设\n证据定位： DOC0006-K10；S0006，第二章　铁路建设质量安全，第十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设单位应当选择具备相应资质等级的勘察、设计、施工、监理单位进行工程建设，并对建设工程的质量安全进行监督检查，制作检查记录留存备查。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十条｜铁路建设单位应当选择具备相应资质等级的勘察、设计、施工、监理单位进行工程建设\n证据定位： DOC0006-K10；S0006，第二章　铁路建设质量安全，第十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设单位应当选择具备相应资质等级的勘察、设计、施工、监理单位进行工程建设，并对建设工程的质量安全进行监督检查，制作检查记录留存备查。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "fc6aca306dbc4208",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7427597b597df2d6",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十一条｜铁路建设工程的勘察、设计、施工、监理应当遵守法律、行政法规关于建设工程质量和安全管理的规定\n证据定位： DOC0006-K11；S0006，第二章　铁路建设质量安全，第十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程的勘察、设计、施工、监理应当遵守法律、行政法规关于建设工程质量和安全管理的规定，执行国家标准、行业标准和技术规范。\n铁路建设工程的勘察、设计、施工单位依法对勘察、设计、施工的质量负责，监理单位依法对施工质量承担监理责任。\n高速铁路和地质构造复杂的铁路建设工程实行工程地质勘察监理制度。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十一条｜铁路建设工程的勘察、设计、施工、监理应当遵守法律、行政法规关于建设工程质量和安全管理的规定\n证据定位： DOC0006-K11；S0006，第二章　铁路建设质量安全，第十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程的勘察、设计、施工、监理应当遵守法律、行政法规关于建设工程质量和安全管理的规定，执行国家标准、行业标准和技术规范。\n铁路建设工程的勘察、设计、施工单位依法对勘察、设计、施工的质量负责，监理单位依法对施工质量承担监理责任。\n高速铁路和地质构造复杂的铁路建设工程实行工程地质勘察监理制度。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7427597b597df2d6",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7a83312886c82bb5",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十二条｜铁路建设工程的安全设施应当与主体工程同时设计、同时施工、同时投入使用\n证据定位： DOC0006-K12；S0006，第二章　铁路建设质量安全，第十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程的安全设施应当与主体工程同时设计、同时施工、同时投入使用。安全设施投资应当纳入建设项目概算。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十二条｜铁路建设工程的安全设施应当与主体工程同时设计、同时施工、同时投入使用\n证据定位： DOC0006-K12；S0006，第二章　铁路建设质量安全，第十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程的安全设施应当与主体工程同时设计、同时施工、同时投入使用。安全设施投资应当纳入建设项目概算。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7a83312886c82bb5",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "9c619c958869931f",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十三条｜铁路建设工程使用的材料、构件、设备等产品，应当符合有关产品质量的强制性国家标准、行业标准\n证据定位： DOC0006-K13；S0006，第二章　铁路建设质量安全，第十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程使用的材料、构件、设备等产品，应当符合有关产品质量的强制性国家标准、行业标准。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十三条｜铁路建设工程使用的材料、构件、设备等产品，应当符合有关产品质量的强制性国家标准、行业标准\n证据定位： DOC0006-K13；S0006，第二章　铁路建设质量安全，第十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程使用的材料、构件、设备等产品，应当符合有关产品质量的强制性国家标准、行业标准。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "9c619c958869931f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "59750f0a229e324f",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十四条｜铁路建设工程的建设工期\n证据定位： DOC0006-K14；S0006，第二章　铁路建设质量安全，第十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程的建设工期，应当根据工程地质条件、技术复杂程度等因素，按照国家标准、行业标准和技术规范合理确定、调整。\n任何单位和个人不得违反前款规定要求铁路建设、设计、施工单位压缩建设工期。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十四条｜铁路建设工程的建设工期\n证据定位： DOC0006-K14；S0006，第二章　铁路建设质量安全，第十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程的建设工期，应当根据工程地质条件、技术复杂程度等因素，按照国家标准、行业标准和技术规范合理确定、调整。\n任何单位和个人不得违反前款规定要求铁路建设、设计、施工单位压缩建设工期。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "59750f0a229e324f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "d99f98334f4875cd",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十五条｜竣工验收、运营安全评估及分阶段运营\n证据定位： DOC0006-K15；S0006，第二章　铁路建设质量安全，第十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程竣工，应当按照国家有关规定组织验收，并由铁路运输企业进行运营安全评估。经验收、评估合格，符合运营安全要求的，方可投入运营。\n阶段依赖（S0008，《铁路建设工程竣工验收管理办法》，按原件载明的公布、印发、修订及施行信息整理；未在本地原件中确认的事项不补写，第五条原文）： 铁路建设工程经初步验收合格后，由铁路运输企业组织进行运营安全评估，安全评估通过后方可开通初期运营；正式验收合格后方可投入正式运营。\n整理者提示： 上述原文区分初步验收后的初期运营和正式验收后的正式运营；不得将所有验收统一改写成必须在运营安全评估之前完成。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十五条｜竣工验收、运营安全评估及分阶段运营\n证据定位： DOC0006-K15；S0006，第二章　铁路建设质量安全，第十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程竣工，应当按照国家有关规定组织验收，并由铁路运输企业进行运营安全评估。经验收、评估合格，符合运营安全要求的，方可投入运营。\n阶段依赖（S0008，《铁路建设工程竣工验收管理办法》，按原件载明的公布、印发、修订及施行信息整理；未在本地原件中确认的事项不补写，第五条原文）： 铁路建设工程经初步验收合格后，由铁路运输企业组织进行运营安全评估，安全评估通过后方可开通初期运营；正式验收合格后方可投入正式运营。\n整理者提示： 上述原文区分初步验收后的初期运营和正式验收后的正式运营；不得将所有验收统一改写成必须在运营安全评估之前完成。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "d99f98334f4875cd",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3ba6d5deedaf5603",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十六条｜在铁路线路及其邻近区域进行铁路建设工程施工，应当执行铁路营业线施工安全管理规定\n证据定位： DOC0006-K16；S0006，第二章　铁路建设质量安全，第十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路及其邻近区域进行铁路建设工程施工，应当执行铁路营业线施工安全管理规定。铁路建设单位应当会同相关铁路运输企业和工程设计、施工单位制定安全施工方案，按照方案进行施工。施工完毕应当及时清理现场，不得影响铁路运营安全。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十六条｜在铁路线路及其邻近区域进行铁路建设工程施工，应当执行铁路营业线施工安全管理规定\n证据定位： DOC0006-K16；S0006，第二章　铁路建设质量安全，第十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路及其邻近区域进行铁路建设工程施工，应当执行铁路营业线施工安全管理规定。铁路建设单位应当会同相关铁路运输企业和工程设计、施工单位制定安全施工方案，按照方案进行施工。施工完毕应当及时清理现场，不得影响铁路运营安全。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "3ba6d5deedaf5603",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c06f66a8e378eb57",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十七条｜需要与道路交叉的\n证据定位： DOC0006-K17；S0006，第二章　铁路建设质量安全，第十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n新建、改建设计开行时速120公里以上列车的铁路或者设计运输量达到国务院铁路行业监督管理部门规定的较大运输量标准的铁路，需要与道路交叉的，应当设置立体交叉设施。\n新建、改建高速公路、一级公路或者城市道路中的快速路，需要与铁路交叉的，应当设置立体交叉设施，并优先选择下穿铁路的方案。\n已建成的属于前两款规定情形的铁路、道路为平面交叉的，应当逐步改造为立体交叉。\n新建、改建高速铁路需要与普通铁路、道路、渡槽、管线等设施交叉的，应当优先选择高速铁路上跨方案。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十七条｜需要与道路交叉的\n证据定位： DOC0006-K17；S0006，第二章　铁路建设质量安全，第十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n新建、改建设计开行时速120公里以上列车的铁路或者设计运输量达到国务院铁路行业监督管理部门规定的较大运输量标准的铁路，需要与道路交叉的，应当设置立体交叉设施。\n新建、改建高速公路、一级公路或者城市道路中的快速路，需要与铁路交叉的，应当设置立体交叉设施，并优先选择下穿铁路的方案。\n已建成的属于前两款规定情形的铁路、道路为平面交叉的，应当逐步改造为立体交叉。\n新建、改建高速铁路需要与普通铁路、道路、渡槽、管线等设施交叉的，应当优先选择高速铁路上跨方案。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "c06f66a8e378eb57",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a14eebab6af6ac6e",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十八条｜设置铁路与道路立体交叉设施及其附属安全设施所需费用的承担，按照下列原则确定\n证据定位： DOC0006-K18；S0006，第二章　铁路建设质量安全，第十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n设置铁路与道路立体交叉设施及其附属安全设施所需费用的承担，按照下列原则确定：\n（一）新建、改建铁路与既有道路交叉的，由铁路方承担建设费用；道路方要求超过既有道路建设标准建设所增加的费用，由道路方承担；\n（二）新建、改建道路与既有铁路交叉的，由道路方承担建设费用；铁路方要求超过既有铁路线路建设标准建设所增加的费用，由铁路方承担；\n（三）同步建设的铁路和道路需要设置立体交叉设施以及既有铁路道口改造为立体交叉的，由铁路方和道路方按照公平合理的原则分担建设费用。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十八条｜设置铁路与道路立体交叉设施及其附属安全设施所需费用的承担，按照下列原则确定\n证据定位： DOC0006-K18；S0006，第二章　铁路建设质量安全，第十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n设置铁路与道路立体交叉设施及其附属安全设施所需费用的承担，按照下列原则确定：\n（一）新建、改建铁路与既有道路交叉的，由铁路方承担建设费用；道路方要求超过既有道路建设标准建设所增加的费用，由道路方承担；\n（二）新建、改建道路与既有铁路交叉的，由道路方承担建设费用；铁路方要求超过既有铁路线路建设标准建设所增加的费用，由铁路方承担；\n（三）同步建设的铁路和道路需要设置立体交叉设施以及既有铁路道口改造为立体交叉的，由铁路方和道路方按照公平合理的原则分担建设费用。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "a14eebab6af6ac6e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "9954a46dafde3442",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十九条｜铁路与道路立体交叉设施及其附属安全设施竣工验收合格后，应当按照国家有关规定移交有关单位管理、维护\n证据定位： DOC0006-K19；S0006，第二章　铁路建设质量安全，第十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路与道路立体交叉设施及其附属安全设施竣工验收合格后，应当按照国家有关规定移交有关单位管理、维护。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第十九条｜铁路与道路立体交叉设施及其附属安全设施竣工验收合格后，应当按照国家有关规定移交有关单位管理、维护\n证据定位： DOC0006-K19；S0006，第二章　铁路建设质量安全，第十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路与道路立体交叉设施及其附属安全设施竣工验收合格后，应当按照国家有关规定移交有关单位管理、维护。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "9954a46dafde3442",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e51609371b5396fb",
+      "content": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第二十条｜专用铁路、铁路专用线需要与公用铁路网接轨的，应当符合国家有关铁路建设、运输的安全管理规定\n证据定位： DOC0006-K20；S0006，第二章　铁路建设质量安全，第二十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n专用铁路、铁路专用线需要与公用铁路网接轨的，应当符合国家有关铁路建设、运输的安全管理规定。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第二章　铁路建设质量安全\n### 第二十条｜专用铁路、铁路专用线需要与公用铁路网接轨的，应当符合国家有关铁路建设、运输的安全管理规定\n证据定位： DOC0006-K20；S0006，第二章　铁路建设质量安全，第二十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n专用铁路、铁路专用线需要与公用铁路网接轨的，应当符合国家有关铁路建设、运输的安全管理规定。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "e51609371b5396fb",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "86f8090fe7e104e9",
+      "content": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十一条｜设计、制造、维修或者进口新型铁路机车车辆\n证据定位： DOC0006-K21；S0006，第三章　铁路专用设备质量安全，第二十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n设计、制造、维修或者进口新型铁路机车车辆，应当符合国家标准、行业标准，并分别向国务院铁路行业监督管理部门申请领取型号合格证、制造许可证、维修许可证或者进口许可证，具体办法由国务院铁路行业监督管理部门制定。\n铁路机车车辆的制造、维修、使用单位应当遵守有关产品质量的法律、行政法规以及国家其他有关规定，确保投入使用的机车车辆符合安全运营要求。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十一条｜设计、制造、维修或者进口新型铁路机车车辆\n证据定位： DOC0006-K21；S0006，第三章　铁路专用设备质量安全，第二十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n设计、制造、维修或者进口新型铁路机车车辆，应当符合国家标准、行业标准，并分别向国务院铁路行业监督管理部门申请领取型号合格证、制造许可证、维修许可证或者进口许可证，具体办法由国务院铁路行业监督管理部门制定。\n铁路机车车辆的制造、维修、使用单位应当遵守有关产品质量的法律、行政法规以及国家其他有关规定，确保投入使用的机车车辆符合安全运营要求。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "86f8090fe7e104e9",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "920aab537db2e602",
+      "content": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十二条｜生产铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路通信设备、铁路牵引供电设备的企业\n证据定位： DOC0006-K22；S0006，第三章　铁路专用设备质量安全，第二十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n生产铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路通信设备、铁路牵引供电设备的企业，应当符合下列条件并经国务院铁路行业监督管理部门依法审查批准：\n（一）有按照国家标准、行业标准检测、检验合格的专业生产设备；\n（二）有相应的专业技术人员；\n（三）有完善的产品质量保证体系和安全管理制度；\n（四）法律、行政法规规定的其他条件。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十二条｜生产铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路通信设备、铁路牵引供电设备的企业\n证据定位： DOC0006-K22；S0006，第三章　铁路专用设备质量安全，第二十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n生产铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路通信设备、铁路牵引供电设备的企业，应当符合下列条件并经国务院铁路行业监督管理部门依法审查批准：\n（一）有按照国家标准、行业标准检测、检验合格的专业生产设备；\n（二）有相应的专业技术人员；\n（三）有完善的产品质量保证体系和安全管理制度；\n（四）法律、行政法规规定的其他条件。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "920aab537db2e602",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7976c2448953db4b",
+      "content": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十三条｜铁路机车车辆以外的直接影响铁路运输安全的铁路专用设备\n证据定位： DOC0006-K23；S0006，第三章　铁路专用设备质量安全，第二十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路机车车辆以外的直接影响铁路运输安全的铁路专用设备，依法应当进行产品认证的，经认证合格方可出厂、销售、进口、使用。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十三条｜铁路机车车辆以外的直接影响铁路运输安全的铁路专用设备\n证据定位： DOC0006-K23；S0006，第三章　铁路专用设备质量安全，第二十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路机车车辆以外的直接影响铁路运输安全的铁路专用设备，依法应当进行产品认证的，经认证合格方可出厂、销售、进口、使用。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7976c2448953db4b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c2f69aad6aa6be47",
+      "content": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十四条｜用于危险化学品和放射性物品运输的铁路罐车、专用车辆以及其他容器的生产和检测、检验\n证据定位： DOC0006-K24；S0006，第三章　铁路专用设备质量安全，第二十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n用于危险化学品和放射性物品运输的铁路罐车、专用车辆以及其他容器的生产和检测、检验，依照有关法律、行政法规的规定执行。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十四条｜用于危险化学品和放射性物品运输的铁路罐车、专用车辆以及其他容器的生产和检测、检验\n证据定位： DOC0006-K24；S0006，第三章　铁路专用设备质量安全，第二十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n用于危险化学品和放射性物品运输的铁路罐车、专用车辆以及其他容器的生产和检测、检验，依照有关法律、行政法规的规定执行。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "c2f69aad6aa6be47",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "dd76622a417c14da",
+      "content": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十五条｜用于铁路运输的安全检测、监控、防护设施设备\n证据定位： DOC0006-K25；S0006，第三章　铁路专用设备质量安全，第二十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n用于铁路运输的安全检测、监控、防护设施设备，集装箱和集装化用具等运输器具，专用装卸机械、索具、篷布、装载加固材料或者装置，以及运输包装、货物装载加固等，应当符合国家标准、行业标准和技术规范。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十五条｜用于铁路运输的安全检测、监控、防护设施设备\n证据定位： DOC0006-K25；S0006，第三章　铁路专用设备质量安全，第二十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n用于铁路运输的安全检测、监控、防护设施设备，集装箱和集装化用具等运输器具，专用装卸机械、索具、篷布、装载加固材料或者装置，以及运输包装、货物装载加固等，应当符合国家标准、行业标准和技术规范。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "dd76622a417c14da",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "bfe0f70c6aeec518",
+      "content": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十六条｜铁路机车车辆以及其他铁路专用设备存在缺陷\n证据定位： DOC0006-K26；S0006，第三章　铁路专用设备质量安全，第二十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路机车车辆以及其他铁路专用设备存在缺陷，即由于设计、制造、标识等原因导致同一批次、型号或者类别的铁路专用设备普遍存在不符合保障人身、财产安全的国家标准、行业标准的情形或者其他危及人身、财产安全的不合理危险的，应当立即停止生产、销售、进口、使用；设备制造者应当召回缺陷产品，采取措施消除缺陷。具体办法由国务院铁路行业监督管理部门制定。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第三章　铁路专用设备质量安全\n### 第二十六条｜铁路机车车辆以及其他铁路专用设备存在缺陷\n证据定位： DOC0006-K26；S0006，第三章　铁路专用设备质量安全，第二十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路机车车辆以及其他铁路专用设备存在缺陷，即由于设计、制造、标识等原因导致同一批次、型号或者类别的铁路专用设备普遍存在不符合保障人身、财产安全的国家标准、行业标准的情形或者其他危及人身、财产安全的不合理危险的，应当立即停止生产、销售、进口、使用；设备制造者应当召回缺陷产品，采取措施消除缺陷。具体办法由国务院铁路行业监督管理部门制定。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "bfe0f70c6aeec518",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "14a894be3697c31c",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第二十七条｜铁路线路两侧应当设立铁路线路安全保护区\n证据定位： DOC0006-K27；S0006，第四章　铁路线路安全，第二十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路线路两侧应当设立铁路线路安全保护区。铁路线路安全保护区的范围，从铁路线路路堤坡脚、路堑坡顶或者铁路桥梁（含铁路、道路两用桥，下同）外侧起向外的距离分别为：\n（一）城市市区高速铁路为10米，其他铁路为8米；\n（二）城市郊区居民居住区高速铁路为12米，其他铁路为10米；\n（三）村镇居民居住区高速铁路为15米，其他铁路为12米；\n（四）其他地区高速铁路为20米，其他铁路为15米。\n前款规定距离不能满足铁路运输安全保护需要的，由铁路建设单位或者铁路运输企业提出方案，铁路监督管理机构或者县级以上地方人民政府依照本条第三款规定程序划定。\n在铁路用地范围内划定铁路线路安全保护区的，由铁路监督管理机构组织铁路建设单位或者铁路运输企业划定并公告。在铁路用地范围外划定铁路线路安全保护区的，由县级以上地方人民政府根据保障铁路运输安全和节约用地的原则，组织有关铁路监督管理机构、县级以上地方人民政府国土资源等部门划定并公告。\n铁路线路安全保护区与公路建筑控制区、河道管理范围、水利工程管理和保护范围、航道保护范围或者石油、电力以及其他重要设施保护区重叠的，由县级以上地方人民政府组织有关部门依照法律、行政法规的规定协商划定并公告。\n新建、改建铁路的铁路线路安全保护区范围，应当自铁路建设工程初步设计批准之日起30日内，由县级以上地方人民政府依照本条例的规定划定并公告。铁路建设单位或者铁路运输企业应当根据工程竣工资料进行勘界，绘制铁路线路安全保护区平面图，并根据平面图设立标桩。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第二十七条｜铁路线路两侧应当设立铁路线路安全保护区\n证据定位： DOC0006-K27；S0006，第四章　铁路线路安全，第二十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路线路两侧应当设立铁路线路安全保护区。铁路线路安全保护区的范围，从铁路线路路堤坡脚、路堑坡顶或者铁路桥梁（含铁路、道路两用桥，下同）外侧起向外的距离分别为：\n（一）城市市区高速铁路为10米，其他铁路为8米；\n（二）城市郊区居民居住区高速铁路为12米，其他铁路为10米；\n（三）村镇居民居住区高速铁路为15米，其他铁路为12米；\n（四）其他地区高速铁路为20米，其他铁路为15米。\n前款规定距离不能满足铁路运输安全保护需要的，由铁路建设单位或者铁路运输企业提出方案，铁路监督管理机构或者县级以上地方人民政府依照本条第三款规定程序划定。\n在铁路用地范围内划定铁路线路安全保护区的，由铁路监督管理机构组织铁路建设单位或者铁路运输企业划定并公告。在铁路用地范围外划定铁路线路安全保护区的，由县级以上地方人民政府根据保障铁路运输安全和节约用地的原则，组织有关铁路监督管理机构、县级以上地方人民政府国土资源等部门划定并公告。\n铁路线路安全保护区与公路建筑控制区、河道管理范围、水利工程管理和保护范围、航道保护范围或者石油、电力以及其他重要设施保护区重叠的，由县级以上地方人民政府组织有关部门依照法律、行政法规的规定协商划定并公告。\n新建、改建铁路的铁路线路安全保护区范围，应当自铁路建设工程初步设计批准之日起30日内，由县级以上地方人民政府依照本条例的规定划定并公告。铁路建设单位或者铁路运输企业应当根据工程竣工资料进行勘界，绘制铁路线路安全保护区平面图，并根据平面图设立标桩。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "14a894be3697c31c",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7b4004868dd25fc1",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第二十八条｜设计开行时速120公里以上列车的铁路应当实行全封闭管理\n证据定位： DOC0006-K28；S0006，第四章　铁路线路安全，第二十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n设计开行时速120公里以上列车的铁路应当实行全封闭管理。铁路建设单位或者铁路运输企业应当按照国务院铁路行业监督管理部门的规定在铁路用地范围内设置封闭设施和警示标志。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第二十八条｜设计开行时速120公里以上列车的铁路应当实行全封闭管理\n证据定位： DOC0006-K28；S0006，第四章　铁路线路安全，第二十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n设计开行时速120公里以上列车的铁路应当实行全封闭管理。铁路建设单位或者铁路运输企业应当按照国务院铁路行业监督管理部门的规定在铁路用地范围内设置封闭设施和警示标志。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7b4004868dd25fc1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4c5db15f2355b16e",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第二十九条｜禁止在铁路线路安全保护区内烧荒、放养牲畜、种植影响铁路线路安全和行车瞭望的树木等植物\n证据定位： DOC0006-K29；S0006，第四章　铁路线路安全，第二十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止在铁路线路安全保护区内烧荒、放养牲畜、种植影响铁路线路安全和行车瞭望的树木等植物。\n禁止向铁路线路安全保护区排污、倾倒垃圾以及其他危害铁路安全的物质。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第二十九条｜禁止在铁路线路安全保护区内烧荒、放养牲畜、种植影响铁路线路安全和行车瞭望的树木等植物\n证据定位： DOC0006-K29；S0006，第四章　铁路线路安全，第二十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止在铁路线路安全保护区内烧荒、放养牲畜、种植影响铁路线路安全和行车瞭望的树木等植物。\n禁止向铁路线路安全保护区排污、倾倒垃圾以及其他危害铁路安全的物质。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "4c5db15f2355b16e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "801aaf7251dbbfce",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十条｜线路安全保护区施工同意、安全协议与现场监督\n证据定位： DOC0006-K30；S0006，第四章　铁路线路安全，第三十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路安全保护区内建造建筑物、构筑物等设施，取土、挖砂、挖沟、采空作业或者堆放、悬挂物品，应当征得铁路运输企业同意并签订安全协议，遵守保证铁路安全的国家标准、行业标准和施工安全规范，采取措施防止影响铁路运输安全。铁路运输企业应当派员对施工现场实行安全监督。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十条｜线路安全保护区施工同意、安全协议与现场监督\n证据定位： DOC0006-K30；S0006，第四章　铁路线路安全，第三十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路安全保护区内建造建筑物、构筑物等设施，取土、挖砂、挖沟、采空作业或者堆放、悬挂物品，应当征得铁路运输企业同意并签订安全协议，遵守保证铁路安全的国家标准、行业标准和施工安全规范，采取措施防止影响铁路运输安全。铁路运输企业应当派员对施工现场实行安全监督。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "801aaf7251dbbfce",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b14de318c4699e0d",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十一条｜铁路线路安全保护区内既有的建筑物、构筑物危及铁路运输安全的，应当采取必要的安全防护措施\n证据定位： DOC0006-K31；S0006，第四章　铁路线路安全，第三十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路线路安全保护区内既有的建筑物、构筑物危及铁路运输安全的，应当采取必要的安全防护措施；采取安全防护措施后仍不能保证安全的，依照有关法律的规定拆除。\n拆除铁路线路安全保护区内的建筑物、构筑物，清理铁路线路安全保护区内的植物，或者对他人在铁路线路安全保护区内已依法取得的采矿权等合法权利予以限制，给他人造成损失的，应当依法给予补偿或者采取必要的补救措施。但是，拆除非法建设的建筑物、构筑物的除外。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十一条｜铁路线路安全保护区内既有的建筑物、构筑物危及铁路运输安全的，应当采取必要的安全防护措施\n证据定位： DOC0006-K31；S0006，第四章　铁路线路安全，第三十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路线路安全保护区内既有的建筑物、构筑物危及铁路运输安全的，应当采取必要的安全防护措施；采取安全防护措施后仍不能保证安全的，依照有关法律的规定拆除。\n拆除铁路线路安全保护区内的建筑物、构筑物，清理铁路线路安全保护区内的植物，或者对他人在铁路线路安全保护区内已依法取得的采矿权等合法权利予以限制，给他人造成损失的，应当依法给予补偿或者采取必要的补救措施。但是，拆除非法建设的建筑物、构筑物的除外。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "b14de318c4699e0d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "31a4e3df0da0f882",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十二条｜在铁路线路安全保护区及其邻近区域建造或者设置的建筑物、构筑物、设备等，不得进入国家规定的铁路建筑限界\n证据定位： DOC0006-K32；S0006，第四章　铁路线路安全，第三十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路安全保护区及其邻近区域建造或者设置的建筑物、构筑物、设备等，不得进入国家规定的铁路建筑限界。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十二条｜在铁路线路安全保护区及其邻近区域建造或者设置的建筑物、构筑物、设备等，不得进入国家规定的铁路建筑限界\n证据定位： DOC0006-K32；S0006，第四章　铁路线路安全，第三十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路安全保护区及其邻近区域建造或者设置的建筑物、构筑物、设备等，不得进入国家规定的铁路建筑限界。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "31a4e3df0da0f882",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "89fff8f8f6bb9992",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十三条｜在铁路线路两侧建造、设立生产、加工、储存或者销售易燃、易爆或者放射性物品等危险物品的场所、仓库\n证据定位： DOC0006-K33；S0006，第四章　铁路线路安全，第三十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路两侧建造、设立生产、加工、储存或者销售易燃、易爆或者放射性物品等危险物品的场所、仓库，应当符合国家标准、行业标准规定的安全防护距离。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十三条｜在铁路线路两侧建造、设立生产、加工、储存或者销售易燃、易爆或者放射性物品等危险物品的场所、仓库\n证据定位： DOC0006-K33；S0006，第四章　铁路线路安全，第三十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路两侧建造、设立生产、加工、储存或者销售易燃、易爆或者放射性物品等危险物品的场所、仓库，应当符合国家标准、行业标准规定的安全防护距离。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "89fff8f8f6bb9992",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c0ca32ad6b5d237e",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十四条｜在铁路线路两侧从事采矿、采石或者爆破作业\n证据定位： DOC0006-K34；S0006，第四章　铁路线路安全，第三十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路两侧从事采矿、采石或者爆破作业，应当遵守有关采矿和民用爆破的法律法规，符合国家标准、行业标准和铁路安全保护要求。\n在铁路线路路堤坡脚、路堑坡顶、铁路桥梁外侧起向外各1000米范围内，以及在铁路隧道上方中心线两侧各1000米范围内，确需从事露天采矿、采石或者爆破作业的，应当与铁路运输企业协商一致，依照有关法律法规的规定报县级以上地方人民政府有关部门批准，采取安全防护措施后方可进行。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十四条｜在铁路线路两侧从事采矿、采石或者爆破作业\n证据定位： DOC0006-K34；S0006，第四章　铁路线路安全，第三十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路两侧从事采矿、采石或者爆破作业，应当遵守有关采矿和民用爆破的法律法规，符合国家标准、行业标准和铁路安全保护要求。\n在铁路线路路堤坡脚、路堑坡顶、铁路桥梁外侧起向外各1000米范围内，以及在铁路隧道上方中心线两侧各1000米范围内，确需从事露天采矿、采石或者爆破作业的，应当与铁路运输企业协商一致，依照有关法律法规的规定报县级以上地方人民政府有关部门批准，采取安全防护措施后方可进行。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "c0ca32ad6b5d237e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "89d8047d0521384d",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十五条｜高速铁路线路路堤坡脚、路堑坡顶或者铁路桥梁外侧起向外各200米范围内禁止抽取地下水\n证据定位： DOC0006-K35；S0006，第四章　铁路线路安全，第三十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n高速铁路线路路堤坡脚、路堑坡顶或者铁路桥梁外侧起向外各200米范围内禁止抽取地下水。\n在前款规定范围外，高速铁路线路经过的区域属于地面沉降区域，抽取地下水危及高速铁路安全的，应当设置地下水禁止开采区或者限制开采区，具体范围由铁路监督管理机构会同县级以上地方人民政府水行政主管部门提出方案，报省、自治区、直辖市人民政府批准并公告。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十五条｜高速铁路线路路堤坡脚、路堑坡顶或者铁路桥梁外侧起向外各200米范围内禁止抽取地下水\n证据定位： DOC0006-K35；S0006，第四章　铁路线路安全，第三十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n高速铁路线路路堤坡脚、路堑坡顶或者铁路桥梁外侧起向外各200米范围内禁止抽取地下水。\n在前款规定范围外，高速铁路线路经过的区域属于地面沉降区域，抽取地下水危及高速铁路安全的，应当设置地下水禁止开采区或者限制开采区，具体范围由铁路监督管理机构会同县级以上地方人民政府水行政主管部门提出方案，报省、自治区、直辖市人民政府批准并公告。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "89d8047d0521384d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "79a71eef2f33b151",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十六条｜在电气化铁路附近从事排放粉尘、烟尘及腐蚀性气体的生产活动\n证据定位： DOC0006-K36；S0006，第四章　铁路线路安全，第三十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在电气化铁路附近从事排放粉尘、烟尘及腐蚀性气体的生产活动，超过国家规定的排放标准，危及铁路运输安全的，由县级以上地方人民政府有关部门依法责令整改，消除安全隐患。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十六条｜在电气化铁路附近从事排放粉尘、烟尘及腐蚀性气体的生产活动\n证据定位： DOC0006-K36；S0006，第四章　铁路线路安全，第三十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在电气化铁路附近从事排放粉尘、烟尘及腐蚀性气体的生产活动，超过国家规定的排放标准，危及铁路运输安全的，由县级以上地方人民政府有关部门依法责令整改，消除安全隐患。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "79a71eef2f33b151",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "22570d21b49be715",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十七条｜任何单位和个人不得擅自在铁路桥梁跨越处河道上下游各1000米范围内围垦造田、拦河筑坝、架设浮桥或者修建其他影响铁路桥梁安全的设施\n证据定位： DOC0006-K37；S0006，第四章　铁路线路安全，第三十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n任何单位和个人不得擅自在铁路桥梁跨越处河道上下游各1000米范围内围垦造田、拦河筑坝、架设浮桥或者修建其他影响铁路桥梁安全的设施。\n因特殊原因确需在前款规定的范围内进行围垦造田、拦河筑坝、架设浮桥等活动的，应当进行安全论证，负责审批的机关在批准前应当征求有关铁路运输企业的意见。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十七条｜任何单位和个人不得擅自在铁路桥梁跨越处河道上下游各1000米范围内围垦造田、拦河筑坝、架设浮桥或者修建其他影响铁路桥梁安全的设施\n证据定位： DOC0006-K37；S0006，第四章　铁路线路安全，第三十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n任何单位和个人不得擅自在铁路桥梁跨越处河道上下游各1000米范围内围垦造田、拦河筑坝、架设浮桥或者修建其他影响铁路桥梁安全的设施。\n因特殊原因确需在前款规定的范围内进行围垦造田、拦河筑坝、架设浮桥等活动的，应当进行安全论证，负责审批的机关在批准前应当征求有关铁路运输企业的意见。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "22570d21b49be715",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f8c9796721152b22",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十八条｜禁止在铁路桥梁跨越处河道上下游的下列范围内采砂、淘金\n证据定位： DOC0006-K38；S0006，第四章　铁路线路安全，第三十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止在铁路桥梁跨越处河道上下游的下列范围内采砂、淘金：\n（一）跨河桥长500米以上的铁路桥梁，河道上游500米，下游3000米；\n（二）跨河桥长100米以上不足500米的铁路桥梁，河道上游500米，下游2000米；\n（三）跨河桥长不足100米的铁路桥梁，河道上游500米，下游1000米。\n有关部门依法在铁路桥梁跨越处河道上下游划定的禁采范围大于前款规定的禁采范围的，按照划定的禁采范围执行。\n县级以上地方人民政府水行政主管部门、国土资源主管部门应当按照各自职责划定禁采区域、设置禁采标志，制止非法采砂、淘金行为。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十八条｜禁止在铁路桥梁跨越处河道上下游的下列范围内采砂、淘金\n证据定位： DOC0006-K38；S0006，第四章　铁路线路安全，第三十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止在铁路桥梁跨越处河道上下游的下列范围内采砂、淘金：\n（一）跨河桥长500米以上的铁路桥梁，河道上游500米，下游3000米；\n（二）跨河桥长100米以上不足500米的铁路桥梁，河道上游500米，下游2000米；\n（三）跨河桥长不足100米的铁路桥梁，河道上游500米，下游1000米。\n有关部门依法在铁路桥梁跨越处河道上下游划定的禁采范围大于前款规定的禁采范围的，按照划定的禁采范围执行。\n县级以上地方人民政府水行政主管部门、国土资源主管部门应当按照各自职责划定禁采区域、设置禁采标志，制止非法采砂、淘金行为。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "f8c9796721152b22",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "96dbac006a7afcb8",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十九条｜在铁路桥梁跨越处河道上下游各500米范围内进行疏浚作业\n证据定位： DOC0006-K39；S0006，第四章　铁路线路安全，第三十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路桥梁跨越处河道上下游各500米范围内进行疏浚作业，应当进行安全技术评价，有关河道、航道管理部门应当征求铁路运输企业的意见，确认安全或者采取安全技术措施后，方可批准进行疏浚作业。但是，依法进行河道、航道日常养护、疏浚作业的除外。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十九条｜在铁路桥梁跨越处河道上下游各500米范围内进行疏浚作业\n证据定位： DOC0006-K39；S0006，第四章　铁路线路安全，第三十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路桥梁跨越处河道上下游各500米范围内进行疏浚作业，应当进行安全技术评价，有关河道、航道管理部门应当征求铁路运输企业的意见，确认安全或者采取安全技术措施后，方可批准进行疏浚作业。但是，依法进行河道、航道日常养护、疏浚作业的除外。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "96dbac006a7afcb8",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0ebdc436dc172119",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十条｜铁路、道路两用桥由所在地铁路运输企业和道路管理部门或者道路经营企业定期检查、共同维护\n证据定位： DOC0006-K40；S0006，第四章　铁路线路安全，第四十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路、道路两用桥由所在地铁路运输企业和道路管理部门或者道路经营企业定期检查、共同维护，保证桥梁处于安全的技术状态。\n铁路、道路两用桥的墩、梁等共用部分的检测、维修由铁路运输企业和道路管理部门或者道路经营企业共同负责，所需费用按照公平合理的原则分担。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十条｜铁路、道路两用桥由所在地铁路运输企业和道路管理部门或者道路经营企业定期检查、共同维护\n证据定位： DOC0006-K40；S0006，第四章　铁路线路安全，第四十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路、道路两用桥由所在地铁路运输企业和道路管理部门或者道路经营企业定期检查、共同维护，保证桥梁处于安全的技术状态。\n铁路、道路两用桥的墩、梁等共用部分的检测、维修由铁路运输企业和道路管理部门或者道路经营企业共同负责，所需费用按照公平合理的原则分担。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "0ebdc436dc172119",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "23fa933440ca8573",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十一条｜铁路的重要桥梁和隧道按照国家有关规定由中国人民武装警察部队负责守卫\n证据定位： DOC0006-K41；S0006，第四章　铁路线路安全，第四十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路的重要桥梁和隧道按照国家有关规定由中国人民武装警察部队负责守卫。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十一条｜铁路的重要桥梁和隧道按照国家有关规定由中国人民武装警察部队负责守卫\n证据定位： DOC0006-K41；S0006，第四章　铁路线路安全，第四十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路的重要桥梁和隧道按照国家有关规定由中国人民武装警察部队负责守卫。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "23fa933440ca8573",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8e312287984535c9",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十二条｜船舶通过铁路桥梁应当符合桥梁的通航净空高度并遵守航行规则\n证据定位： DOC0006-K42；S0006，第四章　铁路线路安全，第四十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n船舶通过铁路桥梁应当符合桥梁的通航净空高度并遵守航行规则。\n桥区航标中的桥梁航标、桥柱标、桥梁水尺标由铁路运输企业负责设置、维护，水面航标由铁路运输企业负责设置，航道管理部门负责维护。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十二条｜船舶通过铁路桥梁应当符合桥梁的通航净空高度并遵守航行规则\n证据定位： DOC0006-K42；S0006，第四章　铁路线路安全，第四十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n船舶通过铁路桥梁应当符合桥梁的通航净空高度并遵守航行规则。\n桥区航标中的桥梁航标、桥柱标、桥梁水尺标由铁路运输企业负责设置、维护，水面航标由铁路运输企业负责设置，航道管理部门负责维护。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "8e312287984535c9",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "45772a6c2308a705",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十三条｜下穿铁路桥梁、涵洞的道路应当按照国家标准设置车辆通过限高、限宽标志和限高防护架\n证据定位： DOC0006-K43；S0006，第四章　铁路线路安全，第四十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n下穿铁路桥梁、涵洞的道路应当按照国家标准设置车辆通过限高、限宽标志和限高防护架。城市道路的限高、限宽标志由当地人民政府指定的部门设置并维护，公路的限高、限宽标志由公路管理部门设置并维护。限高防护架在铁路桥梁、涵洞、道路建设时设置，由铁路运输企业负责维护。\n机动车通过下穿铁路桥梁、涵洞的道路，应当遵守限高、限宽规定。\n下穿铁路涵洞的管理单位负责涵洞的日常管理、维护，防止淤塞、积水。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十三条｜下穿铁路桥梁、涵洞的道路应当按照国家标准设置车辆通过限高、限宽标志和限高防护架\n证据定位： DOC0006-K43；S0006，第四章　铁路线路安全，第四十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n下穿铁路桥梁、涵洞的道路应当按照国家标准设置车辆通过限高、限宽标志和限高防护架。城市道路的限高、限宽标志由当地人民政府指定的部门设置并维护，公路的限高、限宽标志由公路管理部门设置并维护。限高防护架在铁路桥梁、涵洞、道路建设时设置，由铁路运输企业负责维护。\n机动车通过下穿铁路桥梁、涵洞的道路，应当遵守限高、限宽规定。\n下穿铁路涵洞的管理单位负责涵洞的日常管理、维护，防止淤塞、积水。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "45772a6c2308a705",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "48724fb5c7f0588e",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十四条｜铁路线路安全保护区内的道路和铁路线路路堑上的道路、跨越铁路线路的道路桥梁\n证据定位： DOC0006-K44；S0006，第四章　铁路线路安全，第四十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路线路安全保护区内的道路和铁路线路路堑上的道路、跨越铁路线路的道路桥梁，应当按照国家有关规定设置防止车辆以及其他物体进入、坠入铁路线路的安全防护设施和警示标志，并由道路管理部门或者道路经营企业维护、管理。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十四条｜铁路线路安全保护区内的道路和铁路线路路堑上的道路、跨越铁路线路的道路桥梁\n证据定位： DOC0006-K44；S0006，第四章　铁路线路安全，第四十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路线路安全保护区内的道路和铁路线路路堑上的道路、跨越铁路线路的道路桥梁，应当按照国家有关规定设置防止车辆以及其他物体进入、坠入铁路线路的安全防护设施和警示标志，并由道路管理部门或者道路经营企业维护、管理。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "48724fb5c7f0588e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "5695a70babc05f13",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十五条｜架设、铺设铁路信号和通信线路、杆塔应当符合国家标准、行业标准和铁路安全防护要求\n证据定位： DOC0006-K45；S0006，第四章　铁路线路安全，第四十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n架设、铺设铁路信号和通信线路、杆塔应当符合国家标准、行业标准和铁路安全防护要求。铁路运输企业、为铁路运输提供服务的电信企业应当加强对铁路信号和通信线路、杆塔的维护和管理。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十五条｜架设、铺设铁路信号和通信线路、杆塔应当符合国家标准、行业标准和铁路安全防护要求\n证据定位： DOC0006-K45；S0006，第四章　铁路线路安全，第四十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n架设、铺设铁路信号和通信线路、杆塔应当符合国家标准、行业标准和铁路安全防护要求。铁路运输企业、为铁路运输提供服务的电信企业应当加强对铁路信号和通信线路、杆塔的维护和管理。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "5695a70babc05f13",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7dcbc8c2a85870e2",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十六条｜设置或者拓宽铁路道口、铁路人行过道，应当征得铁路运输企业的同意\n证据定位： DOC0006-K46；S0006，第四章　铁路线路安全，第四十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n设置或者拓宽铁路道口、铁路人行过道，应当征得铁路运输企业的同意。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十六条｜设置或者拓宽铁路道口、铁路人行过道，应当征得铁路运输企业的同意\n证据定位： DOC0006-K46；S0006，第四章　铁路线路安全，第四十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n设置或者拓宽铁路道口、铁路人行过道，应当征得铁路运输企业的同意。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7dcbc8c2a85870e2",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4a53581eb7153115",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十七条｜铁路与道路交叉的无人看守道口应当按照国家标准设置警示标志\n证据定位： DOC0006-K47；S0006，第四章　铁路线路安全，第四十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路与道路交叉的无人看守道口应当按照国家标准设置警示标志；有人看守道口应当设置移动栏杆、列车接近报警装置、警示灯、警示标志、铁路道口路段标线等安全防护设施。\n道口移动栏杆、列车接近报警装置、警示灯等安全防护设施由铁路运输企业设置、维护；警示标志、铁路道口路段标线由铁路道口所在地的道路管理部门设置、维护。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十七条｜铁路与道路交叉的无人看守道口应当按照国家标准设置警示标志\n证据定位： DOC0006-K47；S0006，第四章　铁路线路安全，第四十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路与道路交叉的无人看守道口应当按照国家标准设置警示标志；有人看守道口应当设置移动栏杆、列车接近报警装置、警示灯、警示标志、铁路道口路段标线等安全防护设施。\n道口移动栏杆、列车接近报警装置、警示灯等安全防护设施由铁路运输企业设置、维护；警示标志、铁路道口路段标线由铁路道口所在地的道路管理部门设置、维护。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "4a53581eb7153115",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "92bfe47f84b0685c",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十八条｜机动车或者非机动车在铁路道口内发生故障或者装载物掉落的\n证据定位： DOC0006-K48；S0006，第四章　铁路线路安全，第四十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n机动车或者非机动车在铁路道口内发生故障或者装载物掉落的，应当立即将故障车辆或者掉落的装载物移至铁路道口停止线以外或者铁路线路最外侧钢轨5米以外的安全地点。无法立即移至安全地点的，应当立即报告铁路道口看守人员；在无人看守道口，应当立即在道口两端采取措施拦停列车，并就近通知铁路车站或者公安机关。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十八条｜机动车或者非机动车在铁路道口内发生故障或者装载物掉落的\n证据定位： DOC0006-K48；S0006，第四章　铁路线路安全，第四十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n机动车或者非机动车在铁路道口内发生故障或者装载物掉落的，应当立即将故障车辆或者掉落的装载物移至铁路道口停止线以外或者铁路线路最外侧钢轨5米以外的安全地点。无法立即移至安全地点的，应当立即报告铁路道口看守人员；在无人看守道口，应当立即在道口两端采取措施拦停列车，并就近通知铁路车站或者公安机关。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "92bfe47f84b0685c",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "17d3eb9fb56b5141",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十九条｜履带车辆等可能损坏铁路设施设备的车辆、物体通过铁路道口\n证据定位： DOC0006-K49；S0006，第四章　铁路线路安全，第四十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n履带车辆等可能损坏铁路设施设备的车辆、物体通过铁路道口，应当提前通知铁路道口管理单位，在其协助、指导下通过，并采取相应的安全防护措施。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十九条｜履带车辆等可能损坏铁路设施设备的车辆、物体通过铁路道口\n证据定位： DOC0006-K49；S0006，第四章　铁路线路安全，第四十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n履带车辆等可能损坏铁路设施设备的车辆、物体通过铁路道口，应当提前通知铁路道口管理单位，在其协助、指导下通过，并采取相应的安全防护措施。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "17d3eb9fb56b5141",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "89c5e5e1ca179cd5",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十条｜在下列地点，铁路运输企业应当按照国家标准、行业标准设置易于识别的警示、保护标志\n证据定位： DOC0006-K50；S0006，第四章　铁路线路安全，第五十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在下列地点，铁路运输企业应当按照国家标准、行业标准设置易于识别的警示、保护标志：\n（一）铁路桥梁、隧道的两端；\n（二）铁路信号、通信光（电）缆的埋设、铺设地点；\n（三）电气化铁路接触网、自动闭塞供电线路和电力贯通线路等电力设施附近易发生危险的地点。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十条｜在下列地点，铁路运输企业应当按照国家标准、行业标准设置易于识别的警示、保护标志\n证据定位： DOC0006-K50；S0006，第四章　铁路线路安全，第五十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在下列地点，铁路运输企业应当按照国家标准、行业标准设置易于识别的警示、保护标志：\n（一）铁路桥梁、隧道的两端；\n（二）铁路信号、通信光（电）缆的埋设、铺设地点；\n（三）电气化铁路接触网、自动闭塞供电线路和电力贯通线路等电力设施附近易发生危险的地点。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "89c5e5e1ca179cd5",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ac92f8a2a2796a9e",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十一条｜禁止毁坏铁路线路、站台等设施设备和铁路路基、护坡、排水沟、防护林木、护坡草坪、铁路线路封闭网及其他铁路防护设施\n证据定位： DOC0006-K51；S0006，第四章　铁路线路安全，第五十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止毁坏铁路线路、站台等设施设备和铁路路基、护坡、排水沟、防护林木、护坡草坪、铁路线路封闭网及其他铁路防护设施。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十一条｜禁止毁坏铁路线路、站台等设施设备和铁路路基、护坡、排水沟、防护林木、护坡草坪、铁路线路封闭网及其他铁路防护设施\n证据定位： DOC0006-K51；S0006，第四章　铁路线路安全，第五十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止毁坏铁路线路、站台等设施设备和铁路路基、护坡、排水沟、防护林木、护坡草坪、铁路线路封闭网及其他铁路防护设施。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "ac92f8a2a2796a9e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "475e5ae36c06cf25",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十二条｜禁止实施下列危及铁路通信、信号设施安全的行为\n证据定位： DOC0006-K52；S0006，第四章　铁路线路安全，第五十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止实施下列危及铁路通信、信号设施安全的行为：\n（一）在埋有地下光（电）缆设施的地面上方进行钻探，堆放重物、垃圾，焚烧物品，倾倒腐蚀性物质；\n（二）在地下光（电）缆两侧各1米的范围内建造、搭建建筑物、构筑物等设施；\n（三）在地下光（电）缆两侧各1米的范围内挖砂、取土；\n（四）在过河光（电）缆两侧各100米的范围内挖砂、抛锚或者进行其他危及光（电）缆安全的作业。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十二条｜禁止实施下列危及铁路通信、信号设施安全的行为\n证据定位： DOC0006-K52；S0006，第四章　铁路线路安全，第五十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止实施下列危及铁路通信、信号设施安全的行为：\n（一）在埋有地下光（电）缆设施的地面上方进行钻探，堆放重物、垃圾，焚烧物品，倾倒腐蚀性物质；\n（二）在地下光（电）缆两侧各1米的范围内建造、搭建建筑物、构筑物等设施；\n（三）在地下光（电）缆两侧各1米的范围内挖砂、取土；\n（四）在过河光（电）缆两侧各100米的范围内挖砂、抛锚或者进行其他危及光（电）缆安全的作业。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "475e5ae36c06cf25",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b778864e16c9e37d",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十三条｜禁止实施下列危害电气化铁路设施的行为\n证据定位： DOC0006-K53；S0006，第四章　铁路线路安全，第五十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止实施下列危害电气化铁路设施的行为：\n（一）向电气化铁路接触网抛掷物品；\n（二）在铁路电力线路导线两侧各500米的范围内升放风筝、气球等低空飘浮物体；\n（三）攀登铁路电力线路杆塔或者在杆塔上架设、安装其他设施设备；\n（四）在铁路电力线路杆塔、拉线周围20米范围内取土、打桩、钻探或者倾倒有害化学物品；\n（五）触碰电气化铁路接触网。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十三条｜禁止实施下列危害电气化铁路设施的行为\n证据定位： DOC0006-K53；S0006，第四章　铁路线路安全，第五十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止实施下列危害电气化铁路设施的行为：\n（一）向电气化铁路接触网抛掷物品；\n（二）在铁路电力线路导线两侧各500米的范围内升放风筝、气球等低空飘浮物体；\n（三）攀登铁路电力线路杆塔或者在杆塔上架设、安装其他设施设备；\n（四）在铁路电力线路杆塔、拉线周围20米范围内取土、打桩、钻探或者倾倒有害化学物品；\n（五）触碰电气化铁路接触网。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "b778864e16c9e37d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4ff69b65c70f3fce",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十四条｜县级以上各级人民政府及其有关部门、铁路运输企业应当依照地质灾害防治法律法规的规定\n证据定位： DOC0006-K54；S0006，第四章　铁路线路安全，第五十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n县级以上各级人民政府及其有关部门、铁路运输企业应当依照地质灾害防治法律法规的规定，加强铁路沿线地质灾害的预防、治理和应急处理等工作。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十四条｜县级以上各级人民政府及其有关部门、铁路运输企业应当依照地质灾害防治法律法规的规定\n证据定位： DOC0006-K54；S0006，第四章　铁路线路安全，第五十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n县级以上各级人民政府及其有关部门、铁路运输企业应当依照地质灾害防治法律法规的规定，加强铁路沿线地质灾害的预防、治理和应急处理等工作。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "4ff69b65c70f3fce",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "df105ef613a6154a",
+      "content": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十五条｜铁路运输企业应当对铁路线路、铁路防护设施和警示标志进行经常性巡查和维护\n证据定位： DOC0006-K55；S0006，第四章　铁路线路安全，第五十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当对铁路线路、铁路防护设施和警示标志进行经常性巡查和维护；对巡查中发现的安全问题应当立即处理，不能立即处理的应当及时报告铁路监督管理机构。巡查和处理情况应当记录留存。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十五条｜铁路运输企业应当对铁路线路、铁路防护设施和警示标志进行经常性巡查和维护\n证据定位： DOC0006-K55；S0006，第四章　铁路线路安全，第五十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当对铁路线路、铁路防护设施和警示标志进行经常性巡查和维护；对巡查中发现的安全问题应当立即处理，不能立即处理的应当及时报告铁路监督管理机构。巡查和处理情况应当记录留存。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "df105ef613a6154a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3ca837e8eb6e6dcd",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第五十六条｜铁路运输企业应当依照法律、行政法规和国务院铁路行业监督管理部门的规定\n证据定位： DOC0006-K56；S0006，第五章　铁路运营安全，第五十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当依照法律、行政法规和国务院铁路行业监督管理部门的规定，制定铁路运输安全管理制度，完善相关作业程序，保障铁路旅客和货物运输安全。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第五十六条｜铁路运输企业应当依照法律、行政法规和国务院铁路行业监督管理部门的规定\n证据定位： DOC0006-K56；S0006，第五章　铁路运营安全，第五十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当依照法律、行政法规和国务院铁路行业监督管理部门的规定，制定铁路运输安全管理制度，完善相关作业程序，保障铁路旅客和货物运输安全。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "3ca837e8eb6e6dcd",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "da1aec48eeb7c999",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第五十七条｜铁路机车车辆的驾驶人员应当参加国务院铁路行业监督管理部门组织的考试，考试合格方可上岗\n证据定位： DOC0006-K57；S0006，第五章　铁路运营安全，第五十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路机车车辆的驾驶人员应当参加国务院铁路行业监督管理部门组织的考试，考试合格方可上岗。具体办法由国务院铁路行业监督管理部门制定。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第五十七条｜铁路机车车辆的驾驶人员应当参加国务院铁路行业监督管理部门组织的考试，考试合格方可上岗\n证据定位： DOC0006-K57；S0006，第五章　铁路运营安全，第五十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路机车车辆的驾驶人员应当参加国务院铁路行业监督管理部门组织的考试，考试合格方可上岗。具体办法由国务院铁路行业监督管理部门制定。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "da1aec48eeb7c999",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8778daa8387cbd62",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第五十八条｜铁路运输企业应当加强铁路专业技术岗位和主要行车工种岗位从业人员的业务培训和安全培训\n证据定位： DOC0006-K58；S0006，第五章　铁路运营安全，第五十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当加强铁路专业技术岗位和主要行车工种岗位从业人员的业务培训和安全培训，提高从业人员的业务技能和安全意识。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第五十八条｜铁路运输企业应当加强铁路专业技术岗位和主要行车工种岗位从业人员的业务培训和安全培训\n证据定位： DOC0006-K58；S0006，第五章　铁路运营安全，第五十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当加强铁路专业技术岗位和主要行车工种岗位从业人员的业务培训和安全培训，提高从业人员的业务技能和安全意识。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "8778daa8387cbd62",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "9268cfe36f83590d",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第五十九条｜铁路运输企业应当加强运输过程中的安全防护\n证据定位： DOC0006-K59；S0006，第五章　铁路运营安全，第五十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当加强运输过程中的安全防护，使用的运输工具、装载加固设备以及其他专用设施设备应当符合国家标准、行业标准和安全要求。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第五十九条｜铁路运输企业应当加强运输过程中的安全防护\n证据定位： DOC0006-K59；S0006，第五章　铁路运营安全，第五十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当加强运输过程中的安全防护，使用的运输工具、装载加固设备以及其他专用设施设备应当符合国家标准、行业标准和安全要求。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "9268cfe36f83590d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "88a21bc111904986",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十条｜铁路运输企业应当建立健全铁路设施设备的检查防护制度\n证据定位： DOC0006-K60；S0006，第五章　铁路运营安全，第六十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当建立健全铁路设施设备的检查防护制度，加强对铁路设施设备的日常维护检修，确保铁路设施设备性能完好和安全运行。\n铁路运输企业的从业人员应当按照操作规程使用、管理铁路设施设备。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十条｜铁路运输企业应当建立健全铁路设施设备的检查防护制度\n证据定位： DOC0006-K60；S0006，第五章　铁路运营安全，第六十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当建立健全铁路设施设备的检查防护制度，加强对铁路设施设备的日常维护检修，确保铁路设施设备性能完好和安全运行。\n铁路运输企业的从业人员应当按照操作规程使用、管理铁路设施设备。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "88a21bc111904986",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "51cac0a2dc0b80df",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十一条｜在法定假日和传统节日等铁路运输高峰期或者恶劣气象条件下\n证据定位： DOC0006-K61；S0006，第五章　铁路运营安全，第六十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在法定假日和传统节日等铁路运输高峰期或者恶劣气象条件下，铁路运输企业应当采取必要的安全应急管理措施，加强铁路运输安全检查，确保运输安全。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十一条｜在法定假日和传统节日等铁路运输高峰期或者恶劣气象条件下\n证据定位： DOC0006-K61；S0006，第五章　铁路运营安全，第六十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在法定假日和传统节日等铁路运输高峰期或者恶劣气象条件下，铁路运输企业应当采取必要的安全应急管理措施，加强铁路运输安全检查，确保运输安全。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "51cac0a2dc0b80df",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "30369f8ce8b771b0",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十二条｜铁路运输企业应当在列车、车站等场所公告旅客、列车工作人员以及其他进站人员遵守的安全管理规定\n证据定位： DOC0006-K62；S0006，第五章　铁路运营安全，第六十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当在列车、车站等场所公告旅客、列车工作人员以及其他进站人员遵守的安全管理规定。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十二条｜铁路运输企业应当在列车、车站等场所公告旅客、列车工作人员以及其他进站人员遵守的安全管理规定\n证据定位： DOC0006-K62；S0006，第五章　铁路运营安全，第六十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当在列车、车站等场所公告旅客、列车工作人员以及其他进站人员遵守的安全管理规定。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "30369f8ce8b771b0",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "636eca1944d21f5a",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十三条｜公安机关应当按照职责分工，维护车站、列车等铁路场所和铁路沿线的治安秩序\n证据定位： DOC0006-K63；S0006，第五章　铁路运营安全，第六十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n公安机关应当按照职责分工，维护车站、列车等铁路场所和铁路沿线的治安秩序。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十三条｜公安机关应当按照职责分工，维护车站、列车等铁路场所和铁路沿线的治安秩序\n证据定位： DOC0006-K63；S0006，第五章　铁路运营安全，第六十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n公安机关应当按照职责分工，维护车站、列车等铁路场所和铁路沿线的治安秩序。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "636eca1944d21f5a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "238acf264f5854f2",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十四条｜铁路运输企业应当按照国务院铁路行业监督管理部门的规定实施火车票实名购买、查验制度\n证据定位： DOC0006-K64；S0006，第五章　铁路运营安全，第六十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照国务院铁路行业监督管理部门的规定实施火车票实名购买、查验制度。\n实施火车票实名购买、查验制度的，旅客应当凭有效身份证件购票乘车；对车票所记载身份信息与所持身份证件或者真实身份不符的持票人，铁路运输企业有权拒绝其进站乘车。\n铁路运输企业应当采取有效措施为旅客实名购票、乘车提供便利，并加强对旅客身份信息的保护。铁路运输企业工作人员不得窃取、泄露旅客身份信息。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十四条｜铁路运输企业应当按照国务院铁路行业监督管理部门的规定实施火车票实名购买、查验制度\n证据定位： DOC0006-K64；S0006，第五章　铁路运营安全，第六十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照国务院铁路行业监督管理部门的规定实施火车票实名购买、查验制度。\n实施火车票实名购买、查验制度的，旅客应当凭有效身份证件购票乘车；对车票所记载身份信息与所持身份证件或者真实身份不符的持票人，铁路运输企业有权拒绝其进站乘车。\n铁路运输企业应当采取有效措施为旅客实名购票、乘车提供便利，并加强对旅客身份信息的保护。铁路运输企业工作人员不得窃取、泄露旅客身份信息。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "238acf264f5854f2",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "fd8d0e7c8a72b30d",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十五条｜铁路运输企业应当依照法律、行政法规和国务院铁路行业监督管理部门的规定\n证据定位： DOC0006-K65；S0006，第五章　铁路运营安全，第六十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当依照法律、行政法规和国务院铁路行业监督管理部门的规定，对旅客及其随身携带、托运的行李物品进行安全检查。\n从事安全检查的工作人员应当佩戴安全检查标志，依法履行安全检查职责，并有权拒绝不接受安全检查的旅客进站乘车和托运行李物品。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十五条｜铁路运输企业应当依照法律、行政法规和国务院铁路行业监督管理部门的规定\n证据定位： DOC0006-K65；S0006，第五章　铁路运营安全，第六十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当依照法律、行政法规和国务院铁路行业监督管理部门的规定，对旅客及其随身携带、托运的行李物品进行安全检查。\n从事安全检查的工作人员应当佩戴安全检查标志，依法履行安全检查职责，并有权拒绝不接受安全检查的旅客进站乘车和托运行李物品。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "fd8d0e7c8a72b30d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f978312bef93b5cd",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十六条｜旅客应当接受并配合铁路运输企业在车站、列车实施的安全检查\n证据定位： DOC0006-K66；S0006，第五章　铁路运营安全，第六十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客应当接受并配合铁路运输企业在车站、列车实施的安全检查，不得违法携带、夹带管制器具，不得违法携带、托运烟花爆竹、枪支弹药等危险物品或者其他违禁物品。\n禁止或者限制携带的物品种类及其数量由国务院铁路行业监督管理部门会同公安机关规定，并在车站、列车等场所公布。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十六条｜旅客应当接受并配合铁路运输企业在车站、列车实施的安全检查\n证据定位： DOC0006-K66；S0006，第五章　铁路运营安全，第六十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客应当接受并配合铁路运输企业在车站、列车实施的安全检查，不得违法携带、夹带管制器具，不得违法携带、托运烟花爆竹、枪支弹药等危险物品或者其他违禁物品。\n禁止或者限制携带的物品种类及其数量由国务院铁路行业监督管理部门会同公安机关规定，并在车站、列车等场所公布。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "f978312bef93b5cd",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ba8e6894f46ab5ac",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十七条｜铁路运输托运人托运货物、行李、包裹，不得有下列行为\n证据定位： DOC0006-K67；S0006，第五章　铁路运营安全，第六十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输托运人托运货物、行李、包裹，不得有下列行为：\n（一）匿报、谎报货物品名、性质、重量；\n（二）在普通货物中夹带危险货物，或者在危险货物中夹带禁止配装的货物；\n（三）装车、装箱超过规定重量。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十七条｜铁路运输托运人托运货物、行李、包裹，不得有下列行为\n证据定位： DOC0006-K67；S0006，第五章　铁路运营安全，第六十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输托运人托运货物、行李、包裹，不得有下列行为：\n（一）匿报、谎报货物品名、性质、重量；\n（二）在普通货物中夹带危险货物，或者在危险货物中夹带禁止配装的货物；\n（三）装车、装箱超过规定重量。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "ba8e6894f46ab5ac",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "03c2d88a01cce174",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十八条｜铁路运输企业应当对承运的货物进行安全检查，并不得有下列行为\n证据定位： DOC0006-K68；S0006，第五章　铁路运营安全，第六十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当对承运的货物进行安全检查，并不得有下列行为：\n（一）在非危险货物办理站办理危险货物承运手续；\n（二）承运未接受安全检查的货物；\n（三）承运不符合安全规定、可能危害铁路运输安全的货物。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十八条｜铁路运输企业应当对承运的货物进行安全检查，并不得有下列行为\n证据定位： DOC0006-K68；S0006，第五章　铁路运营安全，第六十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当对承运的货物进行安全检查，并不得有下列行为：\n（一）在非危险货物办理站办理危险货物承运手续；\n（二）承运未接受安全检查的货物；\n（三）承运不符合安全规定、可能危害铁路运输安全的货物。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "03c2d88a01cce174",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "dbc14b63adb78c55",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十九条｜运输危险货物应当依照法律法规和国家其他有关规定使用专用的设施设备\n证据定位： DOC0006-K69；S0006，第五章　铁路运营安全，第六十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运输危险货物应当依照法律法规和国家其他有关规定使用专用的设施设备，托运人应当配备必要的押运人员和应急处理器材、设备以及防护用品，并使危险货物始终处于押运人员的监管之下；危险货物发生被盗、丢失、泄漏等情况，应当按照国家有关规定及时报告。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第六十九条｜运输危险货物应当依照法律法规和国家其他有关规定使用专用的设施设备\n证据定位： DOC0006-K69；S0006，第五章　铁路运营安全，第六十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运输危险货物应当依照法律法规和国家其他有关规定使用专用的设施设备，托运人应当配备必要的押运人员和应急处理器材、设备以及防护用品，并使危险货物始终处于押运人员的监管之下；危险货物发生被盗、丢失、泄漏等情况，应当按照国家有关规定及时报告。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "dbc14b63adb78c55",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "83e1661908f4b4f0",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十条｜办理危险货物运输业务的工作人员和装卸人员、押运人员\n证据定位： DOC0006-K70；S0006，第五章　铁路运营安全，第七十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n办理危险货物运输业务的工作人员和装卸人员、押运人员，应当掌握危险货物的性质、危害特性、包装容器的使用特性和发生意外的应急措施。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十条｜办理危险货物运输业务的工作人员和装卸人员、押运人员\n证据定位： DOC0006-K70；S0006，第五章　铁路运营安全，第七十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n办理危险货物运输业务的工作人员和装卸人员、押运人员，应当掌握危险货物的性质、危害特性、包装容器的使用特性和发生意外的应急措施。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "83e1661908f4b4f0",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c4da7809890ac37d",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十一条｜铁路运输企业和托运人应当按照操作规程包装、装卸、运输危险货物，防止危险货物泄漏、爆炸\n证据定位： DOC0006-K71；S0006，第五章　铁路运营安全，第七十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业和托运人应当按照操作规程包装、装卸、运输危险货物，防止危险货物泄漏、爆炸。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十一条｜铁路运输企业和托运人应当按照操作规程包装、装卸、运输危险货物，防止危险货物泄漏、爆炸\n证据定位： DOC0006-K71；S0006，第五章　铁路运营安全，第七十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业和托运人应当按照操作规程包装、装卸、运输危险货物，防止危险货物泄漏、爆炸。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "c4da7809890ac37d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ccaa2138cf37b59b",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十二条｜铁路运输企业和托运人应当依照法律法规和国家其他有关规定包装、装载、押运特殊药品\n证据定位： DOC0006-K72；S0006，第五章　铁路运营安全，第七十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业和托运人应当依照法律法规和国家其他有关规定包装、装载、押运特殊药品，防止特殊药品在运输过程中被盗、被劫或者发生丢失。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十二条｜铁路运输企业和托运人应当依照法律法规和国家其他有关规定包装、装载、押运特殊药品\n证据定位： DOC0006-K72；S0006，第五章　铁路运营安全，第七十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业和托运人应当依照法律法规和国家其他有关规定包装、装载、押运特殊药品，防止特殊药品在运输过程中被盗、被劫或者发生丢失。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "ccaa2138cf37b59b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7f7d31ba3326b5df",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十三条｜铁路管理信息系统及其设施的建设和使用，应当符合法律法规和国家其他有关规定的安全技术要求\n证据定位： DOC0006-K73；S0006，第五章　铁路运营安全，第七十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路管理信息系统及其设施的建设和使用，应当符合法律法规和国家其他有关规定的安全技术要求。\n铁路运输企业应当建立网络与信息安全应急保障体系，并配备相应的专业技术人员负责网络和信息系统的安全管理工作。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十三条｜铁路管理信息系统及其设施的建设和使用，应当符合法律法规和国家其他有关规定的安全技术要求\n证据定位： DOC0006-K73；S0006，第五章　铁路运营安全，第七十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路管理信息系统及其设施的建设和使用，应当符合法律法规和国家其他有关规定的安全技术要求。\n铁路运输企业应当建立网络与信息安全应急保障体系，并配备相应的专业技术人员负责网络和信息系统的安全管理工作。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7f7d31ba3326b5df",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7d33228e346fca75",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十四条｜禁止使用无线电台（站）以及其他仪器、装置干扰铁路运营指挥调度无线电频率的正常使用\n证据定位： DOC0006-K74；S0006，第五章　铁路运营安全，第七十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止使用无线电台（站）以及其他仪器、装置干扰铁路运营指挥调度无线电频率的正常使用。\n铁路运营指挥调度无线电频率受到干扰的，铁路运输企业应当立即采取排查措施并报告无线电管理机构、铁路监管部门；无线电管理机构、铁路监管部门应当依法排除干扰。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十四条｜禁止使用无线电台（站）以及其他仪器、装置干扰铁路运营指挥调度无线电频率的正常使用\n证据定位： DOC0006-K74；S0006，第五章　铁路运营安全，第七十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止使用无线电台（站）以及其他仪器、装置干扰铁路运营指挥调度无线电频率的正常使用。\n铁路运营指挥调度无线电频率受到干扰的，铁路运输企业应当立即采取排查措施并报告无线电管理机构、铁路监管部门；无线电管理机构、铁路监管部门应当依法排除干扰。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7d33228e346fca75",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7f93c8fe8617dffb",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十五条｜持续供电、供电质量与中断抢修责任\n证据定位： DOC0006-K75；S0006，第五章　铁路运营安全，第七十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n电力企业应当依法保障铁路运输所需电力的持续供应，并保证供电质量。\n铁路运输企业应当加强用电安全管理，合理配置供电电源和应急自备电源。\n遇有特殊情况影响铁路电力供应的，电力企业和铁路运输企业应当按照各自职责及时组织抢修，尽快恢复正常供电。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十五条｜持续供电、供电质量与中断抢修责任\n证据定位： DOC0006-K75；S0006，第五章　铁路运营安全，第七十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n电力企业应当依法保障铁路运输所需电力的持续供应，并保证供电质量。\n铁路运输企业应当加强用电安全管理，合理配置供电电源和应急自备电源。\n遇有特殊情况影响铁路电力供应的，电力企业和铁路运输企业应当按照各自职责及时组织抢修，尽快恢复正常供电。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7f93c8fe8617dffb",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7164f483f37bb38e",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十六条｜铁路运输企业应当加强铁路运营食品安全管理，遵守有关食品安全管理的法律法规和国家其他有关规定，保证食品安全\n证据定位： DOC0006-K76；S0006，第五章　铁路运营安全，第七十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当加强铁路运营食品安全管理，遵守有关食品安全管理的法律法规和国家其他有关规定，保证食品安全。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十六条｜铁路运输企业应当加强铁路运营食品安全管理，遵守有关食品安全管理的法律法规和国家其他有关规定，保证食品安全\n证据定位： DOC0006-K76；S0006，第五章　铁路运营安全，第七十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当加强铁路运营食品安全管理，遵守有关食品安全管理的法律法规和国家其他有关规定，保证食品安全。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7164f483f37bb38e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "2b2e9f03e2f707d0",
+      "content": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十七条｜禁止实施下列危害铁路安全的行为\n证据定位： DOC0006-K77；S0006，第五章　铁路运营安全，第七十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止实施下列危害铁路安全的行为：\n（一）非法拦截列车、阻断铁路运输；\n（二）扰乱铁路运输指挥调度机构以及车站、列车的正常秩序；\n（三）在铁路线路上放置、遗弃障碍物；\n（四）击打列车；\n（五）擅自移动铁路线路上的机车车辆，或者擅自开启列车车门、违规操纵列车紧急制动设备；\n（六）拆盗、损毁或者擅自移动铁路设施设备、机车车辆配件、标桩、防护设施和安全标志；\n（七）在铁路线路上行走、坐卧或者在未设道口、人行过道的铁路线路上通过；\n（八）擅自进入铁路线路封闭区域或者在未设置行人通道的铁路桥梁、隧道通行；\n（九）擅自开启、关闭列车的货车阀、盖或者破坏施封状态；\n（十）擅自开启列车中的集装箱箱门，破坏箱体、阀、盖或者施封状态；\n（十一）擅自松动、拆解、移动列车中的货物装载加固材料、装置和设备；\n（十二）钻车、扒车、跳车；\n（十三）从列车上抛扔杂物；\n（十四）在动车组列车上吸烟或者在其他列车的禁烟区域吸烟；\n（十五）强行登乘或者以拒绝下车等方式强占列车；\n（十六）冲击、堵塞、占用进出站通道或者候车区、站台。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第五章　铁路运营安全\n### 第七十七条｜禁止实施下列危害铁路安全的行为\n证据定位： DOC0006-K77；S0006，第五章　铁路运营安全，第七十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n禁止实施下列危害铁路安全的行为：\n（一）非法拦截列车、阻断铁路运输；\n（二）扰乱铁路运输指挥调度机构以及车站、列车的正常秩序；\n（三）在铁路线路上放置、遗弃障碍物；\n（四）击打列车；\n（五）擅自移动铁路线路上的机车车辆，或者擅自开启列车车门、违规操纵列车紧急制动设备；\n（六）拆盗、损毁或者擅自移动铁路设施设备、机车车辆配件、标桩、防护设施和安全标志；\n（七）在铁路线路上行走、坐卧或者在未设道口、人行过道的铁路线路上通过；\n（八）擅自进入铁路线路封闭区域或者在未设置行人通道的铁路桥梁、隧道通行；\n（九）擅自开启、关闭列车的货车阀、盖或者破坏施封状态；\n（十）擅自开启列车中的集装箱箱门，破坏箱体、阀、盖或者施封状态；\n（十一）擅自松动、拆解、移动列车中的货物装载加固材料、装置和设备；\n（十二）钻车、扒车、跳车；\n（十三）从列车上抛扔杂物；\n（十四）在动车组列车上吸烟或者在其他列车的禁烟区域吸烟；\n（十五）强行登乘或者以拒绝下车等方式强占列车；\n（十六）冲击、堵塞、占用进出站通道或者候车区、站台。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "2b2e9f03e2f707d0",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "1a0e0fb4000f00b0",
+      "content": "# 铁路安全管理条例\n## 第六章　监督检查\n### 第七十八条｜铁路监管部门应当对从事铁路建设、运输、设备制造维修的企业执行本条例的情况实施监督检查\n证据定位： DOC0006-K78；S0006，第六章　监督检查，第七十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门应当对从事铁路建设、运输、设备制造维修的企业执行本条例的情况实施监督检查，依法查处违反本条例规定的行为，依法组织或者参与铁路安全事故的调查处理。\n铁路监管部门应当建立企业违法行为记录和公告制度，对违反本条例被依法追究法律责任的从事铁路建设、运输、设备制造维修的企业予以公布。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第六章　监督检查\n### 第七十八条｜铁路监管部门应当对从事铁路建设、运输、设备制造维修的企业执行本条例的情况实施监督检查\n证据定位： DOC0006-K78；S0006，第六章　监督检查，第七十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门应当对从事铁路建设、运输、设备制造维修的企业执行本条例的情况实施监督检查，依法查处违反本条例规定的行为，依法组织或者参与铁路安全事故的调查处理。\n铁路监管部门应当建立企业违法行为记录和公告制度，对违反本条例被依法追究法律责任的从事铁路建设、运输、设备制造维修的企业予以公布。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "1a0e0fb4000f00b0",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "eb41535ca287662f",
+      "content": "# 铁路安全管理条例\n## 第六章　监督检查\n### 第七十九条｜铁路监管部门应当加强对铁路运输高峰期和恶劣气象条件下运输安全的监督管理\n证据定位： DOC0006-K79；S0006，第六章　监督检查，第七十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门应当加强对铁路运输高峰期和恶劣气象条件下运输安全的监督管理，加强对铁路运输的关键环节、重要设施设备的安全状况以及铁路运输突发事件应急预案的建立和落实情况的监督检查。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第六章　监督检查\n### 第七十九条｜铁路监管部门应当加强对铁路运输高峰期和恶劣气象条件下运输安全的监督管理\n证据定位： DOC0006-K79；S0006，第六章　监督检查，第七十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门应当加强对铁路运输高峰期和恶劣气象条件下运输安全的监督管理，加强对铁路运输的关键环节、重要设施设备的安全状况以及铁路运输突发事件应急预案的建立和落实情况的监督检查。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "eb41535ca287662f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3efa177b5cf80778",
+      "content": "# 铁路安全管理条例\n## 第六章　监督检查\n### 第八十条｜铁路监管部门和县级以上人民政府安全生产监督管理部门应当建立信息通报制度和运输安全生产协调机制\n证据定位： DOC0006-K80；S0006，第六章　监督检查，第八十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门和县级以上人民政府安全生产监督管理部门应当建立信息通报制度和运输安全生产协调机制。发现重大安全隐患，铁路运输企业难以自行排除的，应当及时向铁路监管部门和有关地方人民政府报告。地方人民政府获悉铁路沿线有危及铁路运输安全的重要情况，应当及时通报有关的铁路运输企业和铁路监管部门。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第六章　监督检查\n### 第八十条｜铁路监管部门和县级以上人民政府安全生产监督管理部门应当建立信息通报制度和运输安全生产协调机制\n证据定位： DOC0006-K80；S0006，第六章　监督检查，第八十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门和县级以上人民政府安全生产监督管理部门应当建立信息通报制度和运输安全生产协调机制。发现重大安全隐患，铁路运输企业难以自行排除的，应当及时向铁路监管部门和有关地方人民政府报告。地方人民政府获悉铁路沿线有危及铁路运输安全的重要情况，应当及时通报有关的铁路运输企业和铁路监管部门。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "3efa177b5cf80778",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c21dc8f60f2f90b5",
+      "content": "# 铁路安全管理条例\n## 第六章　监督检查\n### 第八十一条｜铁路监管部门发现安全隐患，应当责令有关单位立即排除\n证据定位： DOC0006-K81；S0006，第六章　监督检查，第八十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门发现安全隐患，应当责令有关单位立即排除。重大安全隐患排除前或者排除过程中无法保证安全的，应当责令从危险区域内撤出人员、设备，停止作业；重大安全隐患排除后方可恢复作业。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第六章　监督检查\n### 第八十一条｜铁路监管部门发现安全隐患，应当责令有关单位立即排除\n证据定位： DOC0006-K81；S0006，第六章　监督检查，第八十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门发现安全隐患，应当责令有关单位立即排除。重大安全隐患排除前或者排除过程中无法保证安全的，应当责令从危险区域内撤出人员、设备，停止作业；重大安全隐患排除后方可恢复作业。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "c21dc8f60f2f90b5",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "21fa0ea9e15593fd",
+      "content": "# 铁路安全管理条例\n## 第六章　监督检查\n### 第八十二条｜实施铁路安全监督检查的人员执行监督检查任务时，应当佩戴标志或者出示证件\n证据定位： DOC0006-K82；S0006，第六章　监督检查，第八十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n实施铁路安全监督检查的人员执行监督检查任务时，应当佩戴标志或者出示证件。任何单位和个人不得阻碍、干扰安全监督检查人员依法履行安全检查职责。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第六章　监督检查\n### 第八十二条｜实施铁路安全监督检查的人员执行监督检查任务时，应当佩戴标志或者出示证件\n证据定位： DOC0006-K82；S0006，第六章　监督检查，第八十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n实施铁路安全监督检查的人员执行监督检查任务时，应当佩戴标志或者出示证件。任何单位和个人不得阻碍、干扰安全监督检查人员依法履行安全检查职责。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "21fa0ea9e15593fd",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "371b423dda5888b2",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十三条｜铁路建设单位和铁路建设的勘察、设计、施工、监理单位违反本条例关于铁路建设质量安全管理的规定的\n证据定位： DOC0006-K83；S0006，第七章　法律责任，第八十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设单位和铁路建设的勘察、设计、施工、监理单位违反本条例关于铁路建设质量安全管理的规定的，由铁路监管部门依照有关工程建设、招标投标管理的法律、行政法规的规定处罚。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十三条｜铁路建设单位和铁路建设的勘察、设计、施工、监理单位违反本条例关于铁路建设质量安全管理的规定的\n证据定位： DOC0006-K83；S0006，第七章　法律责任，第八十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设单位和铁路建设的勘察、设计、施工、监理单位违反本条例关于铁路建设质量安全管理的规定的，由铁路监管部门依照有关工程建设、招标投标管理的法律、行政法规的规定处罚。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "371b423dda5888b2",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "05ba322fdf15641b",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十四条｜铁路建设单位未对高速铁路和地质构造复杂的铁路建设工程实行工程地质勘察监理\n证据定位： DOC0006-K84；S0006，第七章　法律责任，第八十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设单位未对高速铁路和地质构造复杂的铁路建设工程实行工程地质勘察监理，或者在铁路线路及其邻近区域进行铁路建设工程施工不执行铁路营业线施工安全管理规定，影响铁路运营安全的，由铁路监管部门责令改正，处10万元以上50万元以下的罚款。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十四条｜铁路建设单位未对高速铁路和地质构造复杂的铁路建设工程实行工程地质勘察监理\n证据定位： DOC0006-K84；S0006，第七章　法律责任，第八十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设单位未对高速铁路和地质构造复杂的铁路建设工程实行工程地质勘察监理，或者在铁路线路及其邻近区域进行铁路建设工程施工不执行铁路营业线施工安全管理规定，影响铁路运营安全的，由铁路监管部门责令改正，处10万元以上50万元以下的罚款。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "05ba322fdf15641b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "1bc813da3d763bf2",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十五条｜依法应当进行产品认证的铁路专用设备未经认证合格\n证据定位： DOC0006-K85；S0006，第七章　法律责任，第八十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n依法应当进行产品认证的铁路专用设备未经认证合格，擅自出厂、销售、进口、使用的，依照《中华人民共和国认证认可条例》的规定处罚。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十五条｜依法应当进行产品认证的铁路专用设备未经认证合格\n证据定位： DOC0006-K85；S0006，第七章　法律责任，第八十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n依法应当进行产品认证的铁路专用设备未经认证合格，擅自出厂、销售、进口、使用的，依照《中华人民共和国认证认可条例》的规定处罚。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "1bc813da3d763bf2",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "70906196ffea1ebf",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十六条｜铁路机车车辆以及其他专用设备制造者未按规定召回缺陷产品\n证据定位： DOC0006-K86；S0006，第七章　法律责任，第八十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路机车车辆以及其他专用设备制造者未按规定召回缺陷产品，采取措施消除缺陷的，由国务院铁路行业监督管理部门责令改正；拒不改正的，处缺陷产品货值金额1%以上10%以下的罚款；情节严重的，由国务院铁路行业监督管理部门吊销相应的许可证件。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十六条｜铁路机车车辆以及其他专用设备制造者未按规定召回缺陷产品\n证据定位： DOC0006-K86；S0006，第七章　法律责任，第八十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路机车车辆以及其他专用设备制造者未按规定召回缺陷产品，采取措施消除缺陷的，由国务院铁路行业监督管理部门责令改正；拒不改正的，处缺陷产品货值金额1%以上10%以下的罚款；情节严重的，由国务院铁路行业监督管理部门吊销相应的许可证件。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "70906196ffea1ebf",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0044ba9b552af87e",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十七条｜有下列情形之一的，由铁路监督管理机构责令改正，处2万元以上10万元以下的罚款\n证据定位： DOC0006-K87；S0006，第七章　法律责任，第八十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n有下列情形之一的，由铁路监督管理机构责令改正，处2万元以上10万元以下的罚款：\n（一）用于铁路运输的安全检测、监控、防护设施设备，集装箱和集装化用具等运输器具、专用装卸机械、索具、篷布、装载加固材料或者装置、运输包装、货物装载加固等，不符合国家标准、行业标准和技术规范；\n（二）不按照国家有关规定和标准设置、维护铁路封闭设施、安全防护设施；\n（三）架设、铺设铁路信号和通信线路、杆塔不符合国家标准、行业标准和铁路安全防护要求，或者未对铁路信号和通信线路、杆塔进行维护和管理；\n（四）运输危险货物不依照法律法规和国家其他有关规定使用专用的设施设备。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十七条｜有下列情形之一的，由铁路监督管理机构责令改正，处2万元以上10万元以下的罚款\n证据定位： DOC0006-K87；S0006，第七章　法律责任，第八十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n有下列情形之一的，由铁路监督管理机构责令改正，处2万元以上10万元以下的罚款：\n（一）用于铁路运输的安全检测、监控、防护设施设备，集装箱和集装化用具等运输器具、专用装卸机械、索具、篷布、装载加固材料或者装置、运输包装、货物装载加固等，不符合国家标准、行业标准和技术规范；\n（二）不按照国家有关规定和标准设置、维护铁路封闭设施、安全防护设施；\n（三）架设、铺设铁路信号和通信线路、杆塔不符合国家标准、行业标准和铁路安全防护要求，或者未对铁路信号和通信线路、杆塔进行维护和管理；\n（四）运输危险货物不依照法律法规和国家其他有关规定使用专用的设施设备。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "0044ba9b552af87e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c24f74447281a2c6",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十八条｜在铁路线路安全保护区内烧荒、放养牲畜、种植影响铁路线路安全和行车瞭望的树木等植物\n证据定位： DOC0006-K88；S0006，第七章　法律责任，第八十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路安全保护区内烧荒、放养牲畜、种植影响铁路线路安全和行车瞭望的树木等植物，或者向铁路线路安全保护区排污、倾倒垃圾以及其他危害铁路安全的物质的，由铁路监督管理机构责令改正，对单位可以处5万元以下的罚款，对个人可以处2000元以下的罚款。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十八条｜在铁路线路安全保护区内烧荒、放养牲畜、种植影响铁路线路安全和行车瞭望的树木等植物\n证据定位： DOC0006-K88；S0006，第七章　法律责任，第八十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路安全保护区内烧荒、放养牲畜、种植影响铁路线路安全和行车瞭望的树木等植物，或者向铁路线路安全保护区排污、倾倒垃圾以及其他危害铁路安全的物质的，由铁路监督管理机构责令改正，对单位可以处5万元以下的罚款，对个人可以处2000元以下的罚款。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "c24f74447281a2c6",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "123c8b93d409f9ef",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十九条｜未经铁路运输企业同意或者未签订安全协议\n证据定位： DOC0006-K89；S0006，第七章　法律责任，第八十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n未经铁路运输企业同意或者未签订安全协议，在铁路线路安全保护区内建造建筑物、构筑物等设施，取土、挖砂、挖沟、采空作业或者堆放、悬挂物品，或者违反保证铁路安全的国家标准、行业标准和施工安全规范，影响铁路运输安全的，由铁路监督管理机构责令改正，可以处10万元以下的罚款。\n铁路运输企业未派员对铁路线路安全保护区内施工现场进行安全监督的，由铁路监督管理机构责令改正，可以处3万元以下的罚款。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第八十九条｜未经铁路运输企业同意或者未签订安全协议\n证据定位： DOC0006-K89；S0006，第七章　法律责任，第八十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n未经铁路运输企业同意或者未签订安全协议，在铁路线路安全保护区内建造建筑物、构筑物等设施，取土、挖砂、挖沟、采空作业或者堆放、悬挂物品，或者违反保证铁路安全的国家标准、行业标准和施工安全规范，影响铁路运输安全的，由铁路监督管理机构责令改正，可以处10万元以下的罚款。\n铁路运输企业未派员对铁路线路安全保护区内施工现场进行安全监督的，由铁路监督管理机构责令改正，可以处3万元以下的罚款。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "123c8b93d409f9ef",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "211504967141a692",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十条｜在铁路线路安全保护区及其邻近区域建造或者设置的建筑物、构筑物、设备等进入国家规定的铁路建筑限界\n证据定位： DOC0006-K90；S0006，第七章　法律责任，第九十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路安全保护区及其邻近区域建造或者设置的建筑物、构筑物、设备等进入国家规定的铁路建筑限界，或者在铁路线路两侧建造、设立生产、加工、储存或者销售易燃、易爆或者放射性物品等危险物品的场所、仓库不符合国家标准、行业标准规定的安全防护距离的，由铁路监督管理机构责令改正，对单位处5万元以上20万元以下的罚款，对个人处1万元以上5万元以下的罚款。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十条｜在铁路线路安全保护区及其邻近区域建造或者设置的建筑物、构筑物、设备等进入国家规定的铁路建筑限界\n证据定位： DOC0006-K90；S0006，第七章　法律责任，第九十条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在铁路线路安全保护区及其邻近区域建造或者设置的建筑物、构筑物、设备等进入国家规定的铁路建筑限界，或者在铁路线路两侧建造、设立生产、加工、储存或者销售易燃、易爆或者放射性物品等危险物品的场所、仓库不符合国家标准、行业标准规定的安全防护距离的，由铁路监督管理机构责令改正，对单位处5万元以上20万元以下的罚款，对个人处1万元以上5万元以下的罚款。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "211504967141a692",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7ff414ecb98bbb74",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十一条｜有下列行为之一的\n证据定位： DOC0006-K91；S0006，第七章　法律责任，第九十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n有下列行为之一的，分别由铁路沿线所在地县级以上地方人民政府水行政主管部门、国土资源主管部门或者无线电管理机构等依照有关水资源管理、矿产资源管理、无线电管理等法律、行政法规的规定处罚：\n（一）未经批准在铁路线路两侧各1000米范围内从事露天采矿、采石或者爆破作业；\n（二）在地下水禁止开采区或者限制开采区抽取地下水；\n（三）在铁路桥梁跨越处河道上下游各1000米范围内围垦造田、拦河筑坝、架设浮桥或者修建其他影响铁路桥梁安全的设施；\n（四）在铁路桥梁跨越处河道上下游禁止采砂、淘金的范围内采砂、淘金；\n（五）干扰铁路运营指挥调度无线电频率正常使用。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十一条｜有下列行为之一的\n证据定位： DOC0006-K91；S0006，第七章　法律责任，第九十一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n有下列行为之一的，分别由铁路沿线所在地县级以上地方人民政府水行政主管部门、国土资源主管部门或者无线电管理机构等依照有关水资源管理、矿产资源管理、无线电管理等法律、行政法规的规定处罚：\n（一）未经批准在铁路线路两侧各1000米范围内从事露天采矿、采石或者爆破作业；\n（二）在地下水禁止开采区或者限制开采区抽取地下水；\n（三）在铁路桥梁跨越处河道上下游各1000米范围内围垦造田、拦河筑坝、架设浮桥或者修建其他影响铁路桥梁安全的设施；\n（四）在铁路桥梁跨越处河道上下游禁止采砂、淘金的范围内采砂、淘金；\n（五）干扰铁路运营指挥调度无线电频率正常使用。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7ff414ecb98bbb74",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "93b2472a3e33e112",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十二条｜铁路运输企业、道路管理部门或者道路经营企业未履行铁路、道路两用桥检查、维护职责的\n证据定位： DOC0006-K92；S0006，第七章　法律责任，第九十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业、道路管理部门或者道路经营企业未履行铁路、道路两用桥检查、维护职责的，由铁路监督管理机构或者上级道路管理部门责令改正；拒不改正的，由铁路监督管理机构或者上级道路管理部门指定其他单位进行养护和维修，养护和维修费用由拒不履行义务的铁路运输企业、道路管理部门或者道路经营企业承担。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十二条｜铁路运输企业、道路管理部门或者道路经营企业未履行铁路、道路两用桥检查、维护职责的\n证据定位： DOC0006-K92；S0006，第七章　法律责任，第九十二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业、道路管理部门或者道路经营企业未履行铁路、道路两用桥检查、维护职责的，由铁路监督管理机构或者上级道路管理部门责令改正；拒不改正的，由铁路监督管理机构或者上级道路管理部门指定其他单位进行养护和维修，养护和维修费用由拒不履行义务的铁路运输企业、道路管理部门或者道路经营企业承担。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "93b2472a3e33e112",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "fe73e43df1975621",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十三条｜机动车通过下穿铁路桥梁、涵洞的道路未遵守限高、限宽规定的\n证据定位： DOC0006-K93；S0006，第七章　法律责任，第九十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n机动车通过下穿铁路桥梁、涵洞的道路未遵守限高、限宽规定的，由公安机关依照道路交通安全管理法律、行政法规的规定处罚。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十三条｜机动车通过下穿铁路桥梁、涵洞的道路未遵守限高、限宽规定的\n证据定位： DOC0006-K93；S0006，第七章　法律责任，第九十三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n机动车通过下穿铁路桥梁、涵洞的道路未遵守限高、限宽规定的，由公安机关依照道路交通安全管理法律、行政法规的规定处罚。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "fe73e43df1975621",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "43732073d69c45a6",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十四条｜违反本条例第四十八条、第四十九条关于铁路道口安全管理的规定的\n证据定位： DOC0006-K94；S0006，第七章　法律责任，第九十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n违反本条例第四十八条、第四十九条关于铁路道口安全管理的规定的，由铁路监督管理机构责令改正，处1000元以上5000元以下的罚款。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十四条｜违反本条例第四十八条、第四十九条关于铁路道口安全管理的规定的\n证据定位： DOC0006-K94；S0006，第七章　法律责任，第九十四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n违反本条例第四十八条、第四十九条关于铁路道口安全管理的规定的，由铁路监督管理机构责令改正，处1000元以上5000元以下的罚款。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "43732073d69c45a6",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0a55c2d90f2623cd",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十五条｜违反本条例第五十一条、第五十二条、第五十三条、第七十七条规定的\n证据定位： DOC0006-K95；S0006，第七章　法律责任，第九十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n违反本条例第五十一条、第五十二条、第五十三条、第七十七条规定的，由公安机关责令改正，对单位处1万元以上5万元以下的罚款，对个人处500元以上2000元以下的罚款。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十五条｜违反本条例第五十一条、第五十二条、第五十三条、第七十七条规定的\n证据定位： DOC0006-K95；S0006，第七章　法律责任，第九十五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n违反本条例第五十一条、第五十二条、第五十三条、第七十七条规定的，由公安机关责令改正，对单位处1万元以上5万元以下的罚款，对个人处500元以上2000元以下的罚款。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "0a55c2d90f2623cd",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f55937611921c8a5",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十六条｜铁路运输托运人托运货物、行李、包裹时匿报、谎报货物品名、性质、重量\n证据定位： DOC0006-K96；S0006，第七章　法律责任，第九十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输托运人托运货物、行李、包裹时匿报、谎报货物品名、性质、重量，或者装车、装箱超过规定重量的，由铁路监督管理机构责令改正，可以处2000元以下的罚款；情节较重的，处2000元以上2万元以下的罚款；将危险化学品谎报或者匿报为普通货物托运的，处10万元以上20万元以下的罚款。\n铁路运输托运人在普通货物中夹带危险货物，或者在危险货物中夹带禁止配装的货物的，由铁路监督管理机构责令改正，处3万元以上20万元以下的罚款。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十六条｜铁路运输托运人托运货物、行李、包裹时匿报、谎报货物品名、性质、重量\n证据定位： DOC0006-K96；S0006，第七章　法律责任，第九十六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输托运人托运货物、行李、包裹时匿报、谎报货物品名、性质、重量，或者装车、装箱超过规定重量的，由铁路监督管理机构责令改正，可以处2000元以下的罚款；情节较重的，处2000元以上2万元以下的罚款；将危险化学品谎报或者匿报为普通货物托运的，处10万元以上20万元以下的罚款。\n铁路运输托运人在普通货物中夹带危险货物，或者在危险货物中夹带禁止配装的货物的，由铁路监督管理机构责令改正，处3万元以上20万元以下的罚款。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "f55937611921c8a5",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "884b16bbe789ea07",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十七条｜铁路运输托运人运输危险货物未配备必要的应急处理器材、设备、防护用品\n证据定位： DOC0006-K97；S0006，第七章　法律责任，第九十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输托运人运输危险货物未配备必要的应急处理器材、设备、防护用品，或者未按照操作规程包装、装卸、运输危险货物的，由铁路监督管理机构责令改正，处1万元以上5万元以下的罚款。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十七条｜铁路运输托运人运输危险货物未配备必要的应急处理器材、设备、防护用品\n证据定位： DOC0006-K97；S0006，第七章　法律责任，第九十七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输托运人运输危险货物未配备必要的应急处理器材、设备、防护用品，或者未按照操作规程包装、装卸、运输危险货物的，由铁路监督管理机构责令改正，处1万元以上5万元以下的罚款。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "884b16bbe789ea07",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "9d374af826ba79ae",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十八条｜铁路运输托运人运输危险货物不按照规定配备必要的押运人员\n证据定位： DOC0006-K98；S0006，第七章　法律责任，第九十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输托运人运输危险货物不按照规定配备必要的押运人员，或者发生危险货物被盗、丢失、泄漏等情况不按照规定及时报告的，由公安机关责令改正，处1万元以上5万元以下的罚款。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十八条｜铁路运输托运人运输危险货物不按照规定配备必要的押运人员\n证据定位： DOC0006-K98；S0006，第七章　法律责任，第九十八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输托运人运输危险货物不按照规定配备必要的押运人员，或者发生危险货物被盗、丢失、泄漏等情况不按照规定及时报告的，由公安机关责令改正，处1万元以上5万元以下的罚款。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "9d374af826ba79ae",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a2c5f60d369aeb01",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十九条｜旅客违法携带、夹带管制器具或者违法携带、托运烟花爆竹、枪支弹药等危险物品或者其他违禁物品的\n证据定位： DOC0006-K99；S0006，第七章　法律责任，第九十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客违法携带、夹带管制器具或者违法携带、托运烟花爆竹、枪支弹药等危险物品或者其他违禁物品的，由公安机关依法给予治安管理处罚。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第九十九条｜旅客违法携带、夹带管制器具或者违法携带、托运烟花爆竹、枪支弹药等危险物品或者其他违禁物品的\n证据定位： DOC0006-K99；S0006，第七章　法律责任，第九十九条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客违法携带、夹带管制器具或者违法携带、托运烟花爆竹、枪支弹药等危险物品或者其他违禁物品的，由公安机关依法给予治安管理处罚。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "a2c5f60d369aeb01",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "6f94a485ef183c53",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百条｜铁路运输企业有下列情形之一的，由铁路监管部门责令改正，处2万元以上10万元以下的罚款\n证据定位： DOC0006-K100；S0006，第七章　法律责任，第一百条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业有下列情形之一的，由铁路监管部门责令改正，处2万元以上10万元以下的罚款：\n（一）在非危险货物办理站办理危险货物承运手续；\n（二）承运未接受安全检查的货物；\n（三）承运不符合安全规定、可能危害铁路运输安全的货物；\n（四）未按照操作规程包装、装卸、运输危险货物。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百条｜铁路运输企业有下列情形之一的，由铁路监管部门责令改正，处2万元以上10万元以下的罚款\n证据定位： DOC0006-K100；S0006，第七章　法律责任，第一百条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业有下列情形之一的，由铁路监管部门责令改正，处2万元以上10万元以下的罚款：\n（一）在非危险货物办理站办理危险货物承运手续；\n（二）承运未接受安全检查的货物；\n（三）承运不符合安全规定、可能危害铁路运输安全的货物；\n（四）未按照操作规程包装、装卸、运输危险货物。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "6f94a485ef183c53",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3ab0d05f92ca5172",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百零一条｜铁路监管部门及其工作人员应当严格按照本条例规定的处罚种类和幅度\n证据定位： DOC0006-K101；S0006，第七章　法律责任，第一百零一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门及其工作人员应当严格按照本条例规定的处罚种类和幅度，根据违法行为的性质和具体情节行使行政处罚权，具体办法由国务院铁路行业监督管理部门制定。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百零一条｜铁路监管部门及其工作人员应当严格按照本条例规定的处罚种类和幅度\n证据定位： DOC0006-K101；S0006，第七章　法律责任，第一百零一条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门及其工作人员应当严格按照本条例规定的处罚种类和幅度，根据违法行为的性质和具体情节行使行政处罚权，具体办法由国务院铁路行业监督管理部门制定。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "3ab0d05f92ca5172",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7ae4f9b85ebd8a29",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百零二条｜铁路运输企业工作人员窃取、泄露旅客身份信息的，由公安机关依法处罚\n证据定位： DOC0006-K102；S0006，第七章　法律责任，第一百零二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业工作人员窃取、泄露旅客身份信息的，由公安机关依法处罚。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百零二条｜铁路运输企业工作人员窃取、泄露旅客身份信息的，由公安机关依法处罚\n证据定位： DOC0006-K102；S0006，第七章　法律责任，第一百零二条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业工作人员窃取、泄露旅客身份信息的，由公安机关依法处罚。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "7ae4f9b85ebd8a29",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "70d860ad45054337",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百零三条｜从事铁路建设、运输、设备制造维修的单位违反本条例规定，对直接负责的主管人员和其他直接责任人员依法给予处分\n证据定位： DOC0006-K103；S0006，第七章　法律责任，第一百零三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n从事铁路建设、运输、设备制造维修的单位违反本条例规定，对直接负责的主管人员和其他直接责任人员依法给予处分。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百零三条｜从事铁路建设、运输、设备制造维修的单位违反本条例规定，对直接负责的主管人员和其他直接责任人员依法给予处分\n证据定位： DOC0006-K103；S0006，第七章　法律责任，第一百零三条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n从事铁路建设、运输、设备制造维修的单位违反本条例规定，对直接负责的主管人员和其他直接责任人员依法给予处分。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "70d860ad45054337",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "af6a4374fec4c9df",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百零四条｜铁路监管部门及其工作人员不依照本条例规定履行职责的，对负有责任的领导人员和直接责任人员依法给予处分\n证据定位： DOC0006-K104；S0006，第七章　法律责任，第一百零四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门及其工作人员不依照本条例规定履行职责的，对负有责任的领导人员和直接责任人员依法给予处分。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百零四条｜铁路监管部门及其工作人员不依照本条例规定履行职责的，对负有责任的领导人员和直接责任人员依法给予处分\n证据定位： DOC0006-K104；S0006，第七章　法律责任，第一百零四条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门及其工作人员不依照本条例规定履行职责的，对负有责任的领导人员和直接责任人员依法给予处分。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "af6a4374fec4c9df",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "aa11e27471ce9f1a",
+      "content": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百零五条｜违反本条例规定，给铁路运输企业或者其他单位、个人财产造成损失的，依法承担民事责任\n证据定位： DOC0006-K105；S0006，第七章　法律责任，第一百零五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n违反本条例规定，给铁路运输企业或者其他单位、个人财产造成损失的，依法承担民事责任。\n违反本条例规定，构成违反治安管理行为的，由公安机关依法给予治安管理处罚；构成犯罪的，依法追究刑事责任。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第七章　法律责任\n### 第一百零五条｜违反本条例规定，给铁路运输企业或者其他单位、个人财产造成损失的，依法承担民事责任\n证据定位： DOC0006-K105；S0006，第七章　法律责任，第一百零五条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n违反本条例规定，给铁路运输企业或者其他单位、个人财产造成损失的，依法承担民事责任。\n违反本条例规定，构成违反治安管理行为的，由公安机关依法给予治安管理处罚；构成犯罪的，依法追究刑事责任。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "aa11e27471ce9f1a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8e2bf68072213e7a",
+      "content": "# 铁路安全管理条例\n## 第八章　附　　则\n### 第一百零六条｜专用铁路、铁路专用线的安全管理参照本条例的规定执行\n证据定位： DOC0006-K106；S0006，第八章　附　　则，第一百零六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n专用铁路、铁路专用线的安全管理参照本条例的规定执行。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第八章　附　　则\n### 第一百零六条｜专用铁路、铁路专用线的安全管理参照本条例的规定执行\n证据定位： DOC0006-K106；S0006，第八章　附　　则，第一百零六条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n专用铁路、铁路专用线的安全管理参照本条例的规定执行。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "8e2bf68072213e7a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e38d1791f0b63881",
+      "content": "# 铁路安全管理条例\n## 第八章　附　　则\n### 第一百零七条｜本条例所称高速铁路\n证据定位： DOC0006-K107；S0006，第八章　附　　则，第一百零七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第八章　附　　则\n### 第一百零七条｜本条例所称高速铁路\n证据定位： DOC0006-K107；S0006，第八章　附　　则，第一百零七条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "e38d1791f0b63881",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8ce4865102e77d3e",
+      "content": "# 铁路安全管理条例\n## 第八章　附　　则\n### 第一百零八条｜本条例自2014年1月1日起施行\n证据定位： DOC0006-K108；S0006，第八章　附　　则，第一百零八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本条例自2014年1月1日起施行。2004年12月27日国务院公布的《铁路运输安全保护条例》同时废止。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 第八章　附　　则\n### 第一百零八条｜本条例自2014年1月1日起施行\n证据定位： DOC0006-K108；S0006，第八章　附　　则，第一百零八条。\n来源版本与范围： 国务院令第639号；2013-08-17公布，2014-01-01施行；铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本条例自2014年1月1日起施行。2004年12月27日国务院公布的《铁路运输安全保护条例》同时废止。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "8ce4865102e77d3e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": false,
+      "chunk_id": "85753262aef9cc2e",
+      "content": "# 铁路安全管理条例\n## 来源与整理记录\n### 文档版本与原件索引\n文档 ID：DOC0006\n主领域：GW\n来源 ID：S0006\n资料性质：官方原文结构整理；检索小标题为编辑辅助文字。\n来源版本：国务院令第639号；2013-08-17公布，2014-01-01施行\n适用范围：铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验：按存档原件整理；尚不能证明不存在后续修订。使用时须核验适用版本。\n原件：01-originals/baseline/06_railway-safety.md\n正文核对底本：01-originals/baseline/06_railway-safety.md\n官方来源：https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/xzzf/202111/t20211111_261218.shtml\n整理日期：2026-11-16\n本节仅供追溯；不作为业务问答证据。\n",
+      "content_with_weight": "# 铁路安全管理条例\n## 来源与整理记录\n### 文档版本与原件索引\n文档 ID：DOC0006\n主领域：GW\n来源 ID：S0006\n资料性质：官方原文结构整理；检索小标题为编辑辅助文字。\n来源版本：国务院令第639号；2013-08-17公布，2014-01-01施行\n适用范围：铁路建设、运输、设备制造维修及铁路沿线安全；专用铁路和铁路专用线依第一百零六条参照执行。\n效力核验：按存档原件整理；尚不能证明不存在后续修订。使用时须核验适用版本。\n原件：01-originals/baseline/06_railway-safety.md\n正文核对底本：01-originals/baseline/06_railway-safety.md\n官方来源：https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/xzzf/202111/t20211111_261218.shtml\n整理日期：2026-11-16\n本节仅供追溯；不作为业务问答证据。\n",
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+      "document_id": "fde0ef42db5a430c9db85cc05b1afab8",
+      "id": "85753262aef9cc2e",
+      "important_keywords": [],
+      "questions": []
+    }
+  ],
+  "validation_scope": "全量正文和知识点边界自动比对；不冒充全量人工语义核验。模型token预算另行验证。"
+}

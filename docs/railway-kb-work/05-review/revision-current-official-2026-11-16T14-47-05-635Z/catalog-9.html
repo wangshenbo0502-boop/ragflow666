@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	
+	<meta name="SiteName" content="交通运输部政府网站">
+	<meta name="SiteDomain" content="www.mot.gov.cn">
+	<meta name="SiteIDCode" content="bm19000004">
+	<meta name="ColumnName" content="政府信息公开">
+	<meta name="ColumnDescription" content="描述">
+	<meta name="ColumnKeywords" content="政府信息公开;依申请公开;公开目录;年度报告">
+	<meta name="ColumnType" content="政策文件">
+	 <!-- /// 用户行为分析 /// -->
+	<meta id="pagetype" content="2">  
+	<META HTTP-EQUIV="pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate"><script type="text/javascript"> var juba_uuid = "";(function(){ var juba = document.createElement("script");juba.type = "text/javascript";juba.async = true;juba.src = "https://fwl.mot.gov.cn/jubac/sync/detailcollect.do";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(juba,s);})();</script>
+	
+    <link rel="stylesheet" href="../material/gzk/css/20211116base.css">
+    <link rel="stylesheet" href="../material/gzk/css/20211116sub1.css">
+    <link rel="stylesheet" type="text/css" href="../material/gzk/css/gzk_mobile1.css" media="screen and (max-width:767px) and (orientation:portrait)" />
+    <link href="/images/gov_favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="../material/gzk/js/jquery1.42.min.js"></script>
+    <script src="../material/gzk/js/laydate1.js"></script>
+    <title>交通运输部规章库</title>
+</head>
+<style>
+
+.rules-list ul li .title{padding-bottom:10px;min-height: inherit;}
+.rules-list ul li{margin-bottom:0;}
+.rules-list ul li .num,.rules-list ul li .title p a,.rules-list ul li .title i,.rules-list ul li .download a{font-family:'宋体'}
+
+.gzk-header .gzk-tit .gzk-sum{margin-top:50px;}
+.gzk-main{padding-bottom:0;min-height:inherit;}
+.gzk-main .search-box form{padding-left:108px;}
+.xll_pagebox{line-height:44px;padding:55px 0;margin:0;}
+.xll_pagebox>a{margin-top:0;border: 1px solid #d2d2d2;border-radius: 0;color:#333;}
+.page_hide a,.zt11,.zt12{border: 1px solid #d2d2d2;border-radius: 0;color:#333;font-size:14px;}
+.xll_pagebox>span{color:#333;}
+.zt11,.zt12{margin-top:-4px;}
+.rules-list ul li{position:relative;}
+.rules-list ul li .download {position: absolute;top: 50%;right: 0;margin-top: -25px;}
+.rules-list ul li .title{margin-left:8%;}
+.rules-list ul li .num {position: absolute;left: 0;top: 50%;margin-top: -40px;}
+
+.layui-laydate-header i{top: 18px;}
+	.layui-laydate-header i.laydate-prev-y{
+		display: inline-block;
+		height: 14px;
+		width: 20px;
+		background: url(../material/gzk/images-gzk/prev_y1.png) center no-repeat;
+		background-size: auto 100%;
+	}
+	.layui-laydate-header i.laydate-prev-y:hover{
+		display: inline-block;
+		height: 14px;
+		width: 20px;
+		background: url(../material/gzk/images-gzk/prev_y1_h.png) center no-repeat;
+		background-size: auto 100%;
+	}
+	.layui-laydate-header i.laydate-prev-m{
+		display: inline-block;
+		height: 14px;
+		width: 14px;
+		background: url(../material/gzk/images-gzk/prev_m1.png) center no-repeat;
+		background-size: auto 100%;
+	}
+	.layui-laydate-header i.laydate-prev-m:hover{
+		display: inline-block;
+		height: 14px;
+		width: 14px;
+		background: url(../material/gzk/images-gzk/prev_m1_h.png) center no-repeat;
+		background-size: auto 100%;
+	}
+	.layui-laydate-header i.laydate-next-m{
+		display: inline-block;
+		height: 14px;
+		width: 14px;
+		background: url(../material/gzk/images-gzk/next_m1.png) center no-repeat;
+		background-size: auto 100%;
+	}
+	.layui-laydate-header i.laydate-next-m:hover{
+		display: inline-block;
+		height: 14px;
+		width: 14px;
+		background: url(../material/gzk/images-gzk/next_m1_h.png) center no-repeat;
+		background-size: auto 100%;
+	}
+	.layui-laydate-header i.laydate-next-y{
+		display: inline-block;
+		height: 14px;
+		width: 20px;
+		background: url(../material/gzk/images-gzk/next_y1.png) center no-repeat;
+		background-size: auto 100%;
+	}
+	.layui-laydate-header i.laydate-next-y:hover{
+		display: inline-block;
+		height: 14px;
+		width: 20px;
+		background: url(../material/gzk/images-gzk/next_y1_h.png) center no-repeat;
+		background-size: auto 100%;
+	}
+
+@media screen and (max-width: 767px) and (orientation: portrait){
+.rules-list ul li,.rules-list ul li .title{padding-bottom:0;}
+.rules-list ul{border-bottom:none;}
+
+.rules-list ul li .num{margin-top:-14px;}
+.rules-list ul li .title{margin-left:15%;}
+.gzk-main .search-box form{padding:0;}
+.xll_pagebox{padding:10px 0;margin:0}
+
+
+.rules-list ul li .title i{
+display:block;
+color:#63685b;
+overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.rules-list ul li, .rules-list ul li .title{padding-top:5px;padding-bottom:5px;}
+.rules-list ul li{border-bottom:1px solid #dadada}
+
+}
+
+</style>
+<script>
+
+//检索逻辑开始
+  //普通检索
+									function checkForm(){
+										
+										var   searchValue= document.getElementById("searchValue").value;
+										if(searchValue.replace(/(^\s*)|(\s*$)/g,"")==""){
+											alert("请输入检索词");
+											return false;
+										}
+										document.getElementById("searchword").value=searchValue;
+										var searchscope=$("input[name='field']:checked").val();
+										document.getElementById("searchscopeid").value=searchscope;
+									}
+//高级检索
+									function checkForm1(){
+										var   searchValue= document.getElementById("searchValue").value;
+									
+										
+										var selecthyfl=document.getElementById("selecthyfl").value;
+										document.getElementById("hyflid").value=selecthyfl;
+										
+										var selectgwlx=document.getElementById("selectgwlx").value;
+										document.getElementById("gwlxid").value=selectgwlx;
+										
+										var paixu=$("input[name='paixu']:checked").val()
+										document.getElementById("orderby").value=paixu;;
+										
+										document.getElementById("searchword2").value=searchValue;
+										var searchscope=$("input[name='find']:checked").val();
+										document.getElementById("searchscopeid2").value=searchscope;
+									}
+									function resert(){
+										document.getElementById("selecthyfl").value="";
+										document.getElementById("selectgwlx").value="";
+										document.getElementById("starttime").value="";
+										document.getElementById("endtime").value="";
+										document.getElementById("filenum").value="";
+										$("input[name='find']")[0].checked=true;
+										$("input[name='find']")[1].checked=false;
+										$("input[name='paixu']")[0].checked=true;
+										$("input[name='paixu']")[1].checked=false;
+									}
+									//检索逻辑结束
+</script>
+<body>
+    <div class="bigbox">
+        <div class="wrap-jz">
+            <!-- 头部开始 -->
+            <div class="gzk-header">
+                <a href="https://www.mot.gov.cn" target="_blank" rel="noopenner noreferrer"></a>
+                <div class="gzk-tit">
+                    <img class="pc" style="width: auto;height: auto;margin: 0 auto;display: block;" src="../material/gzk/images-gzk/jtb_title.png" alt="" />
+                    <img class="mobile" src="../material/gzk/images-gzk/jtb_title_mobile.png" />
+                    <div class="gzk-sum">
+                        <span id="headnum">现行有效260部</span>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 头部结束 -->
+            <!-- 内容开始 -->
+            <div class="gzk-main">
+                <!-- 搜索开始 -->
+                <div class="search-box">
+               <form class="clearfix" action="https://hy.mot.gov.cn/was5/web/search" method="get" target="_blank" id="searchForm" onsubmit="return checkForm();">
+                        <input class="input" id="searchValue" type="text" value="" autocomplete="off" placeholder="在现行有效260部规章中检索" />
+                         <input type="hidden" name="searchword" id="searchword" />
+                        <input type="hidden" name="channelid" value="243771" />
+                      <input type="hidden" name="searchscope" id="searchscopeid" />
+                     <input type="hidden" name="orderby" value="RELEVANCE" />
+                        <input class="btn-search" type="submit" id="searchbtn" value="" />
+                        <div class="button" id="gjss">高级搜索</div>
+                    </form>
+                    <div class="sear-wz">
+                        <dl class="clearfix">
+                            <dt class="l">搜索位置</dt>
+                            <dd class="l">
+                                <p class="l" for="fileTitle">
+                                    <input type="radio" checked name="field" value="title" id="fileTitle" />&nbsp;&nbsp;标题
+                                </p>
+                            </dd>
+                            <dd class="l">
+                                <p class="l" for="fileAll">
+                                    <input type="radio" name="field" value="all" id="fileAll" />&nbsp;&nbsp;全文
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!--高级搜索-->
+                     <form class="clearfix" action="https://hy.mot.gov.cn/was5/web/search" method="get" id="searchForm1" >
+					  <input type="hidden" name="searchscope" id="searchscopeid2" />
+					   <input type="hidden" name="searchword" id="searchword2" />
+					  <input type="hidden" name="channelid" value="243771" />
+					  <input type="hidden" name="gwlx" id="gwlxid" />
+					  <input type="hidden" name="hyfl" id="hyflid" />
+					   <input type="hidden" name="orderby" id="orderby" value="RELEVANCE" />
+                      <div class="sear_level_wrap">
+                    	<dl class="clearfix" style="margin-bottom: 15px;">
+                            <dt class="l" style="font-size: 16px;color: #333333;">搜索位置</dt>
+                            <dd class="l" style="margin-left: 20px;">
+                                <p class="l" for="fileAll">
+                                    <input type="radio" checked name="find" value="all" id="All" />&nbsp;全文
+                                </p>
+                            </dd>
+                            <dd class="l" style="margin-left: 20px;">
+                                <p class="l" for="fileTitle">
+                                    <input type="radio" name="find" value="title" id="Title" />&nbsp;标题
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt class="l" style="font-size: 16px;color: #333333;line-height: 38px;">公文类型</dt>
+                            <dd class="l">
+                            	<select id="selectgwlx"  name="" style="width: 315px;height: 38px;border: 1px solid #e6e6e6;box-sizing: border-box;margin-left: 20px;">
+                            		<option value="">请选择</option>
+                            		<option value="855">部令</option>
+
+                            	</select>
+                            </dd>
+                            <dt class="l"  style="font-size: 16px;color: #333333;line-height: 38px;margin-left: 75px;">文号</dt>
+                            <dd class="l">
+                                <p class="l" for="fileTitle">
+                                    <input type="text" id="" name="filenum" value="" style="width: 315px;height: 38px;border: 1px solid #e6e6e6;box-sizing: border-box;margin-left: 20px;padding-left:10px;" />
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix" style="margin-top: 13px;">
+                        	<dt class="l" style="font-size: 16px;color: #333333;line-height: 38px;">行业分类</dt>
+                            <dd class="l">
+                            	<select id="selecthyfl" name="" style="width: 757px;height: 38px;border: 1px solid #e6e6e6;box-sizing: border-box;margin-left: 20px;">
+                            		<option value="">请选择</option>
+                            		<option value="743">公路建设</option>
+                            		<option value="744">路桥管理与养护</option>
+                            		<option value="793">收费公路</option>
+                            		<option value="795">港口和航运设施建设</option>
+                            		<option value="843">道路旅客运输</option>
+                            		<option value="842">道路货物运输</option>
+                            		<option value="841">城市公共交通运输</option>
+                            		<option value="840">出租汽车与汽车租赁</option>
+                            		<option value="838">互联网租赁自行车</option>
+                            		<option value="837">汽车维修</option>
+                            		<option value="799">机动车驾驶员培训</option>
+                            		<option value="785">水上旅客运输</option>
+                            		<option value="782">水上货物运输</option>
+                            		<option value="780">航道养护管理</option>
+                            		<option value="778">港口管理</option>
+                            		<option value="777">船舶管理</option>
+                            		<option value="776">船员管理</option>
+                            		<option value="774">水上搜寻救助打捞</option>
+                            		<option value="768">铁路工程建筑及铁路运输业</option>
+                            		<option value="755">民航工程建设及航空运输业</option>
+                            		<option value="752">邮政业</option>
+                            		<option value="749">多式联运和运输代理业</option>
+                            		<option value="747">其他</option>
+                            	</select>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix" style="margin-top: 13px;">
+                        	<dt class="l" style="font-size: 16px;color: #333333;line-height: 38px;">发布日期</dt>
+                        	<dd class="l">
+						        <span class="laydate_m2_fa">
+						            <input type="text" id="starttime" placeholder="起始日期" name="starttime" class="laydate_m2 lay_type_ym" style="width: 315px;height: 38px;border: 1px solid #e6e6e6;box-sizing: border-box;margin-left: 20px;padding-left: 12px;" />
+						        </span>
+                        	</dd>
+                        	<dd class="l">
+						        <span class="laydate_m2_fa">
+						            <input type="text" id="endtime" placeholder="结束日期" name="endtime" class="laydate_m3 lay_type_ym" style="width: 315px;height: 38px;border: 1px solid #e6e6e6;box-sizing: border-box;margin-left: 20px;padding-left: 12px;" />
+						        </span>
+                        	</dd>
+                        </dl>
+                        <dl class="clearfix" style="margin-top: 20px;">
+                            <dt class="l" style="font-size: 16px;color: #333333;">排序方式</dt>
+                            <dd class="l" style="margin-left: 20px;">
+                                <p class="l" for="fileAll">
+                                    <input type="radio" checked name="paixu" value="RELEVANCE" id="All" />&nbsp;按相关度排序
+                                </p>
+                            </dd>
+                            <dd class="l" style="margin-left: 20px;">
+                                <p class="l" for="fileTitle">
+                                    <input type="radio" name="paixu" value="-pubdate" id="Title" />&nbsp;按时间排序
+                                </p>
+                            </dd>
+                        </dl>
+                        <div class="sear_level_btn clearfix">
+                        	<button onClick="return checkForm1()" style="margin-left: 290px;height: auto;border: 1px solid #0166b5;">检索</button>
+                        	<button onClick="resert();return false;" style="background: #ffffff;border: 1px solid #0166b5;color: #0166b5;margin-left: 24px;height:auto;">重置</button>
+                        </div>
+                        <div class="shouqi">
+                        	<img src="../material/gzk/images-gzk/shouqi.png" />
+                        </div>
+                    </div>
+					</form>
+                </div>
+                <!-- 搜索结束 -->
+                <div class="gzk-content clearfix">
+                    
+                    <div class="rules-con">
+                        <ul class="r-xh-b clearfix">
+                            <li class="l r-xh">序号</li>
+                            <li class="l r-tit">标题</li>
+                            <li class="l r-xz">下载</li>
+                        </ul>
+                        <div class="rules-list">
+                            <ul>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">136</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211223_3632681.html" target="_blank" rel="noopenner noreferrer">危险货物道路运输安全管理办法</a>
+                                        </p>
+                                        <i class="shenglueone11">（2019年11月10日交通运输部、工信部、公安部、生态环境部、应急管理部、市场监管总局令第29号公布 自2020年1月1日起施行）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020211223592768378151.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020211223592767736587.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">137</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211223_3632677.html" target="_blank" rel="noopenner noreferrer">定期国际航空运输管理规定</a>
+                                        </p>
+                                        <i class="shenglueone11">（2017年5月26日交通运输部令第24号发布 根据2018年10月22日交通运输部《关于修改〈定期国际航空运输管理规定〉的决定》第一次修正 根据2019年10月21日交通运输部《关于修改〈定期国际航空运输管理规定〉的决定》第二次修正）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020211223577852919516.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020211223577852316398.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">138</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211223_3632673.html" target="_blank" rel="noopenner noreferrer">飞行模拟训练设备管理和运行规则</a>
+                                        </p>
+                                        <i class="shenglueone11">（2019年7月31日交通运输部令24号公布 自2019年10月1日起施行）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020260404388444480530.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020260404388441834262.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">139</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211223_3632670.html" target="_blank" rel="noopenner noreferrer">海上滚装船舶安全监督管理规定</a>
+                                        </p>
+                                        <i class="shenglueone11">（2019年7月1日交通运输部令2019年第23号公布 自2019年9月1日起施行）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020220809535266187591.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020220809535264371485.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">140</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211223_3632662.html" target="_blank" rel="noopenner noreferrer">智能快件箱寄递服务管理办法</a>
+                                        </p>
+                                        <i class="shenglueone11">（2019年6月20日交通运输部令第16号公布 自2019年10月1日起施行）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020211223554923308547.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020211223554922813297.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">141</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211223_3632661.html" target="_blank" rel="noopenner noreferrer">中华人民共和国国际船舶保安规则</a>
+                                        </p>
+                                        <i class="shenglueone11">（2007年3月26日交通部令2007年第2号发布 根据2019年6月3日《交通运输部关于修改〈中华人民共和国国际船舶保安规则〉的决定》修正）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020220809321048469903.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020220809321047842216.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">142</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211223_3632660.html" target="_blank" rel="noopenner noreferrer">交通运输标准化管理办法</a>
+                                        </p>
+                                        <i class="shenglueone11">（2019年5月13日交通运输部令第12号公布  自2019年7月1日起施行）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020211231338921146457.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020211231338920077374.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">143</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211223_3632656.html" target="_blank" rel="noopenner noreferrer">公路水路行业内部审计工作规定</a>
+                                        </p>
+                                        <i class="shenglueone11">（2019年2月5日交通运输部令第7号公布 自2019年4月1日起施行）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020211223547023403050.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020211223547022738887.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">144</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211223_3632654.html" target="_blank" rel="noopenner noreferrer">中华人民共和国船员培训管理规则</a>
+                                        </p>
+                                        <i class="shenglueone11">（2009年6月26日交通运输部令2009年第10号发布 根据2013年12月24日交通运输部《关于修改〈中华人民共和国船员培训管理规则〉的决定》第一次修正 根据2017年3月31日交通运输部《关于修改〈中华人民共和国船员培训管理规则〉的决定》第二次修正 根据2019年2月5日交通运输部《关于修改〈中华人民共和国船员培训管理规则〉的决定》第三次修正）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020240510394637858570.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020240510394637120968.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">145</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211223_3632653.html" target="_blank" rel="noopenner noreferrer">铁路机车车辆设计制造维修进口许可办法</a>
+                                        </p>
+                                        <i class="shenglueone11">（2013年12月24日交通运输部令第13号发布 根据2019年2月3日交通运输部《关于修改〈铁路机车车辆设计制造维修进口许可办法〉的决定》修正）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020211223540808583459.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020211223540808062796.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">146</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211224_3632873.html" target="_blank" rel="noopenner noreferrer">中华人民共和国船舶最低安全配员规则</a>
+                                        </p>
+                                        <i class="shenglueone11">（2004年6月30日交通部令2004年第7号发布 根据2014年9月5日《交通运输部关于修改〈中华人民共和国船舶最低安全配员规则〉的决定》第一次修正 根据2018年11月28日《交通运输部关于修改〈中华人民共和国船舶最低安全配员规则〉的决定》第二次修正）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020220809345584470874.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020220809345583957311.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">147</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211224_3632902.html" target="_blank" rel="noopenner noreferrer">交通运输法规制定程序规定</a>
+                                        </p>
+                                        <i class="shenglueone11">（2016年9月2日交通运输部令第66号公布 根据2018年11月27日《交通运输部关于修改〈交通运输法规制定程序规定〉的决定》修正）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020211224503941617845.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020211224503940953459.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">148</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211224_3632906.html" target="_blank" rel="noopenner noreferrer">民用航空器驾驶员合格审定规则</a>
+                                        </p>
+                                        <i class="shenglueone11">（2016年3月28日交通运输部发布 根据2018年11月16日交通运输部《关于修改〈民用航空器驾驶员合格审定规则〉的决定》修正）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020260615523717214224.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020260615523711686680.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">149</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211227_3633330.html" target="_blank" rel="noopenner noreferrer">民用航空器飞行机械员合格审定规则</a>
+                                        </p>
+                                        <i class="shenglueone11">（2018年8月31日交通运输部令第15号公布 自2019年1月1日起施行）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020211227346054811154.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020211227346054415694.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                <li class="clearfix">
+                                    <span class="num l">150</span>
+
+                                    <div class="title l">
+                                        <p class="shenglueone11">
+                                               
+                                               <a href="https://xxgk.mot.gov.cn/gz/202112/t20211224_3632989.html" target="_blank" rel="noopenner noreferrer">民用航空人员体检合格证管理规则</a>
+                                        </p>
+                                        <i class="shenglueone11">（2016年3月17日交通运输部发布 根据2017年4月24日交通运输部《关于修改〈民用航空人员体检合格证管理规则〉的决定》第一次修正 根据2018年11月16日交通运输部《关于修改〈民用航空人员体检合格证管理规则〉的决定》第二次修正）</i>
+                                    </div>
+
+                                    <div class="download r">
+                                        
+                                        <a href='./202112/W020220812525012245917.docx' download=''   target="_blank" />下载文字版</a>
+                                        <a href='./202112/W020220812525011598861.pdf' download=''   target="_blank" />下载图片版</a>
+                                    </div>
+                                </li>
+                                
+                                
+                                <!--<li class="clearfix">
+                                    <span class="num l">11</span>
+                                    <div class="title l">
+                                        <p><a href="" target="_blank" rel="noopenner noreferrer">XX省社会信用信息管理办法</a></p>
+                                        <i>（XX省社会信用信息管理办法 XX省社会信用信息管理办法）</i>
+                                    </div>
+                                    <div class="download r">
+                                        <a href="" target="_blank" rel="noopenner noreferrer">下载文字版</a>
+                                        <a href="" target="_blank" rel="noopenner noreferrer">下载图片版</a>
+                                    </div>
+                                </li>-->
+                            </ul>
+                            <!-- pc 分页开始 -->
+                            <div class="xll_pagebox">
+                                <script language="JavaScript" type="text/javascript">
+                                    var currentPage = 9
+                                    var prevPage = currentPage - 1
+                                    var nextPage = currentPage + 1
+                                    var countPage = 18 
+                                    showPage = currentPage;
+                                    var totalPage = "260";
+                                    
+                                   // document.write('<span style="font-zize:14px;color:#7d7d7d;">共 ' + '<i style="color:#ff0000;font-size:14px;">' + totalPage + '</i>' + ' 条数据</span>&nbsp;');
+
+                                    document.write("<a href=\"index." + "html\">首页</a>&nbsp;");
+
+                                    if (countPage > 1 && currentPage != 0 && currentPage != 1)
+                                        document.write("<a href=\"index" + "_" + prevPage + "." + "html\" class='xll_page_prev_l'>上一页</a>&nbsp;");
+                                    else if (countPage > 1 && currentPage != 0 && currentPage == 1)
+                                        document.write("<a href=\"index.html\" class='xll_page_prev_l'>上一页</a>&nbsp;");
+                                    else
+                                        document.write("<a href=\"javascript:void(0)\" class='xll_page_prev_l'>上一页</a>&nbsp;");
+
+
+
+                                    var num = 5;
+                                    if (currentPage == 0 || countPage < num) {
+                                        showPage = 1;
+                                    } else if (currentPage > (countPage - (num - 1))) {
+                                        showPage = countPage - (num - 1);
+                                    }
+                                    document.write("<p class='page_hide'>");
+                                    for (var i = (showPage - 1); i < (num + (showPage - 1)) && (i < countPage); i++) {
+
+                                        if (currentPage == i)
+                                            document.write("<span class='xll_current'>" + (i + 1) + "</span>&nbsp;");
+                                        else if (i == 0) {
+                                           document.write("<a href=\"index.html\">" + 1 + "</a>&nbsp;");
+                                            //document.write("<a href=\"index.html\">" + 1 + "</a>");
+                                        } else
+                                            document.write("<a style='margin-right:5px;' href=\"index" + "_" + i + "." + "html\" >" + (i + 1) + "</a>");
+                                    }
+                                    document.write("</p>");
+
+
+                                    if (countPage > 1 && currentPage != (countPage - 1))
+                                        document.write("<a href=\"index" + "_" + nextPage + "." + "html\" class='xll_page_next_r'>下一页</a>");
+                                    else
+                                        document.write("&nbsp;<a href=\"javascript:void(0)\" class='xll_page_next_r'>下一页</a>&nbsp;");
+
+
+                                    if (countPage == 1)
+                                        document.write("&nbsp;<a>尾页</a>");
+                                    else
+                                        document.write("&nbsp;<a href=\"index" + "_" + (countPage - 1) + "." + "html\">尾页</a>");
+                                    document.write("<span>共<font>" + "18" + "</font>页</span>");
+                                    document.write("<font class='zt10'>&nbsp;跳至&nbsp;<input type='text' class='zt11' id='num' value=" + (currentPage + 1) +" style='width:28px' />&nbsp;");
+                                    document.write("&nbsp;<input type='submit' value='确认' class='zt12' onClick=javacript:toPage() /></font>");
+                                    function toPage() {
+                                        var _num = document.getElementById("num").value;
+                                        var str = "index" + "_" + (_num - 1) + "." + "html";
+                                        var toPage_url = location.href.substring(0, location.href.lastIndexOf("/") + 1);
+                                        if (_num <= 1 || _num == null)
+                                            location.href = toPage_url + "index" + "." + "html";
+                                        else if (_num > countPage)
+                                            alert("本频道最多" + countPage + "页");
+                                        else
+                                            location.href = toPage_url + str;
+                                    }
+                                    $('.zt11').on('focus', function () {
+                                        $(document).keydown(function (e) {
+                                            if ((e.keyCode || e.which) == 13) {
+                                                $(".zt12").click();
+                                            }
+                                        });
+                                    });
+                                </script>
+                            </div>
+                            <!-- pc 分页结束 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 内容结束 -->
+
+        </div>
+        <!-- 底部开始 -->
+        <div class="fl w100 footer_xxgk hidden-xs" style="overflow: hidden;">
+			<div class="container" style="width:1100px;padding:0;margin:0 auto;">
+				<div class="col-xs-2 col-sm-1 web_footer_left" style="width: auto;padding-right: 15px;">
+					<a href="https://bszs.conac.cn/sitename?method=show&id=0ADE6D982AD1377DE053022819AC10D7" class="fr" target="_blank" rel="noopenner noreferrer">
+					<img src="../images/xxgk20200601_bg20.png" style="width: 40px;line-height: 24px;" /></a></div>
+				<div class="col-xs-9 col-sm-9 web_footer_middle" style="float: left;line-height: 24px;">
+					<a href="https://www.mot.gov.cn/wangzhangongneng/202512/t20251216_4181728.html" target="_blank" rel="noopenner noreferrer">联系我们</a> | 
+					<a href="https://www.mot.gov.cn/wangzhangongneng/202512/t20251216_4181727.html" target="_blank" rel="noopenner noreferrer">免责声明</a>
+					<span>主办单位:交通运输部</span>    
+					<span>开发单位:交通运输部科学研究院</span> <br />   
+					<span><a href="https://beian.miit.gov.cn" target="_blank" style="color:#333;" target="_blank" rel="noopenner noreferrer">京ICP备05046837号-1</a>&nbsp;&nbsp;京公网安备&nbsp;&nbsp;11040102700014号&nbsp;&nbsp;政府网站标识码：BM19000004</span>
+				</div>  
+				<div class="col-sm-1 col-xs-12 col-md-2" style="float: left;margin-left: 90px;">
+					<script id="_jiucuo_" sitecode="bm19000004" src="https://pucha.kaipuyun.cn/exposure/jiucuo.js"></script>
+				</div>
+			</div>  <!- - container end - ->
+		</div>
+        <!-- 底部结束 -->
+    </div>
+<div style="display:none"> <a href="/btatw23_atbp/bt"></a> </div></body>
+
+<script type="text/javascript">
+	$.get("../gz/count_6945.json", function(result){
+         if(result!=""&&result!="undefined"){
+        document.getElementById("searchValue").setAttribute("placeholder","在现行有效"+result+"部规章中检索");
+     document.getElementById("headnum").innerText ="现行有效"+result+"部";
+         }
+       
+       });
+
+   $("#searchForm1").hide()
+	//时间
+	var m2daconfig = laydate.render({
+        elem: '.laydate_m2',
+        eventElem: '.laydate_m2_fa .layicon',
+        theme: 'type-ym',
+        trigger: 'click',
+        btns: [],
+        type: 'date',
+        newType: 'date',
+    });
+    var m3daconfig = laydate.render({
+        elem: '.laydate_m3',
+        eventElem: '.laydate_m3_fa .layicon',
+        theme: 'type-ym',
+        trigger: 'click',
+        btns: [],
+        type: 'date',
+        newType: 'date',
+    });
+    $('#gjss').click(function(){
+     $("#searchForm1").show();
+    	$('.sear-wz').hide();
+    	$('.sear_level_wrap').show();
+    })
+    $('.shouqi').click(function(){
+$("#searchForm1").hide();
+    	$('.sear_level_wrap').hide();
+    	$('.sear-wz').show();
+    	
+    })
+</script>
+<script>
+//解决ie9下placeholder问题
+function isPlaceholder(){
+    var input = document.createElement('input');
+    return 'placeholder' in input;
+}
+if (!isPlaceholder()) {//不支持placeholder 用jquery来完成
+    $(document).ready(function() {
+        if(!isPlaceholder()){
+            $("input").not("input[type='password']").each(//把input绑定事件 排除password框
+                    function(){
+                        if($(this).val()=="" && $(this).attr("placeholder")!=""){
+                            $(this).val($(this).attr("placeholder"));
+                            $(this).focus(function(){
+                                if($(this).val()==$(this).attr("placeholder")) $(this).val("");
+                            });
+                            $(this).blur(function(){
+                                if($(this).val()=="") $(this).val($(this).attr("placeholder"));
+                            });
+                        }
+                    });
+     
+            //对password框的特殊处理1.创建一个text框 2获取焦点和失去焦点的时候切换
+            $("input[type='password']").each(
+                    function() {
+                        var pwdField    = $(this);
+                        var pwdVal      = pwdField.attr('placeholder');
+                        pwdField.after('<input class="login-input" type="text" value='+pwdVal+' autocomplete="off" />');
+                        var pwdPlaceholder = $(this).siblings('.login-input');
+                        pwdPlaceholder.show();
+                        pwdField.hide();
+
+                        pwdPlaceholder.focus(function(){
+                            pwdPlaceholder.hide();
+                            pwdField.show();
+                            pwdField.focus();
+                        });
+
+                        pwdField.blur(function(){
+                            if(pwdField.val() == '') {
+                                pwdPlaceholder.show();
+                                pwdField.hide();
+                            }
+                        });
+                    })
+        }
+    });
+}
+</script>
+</html>

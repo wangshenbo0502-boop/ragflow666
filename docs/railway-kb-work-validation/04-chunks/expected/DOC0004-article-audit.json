@@ -1,0 +1,427 @@
+{
+  "doc_id": "DOC0004",
+  "source_id": "S0004",
+  "source_path": "01-originals/baseline/04_passenger-transport.md",
+  "output_path": "03-domains/YS/DOC0004_铁路旅客运输规程.md",
+  "expected_article_count": 52,
+  "extracted_article_count": 52,
+  "output_sha256": "d7f698fa5d089cd464b45730831541f050f34e14b952b7b084a3728e50e94e7f",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章 总则",
+      "source_sha256": "d39a1abc6534b37a5c123b78159d8a79e898503b39315cbda9a0b5aefe088858",
+      "output_sha256": "d39a1abc6534b37a5c123b78159d8a79e898503b39315cbda9a0b5aefe088858",
+      "source_characters": 131,
+      "output_characters": 131
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章 总则",
+      "source_sha256": "518aade9a4bd9394b48fbfd805954f59f54c9847a761362b8962e05e1315797d",
+      "output_sha256": "518aade9a4bd9394b48fbfd805954f59f54c9847a761362b8962e05e1315797d",
+      "source_characters": 23,
+      "output_characters": 23
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章 总则",
+      "source_sha256": "e26dff650c23028ea70d475d0a966e40bf742096bb49e437136daf5d0cbcc354",
+      "output_sha256": "e26dff650c23028ea70d475d0a966e40bf742096bb49e437136daf5d0cbcc354",
+      "source_characters": 78,
+      "output_characters": 78
+    },
+    {
+      "article": "第四条",
+      "chapter": "第二章 一般规定",
+      "source_sha256": "2212b54c9104e926ef8cd0c98bb50c1fa04f1837c027a10ca561e7570eeeca9f",
+      "output_sha256": "2212b54c9104e926ef8cd0c98bb50c1fa04f1837c027a10ca561e7570eeeca9f",
+      "source_characters": 92,
+      "output_characters": 92
+    },
+    {
+      "article": "第五条",
+      "chapter": "第二章 一般规定",
+      "source_sha256": "45fd463a0a9bec7c311fbb1fb6ff4c84416090ab6ae5ba83a80909ca54fe6ca5",
+      "output_sha256": "45fd463a0a9bec7c311fbb1fb6ff4c84416090ab6ae5ba83a80909ca54fe6ca5",
+      "source_characters": 77,
+      "output_characters": 77
+    },
+    {
+      "article": "第六条",
+      "chapter": "第二章 一般规定",
+      "source_sha256": "51953223dd7a929f8b67cf5fa3c6bdd36fbfa14f96fe83acc462f0e6488742c2",
+      "output_sha256": "51953223dd7a929f8b67cf5fa3c6bdd36fbfa14f96fe83acc462f0e6488742c2",
+      "source_characters": 60,
+      "output_characters": 60
+    },
+    {
+      "article": "第七条",
+      "chapter": "第二章 一般规定",
+      "source_sha256": "fc9a05019966e15d374fb96e228452d920f4640b33a6db34e5d105dbd6a61749",
+      "output_sha256": "fc9a05019966e15d374fb96e228452d920f4640b33a6db34e5d105dbd6a61749",
+      "source_characters": 51,
+      "output_characters": 51
+    },
+    {
+      "article": "第八条",
+      "chapter": "第二章 一般规定",
+      "source_sha256": "5b57075923467c1ca3b00821bffbfc01d51c11c6f128e92ca2f81a985bbee1b4",
+      "output_sha256": "5b57075923467c1ca3b00821bffbfc01d51c11c6f128e92ca2f81a985bbee1b4",
+      "source_characters": 52,
+      "output_characters": 52
+    },
+    {
+      "article": "第九条",
+      "chapter": "第三章 车票销售",
+      "source_sha256": "66bff93f1598f84731df2ec3db302b05da1d224a5d98a2fea5e767f107d9845c",
+      "output_sha256": "66bff93f1598f84731df2ec3db302b05da1d224a5d98a2fea5e767f107d9845c",
+      "source_characters": 64,
+      "output_characters": 64
+    },
+    {
+      "article": "第十条",
+      "chapter": "第三章 车票销售",
+      "source_sha256": "402aa3de0c54c6ba64c8d80982a3ed49a1cb8cecefdb0aa94d38969a3a3ac3ec",
+      "output_sha256": "402aa3de0c54c6ba64c8d80982a3ed49a1cb8cecefdb0aa94d38969a3a3ac3ec",
+      "source_characters": 75,
+      "output_characters": 75
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第三章 车票销售",
+      "source_sha256": "7a530c52fff0aecc6b3b3b7d36f4b9c4e23b865e7e52a79495167ba9eca815c5",
+      "output_sha256": "7a530c52fff0aecc6b3b3b7d36f4b9c4e23b865e7e52a79495167ba9eca815c5",
+      "source_characters": 117,
+      "output_characters": 117
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第三章 车票销售",
+      "source_sha256": "07359215ee9e128eed1bda20dbe30da1cb160dc5afb6b261af9268bcb65efe09",
+      "output_sha256": "07359215ee9e128eed1bda20dbe30da1cb160dc5afb6b261af9268bcb65efe09",
+      "source_characters": 392,
+      "output_characters": 392
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第三章 车票销售",
+      "source_sha256": "980a2bc6e04331050f8dfe232569bf7265b2fcf4af9fe34ab3f49d88f353eb8f",
+      "output_sha256": "980a2bc6e04331050f8dfe232569bf7265b2fcf4af9fe34ab3f49d88f353eb8f",
+      "source_characters": 79,
+      "output_characters": 79
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第三章 车票销售",
+      "source_sha256": "a145458401a0dab512768fd83814d339f00fae7c566ceac4423ae0621d03cbb2",
+      "output_sha256": "a145458401a0dab512768fd83814d339f00fae7c566ceac4423ae0621d03cbb2",
+      "source_characters": 380,
+      "output_characters": 380
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第三章 车票销售",
+      "source_sha256": "07db8ca606d64bff15e1b8582315f2a7b794c2d21ce0c83e84bd0c4d96f8eb32",
+      "output_sha256": "07db8ca606d64bff15e1b8582315f2a7b794c2d21ce0c83e84bd0c4d96f8eb32",
+      "source_characters": 58,
+      "output_characters": 58
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第三章 车票销售",
+      "source_sha256": "e105c51fd03ef85257688154e1e9d30e71ada21ea850edbe3ac2aba834591b18",
+      "output_sha256": "e105c51fd03ef85257688154e1e9d30e71ada21ea850edbe3ac2aba834591b18",
+      "source_characters": 77,
+      "output_characters": 77
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "676c7240c44634abcf53af7e599dee508e489d3f19f1ccb108908103b1d7669a",
+      "output_sha256": "676c7240c44634abcf53af7e599dee508e489d3f19f1ccb108908103b1d7669a",
+      "source_characters": 101,
+      "output_characters": 101
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "3316036a0856c87f11cdedcc267795fb860f8d569d4def1aee32ab36a9ae8738",
+      "output_sha256": "3316036a0856c87f11cdedcc267795fb860f8d569d4def1aee32ab36a9ae8738",
+      "source_characters": 159,
+      "output_characters": 159
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "2e9ee144f618bbb3d1494c197bce533112afd160410a90946c211cc3a100b17f",
+      "output_sha256": "2e9ee144f618bbb3d1494c197bce533112afd160410a90946c211cc3a100b17f",
+      "source_characters": 45,
+      "output_characters": 45
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "925193e3a08028088c3d8edc40af43566305eb76fa7825c146bccb49865a17e0",
+      "output_sha256": "925193e3a08028088c3d8edc40af43566305eb76fa7825c146bccb49865a17e0",
+      "source_characters": 70,
+      "output_characters": 70
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "485540e9107c1916b3f5ebb2bd3b7d15c59453688a1c12446671482f6f980bac",
+      "output_sha256": "485540e9107c1916b3f5ebb2bd3b7d15c59453688a1c12446671482f6f980bac",
+      "source_characters": 105,
+      "output_characters": 105
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "d9f5d8f962aeff32aae705cae43f1e2f16cedded4fec15b3e76bfc16f3c54cd9",
+      "output_sha256": "d9f5d8f962aeff32aae705cae43f1e2f16cedded4fec15b3e76bfc16f3c54cd9",
+      "source_characters": 75,
+      "output_characters": 75
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "62a80e80da7a9fab6710873880d88ee58f886056af63d68d07558283ae26b120",
+      "output_sha256": "62a80e80da7a9fab6710873880d88ee58f886056af63d68d07558283ae26b120",
+      "source_characters": 48,
+      "output_characters": 48
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "7b124c3da0e25d9165903586a3b3ef8d0310525e534de95d2366901df6f97dc4",
+      "output_sha256": "7b124c3da0e25d9165903586a3b3ef8d0310525e534de95d2366901df6f97dc4",
+      "source_characters": 83,
+      "output_characters": 83
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "794d1a29647349be96c0fd8653ad85513acd501e9ac70230bd3d713e6d85cbb1",
+      "output_sha256": "794d1a29647349be96c0fd8653ad85513acd501e9ac70230bd3d713e6d85cbb1",
+      "source_characters": 51,
+      "output_characters": 51
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "9196b5d28b8b8667155a118bd8f684dd67954cfcec48ca86fcac6e2db5746424",
+      "output_sha256": "9196b5d28b8b8667155a118bd8f684dd67954cfcec48ca86fcac6e2db5746424",
+      "source_characters": 125,
+      "output_characters": 125
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "5ca88ade776249e4cb61f1a36b60662e05231f21c7efbd83514a12b9311391a7",
+      "output_sha256": "5ca88ade776249e4cb61f1a36b60662e05231f21c7efbd83514a12b9311391a7",
+      "source_characters": 163,
+      "output_characters": 163
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "342825be31f7e0074914b8d99f5cc2ce88900a2ddc6ccc3fa8f4f91b1eec934e",
+      "output_sha256": "342825be31f7e0074914b8d99f5cc2ce88900a2ddc6ccc3fa8f4f91b1eec934e",
+      "source_characters": 47,
+      "output_characters": 47
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第四章 乘车",
+      "source_sha256": "74c9fa21f57eaa285a2dc4b17b9329492df017d3fbed631adba903bd2184dd6f",
+      "output_sha256": "74c9fa21f57eaa285a2dc4b17b9329492df017d3fbed631adba903bd2184dd6f",
+      "source_characters": 327,
+      "output_characters": 327
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第五章 车票改签与退票",
+      "source_sha256": "3190210da60e7b7c1d1f6a2857497fe84213f512077c12f88e4b707115e8f06f",
+      "output_sha256": "3190210da60e7b7c1d1f6a2857497fe84213f512077c12f88e4b707115e8f06f",
+      "source_characters": 83,
+      "output_characters": 83
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第五章 车票改签与退票",
+      "source_sha256": "ded10fff74f88f164e38518d5055f72d40ccf5048de0996c5a20fc3f747adf01",
+      "output_sha256": "ded10fff74f88f164e38518d5055f72d40ccf5048de0996c5a20fc3f747adf01",
+      "source_characters": 160,
+      "output_characters": 160
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第五章 车票改签与退票",
+      "source_sha256": "2c110b5db31baff3614496c09a51411c1aa8483442e31514a00d4ff73ec48c44",
+      "output_sha256": "2c110b5db31baff3614496c09a51411c1aa8483442e31514a00d4ff73ec48c44",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第六章 行李运输",
+      "source_sha256": "8e772759580ae8f240c938de12a36c697ae257ab1804b0263d5c507a7009220e",
+      "output_sha256": "8e772759580ae8f240c938de12a36c697ae257ab1804b0263d5c507a7009220e",
+      "source_characters": 88,
+      "output_characters": 88
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第六章 行李运输",
+      "source_sha256": "7d91b25d3a5295b6349a0905faf7d0ab8b5a780d82862e7aeeb0e13c5f998464",
+      "output_sha256": "7d91b25d3a5295b6349a0905faf7d0ab8b5a780d82862e7aeeb0e13c5f998464",
+      "source_characters": 44,
+      "output_characters": 44
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第六章 行李运输",
+      "source_sha256": "a2b99155d7b85b2c36d8f9063bbe9fd4a9af6dbfed599a31778506185987a36c",
+      "output_sha256": "a2b99155d7b85b2c36d8f9063bbe9fd4a9af6dbfed599a31778506185987a36c",
+      "source_characters": 163,
+      "output_characters": 163
+    },
+    {
+      "article": "第三十六条",
+      "chapter": "第六章 行李运输",
+      "source_sha256": "77376fa7221310d91d01a13d3bf3b725aa1729e8303da87202b02fac34bb520e",
+      "output_sha256": "77376fa7221310d91d01a13d3bf3b725aa1729e8303da87202b02fac34bb520e",
+      "source_characters": 194,
+      "output_characters": 194
+    },
+    {
+      "article": "第三十七条",
+      "chapter": "第六章 行李运输",
+      "source_sha256": "f261b132593d5d3f8c316b9c28d93a205e0f58faae4649ee9389f303afdac696",
+      "output_sha256": "f261b132593d5d3f8c316b9c28d93a205e0f58faae4649ee9389f303afdac696",
+      "source_characters": 39,
+      "output_characters": 39
+    },
+    {
+      "article": "第三十八条",
+      "chapter": "第六章 行李运输",
+      "source_sha256": "32518bbb7e1f70e281717860efb3224c68df0bd10a0709399567c79fc3580de8",
+      "output_sha256": "32518bbb7e1f70e281717860efb3224c68df0bd10a0709399567c79fc3580de8",
+      "source_characters": 44,
+      "output_characters": 44
+    },
+    {
+      "article": "第三十九条",
+      "chapter": "第六章 行李运输",
+      "source_sha256": "3c661b9634ff086ae0063ea9db2ab8a8306c9798f859e21e24c9f6ab71628d3e",
+      "output_sha256": "3c661b9634ff086ae0063ea9db2ab8a8306c9798f859e21e24c9f6ab71628d3e",
+      "source_characters": 28,
+      "output_characters": 28
+    },
+    {
+      "article": "第四十条",
+      "chapter": "第六章 行李运输",
+      "source_sha256": "803efa512739ba23ed82a2c717677f046cbbb598c3476397f3f0a2aedc7705cc",
+      "output_sha256": "803efa512739ba23ed82a2c717677f046cbbb598c3476397f3f0a2aedc7705cc",
+      "source_characters": 127,
+      "output_characters": 127
+    },
+    {
+      "article": "第四十一条",
+      "chapter": "第六章 行李运输",
+      "source_sha256": "e5bb193240db6035fe4fbe077cb3e67e2b106bedbe0ab576252eb3a22af39250",
+      "output_sha256": "e5bb193240db6035fe4fbe077cb3e67e2b106bedbe0ab576252eb3a22af39250",
+      "source_characters": 52,
+      "output_characters": 52
+    },
+    {
+      "article": "第四十二条",
+      "chapter": "第七章 应急处置",
+      "source_sha256": "51112d62849ea1439f51b5b845a9b69eb65cf8c6a5b0d44e4056af075d0193c1",
+      "output_sha256": "51112d62849ea1439f51b5b845a9b69eb65cf8c6a5b0d44e4056af075d0193c1",
+      "source_characters": 78,
+      "output_characters": 78
+    },
+    {
+      "article": "第四十三条",
+      "chapter": "第七章 应急处置",
+      "source_sha256": "78e817f18751c41e27e85753101bdfe77817fdbf51c5020f4b009430ebdd814c",
+      "output_sha256": "78e817f18751c41e27e85753101bdfe77817fdbf51c5020f4b009430ebdd814c",
+      "source_characters": 91,
+      "output_characters": 91
+    },
+    {
+      "article": "第四十四条",
+      "chapter": "第七章 应急处置",
+      "source_sha256": "ddb5bd3d47927dcc79853017571b6b64c4f23eb51ab8e300722106c1b9faca08",
+      "output_sha256": "ddb5bd3d47927dcc79853017571b6b64c4f23eb51ab8e300722106c1b9faca08",
+      "source_characters": 42,
+      "output_characters": 42
+    },
+    {
+      "article": "第四十五条",
+      "chapter": "第七章 应急处置",
+      "source_sha256": "7326840e635e4e0e4e68ad7cb67ccadb3149afbd8476b1d8f3e155ea628aa0ad",
+      "output_sha256": "7326840e635e4e0e4e68ad7cb67ccadb3149afbd8476b1d8f3e155ea628aa0ad",
+      "source_characters": 88,
+      "output_characters": 88
+    },
+    {
+      "article": "第四十六条",
+      "chapter": "第七章 应急处置",
+      "source_sha256": "75cb432c93825aa452533b48db147c2d8567f3d66efbc839a4a35777950fe0ea",
+      "output_sha256": "75cb432c93825aa452533b48db147c2d8567f3d66efbc839a4a35777950fe0ea",
+      "source_characters": 34,
+      "output_characters": 34
+    },
+    {
+      "article": "第四十七条",
+      "chapter": "第八章 旅客投诉与建议",
+      "source_sha256": "47d7c046c85422291ac7dd1df740395faad6b22c1d3b51f35a8d975a7ac97a6e",
+      "output_sha256": "47d7c046c85422291ac7dd1df740395faad6b22c1d3b51f35a8d975a7ac97a6e",
+      "source_characters": 110,
+      "output_characters": 110
+    },
+    {
+      "article": "第四十八条",
+      "chapter": "第八章 旅客投诉与建议",
+      "source_sha256": "898b97a12dfe54b30f3d5292e89917f68481a5e09bda89b3a8ecef4f1b376480",
+      "output_sha256": "898b97a12dfe54b30f3d5292e89917f68481a5e09bda89b3a8ecef4f1b376480",
+      "source_characters": 95,
+      "output_characters": 95
+    },
+    {
+      "article": "第四十九条",
+      "chapter": "第八章 旅客投诉与建议",
+      "source_sha256": "42747e4c238c85e9496de37d1ad7f4dec4c602d92e647bb51d10e3250ad5eef6",
+      "output_sha256": "42747e4c238c85e9496de37d1ad7f4dec4c602d92e647bb51d10e3250ad5eef6",
+      "source_characters": 39,
+      "output_characters": 39
+    },
+    {
+      "article": "第五十条",
+      "chapter": "第九章 附则",
+      "source_sha256": "830dd156d2314e760a1366d1a5a458891f0b662fdd0b01797d9ef9db842179b0",
+      "output_sha256": "830dd156d2314e760a1366d1a5a458891f0b662fdd0b01797d9ef9db842179b0",
+      "source_characters": 35,
+      "output_characters": 35
+    },
+    {
+      "article": "第五十一条",
+      "chapter": "第九章 附则",
+      "source_sha256": "cbd55895307ba7fa17bc4193048c7832c871eee26f70f6b29048271acb5d32dd",
+      "output_sha256": "cbd55895307ba7fa17bc4193048c7832c871eee26f70f6b29048271acb5d32dd",
+      "source_characters": 38,
+      "output_characters": 38
+    },
+    {
+      "article": "第五十二条",
+      "chapter": "第九章 附则",
+      "source_sha256": "67399ac2d1a13575c4f548f6775960b48c81180cd450c8f9c30673e9a75fb91f",
+      "output_sha256": "67399ac2d1a13575c4f548f6775960b48c81180cd450c8f9c30673e9a75fb91f",
+      "source_characters": 17,
+      "output_characters": 17
+    }
+  ]
+}

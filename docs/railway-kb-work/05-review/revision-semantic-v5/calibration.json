@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-11-16T15:01:46.476Z",
+  "model": "102e9861e4e24a73abb7cff80df6c52e",
+  "rules_sha256": "2576b753feed31276f1c4949ffb78ab23602e3adcb2a0d043078bda92c0e84d3",
+  "prompt_sha256": "54553a4ff3c08413b4357d8dba4ed4e4316af12ce793893e5968332f71c663a8",
+  "total": 63,
+  "reviewed": 5,
+  "pass": 5,
+  "fail": 0,
+  "pending": 0,
+  "new_model_requests": 1,
+  "reused_batches": 0,
+  "provider_tokens": null,
+  "cost": null,
+  "cost_savings_verified": false,
+  "actual_chunk_review": false,
+  "formal_import": false,
+  "judgments": [
+    {
+      "knowledge_point_id": "DOC0022-K01",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第一条",
+      "finding": "候选完整保留第一条立法目的与依据：规范铁路机车车辆行政许可工作、加强铁路运输安全监督管理、保障公众生命财产安全，依据行政许可法、铁路安全管理条例等制定；对象、条件、结论与原文一致，无增删。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K02",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第二条",
+      "finding": "候选完整保留第二条定义：铁路机车车辆包括直接承担公共运输和检测试验任务的机车、动车组、客车、货车等移动设备，以及在铁路上运行并承担施工、维修、救援等作业的轨道车、救援起重机、铺轨机和架桥机（组）车辆、接触网作业车和大型养路机械等自轮运转特种设备；并保留许可目录由国家铁路局制定、调整并发布的程序性规定。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K03",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第三条",
+      "finding": "候选完整保留第三条两款：分别申请型号合格证、制造许可证、维修许可证或进口许可证的总要求，以及设计企业取得型号合格证、制造企业在批量制造前取得制造许可证、大修维修企业在维修样车投入运营前取得维修许可证、国内进口企业在投入运营前取得进口许可证的分项条件；并内联第二条定义以明确“铁路机车车辆”范围，依赖必要且已补足。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K04",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第四条",
+      "finding": "候选完整保留第四条：设计、制造、维修、使用单位应遵守产品质量安全法律、行政法规及国家有关规定，确保投入使用车辆符合安全运营要求；主体、义务与结论一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K05",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第五条",
+      "finding": "候选完整保留第五条：设计、制造、维修或进口新型铁路机车车辆应符合国家产业和技术发展政策及铁路装备现代化要求，符合国家相关标准和行业标准；条件与结论一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    }
+  ]
+}

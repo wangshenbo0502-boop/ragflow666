@@ -1,4 +1,5 @@
 import { MoreButton } from '@/components/more-button';
+import useDuplicateDataset from '@/ee/pages/datasets/use-duplicate-dataset';
 import { IDataset } from '@/interfaces/database/dataset';
 import { Routes } from '@/routes';
 import dayjs from 'dayjs';
@@ -7,14 +8,19 @@ import { Link } from 'react-router';
 import { DatasetDropdown } from './dataset-dropdown';
 import { useRenameDataset } from './use-rename-dataset';
 
-type DatasetCardProps = { dataset: IDataset } & Pick<
-  ReturnType<typeof useRenameDataset>,
-  'showDatasetRenameModal'
->;
+type DatasetCardProps = {
+  dataset: IDataset;
+  showPrivilegeModal(): void;
+  showDatasetDuplicateModal: ReturnType<
+    typeof useDuplicateDataset
+  >['showModal'];
+} & Pick<ReturnType<typeof useRenameDataset>, 'showDatasetRenameModal'>;
 
 export function DatasetCard({
   dataset,
   showDatasetRenameModal,
+  showPrivilegeModal,
+  showDatasetDuplicateModal,
 }: DatasetCardProps) {
   return (
     <article className="rail-dataset-row group">
@@ -45,6 +51,8 @@ export function DatasetCard({
       <DatasetDropdown
         dataset={dataset}
         showDatasetRenameModal={showDatasetRenameModal}
+        showPrivilegeModal={showPrivilegeModal}
+        showDatasetDuplicateModal={showDatasetDuplicateModal}
       >
         <MoreButton
           className="!opacity-100 !size-7"

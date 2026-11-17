@@ -49,6 +49,7 @@ interface IProps {
   prompt?: string;
   showLikeButton: boolean;
   audioBinary?: string;
+  audioUrl?: string;
   showLoudspeaker?: boolean;
   showLog?: boolean;
   attachment?: {
@@ -64,11 +65,11 @@ export const AssistantGroupButton = ({
   content,
   prompt,
   audioBinary,
+  audioUrl,
   showLikeButton,
   showLoudspeaker = true,
   showLog = true,
   attachment,
-  isShare,
 }: IProps) => {
   const { visible, hideModal, showModal, onFeedbackOk, loading } =
     useSendFeedback(messageId);
@@ -78,7 +79,7 @@ export const AssistantGroupButton = ({
     showModal: showPromptModal,
   } = useSetModalState();
   const { t } = useTranslation();
-  const { handleRead, ref, isPlaying } = useSpeech(content, audioBinary);
+  const { handleRead, ref, isPlaying } = useSpeech(content, audioBinary, audioUrl);
 
   const handleLike = useCallback(() => {
     onFeedbackOk({ thumbup: true });

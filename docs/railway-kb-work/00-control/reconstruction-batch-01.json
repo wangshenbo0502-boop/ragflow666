@@ -1,0 +1,47 @@
+[
+  {
+    "doc_id": "DOC0001",
+    "source_id": "S0001",
+    "master_path": "03-domains/CL/DOC0001_铁路设备质量安全监督管理办法.md",
+    "article_count": 37,
+    "status": "待结构验收",
+    "sha256": "315a6a9844bd85e441fc843a56e0ba546b40bd0eba771790f26829d15f0f2b80",
+    "note": "逐条按存档原文整理，条款正文机器覆盖审计通过后仍需人工抽核数值、否定、例外和跨条依赖。"
+  },
+  {
+    "doc_id": "DOC0002",
+    "source_id": "S0002",
+    "master_path": "03-domains/YS/DOC0002_铁路旅客车票实名制管理办法.md",
+    "article_count": 32,
+    "status": "待结构验收",
+    "sha256": "93faf024b94cc8eb60784de276b280413bee5f1ba226dcd38e3bfc923030b9ab",
+    "note": "逐条按存档原文整理，条款正文机器覆盖审计通过后仍需人工抽核数值、否定、例外和跨条依赖。"
+  },
+  {
+    "doc_id": "DOC0003",
+    "source_id": "S0003",
+    "master_path": "03-domains/YS/DOC0003_铁路旅客运输安全检查管理办法.md",
+    "article_count": 52,
+    "status": "待结构验收",
+    "sha256": "b59e07bfc65b1d974b113bdad5b020a5bcada5e882ab486c796999b038f73c86",
+    "note": "逐条按存档原文整理，条款正文机器覆盖审计通过后仍需人工抽核数值、否定、例外和跨条依赖。"
+  },
+  {
+    "doc_id": "DOC0004",
+    "source_id": "S0004",
+    "master_path": "03-domains/YS/DOC0004_铁路旅客运输规程.md",
+    "article_count": 52,
+    "status": "待结构验收",
+    "sha256": "d7f698fa5d089cd464b45730831541f050f34e14b952b7b084a3728e50e94e7f",
+    "note": "逐条按存档原文整理，条款正文机器覆盖审计通过后仍需人工抽核数值、否定、例外和跨条依赖。"
+  },
+  {
+    "doc_id": "DOC0005",
+    "source_id": "S0005",
+    "master_path": "03-domains/YS/DOC0005_铁路交通事故应急救援和调查处理条例.md",
+    "article_count": 41,
+    "status": "待条款语义复核",
+    "sha256": "28894f69d06d5f0ccb5897976c4f00b3ffe9f309221fde41d7fedcccf7ab0466",
+    "note": "第9-12条加入第13条原文边界解释；第16条保留完整报告项目及补报要求；第24条保留现场变更记录与证据禁止事项；第33条历史限额隔离；第35条历史引用待核验。"
+  }
+]

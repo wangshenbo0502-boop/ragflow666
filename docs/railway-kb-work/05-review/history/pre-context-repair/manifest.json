@@ -1,0 +1,880 @@
+{
+  "created_at": "2026-11-15T17:46:07.549Z",
+  "records": [
+    {
+      "relative": "00-control/acceptance-v3-answers.json",
+      "sha256": "ea0205228eb834777d610ddfb75cdd74ed4f1accafe5237a945002471b74d646",
+      "snapshot": "05-review/history/pre-context-repair/00-control/acceptance-v3-answers.json/ea0205228eb834777d610ddfb75cdd74ed4f1accafe5237a945002471b74d646"
+    },
+    {
+      "relative": "00-control/acceptance-v3-inputs.json",
+      "sha256": "0b538b77e5d6b9cfc06a90e10dfbf3bf99b28c517f5e7c5ea107544130a8b262",
+      "snapshot": "05-review/history/pre-context-repair/00-control/acceptance-v3-inputs.json/0b538b77e5d6b9cfc06a90e10dfbf3bf99b28c517f5e7c5ea107544130a8b262"
+    },
+    {
+      "relative": "00-control/acceptance-v3-manifest.json",
+      "sha256": "e4a385156ebaab9f1cd45cbc3d9a6ff941bb61493df5aadbcc70832b4d568ad0",
+      "snapshot": "05-review/history/pre-context-repair/00-control/acceptance-v3-manifest.json/e4a385156ebaab9f1cd45cbc3d9a6ff941bb61493df5aadbcc70832b4d568ad0"
+    },
+    {
+      "relative": "00-control/acceptance-v3-retrieval.json",
+      "sha256": "2311402e3c63eb793b54a65319ba802d0b993a8308aa15e646d48a8bd89b86b2",
+      "snapshot": "05-review/history/pre-context-repair/00-control/acceptance-v3-retrieval.json/2311402e3c63eb793b54a65319ba802d0b993a8308aa15e646d48a8bd89b86b2"
+    },
+    {
+      "relative": "00-control/baseline-curation.json",
+      "sha256": "1d47a53a0dd75cbad6b7f602398665220ef6a9898bfe6b39b870da78229d62bc",
+      "snapshot": "05-review/history/pre-context-repair/00-control/baseline-curation.json/1d47a53a0dd75cbad6b7f602398665220ef6a9898bfe6b39b870da78229d62bc"
+    },
+    {
+      "relative": "00-control/baseline.md",
+      "sha256": "afbad05c8a7cdb33ffc465d2109694da6a8b2e86053f5e0f6a340caa3cbf9dcd",
+      "snapshot": "05-review/history/pre-context-repair/00-control/baseline.md/afbad05c8a7cdb33ffc465d2109694da6a8b2e86053f5e0f6a340caa3cbf9dcd"
+    },
+    {
+      "relative": "00-control/builtins-template.json",
+      "sha256": "778bdb104c4649274ad56ddf47b5718851505a25808beafa8c4abc1873c513c4",
+      "snapshot": "05-review/history/pre-context-repair/00-control/builtins-template.json/778bdb104c4649274ad56ddf47b5718851505a25808beafa8c4abc1873c513c4"
+    },
+    {
+      "relative": "00-control/candidates.json",
+      "sha256": "fc45f03afa5a43bbe64e0b9818e3636b74a3dc356a0353c4261e61df2efb5ee1",
+      "snapshot": "05-review/history/pre-context-repair/00-control/candidates.json/fc45f03afa5a43bbe64e0b9818e3636b74a3dc356a0353c4261e61df2efb5ee1"
+    },
+    {
+      "relative": "00-control/current-pipeline.json",
+      "sha256": "5127cf15b771f4608eae45ea911a588ad4b2f4603db1205b4ff68ef1918354d2",
+      "snapshot": "05-review/history/pre-context-repair/00-control/current-pipeline.json/5127cf15b771f4608eae45ea911a588ad4b2f4603db1205b4ff68ef1918354d2"
+    },
+    {
+      "relative": "00-control/dataset-map.md",
+      "sha256": "e4448535353f1dbe486f29ecfc80ce33780bb830d59c38b19644e93d87edd43a",
+      "snapshot": "05-review/history/pre-context-repair/00-control/dataset-map.md/e4448535353f1dbe486f29ecfc80ce33780bb830d59c38b19644e93d87edd43a"
+    },
+    {
+      "relative": "00-control/default-template.json",
+      "sha256": "7e25a265ebc5c83857697883b418fd2f84c3f97bff8da97eec522931f1d02a74",
+      "snapshot": "05-review/history/pre-context-repair/00-control/default-template.json/7e25a265ebc5c83857697883b418fd2f84c3f97bff8da97eec522931f1d02a74"
+    },
+    {
+      "relative": "00-control/document-register-full.json",
+      "sha256": "df2a19f733d202a93a7d964f49ec791d0f1b1e313ef48e7820a0a2a881378f55",
+      "snapshot": "05-review/history/pre-context-repair/00-control/document-register-full.json/df2a19f733d202a93a7d964f49ec791d0f1b1e313ef48e7820a0a2a881378f55"
+    },
+    {
+      "relative": "00-control/document-register.json",
+      "sha256": "a66920f578abc4320124fa6b3d46d796b8b5193b03e8d4e6b55d7225aa1b3687",
+      "snapshot": "05-review/history/pre-context-repair/00-control/document-register.json/a66920f578abc4320124fa6b3d46d796b8b5193b03e8d4e6b55d7225aa1b3687"
+    },
+    {
+      "relative": "00-control/domain-acceptance.md",
+      "sha256": "dc2864857e533aa576f916267489f64765a7a0500957f37e57467ec4f181b94c",
+      "snapshot": "05-review/history/pre-context-repair/00-control/domain-acceptance.md/dc2864857e533aa576f916267489f64765a7a0500957f37e57467ec4f181b94c"
+    },
+    {
+      "relative": "00-control/domain-pipeline.json",
+      "sha256": "c434f2d790001a342dd099ca442a7f4b61d74175c48900020f1bc0ca649d9f70",
+      "snapshot": "05-review/history/pre-context-repair/00-control/domain-pipeline.json/c434f2d790001a342dd099ca442a7f4b61d74175c48900020f1bc0ca649d9f70"
+    },
+    {
+      "relative": "00-control/domain-register.md",
+      "sha256": "9f0b01d283c6a820579d4f7ef7b7151c46cdfcd85c6d93dea7edab4ca6cc4fcd",
+      "snapshot": "05-review/history/pre-context-repair/00-control/domain-register.md/9f0b01d283c6a820579d4f7ef7b7151c46cdfcd85c6d93dea7edab4ca6cc4fcd"
+    },
+    {
+      "relative": "00-control/final-acceptance.md",
+      "sha256": "127e5bf97b448a47d97e95031885fa6d670db78861f1182502a2a8d46bd41b21",
+      "snapshot": "05-review/history/pre-context-repair/00-control/final-acceptance.md/127e5bf97b448a47d97e95031885fa6d670db78861f1182502a2a8d46bd41b21"
+    },
+    {
+      "relative": "00-control/gap-register.md",
+      "sha256": "d80b4734353a8687f6ab73548d7be4b9f5e2f0a056e3c68a4d0f010a5c14995f",
+      "snapshot": "05-review/history/pre-context-repair/00-control/gap-register.md/d80b4734353a8687f6ab73548d7be4b9f5e2f0a056e3c68a4d0f010a5c14995f"
+    },
+    {
+      "relative": "00-control/import-register.md",
+      "sha256": "7510e2de242decc0faf394d586fc62b7b088505abebd8ea19e02a0ba6498bf2d",
+      "snapshot": "05-review/history/pre-context-repair/00-control/import-register.md/7510e2de242decc0faf394d586fc62b7b088505abebd8ea19e02a0ba6498bf2d"
+    },
+    {
+      "relative": "00-control/inventory-datasets.json",
+      "sha256": "ccfdf51e5226613b9a45edd3c32655aa723d565a090594009c454b2ba47e1dc8",
+      "snapshot": "05-review/history/pre-context-repair/00-control/inventory-datasets.json/ccfdf51e5226613b9a45edd3c32655aa723d565a090594009c454b2ba47e1dc8"
+    },
+    {
+      "relative": "00-control/inventory-original-documents.json",
+      "sha256": "ea47bdceadd8b51ac2d396504cea1405832aa1ba024ad04f7bcf5a7704e6f3cd",
+      "snapshot": "05-review/history/pre-context-repair/00-control/inventory-original-documents.json/ea47bdceadd8b51ac2d396504cea1405832aa1ba024ad04f7bcf5a7704e6f3cd"
+    },
+    {
+      "relative": "00-control/live-check.json",
+      "sha256": "7cc625f62242d1a09a75c65fd0ba05eb651a1a9b57e6106e7f5fb48fa095cd2b",
+      "snapshot": "05-review/history/pre-context-repair/00-control/live-check.json/7cc625f62242d1a09a75c65fd0ba05eb651a1a9b57e6106e7f5fb48fa095cd2b"
+    },
+    {
+      "relative": "00-control/original-import-ledger.json",
+      "sha256": "d8f5ce764ed20c32f5984fd1ae84f77c22fa49e97f746e0ccaf777440d47e440",
+      "snapshot": "05-review/history/pre-context-repair/00-control/original-import-ledger.json/d8f5ce764ed20c32f5984fd1ae84f77c22fa49e97f746e0ccaf777440d47e440"
+    },
+    {
+      "relative": "00-control/original-import-verification.json",
+      "sha256": "bc28782c3ad6037e42e7d61aa270f3630e60a2cafc47b4d72537d61ae599b131",
+      "snapshot": "05-review/history/pre-context-repair/00-control/original-import-verification.json/bc28782c3ad6037e42e7d61aa270f3630e60a2cafc47b4d72537d61ae599b131"
+    },
+    {
+      "relative": "00-control/paper-template.json",
+      "sha256": "c699974de808b8302a7df881ea90ef8bb176855dcf7b4f0ca18a1c97804bc12e",
+      "snapshot": "05-review/history/pre-context-repair/00-control/paper-template.json/c699974de808b8302a7df881ea90ef8bb176855dcf7b4f0ca18a1c97804bc12e"
+    },
+    {
+      "relative": "00-control/pipeline-trial-acceptance.json",
+      "sha256": "1e0e8a7b5f19cdc344b1a69a53661e4acb0ca5f5a154637631f6c751086771c9",
+      "snapshot": "05-review/history/pre-context-repair/00-control/pipeline-trial-acceptance.json/1e0e8a7b5f19cdc344b1a69a53661e4acb0ca5f5a154637631f6c751086771c9"
+    },
+    {
+      "relative": "00-control/progress.md",
+      "sha256": "18b1bea57d498c09789ca7a00d7e52eca674ce7229726a30c9b83d2acaccdac2",
+      "snapshot": "05-review/history/pre-context-repair/00-control/progress.md/18b1bea57d498c09789ca7a00d7e52eca674ce7229726a30c9b83d2acaccdac2"
+    },
+    {
+      "relative": "00-control/question-bank.json",
+      "sha256": "159f320f039eebed0b82efec330982699d61ae6ca72a030c887210d58263e439",
+      "snapshot": "05-review/history/pre-context-repair/00-control/question-bank.json/159f320f039eebed0b82efec330982699d61ae6ca72a030c887210d58263e439"
+    },
+    {
+      "relative": "00-control/reconstruction-batch-01.json",
+      "sha256": "5479d66bcf8374c48522ca187ab4437b21c5f62746062adb4d9f9c6823aaee26",
+      "snapshot": "05-review/history/pre-context-repair/00-control/reconstruction-batch-01.json/5479d66bcf8374c48522ca187ab4437b21c5f62746062adb4d9f9c6823aaee26"
+    },
+    {
+      "relative": "00-control/reconstruction-before.json",
+      "sha256": "2291c667cd1a59f887e9f16b027fab137975fb9702c10f2ad32a4fac33e59f04",
+      "snapshot": "05-review/history/pre-context-repair/00-control/reconstruction-before.json/2291c667cd1a59f887e9f16b027fab137975fb9702c10f2ad32a4fac33e59f04"
+    },
+    {
+      "relative": "00-control/reconstruction-docs-11-12-13-14-15.json",
+      "sha256": "8c23fa0038965499ff5443f60d51f5aa672f49b11a0e2343346768bdf6e1aabb",
+      "snapshot": "05-review/history/pre-context-repair/00-control/reconstruction-docs-11-12-13-14-15.json/8c23fa0038965499ff5443f60d51f5aa672f49b11a0e2343346768bdf6e1aabb"
+    },
+    {
+      "relative": "00-control/reconstruction-docs-17-18-19-20-21.json",
+      "sha256": "6bfd664fb6a3333826329f7b876565c7164a66d817b7b7b307b72e6ac597afd2",
+      "snapshot": "05-review/history/pre-context-repair/00-control/reconstruction-docs-17-18-19-20-21.json/6bfd664fb6a3333826329f7b876565c7164a66d817b7b7b307b72e6ac597afd2"
+    },
+    {
+      "relative": "00-control/reconstruction-docs-22-23-24.json",
+      "sha256": "9c1922be1cc2759a10a0eb99d37438ee179686ca096df84da7a5023fb30d8a0b",
+      "snapshot": "05-review/history/pre-context-repair/00-control/reconstruction-docs-22-23-24.json/9c1922be1cc2759a10a0eb99d37438ee179686ca096df84da7a5023fb30d8a0b"
+    },
+    {
+      "relative": "00-control/reconstruction-docs-6-7-8-9.json",
+      "sha256": "38e96aca3b1f6210cc53936d552fb93bc89b1203341eab97e2b17d95f59fe0dd",
+      "snapshot": "05-review/history/pre-context-repair/00-control/reconstruction-docs-6-7-8-9.json/38e96aca3b1f6210cc53936d552fb93bc89b1203341eab97e2b17d95f59fe0dd"
+    },
+    {
+      "relative": "00-control/reconstruction-trial-acceptance-batch-01.json",
+      "sha256": "410bb3a0d72cb39fc77c6ec022253ee4a12586d5fd45b34ee897935298776cf1",
+      "snapshot": "05-review/history/pre-context-repair/00-control/reconstruction-trial-acceptance-batch-01.json/410bb3a0d72cb39fc77c6ec022253ee4a12586d5fd45b34ee897935298776cf1"
+    },
+    {
+      "relative": "00-control/reconstruction-trial-batch-01.json",
+      "sha256": "25dc151b468b7982a307daecd3f1095e0fd203412310519632c6f2d7be16cabf",
+      "snapshot": "05-review/history/pre-context-repair/00-control/reconstruction-trial-batch-01.json/25dc151b468b7982a307daecd3f1095e0fd203412310519632c6f2d7be16cabf"
+    },
+    {
+      "relative": "00-control/retrieval-expectations.json",
+      "sha256": "9d739b2b595fe6f6b151b7d06b45b6042f95e1bf59c76c768df6f8a5701a1f87",
+      "snapshot": "05-review/history/pre-context-repair/00-control/retrieval-expectations.json/9d739b2b595fe6f6b151b7d06b45b6042f95e1bf59c76c768df6f8a5701a1f87"
+    },
+    {
+      "relative": "00-control/retrieval-run-manifest.json",
+      "sha256": "7e1bba395303147aa28cdb7dd0bd0e971aad5a754303104fd7ec37eb2599205b",
+      "snapshot": "05-review/history/pre-context-repair/00-control/retrieval-run-manifest.json/7e1bba395303147aa28cdb7dd0bd0e971aad5a754303104fd7ec37eb2599205b"
+    },
+    {
+      "relative": "00-control/retrieval-run-results.json",
+      "sha256": "9b68b3e8cc211a938766af08edac2f480a389bf0292cb1ac868bd069b6737ddc",
+      "snapshot": "05-review/history/pre-context-repair/00-control/retrieval-run-results.json/9b68b3e8cc211a938766af08edac2f480a389bf0292cb1ac868bd069b6737ddc"
+    },
+    {
+      "relative": "00-control/retrieval-tests.md",
+      "sha256": "b7f9a78f46660a8edbd4d5d3d0e73cc980d4d0ea15c39fd5b7a6b644db0939d2",
+      "snapshot": "05-review/history/pre-context-repair/00-control/retrieval-tests.md/b7f9a78f46660a8edbd4d5d3d0e73cc980d4d0ea15c39fd5b7a6b644db0939d2"
+    },
+    {
+      "relative": "00-control/revision-v3-ledger.json",
+      "sha256": "41c38d6e37fee7223d5c50b3ee6a7d603c54e380adf439b7418de4a5fc81417e",
+      "snapshot": "05-review/history/pre-context-repair/00-control/revision-v3-ledger.json/41c38d6e37fee7223d5c50b3ee6a7d603c54e380adf439b7418de4a5fc81417e"
+    },
+    {
+      "relative": "00-control/selected-sources.json",
+      "sha256": "7794eae7c86bc1df99e7438972e60bb4100375f54ae78d8c684f3164583aaccf",
+      "snapshot": "05-review/history/pre-context-repair/00-control/selected-sources.json/7794eae7c86bc1df99e7438972e60bb4100375f54ae78d8c684f3164583aaccf"
+    },
+    {
+      "relative": "00-control/source-register.json",
+      "sha256": "2bc9a70d6d9247c265c5044bc72fb1487ef739ea2bc6b2632138480263f10ede",
+      "snapshot": "05-review/history/pre-context-repair/00-control/source-register.json/2bc9a70d6d9247c265c5044bc72fb1487ef739ea2bc6b2632138480263f10ede"
+    },
+    {
+      "relative": "00-control/source-register.md",
+      "sha256": "8d06af70c1cddbfb6df0e621f014cbc8fa1afabdb333cf4c6d8abacc6fe60923",
+      "snapshot": "05-review/history/pre-context-repair/00-control/source-register.md/8d06af70c1cddbfb6df0e621f014cbc8fa1afabdb333cf4c6d8abacc6fe60923"
+    },
+    {
+      "relative": "00-control/structure-register.json",
+      "sha256": "8aeea36cc1902d8d1511e2c3ea16944061746cadd0762a856a55beeb30ca2b72",
+      "snapshot": "05-review/history/pre-context-repair/00-control/structure-register.json/8aeea36cc1902d8d1511e2c3ea16944061746cadd0762a856a55beeb30ca2b72"
+    },
+    {
+      "relative": "00-control/structure-register.md",
+      "sha256": "3d990cf6ddcf2c54078f1f4e28721d465d47aa26ed1ebef056653aec47baaca3",
+      "snapshot": "05-review/history/pre-context-repair/00-control/structure-register.md/3d990cf6ddcf2c54078f1f4e28721d465d47aa26ed1ebef056653aec47baaca3"
+    },
+    {
+      "relative": "00-control/title-pipeline-template.json",
+      "sha256": "c699974de808b8302a7df881ea90ef8bb176855dcf7b4f0ca18a1c97804bc12e",
+      "snapshot": "05-review/history/pre-context-repair/00-control/title-pipeline-template.json/c699974de808b8302a7df881ea90ef8bb176855dcf7b4f0ca18a1c97804bc12e"
+    },
+    {
+      "relative": "00-control/wiki-review.md",
+      "sha256": "263409664e72762181723b351681f03bd53957eef5a2a0a0de7e9d7ea9e3e3dc",
+      "snapshot": "05-review/history/pre-context-repair/00-control/wiki-review.md/263409664e72762181723b351681f03bd53957eef5a2a0a0de7e9d7ea9e3e3dc"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0001-article-audit.json",
+      "sha256": "f6c5b8bce5e3a0b9ea13681f0f44758f9ab6126c917fdfd9c1d2e18c127edfa9",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0001-article-audit.json/f6c5b8bce5e3a0b9ea13681f0f44758f9ab6126c917fdfd9c1d2e18c127edfa9"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0001-v3.json",
+      "sha256": "53697d4c08a80d9f05e4d3f904c3c5cb0a424988de9b44f4d8082a549ab720fe",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0001-v3.json/53697d4c08a80d9f05e4d3f904c3c5cb0a424988de9b44f4d8082a549ab720fe"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0002-article-audit.json",
+      "sha256": "3fe1b8d629be1d0b8f59f50cc33eb30856520e3f16e165cec93da8a9f9ceeb3c",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0002-article-audit.json/3fe1b8d629be1d0b8f59f50cc33eb30856520e3f16e165cec93da8a9f9ceeb3c"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0002-v3.json",
+      "sha256": "583d8130c69fdb7df8a2b45ffdeb491b49fc3c6948d9067ec43cbb2aba43d96d",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0002-v3.json/583d8130c69fdb7df8a2b45ffdeb491b49fc3c6948d9067ec43cbb2aba43d96d"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0003-article-audit.json",
+      "sha256": "52676ec4aa0671d4721a0d8ed777dc0603af475a86a3d98a6b1c30aaa90fb364",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0003-article-audit.json/52676ec4aa0671d4721a0d8ed777dc0603af475a86a3d98a6b1c30aaa90fb364"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0003-v3.json",
+      "sha256": "feaf9d88777ac8c3dc0687a876e250e5d4f97a0c9dcc82babda0d0cf29dead34",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0003-v3.json/feaf9d88777ac8c3dc0687a876e250e5d4f97a0c9dcc82babda0d0cf29dead34"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0004-article-audit.json",
+      "sha256": "adc79c4106e0ac6b0cd562d8fb9bb9a969208118c5cde186af9af58ff1156050",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0004-article-audit.json/adc79c4106e0ac6b0cd562d8fb9bb9a969208118c5cde186af9af58ff1156050"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0004-v3.json",
+      "sha256": "6ca8204fbf007cae46b1f98979ae97f8c546182584c447f84fe1f10de9ca9fc7",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0004-v3.json/6ca8204fbf007cae46b1f98979ae97f8c546182584c447f84fe1f10de9ca9fc7"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0005-article-audit.json",
+      "sha256": "3e1c15693f94476454adb242dc64c1c64e16262f2a776999044c37b8d2b59d3e",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0005-article-audit.json/3e1c15693f94476454adb242dc64c1c64e16262f2a776999044c37b8d2b59d3e"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0005-v3.json",
+      "sha256": "c55c9350aabd9330e25dea2dd96ae50ad8dc747dd60f42f7963516d0d259ae2b",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0005-v3.json/c55c9350aabd9330e25dea2dd96ae50ad8dc747dd60f42f7963516d0d259ae2b"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0006-article-audit.json",
+      "sha256": "c6c1981e5846b3107bb7acd1ef6384069c420f146b7e80bbc12bbca149bcc904",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0006-article-audit.json/c6c1981e5846b3107bb7acd1ef6384069c420f146b7e80bbc12bbca149bcc904"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0006-v3.json",
+      "sha256": "daab9bfdf7fc30fcaf96f87c5d967d70298ae806e8cf780acc08a5fe812d9669",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0006-v3.json/daab9bfdf7fc30fcaf96f87c5d967d70298ae806e8cf780acc08a5fe812d9669"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0007-article-audit.json",
+      "sha256": "803b53d473082f60a53143fe36241f80af044a970ae425c5f8e374aed6f03968",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0007-article-audit.json/803b53d473082f60a53143fe36241f80af044a970ae425c5f8e374aed6f03968"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0007-v3.json",
+      "sha256": "076b921064f93e14c5067951390830b006360127948b38676c3700c98ed6937f",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0007-v3.json/076b921064f93e14c5067951390830b006360127948b38676c3700c98ed6937f"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0008-article-audit.json",
+      "sha256": "d9c7cb86e3f6f58832c9c997d53a93d0596a4a5b28b59dbc38f73c3d324a475e",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0008-article-audit.json/d9c7cb86e3f6f58832c9c997d53a93d0596a4a5b28b59dbc38f73c3d324a475e"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0008-v3.json",
+      "sha256": "d805eb59eb33277dc43b1a7e523ac76be57190933aaa20aac2c2bc7b182f2e92",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0008-v3.json/d805eb59eb33277dc43b1a7e523ac76be57190933aaa20aac2c2bc7b182f2e92"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0009-article-audit.json",
+      "sha256": "34ae687229ebb2171eb946c0db6c5e89c73841c662b5146d8f38474d762885c2",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0009-article-audit.json/34ae687229ebb2171eb946c0db6c5e89c73841c662b5146d8f38474d762885c2"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0009-v3.json",
+      "sha256": "b5c50e4897dac7b7345151de39a3190d5912d23ca082b9525309b129f8193220",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0009-v3.json/b5c50e4897dac7b7345151de39a3190d5912d23ca082b9525309b129f8193220"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0010-v3.json",
+      "sha256": "7bcaae5b42ede439eda60dfacfbcb6a0cee07115685dbdb94f4feca3fec9f962",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0010-v3.json/7bcaae5b42ede439eda60dfacfbcb6a0cee07115685dbdb94f4feca3fec9f962"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0011-article-audit.json",
+      "sha256": "f0aa90c39ef311169c76c2a5b009eefea2885cb07b2934bf26f7e527ca0a05f2",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0011-article-audit.json/f0aa90c39ef311169c76c2a5b009eefea2885cb07b2934bf26f7e527ca0a05f2"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0011-v3.json",
+      "sha256": "759a692ea3d17e794dce7d89ff408189ea022db850bef197fcaa1d413b378c9f",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0011-v3.json/759a692ea3d17e794dce7d89ff408189ea022db850bef197fcaa1d413b378c9f"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0012-article-audit.json",
+      "sha256": "62f42b06f77152dd9a7c78cdf34355e94a58de576369eec451eb48a016d81e9b",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0012-article-audit.json/62f42b06f77152dd9a7c78cdf34355e94a58de576369eec451eb48a016d81e9b"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0012-v3.json",
+      "sha256": "26244b7331865c5da1df2c8f294e992fa17661c41df9044082c9cb47f3107f94",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0012-v3.json/26244b7331865c5da1df2c8f294e992fa17661c41df9044082c9cb47f3107f94"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0013-article-audit.json",
+      "sha256": "442e6c23d67d3efb97cf5dfbc08ff8ca8cf675f39b57744a61273174a9b93829",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0013-article-audit.json/442e6c23d67d3efb97cf5dfbc08ff8ca8cf675f39b57744a61273174a9b93829"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0013-v3.json",
+      "sha256": "39c964d11cb92b526d83fdc2beaed8264e6bca2c2afb697e76a02ca5103c68d2",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0013-v3.json/39c964d11cb92b526d83fdc2beaed8264e6bca2c2afb697e76a02ca5103c68d2"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0014-article-audit.json",
+      "sha256": "4f0655a20bcfbc9443684f09ca4286f82827692474a8eb80a53b26ba48232245",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0014-article-audit.json/4f0655a20bcfbc9443684f09ca4286f82827692474a8eb80a53b26ba48232245"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0014-v3.json",
+      "sha256": "613998babd9488eb2724ec2813e59804dc85f0359639c47fb60764514aa65410",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0014-v3.json/613998babd9488eb2724ec2813e59804dc85f0359639c47fb60764514aa65410"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0015-article-audit.json",
+      "sha256": "835394e503e63d4d66f68c842602d9fae37cb5b20ca697aa1e130832bb9bdc24",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0015-article-audit.json/835394e503e63d4d66f68c842602d9fae37cb5b20ca697aa1e130832bb9bdc24"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0015-v3.json",
+      "sha256": "1405271c40ebcd1bfb238bbdbf4bd0191be0775638448d83c752cea48deeac23",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0015-v3.json/1405271c40ebcd1bfb238bbdbf4bd0191be0775638448d83c752cea48deeac23"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0016-v3.json",
+      "sha256": "d13983fe9709f88f88476358ab222d3bad78b5f1d0d7d1670183039cb8484025",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0016-v3.json/d13983fe9709f88f88476358ab222d3bad78b5f1d0d7d1670183039cb8484025"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0017-article-audit.json",
+      "sha256": "8547131883492228b2c36b3043754ab6da8f5361abfe0969fa1b32497495261d",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0017-article-audit.json/8547131883492228b2c36b3043754ab6da8f5361abfe0969fa1b32497495261d"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0017-v3.json",
+      "sha256": "f4443a24ef2118628e1edeab6db533da0b8c000060ab7d2b74cdcca09d992578",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0017-v3.json/f4443a24ef2118628e1edeab6db533da0b8c000060ab7d2b74cdcca09d992578"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0018-article-audit.json",
+      "sha256": "a731ea60ab777f6c0899a43a08d24cbb167b7234c560af7d9b445e8f03399cc7",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0018-article-audit.json/a731ea60ab777f6c0899a43a08d24cbb167b7234c560af7d9b445e8f03399cc7"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0018-v3.json",
+      "sha256": "4cf55b9a19d9388d255cfd9d0abb4a1c0b50a2b13a8497a229d59a05ad4898f1",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0018-v3.json/4cf55b9a19d9388d255cfd9d0abb4a1c0b50a2b13a8497a229d59a05ad4898f1"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0019-article-audit.json",
+      "sha256": "6c9e6d8859a3cd766e729648b7b7b5890bfb1cddd41729e7e45f996001611f37",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0019-article-audit.json/6c9e6d8859a3cd766e729648b7b7b5890bfb1cddd41729e7e45f996001611f37"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0019-v3.json",
+      "sha256": "664c27af5d202cd908b88aa3982e58fb4e4ba05b01bcc6c170265f4fc0b25b2c",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0019-v3.json/664c27af5d202cd908b88aa3982e58fb4e4ba05b01bcc6c170265f4fc0b25b2c"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0020-article-audit.json",
+      "sha256": "594cd1808d587bd3ad5533a398b284eabf56bd1521756616fb8cf753419cd6c1",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0020-article-audit.json/594cd1808d587bd3ad5533a398b284eabf56bd1521756616fb8cf753419cd6c1"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0020-v3.json",
+      "sha256": "0f8cf2b122736ce8e42585568999d5eb7f6ab20c5743b41ec0a59d0fccfa5876",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0020-v3.json/0f8cf2b122736ce8e42585568999d5eb7f6ab20c5743b41ec0a59d0fccfa5876"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0021-article-audit.json",
+      "sha256": "cc3f3795247dccf686d4e8be8d6ca4338bd26850d88a7657e484ceb1aec5bd4d",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0021-article-audit.json/cc3f3795247dccf686d4e8be8d6ca4338bd26850d88a7657e484ceb1aec5bd4d"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0021-v3.json",
+      "sha256": "5e3b5f4b1382f0ac17e2a766de920da42b92901da023ab94a53b83b5b3454eaf",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0021-v3.json/5e3b5f4b1382f0ac17e2a766de920da42b92901da023ab94a53b83b5b3454eaf"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0022-article-audit.json",
+      "sha256": "7fd76e6541d3d9ced19ac0a2f64d0e1903e21214b92128c953e6e796d62b4072",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0022-article-audit.json/7fd76e6541d3d9ced19ac0a2f64d0e1903e21214b92128c953e6e796d62b4072"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0022-v3.json",
+      "sha256": "343ce8c308628c1e0c8be4ac1944b5a6b60422c75ecf2c8306112fdbe3315f21",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0022-v3.json/343ce8c308628c1e0c8be4ac1944b5a6b60422c75ecf2c8306112fdbe3315f21"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0023-article-audit.json",
+      "sha256": "a2f0633789996735563ba401a063c23302a0662dfe6d8306c9f7234754dce5e4",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0023-article-audit.json/a2f0633789996735563ba401a063c23302a0662dfe6d8306c9f7234754dce5e4"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0023-v3.json",
+      "sha256": "322dd4ad2ea19883d911e7c681cb23cab77c7ec48d80bdf993e7b1484a7bd4b1",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0023-v3.json/322dd4ad2ea19883d911e7c681cb23cab77c7ec48d80bdf993e7b1484a7bd4b1"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0024-article-audit.json",
+      "sha256": "a979f8ae6a758cf2d0841c32cd26f2c78656cc46cdbbefc16926b8cdb8f86438",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0024-article-audit.json/a979f8ae6a758cf2d0841c32cd26f2c78656cc46cdbbefc16926b8cdb8f86438"
+    },
+    {
+      "relative": "04-chunks/expected/DOC0024-v3.json",
+      "sha256": "46d51c9df99a14bd09b19e1c7b67b5eb1a14bca49b75ac3364a5b618294f8b30",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/expected/DOC0024-v3.json/46d51c9df99a14bd09b19e1c7b67b5eb1a14bca49b75ac3364a5b618294f8b30"
+    },
+    {
+      "relative": "04-chunks/actual/CL-hierarchy-trial.json",
+      "sha256": "6d7960455c15c6fc7b7b1b31e8bf6e6490d4234d05165e96e0a25b2609feddf8",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/CL-hierarchy-trial.json/6d7960455c15c6fc7b7b1b31e8bf6e6490d4234d05165e96e0a25b2609feddf8"
+    },
+    {
+      "relative": "04-chunks/actual/CL-trial-v2.json",
+      "sha256": "aa28e39f754bcbf33a33aa7c034b94f8b92a798e75a47f207566d6829869a7fb",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/CL-trial-v2.json/aa28e39f754bcbf33a33aa7c034b94f8b92a798e75a47f207566d6829869a7fb"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0001-reconstruction-trial.json",
+      "sha256": "44d0bc3be36c0ac718514a650687feb740b2ba0bc445d206b17ca75cf4e91b5c",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0001-reconstruction-trial.json/44d0bc3be36c0ac718514a650687feb740b2ba0bc445d206b17ca75cf4e91b5c"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0001-v3-formal.json",
+      "sha256": "cf32d9165e9fa6911b2604f5a1535d6dd206103037f1915cd3785d165bae6d22",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0001-v3-formal.json/cf32d9165e9fa6911b2604f5a1535d6dd206103037f1915cd3785d165bae6d22"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0001-v3-trial.json",
+      "sha256": "8a3a022268af94e9cd3741193d93d1b7b3c0c53476ed7439df1dd05c730b1394",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0001-v3-trial.json/8a3a022268af94e9cd3741193d93d1b7b3c0c53476ed7439df1dd05c730b1394"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0002-reconstruction-trial.json",
+      "sha256": "78f757b959b083976cbdd0ed75d6a66021959738b02d723b651b46e2b5c3c1e5",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0002-reconstruction-trial.json/78f757b959b083976cbdd0ed75d6a66021959738b02d723b651b46e2b5c3c1e5"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0002-v3-formal.json",
+      "sha256": "a7805c1ab5ef20d131c5006294ad0fe5096ef8c313711d462187fb05b5d0c5e4",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0002-v3-formal.json/a7805c1ab5ef20d131c5006294ad0fe5096ef8c313711d462187fb05b5d0c5e4"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0002-v3-trial.json",
+      "sha256": "447e37431ff82bc282b2ca27bc924eb19a3e2bec465927b1bfc376e6ac9d3c9e",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0002-v3-trial.json/447e37431ff82bc282b2ca27bc924eb19a3e2bec465927b1bfc376e6ac9d3c9e"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0003-reconstruction-trial.json",
+      "sha256": "751cbf08711c5daf4219a5aa6f96e893ca5a0c129e95688c3aee72e84cb73f85",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0003-reconstruction-trial.json/751cbf08711c5daf4219a5aa6f96e893ca5a0c129e95688c3aee72e84cb73f85"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0003-v3-formal.json",
+      "sha256": "5be770d1d8306805f6c901474d5cad24f2b310c2076ae0d1ce1cf5f145472bd9",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0003-v3-formal.json/5be770d1d8306805f6c901474d5cad24f2b310c2076ae0d1ce1cf5f145472bd9"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0003-v3-trial.json",
+      "sha256": "8640eb1356363d80384445fbb210a6d129dce88abf5c4faf7863118454de09b2",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0003-v3-trial.json/8640eb1356363d80384445fbb210a6d129dce88abf5c4faf7863118454de09b2"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0004-reconstruction-trial.json",
+      "sha256": "ab304afbea5dca45e5bc88bb06e3fe0ee402bc7674496c7d2d631a7218af117d",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0004-reconstruction-trial.json/ab304afbea5dca45e5bc88bb06e3fe0ee402bc7674496c7d2d631a7218af117d"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0004-v3-formal.json",
+      "sha256": "c7dbccee1f30092b890977e18290cb67d16d7d97bafeede426e15daae867bcc2",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0004-v3-formal.json/c7dbccee1f30092b890977e18290cb67d16d7d97bafeede426e15daae867bcc2"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0004-v3-trial.json",
+      "sha256": "9fdd4dee7b60a8d6ec86596326f58bf0be1d36468c3e2c2af6d2d11640f473f1",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0004-v3-trial.json/9fdd4dee7b60a8d6ec86596326f58bf0be1d36468c3e2c2af6d2d11640f473f1"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0005-reconstruction-trial.json",
+      "sha256": "851f37dba7a0ff257a4d803bae89f3cec04d8b25cd08c657ff772d7b12e47d03",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0005-reconstruction-trial.json/851f37dba7a0ff257a4d803bae89f3cec04d8b25cd08c657ff772d7b12e47d03"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0005-v3-formal.json",
+      "sha256": "4e546b52738b5255279da63de8281d733b54a130559365f7b378d4252f0e1aeb",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0005-v3-formal.json/4e546b52738b5255279da63de8281d733b54a130559365f7b378d4252f0e1aeb"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0005-v3-trial.json",
+      "sha256": "6dce646e31c014ddd1c974eb428d53437e6f65027a102a5ec8474b6708a62cfb",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0005-v3-trial.json/6dce646e31c014ddd1c974eb428d53437e6f65027a102a5ec8474b6708a62cfb"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0006-reconstruction-trial.json",
+      "sha256": "1af40bba6931a1a8992cf2e6f2cf0831fdc7489ba724023ebc6cdaea733fcc79",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0006-reconstruction-trial.json/1af40bba6931a1a8992cf2e6f2cf0831fdc7489ba724023ebc6cdaea733fcc79"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0006-v3-formal.json",
+      "sha256": "1b37f8f98cac884308450f8290f552a79401203053ce9559cb11aa9309e601eb",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0006-v3-formal.json/1b37f8f98cac884308450f8290f552a79401203053ce9559cb11aa9309e601eb"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0006-v3-trial.json",
+      "sha256": "05e98fb4822ef2b643169bb7fadb2121077a1cc2df0683f93c6e2d3610973a5b",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0006-v3-trial.json/05e98fb4822ef2b643169bb7fadb2121077a1cc2df0683f93c6e2d3610973a5b"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0007-reconstruction-trial.json",
+      "sha256": "82b305b0cffc32f86db0fbc94f110471638723ab2367cf61e90bc3fb58e9d51d",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0007-reconstruction-trial.json/82b305b0cffc32f86db0fbc94f110471638723ab2367cf61e90bc3fb58e9d51d"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0007-v3-formal.json",
+      "sha256": "0b1ab3e0ad32743887c44bf6501904ee7d4724b4859a5db3cf9cd9910f830366",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0007-v3-formal.json/0b1ab3e0ad32743887c44bf6501904ee7d4724b4859a5db3cf9cd9910f830366"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0007-v3-trial.json",
+      "sha256": "6a4c04cfaf630fec55fa47039b0cf0aaf3a937e6808f71632e590e274fa5a834",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0007-v3-trial.json/6a4c04cfaf630fec55fa47039b0cf0aaf3a937e6808f71632e590e274fa5a834"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0008-reconstruction-trial.json",
+      "sha256": "9bbe0ceb75fb6af2b0217cfe28140726c5202d1ad6b8bc8ee3ffca78ca76206c",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0008-reconstruction-trial.json/9bbe0ceb75fb6af2b0217cfe28140726c5202d1ad6b8bc8ee3ffca78ca76206c"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0008-v3-formal.json",
+      "sha256": "5943b323273f4ad3b378b026cd5f02cfc8c13fe96fe6b17e09f75df7edbd3129",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0008-v3-formal.json/5943b323273f4ad3b378b026cd5f02cfc8c13fe96fe6b17e09f75df7edbd3129"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0008-v3-trial.json",
+      "sha256": "3369f1cba55743874a6d05f54bfb278ee08af95694c05dc5b66fc04ee876659b",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0008-v3-trial.json/3369f1cba55743874a6d05f54bfb278ee08af95694c05dc5b66fc04ee876659b"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0009-reconstruction-trial.json",
+      "sha256": "b5025ca3583b8af4b0ce5d39f4e4c3bd149c22b16d43753f7d076a7aa66c6b8e",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0009-reconstruction-trial.json/b5025ca3583b8af4b0ce5d39f4e4c3bd149c22b16d43753f7d076a7aa66c6b8e"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0009-v3-formal.json",
+      "sha256": "f6809159f3df3ad75ae30aef4f5c14a21c4684c434cdeb5d11466b8c24890391",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0009-v3-formal.json/f6809159f3df3ad75ae30aef4f5c14a21c4684c434cdeb5d11466b8c24890391"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0009-v3-trial.json",
+      "sha256": "80e599f945f2d01896f860b1942fb4e950db54143545bc559b1863f5ac913f44",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0009-v3-trial.json/80e599f945f2d01896f860b1942fb4e950db54143545bc559b1863f5ac913f44"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0010-v3-formal.json",
+      "sha256": "90970fd47db83d0052fbd20c9ac06a06ab24b4dedb9df5ec78c48ecefe1cce6d",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0010-v3-formal.json/90970fd47db83d0052fbd20c9ac06a06ab24b4dedb9df5ec78c48ecefe1cce6d"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0010-v3-trial.json",
+      "sha256": "7632326e873f04cdfcf0a5197e7b7fe8752e8a252e3fb3a7c4664660610ff95a",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0010-v3-trial.json/7632326e873f04cdfcf0a5197e7b7fe8752e8a252e3fb3a7c4664660610ff95a"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0011-reconstruction-trial.json",
+      "sha256": "0ee03999f419d146d28cd88530a36d569e96e22263053f58b6318f6c30185d76",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0011-reconstruction-trial.json/0ee03999f419d146d28cd88530a36d569e96e22263053f58b6318f6c30185d76"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0011-v3-formal.json",
+      "sha256": "2bff214154390e5d8baa47128fb9d3cbbadb50fca8a00ad7d21a238829c16d63",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0011-v3-formal.json/2bff214154390e5d8baa47128fb9d3cbbadb50fca8a00ad7d21a238829c16d63"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0011-v3-trial.json",
+      "sha256": "0121fcdeaa51f1816afddc16f646a04fc345302e3b16577e523e1507617b3263",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0011-v3-trial.json/0121fcdeaa51f1816afddc16f646a04fc345302e3b16577e523e1507617b3263"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0012-reconstruction-trial.json",
+      "sha256": "cbdeaeadf86e5fbc51c99d8ca5e9f19394a85232ef5da75938ddad70d4b293fd",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0012-reconstruction-trial.json/cbdeaeadf86e5fbc51c99d8ca5e9f19394a85232ef5da75938ddad70d4b293fd"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0012-v3-formal.json",
+      "sha256": "3c421ba5fa5ed2ea48b160aa3937bb6d986968ecc700b1b18e191e0b1f2612e4",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0012-v3-formal.json/3c421ba5fa5ed2ea48b160aa3937bb6d986968ecc700b1b18e191e0b1f2612e4"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0012-v3-trial.json",
+      "sha256": "dbc98c0d5a7ba7f705750c84e2297e2190ae40de9abe4e9be1abe5e2da36ccf0",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0012-v3-trial.json/dbc98c0d5a7ba7f705750c84e2297e2190ae40de9abe4e9be1abe5e2da36ccf0"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0013-reconstruction-trial.json",
+      "sha256": "44967ee8875630418353196d7bc17825b1efd05ac4c3d81f8f5da3dd60917f33",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0013-reconstruction-trial.json/44967ee8875630418353196d7bc17825b1efd05ac4c3d81f8f5da3dd60917f33"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0013-v3-formal.json",
+      "sha256": "47a15f89cf299939f322e3b2749339a21052322ec2657aa790f6ef3894968e1a",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0013-v3-formal.json/47a15f89cf299939f322e3b2749339a21052322ec2657aa790f6ef3894968e1a"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0013-v3-trial.json",
+      "sha256": "861e3a0af6fc305744414bfc94b5666ff816923a9ac0bdef22d9368b4c806b30",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0013-v3-trial.json/861e3a0af6fc305744414bfc94b5666ff816923a9ac0bdef22d9368b4c806b30"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0014-reconstruction-trial.json",
+      "sha256": "e86cd5e82737304fb5848d14dee3c07e4e66aab7a8771530454837c7fc678718",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0014-reconstruction-trial.json/e86cd5e82737304fb5848d14dee3c07e4e66aab7a8771530454837c7fc678718"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0014-v3-formal.json",
+      "sha256": "58ffc05c5918ab442a935cd15ff7ea97b63f6b6b49f54a0585f9ae1a0c5ee1b9",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0014-v3-formal.json/58ffc05c5918ab442a935cd15ff7ea97b63f6b6b49f54a0585f9ae1a0c5ee1b9"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0014-v3-trial.json",
+      "sha256": "1b93751f16811646647793c7b4096bc46f3845096af4659a58fc396b0b87b24f",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0014-v3-trial.json/1b93751f16811646647793c7b4096bc46f3845096af4659a58fc396b0b87b24f"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0015-reconstruction-trial.json",
+      "sha256": "89e2028fcba05c09306fdcb5d0e069cdadf6ca8d173fa37493b683bd67b455e3",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0015-reconstruction-trial.json/89e2028fcba05c09306fdcb5d0e069cdadf6ca8d173fa37493b683bd67b455e3"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0015-v3-formal.json",
+      "sha256": "2b2b2615b01484172b0249ee0a74e22825ac6f5b04b19a13579d1ad11b02209a",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0015-v3-formal.json/2b2b2615b01484172b0249ee0a74e22825ac6f5b04b19a13579d1ad11b02209a"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0015-v3-trial.json",
+      "sha256": "48c13218993c29ce3788ac92d1ced9b6ef57ecd837a2d1b28db9ff702152ac8a",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0015-v3-trial.json/48c13218993c29ce3788ac92d1ced9b6ef57ecd837a2d1b28db9ff702152ac8a"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0016-v3-formal.json",
+      "sha256": "f50fc61905e99bcf5b68a1895211b9ea4ea759af8d6bca67cab45c344ba0812f",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0016-v3-formal.json/f50fc61905e99bcf5b68a1895211b9ea4ea759af8d6bca67cab45c344ba0812f"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0016-v3-trial.json",
+      "sha256": "71378c399ee2b7f7695f9beb4303b76808f18f42687fa405f9966158f8f23134",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0016-v3-trial.json/71378c399ee2b7f7695f9beb4303b76808f18f42687fa405f9966158f8f23134"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0017-reconstruction-trial.json",
+      "sha256": "b5004617bb4bceed37ffcdffa896779b0a99df09dddb885ae1c7f53300493de4",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0017-reconstruction-trial.json/b5004617bb4bceed37ffcdffa896779b0a99df09dddb885ae1c7f53300493de4"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0017-v3-formal.json",
+      "sha256": "b8820f1ff5980a2370c707d6735d4c0623c6a6e0ab2efbb8e56956cf3382a984",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0017-v3-formal.json/b8820f1ff5980a2370c707d6735d4c0623c6a6e0ab2efbb8e56956cf3382a984"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0017-v3-trial.json",
+      "sha256": "d9e6e0820f3db92529f59ba2a5fa655f7c6255d13807a0b225281d93f0599541",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0017-v3-trial.json/d9e6e0820f3db92529f59ba2a5fa655f7c6255d13807a0b225281d93f0599541"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0018-reconstruction-trial.json",
+      "sha256": "83ad378055d07446cd43e62cd6bad1c37f55932671bb46ee969721eafeee04c0",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0018-reconstruction-trial.json/83ad378055d07446cd43e62cd6bad1c37f55932671bb46ee969721eafeee04c0"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0018-v3-formal.json",
+      "sha256": "8fb5138e3bee60a70ed2480e29b4d446a35e6a9a8ab20562076721a7b50dabf2",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0018-v3-formal.json/8fb5138e3bee60a70ed2480e29b4d446a35e6a9a8ab20562076721a7b50dabf2"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0018-v3-trial.json",
+      "sha256": "9e83541333a74fe24d6e0ab291e3e07810dc8483bdd018aa2c0bd5878364d6bc",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0018-v3-trial.json/9e83541333a74fe24d6e0ab291e3e07810dc8483bdd018aa2c0bd5878364d6bc"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0019-reconstruction-trial.json",
+      "sha256": "d0f8d97b64143f2b02fa7a067ef675bc2787489a5085b6717a03a8059903d7b5",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0019-reconstruction-trial.json/d0f8d97b64143f2b02fa7a067ef675bc2787489a5085b6717a03a8059903d7b5"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0019-v3-formal.json",
+      "sha256": "71bf84de75be5a28e5fb78d18c24753e1316efc336f2d66dbd7901ed747f3dab",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0019-v3-formal.json/71bf84de75be5a28e5fb78d18c24753e1316efc336f2d66dbd7901ed747f3dab"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0019-v3-trial.json",
+      "sha256": "738be95d533c7f156453168ad82a92934b6821c23bb2d08ff07be675fa0f709a",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0019-v3-trial.json/738be95d533c7f156453168ad82a92934b6821c23bb2d08ff07be675fa0f709a"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0020-reconstruction-trial.json",
+      "sha256": "9fc3e0b0957884f49135211291f9abd4f7e03b7a83435266ac86a9bc24dae542",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0020-reconstruction-trial.json/9fc3e0b0957884f49135211291f9abd4f7e03b7a83435266ac86a9bc24dae542"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0020-v3-formal.json",
+      "sha256": "68c410aef5f7f037aa7cc4bee0af27f6c7acb525da4a5eff2bc4eab62fb79c7e",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0020-v3-formal.json/68c410aef5f7f037aa7cc4bee0af27f6c7acb525da4a5eff2bc4eab62fb79c7e"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0020-v3-trial.json",
+      "sha256": "d2cc44a2aeb46e4ac343ca9eadeefd69c4cfdae10ca50efeab32b0db28c3c7fa",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0020-v3-trial.json/d2cc44a2aeb46e4ac343ca9eadeefd69c4cfdae10ca50efeab32b0db28c3c7fa"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0021-reconstruction-trial.json",
+      "sha256": "1cf61e5304bc8fdb078cb4da2d94b4408bdc66426f58ccd4b06ed2a2adebad41",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0021-reconstruction-trial.json/1cf61e5304bc8fdb078cb4da2d94b4408bdc66426f58ccd4b06ed2a2adebad41"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0021-v3-formal.json",
+      "sha256": "dbdf44c3fb710cbb8c5c9e29906b5def807a76d885309a7c02e97fda42acec5a",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0021-v3-formal.json/dbdf44c3fb710cbb8c5c9e29906b5def807a76d885309a7c02e97fda42acec5a"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0021-v3-trial.json",
+      "sha256": "1863cd3e486432796de8cd5f0831b9b6ebe0383280ac569b6326d3d74411ad18",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0021-v3-trial.json/1863cd3e486432796de8cd5f0831b9b6ebe0383280ac569b6326d3d74411ad18"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0022-reconstruction-trial.json",
+      "sha256": "34446219ed8d27c38105b222ef7bee5d7f4b75381d268e4873ce856f863f569c",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0022-reconstruction-trial.json/34446219ed8d27c38105b222ef7bee5d7f4b75381d268e4873ce856f863f569c"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0022-v3-formal.json",
+      "sha256": "1484edcf71f2ac32d2736d77b2150f11086e8370be8e28e33b363db79ecaf018",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0022-v3-formal.json/1484edcf71f2ac32d2736d77b2150f11086e8370be8e28e33b363db79ecaf018"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0022-v3-trial.json",
+      "sha256": "aa399d6bb348a0fadefd3080389f44fcb983de975bbd0084917c66cc5acff223",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0022-v3-trial.json/aa399d6bb348a0fadefd3080389f44fcb983de975bbd0084917c66cc5acff223"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0023-reconstruction-trial.json",
+      "sha256": "7ed77d02d933355000a988b8106f95d77fe405746d48d4b65360115c2e99f2b1",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0023-reconstruction-trial.json/7ed77d02d933355000a988b8106f95d77fe405746d48d4b65360115c2e99f2b1"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0023-v3-formal.json",
+      "sha256": "6a7c08e2283d0741eb93a13646207adfd61acc5bd21fb8dcc269c968c7dfb441",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0023-v3-formal.json/6a7c08e2283d0741eb93a13646207adfd61acc5bd21fb8dcc269c968c7dfb441"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0023-v3-trial.json",
+      "sha256": "6c5459a0ec115d6e70479fcf8258e1e85ae93732ae041392f30f1abfd2143a60",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0023-v3-trial.json/6c5459a0ec115d6e70479fcf8258e1e85ae93732ae041392f30f1abfd2143a60"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0024-reconstruction-trial.json",
+      "sha256": "229a87ef6ff45bc89df6d3c92d3aeea7b1eba0bca2bf646fd2682e9326089ae5",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0024-reconstruction-trial.json/229a87ef6ff45bc89df6d3c92d3aeea7b1eba0bca2bf646fd2682e9326089ae5"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0024-v3-formal.json",
+      "sha256": "6bc899e8fa4791d15b8049ad1dd934733e4ee151187f8e989613e3103f2a0af9",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0024-v3-formal.json/6bc899e8fa4791d15b8049ad1dd934733e4ee151187f8e989613e3103f2a0af9"
+    },
+    {
+      "relative": "04-chunks/actual/DOC0024-v3-trial.json",
+      "sha256": "63065721b928b8c4dcc9e7a9e08ca3c7b83d0a35e798c0a256a9960185fdf3d1",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/DOC0024-v3-trial.json/63065721b928b8c4dcc9e7a9e08ca3c7b83d0a35e798c0a256a9960185fdf3d1"
+    },
+    {
+      "relative": "04-chunks/actual/GD-hierarchy-trial.json",
+      "sha256": "24be0976c4577a04ea2131191927bc8b2e61fad1e29b235b19124ba3aed6548a",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/GD-hierarchy-trial.json/24be0976c4577a04ea2131191927bc8b2e61fad1e29b235b19124ba3aed6548a"
+    },
+    {
+      "relative": "04-chunks/actual/GD-trial-v2.json",
+      "sha256": "223cae13af40a8f670dff18140df2853f880e6da963bf0f0aae76954ab6f6f96",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/GD-trial-v2.json/223cae13af40a8f670dff18140df2853f880e6da963bf0f0aae76954ab6f6f96"
+    },
+    {
+      "relative": "04-chunks/actual/GW-hierarchy-trial.json",
+      "sha256": "8e85b8c89071c384266b5e35a2a5cb0a0528b30d70fe1ae95b4ed0c45d4b7d0c",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/GW-hierarchy-trial.json/8e85b8c89071c384266b5e35a2a5cb0a0528b30d70fe1ae95b4ed0c45d4b7d0c"
+    },
+    {
+      "relative": "04-chunks/actual/GW-trial-v1.json",
+      "sha256": "22fb20e58d99aa4c9f93268534e979a337e207b585fa2ca1fe3812ac9deb3307",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/GW-trial-v1.json/22fb20e58d99aa4c9f93268534e979a337e207b585fa2ca1fe3812ac9deb3307"
+    },
+    {
+      "relative": "04-chunks/actual/GW-trial-v2.json",
+      "sha256": "38dba569cdef5c0085152d3b566d24d2a358388b00b29c079dcbce59e1534ca0",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/GW-trial-v2.json/38dba569cdef5c0085152d3b566d24d2a358388b00b29c079dcbce59e1534ca0"
+    },
+    {
+      "relative": "04-chunks/actual/XH-hierarchy-trial.json",
+      "sha256": "f1951061ff6993faa6bd31ab00faa7f9a4e236eefb8a4d42d77d7fae082ea17f",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/XH-hierarchy-trial.json/f1951061ff6993faa6bd31ab00faa7f9a4e236eefb8a4d42d77d7fae082ea17f"
+    },
+    {
+      "relative": "04-chunks/actual/XH-trial-v2.json",
+      "sha256": "7783ce1e3d4695768763bc9f15f66fd3d5319f626c4e9fa798cdb41295ff5375",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/XH-trial-v2.json/7783ce1e3d4695768763bc9f15f66fd3d5319f626c4e9fa798cdb41295ff5375"
+    },
+    {
+      "relative": "04-chunks/actual/YS-hierarchy-trial.json",
+      "sha256": "525bb7968e0c8ebf3cf721d886560182ddfbe9b86d0672c35565adcd83a78642",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/YS-hierarchy-trial.json/525bb7968e0c8ebf3cf721d886560182ddfbe9b86d0672c35565adcd83a78642"
+    },
+    {
+      "relative": "04-chunks/actual/YS-trial-v2.json",
+      "sha256": "a1e1195049c5a325bb296ff41802f4e06d3b94d9a65364d8ead6bbc3fa28f3aa",
+      "snapshot": "05-review/history/pre-context-repair/04-chunks/actual/YS-trial-v2.json/a1e1195049c5a325bb296ff41802f4e06d3b94d9a65364d8ead6bbc3fa28f3aa"
+    }
+  ]
+}

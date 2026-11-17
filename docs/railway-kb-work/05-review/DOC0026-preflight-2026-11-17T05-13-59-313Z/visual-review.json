@@ -1,0 +1,293 @@
+{
+  "recorded_at": "2026-11-17T05:13:59.313Z",
+  "doc_id": "DOC0026",
+  "bindings": {
+    "original": {
+      "path": "01-originals/attachments/S0034-1.docx",
+      "sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80"
+    },
+    "master": {
+      "path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "sha256": "41b9e9d81b67088ecf79bba8b1658a25ad30e1e12dc10810d9bfa21f57fe780c"
+    },
+    "expected": {
+      "path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "sha256": "1f0751a442be89cd1ec901d37ee8b940c4901b2cb1d442a70dd7eef58fd29fa2"
+    },
+    "native": {
+      "path": "05-review/successor-structure/S0034-native-tables-v2.json",
+      "sha256": "cadc3ea5476ce3ef5cc0161aa2971eafbc1646671f2bc42cdaa1e4cd64d02fa9"
+    },
+    "original_pdf": {
+      "path": "05-review/successor-visual/S0034-original.pdf",
+      "sha256": "5326300d27e9b6068fef2b842041268498cb34052661d150efbd9a27b188dada"
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Notice identifies issuer, regulation number 2026-5 and February 28 issue date; issue date is not the effective date.",
+      "image_path": "05-review/successor-visual/S0034-page-01.png",
+      "image_sha256": "2b054ae425c89693ad59beb604cf00f8e3ba0c28b5d573d053f01ef501183f9b"
+    },
+    {
+      "page": 2,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Articles 1-4 and start of article 5; three approval conditions retain annex dependencies.",
+      "image_path": "05-review/successor-visual/S0034-page-02.png",
+      "image_sha256": "e040043cd912c417e9563649e2266757ada49117358e4da2673df684368a7242"
+    },
+    {
+      "page": 3,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Article 5 outsourcing and hardware-maker scope retained. Article 6 extension excludes article 5 items 8,9 and keeps five-year operation, accident rectification and changes. Article 7 begins.",
+      "image_path": "05-review/successor-visual/S0034-page-03.png",
+      "image_sha256": "6d496decb1af43070f210ef650896c3f8215de56203cf53932c19e8a551b28e3"
+    },
+    {
+      "page": 4,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Article 7 A4, binding, seal and electronic-copy requirements; article 8 five-working-day supplement/deemed-acceptance provisions; article 9 at least two staff; article 10 three-month expert review and conflict condition; article 11 representative products; article 12 begins.",
+      "image_path": "05-review/successor-visual/S0034-page-04.png",
+      "image_sha256": "b793f3f443364c6e14d09cdf5bc4b3d859873fafc64fc38c351e44ec4185ce5e"
+    },
+    {
+      "page": 5,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Article 12 continuation; article 13 twenty working days and approved ten-day extension, excluding notified testing/expert time. Article 14 literal TXXH#### and five-star placeholder. Article 15 five-year validity, sixty-working-day extension application and unchanged validity for renaming.",
+      "image_path": "05-review/successor-visual/S0034-page-05.png",
+      "image_sha256": "3ac113e2f6d20a4f8fcdaa98ea80248ce4d8cbb1dda6e183fc4f9a9cdab40316"
+    },
+    {
+      "page": 6,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Articles 16-19 retain reapplication/change/replacement/inspection conditions. Article 20 November self-check and December 15 report date.",
+      "image_path": "05-review/successor-visual/S0034-page-06.png",
+      "image_sha256": "ba89880bcff086aba255f24c84ddc5f715dab3e1760fa9350cdd24298b5b8efb"
+    },
+    {
+      "page": 7,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Article 20 six checks; article 21 sixty-working-day rectification and review/deemed failure; article 22 false material and one-year application bar; article 23 begins.",
+      "image_path": "05-review/successor-visual/S0034-page-07.png",
+      "image_sha256": "167f22a2559004698097bec243c2673f57f11ac47f1f91df46dd06ba587462da"
+    },
+    {
+      "page": 8,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Article 23 revocation and fraudulent-approval three-year bar; article 24 five cancellation cases and publication; articles 25 liability,26 interpretation,27 April 1 effective date.",
+      "image_path": "05-review/successor-visual/S0034-page-08.png",
+      "image_sha256": "3fbe0f3112f882554eeda358ddc478fe32b539278ede0c717be19389b9af4315"
+    },
+    {
+      "page": 9,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Annexes 1-8 directory; directory is not an independent source document.",
+      "image_path": "05-review/successor-visual/S0034-page-09.png",
+      "image_sha256": "1cda42a925e7d677cd3f0b153cf6b8dab2bc4ca373acc50e37a095c2add2927b"
+    },
+    {
+      "page": 10,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "T01 products 1001-1003; T02 control-equipment scope and exclusions distinguish software,hardware,integration. ATP2001 standards continue on next page.",
+      "image_path": "05-review/successor-visual/S0034-page-10.png",
+      "image_sha256": "9f01888d809a662cacfdd0670a27f86cbc9ed9c2fa27f10c7f3ad873d8fac327"
+    },
+    {
+      "page": 11,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "ATP standard TB/T3598.1-2024 and products 2002-2014; product 2014 standards continue on next page.",
+      "image_path": "05-review/successor-visual/S0034-page-11.png",
+      "image_sha256": "dc8ab193f591ed0aefacfdec7e82e6071e3621470322b9bd263e1ce2b7fcdd93"
+    },
+    {
+      "page": 12,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "T02 products 2015-2024 preserve scope and standards; final note requires latest standard when standards update.",
+      "image_path": "05-review/successor-visual/S0034-page-12.png",
+      "image_sha256": "2def4e91d4a84fdd3a11c7fd966990042696731970aa193cc4ba46a775ed249c"
+    },
+    {
+      "page": 13,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "T03 software/integration rows then hardware section. Workplace at least 2000 square metres, temperature/humidity/ESD conditions. Equipment 2-7 outsourcing exceptions; blank cells stay blank. First remark header is a genuine vertical merge.",
+      "image_path": "05-review/successor-visual/S0034-page-13.png",
+      "image_sha256": "ad4b1151f43142bab0d27b6dc9b74b6494c4e14a254cca77ac24c6b54f132ec3"
+    },
+    {
+      "page": 14,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Hardware equipment 13-36; applicability and outsourcing exceptions remain attached to their rows. ICT and other blank requirements are not zero. Single-board ageing row 36 continues.",
+      "image_path": "05-review/successor-visual/S0034-page-14.png",
+      "image_sha256": "8a7a7f0889a731e625637e1839284282f746d3bc3a8bb0a3084d984b116f5f72"
+    },
+    {
+      "page": 15,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Row 36 continuation includes ageing sampling board and need condition; row 37 oil press. Relay section has a distinct header; 60T,12000 ampere-turns,200kg,diameter 3-6mm retain qualifiers. Relay row39 continues.",
+      "image_path": "05-review/successor-visual/S0034-page-15.png",
+      "image_sha256": "582b0df33a068b39808fb9d76fa485146e18f2fb72084ecda275d7b2b3c47ed9"
+    },
+    {
+      "page": 16,
+      "evidence_origin": "bounded-review-v1",
+      "observation": "Equipment rows and merged remarks reviewed; the electric-switch-machine exception specifically names sequence 6.",
+      "image_path": "05-review/successor-visual/S0034-page-16.png",
+      "image_sha256": "f264bd693c7a81a508bd810d9b6de1133f8ce8ca6d8309df753a7dd5715bd74c"
+    },
+    {
+      "page": 17,
+      "evidence_origin": "bounded-review-v1",
+      "observation": "T03 row167 internal-diameter dial gauge requirement and remark cells are genuinely blank; no values or applicability conclusions are invented.",
+      "image_path": "05-review/successor-visual/S0034-page-17.png",
+      "image_sha256": "3f33fd694fceca30d50f9118813168982bb54c0b47df451afc09ecc19d4c1a4b"
+    },
+    {
+      "page": 18,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Personnel definitions preserve AND/OR. Software intermediate50%/senior25% and total70% retained with separate counting for software,hardware,integration and signal qualification. Other rows10/5 or8/3 and15%/10% keep remarks. Hardware footnote continues.",
+      "image_path": "05-review/successor-visual/S0034-page-18.png",
+      "image_sha256": "d4a6cc9e14beb3a492cb249d4d575e12deb02f2451314ec140d6f4d230db649c"
+    },
+    {
+      "page": 19,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Hardware footnote completion; annex4 table1 software versus table2 other equipment. Normal-operation condition and justified exception, key triangle marker, seven sections and severity definitions preserved; threshold rule continues.",
+      "image_path": "05-review/successor-visual/S0034-page-19.png",
+      "image_sha256": "d42343badeaa50e31f6bfa8ff99fdd2ab7e047cb05d22b7277d54d53246a0e5d"
+    },
+    {
+      "page": 20,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Threshold rule complete: key severe0,key ordinary at most2,ordinary severe at most2,ordinary ordinary at most10,total nonconformities at most10; otherwise fail. Table1 begins.",
+      "image_path": "05-review/successor-visual/S0034-page-20.png",
+      "image_sha256": "39609d0e6d6f361f3a84b9aae6348fb507e1600c1b19ef3242e280a8473ee8f3"
+    },
+    {
+      "page": 21,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Table1 quality management19 items with key markers and personnel/training requirements; unfilled decision columns are not review results.",
+      "image_path": "05-review/successor-visual/S0034-page-21.png",
+      "image_sha256": "a2412a52cb8c045d991abc24501ab7eb858c85a2f44ff2972c3055e264effe08"
+    },
+    {
+      "page": 22,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Table1 technical service continuation, production12 items, tools/configuration/test-platform/version-change requirements; personnel continues.",
+      "image_path": "05-review/successor-visual/S0034-page-22.png",
+      "image_sha256": "e9149ce9df3755dbaa3f70048ebd89d2e32040f3727761cf74729a87c5cb5575"
+    },
+    {
+      "page": 23,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Personnel continuation refers to annex3; technical documents11 items; standards/configuration/document control; purchasing7 items begins.",
+      "image_path": "05-review/successor-visual/S0034-page-23.png",
+      "image_sha256": "885e736aafe617504f4a7306aa6aad008e5fcaa69f13aa3f6638b69cd1a57547"
+    },
+    {
+      "page": 24,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Purchasing continuation and process23 items retain software/safety-document/standards conditions; development9 items.",
+      "image_path": "05-review/successor-visual/S0034-page-24.png",
+      "image_sha256": "85ca1e2b02d1f9c7ad92318278e47d2701abe338d586e5e01ad95ae1f4ffb18b"
+    },
+    {
+      "page": 25,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Process sections5.2/5.3 and quality5.4 six items; remote diagnosis conditions; inspection8 items begins and6.1 continues.",
+      "image_path": "05-review/successor-visual/S0034-page-25.png",
+      "image_sha256": "f1a91e27a4bbf984c0b5fe71b5876041d5558d5505097775c568a16a27757ad8"
+    },
+    {
+      "page": 26,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Inspection continuation,6.2 three items including retest after correction,6.3 delivery three items; safety14 items begins,7.1 item4 continues.",
+      "image_path": "05-review/successor-visual/S0034-page-26.png",
+      "image_sha256": "54910353cfaa10d7dfb651efac9b5accb4730693dda18d3e6faba47c8f6a128f"
+    },
+    {
+      "page": 27,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Safety continuation includes prohibitions on disabling/damaging devices and altering/hiding/destroying data;7.1 items5-9,7.2 two,7.3 three. Final phrase is fully visible.",
+      "image_path": "05-review/successor-visual/S0034-page-27.png",
+      "image_sha256": "aec5b77a26ed1edd6ea76e60b85f8dd32fdf9a79df51faeb5c56a5b66e8f7790"
+    },
+    {
+      "page": 28,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Table2 quality management18 items, distinct from table1 nineteen; key markers retained; technical service continues.",
+      "image_path": "05-review/successor-visual/S0034-page-28.png",
+      "image_sha256": "6d6a0f35402d3e11a59b0bff0f53fa984ba979c27f2396e79efe693fd9911e9a"
+    },
+    {
+      "page": 29,
+      "evidence_origin": "preceding-continuation-handover",
+      "observation": "Table2 production10 items and technical documents10 items differ from software table12/11. Personnel conditions retain annex3. Standards continue.",
+      "image_path": "05-review/successor-visual/S0034-page-29.png",
+      "image_sha256": "2738d026cead331f522640f5df67336ca45bf0a44b86b7b2fe7ca261a9b9390f"
+    },
+    {
+      "page": 30,
+      "evidence_origin": "current-continuation-view-image",
+      "observation": "Table2 standards items2,3 continue from preceding page; technical files3.2 five items with key item4, document management3.3 two; purchasing7 items starts. Review/decision/remark columns remain unfilled.",
+      "image_path": "05-review/successor-visual/S0034-page-30.png",
+      "image_sha256": "7f51c366f312a5dc430856380091153052f68472969c31f2af764ed475269c14"
+    },
+    {
+      "page": 31,
+      "evidence_origin": "current-continuation-view-image",
+      "observation": "Table2 purchasing4.3 two items and4.4 one complete preceding section. Process control12 items: development documents3, process management4, quality control5. Key markers at5.1 item1 and5.3 item2; special-process identification/method/parameter conditions remain together.",
+      "image_path": "05-review/successor-visual/S0034-page-31.png",
+      "image_sha256": "dde1c07f0ccea5ade26ea75828e1398b0de76a4866ab8ec3546295ca209ddb5f"
+    },
+    {
+      "page": 32,
+      "evidence_origin": "current-continuation-view-image",
+      "observation": "Table2 quality inspection7 items:6.1 two,6.2 two with key first item,6.3 three. Safety14 items begins.7.1 item4 is split across pages32-33; keep the complete equipment-condition and prohibitions.",
+      "image_path": "05-review/successor-visual/S0034-page-32.png",
+      "image_sha256": "bb6a54fd1d0b2eba8dba4bf04780651b1a9ea18e8b5111b9ed0e9d81129afc1d"
+    },
+    {
+      "page": 33,
+      "evidence_origin": "current-continuation-view-image",
+      "observation": "Continuation completes7.1 item4: no unauthorized disabling/damaging equipment or altering/hiding/destroying its data/information.7.1 items5-9 retain high-risk-industry insurance condition.7.2 two items,7.3 three; final word is complete.",
+      "image_path": "05-review/successor-visual/S0034-page-33.png",
+      "image_sha256": "23e75a84344ddefddee472b40c6ab096c9e5986889332a9dfc5c1a618f42962c"
+    },
+    {
+      "page": 34,
+      "evidence_origin": "current-continuation-view-image",
+      "observation": "Annex5 application form separates personal/unit/agent fields, application item/content/materials. Note and receipt-signature/date fields explicitly belong to the receiving authority; blank answers remain unfilled.",
+      "image_path": "05-review/successor-visual/S0034-page-34.png",
+      "image_sha256": "4cf578f43013f8b816fcbcb2b0c64073e671945c9363faffa248a6a06e00f270"
+    },
+    {
+      "page": 35,
+      "evidence_origin": "current-continuation-view-image",
+      "observation": "Annex6 enterprise-review form has six listed matters and empty content fields. Historical permit decision identifier and product technical review certificate/opinion name/identifier/date remain distinct.",
+      "image_path": "05-review/successor-visual/S0034-page-35.png",
+      "image_sha256": "cf750ae3b8e56c2f9e51257f51a083f5f176bea0147589ea03c06074a6e9140b"
+    },
+    {
+      "page": 36,
+      "evidence_origin": "current-continuation-view-image",
+      "observation": "Annex7 equipment form has eight headers: sequence,name,specification,requirement,quantity,place,manufacturer,state; two empty data rows contain no equipment requirements or counts.",
+      "image_path": "05-review/successor-visual/S0034-page-36.png",
+      "image_sha256": "0853497d56ad85eb9e2fbcec258b4d9968cc9e1ac6476a4a2da8833f489338d9"
+    },
+    {
+      "page": 37,
+      "evidence_origin": "bounded-review-v1",
+      "observation": "Personnel details/statistics have unfilled data cells and a merged total column; no numerical counts or ratios may be invented.",
+      "image_path": "05-review/successor-visual/S0034-page-37.png",
+      "image_sha256": "a8f9578e7e4784b236d73bd2b4622581416c7f57beb3b7e9e5e2659faaf98413"
+    }
+  ],
+  "full_document_pages_viewed": 37,
+  "notes_path": "05-review/successor-visual/DOC0026-page-observations-2026-11-17.json",
+  "notes_sha256": "aabad1084ebe65fcbfb57549a067aad702330823cc11414cdb58e9c65f0a2271",
+  "reused_bounded_evidence": "05-review/successor-visual/bounded-review-v1.json",
+  "scope": "All 37 pages were viewed across the continuing task. Pages 1-15 and 18-29 observations are carried from the immediately preceding handover; pages 16,17,37 reuse unchanged hash-bound bounded evidence; pages 30-36 were viewed in this continuation. Visual inspection covered full pages, headings, table boundaries, conditions, units, blank cells and cross-page continuations. It does not claim independent visual transcription of every cell or legal interpretation of blank cells.",
+  "original_unchanged": true
+}

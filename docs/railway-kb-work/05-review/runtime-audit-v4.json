@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-11-16T07:02:53.421Z",
+  "app_id": "3b0470c7c4fb414dab6d32c19dfee8da",
+  "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+  "rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+  "scope": "Read-only application/retrieval probe; no settings modified",
+  "retrieval": {
+    "succeeded": false,
+    "error": "POST /datasets/search: 200 102 retrieval search failed: failed to send request: Post \"http://host.docker.internal:8082/v1/rerank\": dial tcp 192.168.65.254:8082: connect: connection refused"
+  },
+  "app_config_unchanged": true
+}

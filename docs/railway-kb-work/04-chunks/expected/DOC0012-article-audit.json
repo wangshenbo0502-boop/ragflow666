@@ -1,0 +1,251 @@
+{
+  "doc_id": "DOC0012",
+  "source_id": "S0012",
+  "source_path": "01-originals/web/S0012.txt",
+  "output_path": "03-domains/XH/DOC0012_铁路关键信息基础设施安全保护管理办法.md",
+  "expected_article_count": 30,
+  "extracted_article_count": 30,
+  "output_sha256": "0a45b1a6d5f574aec1a690e340157d9b81f7b7c126e30703c3223b60d35ce29c",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "0418961f4f5976fba167459531c50eb45cdb1258bef2c737f48c913987235c35",
+      "output_sha256": "0418961f4f5976fba167459531c50eb45cdb1258bef2c737f48c913987235c35",
+      "source_characters": 71,
+      "output_characters": 71
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "2d3db92889e272fa659acd82e19f5f55ec44a8ef4b7e56d5e0a6e31a8a4041ad",
+      "output_sha256": "2d3db92889e272fa659acd82e19f5f55ec44a8ef4b7e56d5e0a6e31a8a4041ad",
+      "source_characters": 107,
+      "output_characters": 107
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "03076d82bb706202bec0906198532b5872e69d56b596b25b3dcbb9770f2bf8f4",
+      "output_sha256": "03076d82bb706202bec0906198532b5872e69d56b596b25b3dcbb9770f2bf8f4",
+      "source_characters": 111,
+      "output_characters": 111
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "024d8ec98b90a5ae8c2940c9fb409f803ff454b8565faafe633529c64cea6bfc",
+      "output_sha256": "024d8ec98b90a5ae8c2940c9fb409f803ff454b8565faafe633529c64cea6bfc",
+      "source_characters": 92,
+      "output_characters": 92
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "f3bfd375c219f01c159aedfae514cc0f3aafd78d106649fd73d9d49cb4693e22",
+      "output_sha256": "f3bfd375c219f01c159aedfae514cc0f3aafd78d106649fd73d9d49cb4693e22",
+      "source_characters": 52,
+      "output_characters": 52
+    },
+    {
+      "article": "第六条",
+      "chapter": "第二章 铁路关键信息基础设施认定",
+      "source_sha256": "780a8988b1e3eae2a0ffd38b3c10bba84e40dead0ae6e82ede550336c443deb7",
+      "output_sha256": "780a8988b1e3eae2a0ffd38b3c10bba84e40dead0ae6e82ede550336c443deb7",
+      "source_characters": 157,
+      "output_characters": 157
+    },
+    {
+      "article": "第七条",
+      "chapter": "第二章 铁路关键信息基础设施认定",
+      "source_sha256": "c48844e0bd4a38d51da36dc1f4eb66a3a76c10dc29149b1be50b677c0f6f0e47",
+      "output_sha256": "c48844e0bd4a38d51da36dc1f4eb66a3a76c10dc29149b1be50b677c0f6f0e47",
+      "source_characters": 62,
+      "output_characters": 62
+    },
+    {
+      "article": "第八条",
+      "chapter": "第二章 铁路关键信息基础设施认定",
+      "source_sha256": "b1bcd4c5abd51291fa194c72dfed2bad667932d4a2c4d666fd93291aad75d82b",
+      "output_sha256": "b1bcd4c5abd51291fa194c72dfed2bad667932d4a2c4d666fd93291aad75d82b",
+      "source_characters": 114,
+      "output_characters": 114
+    },
+    {
+      "article": "第九条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "69fae5553f8aa5313bff6c54fc444e2ff8b0834da78c90d2f9fe238d08f220e7",
+      "output_sha256": "69fae5553f8aa5313bff6c54fc444e2ff8b0834da78c90d2f9fe238d08f220e7",
+      "source_characters": 140,
+      "output_characters": 140
+    },
+    {
+      "article": "第十条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "d09c4a47767d160ba6e7a08528e0f37afd35a1b78252c8d8f01d99a645b7585a",
+      "output_sha256": "d09c4a47767d160ba6e7a08528e0f37afd35a1b78252c8d8f01d99a645b7585a",
+      "source_characters": 85,
+      "output_characters": 85
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "41d88ed57bf0873097b07cfbfd1b2d8955222dbb4bc1d734125a02d3df90662f",
+      "output_sha256": "41d88ed57bf0873097b07cfbfd1b2d8955222dbb4bc1d734125a02d3df90662f",
+      "source_characters": 142,
+      "output_characters": 142
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "a522d70853c5bf4ffce186d2a6a8791211d9df068523a7d5b16d573f7187586a",
+      "output_sha256": "a522d70853c5bf4ffce186d2a6a8791211d9df068523a7d5b16d573f7187586a",
+      "source_characters": 165,
+      "output_characters": 165
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "c29ef71b4d64f89e6eaf60525e2636c314fbceddbb84041921e13fdd75b68f89",
+      "output_sha256": "c29ef71b4d64f89e6eaf60525e2636c314fbceddbb84041921e13fdd75b68f89",
+      "source_characters": 325,
+      "output_characters": 325
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "b5edfe2cd70a1118dca6f6beb21b52ea6880dd422dabee145e91b30241d5ebd2",
+      "output_sha256": "b5edfe2cd70a1118dca6f6beb21b52ea6880dd422dabee145e91b30241d5ebd2",
+      "source_characters": 108,
+      "output_characters": 108
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "6894639eba81d62602bcbcff1551ac1f9da03fa329bb1d117fcd7593da15443a",
+      "output_sha256": "6894639eba81d62602bcbcff1551ac1f9da03fa329bb1d117fcd7593da15443a",
+      "source_characters": 119,
+      "output_characters": 119
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "bae572af60deacb5b432da7464b242dba78562d156caae3503bf224c2a21c398",
+      "output_sha256": "bae572af60deacb5b432da7464b242dba78562d156caae3503bf224c2a21c398",
+      "source_characters": 78,
+      "output_characters": 78
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "c77704d889804efe087d86636d5adabcef078fa80e72ca421d1bd0ddc42ecef8",
+      "output_sha256": "c77704d889804efe087d86636d5adabcef078fa80e72ca421d1bd0ddc42ecef8",
+      "source_characters": 148,
+      "output_characters": 148
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "b22b1ff92e3450c6293f2fe385d5f01b2a2e91625fb1ed14e9aee7cb176c5995",
+      "output_sha256": "b22b1ff92e3450c6293f2fe385d5f01b2a2e91625fb1ed14e9aee7cb176c5995",
+      "source_characters": 81,
+      "output_characters": 81
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "410f379b9c1cff71c487e381e11c8ce479f8f502eaae5b6f2cae2fadb40372b4",
+      "output_sha256": "410f379b9c1cff71c487e381e11c8ce479f8f502eaae5b6f2cae2fadb40372b4",
+      "source_characters": 48,
+      "output_characters": 48
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "965657851b95ecb24538e8464e267e31b56a05c5d3f9c9b4996871c9240c3c53",
+      "output_sha256": "965657851b95ecb24538e8464e267e31b56a05c5d3f9c9b4996871c9240c3c53",
+      "source_characters": 152,
+      "output_characters": 152
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第三章 运营者责任和义务",
+      "source_sha256": "755f27cc3d138bacd069aece37731db81652343f0417750633517099174223ed",
+      "output_sha256": "755f27cc3d138bacd069aece37731db81652343f0417750633517099174223ed",
+      "source_characters": 61,
+      "output_characters": 61
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第四章 保障和监督",
+      "source_sha256": "fafc8e13fc3012656fc0f9389809a71fb3612011f378bba33dcdfec5d8e750ac",
+      "output_sha256": "fafc8e13fc3012656fc0f9389809a71fb3612011f378bba33dcdfec5d8e750ac",
+      "source_characters": 46,
+      "output_characters": 46
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第四章 保障和监督",
+      "source_sha256": "313c33280b74409efde959075f15f13d4e410b98cdb02ab50da6a38ffaf4ad98",
+      "output_sha256": "313c33280b74409efde959075f15f13d4e410b98cdb02ab50da6a38ffaf4ad98",
+      "source_characters": 96,
+      "output_characters": 96
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第四章 保障和监督",
+      "source_sha256": "942bede6a7d1f577c535cbb2288d231d46be46ace68bb7273d8b4f711ff91fcc",
+      "output_sha256": "942bede6a7d1f577c535cbb2288d231d46be46ace68bb7273d8b4f711ff91fcc",
+      "source_characters": 80,
+      "output_characters": 80
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第四章 保障和监督",
+      "source_sha256": "6d9b9d542e16892d37db7a371d2d6ae0bfc46756aab9093b84468251d2d0cdd3",
+      "output_sha256": "6d9b9d542e16892d37db7a371d2d6ae0bfc46756aab9093b84468251d2d0cdd3",
+      "source_characters": 99,
+      "output_characters": 99
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第四章 保障和监督",
+      "source_sha256": "94f33fa6e56ae3dceb257222e65964b097a8a25f93d7db795d906af222e1d6b0",
+      "output_sha256": "94f33fa6e56ae3dceb257222e65964b097a8a25f93d7db795d906af222e1d6b0",
+      "source_characters": 81,
+      "output_characters": 81
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第四章 保障和监督",
+      "source_sha256": "5fcda038a9a824ab88d0a5cd76fad129f5ca8c2ce0dc6abf1a6d19ec451bacfa",
+      "output_sha256": "5fcda038a9a824ab88d0a5cd76fad129f5ca8c2ce0dc6abf1a6d19ec451bacfa",
+      "source_characters": 107,
+      "output_characters": 107
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "d6fdb9bd210167d9bcfbabd3d1faef2dc4d380c11a79d9e2242b45b8ce1dd3d7",
+      "output_sha256": "d6fdb9bd210167d9bcfbabd3d1faef2dc4d380c11a79d9e2242b45b8ce1dd3d7",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "48963b934c50151843040a78a9ffefeca0b093458db6c2f19b1b13db8c1609d7",
+      "output_sha256": "48963b934c50151843040a78a9ffefeca0b093458db6c2f19b1b13db8c1609d7",
+      "source_characters": 207,
+      "output_characters": 207
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第六章 附 则",
+      "source_sha256": "1c2e004ecda7316346d710b431f59505278f3ea5066191e1939957f2ae30912a",
+      "output_sha256": "1c2e004ecda7316346d710b431f59505278f3ea5066191e1939957f2ae30912a",
+      "source_characters": 17,
+      "output_characters": 17
+    }
+  ]
+}

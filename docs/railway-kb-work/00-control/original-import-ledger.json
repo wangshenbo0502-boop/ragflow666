@@ -1,0 +1,391 @@
+{
+  "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+  "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+  "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+  "documents": [
+    {
+      "doc_id": "DOC0001",
+      "source_id": "S0001",
+      "domain": "CL",
+      "title": "铁路设备质量安全监督管理办法",
+      "filename": "DOC0001_铁路设备质量安全监督管理办法_重构版.md",
+      "document_id": "ae69f571eb7c467d9a86b6c910576e43",
+      "sha256": "315a6a9844bd85e441fc843a56e0ba546b40bd0eba771790f26829d15f0f2b80",
+      "trial_document_id": "07f3d70b512a45dc815bc3bf78ecb153",
+      "trial_chunk_count": 38,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": [
+        {
+          "document_id": "7b55dfac18204b23a05c772f075871db",
+          "filename": "equipment-quality.md",
+          "status": "0"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0002",
+      "source_id": "S0002",
+      "domain": "YS",
+      "title": "铁路旅客车票实名制管理办法",
+      "filename": "DOC0002_铁路旅客车票实名制管理办法_重构版.md",
+      "document_id": "7fe6dfe3ed1c4d55af47597f0459c358",
+      "sha256": "93faf024b94cc8eb60784de276b280413bee5f1ba226dcd38e3bfc923030b9ab",
+      "trial_document_id": "509fcedce0a7498ea012eeea62179fe9",
+      "trial_chunk_count": 33,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": [
+        {
+          "document_id": "7770b9bbc0fb488a94cce18f523e7c6b",
+          "filename": "real-name-tickets.md",
+          "status": "0"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0003",
+      "source_id": "S0003",
+      "domain": "YS",
+      "title": "铁路旅客运输安全检查管理办法",
+      "filename": "DOC0003_铁路旅客运输安全检查管理办法_重构版.md",
+      "document_id": "32b86ccaf5b540308e59f8b1d0568303",
+      "sha256": "b59e07bfc65b1d974b113bdad5b020a5bcada5e882ab486c796999b038f73c86",
+      "trial_document_id": "834946d880744ef4b6cc85865578dee9",
+      "trial_chunk_count": 53,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": [
+        {
+          "document_id": "f9594bf5a705461e82f412b7963d987e",
+          "filename": "passenger-security.md",
+          "status": "0"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0004",
+      "source_id": "S0004",
+      "domain": "YS",
+      "title": "铁路旅客运输规程",
+      "filename": "DOC0004_铁路旅客运输规程_重构版.md",
+      "document_id": "363b2d4bfa3a45d9bf7c295e4e63e716",
+      "sha256": "d7f698fa5d089cd464b45730831541f050f34e14b952b7b084a3728e50e94e7f",
+      "trial_document_id": "6ec08a897c774d0ebea32f78dafee02b",
+      "trial_chunk_count": 53,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": [
+        {
+          "document_id": "ba6aa4f1b1b948fdb73e6d26d35410aa",
+          "filename": "passenger-transport.md",
+          "status": "0"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0005",
+      "source_id": "S0005",
+      "domain": "YS",
+      "title": "铁路交通事故应急救援和调查处理条例",
+      "filename": "DOC0005_铁路交通事故应急救援和调查处理条例_重构版.md",
+      "document_id": "cb9a07e0ccae4cdcbc984fa0223898e2",
+      "sha256": "28894f69d06d5f0ccb5897976c4f00b3ffe9f309221fde41d7fedcccf7ab0466",
+      "trial_document_id": "41baa88d14d54ffdb2c397ae8460886e",
+      "trial_chunk_count": 42,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": [
+        {
+          "document_id": "278952f5a5374c249f2086b610166f94",
+          "filename": "railway-emergency.md",
+          "status": "0"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0006",
+      "source_id": "S0006",
+      "domain": "GW",
+      "title": "铁路安全管理条例",
+      "filename": "DOC0006_铁路安全管理条例_重构版.md",
+      "document_id": "672e617651ff4d44a5deec8666e41915",
+      "sha256": "cf5f7b74a9d975c0bfd62a23a32e21ce5ba904209a277dc63f1abcd30e9c6582",
+      "trial_document_id": "aabc33af385a4ddc8ff58d9f2d2de1aa",
+      "trial_chunk_count": 109,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": [
+        {
+          "document_id": "d74ed2f9d2e24fdf83ad9903654b3dbd",
+          "filename": "railway-safety.md",
+          "status": "0"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0007",
+      "source_id": "S0007",
+      "domain": "GW",
+      "title": "铁路建设工程安全生产监督管理办法",
+      "filename": "DOC0007_铁路建设工程安全生产监督管理办法_重构版.md",
+      "document_id": "9a264c342aea4b4797590ce92214cd78",
+      "sha256": "4aa961fe026bd7c8c97f8b9170ae9bd05efa34933c838d1120c8f765312760c1",
+      "trial_document_id": "5a5afb88990f4f61a28cacc7978ded04",
+      "trial_chunk_count": 77,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0008",
+      "source_id": "S0008",
+      "domain": "GW",
+      "title": "铁路建设工程竣工验收管理办法",
+      "filename": "DOC0008_铁路建设工程竣工验收管理办法_重构版.md",
+      "document_id": "cee9068aab7a4eaea3ad0c8e630e2771",
+      "sha256": "514a5b53e308cdb748bb8cf1ef36f3107d64e1b08a958cf1829269f36038ebb6",
+      "trial_document_id": "ece56621d3264242b2f387ae2bad01c1",
+      "trial_chunk_count": 35,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0009",
+      "source_id": "S0009",
+      "domain": "GW",
+      "title": "铁路建设工程勘察设计管理办法",
+      "filename": "DOC0009_铁路建设工程勘察设计管理办法_重构版.md",
+      "document_id": "d8773378466844a796fcede6d9c8a9c6",
+      "sha256": "8ed0e8562d584eb2bf4df0337bda240b239ff649bb18b0458dada8b0e9f147dc",
+      "trial_document_id": "02370965d2c2437489cfc5ff2f3b47a7",
+      "trial_chunk_count": 57,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0011",
+      "source_id": "S0011",
+      "domain": "XH",
+      "title": "铁路无线电管理办法",
+      "filename": "DOC0011_铁路无线电管理办法_重构版.md",
+      "document_id": "478ea69710d142ec877787d4740dff8c",
+      "sha256": "3811579207b0b3650bb367c3a39ac267d58817fa18115e02c53bc03ea8ea0f68",
+      "trial_document_id": "1f5cd4276d414c1c8c8dcf4fff3d1266",
+      "trial_chunk_count": 42,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0012",
+      "source_id": "S0012",
+      "domain": "XH",
+      "title": "铁路关键信息基础设施安全保护管理办法",
+      "filename": "DOC0012_铁路关键信息基础设施安全保护管理办法_重构版.md",
+      "document_id": "d2d1263bdad9439f84345a11a090cac0",
+      "sha256": "0a45b1a6d5f574aec1a690e340157d9b81f7b7c126e30703c3223b60d35ce29c",
+      "trial_document_id": "69d1022948a2450d9d7272a4945d7578",
+      "trial_chunk_count": 31,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0013",
+      "source_id": "S0014",
+      "domain": "YS",
+      "title": "铁路营业线施工安全管理办法",
+      "filename": "DOC0013_铁路营业线施工安全管理办法_重构版.md",
+      "document_id": "9a6f3b3c893e410a9313efeeb294b824",
+      "sha256": "593c87de191f0bcd40d61a70265baee1c1feda14caf33628744d62ab42156ee6",
+      "trial_document_id": "833b0735110e41cc866a3aaf27a6058b",
+      "trial_chunk_count": 62,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0015",
+      "source_id": "S0017",
+      "domain": "GD",
+      "title": "铁路运输基础设备生产企业审批办法（2021修正）",
+      "filename": "DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_重构版.md",
+      "document_id": "1e71d8c80863440bb9425c9f48bebd21",
+      "sha256": "8575e0a67f98e96be9b11c60b26b56d3a010ec5b8a0493274e65535e4f08d0ba",
+      "trial_document_id": "cbaeb128a8664d09b3fca7780951f7f0",
+      "trial_chunk_count": 21,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0017",
+      "source_id": "S0020",
+      "domain": "CL",
+      "title": "铁路机车车辆驾驶人员资格许可办法",
+      "filename": "DOC0017_铁路机车车辆驾驶人员资格许可办法_重构版.md",
+      "document_id": "e5af09801c364f2ab0d5c8a3a3937663",
+      "sha256": "09d1736e93c70a0a1ae7b043a82d37d700f0822801144093e394c15a7e3d3220",
+      "trial_document_id": "6bc724a5f157418ea013689ad2a2f3dd",
+      "trial_chunk_count": 44,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0018",
+      "source_id": "S0021",
+      "domain": "CL",
+      "title": "铁路机车车辆驾驶人员资格考试管理办法",
+      "filename": "DOC0018_铁路机车车辆驾驶人员资格考试管理办法_重构版.md",
+      "document_id": "c018c11832e84ccd8c665be8ae48b519",
+      "sha256": "51b0f0f3baace94c07f051df5160d6672bb2ce228f1017518dece6c77c8c6b9e",
+      "trial_document_id": "6c0bdd1f0b48410e90a0c64f2cfa0da2",
+      "trial_chunk_count": 51,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0019",
+      "source_id": "S0022",
+      "domain": "YS",
+      "title": "铁路货物运输规则",
+      "filename": "DOC0019_铁路货物运输规则_重构版.md",
+      "document_id": "fd8053151ea94202b52766855a70a5ca",
+      "sha256": "cb278fd00ef4a2c95dcc2002689ce01f4bc45c9e991ae13478d44452236ab42b",
+      "trial_document_id": "ccd2c394e63244ecbe9937f7566badb9",
+      "trial_chunk_count": 58,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0020",
+      "source_id": "S0023",
+      "domain": "YS",
+      "title": "铁路运输服务质量监督管理办法",
+      "filename": "DOC0020_铁路运输服务质量监督管理办法_重构版.md",
+      "document_id": "73e00d58d018416bbbad9637d62e2e92",
+      "sha256": "01a9645b2677177ad40f85caa3e6fac45e217978698f43b8698399e83045bfc7",
+      "trial_document_id": "2669c49e861048ea9e9c6d54c32b2930",
+      "trial_chunk_count": 37,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0021",
+      "source_id": "S0024",
+      "domain": "YS",
+      "title": "铁路危险货物运输安全监督管理规定",
+      "filename": "DOC0021_铁路危险货物运输安全监督管理规定_重构版.md",
+      "document_id": "44db38bdd2ce4e46aa522385a965233e",
+      "sha256": "09b95f01ef2f2e05d73ca2e33159823dfb54b197156456b7a79c39d861146865",
+      "trial_document_id": "5921c35a2f9649239c6607766bad56e0",
+      "trial_chunk_count": 53,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0022",
+      "source_id": "S0025",
+      "domain": "CL",
+      "title": "铁路机车车辆设计制造维修进口许可办法",
+      "filename": "DOC0022_铁路机车车辆设计制造维修进口许可办法_重构版.md",
+      "document_id": "3f80a3f708d44fb38a0bae9cc059c726",
+      "sha256": "dd025b4389cab1a41121dfb59da96f964c4d8a2f36e1241b5929f9212c5b3a0e",
+      "trial_document_id": "15fcbc43ef3848dc8217a13d7cb0459b",
+      "trial_chunk_count": 29,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0023",
+      "source_id": "S0026",
+      "domain": "CL",
+      "title": "铁路专用设备缺陷产品召回管理办法",
+      "filename": "DOC0023_铁路专用设备缺陷产品召回管理办法_重构版.md",
+      "document_id": "d97f4b54eb45450999f1457ebfe2aed1",
+      "sha256": "0a0a834c4263863a13dbde1bae3cdb6e6e84596cc322485e4cb2699f14b6bb23",
+      "trial_document_id": "7cd6fbc7a91042d98b5852661adcbb53",
+      "trial_chunk_count": 36,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    },
+    {
+      "doc_id": "DOC0024",
+      "source_id": "S0027",
+      "domain": "GW",
+      "title": "高速铁路安全防护管理办法",
+      "filename": "DOC0024_高速铁路安全防护管理办法_重构版.md",
+      "document_id": "4a7ef897e6c94ed494c01aa50a8fcfe7",
+      "sha256": "47dde3feb879e118ce73ba51c697b076bcfb09c04e623c630e8680cd5e136655",
+      "trial_document_id": "d050be9b38734c369cd70b24c6de83ea",
+      "trial_chunk_count": 49,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "status": "parsed-coverage-passed",
+      "original_documents_to_retire": []
+    }
+  ],
+  "retired_originals_at": "2026-11-15T16:23:36.224Z",
+  "retired_originals": [
+    {
+      "old_document_id": "7b55dfac18204b23a05c772f075871db",
+      "old_name": "equipment-quality.md",
+      "replacement_doc_id": "DOC0001"
+    },
+    {
+      "old_document_id": "7770b9bbc0fb488a94cce18f523e7c6b",
+      "old_name": "real-name-tickets.md",
+      "replacement_doc_id": "DOC0002"
+    },
+    {
+      "old_document_id": "f9594bf5a705461e82f412b7963d987e",
+      "old_name": "passenger-security.md",
+      "replacement_doc_id": "DOC0003"
+    },
+    {
+      "old_document_id": "ba6aa4f1b1b948fdb73e6d26d35410aa",
+      "old_name": "passenger-transport.md",
+      "replacement_doc_id": "DOC0004"
+    },
+    {
+      "old_document_id": "278952f5a5374c249f2086b610166f94",
+      "old_name": "railway-emergency.md",
+      "replacement_doc_id": "DOC0005"
+    },
+    {
+      "old_document_id": "d74ed2f9d2e24fdf83ad9903654b3dbd",
+      "old_name": "railway-safety.md",
+      "replacement_doc_id": "DOC0006"
+    }
+  ]
+}

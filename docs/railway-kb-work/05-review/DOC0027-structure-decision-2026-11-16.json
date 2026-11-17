@@ -1,0 +1,131 @@
+{
+  "decided_at": "2026-11-16T13:55:28.492Z",
+  "doc_id": "DOC0027",
+  "decision": "STRUCTURE_ACCEPTED_FOR_FAITHFUL_SOURCE_TRIAL",
+  "structure_accepted": true,
+  "trial_accepted": false,
+  "formal_import": false,
+  "retrieval_accepted": false,
+  "bindings": {
+    "original": {
+      "path": "01-originals/attachments/S0035-1.docx",
+      "sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474"
+    },
+    "master": {
+      "path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "sha256": "e1079ba502a1c8231ebd9c8f6439d97e2b938dd394f533c2d96354f64ef4650f"
+    },
+    "expected": {
+      "path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "sha256": "ed8a9240c065db7cfd20562ca9a94764166c33ea0c6e0bcfd7468767aa995a7d"
+    },
+    "native": {
+      "path": "05-review/successor-structure/S0035-native-tables-v2.json",
+      "sha256": "57d16066cb527945b1216ec5a90dcb52b3ffbc6787352713b9a21a13dee97b11"
+    },
+    "original_pdf": {
+      "path": "05-review/successor-visual/S0035-original.pdf",
+      "sha256": "b057a00fe260845ffc5d70125a76d362fbeb97a9c5f543e5b22c879593f78ec4"
+    }
+  },
+  "metadata_only_change": {
+    "before_path": "05-review/history/DOC0027-before-structure-decision-2026-11-16/DOC0027-master.md",
+    "before_sha256": "c00a5743ba54ca5afd90c6b41ddaaa3afd11225c9936c6be4328e2701664ebcc",
+    "after_sha256": "e1079ba502a1c8231ebd9c8f6439d97e2b938dd394f533c2d96354f64ef4650f",
+    "business_region_unchanged": true,
+    "candidate_expected_file_unchanged": true,
+    "semantic_cache_reused_batches": 31,
+    "new_semantic_requests": 0
+  },
+  "deterministic_checks": {
+    "unique_points": 200,
+    "heading_levels_valid": true,
+    "paragraph_coverage": 126,
+    "nonempty_native_cells": 559,
+    "native_tables": 8,
+    "native_mapping_exact": true,
+    "candidate_sections_complete": true,
+    "tokenizer_sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+    "embedding_maximum_tokens": 1787,
+    "embedding_model_runtime_limit_verified": false
+  },
+  "semantic_review": {
+    "model_pass": 198,
+    "faithful_source_adjudications": 2,
+    "decisions": [
+      "DOC0027-S0035-T02-G089-089",
+      "DOC0027-K035"
+    ],
+    "interpretation": "Blank source cells remain blank/unknown; no compliance conclusion inferred."
+  },
+  "visual_review": {
+    "pages_viewed": 32,
+    "evidence": "05-review/DOC0027-preflight-2026-11-16T13-45-01-518Z/visual-review.json",
+    "limitation": "All rendered pages were viewed in the continuing task. Records distinguish retained observations from pages lacking detailed notes. This does not claim every cell was independently visually transcribed.",
+    "excerpt_evidence": "05-review/DOC0027-preflight-2026-11-16T13-45-01-518Z/excerpt-visual-review.json"
+  },
+  "source_version": {
+    "doc_id": "DOC0027",
+    "source_id": "S0035",
+    "local_original_path": "01-originals/attachments/S0035-1.docx",
+    "local_original_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+    "official_page": {
+      "requested_url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/zuti/xzxk/202603/t20260306_350847.shtml",
+      "snapshot_path": "05-review/successor-official-2026-11-16T13-32-29-538Z/S0035.html",
+      "snapshot_sha256": "3c4a6275a477821eac4ee632702f3d27d3e7810b050582d09428c62c58c5f851"
+    },
+    "attachments": [
+      {
+        "title": "国家铁路局关于印发《铁路通信设备生产企业审批实施细则》的通知（国铁设备监规〔2026〕6号）.docx",
+        "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/gfxw/zuti/xzxk/202603/P020260306510510794744.docx",
+        "http_status": 200,
+        "bytes": 75788,
+        "snapshot_path": "05-review/successor-official-2026-11-16T13-32-29-538Z/S0035-attachment-1.docx",
+        "sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+        "matches_local_original": true
+      }
+    ],
+    "listed_in_current_directory": true,
+    "source_identity_verified": true,
+    "legal_effectiveness": "Official identity, stated effective date and joint-notice repeal relationship verified; later amendment search is bounded to the fetched licensing directory.",
+    "scope": "The current NRA administrative-licensing directory and the four individual pages and joint notice, including their linked attachments. No site-wide, national legal database or regulator interpretation search was performed.",
+    "effectiveness_boundary": "Official identity, stated effective date and joint-notice repeal relationship verified; later amendment search is bounded to the fetched licensing directory."
+  },
+  "budgets": {
+    "embedding_runtime_limit": 4096,
+    "maximum_prefixed_candidate_tokens": 1787,
+    "nontruncating_embedding_evidence": "05-review/DOC0027-embedding-budget-2026-11-16T13-47-58-003Z.json",
+    "reranker_evidence": "05-review/DOC0027-preflight-2026-11-16T13-45-01-518Z/reranker-budget.json"
+  },
+  "dependencies": [
+    {
+      "path": "05-review/DOC0027-preflight-2026-11-16T13-45-01-518Z/summary.json",
+      "sha256": "9bd5ba4a25f7fa441898f80c9db36461ad034626f0b8e2202c2b919512f77781"
+    },
+    {
+      "path": "05-review/DOC0027-embedding-budget-2026-11-16T13-47-58-003Z.json",
+      "sha256": "8fa43c33135fab3c221187efa1ba912e868fd672dc4b5a8e3edaa0d04bac674c"
+    },
+    {
+      "path": "05-review/successor-official-2026-11-16T13-32-29-538Z/evidence.json",
+      "sha256": "b4dc0dd2bad897b987b9de66f761f9c2198a44eabc0a792bd931041f8624c0b7"
+    },
+    {
+      "path": "05-review/DOC0027-preflight-2026-11-16T13-45-01-518Z/visual-review.json",
+      "sha256": "53b15c400f0731fafbafcd6700c8abbef406b7062c815f2cfbb616d794520e24"
+    },
+    {
+      "path": "05-review/DOC0027-preflight-2026-11-16T13-45-01-518Z/excerpt-visual-review.json",
+      "sha256": "efe851f3ca2cd19110b0782ae74a7459cd2f8f51ea4632ce412c432f65b2abc8"
+    },
+    {
+      "path": "05-review/successor-semantic-review/cache-verification.json",
+      "sha256": "b7fe922d5c0e58860073f38208b64cff61760a40a2b61e7b5326c81d122db8a2"
+    },
+    {
+      "path": "05-review/successor-semantic-adjudication-v2.json",
+      "sha256": "b7886ce97e03fbbce688751e0ded33475404dca67ff0bb98163471fc5bbdf571"
+    }
+  ],
+  "limitation": "Approval concerns faithful source structure and eligibility for trial, not a permit determination, universal legal currency, actual chunk quality or retrieval acceptance."
+}

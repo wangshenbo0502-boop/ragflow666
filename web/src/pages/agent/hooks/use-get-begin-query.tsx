@@ -12,7 +12,7 @@ import { t } from 'i18next';
 import { flatten, isEmpty, toLower } from 'lodash';
 import get from 'lodash/get';
 import { MessageSquareCode } from 'lucide-react';
-import { useCallback, useContext, useEffect, useMemo, useState } from 'react';
+import { ReactNode, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import {
   AgentDialogueMode,
   AgentVariableType,
@@ -23,7 +23,7 @@ import {
   Operator,
   VariableType,
 } from '../constant';
-import { AgentFormContext } from '../context';
+import { AgentFormContext, useCanvasSnapshot } from '../context';
 import { buildBeginInputListFromObject } from '../form/begin-form/utils';
 import { BeginQuery } from '../interface';
 import OperatorIcon from '@/components/operator-icon';
@@ -32,9 +32,15 @@ import {
   useFindAgentStructuredOutputLabelByValue,
   useFindAgentStructuredOutputTypeByValue,
 } from './use-build-structured-output';
+import {
+  useSnapshotAwareEdges,
+  useSnapshotAwareGetNode,
+  useSnapshotAwareGetOperatorTypeFromId,
+  useSnapshotAwareNodes,
+} from './use-snapshot-graph';
 
 export function useSelectBeginNodeDataInputs() {
-  const getNode = useGraphStore((state) => state.getNode);
+  const getNode = useSnapshotAwareGetNode();
 
   return buildBeginInputListFromObject(
     getNode(BeginId)?.data?.form?.inputs ?? {},
@@ -93,8 +99,8 @@ export const useGetBeginNodeDataQueryIsSafe = () => {
 };
 
 export function useBuildUpstreamNodeOutputOptions(nodeId?: string) {
-  const nodes = useGraphStore((state) => state.nodes);
-  const edges = useGraphStore((state) => state.edges);
+  const nodes = useSnapshotAwareNodes();
+  const edges = useSnapshotAwareEdges();
 
   return useMemo(() => {
     return buildUpstreamNodeOutputOptions({
@@ -106,7 +112,8 @@ export function useBuildUpstreamNodeOutputOptions(nodeId?: string) {
 }
 
 export function useBuildParentOutputOptions(parentId?: string) {
-  const { getNode, getOperatorTypeFromId } = useGraphStore((state) => state);
+  const getNode = useSnapshotAwareGetNode();
+  const getOperatorTypeFromId = useSnapshotAwareGetOperatorTypeFromId();
   const parentNode = getNode(parentId);
 
   const parentType = getOperatorTypeFromId(parentId);
@@ -182,10 +189,22 @@ function splitOperatorOutputValue(value?: string) {
   return { nodeId, output };
 }
 
+type QueryVariableOption = {
+  label: string;
+  value: string;
+  parentLabel?: ReactNode;
+  icon?: ReactNode;
+  type: string;
+};
+
+type QueryVariableOptionGroup = {
+  label: ReactNode;
+  title: string;
+  options: QueryVariableOption[];
+};
+
 function filterDocGeneratorDownloadOutputOptions(
-  groups: Array<{
-    options: Array<{ value?: string } & Record<string, any>>;
-  }>,
+  groups: QueryVariableOptionGroup[],
   allowDocGeneratorDownloadOutput: boolean,
   getOperatorTypeFromId: (nodeId?: string) => string | undefined,
 ) {
@@ -206,9 +225,10 @@ function filterDocGeneratorDownloadOutputOptions(
 }
 
 export function useBuildGlobalWithBeginVariableOptions() {
+  const snapshot = useCanvasSnapshot();
   const { data } = useFetchAgent();
   const dynamicBeginOptions = useBuildBeginDynamicVariableOptions();
-  const globals = data?.dsl?.globals ?? {};
+  const globals = snapshot?.globals ?? data?.dsl?.globals ?? {};
   const globalOptions = Object.entries(globals)
     .filter(([key]) => !key.startsWith(Env))
     .map(([key, value]) => ({
@@ -238,11 +258,12 @@ export function useBuildGlobalWithBeginVariableOptions() {
 }
 
 export function useBuildConversationVariableOptions() {
+  const snapshot = useCanvasSnapshot();
   const { data } = useFetchAgent();
 
   const conversationVariables = useMemo(
-    () => data?.dsl?.variables ?? {},
-    [data?.dsl?.variables],
+    () => snapshot?.variables ?? data?.dsl?.variables ?? {},
+    [snapshot, data?.dsl?.variables],
   );
 
   const options = useMemo(() => {
@@ -301,10 +322,8 @@ export function useBuildQueryVariableOptions({
   n?: RAGFlowNodeType;
 } & BuildQueryVariableOptions = {}) {
   const node = useContext(AgentFormContext) || n;
-  const nodes = useGraphStore((state) => state.nodes);
-  const getOperatorTypeFromId = useGraphStore(
-    (state) => state.getOperatorTypeFromId,
-  );
+  const nodes = useSnapshotAwareNodes();
+  const getOperatorTypeFromId = useSnapshotAwareGetOperatorTypeFromId();
 
   const options = useBuildVariableOptions(node?.id, node?.parentId);
 
@@ -356,7 +375,7 @@ export function useFilterQueryVariableOptionsByTypes({
   nodeIds = [],
   variablesExceptOperatorOutputs,
 }: {
-  types?: (JsonSchemaDataType | VariableType)[];
+  types?: string[];
 } & BuildQueryVariableOptions) {
   const nextOptions = useBuildQueryVariableOptions({
     nodeIds,
@@ -394,7 +413,7 @@ export function useFilterQueryVariableOptionsByTypes({
 }
 
 export function useBuildComponentIdOptions(nodeId?: string, parentId?: string) {
-  const nodes = useGraphStore((state) => state.nodes);
+  const nodes = useSnapshotAwareNodes();
 
   // Limit the nodes inside iteration to only reference peer nodes with the same parentId and other external nodes other than their parent nodes
   const filterChildNodesToSameParentOrExternal = useCallback(
@@ -460,10 +479,8 @@ export const useGetComponentLabelByValue = (nodeId: string) => {
   return getLabel;
 };
 
-export function flatOptions(options: DefaultOptionType[]) {
-  return options.reduce<DefaultOptionType[]>((pre, cur) => {
-    return [...pre, ...cur.options];
-  }, []);
+export function flatOptions(options: QueryVariableOptionGroup[]) {
+  return options.flatMap((group) => group.options);
 }
 
 export function useFlattenQueryVariableOptions({
@@ -473,7 +490,7 @@ export function useFlattenQueryVariableOptions({
 }: {
   nodeId?: string;
 } & BuildQueryVariableOptions = {}) {
-  const { getNode } = useGraphStore((state) => state);
+  const getNode = useSnapshotAwareGetNode();
   const nextOptions = useBuildQueryVariableOptions({
     n: getNode(nodeId),
     nodeIds,

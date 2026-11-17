@@ -1,0 +1,502 @@
+{
+  "reviewed_at": "2026-11-17T04:56:31.797Z",
+  "review_method": "主执行者完整阅读10条回答，对照冻结预期及合格正式片段逐项核对；脚本只绑定哈希、检查载体和记录人工裁定。",
+  "input_sha256": "0afe3f65b242195251cb0d3b945a9485c7e5148ffbaf7ff0200431ac78c1b813",
+  "scope": "Two-document formal CL diagnostic regression; exposed cases, not final 70-question regression or independent holdout.",
+  "formal": [
+    {
+      "doc_id": "DOC0022",
+      "dataset_id": "08537d0556d5438d8afaf9641f212795",
+      "document_id": "82c8e60f6dea4d53818c7a41bdcd53e6",
+      "master_sha256": "684ca577a353bc72dce0abe8290574aed5e87fd6520b22b97ecfb8c2bf716f57",
+      "quality_path": "05-review/DOC0022-formal-quality-v5.json",
+      "quality_sha256": "8d6504785b2a1a6f609313cbef6a9a7de9b11a74183276ebc896c03edac3a379",
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "excluded_metadata": [
+        "410fdfc5a7575847"
+      ]
+    },
+    {
+      "doc_id": "DOC0023",
+      "dataset_id": "08537d0556d5438d8afaf9641f212795",
+      "document_id": "f96033bd4a174965b058630f7ea93a24",
+      "master_sha256": "69ede999c3545fa5a2f8044ab61dbe15e77faf359f8627a3a5cba35c5b2beed6",
+      "quality_path": "05-review/DOC0023-formal-quality-v5.json",
+      "quality_sha256": "22012dbf2f7c882e7fd2540cd7e13267d2760876e46336d9c4a6ef94188d7626",
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "excluded_metadata": [
+        "8f5096e398071687"
+      ]
+    }
+  ],
+  "parameters": {
+    "page_size": 5,
+    "knn_top_k": 128,
+    "knn_num_candidates": 256,
+    "use_kg": false,
+    "similarity_threshold": 0.1,
+    "vector_similarity_weight": 0.5,
+    "rerank_candidates_count": 64,
+    "rerank_id": "54b3e07f096e4b008cd789a563fd06ec"
+  },
+  "chat_model_id": "102e9861e4e24a73abb7cff80df6c52e",
+  "audit_search_id": "64f4c45fce964d198db542ed71c90c4b",
+  "answer_context_limit": 12,
+  "counts": {
+    "questions": 10,
+    "retrieval_answerable_complete_top5": 8,
+    "answerable": 8,
+    "no_evidence": 2,
+    "answerable_answer_pass": 8,
+    "no_evidence_core_boundary_pass": 2,
+    "no_evidence_complete_answer_pass": 0,
+    "no_evidence_complete_answer_partial": 2,
+    "cited_clause_associations": 20
+  },
+  "local_acceptance": false,
+  "final_70_regression": false,
+  "independent_holdout": false,
+  "answer_generation_failure": {
+    "test_id": "V5N01",
+    "initial_error": "DeepSeek chat/completions unexpected EOF",
+    "attempts": 2,
+    "recovered": true,
+    "prior_attempt_retained": true
+  },
+  "cost": {
+    "answer_requests": 11,
+    "answer_retries": 1,
+    "standalone_retrieval_requests": 10,
+    "answer_retrieval_requests": 11,
+    "new_semantic_review_requests": 0,
+    "semantic_points_reused": 63,
+    "tokens": null,
+    "fees": null,
+    "main_agent_cost": "未统计",
+    "note": "请求数为可观察API请求；底层嵌入/重排分批调用次数及全部费用未统计。"
+  },
+  "results": [
+    {
+      "test_id": "V5D01",
+      "answerable": true,
+      "decision": "PASS",
+      "rationale": "保留型号合格证前提、批量制造许可，以及进口和大修样车运营前的不同许可与责任主体。",
+      "core_no_evidence_boundary": null,
+      "all_answer_claims_accepted": true,
+      "question_sha256": "473aa2074216463a10d500146d61fd70e2fd1dced4d449a5b61f873220a0b883",
+      "answer_sha256": "44b1d70d0b9605a6f89ee02004dbc4fa83bfcb417b84399dc002b1450b3e8db8",
+      "raw_sse_path": "05-review/revision-formal-tests-v5/answers/V5D01.sse",
+      "raw_sse_sha256": "d40c449c4fe802be176bda14756aa91845d536a991cc5f8cd2a4f9acd34bfa54",
+      "reference_sha256": "943c898eda4f06fa6061e2f7039e90e1870bc67fd7b4c0e27ac1d6ef1c0632b7",
+      "citations": [
+        {
+          "knowledge_point_id": "DOC0022-K03",
+          "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第三条",
+          "expected_text_sha256": "8eab2a37bbbeffdc5c0155d628c03911ee6a0f6fa588b74dfef35510f385661d",
+          "actual_context": [
+            {
+              "chunk_id": "badea1b7d8921d9a",
+              "text_sha256": "73a436bb005eff3e52df0acd52205cea4d3f088f901b9134798b9276c5b99f8f"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K07",
+          "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第七条",
+          "expected_text_sha256": "95f75ac5bd2a811e391895ddfeb6feb75111eab24d9ad24a66f6d05f87be7ad8",
+          "actual_context": [
+            {
+              "chunk_id": "6be40e4ce63c6732",
+              "text_sha256": "289886e77bee79dd61193adf59143401c6dda2136b4eec538e50debef25f2122"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        }
+      ],
+      "citation_format": "文名/条号文字定位；没有机器式引用标记。候选reference不等于实际引用。"
+    },
+    {
+      "test_id": "V5D02",
+      "answerable": true,
+      "decision": "PASS",
+      "rationale": "20工作日、负责人批准延长10工作日并告知理由、检验检测及专家评审不计时均完整；补述审查程序有第十六条支持。",
+      "core_no_evidence_boundary": null,
+      "all_answer_claims_accepted": true,
+      "question_sha256": "2ac7383d6828ed8547b5835abc89d06a260f7ead0693ff5d05ccba7c22192501",
+      "answer_sha256": "e23670432ecca1372b1b3adbc190df7b5b079c378ed45358bfa7ccf279e016be",
+      "raw_sse_path": "05-review/revision-formal-tests-v5/answers/V5D02.sse",
+      "raw_sse_sha256": "84b1065e2464083c3a24c1f21f73873a8f1fd3701ac6a6ba08637c8a818c8868",
+      "reference_sha256": "7ea6a1e81a3e0fd0a94aa71090c141fa609979db8d5839e900a47a61bd8a7a9f",
+      "citations": [
+        {
+          "knowledge_point_id": "DOC0022-K17",
+          "source_location": "S0037，交通运输部官方合并全文，第四章 许可程序，第十七条",
+          "expected_text_sha256": "ab7e142fdb0d93dae3753b42ee07a18592a86280882cb89ac1ad82a3b97444b8",
+          "actual_context": [
+            {
+              "chunk_id": "6c3aa0075094db8d",
+              "text_sha256": "74ab8b5bc5d84e66a24bce053fce224029955b3b84258657d2d7135fe280b93c"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        },
+        {
+          "knowledge_point_id": "DOC0022-K16",
+          "source_location": "S0037，交通运输部官方合并全文，第四章 许可程序，第十六条",
+          "expected_text_sha256": "13e5e2c9f83fc201416d60960c070727c9ee7e435d8c2f9dfca16630e138db40",
+          "actual_context": [
+            {
+              "chunk_id": "58eee5f264dbbfc7",
+              "text_sha256": "0c5a62bbb2039642048d6b1ae1a4c5e354962a5a6f78a321962078af8bdbdd15"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        }
+      ],
+      "citation_format": "文名/条号文字定位；没有机器式引用标记。候选reference不等于实际引用。"
+    },
+    {
+      "test_id": "V5D03",
+      "answerable": true,
+      "decision": "PASS",
+      "rationale": "5/8/10年、具体型号期限由国家铁路局发布、届满60工作日前申请延续均保留。",
+      "core_no_evidence_boundary": null,
+      "all_answer_claims_accepted": true,
+      "question_sha256": "c9c72c4278a72ff3deadaca64b7b10e336fe792109c29933284037fb810f5ec8",
+      "answer_sha256": "cc63fd6533bcca4cc0a7ec1329cc0e5549097dc8c8ffea74ec3100966289e311",
+      "raw_sse_path": "05-review/revision-formal-tests-v5/answers/V5D03.sse",
+      "raw_sse_sha256": "7d9f96ed011a8566ecc58c54b74afd786ec18dc9be26c08b34be570592af8308",
+      "reference_sha256": "cf002d9cd171585e7001b78fc318915cc3dcb832a421e52fbec964965fee56a1",
+      "citations": [
+        {
+          "knowledge_point_id": "DOC0022-K20",
+          "source_location": "S0037，交通运输部官方合并全文，第五章 证书管理，第二十条",
+          "expected_text_sha256": "43c9e8a9aa7a9228b6104808eb0f287eb5d5bd45fc04b778fe72b5e736ae32a8",
+          "actual_context": [
+            {
+              "chunk_id": "2da0b54b41dd8660",
+              "text_sha256": "a295c0a266709d8a6b31e54d7be83994e1a1bdc1136e38a87fdd34df0c667f2c"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        }
+      ],
+      "citation_format": "文名/条号文字定位；没有机器式引用标记。候选reference不等于实际引用。"
+    },
+    {
+      "test_id": "V5D04",
+      "answerable": true,
+      "decision": "PASS",
+      "rationale": "境外进口境内销售企业视为生产企业；主体责任、费用、立即停止活动与限期改正均有对应条款支持。",
+      "core_no_evidence_boundary": null,
+      "all_answer_claims_accepted": true,
+      "question_sha256": "db84eaa7a8106abb83e3ecfe9300c9a7e86b3648cdb9ec7902aad08bb11f2bbd",
+      "answer_sha256": "e3ec55c63e8ab398929f4a83756ef06ffaad1631a99f59af22f443369db875d3",
+      "raw_sse_path": "05-review/revision-formal-tests-v5/answers/V5D04.sse",
+      "raw_sse_sha256": "13153ba66d3e676b083cc4ed5b59714d262b0ed6f3bf7545ffb49c10c5578ba9",
+      "reference_sha256": "352b1ff00ff75373ebd1707cc0d6428b2eefa29689410131e6b1f54b6df16133",
+      "citations": [
+        {
+          "knowledge_point_id": "DOC0023-K06",
+          "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第六条",
+          "expected_text_sha256": "d4160dfadbdb2e22c2ea08866c2057d9c03231fe13e3af177e8aa5c3cbb5ec40",
+          "actual_context": [
+            {
+              "chunk_id": "4949921f296a6038",
+              "text_sha256": "486a05136fefe461d07ff0795469007158f6320cd56c253e01f5c0e908c6463f"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K07",
+          "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第七条",
+          "expected_text_sha256": "ea4e97f51f31aecdb1fa188e0416367ef0308e738514a7b01f6d4f9f43b25669",
+          "actual_context": [
+            {
+              "chunk_id": "79784293a97d24c2",
+              "text_sha256": "7a42239002e2b311f2cfc6e3042faffcfb67ca851b735b91c440f79f0b42584f"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K18",
+          "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第十八条",
+          "expected_text_sha256": "b41dd6e1675e5681374abf4bf4d68849c4579340eabf762968eaa431c6781752",
+          "actual_context": [
+            {
+              "chunk_id": "86990020b00a3213",
+              "text_sha256": "c4aa1f046c710345eef578495a225d4c2ae18aa8d654eb2a2977cb0c52ba8acb"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K30",
+          "source_location": "S0038，交通运输部官方合并全文，第五章 法律责任，第三十条",
+          "expected_text_sha256": "1ff4818fee0e200add41eac71245b5b631858fda7a2a92f833e64db8b73b4932",
+          "actual_context": [
+            {
+              "chunk_id": "9d1acc93264a6654",
+              "text_sha256": "7acce5259f685648f870255a174ab24f5f1b68590b7b4af623faf87fbcc3b515"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        }
+      ],
+      "citation_format": "文名/条号文字定位；没有机器式引用标记。候选reference不等于实际引用。"
+    },
+    {
+      "test_id": "V5D05",
+      "answerable": true,
+      "decision": "PASS",
+      "rationale": "收到结果15工作日内反映并提供证明、无利害关系机构或专家、必要时检验检测及通知结果均准确。",
+      "core_no_evidence_boundary": null,
+      "all_answer_claims_accepted": true,
+      "question_sha256": "e3b60c4f9e100e2407abe9145a73b7ffcaace121194a11879b3ec499e11f602a",
+      "answer_sha256": "f1e43f74b9100e7215110e5d40c109fd022fc7ad9fb920c05c5f06a6dfb56469",
+      "raw_sse_path": "05-review/revision-formal-tests-v5/answers/V5D05.sse",
+      "raw_sse_sha256": "224f16256d7409a53a3ebf4ddb562b5d375d2e434f72bfd6ae0f1a91f069e399",
+      "reference_sha256": "5b13baae3c73242626422635822befc6812c4bc994340326dc181ed328cfdc54",
+      "citations": [
+        {
+          "knowledge_point_id": "DOC0023-K17",
+          "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十七条",
+          "expected_text_sha256": "e79e4a55ca6f2c2b7fbee60012d9df21cd77165abb0bedb5fdd55ad7d671ff47",
+          "actual_context": [
+            {
+              "chunk_id": "732395ca171c3f80",
+              "text_sha256": "3414d4314cbb553b44adcc6995c3065c3efeb32d682179ed2452557f17b07e36"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        }
+      ],
+      "citation_format": "文名/条号文字定位；没有机器式引用标记。候选reference不等于实际引用。"
+    },
+    {
+      "test_id": "V5D06",
+      "answerable": true,
+      "decision": "PASS",
+      "rationale": "立即停止生产销售进口并通知；立即停用可能较大影响运输秩序的限定、共同应急及确保运输安全均保留。",
+      "core_no_evidence_boundary": null,
+      "all_answer_claims_accepted": true,
+      "question_sha256": "fe93b7f48c2b1e3842e2eac6f93ec28a0849bca4f0c1da39c055a1179ed7d6db",
+      "answer_sha256": "51e6c44acb3c581349475e313761ba65303e21ed8172a1f123ddbdffa7e4091c",
+      "raw_sse_path": "05-review/revision-formal-tests-v5/answers/V5D06.sse",
+      "raw_sse_sha256": "aae02a5a4abf95ecec6fb5ba4a6796eb8111b3490c71c572f3032d21bafce630",
+      "reference_sha256": "5c545f8bf1b6a508b4b75a269bd791771aa1f868ca2de1603d25ad29779e412c",
+      "citations": [
+        {
+          "knowledge_point_id": "DOC0023-K18",
+          "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第十八条",
+          "expected_text_sha256": "b41dd6e1675e5681374abf4bf4d68849c4579340eabf762968eaa431c6781752",
+          "actual_context": [
+            {
+              "chunk_id": "86990020b00a3213",
+              "text_sha256": "c4aa1f046c710345eef578495a225d4c2ae18aa8d654eb2a2977cb0c52ba8acb"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        }
+      ],
+      "citation_format": "文名/条号文字定位；没有机器式引用标记。候选reference不等于实际引用。"
+    },
+    {
+      "test_id": "V5D07",
+      "answerable": true,
+      "decision": "PASS",
+      "rationale": "生产企业、使用企业、国家铁路局各一份及不得少于5年均准确；版本说明对应来源。",
+      "core_no_evidence_boundary": null,
+      "all_answer_claims_accepted": true,
+      "question_sha256": "87d604450c4bb3b39b93817c8848c1b73b5508c7dd64f39fe01072f6f39aca59",
+      "answer_sha256": "53f3ab42318926dbaa849c2269f08fc2a7e58debf8947ecfede5ed0b8649f4aa",
+      "raw_sse_path": "05-review/revision-formal-tests-v5/answers/V5D07.sse",
+      "raw_sse_sha256": "8a34993733f0725190007d1b20453ad2bf72418e6abac03058bc2e724570ab84",
+      "reference_sha256": "2f04224ee0c10c29b83bf420b0e0fecca3df801ad53a02519060ad619b25315a",
+      "citations": [
+        {
+          "knowledge_point_id": "DOC0023-K23",
+          "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十三条",
+          "expected_text_sha256": "3f5a57422b01352731c90f95b29d5c58f505fa1932732c49ab8b506c38f4b41e",
+          "actual_context": [
+            {
+              "chunk_id": "3d4941dcb1e64fda",
+              "text_sha256": "48f691c1a254cf1632fba5d6bb746d6b289d82d77d70aea9ec2da4025a58c301"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        }
+      ],
+      "citation_format": "文名/条号文字定位；没有机器式引用标记。候选reference不等于实际引用。"
+    },
+    {
+      "test_id": "V5D08",
+      "answerable": true,
+      "decision": "PASS",
+      "rationale": "全文先明确经专业技术机构确认缺陷的前提，再列未按期异议且未召回两个并列条件；15工作日期限准确。第十七条在K21片内完整携带。",
+      "core_no_evidence_boundary": null,
+      "all_answer_claims_accepted": true,
+      "question_sha256": "83dc4e9229e1749d2bda5a3730fa497c539c419e97609ea8a7f562443c3a8402",
+      "answer_sha256": "74532b7756eb261f3fd4b69c584cacedfc26e93fe4971190455127ba0bbf87d0",
+      "raw_sse_path": "05-review/revision-formal-tests-v5/answers/V5D08.sse",
+      "raw_sse_sha256": "d3e9560dcfc18dc7ef58f2d57bcb176dfe6c27cbe6c67e6205f31d65cd55a932",
+      "reference_sha256": "e5d2aac5505f087e9c795b488dd2dc9ec88a271fcae794e924e75a9c37d4be1c",
+      "citations": [
+        {
+          "knowledge_point_id": "DOC0023-K21",
+          "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十一条",
+          "expected_text_sha256": "12f30f7f1bf27e65010694a946be3acc9aa8d05f09d871df2b74f5b1b081e345",
+          "actual_context": [
+            {
+              "chunk_id": "440ce666d423e0ef",
+              "text_sha256": "bd8f49649806597f584226f05fcf7c53f8a8bd246804b6c2caee72de524a5d38"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K17",
+          "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十七条",
+          "expected_text_sha256": "e79e4a55ca6f2c2b7fbee60012d9df21cd77165abb0bedb5fdd55ad7d671ff47",
+          "actual_context": [
+            {
+              "chunk_id": "732395ca171c3f80",
+              "text_sha256": "3414d4314cbb553b44adcc6995c3065c3efeb32d682179ed2452557f17b07e36"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        }
+      ],
+      "citation_format": "文名/条号文字定位；没有机器式引用标记。候选reference不等于实际引用。"
+    },
+    {
+      "test_id": "V5N01",
+      "answerable": false,
+      "decision": "PARTIAL",
+      "rationale": "核心拒答合格，未编造具体产品或全部版本认证状态，所引条款支持程序说明；末尾把国家铁路局并称认证/许可主管部门并建议查认证目录，现有证据不能建立列控软件安全认证职权及目录，应删除该无来源建议。",
+      "core_no_evidence_boundary": "PASS",
+      "all_answer_claims_accepted": false,
+      "question_sha256": "95269ab791d465a2255a5ea9bcebab894081a2df66a081000d206fadae7228d2",
+      "answer_sha256": "362bc50e114f08b01f7f40bcd9d702532d383327448ebed9b2fd40bb015538d3",
+      "raw_sse_path": "05-review/revision-formal-tests-v5/answers/V5N01-attempt-2.sse",
+      "raw_sse_sha256": "408255b6b43f71ae813e5191803697397a07209ba1d08698d011ff1d2cc26f2f",
+      "reference_sha256": "cb26312eab2ba306f2658a98537e1262023c86c7f3d44ee32dcc511d2da1d932",
+      "citations": [
+        {
+          "knowledge_point_id": "DOC0022-K06",
+          "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第六条",
+          "expected_text_sha256": "2acb63b2087124f51ed2dfc5568d81ae9767daae553f284ed5d29221cdc28127",
+          "actual_context": [
+            {
+              "chunk_id": "be5e16348104e63a",
+              "text_sha256": "ca18286914501741e9addb0d6b8da27e556024e89382e25b46b7d1e1a9e267e3"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K09",
+          "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第九条",
+          "expected_text_sha256": "413e6a7bcde88bebd3ce83ac1d1338fd5f8f6e415f759f6a5a39291b6c661bc4",
+          "actual_context": [
+            {
+              "chunk_id": "0fbbe943b1f93d54",
+              "text_sha256": "d334582a41fedbfdfcc01bf47e7cfc25193955c8956f204b976cff44943c1554"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K16",
+          "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十六条",
+          "expected_text_sha256": "fff9c67e3affbfda78083152ee81bb0dcae35c90d8af53e971a55e5b25efd9c6",
+          "actual_context": [
+            {
+              "chunk_id": "a0fec2270caa69ed",
+              "text_sha256": "558a7b46b14f2687ef59e48b5f61e827e951288392ded8ec46b39ffdc87cbe26"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        }
+      ],
+      "citation_format": "文名/条号文字定位；没有机器式引用标记。候选reference不等于实际引用。"
+    },
+    {
+      "test_id": "V5N02",
+      "answerable": false,
+      "decision": "PARTIAL",
+      "rationale": "核心拒答合格，未编造按钮顺序；主动补述第三条定义时省略“由于设计、制造、标识等原因导致”，不能将不完整定义作为最终合格回答；建议只答证据不足，若补述定义则完整保留原因及危险限定。",
+      "core_no_evidence_boundary": "PASS",
+      "all_answer_claims_accepted": false,
+      "question_sha256": "9a6d56d16985afcf5893d6e73537aaa02eaad8a6f2b72eb7ed22aa2a33506392",
+      "answer_sha256": "c7c94dbabc74988d4ac16ce7d2dbefbf9ff6e34c6526628c45eb3f2dc6fa892e",
+      "raw_sse_path": "05-review/revision-formal-tests-v5/answers/V5N02.sse",
+      "raw_sse_sha256": "a5d7dcb27990a99ad682338e00d197456fd6e3efb77c1302d41b0fc4aee5309d",
+      "reference_sha256": "4e7ba2cc33823ee69f0dc05b3a765baea70e7412f492a003a1fcaeb677245729",
+      "citations": [
+        {
+          "knowledge_point_id": "DOC0023-K13",
+          "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十三条",
+          "expected_text_sha256": "455187b4b03656f3ba4c4e8c68d532621b84dbc204c054b1c0f890fd2d9bae81",
+          "actual_context": [
+            {
+              "chunk_id": "0b05ca335505b575",
+              "text_sha256": "52557bcf692ceae59e975786c5ea78c07180cd2e85b9581159c0c625520644c7"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K19",
+          "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第十九条",
+          "expected_text_sha256": "74754d3dd0d41392ab95a8049b38565747f3f92433601e59000d91e51acacdc0",
+          "actual_context": [
+            {
+              "chunk_id": "650b7a7e0693390f",
+              "text_sha256": "ab362c69419fbcb7569dd4eb4a1d06d0efbd4f2fcde0251fe90b2469c3288f4d"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "SUPPORTED"
+        },
+        {
+          "knowledge_point_id": "DOC0023-K03",
+          "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第三条",
+          "expected_text_sha256": "b23dd1f51f61030135c2a86048072d3504cbc7438e631b3f5115d703bf15169e",
+          "actual_context": [
+            {
+              "chunk_id": "6783e764d5d5f2e4",
+              "text_sha256": "a5961e83687714afec8dcefac11b0da58725f80da9b266b745ef06dd4aee32c1"
+            }
+          ],
+          "location_verified": true,
+          "claim_support": "PARTIAL_CAUSAL_CONDITION_OMITTED"
+        }
+      ],
+      "citation_format": "文名/条号文字定位；没有机器式引用标记。候选reference不等于实际引用。"
+    }
+  ]
+}

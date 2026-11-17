@@ -1,0 +1,86 @@
+data: {"code":0,"message":"success","data":{"answer":"根据知识库内容，您问的两种情况","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"分别涉及不同铁路类型的规定，且","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"您给出的距离与条文规定不完全","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"一致，说明如下：\n\n## 一、电力导线","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"外侧400米放气球\n\n知识库中没有","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"“400米”这一距离的规定，最接近","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"的相关条文是：\n\n- **《铁路安全管理条例","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"》第五十三条**：禁止在铁路电力","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"线路导线两侧各**500米**的范围内","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"升放风筝、气球等低空飘","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"浮物体。\n- **《高速铁路安全防护","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"管理办法》第二十四条**：在高速铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"电力线路导线两侧各**500米**范围内","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，不得升放风筝、气球、孔","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"明灯等飘浮物体；升放无人机","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"应遵守国家有关规定。\n\n**判断要点","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"**：规定范围是“两侧各500","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"米”，400米在500米以内，属于禁止","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"升放气球的范围（高速铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"还明确包括孔明灯等飘浮","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"物体）。您提到的“400米”与条文规定的","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"“500米”不一致，请以500米为准。\n\n","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"## 二、杆塔周围15米钻探","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"\n\n知识库中没有“15米”这一距离","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"的规定，最接近的相关条文是：\n\n- **《","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"铁路安全管理条例》第五十三条**：","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"禁止在铁路电力线路杆塔、","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"拉线周围**20米**范围内取土","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"、打桩、钻探或者倾倒有害","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"化学物品。\n\n**判断要点**：规定范围","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"是“杆塔、拉线周围20米”，15","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"米在20米以内，属于禁止钻探","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"的范围。您提到的“15米”与条文","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"规定的“20米”不一致，请以20米为准","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"。\n\n## 补充提示\n\n上述两条均出自","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"《铁路安全管理条例》第五十三条，","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"针对的是**电气化铁路**（含","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"高速铁路）的电力线路设施保护","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"。若涉及高速铁路，还应结合","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"《高速铁路安全防护管理办法","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"》的相关规定一并判断。","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"根据知识库内容，您问的两种情况分别涉及不同铁路类型的规定，且您给出的距离与条文规定不完全一致，说明如下：\n\n## 一、电力导线外侧400米放气球\n\n知识库中没有“400米”这一距离的规定，最接近的相关条文是：\n\n- **《铁路安全管理条例》第五十三条**：禁止在铁路电力线路导线两侧各**500米**的范围内升放风筝、气球等低空飘浮物体。\n- **《高速铁路安全防护管理办法》第二十四条**：在高速铁路电力线路导线两侧各**500米**范围内，不得升放风筝、气球、孔明灯等飘浮物体；升放无人机应遵守国家有关规定。\n\n**判断要点**：规定范围是“两侧各500米”，400米在500米以内，属于禁止升放气球的范围（高速铁路还明确包括孔明灯等飘浮物体）。您提到的“400米”与条文规定的“500米”不一致，请以500米为准。\n\n## 二、杆塔周围15米钻探\n\n知识库中没有“15米”这一距离的规定，最接近的相关条文是：\n\n- **《铁路安全管理条例》第五十三条**：禁止在铁路电力线路杆塔、拉线周围**20米**范围内取土、打桩、钻探或者倾倒有害化学物品。\n\n**判断要点**：规定范围是“杆塔、拉线周围20米”，15米在20米以内，属于禁止钻探的范围。您提到的“15米”与条文规定的“20米”不一致，请以20米为准。\n\n## 补充提示\n\n上述两条均出自《铁路安全管理条例》第五十三条，针对的是**电气化铁路**（含高速铁路）的电力线路设施保护。若涉及高速铁路，还应结合《高速铁路安全防护管理办法》的相关规定一并判断。","reference":{"chunks":[{"content":"# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十三条｜禁止实施下列危害电气化铁路设施的行为\n证据定位： DOC0006-K53；S0006，第四章　铁路线路安全，第五十三条。\n禁止实施下列危害电气化铁路设施的行为：\n（一）向电气化铁路接触网抛掷物品；\n（二）在铁路电力线路导线两侧各500米的范围内升放风筝、气球等低空飘浮物体；\n（三）攀登铁路电力线路杆塔或者在杆塔上架设、安装其他设施设备；\n（四）在铁路电力线路杆塔、拉线周围20米范围内取土、打桩、钻探或者倾倒有害化学物品；\n（五）触碰电气化铁路接触网。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"f1d4f7f3edba485ab62be14c8f690c99","document_metadata":null,"document_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md","id":"05172835c5b36454","image_id":"","positions":"","row_id":"05172835c5b36454","similarity":0.4673045440568451,"term_similarity":0.18104938811369012,"url":"","vector_similarity":0.7535597},{"content":"# 高速铁路安全防护管理办法\n## 第二章 线路安全防护\n### 第二十四条｜在高速铁路电力线路导线两侧各500米范围内\n证据定位： DOC0024-K24；S0027，第二章 线路安全防护，第二十四条。\n在高速铁路电力线路导线两侧各500米范围内，不得升放风筝、气球、孔明灯等飘浮物体，不得使用弓弩、弹弓、汽枪等攻击性器械从事可能危害高速铁路安全的行为。在高速铁路电力线路导线两侧升放无人机的，应当遵守国家有关规定。\n对高速铁路线路两侧的塑料大棚、彩钢棚、广告牌、防尘网等轻质建筑物、构筑物，其所有权人或者实际控制人应当采取加固防护措施，并对塑料薄膜、锡箔纸、彩钢瓦、铁皮等建造、构造材料及时清理，防止大风天气条件下危害高速铁路安全。\n必要依赖（第二条原文）： 本办法适用于设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路（以下称高速铁路）。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"72e43cd6234f411c91c19b36e58dc42a","document_metadata":null,"document_name":"DOC0024_高速铁路安全防护管理办法_精修_b227b4dda23b.md","id":"d0acf48819c4436a","image_id":"","positions":"","row_id":"d0acf48819c4436a","similarity":0.4429039517664712,"term_similarity":0.1073058035329424,"url":"","vector_similarity":0.7785021},{"content":"# 高速铁路安全防护管理办法\n## 第二章 线路安全防护\n### 第二十三条｜邻近高速铁路的杆塔应当按照国家标准、行业标准和铁路安全防护要求进行设计安装\n证据定位： DOC0024-K23；S0027，第二章 线路安全防护，第二十三条。\n邻近高速铁路的杆塔应当按照国家标准、行业标准和铁路安全防护要求进行设计安装，杆塔产权单位应当建立定期检查维护制度，确保杆塔牢固稳定。\n在高速铁路线路安全保护区内，禁止种植妨碍行车瞭望或者有倒伏危险可能影响线路、电力、牵引供电安全的树木等植物；对已种植的，应当依法限期迁移或者修剪、砍伐。\n铁路运输企业发现高速铁路线路安全保护区内既有的林木存在可能危及高速铁路安全隐患的，应当告知其产权人或者管理人及时采取措施消除安全隐患。产权人或者管理人拒绝或者怠于处置的，铁路运输企业应当及时向铁路沿线林业主管部门报告，由林业主管部门协调产权人或者管理人采取措施消除安全隐患。\n必要依赖（第二条原文）： 本办法适用于设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路（以下称高速铁路）。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"72e43cd6234f411c91c19b36e58dc42a","document_metadata":null,"document_name":"DOC0024_高速铁路安全防护管理办法_精修_b227b4dda23b.md","id":"e311cbf55b2ecfec","image_id":"","positions":"","row_id":"e311cbf55b2ecfec","similarity":0.42074127069291406,"term_similarity":0.07308054138582805,"url":"","vector_similarity":0.768402},{"content":"# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第二十七条｜铁路线路两侧应当设立铁路线路安全保护区\n证据定位： DOC0006-K27；S0006，第四章　铁路线路安全，第二十七条。\n铁路线路两侧应当设立铁路线路安全保护区。铁路线路安全保护区的范围，从铁路线路路堤坡脚、路堑坡顶或者铁路桥梁（含铁路、道路两用桥，下同）外侧起向外的距离分别为：\n（一）城市市区高速铁路为10米，其他铁路为8米；\n（二）城市郊区居民居住区高速铁路为12米，其他铁路为10米；\n（三）村镇居民居住区高速铁路为15米，其他铁路为12米；\n（四）其他地区高速铁路为20米，其他铁路为15米。\n前款规定距离不能满足铁路运输安全保护需要的，由铁路建设单位或者铁路运输企业提出方案，铁路监督管理机构或者县级以上地方人民政府依照本条第三款规定程序划定。\n在铁路用地范围内划定铁路线路安全保护区的，由铁路监督管理机构组织铁路建设单位或者铁路运输企业划定并公告。在铁路用地范围外划定铁路线路安全保护区的，由县级以上地方人民政府根据保障铁路运输安全和节约用地的原则，组织有关铁路监督管理机构、县级以上地方人民政府国土资源等部门划定并公告。\n铁路线路安全保护区与公路建筑控制区、河道管理范围、水利工程管理和保护范围、航道保护范围或者石油、电力以及其他重要设施保护区重叠的，由县级以上地方人民政府组织有关部门依照法律、行政法规的规定协商划定并公告。\n新建、改建铁路的铁路线路安全保护区范围，应当自铁路建设工程初步设计批准之日起30日内，由县级以上地方人民政府依照本条例的规定划定并公告。铁路建设单位或者铁路运输企业应当根据工程竣工资料进行勘界，绘制铁路线路安全保护区平面图，并根据平面图设立标桩。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"f1d4f7f3edba485ab62be14c8f690c99","document_metadata":null,"document_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md","id":"d5f4e0db611354af","image_id":"","positions":"","row_id":"d5f4e0db611354af","similarity":0.42041681895675814,"term_similarity":0.09722247791351625,"url":"","vector_similarity":0.74361116},{"content":"# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第四十五条｜架设、铺设铁路信号和通信线路、杆塔应当符合国家标准、行业标准和铁路安全防护要求\n证据定位： DOC0006-K45；S0006，第四章　铁路线路安全，第四十五条。\n架设、铺设铁路信号和通信线路、杆塔应当符合国家标准、行业标准和铁路安全防护要求。铁路运输企业、为铁路运输提供服务的电信企业应当加强对铁路信号和通信线路、杆塔的维护和管理。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"f1d4f7f3edba485ab62be14c8f690c99","document_metadata":null,"document_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md","id":"13a7043161e6ace2","image_id":"","positions":"","row_id":"13a7043161e6ace2","similarity":0.40201352939324503,"term_similarity":0.03819141878648999,"url":"","vector_similarity":0.76583564},{"content":"# 高速铁路安全防护管理办法\n## 第二章 线路安全防护\n### 第十六条｜跨越、下穿或者并行高速铁路线路的油气、供气供热、供排水、电力等管线规划、设计、施工应当满足相关国家标准、行业标准及管理规定\n证据定位： DOC0024-K16；S0027，第二章 线路安全防护，第十六条。\n跨越、下穿或者并行高速铁路线路的油气、供气供热、供排水、电力等管线规划、设计、施工应当满足相关国家标准、行业标准及管理规定。施工前应当向铁路运输企业通报，与铁路运输企业协商一致后方可施工，必要时铁路运输企业可以派员进行安全防护。对跨越高速铁路的电力线路，应当采取可靠的防坠落措施。\n跨越、下穿高速铁路的油气、供气供热、供排水等管线应当设置满足国家相关技术规范和标准要求的安全保护设施。下穿时，优先选择在铁路桥梁、预留管线涵洞、综合管廊等既有设施处穿越；特殊条件下，需穿越路基时，应当进行专项设计，满足路基沉降的限制指标。\n并行高速铁路的油气、供气供热、供排水等管线敷设时，最小水平净距应当满足相关国家标准、行业标准和安全保护要求。\n油气、供气供热、供排水、电力等管线的产权单位或者经营企业应当加强检查维护管理，确保状态良好。铁路运输企业应当积极配合。\n必要依赖（第二条原文）： 本办法适用于设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路（以下称高速铁路）。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"72e43cd6234f411c91c19b36e58dc42a","document_metadata":null,"document_name":"DOC0024_高速铁路安全防护管理办法_精修_b227b4dda23b.md","id":"8f432da36bc24c4f","image_id":"","positions":"","row_id":"8f432da36bc24c4f","similarity":0.3912968617721857,"term_similarity":0.03488912354437138,"url":"","vector_similarity":0.7477046},{"content":"# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十五条｜高速铁路线路路堤坡脚、路堑坡顶或者铁路桥梁外侧起向外各200米范围内禁止抽取地下水\n证据定位： DOC0006-K35；S0006，第四章　铁路线路安全，第三十五条。\n高速铁路线路路堤坡脚、路堑坡顶或者铁路桥梁外侧起向外各200米范围内禁止抽取地下水。\n在前款规定范围外，高速铁路线路经过的区域属于地面沉降区域，抽取地下水危及高速铁路安全的，应当设置地下水禁止开采区或者限制开采区，具体范围由铁路监督管理机构会同县级以上地方人民政府水行政主管部门提出方案，报省、自治区、直辖市人民政府批准并公告。\n必要依赖（第一百零七条原文）： 本条例所称高速铁路，是指设计开行时速250公里以上（含预留），并且初期运营时速200公里以上的客运列车专线铁路。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"f1d4f7f3edba485ab62be14c8f690c99","document_metadata":null,"document_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md","id":"6704300a955e2bb7","image_id":"","positions":"","row_id":"6704300a955e2bb7","similarity":0.39049493547108804,"term_similarity":0.018104170942176086,"url":"","vector_similarity":0.7628857},{"content":"# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十二条｜禁止实施下列危及铁路通信、信号设施安全的行为\n证据定位： DOC0006-K52；S0006，第四章　铁路线路安全，第五十二条。\n禁止实施下列危及铁路通信、信号设施安全的行为：\n（一）在埋有地下光（电）缆设施的地面上方进行钻探，堆放重物、垃圾，焚烧物品，倾倒腐蚀性物质；\n（二）在地下光（电）缆两侧各1米的范围内建造、搭建建筑物、构筑物等设施；\n（三）在地下光（电）缆两侧各1米的范围内挖砂、取土；\n（四）在过河光（电）缆两侧各100米的范围内挖砂、抛锚或者进行其他危及光（电）缆安全的作业。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"f1d4f7f3edba485ab62be14c8f690c99","document_metadata":null,"document_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md","id":"3b4b7a62fb18087f","image_id":"","positions":"","row_id":"3b4b7a62fb18087f","similarity":0.3873606267771123,"term_similarity":0.018434953554224632,"url":"","vector_similarity":0.7562863},{"content":"# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第三十四条｜在铁路线路两侧从事采矿、采石或者爆破作业\n证据定位： DOC0006-K34；S0006，第四章　铁路线路安全，第三十四条。\n在铁路线路两侧从事采矿、采石或者爆破作业，应当遵守有关采矿和民用爆破的法律法规，符合国家标准、行业标准和铁路安全保护要求。\n在铁路线路路堤坡脚、路堑坡顶、铁路桥梁外侧起向外各1000米范围内，以及在铁路隧道上方中心线两侧各1000米范围内，确需从事露天采矿、采石或者爆破作业的，应当与铁路运输企业协商一致，依照有关法律法规的规定报县级以上地方人民政府有关部门批准，采取安全防护措施后方可进行。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"f1d4f7f3edba485ab62be14c8f690c99","document_metadata":null,"document_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md","id":"80b9024d6574c9f1","image_id":"","positions":"","row_id":"80b9024d6574c9f1","similarity":0.38697648547108804,"term_similarity":0.018104170942176086,"url":"","vector_similarity":0.7558488},{"content":"# 铁路安全管理条例\n## 第四章　铁路线路安全\n### 第五十条｜在下列地点，铁路运输企业应当按照国家标准、行业标准设置易于识别的警示、保护标志\n证据定位： DOC0006-K50；S0006，第四章　铁路线路安全，第五十条。\n在下列地点，铁路运输企业应当按照国家标准、行业标准设置易于识别的警示、保护标志：\n（一）铁路桥梁、隧道的两端；\n（二）铁路信号、通信光（电）缆的埋设、铺设地点；\n（三）电气化铁路接触网、自动闭塞供电线路和电力贯通线路等电力设施附近易发生危险的地点。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"f1d4f7f3edba485ab62be14c8f690c99","document_metadata":null,"document_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md","id":"493f0535981cb62f","image_id":"","positions":"","row_id":"493f0535981cb62f","similarity":0.38566656177218567,"term_similarity":0.03488912354437138,"url":"","vector_similarity":0.736444},{"content":"# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十二条｜抽样人员应当采取有效的防拆封措施\n证据定位： DOC0016-K22；S0029，第四章 产品抽样，第二十二条。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样人员应当采取有效的防拆封措施，对检验样品和备用样品分别封样，并由抽样人员和被抽样单位相关人员签字确认，以保证样品的真实、完整、有效。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"4095867ee3ac4e9eb711b162ae40bbf7","document_metadata":null,"document_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_06923619ea19.md","id":"f674c6eb69467275","image_id":"","positions":"","row_id":"f674c6eb69467275","similarity":0.3851204676585177,"term_similarity":0.04422918531703542,"url":"","vector_similarity":0.72601175},{"content":"# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第四条｜铁路专用产品质量检验应当以国家标准、铁路行业标准及相关技术规范为主要依据\n证据定位： DOC0016-K04；S0029，第一章 总则，第四条。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n铁路专用产品质量检验应当以国家标准、铁路行业标准及相关技术规范为主要依据。\n监督抽查实行抽检分离制度，按铁路专用产品检验检测细则（以下简称检验检测细则）实施。除现场检验外，抽样人员不得承担其抽样产品的检验工作。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"4095867ee3ac4e9eb711b162ae40bbf7","document_metadata":null,"document_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_06923619ea19.md","id":"e17baa04181414a6","image_id":"","positions":"","row_id":"e17baa04181414a6","similarity":0.384991135099999,"term_similarity":0.03919052019999799,"url":"","vector_similarity":0.73079175}],"doc_aggs":[{"count":54,"doc_id":"4095867ee3ac4e9eb711b162ae40bbf7","doc_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_06923619ea19.md"},{"count":12,"doc_id":"f1d4f7f3edba485ab62be14c8f690c99","doc_name":"DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md"},{"count":11,"doc_id":"964e86066ece4a378ef745846628f22a","doc_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_44c663cf24db.md"},{"count":7,"doc_id":"72e43cd6234f411c91c19b36e58dc42a","doc_name":"DOC0024_高速铁路安全防护管理办法_精修_b227b4dda23b.md"},{"count":4,"doc_id":"7f4a63ea70074708bb56146b9a0ed4c6","doc_name":"DOC0013_铁路营业线施工安全管理办法_精修_981730ca3a85.md"},{"count":3,"doc_id":"386fe8fda47449ecb3b6ffa173409956","doc_name":"DOC0017_铁路机车车辆驾驶人员资格许可办法_精修_7ed1c1d64e0e.md"},{"count":2,"doc_id":"d792115ed26546edade749fc0f539d21","doc_name":"DOC0023_铁路专用设备缺陷产品召回管理办法_精修_4c54cc836fcf.md"},{"count":2,"doc_id":"a15a3e92b1334de9a02f70b832f13b21","doc_name":"DOC0007_铁路建设工程安全生产监督管理办法_精修_279bba6a0bf4.md"},{"count":1,"doc_id":"f18ae5ddbb2543bcb5fcdea8b76ea714","doc_name":"DOC0010_高速铁路基础设施运用状态检测管理办法_精修_9f86c0a68cb8.md"},{"count":1,"doc_id":"212390ba518d4b7db5ee9aaa56a9142a","doc_name":"DOC0005_铁路交通事故应急救援和调查处理条例_精修_5fbbfc10c960.md"},{"count":1,"doc_id":"757fb02e736e4153b256a2750acbf7cf","doc_name":"DOC0019_铁路货物运输规则_精修_66a65717963e.md"},{"count":1,"doc_id":"b6d1bfe6dde842a28695c4f3193617eb","doc_name":"DOC0011_铁路无线电管理办法_精修_a3f6bb811610.md"},{"count":1,"doc_id":"ca440839e1754d12b7e1c4921ca45451","doc_name":"DOC0001_铁路设备质量安全监督管理办法_精修_fdd8372b6cee.md"}]},"final":true}}
+
+data: {"code": 0, "message": "success", "data": true}
+

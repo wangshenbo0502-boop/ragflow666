@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-11-16T04:10:34.958Z",
+  "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+  "source_documents": 24,
+  "current_formal_documents": 24,
+  "retained_history_documents": 51,
+  "preservation_passed": true,
+  "business_chunks": 1131,
+  "retrieval": {
+    "total": 70,
+    "answerable": 58,
+    "no_evidence": 12,
+    "complete_evidence": 43,
+    "rate": 0.7413793103448276,
+    "by_domain": {
+      "GW": {
+        "passed": 8,
+        "total": 9
+      },
+      "XH": {
+        "passed": 9,
+        "total": 9
+      },
+      "GD": {
+        "passed": 7,
+        "total": 10
+      },
+      "CL": {
+        "passed": 8,
+        "total": 9
+      },
+      "YS": {
+        "passed": 9,
+        "total": 10
+      },
+      "跨域": {
+        "passed": 2,
+        "total": 11
+      }
+    }
+  },
+  "answers": {
+    "total": 70,
+    "final_received": 70,
+    "transport_or_api_failures": 0,
+    "semantic_review_completed": 0,
+    "semantic_review_pending": 70
+  },
+  "holdout_status": "H01-H10已用于既往调试；本轮为回归复测，不是独立留出集。",
+  "original_user_app_unchanged": true,
+  "wiki": "未执行：检索及回答语义验收未达到前置门槛。",
+  "preservation_artifact": "05-review/preservation-context-v3.json",
+  "retrieval_artifact": "00-control/acceptance-v3-context-retrieval.json",
+  "answers_artifact": "00-control/acceptance-v3-context-answers.json"
+}

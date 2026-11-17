@@ -1,0 +1,47 @@
+[
+  {
+    "doc_id": "DOC0011",
+    "source_id": "S0011",
+    "master_path": "03-domains/XH/DOC0011_铁路无线电管理办法.md",
+    "article_count": 41,
+    "status": "待结构验收",
+    "sha256": "3811579207b0b3650bb367c3a39ac267d58817fa18115e02c53bc03ea8ea0f68",
+    "note": "逐条按存档原文整理，条款正文机器覆盖审计通过后仍需人工抽核数值、否定、例外和跨条依赖。"
+  },
+  {
+    "doc_id": "DOC0012",
+    "source_id": "S0012",
+    "master_path": "03-domains/XH/DOC0012_铁路关键信息基础设施安全保护管理办法.md",
+    "article_count": 30,
+    "status": "待结构验收",
+    "sha256": "0a45b1a6d5f574aec1a690e340157d9b81f7b7c126e30703c3223b60d35ce29c",
+    "note": "逐条按存档原文整理，条款正文机器覆盖审计通过后仍需人工抽核数值、否定、例外和跨条依赖。"
+  },
+  {
+    "doc_id": "DOC0013",
+    "source_id": "S0014",
+    "master_path": "03-domains/YS/DOC0013_铁路营业线施工安全管理办法.md",
+    "article_count": 61,
+    "status": "待结构验收",
+    "sha256": "593c87de191f0bcd40d61a70265baee1c1feda14caf33628744d62ab42156ee6",
+    "note": "逐条按存档原文整理，条款正文机器覆盖审计通过后仍需人工抽核数值、否定、例外和跨条依赖。"
+  },
+  {
+    "doc_id": "DOC0014",
+    "source_id": "S0016",
+    "master_path": "03-domains/GD/DOC0014_铁路运输基础设备生产企业审批实施细则.md",
+    "article_count": 28,
+    "status": "待结构验收",
+    "sha256": "e3a8b6495323db3a5ef19c2bf7dd62b82f673d335945072e54817ab5d20dc77f",
+    "note": "逐条按存档原文整理，条款正文机器覆盖审计通过后仍需人工抽核数值、否定、例外和跨条依赖。"
+  },
+  {
+    "doc_id": "DOC0015",
+    "source_id": "S0017",
+    "master_path": "03-domains/GD/DOC0015_铁路运输基础设备生产企业审批办法（2021修正）.md",
+    "article_count": 20,
+    "status": "待结构验收",
+    "sha256": "8575e0a67f98e96be9b11c60b26b56d3a010ec5b8a0493274e65535e4f08d0ba",
+    "note": "逐条按存档原文整理，条款正文机器覆盖审计通过后仍需人工抽核数值、否定、例外和跨条依赖。"
+  }
+]

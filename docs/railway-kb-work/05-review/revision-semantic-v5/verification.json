@@ -1,0 +1,650 @@
+{
+  "checked_at": "2026-11-17T04:20:25.048Z",
+  "model": "102e9861e4e24a73abb7cff80df6c52e",
+  "rules_sha256": "2576b753feed31276f1c4949ffb78ab23602e3adcb2a0d043078bda92c0e84d3",
+  "prompt_sha256": "54553a4ff3c08413b4357d8dba4ed4e4316af12ce793893e5968332f71c663a8",
+  "total": 63,
+  "reviewed": 63,
+  "pass": 63,
+  "fail": 0,
+  "pending": 0,
+  "new_model_requests": 0,
+  "reused_batches": 9,
+  "provider_tokens": null,
+  "cost": null,
+  "cost_savings_verified": false,
+  "actual_chunk_review": false,
+  "formal_import": false,
+  "judgments": [
+    {
+      "knowledge_point_id": "DOC0022-K01",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第一条",
+      "finding": "候选完整保留第一条立法目的与依据：规范铁路机车车辆行政许可工作、加强铁路运输安全监督管理、保障公众生命财产安全，依据行政许可法、铁路安全管理条例等制定；对象、条件、结论与原文一致，无增删。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K02",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第二条",
+      "finding": "候选完整保留第二条定义：铁路机车车辆包括直接承担公共运输和检测试验任务的机车、动车组、客车、货车等移动设备，以及在铁路上运行并承担施工、维修、救援等作业的轨道车、救援起重机、铺轨机和架桥机（组）车辆、接触网作业车和大型养路机械等自轮运转特种设备；并保留许可目录由国家铁路局制定、调整并发布的程序性规定。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K03",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第三条",
+      "finding": "候选完整保留第三条两款：分别申请型号合格证、制造许可证、维修许可证或进口许可证的总要求，以及设计企业取得型号合格证、制造企业在批量制造前取得制造许可证、大修维修企业在维修样车投入运营前取得维修许可证、国内进口企业在投入运营前取得进口许可证的分项条件；并内联第二条定义以明确“铁路机车车辆”范围，依赖必要且已补足。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K04",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第四条",
+      "finding": "候选完整保留第四条：设计、制造、维修、使用单位应遵守产品质量安全法律、行政法规及国家有关规定，确保投入使用车辆符合安全运营要求；主体、义务与结论一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K05",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第五条",
+      "finding": "候选完整保留第五条：设计、制造、维修或进口新型铁路机车车辆应符合国家产业和技术发展政策及铁路装备现代化要求，符合国家相关标准和行业标准；条件与结论一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K06",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第六条",
+      "finding": "候选完整保留第六条取得型号合格证的九项条件，对象为申请企业及样车，条件包括法人资格、设计管理与技术人员、样车技术条件与设计方案审查、关键零部件和样车型式试验、运用考核及解体检查、技术评价、特种设备合规、无知识产权侵权及兜底条款；未增删条件或改变并列关系。",
+      "action": "无需修正。",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K07",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第七条",
+      "finding": "候选完整保留第七条取得制造许可证的八项条件，含拟制造产品已取得型号合格证、制造样车通过型式试验并经型号合格证持有企业技术评价合格等关键限制，对象、条件与并列关系与原文一致。",
+      "action": "无需修正。",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K08",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第八条",
+      "finding": "候选完整保留第八条取得维修许可证的八项条件，含与维修样车产权单位签订试修合同、协议或出具委托维修证明材料，维修样车通过例行试验并经产权单位或其上级主管单位技术评价合格等限制，未改变选择关系。",
+      "action": "无需修正。",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K09",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第九条",
+      "finding": "候选完整保留第九条取得进口许可证的七项条件，含国内用户需求证明、制造企业所在国法定资质与业绩信誉、技术条件设计方案经国内用户审查、关键零部件和样车型式试验、样车经国内用户技术评价合格等，对象与条件一致。",
+      "action": "无需修正。",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K10",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第三章 申请材料，第十条",
+      "finding": "候选完整保留第十条申请型号合格证应提交的六类材料，含申请书、营业执照副本、质量管理体系证明、企业基本情况报告、设计技术总结报告及兜底材料，括号内列举内容与原文一致。",
+      "action": "无需修正。",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K11",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第三章 申请材料，第十一条",
+      "finding": "候选完整保留第十一条申请制造许可证应提交的八类材料，含型号合格证、产品图样技术条件及合法来源证明、制造技术总结报告等，未遗漏或改变材料项。",
+      "action": "无需修正。",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K12",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第三章 申请材料，第十二条",
+      "finding": "候选完整保留第十二条申请维修许可证应提交的八类材料，含样车试修合同协议或委托维修证明、产品图样技术条件及合法来源证明、维修技术总结报告等，选择关系与原文一致。",
+      "action": "无需修正。",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K13",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第三章 申请材料，第十三条",
+      "finding": "候选完整保留第十三条申请进口许可证应提交的九类材料，含国内用户需求证明、制造企业合法注册登记及资质证明、质量管理体系证明、进口技术总结报告等，对象与材料项一致。",
+      "action": "无需修正。",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K14",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第三章 申请材料，第十四条",
+      "finding": "对象为行政许可申请书，要求采用格式文本，文本格式由国家铁路局制定；候选正文与原文一致，未增删条件或结论。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K15",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第四章 许可程序，第十五条",
+      "finding": "完整保留国家铁路局对申请材料的三类处理情形：当场更正、5个工作日内一次告知补正（逾期不告知自收到之日起即为受理）、材料齐全或补正后受理；并保留受理或不予受理应出具加盖专用章和注明日期的书面凭证。条件、期限起点与并列关系均与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K16",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第四章 许可程序，第十六条",
+      "finding": "对象为国家铁路局受理后的审查行为，条件为必要时可组织现场核实、检验、检测及专家评审；结论区分审查合格作出准予许可书面决定、不合格作出不予许可书面决定并说明理由送达申请企业，与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K17",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第四章 许可程序，第十七条",
+      "finding": "期限起点为受理申请之日，基准期限20个工作日；延长条件为经国家铁路局负责人批准，延长10个工作日并告知理由；检验、检测和专家评审所需时间不计入上述期限，数值与例外均与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K18",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第四章 许可程序，第十八条",
+      "finding": "条件为国家铁路局作出准予行政许可决定，期限起点为作出许可决定之日，期限10个工作日，义务为向申请企业颁发、送达相应行政许可证件，与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K19",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第五章 证书管理，第十九条",
+      "finding": "义务主体为被许可企业，载体为产品使用说明书和产品合格证，内容为注明行政许可证书的有效期和编号，与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K20",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第五章 证书管理，第二十条",
+      "finding": "完整保留各类证书有效期：型号合格证长期；制造、进口许可证5年；维修许可证按型号分5年、8年、10年且具体有效期由国家铁路局发布；延续申请期限起点为有效期届满，须提前60个工作日提出。数值、单位与期限起点均与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K21",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第五章 证书管理，第二十一条",
+      "finding": "条件为证书有效期内企业名称或制造、维修地址名称发生变化，义务为自变化事项发生后30个工作日内提出变更申请，结论为变更后证书有效期不变；候选已内联第二十二条作为必要依赖，补足“地址变更造成许可条件变化须重新申请”及“型号合格证产品重大变化须重新申请型号许可”的边界，依赖引用正确且未扩大。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K22",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第五章 证书管理，第二十二条",
+      "finding": "候选完整保留第二十二条两款：变更制造、维修地址造成许可条件变化的，被许可企业应重新申请制造、维修许可；已取得型号合格证的产品发生重大变化时，应重新申请取得型号许可。内联第二十一条仅作必要依赖，用于区分地址名称变更与地址变更导致许可条件变化，未改变本条对象、条件或结论。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K23",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第六章 监督管理，第二十三条",
+      "finding": "候选完整保留第二十三条两款：国家铁路局及其铁路监督管理机构对被许可企业实施监督检查，企业应配合并按要求提交材料；取得制造、维修许可证的企业应按年度提交产品质量管理及售后服务情况自查报告。对象、义务主体和年度要求均与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K24",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第六章 监督管理，第二十四条",
+      "finding": "候选准确保留第二十四条：申请企业隐瞒有关情况或提供虚假材料申请行政许可的，国家铁路局不予受理或不予行政许可并给予警告，申请企业在1年内不得再次申请该行政许可。条件、处理结论和1年期限均一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K25",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第六章 监督管理，第二十五条",
+      "finding": "候选完整保留第二十五条：五项可撤销行政许可情形，以及以欺骗、贿赂等不正当手段取得许可应撤销、申请人在3年内不得再次申请。撤销主体、启动方式（利害关系人请求或依职权）、各项情形和3年限制均与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K26",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第六章 监督管理，第二十六条",
+      "finding": "候选完整保留第二十六条五项注销情形：有效期届满未延续、企业依法终止、许可被撤销或证件被吊销、不可抗力导致无法实施、法律法规规定的其他应注销情形。注销主体和各项条件均一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K27",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第七章 附　则，第二十七条",
+      "finding": "候选与第二十七条原文一致：国家铁路局依据本办法制定实施细则。主体和授权内容完整。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K28",
+      "status": "PASS",
+      "source_location": "S0037，交通运输部官方合并全文，第七章 附　则，第二十八条",
+      "finding": "候选完整保留第二十八条：本办法自2014年1月1日起施行，2005年4月1日原铁道部公布的《铁路机车车辆设计生产维修进口许可管理办法》（铁道部令第14号）同时废止。施行日期、废止对象和废止时点均一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0022",
+      "evidence_path": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K01",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总则，第一条",
+      "finding": "候选完整保留第一条立法目的与依据：为规范铁路专用设备缺陷产品召回管理，保障人身、财产安全，根据《产品质量法》《铁路安全管理条例》等制定本办法；对象、目的、依据均与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K02",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总则，第二条",
+      "finding": "候选完整保留第二条两款：第一款明确适用范围为国家铁路局依法实行行政许可管理的铁路专用设备产品的召回及监督管理；第二款明确其他直接影响铁路运输安全的铁路专用设备产品确需召回的，由国家铁路局和国务院有关部门按职责分工监督管理。条件、主体、并列关系均忠实。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K03",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总则，第三条",
+      "finding": "候选完整保留缺陷定义：因设计、制造、标识等原因导致同一批次、型号或类别普遍存在不符合保障人身、财产安全的国家标准、行业标准的情形或其他不合理危险；原因、普遍性、标准类型、兜底情形均一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K04",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总则，第四条",
+      "finding": "候选完整保留召回定义：生产企业对其已销售的产品采取措施消除缺陷的活动；主体、对象、行为均一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K05",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总则，第五条",
+      "finding": "候选完整保留两款：国家铁路局实施监督管理，地区铁路监督管理局按国家铁路局规定参与；并保留“铁路监管部门”统称定义。主体与参与条件均一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K06",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总则，第六条",
+      "finding": "候选完整保留生产企业定义：中国境内依法设立的产品制造企业；境外进口到境内销售的企业视为生产企业。拟制规定保留完整。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K07",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总则，第七条",
+      "finding": "候选完整保留第七条两款：生产企业为召回实施主体及档案、制度、访问分析、召回义务与费用等义务；铁路机车车辆经监造符合要求方可投入使用；并保留“监造”定义（主体、依据、合同约定、程序范围、监督检查与符合性判断）。条件与定义均完整。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K08",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总则，第八条",
+      "finding": "候选完整保留使用企业及设备相关单位的配合义务：配合缺陷调查、提供使用维修操作检测等信息记录、协助召回、采取有效措施维护运输秩序确保安全；义务主体与内容一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K09",
+      "status": "PASS",
+      "source_location": "S0038，第二章 产品缺陷调查，第九条",
+      "finding": "对象为生产企业；条件为获知其产品可能存在缺陷；义务为立即组织开展缺陷调查并确认是否存在缺陷；对正在使用的产品，还应立即通知使用企业、与使用企业协商并采取安全保障措施确保运输安全。候选正文与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K10",
+      "status": "PASS",
+      "source_location": "S0038，第二章 产品缺陷调查，第十条",
+      "finding": "对象为生产企业；条件为经调查确认产品存在缺陷；义务为立即将调查结果通知使用企业并报国家铁路局。候选正文与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K11",
+      "status": "PASS",
+      "source_location": "S0038，第二章 产品缺陷调查，第十一条",
+      "finding": "对象为使用企业；条件为获知产品可能存在缺陷；义务为及时采取有效措施确保运输安全并向生产企业通报；并规定生产企业应及时开展缺陷调查，未及时开展的，使用企业可向国家铁路局反映。候选正文与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K12",
+      "status": "PASS",
+      "source_location": "S0038，第二章 产品缺陷调查，第十二条",
+      "finding": "对象为国家铁路局；条件为获知产品可能存在缺陷；义务为立即通知生产企业开展缺陷调查；生产企业拒绝的，国家铁路局可直接组织调查或委托与生产企业无利害关系的专业技术机构调查，并将结果通知生产企业和使用企业。候选正文与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K13",
+      "status": "PASS",
+      "source_location": "S0038，第二章 产品缺陷调查，第十三条",
+      "finding": "规定产品缺陷调查应当包括的四项内容：设计制造标识等原因、不符合保障人身财产安全的国家标准或行业标准、是否已造成人身财产损害、虽未造成损害但经检验检测试验论证存在不合理危险。候选完整保留四项并列内容，与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K14",
+      "status": "PASS",
+      "source_location": "S0038，第二章 产品缺陷调查，第十四条",
+      "finding": "规定缺陷调查过程中可以采取的四项措施：现场调查、查阅复制资料档案记录、向相关单位和个人了解情况并公开征求信息、依法可以采取的其他措施。候选完整保留四项并列内容，与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K15",
+      "status": "PASS",
+      "source_location": "S0038，第二章 产品缺陷调查，第十五条",
+      "finding": "对象为生产企业；义务为配合缺陷调查，提供调查需要的有关资料、产品和设备。候选正文与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K16",
+      "status": "PASS",
+      "source_location": "S0038，第二章 产品缺陷调查，第十六条",
+      "finding": "规定产品缺陷调查报告应当包括的八项内容，并规定受委托的专业技术机构应按规定提交报告并对真实性、准确性负责。候选完整保留八项并列内容及末款责任规定，与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K17",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十七条",
+      "finding": "对象为生产企业或使用企业；条件为对产品缺陷调查结果有异议；期限起点为自收到缺陷调查结果之日起15个工作日内；结论为可向国家铁路局反映并提供证明材料；国家铁路局可组织无利害关系专业技术机构或专家论证，必要时组织技术检验、检测、试验，并将结果通知相关企业。候选正文与官方原文一致，未增删条件或数值。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K18",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第十八条",
+      "finding": "对象为生产企业；条件为确认产品存在缺陷；结论为立即停止生产、销售、进口并通知使用企业；例外情形为立即停止使用可能对铁路运输秩序造成较大影响的，生产企业应当与使用企业协商共同采取应急措施，确保运输安全。候选完整保留两款，条件与结论一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K19",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第十九条",
+      "finding": "对象为生产企业；义务为与使用企业协商制定召回计划并组织实施；召回计划九项内容与官方原文逐项一致，并列关系完整保留。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K20",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十条",
+      "finding": "对象为生产企业；义务为将召回计划报备国家铁路局；已备案的召回计划调整时应当重新报备。候选与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K21",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十一条",
+      "finding": "条件为经专业技术机构调查确认产品存在缺陷、生产企业未在规定期限内对调查结果提出异议、并且未按规定实施召回；结论为国家铁路局应当责令生产企业召回。候选已内联第十七条原文，补足了“规定期限”的15个工作日及异议程序依赖，单独检索可理解成立条件。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K22",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十二条",
+      "finding": "对象为生产企业；对象范围为确定召回的缺陷产品；义务为及时采取修正或者补充标识、修理、更换、退货等措施消除缺陷，并承担消除缺陷的费用。选择关系与费用承担均与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K23",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十三条",
+      "finding": "对象为生产企业；义务为填写缺陷产品召回记录单；记录单由生产企业、使用企业、国家铁路局各保存一份；保存期不得少于5年。数值、单位、并列主体均与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K24",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十四条",
+      "finding": "对象为生产企业；条件为在实施召回的过程中；义务为向国家铁路局提交阶段性报告和总结报告；国家铁路局根据召回实际效果决定是否要求采取更有效召回措施。候选与官方原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K25",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十五条",
+      "finding": "对象为生产企业完成召回计划后的情形；结论为国家铁路局应当组织与生产企业无利害关系的专业技术机构或专家对消除缺陷的效果进行评估。候选正文与官方原文一致，未增删条件或结论。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K26",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第四章 监督检查，第二十六条",
+      "finding": "对象为国家铁路局；义务包括对缺陷产品召回实施情况进行监督、依法发布召回相关信息、公布投诉受理电话/电子邮箱/通信地址、加强与国务院有关部门信息沟通和信息共享。候选与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K27",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第四章 监督检查，第二十七条",
+      "finding": "对象为从事缺陷调查的工作人员；要求遵守相关法律法规，禁止妨碍企业正常生产经营活动，禁止收受、索取财物、牟取私利。候选与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K28",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第四章 监督检查，第二十八条",
+      "finding": "对象为缺陷产品召回过程中的相关工作人员；要求遵守公平、公正、客观、合法原则，依法保守商业秘密和技术秘密。候选与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K29",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第四章 监督检查，第二十九条",
+      "finding": "任何单位和个人有权向铁路监管部门投诉铁路专用设备可能存在的缺陷；任何单位和个人不得阻挠和干涉产品缺陷投诉和缺陷调查。候选完整保留两项规则，与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K30",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第五章 法律责任，第三十条",
+      "finding": "对象为生产企业；条件为违反本办法规定且具有所列六种情形之一；结论为由国家铁路局责令限期改正。六项情形与原文逐项一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K31",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第五章 法律责任，第三十一条",
+      "finding": "对象为未按规定召回缺陷产品、未采取措施消除缺陷的生产企业；先责令改正，拒不改正的按情节轻重分三档罚款（货值金额1%～5%、5%～8%、8%～10%），情节严重并吊销相应行政许可证件；构成犯罪的追究刑事责任。候选与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K32",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第五章 法律责任，第三十二条",
+      "finding": "对象为从事缺陷产品召回监督管理工作的人员；条件为违反本办法规定且有所列三种行为之一；结论为依法给予行政处分，涉嫌犯罪的移交司法机关处理。三项行为与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K33",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第五章 法律责任，第三十三条",
+      "finding": "候选完整保留第三十三条两款：第一款明确生产企业依照本办法召回缺陷产品不免除其依法应承担的其他法律责任；第二款明确缺陷以外质量问题，使用企业有权依法律法规及合同约定要求生产企业承担相应法律责任。对象、条件、结论与原文一致，未增删限定。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/5958810455ffd12f19f3d570793ae503bc219a6000fc6ff81563258ee0250776.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K34",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第六章 附则，第三十四条",
+      "finding": "候选完整保留第三十四条：国家铁路局应当根据本办法制定铁路专用设备缺陷产品召回管理实施细则。义务主体、依据和事项均与原文一致。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/5958810455ffd12f19f3d570793ae503bc219a6000fc6ff81563258ee0250776.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K35",
+      "status": "PASS",
+      "source_location": "S0038，交通运输部官方合并全文，第六章 附则，第三十五条",
+      "finding": "候选完整保留第三十五条施行日期：本办法自2016年1月1日起施行。日期与原文一致，未混淆2018年修正公布/施行信息。",
+      "action": "无需修正",
+      "boundary": "KEEP_COMPLETE",
+      "doc_id": "DOC0023",
+      "evidence_path": "05-review/revision-semantic-v5/batches/5958810455ffd12f19f3d570793ae503bc219a6000fc6ff81563258ee0250776.json"
+    }
+  ]
+}

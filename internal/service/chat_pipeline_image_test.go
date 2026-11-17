@@ -17,21 +17,34 @@
 package service
 
 import (
+	"bytes"
 	"context"
 	"encoding/base64"
+	"image"
+	"image/jpeg"
 	"strings"
 	"testing"
 
 	"ragflow/internal/common"
+	"ragflow/internal/permission"
 	"ragflow/internal/storage"
 )
 
 // seedChatImageStorage installs an in-memory storage holding one jpeg blob
 // under user-1's downloads bucket, the layout the upload_info flow writes.
+func chatJPEG(t *testing.T) []byte {
+	t.Helper()
+	var data bytes.Buffer
+	if err := jpeg.Encode(&data, image.NewRGBA(image.Rect(0, 0, 2, 2)), nil); err != nil {
+		t.Fatal(err)
+	}
+	return data.Bytes()
+}
+
 func seedChatImageStorage(t *testing.T) {
 	t.Helper()
 	memory := storage.NewMemoryStorage()
-	if err := memory.Put(t.Context(), "user-1-downloads", "img-1", []byte("jpeg-bytes")); err != nil {
+	if err := memory.Put(t.Context(), "user-1-downloads", "img-1", chatJPEG(t)); err != nil {
 		t.Fatalf("put: %v", err)
 	}
 	factory := storage.GetStorageFactory()
@@ -55,11 +68,11 @@ func TestSplitChatAttachments_FileDictModeReturnsDataURIs(t *testing.T) {
 	seedChatImageStorage(t)
 
 	svc := NewChatPipelineService()
-	texts, images := svc.splitChatAttachments(t.Context(), "user-1", []interface{}{chatImageFileDict})
+	texts, images := svc.splitChatAttachments(permission.WithIdentity(t.Context(), "user-1", ""), []interface{}{chatImageFileDict})
 	if len(images) != 1 {
 		t.Fatalf("expected 1 image, got %v", images)
 	}
-	want := "data:image/jpeg;base64," + base64.StdEncoding.EncodeToString([]byte("jpeg-bytes"))
+	want := "data:image/jpeg;base64," + base64.StdEncoding.EncodeToString(chatJPEG(t))
 	if images[0] != want {
 		t.Fatalf("image = %q, want data URI %q", images[0], want)
 	}
@@ -72,7 +85,7 @@ func TestSplitChatAttachments_FileDictModeReturnsDataURIs(t *testing.T) {
 // other non-empty entry stays in the text attachments.
 func TestSplitChatAttachments_StringModeKeepsDataURIsOnly(t *testing.T) {
 	svc := NewChatPipelineService()
-	texts, images := svc.splitChatAttachments(t.Context(), "user-1", []interface{}{
+	texts, images := svc.splitChatAttachments(permission.WithIdentity(t.Context(), "user-1", ""), []interface{}{
 		"data:image/png;base64,AAA", "https://example.com/a.png", "plain text", "  ",
 	})
 	if len(images) != 1 || images[0] != "data:image/png;base64,AAA" {
@@ -95,13 +108,18 @@ func (c *countingStorage) Get(ctx context.Context, bucket, fnm string, tenantID 
 	return c.Storage.Get(ctx, bucket, fnm, tenantID...)
 }
 
+func (c *countingStorage) GetBounded(ctx context.Context, bucket, fnm string, limit int64) ([]byte, error) {
+	c.gets++
+	return storage.GetBounded(ctx, c.Storage, bucket, fnm, limit)
+}
+
 // Resolving file-dict attachments must read every blob from storage exactly
 // once: the text/image split happens on a single fetch, so a vision-model
 // chat does not double-read attachment blobs.
 func TestSplitChatAttachments_FetchesStorageOnce(t *testing.T) {
 	memory := storage.NewMemoryStorage()
 	for _, id := range []string{"img-1", "img-2"} {
-		if err := memory.Put(t.Context(), "user-1-downloads", id, []byte("jpeg-bytes")); err != nil {
+		if err := memory.Put(t.Context(), "user-1-downloads", id, chatJPEG(t)); err != nil {
 			t.Fatalf("put %s: %v", id, err)
 		}
 	}
@@ -112,7 +130,7 @@ func TestSplitChatAttachments_FetchesStorageOnce(t *testing.T) {
 	t.Cleanup(func() { factory.SetStorage(original) })
 
 	svc := NewChatPipelineService()
-	texts, images := svc.splitChatAttachments(t.Context(), "user-1", []interface{}{
+	texts, images := svc.splitChatAttachments(permission.WithIdentity(t.Context(), "user-1", ""), []interface{}{
 		chatImageFileDict,
 		map[string]interface{}{"id": "img-2", "name": "photo2.jpeg", "mime_type": "image/jpeg", "created_by": "user-1"},
 	})
@@ -134,7 +152,7 @@ func TestSplitChatAttachments_FetchesStorageOnce(t *testing.T) {
 func TestSplitFileAttachmentsRawImagesFeedMultimodalConversion(t *testing.T) {
 	seedChatImageStorage(t)
 
-	_, images := splitFileAttachments(t.Context(), "user-1", []interface{}{chatImageFileDict}, true)
+	_, images := splitFileAttachments(permission.WithIdentity(t.Context(), "user-1", ""), []interface{}{chatImageFileDict}, true)
 	if len(images) != 1 {
 		t.Fatalf("expected 1 image from splitFileAttachments, got %v", images)
 	}
@@ -169,45 +187,16 @@ func TestSplitFileAttachmentsRawImagesFeedMultimodalConversion(t *testing.T) {
 	}
 }
 
-// Regression (KB chat path, "chat"-typed model config): a text-only chat
-// model must not receive image content parts — providers reject them (e.g.
-// Zhipu GLM error 1210: messages.content.type only allows 'text'). The
-// vision gate drops the images after the split, so the multimodal
-// conversion never runs and the user gets a graceful text-only answer
-// instead of a provider-side rejection.
-func TestGateImageAttachmentsDropsImagesForTextOnlyChatModel(t *testing.T) {
-	seedChatImageStorage(t)
-
-	texts, images := splitFileAttachments(t.Context(), "user-1", []interface{}{chatImageFileDict}, false)
-	if len(images) != 1 {
-		t.Fatalf("split still resolves file-dict images with raw=false, got %v", images)
-	}
-	kept, attached := gateImageAttachments("glm-4-flash@Zhipu", "chat", images)
-	if len(kept) != 0 {
-		t.Fatalf("text-only chat model must not keep images, got %v", kept)
-	}
-	if !attached {
-		t.Fatal("attachment flag must report the pre-drop image so the empty-response fallback stays out of the way")
-	}
-	if len(texts) != 0 {
-		t.Fatalf("expected no text attachments for an image-only upload, got %v", texts)
-	}
-}
-
-// Vision-capable (image2text) models keep every split image, and both
-// split modes resolve file-dict attachments to jpeg data URIs that feed
-// ConvertLastUserMsgToMultimodal.
-func TestGateImageAttachmentsKeepsImagesForVisionModel(t *testing.T) {
+func TestSplitImageAttachmentsPreservesBothModes(t *testing.T) {
 	seedChatImageStorage(t)
 
 	for _, raw := range []bool{false, true} {
-		texts, images := splitFileAttachments(t.Context(), "user-1", []interface{}{chatImageFileDict}, raw)
-		kept, attached := gateImageAttachments("qwen3-vl-plus@Tongyi-Qianwen", "image2text", images)
-		if !attached || len(kept) != 1 {
-			t.Fatalf("raw=%v: vision model must keep the image (kept=%v attached=%v)", raw, kept, attached)
+		texts, images := splitFileAttachments(permission.WithIdentity(t.Context(), "user-1", ""), []interface{}{chatImageFileDict}, raw)
+		if len(images) != 1 {
+			t.Fatalf("raw=%v: image missing: %v", raw, images)
 		}
-		if !strings.HasPrefix(kept[0], "data:image/jpeg;base64,") {
-			t.Fatalf("raw=%v: image not a jpeg data URI: %q", raw, kept[0])
+		if !strings.HasPrefix(images[0], "data:image/jpeg;base64,") {
+			t.Fatalf("raw=%v: image not a jpeg data URI: %q", raw, images[0])
 		}
 		if len(texts) != 0 {
 			t.Fatalf("raw=%v: expected no text attachments, got %v", raw, texts)

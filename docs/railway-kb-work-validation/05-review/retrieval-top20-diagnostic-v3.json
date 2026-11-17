@@ -1,0 +1,2684 @@
+{
+  "checked_at": "2026-11-16T04:19:13.325Z",
+  "parameters": {
+    "page_size": 20,
+    "knn_top_k": 128,
+    "knn_num_candidates": 256,
+    "keyword": true,
+    "vector_similarity_weight": 0.8
+  },
+  "scope": "已暴露回归题候选排序诊断；非验收",
+  "results": [
+    {
+      "test_id": "GW02",
+      "evidence": [
+        {
+          "point": "DOC0010-K03",
+          "rank": 8,
+          "rank_by_id": 8
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0010-K10",
+          "similarity": 0.7863750344479181
+        },
+        {
+          "rank": 2,
+          "point": "DOC0010-K09",
+          "similarity": 0.7845218288198754
+        },
+        {
+          "rank": 3,
+          "point": "DOC0010-K11",
+          "similarity": 0.7774837864479183
+        },
+        {
+          "rank": 4,
+          "point": "DOC0010-K02",
+          "similarity": 0.7772205408198755
+        },
+        {
+          "rank": 5,
+          "point": "DOC0010-K12",
+          "similarity": 0.7754598984479182
+        },
+        {
+          "rank": 6,
+          "point": "DOC0010-K05",
+          "similarity": 0.7753865064479182
+        },
+        {
+          "rank": 7,
+          "point": "DOC0010-K22",
+          "similarity": 0.7749320396734938
+        },
+        {
+          "rank": 8,
+          "point": "DOC0010-K03",
+          "similarity": 0.7711875968198755
+        },
+        {
+          "rank": 9,
+          "point": "DOC0010-K06",
+          "similarity": 0.7710530368198755
+        },
+        {
+          "rank": 10,
+          "point": "DOC0010-K01",
+          "similarity": 0.7702213088198754
+        },
+        {
+          "rank": 11,
+          "point": "DOC0010-K07",
+          "similarity": 0.7695974448198755
+        },
+        {
+          "rank": 12,
+          "point": "DOC0010-K16",
+          "similarity": 0.7689035968198754
+        },
+        {
+          "rank": 13,
+          "point": "DOC0010-K13",
+          "similarity": 0.7676133888198754
+        },
+        {
+          "rank": 14,
+          "point": "DOC0010-K19",
+          "similarity": 0.7645508848198755
+        },
+        {
+          "rank": 15,
+          "point": "DOC0010-K17",
+          "similarity": 0.7638156048198754
+        },
+        {
+          "rank": 16,
+          "point": "DOC0010-K35",
+          "similarity": 0.7627752288198755
+        },
+        {
+          "rank": 17,
+          "point": "DOC0010-K04",
+          "similarity": 0.7623830264479183
+        },
+        {
+          "rank": 18,
+          "point": "DOC0010-K28",
+          "similarity": 0.7618556288198755
+        },
+        {
+          "rank": 19,
+          "point": "DOC0010-K29",
+          "similarity": 0.7615657088198754
+        },
+        {
+          "rank": 20,
+          "point": "DOC0010-K15",
+          "similarity": 0.7612712288198754
+        }
+      ]
+    },
+    {
+      "test_id": "GW08",
+      "evidence": [
+        {
+          "point": "DOC0006-K27",
+          "rank": null,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0006-K27",
+          "similarity": 0.7527602447924406
+        },
+        {
+          "rank": 2,
+          "point": "DOC0024-K12",
+          "similarity": 0.7026220956322284
+        },
+        {
+          "rank": 3,
+          "point": "DOC0024-K21",
+          "similarity": 0.6861220217360414
+        },
+        {
+          "rank": 4,
+          "point": "DOC0024-K11",
+          "similarity": 0.6841808762962477
+        },
+        {
+          "rank": 5,
+          "point": "DOC0024-K22",
+          "similarity": 0.6814435179173653
+        },
+        {
+          "rank": 6,
+          "point": "DOC0024-K25",
+          "similarity": 0.6811433039424335
+        },
+        {
+          "rank": 7,
+          "point": "DOC0024-K17",
+          "similarity": 0.6803358655164051
+        },
+        {
+          "rank": 8,
+          "point": "DOC0024-K10",
+          "similarity": 0.6788524740898556
+        },
+        {
+          "rank": 9,
+          "point": "DOC0024-K24",
+          "similarity": 0.6781480663356202
+        },
+        {
+          "rank": 10,
+          "point": "DOC0024-K23",
+          "similarity": 0.6779666379173653
+        },
+        {
+          "rank": 11,
+          "point": "DOC0024-K13",
+          "similarity": 0.6771922655635512
+        },
+        {
+          "rank": 12,
+          "point": "DOC0024-K39",
+          "similarity": 0.6761787264788564
+        },
+        {
+          "rank": 13,
+          "point": "DOC0024-K15",
+          "similarity": 0.6721987940898556
+        },
+        {
+          "rank": 14,
+          "point": "DOC0024-K20",
+          "similarity": 0.6719671463356202
+        },
+        {
+          "rank": 15,
+          "point": "DOC0024-K14",
+          "similarity": 0.6707889063356202
+        },
+        {
+          "rank": 16,
+          "point": "DOC0024-K31",
+          "similarity": 0.6705115455635511
+        },
+        {
+          "rank": 17,
+          "point": "DOC0024-K18",
+          "similarity": 0.6695137537368916
+        },
+        {
+          "rank": 18,
+          "point": "DOC0024-K30",
+          "similarity": 0.6691834944788563
+        },
+        {
+          "rank": 19,
+          "point": "DOC0024-K26",
+          "similarity": 0.6664860059818059
+        },
+        {
+          "rank": 20,
+          "point": "DOC0006-K35",
+          "similarity": 0.6657037063356201
+        }
+      ]
+    },
+    {
+      "test_id": "XH02",
+      "evidence": [
+        {
+          "point": "DOC0012-K04",
+          "rank": 2,
+          "rank_by_id": 2
+        },
+        {
+          "point": "DOC0012-K11",
+          "rank": 1,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0012-K11",
+          "similarity": 0.817515033473462
+        },
+        {
+          "rank": 2,
+          "point": "DOC0012-K04",
+          "similarity": 0.8059970635390293
+        },
+        {
+          "rank": 3,
+          "point": "DOC0012-K09",
+          "similarity": 0.8037135792864158
+        },
+        {
+          "rank": 4,
+          "point": "DOC0012-K14",
+          "similarity": 0.8030461862329401
+        },
+        {
+          "rank": 5,
+          "point": "DOC0012-K15",
+          "similarity": 0.796139801473462
+        },
+        {
+          "rank": 6,
+          "point": "DOC0012-K18",
+          "similarity": 0.7954828342329401
+        },
+        {
+          "rank": 7,
+          "point": "DOC0012-K13",
+          "similarity": 0.7952491142329401
+        },
+        {
+          "rank": 8,
+          "point": "DOC0012-K20",
+          "similarity": 0.7949001862329401
+        },
+        {
+          "rank": 9,
+          "point": "DOC0012-K19",
+          "similarity": 0.7919059142329401
+        },
+        {
+          "rank": 10,
+          "point": "DOC0012-K16",
+          "similarity": 0.7878277542329402
+        },
+        {
+          "rank": 11,
+          "point": "DOC0012-K10",
+          "similarity": 0.7849147382329401
+        },
+        {
+          "rank": 12,
+          "point": "DOC0012-K12",
+          "similarity": 0.7837329542329401
+        },
+        {
+          "rank": 13,
+          "point": "DOC0012-K17",
+          "similarity": 0.7831332742329401
+        },
+        {
+          "rank": 14,
+          "point": "DOC0012-K21",
+          "similarity": 0.7702387142329401
+        },
+        {
+          "rank": 15,
+          "point": "DOC0012-K28",
+          "similarity": 0.7702358190407275
+        },
+        {
+          "rank": 16,
+          "point": "DOC0012-K26",
+          "similarity": 0.7675676270407273
+        },
+        {
+          "rank": 17,
+          "point": "DOC0012-K03",
+          "similarity": 0.7574956851843107
+        },
+        {
+          "rank": 18,
+          "point": "DOC0012-K27",
+          "similarity": 0.7565303251843106
+        },
+        {
+          "rank": 19,
+          "point": "DOC0012-K22",
+          "similarity": 0.7549486771843107
+        },
+        {
+          "rank": 20,
+          "point": "DOC0012-K24",
+          "similarity": 0.7546695790407274
+        }
+      ]
+    },
+    {
+      "test_id": "XH08",
+      "evidence": [
+        {
+          "point": "DOC0014-K30",
+          "rank": null,
+          "rank_by_id": 1
+        },
+        {
+          "point": "DOC0014-K31",
+          "rank": null,
+          "rank_by_id": 2
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0014-K30",
+          "similarity": 0.7303924552833397
+        },
+        {
+          "rank": 2,
+          "point": "DOC0014-K31",
+          "similarity": 0.717614396680802
+        },
+        {
+          "rank": 3,
+          "point": "DOC0014-K29",
+          "similarity": 0.6989310181565437
+        },
+        {
+          "rank": 4,
+          "point": "DOC0001-K36",
+          "similarity": 0.69677600998344
+        },
+        {
+          "rank": 5,
+          "point": "DOC0014-K49",
+          "similarity": 0.6929375115346696
+        },
+        {
+          "rank": 6,
+          "point": "DOC0015-K02",
+          "similarity": 0.6891227137293185
+        },
+        {
+          "rank": 7,
+          "point": "DOC0009-K31",
+          "similarity": 0.6820754531863065
+        },
+        {
+          "rank": 8,
+          "point": "DOC0006-K26",
+          "similarity": 0.6815431331863064
+        },
+        {
+          "rank": 9,
+          "point": "DOC0001-K08",
+          "similarity": 0.681288318826196
+        },
+        {
+          "rank": 10,
+          "point": "DOC0001-K10",
+          "similarity": 0.678123638826196
+        },
+        {
+          "rank": 11,
+          "point": "DOC0014-K02",
+          "similarity": 0.676868661108027
+        },
+        {
+          "rank": 12,
+          "point": "DOC0011-K26",
+          "similarity": 0.6756575331863065
+        },
+        {
+          "rank": 13,
+          "point": "DOC0006-K21",
+          "similarity": 0.6753941731863065
+        },
+        {
+          "rank": 14,
+          "point": "DOC0014-K40",
+          "similarity": 0.6737263058577516
+        },
+        {
+          "rank": 15,
+          "point": "DOC0001-K07",
+          "similarity": 0.6705305988261959
+        },
+        {
+          "rank": 16,
+          "point": "DOC0001-K15",
+          "similarity": 0.6701714388261959
+        },
+        {
+          "rank": 17,
+          "point": "DOC0001-K17",
+          "similarity": 0.669906598826196
+        },
+        {
+          "rank": 18,
+          "point": "DOC0014-K32",
+          "similarity": 0.6695837077490242
+        },
+        {
+          "rank": 19,
+          "point": "DOC0014-K36",
+          "similarity": 0.6695578258577516
+        },
+        {
+          "rank": 20,
+          "point": "DOC0014-K42",
+          "similarity": 0.6687891440595103
+        }
+      ]
+    },
+    {
+      "test_id": "GD01",
+      "evidence": [
+        {
+          "point": "DOC0014-K32",
+          "rank": null,
+          "rank_by_id": 4
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0014-K31",
+          "similarity": 0.7195078035662348
+        },
+        {
+          "rank": 2,
+          "point": "DOC0015-K02",
+          "similarity": 0.7116874941534355
+        },
+        {
+          "rank": 3,
+          "point": "DOC0014-K30",
+          "similarity": 0.710310622536294
+        },
+        {
+          "rank": 4,
+          "point": "DOC0014-K32",
+          "similarity": 0.7102834428546898
+        },
+        {
+          "rank": 5,
+          "point": "DOC0014-K29",
+          "similarity": 0.7075302141534354
+        },
+        {
+          "rank": 6,
+          "point": "DOC0014-K02",
+          "similarity": 0.7071201741534354
+        },
+        {
+          "rank": 7,
+          "point": "DOC0001-K08",
+          "similarity": 0.6986641197726171
+        },
+        {
+          "rank": 8,
+          "point": "DOC0015-K04",
+          "similarity": 0.6967471741534355
+        },
+        {
+          "rank": 9,
+          "point": "DOC0001-K36",
+          "similarity": 0.6955209197726171
+        },
+        {
+          "rank": 10,
+          "point": "DOC0015-K03",
+          "similarity": 0.6953375261534355
+        },
+        {
+          "rank": 11,
+          "point": "DOC0015-K05",
+          "similarity": 0.6952663741534354
+        },
+        {
+          "rank": 12,
+          "point": "DOC0015-K06",
+          "similarity": 0.6899513341534355
+        },
+        {
+          "rank": 13,
+          "point": "DOC0015-K19",
+          "similarity": 0.6861565341534355
+        },
+        {
+          "rank": 14,
+          "point": "DOC0015-K01",
+          "similarity": 0.6853299741534354
+        },
+        {
+          "rank": 15,
+          "point": "DOC0010-K11",
+          "similarity": 0.6824529997726171
+        },
+        {
+          "rank": 16,
+          "point": "DOC0006-K22",
+          "similarity": 0.6808224397726171
+        },
+        {
+          "rank": 17,
+          "point": "DOC0014-K36",
+          "similarity": 0.6799769484738715
+        },
+        {
+          "rank": 18,
+          "point": "DOC0015-K15",
+          "similarity": 0.6793253821534354
+        },
+        {
+          "rank": 19,
+          "point": "DOC0001-K04",
+          "similarity": 0.6788644397726171
+        },
+        {
+          "rank": 20,
+          "point": "DOC0015-K20",
+          "similarity": 0.6788121661534354
+        }
+      ]
+    },
+    {
+      "test_id": "GD04",
+      "evidence": [
+        {
+          "point": "DOC0015-K03",
+          "rank": null,
+          "rank_by_id": 19
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0015-K10",
+          "similarity": 0.7392581169570087
+        },
+        {
+          "rank": 2,
+          "point": "DOC0015-K08",
+          "similarity": 0.7343189969570085
+        },
+        {
+          "rank": 3,
+          "point": "DOC0015-K11",
+          "similarity": 0.7291448479465751
+        },
+        {
+          "rank": 4,
+          "point": "DOC0015-K04",
+          "similarity": 0.7255164587923213
+        },
+        {
+          "rank": 5,
+          "point": "DOC0015-K12",
+          "similarity": 0.7245722209570087
+        },
+        {
+          "rank": 6,
+          "point": "DOC0015-K06",
+          "similarity": 0.724019183946575
+        },
+        {
+          "rank": 7,
+          "point": "DOC0015-K17",
+          "similarity": 0.7220378319630639
+        },
+        {
+          "rank": 8,
+          "point": "DOC0015-K07",
+          "similarity": 0.7202696267923213
+        },
+        {
+          "rank": 9,
+          "point": "DOC0015-K05",
+          "similarity": 0.7202597147923212
+        },
+        {
+          "rank": 10,
+          "point": "DOC0015-K13",
+          "similarity": 0.7197455569570086
+        },
+        {
+          "rank": 11,
+          "point": "DOC0015-K16",
+          "similarity": 0.7194017468088101
+        },
+        {
+          "rank": 12,
+          "point": "DOC0015-K01",
+          "similarity": 0.7193262507923213
+        },
+        {
+          "rank": 13,
+          "point": "DOC0015-K14",
+          "similarity": 0.7174775969570086
+        },
+        {
+          "rank": 14,
+          "point": "DOC0015-K09",
+          "similarity": 0.7174013177818876
+        },
+        {
+          "rank": 15,
+          "point": "DOC0014-K14",
+          "similarity": 0.7170110210545788
+        },
+        {
+          "rank": 16,
+          "point": "DOC0014-K12",
+          "similarity": 0.7166837890545787
+        },
+        {
+          "rank": 17,
+          "point": "DOC0014-K06",
+          "similarity": 0.7133775490545788
+        },
+        {
+          "rank": 18,
+          "point": "DOC0014-K17",
+          "similarity": 0.7121686690545788
+        },
+        {
+          "rank": 19,
+          "point": "DOC0015-K03",
+          "similarity": 0.7119158747923213
+        },
+        {
+          "rank": 20,
+          "point": "DOC0014-K32",
+          "similarity": 0.7118780049570086
+        }
+      ]
+    },
+    {
+      "test_id": "GD06",
+      "evidence": [
+        {
+          "point": "DOC0015-K06",
+          "rank": null,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0015-K06",
+          "similarity": 0.7604408720949137
+        },
+        {
+          "rank": 2,
+          "point": "DOC0015-K08",
+          "similarity": 0.7337970928245444
+        },
+        {
+          "rank": 3,
+          "point": "DOC0015-K07",
+          "similarity": 0.7246504447047772
+        },
+        {
+          "rank": 4,
+          "point": "DOC0014-K08",
+          "similarity": 0.7204677435491986
+        },
+        {
+          "rank": 5,
+          "point": "DOC0015-K16",
+          "similarity": 0.7179602228339486
+        },
+        {
+          "rank": 6,
+          "point": "DOC0015-K05",
+          "similarity": 0.7152612028559326
+        },
+        {
+          "rank": 7,
+          "point": "DOC0015-K10",
+          "similarity": 0.7109106807240173
+        },
+        {
+          "rank": 8,
+          "point": "DOC0015-K04",
+          "similarity": 0.7099383887460015
+        },
+        {
+          "rank": 9,
+          "point": "DOC0015-K09",
+          "similarity": 0.7042303368437844
+        },
+        {
+          "rank": 10,
+          "point": "DOC0015-K12",
+          "similarity": 0.7038799287240173
+        },
+        {
+          "rank": 11,
+          "point": "DOC0015-K11",
+          "similarity": 0.7014444768218004
+        },
+        {
+          "rank": 12,
+          "point": "DOC0014-K06",
+          "similarity": 0.7002630741464821
+        },
+        {
+          "rank": 13,
+          "point": "DOC0022-K15",
+          "similarity": 0.6997245751577985
+        },
+        {
+          "rank": 14,
+          "point": "DOC0014-K12",
+          "similarity": 0.6981251161563181
+        },
+        {
+          "rank": 15,
+          "point": "DOC0015-K13",
+          "similarity": 0.6980929207240173
+        },
+        {
+          "rank": 16,
+          "point": "DOC0014-K47",
+          "similarity": 0.6966549719953267
+        },
+        {
+          "rank": 17,
+          "point": "DOC0014-K19",
+          "similarity": 0.6953811701464822
+        },
+        {
+          "rank": 18,
+          "point": "DOC0015-K15",
+          "similarity": 0.6949489568657687
+        },
+        {
+          "rank": 19,
+          "point": "DOC0015-K14",
+          "similarity": 0.6943872113301086
+        },
+        {
+          "rank": 20,
+          "point": "DOC0015-K01",
+          "similarity": 0.6917695212421615
+        }
+      ]
+    },
+    {
+      "test_id": "GD08",
+      "evidence": [
+        {
+          "point": "DOC0015-K09",
+          "rank": 1,
+          "rank_by_id": 10
+        },
+        {
+          "point": "DOC0015-K11",
+          "rank": null,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0015-K11",
+          "similarity": 0.7586770828504559
+        },
+        {
+          "rank": 2,
+          "point": "DOC0014-K16",
+          "similarity": 0.7189167200510794
+        },
+        {
+          "rank": 3,
+          "point": "DOC0014-K06",
+          "similarity": 0.7000329580631452
+        },
+        {
+          "rank": 4,
+          "point": "DOC0022-K20",
+          "similarity": 0.6967210221288689
+        },
+        {
+          "rank": 5,
+          "point": "DOC0022-K21",
+          "similarity": 0.6943875129403198
+        },
+        {
+          "rank": 6,
+          "point": "DOC0014-K19",
+          "similarity": 0.6859039388625303
+        },
+        {
+          "rank": 7,
+          "point": "DOC0022-K19",
+          "similarity": 0.6843813373749458
+        },
+        {
+          "rank": 8,
+          "point": "DOC0017-K25",
+          "similarity": 0.6837268250565811
+        },
+        {
+          "rank": 9,
+          "point": "DOC0022-K22",
+          "similarity": 0.6755310809403198
+        },
+        {
+          "rank": 10,
+          "point": "DOC0015-K09",
+          "similarity": 0.67073517567304
+        },
+        {
+          "rank": 11,
+          "point": "DOC0014-K13",
+          "similarity": 0.66956093567304
+        },
+        {
+          "rank": 12,
+          "point": "DOC0014-K47",
+          "similarity": 0.6676143048745962
+        },
+        {
+          "rank": 13,
+          "point": "DOC0015-K07",
+          "similarity": 0.6674242357598601
+        },
+        {
+          "rank": 14,
+          "point": "DOC0014-K12",
+          "similarity": 0.6662024245486267
+        },
+        {
+          "rank": 15,
+          "point": "DOC0022-K17",
+          "similarity": 0.6648228508655655
+        },
+        {
+          "rank": 16,
+          "point": "DOC0014-K17",
+          "similarity": 0.6641766893092221
+        },
+        {
+          "rank": 17,
+          "point": "DOC0015-K12",
+          "similarity": 0.6610721145714475
+        },
+        {
+          "rank": 18,
+          "point": "DOC0015-K10",
+          "similarity": 0.6606714745714476
+        },
+        {
+          "rank": 19,
+          "point": "DOC0022-K16",
+          "similarity": 0.6602815589523855
+        },
+        {
+          "rank": 20,
+          "point": "DOC0011-K10",
+          "similarity": 0.6601489464562555
+        }
+      ]
+    },
+    {
+      "test_id": "CL01",
+      "evidence": [
+        {
+          "point": "DOC0022-K03",
+          "rank": null,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0022-K03",
+          "similarity": 0.7808870888847117
+        },
+        {
+          "rank": 2,
+          "point": "DOC0022-K11",
+          "similarity": 0.775344418749411
+        },
+        {
+          "rank": 3,
+          "point": "DOC0022-K12",
+          "similarity": 0.7742362587494109
+        },
+        {
+          "rank": 4,
+          "point": "DOC0022-K07",
+          "similarity": 0.772702930749411
+        },
+        {
+          "rank": 5,
+          "point": "DOC0022-K08",
+          "similarity": 0.7719147627494108
+        },
+        {
+          "rank": 6,
+          "point": "DOC0022-K09",
+          "similarity": 0.766685242749411
+        },
+        {
+          "rank": 7,
+          "point": "DOC0022-K13",
+          "similarity": 0.765775298749411
+        },
+        {
+          "rank": 8,
+          "point": "DOC0022-K04",
+          "similarity": 0.7637475374481191
+        },
+        {
+          "rank": 9,
+          "point": "DOC0022-K23",
+          "similarity": 0.7605076187494109
+        },
+        {
+          "rank": 10,
+          "point": "DOC0022-K05",
+          "similarity": 0.7601707694481191
+        },
+        {
+          "rank": 11,
+          "point": "DOC0022-K02",
+          "similarity": 0.757930466098765
+        },
+        {
+          "rank": 12,
+          "point": "DOC0022-K01",
+          "similarity": 0.7547972494481191
+        },
+        {
+          "rank": 13,
+          "point": "DOC0022-K18",
+          "similarity": 0.7542674094481191
+        },
+        {
+          "rank": 14,
+          "point": "DOC0022-K19",
+          "similarity": 0.7539468174481191
+        },
+        {
+          "rank": 15,
+          "point": "DOC0022-K20",
+          "similarity": 0.7516015387494109
+        },
+        {
+          "rank": 16,
+          "point": "DOC0022-K22",
+          "similarity": 0.7506373774481191
+        },
+        {
+          "rank": 17,
+          "point": "DOC0022-K21",
+          "similarity": 0.7483289294481191
+        },
+        {
+          "rank": 18,
+          "point": "DOC0022-K10",
+          "similarity": 0.7462990094481191
+        },
+        {
+          "rank": 19,
+          "point": "DOC0022-K16",
+          "similarity": 0.7445034414481191
+        },
+        {
+          "rank": 20,
+          "point": "DOC0022-K27",
+          "similarity": 0.7427852094481191
+        }
+      ]
+    },
+    {
+      "test_id": "CL06",
+      "evidence": [
+        {
+          "point": "DOC0023-K09",
+          "rank": 3,
+          "rank_by_id": 3
+        },
+        {
+          "point": "DOC0023-K11",
+          "rank": 2,
+          "rank_by_id": 2
+        },
+        {
+          "point": "DOC0023-K18",
+          "rank": 1,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0023-K18",
+          "similarity": 0.7739477769627942
+        },
+        {
+          "rank": 2,
+          "point": "DOC0023-K11",
+          "similarity": 0.7605243433880038
+        },
+        {
+          "rank": 3,
+          "point": "DOC0023-K09",
+          "similarity": 0.7586350392824646
+        },
+        {
+          "rank": 4,
+          "point": "DOC0006-K26",
+          "similarity": 0.7563151730070472
+        },
+        {
+          "rank": 5,
+          "point": "DOC0023-K22",
+          "similarity": 0.7522544811201384
+        },
+        {
+          "rank": 6,
+          "point": "DOC0023-K08",
+          "similarity": 0.7522354072824645
+        },
+        {
+          "rank": 7,
+          "point": "DOC0023-K14",
+          "similarity": 0.7503982872824645
+        },
+        {
+          "rank": 8,
+          "point": "DOC0023-K12",
+          "similarity": 0.7501430500860612
+        },
+        {
+          "rank": 9,
+          "point": "DOC0023-K10",
+          "similarity": 0.7490416900860611
+        },
+        {
+          "rank": 10,
+          "point": "DOC0023-K30",
+          "similarity": 0.7452445480453943
+        },
+        {
+          "rank": 11,
+          "point": "DOC0023-K15",
+          "similarity": 0.7447058358181956
+        },
+        {
+          "rank": 12,
+          "point": "DOC0023-K19",
+          "similarity": 0.7446356972417977
+        },
+        {
+          "rank": 13,
+          "point": "DOC0023-K31",
+          "similarity": 0.7438172726074359
+        },
+        {
+          "rank": 14,
+          "point": "DOC0023-K04",
+          "similarity": 0.741161384607436
+        },
+        {
+          "rank": 15,
+          "point": "DOC0006-K86",
+          "similarity": 0.7392752333518049
+        },
+        {
+          "rank": 16,
+          "point": "DOC0023-K27",
+          "similarity": 0.7392684900860612
+        },
+        {
+          "rank": 17,
+          "point": "DOC0023-K24",
+          "similarity": 0.7388477924495516
+        },
+        {
+          "rank": 18,
+          "point": "DOC0023-K29",
+          "similarity": 0.7381830632230649
+        },
+        {
+          "rank": 19,
+          "point": "DOC0023-K17",
+          "similarity": 0.7334009700860612
+        },
+        {
+          "rank": 20,
+          "point": "DOC0023-K21",
+          "similarity": 0.7332936500860612
+        }
+      ]
+    },
+    {
+      "test_id": "YS10",
+      "evidence": [
+        {
+          "point": "DOC0005-K33",
+          "rank": null,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0005-K33",
+          "similarity": 0.6941768275626514
+        },
+        {
+          "rank": 2,
+          "point": "DOC0005-K35",
+          "similarity": 0.668010491142525
+        },
+        {
+          "rank": 3,
+          "point": "DOC0004-K18",
+          "similarity": 0.6625337356002255
+        },
+        {
+          "rank": 4,
+          "point": "DOC0004-K35",
+          "similarity": 0.6551837542700429
+        },
+        {
+          "rank": 5,
+          "point": "DOC0005-K32",
+          "similarity": 0.6540257503868974
+        },
+        {
+          "rank": 6,
+          "point": "DOC0005-K36",
+          "similarity": 0.6522494964453939
+        },
+        {
+          "rank": 7,
+          "point": "DOC0004-K46",
+          "similarity": 0.6486337277946
+        },
+        {
+          "rank": 8,
+          "point": "DOC0005-K34",
+          "similarity": 0.6438676469857172
+        },
+        {
+          "rank": 9,
+          "point": "DOC0004-K31",
+          "similarity": 0.6392268243934198
+        },
+        {
+          "rank": 10,
+          "point": "DOC0003-K46",
+          "similarity": 0.6364942643934198
+        },
+        {
+          "rank": 11,
+          "point": "DOC0004-K21",
+          "similarity": 0.6359672243934197
+        },
+        {
+          "rank": 12,
+          "point": "DOC0004-K16",
+          "similarity": 0.6346109159991559
+        },
+        {
+          "rank": 13,
+          "point": "DOC0004-K26",
+          "similarity": 0.6329033363934198
+        },
+        {
+          "rank": 14,
+          "point": "DOC0004-K30",
+          "similarity": 0.6320440243934198
+        },
+        {
+          "rank": 15,
+          "point": "DOC0003-K30",
+          "similarity": 0.6319727879991558
+        },
+        {
+          "rank": 16,
+          "point": "DOC0005-K21",
+          "similarity": 0.630984218591453
+        },
+        {
+          "rank": 17,
+          "point": "DOC0004-K06",
+          "similarity": 0.6303855843934197
+        },
+        {
+          "rank": 18,
+          "point": "DOC0005-K12",
+          "similarity": 0.6302853296430334
+        },
+        {
+          "rank": 19,
+          "point": "DOC0005-K08",
+          "similarity": 0.6302037580372973
+        },
+        {
+          "rank": 20,
+          "point": "DOC0004-K07",
+          "similarity": 0.6273122643934198
+        }
+      ]
+    },
+    {
+      "test_id": "C02",
+      "evidence": [
+        {
+          "point": "DOC0006-K75",
+          "rank": null,
+          "rank_by_id": null
+        },
+        {
+          "point": "DOC0004-K31",
+          "rank": 1,
+          "rank_by_id": 2
+        },
+        {
+          "point": "DOC0004-K43",
+          "rank": null,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0004-K43",
+          "similarity": 0.7293753701730133
+        },
+        {
+          "rank": 2,
+          "point": "DOC0004-K31",
+          "similarity": 0.7229421868082747
+        },
+        {
+          "rank": 3,
+          "point": "DOC0004-K26",
+          "similarity": 0.7137464483077567
+        },
+        {
+          "rank": 4,
+          "point": "DOC0004-K32",
+          "similarity": 0.7052673417632878
+        },
+        {
+          "rank": 5,
+          "point": "DOC0004-K30",
+          "similarity": 0.7041917068082747
+        },
+        {
+          "rank": 6,
+          "point": "DOC0004-K42",
+          "similarity": 0.6990509808850782
+        },
+        {
+          "rank": 7,
+          "point": "DOC0004-K44",
+          "similarity": 0.6947851414570175
+        },
+        {
+          "rank": 8,
+          "point": "DOC0004-K08",
+          "similarity": 0.6918964134570176
+        },
+        {
+          "rank": 9,
+          "point": "DOC0004-K19",
+          "similarity": 0.6916669643090749
+        },
+        {
+          "rank": 10,
+          "point": "DOC0004-K21",
+          "similarity": 0.6878009494570175
+        },
+        {
+          "rank": 11,
+          "point": "DOC0004-K51",
+          "similarity": 0.6872928083077566
+        },
+        {
+          "rank": 12,
+          "point": "DOC0004-K11",
+          "similarity": 0.6861095257632878
+        },
+        {
+          "rank": 13,
+          "point": "DOC0004-K06",
+          "similarity": 0.6851954254583358
+        },
+        {
+          "rank": 14,
+          "point": "DOC0004-K27",
+          "similarity": 0.6849236694570175
+        },
+        {
+          "rank": 15,
+          "point": "DOC0003-K04",
+          "similarity": 0.6848189283077567
+        },
+        {
+          "rank": 16,
+          "point": "DOC0004-K45",
+          "similarity": 0.6846328105020043
+        },
+        {
+          "rank": 17,
+          "point": "DOC0004-K29",
+          "similarity": 0.6833438570928164
+        },
+        {
+          "rank": 18,
+          "point": "DOC0004-K49",
+          "similarity": 0.6828580905020043
+        },
+        {
+          "rank": 19,
+          "point": "DOC0006-K62",
+          "similarity": 0.6826591650941347
+        },
+        {
+          "rank": 20,
+          "point": "DOC0006-K66",
+          "similarity": 0.6822617250941347
+        }
+      ]
+    },
+    {
+      "test_id": "C03",
+      "evidence": [
+        {
+          "point": "DOC0022-K06",
+          "rank": null,
+          "rank_by_id": null
+        },
+        {
+          "point": "DOC0010-K03",
+          "rank": 11,
+          "rank_by_id": 11
+        },
+        {
+          "point": "DOC0010-K10",
+          "rank": 1,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0010-K10",
+          "similarity": 0.6715726202818774
+        },
+        {
+          "rank": 2,
+          "point": "DOC0010-K21",
+          "similarity": 0.6583621898937575
+        },
+        {
+          "rank": 3,
+          "point": "DOC0010-K22",
+          "similarity": 0.6581294582150453
+        },
+        {
+          "rank": 4,
+          "point": "DOC0010-K05",
+          "similarity": 0.6566748298937575
+        },
+        {
+          "rank": 5,
+          "point": "DOC0010-K19",
+          "similarity": 0.6561309898937575
+        },
+        {
+          "rank": 6,
+          "point": "DOC0010-K34",
+          "similarity": 0.6539583498937576
+        },
+        {
+          "rank": 7,
+          "point": "DOC0010-K26",
+          "similarity": 0.6538133098937575
+        },
+        {
+          "rank": 8,
+          "point": "DOC0010-K12",
+          "similarity": 0.6531167498937575
+        },
+        {
+          "rank": 9,
+          "point": "DOC0010-K24",
+          "similarity": 0.6523887818937575
+        },
+        {
+          "rank": 10,
+          "point": "DOC0012-K25",
+          "similarity": 0.6514393043368578
+        },
+        {
+          "rank": 11,
+          "point": "DOC0010-K03",
+          "similarity": 0.6511565002818773
+        },
+        {
+          "rank": 12,
+          "point": "DOC0012-K26",
+          "similarity": 0.6506375443368578
+        },
+        {
+          "rank": 13,
+          "point": "DOC0010-K02",
+          "similarity": 0.6501784298937575
+        },
+        {
+          "rank": 14,
+          "point": "DOC0010-K35",
+          "similarity": 0.6492243018937575
+        },
+        {
+          "rank": 15,
+          "point": "DOC0010-K18",
+          "similarity": 0.6492242698937575
+        },
+        {
+          "rank": 16,
+          "point": "DOC0015-K07",
+          "similarity": 0.6492145445442539
+        },
+        {
+          "rank": 17,
+          "point": "DOC0010-K17",
+          "similarity": 0.6488800298937575
+        },
+        {
+          "rank": 18,
+          "point": "DOC0010-K23",
+          "similarity": 0.6487469898937576
+        },
+        {
+          "rank": 19,
+          "point": "DOC0010-K16",
+          "similarity": 0.6486789418937575
+        },
+        {
+          "rank": 20,
+          "point": "DOC0010-K36",
+          "similarity": 0.6471690698937576
+        }
+      ]
+    },
+    {
+      "test_id": "C04",
+      "evidence": [
+        {
+          "point": "DOC0008-K05",
+          "rank": 1,
+          "rank_by_id": 1
+        },
+        {
+          "point": "DOC0015-K03",
+          "rank": null,
+          "rank_by_id": null
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0008-K05",
+          "similarity": 0.6968602870249415
+        },
+        {
+          "rank": 2,
+          "point": "DOC0006-K15",
+          "similarity": 0.6933881400679942
+        },
+        {
+          "rank": 3,
+          "point": "DOC0015-K14",
+          "similarity": 0.6927575077283605
+        },
+        {
+          "rank": 4,
+          "point": "DOC0014-K20",
+          "similarity": 0.6904248226787798
+        },
+        {
+          "rank": 5,
+          "point": "DOC0022-K03",
+          "similarity": 0.6898159363484017
+        },
+        {
+          "rank": 6,
+          "point": "DOC0008-K11",
+          "similarity": 0.6889973323882282
+        },
+        {
+          "rank": 7,
+          "point": "DOC0008-K18",
+          "similarity": 0.6886549470906117
+        },
+        {
+          "rank": 8,
+          "point": "DOC0015-K15",
+          "similarity": 0.6878079583235935
+        },
+        {
+          "rank": 9,
+          "point": "DOC0008-K02",
+          "similarity": 0.6875694544969344
+        },
+        {
+          "rank": 10,
+          "point": "DOC0001-K08",
+          "similarity": 0.6864110303235935
+        },
+        {
+          "rank": 11,
+          "point": "DOC0022-K23",
+          "similarity": 0.685422462003761
+        },
+        {
+          "rank": 12,
+          "point": "DOC0008-K09",
+          "similarity": 0.6851184523882282
+        },
+        {
+          "rank": 13,
+          "point": "DOC0001-K32",
+          "similarity": 0.6850766677283606
+        },
+        {
+          "rank": 14,
+          "point": "DOC0015-K08",
+          "similarity": 0.6847811877283605
+        },
+        {
+          "rank": 15,
+          "point": "DOC0015-K07",
+          "similarity": 0.6847512383235935
+        },
+        {
+          "rank": 16,
+          "point": "DOC0008-K31",
+          "similarity": 0.6844356784969344
+        },
+        {
+          "rank": 17,
+          "point": "DOC0014-K22",
+          "similarity": 0.6841700252740128
+        },
+        {
+          "rank": 18,
+          "point": "DOC0008-K28",
+          "similarity": 0.683292723546515
+        },
+        {
+          "rank": 19,
+          "point": "DOC0008-K06",
+          "similarity": 0.6832926435465151
+        },
+        {
+          "rank": 20,
+          "point": "DOC0007-K26",
+          "similarity": 0.6831635576961815
+        }
+      ]
+    },
+    {
+      "test_id": "C05",
+      "evidence": [
+        {
+          "point": "DOC0003-K09",
+          "rank": 1,
+          "rank_by_id": 1
+        },
+        {
+          "point": "DOC0001-K15",
+          "rank": 16,
+          "rank_by_id": 16
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0003-K09",
+          "similarity": 0.6998995968355052
+        },
+        {
+          "rank": 2,
+          "point": "DOC0001-K36",
+          "similarity": 0.6824772377413024
+        },
+        {
+          "rank": 3,
+          "point": "DOC0001-K20",
+          "similarity": 0.6812270537413024
+        },
+        {
+          "rank": 4,
+          "point": "DOC0001-K13",
+          "similarity": 0.6780712160749178
+        },
+        {
+          "rank": 5,
+          "point": "DOC0003-K41",
+          "similarity": 0.6763773107834021
+        },
+        {
+          "rank": 6,
+          "point": "DOC0003-K11",
+          "similarity": 0.675324037229978
+        },
+        {
+          "rank": 7,
+          "point": "DOC0006-K60",
+          "similarity": 0.6747172717977826
+        },
+        {
+          "rank": 8,
+          "point": "DOC0003-K15",
+          "similarity": 0.6742062891170177
+        },
+        {
+          "rank": 9,
+          "point": "DOC0003-K10",
+          "similarity": 0.6729743451170176
+        },
+        {
+          "rank": 10,
+          "point": "DOC0001-K18",
+          "similarity": 0.6713179220228148
+        },
+        {
+          "rank": 11,
+          "point": "DOC0001-K19",
+          "similarity": 0.6712701380228148
+        },
+        {
+          "rank": 12,
+          "point": "DOC0003-K13",
+          "similarity": 0.6712285291170177
+        },
+        {
+          "rank": 13,
+          "point": "DOC0002-K09",
+          "similarity": 0.6690013291170177
+        },
+        {
+          "rank": 14,
+          "point": "DOC0003-K18",
+          "similarity": 0.6682178910649146
+        },
+        {
+          "rank": 15,
+          "point": "DOC0001-K10",
+          "similarity": 0.6670955840749179
+        },
+        {
+          "rank": 16,
+          "point": "DOC0001-K15",
+          "similarity": 0.6667954980228148
+        },
+        {
+          "rank": 17,
+          "point": "DOC0001-K14",
+          "similarity": 0.6666164980228148
+        },
+        {
+          "rank": 18,
+          "point": "DOC0001-K25",
+          "similarity": 0.6665819300228149
+        },
+        {
+          "rank": 19,
+          "point": "DOC0003-K12",
+          "similarity": 0.6658070891170177
+        },
+        {
+          "rank": 20,
+          "point": "DOC0001-K02",
+          "similarity": 0.6657219780228147
+        }
+      ]
+    },
+    {
+      "test_id": "C06",
+      "evidence": [
+        {
+          "point": "DOC0006-K30",
+          "rank": null,
+          "rank_by_id": null
+        },
+        {
+          "point": "DOC0011-K32",
+          "rank": 7,
+          "rank_by_id": 7
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0011-K34",
+          "similarity": 0.705452331086513
+        },
+        {
+          "rank": 2,
+          "point": "DOC0011-K35",
+          "similarity": 0.7035962830865129
+        },
+        {
+          "rank": 3,
+          "point": "DOC0011-K04",
+          "similarity": 0.6942200878072273
+        },
+        {
+          "rank": 4,
+          "point": "DOC0011-K28",
+          "similarity": 0.693050072444266
+        },
+        {
+          "rank": 5,
+          "point": "DOC0013-K13",
+          "similarity": 0.6899463196703146
+        },
+        {
+          "rank": 6,
+          "point": "DOC0011-K29",
+          "similarity": 0.689464504444266
+        },
+        {
+          "rank": 7,
+          "point": "DOC0011-K32",
+          "similarity": 0.6855042516544486
+        },
+        {
+          "rank": 8,
+          "point": "DOC0011-K33",
+          "similarity": 0.6854029725260845
+        },
+        {
+          "rank": 9,
+          "point": "DOC0011-K31",
+          "similarity": 0.6843503139911579
+        },
+        {
+          "rank": 10,
+          "point": "DOC0006-K74",
+          "similarity": 0.6826507754052279
+        },
+        {
+          "rank": 11,
+          "point": "DOC0011-K30",
+          "similarity": 0.681550664444266
+        },
+        {
+          "rank": 12,
+          "point": "DOC0011-K39",
+          "similarity": 0.678288824444266
+        },
+        {
+          "rank": 13,
+          "point": "DOC0011-K14",
+          "similarity": 0.6759074413159021
+        },
+        {
+          "rank": 14,
+          "point": "DOC0011-K06",
+          "similarity": 0.6746722413159021
+        },
+        {
+          "rank": 15,
+          "point": "DOC0013-K10",
+          "similarity": 0.671181273242648
+        },
+        {
+          "rank": 16,
+          "point": "DOC0013-K16",
+          "similarity": 0.6704328909592945
+        },
+        {
+          "rank": 17,
+          "point": "DOC0013-K12",
+          "similarity": 0.6702769493954267
+        },
+        {
+          "rank": 18,
+          "point": "DOC0006-K80",
+          "similarity": 0.6702763663095401
+        },
+        {
+          "rank": 19,
+          "point": "DOC0006-K40",
+          "similarity": 0.6674586978105836
+        },
+        {
+          "rank": 20,
+          "point": "DOC0011-K36",
+          "similarity": 0.6674046658838376
+        }
+      ]
+    },
+    {
+      "test_id": "C07",
+      "evidence": [
+        {
+          "point": "DOC0001-K12",
+          "rank": null,
+          "rank_by_id": null
+        },
+        {
+          "point": "DOC0001-K21",
+          "rank": null,
+          "rank_by_id": null
+        },
+        {
+          "point": "DOC0005-K24",
+          "rank": 1,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0005-K24",
+          "similarity": 0.7020683490257412
+        },
+        {
+          "rank": 2,
+          "point": "DOC0005-K16",
+          "similarity": 0.6853543497348802
+        },
+        {
+          "rank": 3,
+          "point": "DOC0005-K14",
+          "similarity": 0.6810676830676616
+        },
+        {
+          "rank": 4,
+          "point": "DOC0007-K64",
+          "similarity": 0.6710437611045148
+        },
+        {
+          "rank": 5,
+          "point": "DOC0021-K36",
+          "similarity": 0.6702819675222639
+        },
+        {
+          "rank": 6,
+          "point": "DOC0005-K21",
+          "similarity": 0.669503363614186
+        },
+        {
+          "rank": 7,
+          "point": "DOC0005-K17",
+          "similarity": 0.6637700336561064
+        },
+        {
+          "rank": 8,
+          "point": "DOC0007-K63",
+          "similarity": 0.6623193606175285
+        },
+        {
+          "rank": 9,
+          "point": "DOC0005-K31",
+          "similarity": 0.6603562034566387
+        },
+        {
+          "rank": 10,
+          "point": "DOC0005-K15",
+          "similarity": 0.6598074736561065
+        },
+        {
+          "rank": 11,
+          "point": "DOC0005-K20",
+          "similarity": 0.657186963614186
+        },
+        {
+          "rank": 12,
+          "point": "DOC0005-K25",
+          "similarity": 0.6546113714566387
+        },
+        {
+          "rank": 13,
+          "point": "DOC0005-K28",
+          "similarity": 0.6519115314566387
+        },
+        {
+          "rank": 14,
+          "point": "DOC0005-K23",
+          "similarity": 0.6505077954566388
+        },
+        {
+          "rank": 15,
+          "point": "DOC0005-K29",
+          "similarity": 0.6502322834566389
+        },
+        {
+          "rank": 16,
+          "point": "DOC0007-K65",
+          "similarity": 0.6492513696561065
+        },
+        {
+          "rank": 17,
+          "point": "DOC0005-K13",
+          "similarity": 0.6492137714566388
+        },
+        {
+          "rank": 18,
+          "point": "DOC0005-K06",
+          "similarity": 0.6488011536561065
+        },
+        {
+          "rank": 19,
+          "point": "DOC0005-K36",
+          "similarity": 0.6463471074566388
+        },
+        {
+          "rank": 20,
+          "point": "DOC0005-K27",
+          "similarity": 0.6449494034566388
+        }
+      ]
+    },
+    {
+      "test_id": "C08",
+      "evidence": [
+        {
+          "point": "DOC0006-K52",
+          "rank": 2,
+          "rank_by_id": 2
+        },
+        {
+          "point": "DOC0006-K53",
+          "rank": 5,
+          "rank_by_id": 5
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0006-K45",
+          "similarity": 0.6910237442805376
+        },
+        {
+          "rank": 2,
+          "point": "DOC0006-K52",
+          "similarity": 0.6861638181469277
+        },
+        {
+          "rank": 3,
+          "point": "DOC0024-K23",
+          "similarity": 0.6695815470270088
+        },
+        {
+          "rank": 4,
+          "point": "DOC0006-K50",
+          "similarity": 0.6678339195503336
+        },
+        {
+          "rank": 5,
+          "point": "DOC0006-K53",
+          "similarity": 0.6576210549668654
+        },
+        {
+          "rank": 6,
+          "point": "DOC0011-K14",
+          "similarity": 0.6536506686154316
+        },
+        {
+          "rank": 7,
+          "point": "DOC0006-K34",
+          "similarity": 0.6530337566154316
+        },
+        {
+          "rank": 8,
+          "point": "DOC0006-K35",
+          "similarity": 0.6504085335352267
+        },
+        {
+          "rank": 9,
+          "point": "DOC0006-K31",
+          "similarity": 0.6484894615352267
+        },
+        {
+          "rank": 10,
+          "point": "DOC0006-K30",
+          "similarity": 0.6481123722215544
+        },
+        {
+          "rank": 11,
+          "point": "DOC0007-K15",
+          "similarity": 0.647752464714129
+        },
+        {
+          "rank": 12,
+          "point": "DOC0006-K27",
+          "similarity": 0.6472953886154316
+        },
+        {
+          "rank": 13,
+          "point": "DOC0011-K33",
+          "similarity": 0.6472894926154317
+        },
+        {
+          "rank": 14,
+          "point": "DOC0011-K31",
+          "similarity": 0.6470659486154315
+        },
+        {
+          "rank": 15,
+          "point": "DOC0006-K74",
+          "similarity": 0.6465404215352267
+        },
+        {
+          "rank": 16,
+          "point": "DOC0006-K51",
+          "similarity": 0.6459381815352268
+        },
+        {
+          "rank": 17,
+          "point": "DOC0006-K44",
+          "similarity": 0.6456720215352266
+        },
+        {
+          "rank": 18,
+          "point": "DOC0011-K04",
+          "similarity": 0.6456445086154317
+        },
+        {
+          "rank": 19,
+          "point": "DOC0011-K28",
+          "similarity": 0.6444626699676579
+        },
+        {
+          "rank": 20,
+          "point": "DOC0006-K32",
+          "similarity": 0.6424800695352266
+        }
+      ]
+    },
+    {
+      "test_id": "C10",
+      "evidence": [
+        {
+          "point": "DOC0015-K03",
+          "rank": null,
+          "rank_by_id": null
+        },
+        {
+          "point": "DOC0022-K03",
+          "rank": null,
+          "rank_by_id": 2
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0022-K12",
+          "similarity": 0.7078649276625649
+        },
+        {
+          "rank": 2,
+          "point": "DOC0022-K03",
+          "similarity": 0.7077854713988211
+        },
+        {
+          "rank": 3,
+          "point": "DOC0022-K22",
+          "similarity": 0.707711455662565
+        },
+        {
+          "rank": 4,
+          "point": "DOC0017-K05",
+          "similarity": 0.707545463264906
+        },
+        {
+          "rank": 5,
+          "point": "DOC0022-K08",
+          "similarity": 0.707049647662565
+        },
+        {
+          "rank": 6,
+          "point": "DOC0022-K02",
+          "similarity": 0.6978438289483622
+        },
+        {
+          "rank": 7,
+          "point": "DOC0017-K07",
+          "similarity": 0.6975686568152437
+        },
+        {
+          "rank": 8,
+          "point": "DOC0022-K11",
+          "similarity": 0.6974421276625649
+        },
+        {
+          "rank": 9,
+          "point": "DOC0022-K07",
+          "similarity": 0.695521647662565
+        },
+        {
+          "rank": 10,
+          "point": "DOC0022-K19",
+          "similarity": 0.695484447662565
+        },
+        {
+          "rank": 11,
+          "point": "DOC0022-K21",
+          "similarity": 0.695041487662565
+        },
+        {
+          "rank": 12,
+          "point": "DOC0017-K13",
+          "similarity": 0.693935863264906
+        },
+        {
+          "rank": 13,
+          "point": "DOC0022-K04",
+          "similarity": 0.6933468932121061
+        },
+        {
+          "rank": 14,
+          "point": "DOC0022-K16",
+          "similarity": 0.692782317212106
+        },
+        {
+          "rank": 15,
+          "point": "DOC0022-K18",
+          "similarity": 0.6927187972121059
+        },
+        {
+          "rank": 16,
+          "point": "DOC0022-K05",
+          "similarity": 0.692372765212106
+        },
+        {
+          "rank": 17,
+          "point": "DOC0022-K01",
+          "similarity": 0.691984925212106
+        },
+        {
+          "rank": 18,
+          "point": "DOC0022-K25",
+          "similarity": 0.691004573212106
+        },
+        {
+          "rank": 19,
+          "point": "DOC0022-K15",
+          "similarity": 0.690293245212106
+        },
+        {
+          "rank": 20,
+          "point": "DOC0022-K24",
+          "similarity": 0.6902507652121059
+        }
+      ]
+    },
+    {
+      "test_id": "H03",
+      "evidence": [
+        {
+          "point": "DOC0014-K45",
+          "rank": null,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0014-K45",
+          "similarity": 0.7403566959382142
+        },
+        {
+          "rank": 2,
+          "point": "DOC0016-K09",
+          "similarity": 0.7078546314679834
+        },
+        {
+          "rank": 3,
+          "point": "DOC0014-K12",
+          "similarity": 0.6787327533067204
+        },
+        {
+          "rank": 4,
+          "point": "DOC0015-K08",
+          "similarity": 0.6777394124291222
+        },
+        {
+          "rank": 5,
+          "point": "DOC0015-K15",
+          "similarity": 0.6714336568364898
+        },
+        {
+          "rank": 6,
+          "point": "DOC0014-K09",
+          "similarity": 0.6706710155500252
+        },
+        {
+          "rank": 7,
+          "point": "DOC0014-K22",
+          "similarity": 0.6693183208364899
+        },
+        {
+          "rank": 8,
+          "point": "DOC0022-K16",
+          "similarity": 0.6690446093606144
+        },
+        {
+          "rank": 9,
+          "point": "DOC0015-K07",
+          "similarity": 0.6629632085292384
+        },
+        {
+          "rank": 10,
+          "point": "DOC0016-K42",
+          "similarity": 0.6598566408364899
+        },
+        {
+          "rank": 11,
+          "point": "DOC0016-K41",
+          "similarity": 0.6565837608364897
+        },
+        {
+          "rank": 12,
+          "point": "DOC0015-K12",
+          "similarity": 0.6565247974890757
+        },
+        {
+          "rank": 13,
+          "point": "DOC0015-K06",
+          "similarity": 0.6540907654083353
+        },
+        {
+          "rank": 14,
+          "point": "DOC0016-K38",
+          "similarity": 0.6536678408364898
+        },
+        {
+          "rank": 15,
+          "point": "DOC0014-K04",
+          "similarity": 0.6535453609172301
+        },
+        {
+          "rank": 16,
+          "point": "DOC0015-K04",
+          "similarity": 0.6534897929172301
+        },
+        {
+          "rank": 17,
+          "point": "DOC0016-K36",
+          "similarity": 0.6530730408364898
+        },
+        {
+          "rank": 18,
+          "point": "DOC0015-K17",
+          "similarity": 0.6502794854083354
+        },
+        {
+          "rank": 19,
+          "point": "DOC0014-K17",
+          "similarity": 0.6500374134890757
+        },
+        {
+          "rank": 20,
+          "point": "DOC0014-K08",
+          "similarity": 0.6499701538157029
+        }
+      ]
+    },
+    {
+      "test_id": "H04",
+      "evidence": [
+        {
+          "point": "DOC0017-K13",
+          "rank": null,
+          "rank_by_id": 2
+        },
+        {
+          "point": "DOC0018-K15",
+          "rank": null,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0018-K15",
+          "similarity": 0.7423325086821089
+        },
+        {
+          "rank": 2,
+          "point": "DOC0017-K13",
+          "similarity": 0.721806047854346
+        },
+        {
+          "rank": 3,
+          "point": "DOC0018-K02",
+          "similarity": 0.7183460068959369
+        },
+        {
+          "rank": 4,
+          "point": "DOC0018-K01",
+          "similarity": 0.7155234068959369
+        },
+        {
+          "rank": 5,
+          "point": "DOC0018-K05",
+          "similarity": 0.7149074142767451
+        },
+        {
+          "rank": 6,
+          "point": "DOC0018-K50",
+          "similarity": 0.7142171664808032
+        },
+        {
+          "rank": 7,
+          "point": "DOC0018-K11",
+          "similarity": 0.7134272308959368
+        },
+        {
+          "rank": 8,
+          "point": "DOC0018-K08",
+          "similarity": 0.7132339217231992
+        },
+        {
+          "rank": 9,
+          "point": "DOC0018-K03",
+          "similarity": 0.7116057188959368
+        },
+        {
+          "rank": 10,
+          "point": "DOC0018-K20",
+          "similarity": 0.710434646276745
+        },
+        {
+          "rank": 11,
+          "point": "DOC0018-K04",
+          "similarity": 0.7102436068959369
+        },
+        {
+          "rank": 12,
+          "point": "DOC0018-K27",
+          "similarity": 0.709385202579087
+        },
+        {
+          "rank": 13,
+          "point": "DOC0018-K21",
+          "similarity": 0.7092515748959369
+        },
+        {
+          "rank": 14,
+          "point": "DOC0018-K14",
+          "similarity": 0.7088838468959369
+        },
+        {
+          "rank": 15,
+          "point": "DOC0018-K22",
+          "similarity": 0.7073111268959369
+        },
+        {
+          "rank": 16,
+          "point": "DOC0018-K12",
+          "similarity": 0.7064596388959369
+        },
+        {
+          "rank": 17,
+          "point": "DOC0018-K09",
+          "similarity": 0.7063847457231992
+        },
+        {
+          "rank": 18,
+          "point": "DOC0018-K30",
+          "similarity": 0.7058189982767451
+        },
+        {
+          "rank": 19,
+          "point": "DOC0018-K16",
+          "similarity": 0.705235686276745
+        },
+        {
+          "rank": 20,
+          "point": "DOC0017-K20",
+          "similarity": 0.7039852061638989
+        }
+      ]
+    },
+    {
+      "test_id": "H06",
+      "evidence": [
+        {
+          "point": "DOC0016-K32",
+          "rank": null,
+          "rank_by_id": 3
+        },
+        {
+          "point": "DOC0016-K55",
+          "rank": null,
+          "rank_by_id": 5
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0016-K42",
+          "similarity": 0.77566852895876
+        },
+        {
+          "rank": 2,
+          "point": "DOC0016-K40",
+          "similarity": 0.7718382409587601
+        },
+        {
+          "rank": 3,
+          "point": "DOC0016-K32",
+          "similarity": 0.761976168373629
+        },
+        {
+          "rank": 4,
+          "point": "DOC0016-K36",
+          "similarity": 0.759297714195601
+        },
+        {
+          "rank": 5,
+          "point": "DOC0016-K55",
+          "similarity": 0.7576362081444302
+        },
+        {
+          "rank": 6,
+          "point": "DOC0016-K39",
+          "similarity": 0.7564115844599182
+        },
+        {
+          "rank": 7,
+          "point": "DOC0016-K38",
+          "similarity": 0.7516558421956009
+        },
+        {
+          "rank": 8,
+          "point": "DOC0016-K15",
+          "similarity": 0.7494872065264324
+        },
+        {
+          "rank": 9,
+          "point": "DOC0016-K24",
+          "similarity": 0.7491318179977982
+        },
+        {
+          "rank": 10,
+          "point": "DOC0016-K37",
+          "similarity": 0.748969042195601
+        },
+        {
+          "rank": 11,
+          "point": "DOC0016-K35",
+          "similarity": 0.7473602602584511
+        },
+        {
+          "rank": 12,
+          "point": "DOC0016-K02",
+          "similarity": 0.7456963736669666
+        },
+        {
+          "rank": 13,
+          "point": "DOC0016-K41",
+          "similarity": 0.7433400007870855
+        },
+        {
+          "rank": 14,
+          "point": "DOC0016-K11",
+          "similarity": 0.7427401059977982
+        },
+        {
+          "rank": 15,
+          "point": "DOC0016-K21",
+          "similarity": 0.7422061548211826
+        },
+        {
+          "rank": 16,
+          "point": "DOC0016-K17",
+          "similarity": 0.7402234579977982
+        },
+        {
+          "rank": 17,
+          "point": "DOC0016-K49",
+          "similarity": 0.7398940065264324
+        },
+        {
+          "rank": 18,
+          "point": "DOC0016-K44",
+          "similarity": 0.7398938136669666
+        },
+        {
+          "rank": 19,
+          "point": "DOC0016-K53",
+          "similarity": 0.7392517845892826
+        },
+        {
+          "rank": 20,
+          "point": "DOC0016-K54",
+          "similarity": 0.7391772245892828
+        }
+      ]
+    },
+    {
+      "test_id": "H07",
+      "evidence": [
+        {
+          "point": "DOC0022-K21",
+          "rank": null,
+          "rank_by_id": 2
+        },
+        {
+          "point": "DOC0022-K22",
+          "rank": null,
+          "rank_by_id": 1
+        }
+      ],
+      "top20": [
+        {
+          "rank": 1,
+          "point": "DOC0022-K22",
+          "similarity": 0.7198829295979078
+        },
+        {
+          "rank": 2,
+          "point": "DOC0022-K21",
+          "similarity": 0.7140616405798516
+        },
+        {
+          "rank": 3,
+          "point": "DOC0015-K13",
+          "similarity": 0.7014998327014783
+        },
+        {
+          "rank": 4,
+          "point": "DOC0014-K18",
+          "similarity": 0.6980016804971193
+        },
+        {
+          "rank": 5,
+          "point": "DOC0015-K12",
+          "similarity": 0.6808717950825436
+        },
+        {
+          "rank": 6,
+          "point": "DOC0022-K15",
+          "similarity": 0.6545980677033948
+        },
+        {
+          "rank": 7,
+          "point": "DOC0014-K17",
+          "similarity": 0.6532208822651075
+        },
+        {
+          "rank": 8,
+          "point": "DOC0022-K25",
+          "similarity": 0.6503708230835002
+        },
+        {
+          "rank": 9,
+          "point": "DOC0022-K24",
+          "similarity": 0.6498939401662356
+        },
+        {
+          "rank": 10,
+          "point": "DOC0022-K12",
+          "similarity": 0.6485803910835002
+        },
+        {
+          "rank": 11,
+          "point": "DOC0022-K08",
+          "similarity": 0.6473464310835002
+        },
+        {
+          "rank": 12,
+          "point": "DOC0022-K16",
+          "similarity": 0.6466988759618765
+        },
+        {
+          "rank": 13,
+          "point": "DOC0022-K27",
+          "similarity": 0.6464373241662356
+        },
+        {
+          "rank": 14,
+          "point": "DOC0022-K18",
+          "similarity": 0.6463421241662355
+        },
+        {
+          "rank": 15,
+          "point": "DOC0022-K26",
+          "similarity": 0.6452740277922004
+        },
+        {
+          "rank": 16,
+          "point": "DOC0022-K19",
+          "similarity": 0.6443032121662355
+        },
+        {
+          "rank": 17,
+          "point": "DOC0022-K14",
+          "similarity": 0.6442287321662356
+        },
+        {
+          "rank": 18,
+          "point": "DOC0019-K46",
+          "similarity": 0.6439894811987846
+        },
+        {
+          "rank": 19,
+          "point": "DOC0022-K28",
+          "similarity": 0.6421727961662356
+        },
+        {
+          "rank": 20,
+          "point": "DOC0022-K01",
+          "similarity": 0.6419511641662355
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "decided_at": "2026-11-17T04:25:13.113Z",
+  "doc_id": "DOC0022",
+  "decision": "STRUCTURE_ACCEPTED_FOR_FAITHFUL_SOURCE_TRIAL",
+  "structure_accepted": true,
+  "trial_accepted": false,
+  "formal_import": false,
+  "retrieval_accepted": false,
+  "bindings": {
+    "master": {
+      "path": "03-domains/CL/DOC0022_铁路机车车辆设计制造维修进口许可办法.md",
+      "sha256": "684ca577a353bc72dce0abe8290574aed5e87fd6520b22b97ecfb8c2bf716f57"
+    },
+    "expected": {
+      "path": "04-chunks/expected/DOC0022-v5.json",
+      "sha256": "97852f5e308ecb47e62e76756a35ea96de5acd753563007bccd9325e7b8db70a"
+    },
+    "original": {
+      "path": "01-originals/web/S0037.txt",
+      "sha256": "951fb9d9231e0f09cdd9e8d208c33fb3ecee1f752f3c2a2496258506e26f3d3f"
+    },
+    "normalized": {
+      "path": "02-normalized/reviewed/DOC0022-v5.txt",
+      "sha256": "27b42b0eda1c3d08d442894198fc440d077e814e8f082d898b2d049576be945f"
+    },
+    "original_pdf": {
+      "path": "01-originals/attachments/S0037-1.pdf",
+      "sha256": "7922e18323032861596b4fb1efe661ba5c9fcd81b7941f644e2799cdf9dcd49a"
+    }
+  },
+  "deterministic_checks": {
+    "unique_points": 28,
+    "complete_sections": true,
+    "headings_valid": true,
+    "source_bodies_retained": true,
+    "dependencies_complete": true
+  },
+  "semantic_review": {
+    "pass": 28,
+    "new_requests": 0,
+    "reused_batches": 4,
+    "model": "102e9861e4e24a73abb7cff80df6c52e",
+    "rules_sha256": "2576b753feed31276f1c4949ffb78ab23602e3adcb2a0d043078bda92c0e84d3",
+    "prompt_sha256": "54553a4ff3c08413b4357d8dba4ed4e4316af12ce793893e5968332f71c663a8"
+  },
+  "visual_review": {
+    "evidence": "05-review/revision-visual-v5.json",
+    "pages_viewed": 13,
+    "limitation": "完整页面视觉查看与条款转录核对；不是法律意见或所有后续公告穷尽核查"
+  },
+  "source_version": {
+    "evidence": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/evidence.json",
+    "current_catalog_verified": true,
+    "legal_currency_scope": "Listed in the official current-effective regulation catalog at the recorded access time",
+    "exhaustive_later_notice_search": false,
+    "formal_source_gate": "Official current-effective catalog explicitly lists this consolidated version; faithful-source ingestion permitted with recorded version and bounded currency statement."
+  },
+  "budgets": {
+    "tokenizer_sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+    "embedding_runtime_limit": 4096,
+    "embedding_declared_limit": 8192,
+    "maximum_prefixed_tokens": 467,
+    "longest_id": "DOC0022-K13",
+    "truncate": false,
+    "actual_evaluated_tokens": 467,
+    "vector_dimensions": 1024,
+    "vector_sha256": "13d50714adffe2f506567a5d79f51f403e26a8ab816d99b01e096cd60bdf29d6",
+    "runtime_model": {
+      "name": "bge-m3:latest",
+      "model": "bge-m3:latest",
+      "size": 1218969598,
+      "digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "bert",
+        "families": [
+          "bert"
+        ],
+        "parameter_size": "566.70M",
+        "quantization_level": "F16"
+      },
+      "expires_at": "2026-11-17T04:30:16.737398299Z",
+      "size_vram": 0,
+      "context_length": 4096
+    },
+    "reranker_model": "bge-reranker-v2-m3",
+    "reranker_context_limit": 8192,
+    "maximum_reranker_document_tokens": 465,
+    "query": "铁路机车车辆行政许可的条件、有效期、延期和除外事项是什么？",
+    "query_tokens": 19,
+    "reserved_pair_special_tokens": 8,
+    "reranker_probe": {
+      "model": "bge-reranker-v2-m3",
+      "object": "list",
+      "usage": {
+        "prompt_tokens": 487,
+        "total_tokens": 487
+      },
+      "results": [
+        {
+          "index": 0,
+          "relevance_score": -0.2661869525909424
+        }
+      ]
+    }
+  },
+  "points": [
+    {
+      "knowledge_point_id": "DOC0022-K01",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第一条",
+      "candidate_sha256": "e57293d5ec2d88bc0970a7248d88fcccac16a29feac6273d17e9211d07e2c146",
+      "complete_input_sha256": "bee531767292bd01a05621159147cb6b58b462f19077f6def6f21f5fa2d8d3ba",
+      "embedding_tokens": 259,
+      "reranker_tokens": 257,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第一条立法目的与依据：规范铁路机车车辆行政许可工作、加强铁路运输安全监督管理、保障公众生命财产安全，依据行政许可法、铁路安全管理条例等制定；对象、条件、结论与原文一致，无增删。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K02",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第二条",
+      "candidate_sha256": "5d2303c43065dbab793250341fa5eb0ac458a791813cf8ae0c768e6698dd6207",
+      "complete_input_sha256": "4821766d880b63b65ecbf32bc20187da31dfd8ff91bbf554962f27ff25794df3",
+      "embedding_tokens": 321,
+      "reranker_tokens": 319,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第二条定义：铁路机车车辆包括直接承担公共运输和检测试验任务的机车、动车组、客车、货车等移动设备，以及在铁路上运行并承担施工、维修、救援等作业的轨道车、救援起重机、铺轨机和架桥机（组）车辆、接触网作业车和大型养路机械等自轮运转特种设备；并保留许可目录由国家铁路局制定、调整并发布的程序性规定。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K03",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第三条",
+      "candidate_sha256": "8eab2a37bbbeffdc5c0155d628c03911ee6a0f6fa588b74dfef35510f385661d",
+      "complete_input_sha256": "91d914faddaf8b085a6096e47ae529df28d428419e3664800fe4c5273734f984",
+      "embedding_tokens": 466,
+      "reranker_tokens": 464,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第三条两款：分别申请型号合格证、制造许可证、维修许可证或进口许可证的总要求，以及设计企业取得型号合格证、制造企业在批量制造前取得制造许可证、大修维修企业在维修样车投入运营前取得维修许可证、国内进口企业在投入运营前取得进口许可证的分项条件；并内联第二条定义以明确“铁路机车车辆”范围，依赖必要且已补足。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K04",
+      "source_location": "S0037，交通运输部官方合并全文，第一章 总　则，第四条",
+      "candidate_sha256": "223d9d252079ba40ed8692ee512cd9a8b17b0c5b72f1559a4ea99edd7b81b6a2",
+      "complete_input_sha256": "519339987f9dbc4100ca2e0f9be88a555aed5391fc93a4155370e37a13921339",
+      "embedding_tokens": 266,
+      "reranker_tokens": 264,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第四条：设计、制造、维修、使用单位应遵守产品质量安全法律、行政法规及国家有关规定，确保投入使用车辆符合安全运营要求；主体、义务与结论一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K05",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第五条",
+      "candidate_sha256": "3b36a75f90fda30bb39343f87a83f26ca04bc70db304d027337ac60a3f3f0f71",
+      "complete_input_sha256": "3a6661ba66148f556ab45d04d9918fa5715e5f6b92f77ff5e7349a10586ae8d2",
+      "embedding_tokens": 264,
+      "reranker_tokens": 262,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第五条：设计、制造、维修或进口新型铁路机车车辆应符合国家产业和技术发展政策及铁路装备现代化要求，符合国家相关标准和行业标准；条件与结论一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K06",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第六条",
+      "candidate_sha256": "2acb63b2087124f51ed2dfc5568d81ae9767daae553f284ed5d29221cdc28127",
+      "complete_input_sha256": "313d2f2c850fcc93c473e7db9e3601a6e62cc8a8c313f12044b06383d88c453e",
+      "embedding_tokens": 409,
+      "reranker_tokens": 407,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第六条取得型号合格证的九项条件，对象为申请企业及样车，条件包括法人资格、设计管理与技术人员、样车技术条件与设计方案审查、关键零部件和样车型式试验、运用考核及解体检查、技术评价、特种设备合规、无知识产权侵权及兜底条款；未增删条件或改变并列关系。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K07",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第七条",
+      "candidate_sha256": "95f75ac5bd2a811e391895ddfeb6feb75111eab24d9ad24a66f6d05f87be7ad8",
+      "complete_input_sha256": "68e93b402e6036a20becb56c0b7c8b51efc3ad0fbb2e651bbbf02a843cafcb45",
+      "embedding_tokens": 393,
+      "reranker_tokens": 391,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第七条取得制造许可证的八项条件，含拟制造产品已取得型号合格证、制造样车通过型式试验并经型号合格证持有企业技术评价合格等关键限制，对象、条件与并列关系与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K08",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第八条",
+      "candidate_sha256": "5c2258f97eca15f71a6ca0cd1b272c1712957b4db84abd91762de1b74f64756e",
+      "complete_input_sha256": "8392aa7725f0d7133bf007d0f5ea24ac4bc95c5e4d8cc34bd6a0b81693f468ad",
+      "embedding_tokens": 427,
+      "reranker_tokens": 425,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第八条取得维修许可证的八项条件，含与维修样车产权单位签订试修合同、协议或出具委托维修证明材料，维修样车通过例行试验并经产权单位或其上级主管单位技术评价合格等限制，未改变选择关系。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K09",
+      "source_location": "S0037，交通运输部官方合并全文，第二章 取证条件，第九条",
+      "candidate_sha256": "12620d157db0b2c58b4493898798a261e0e5ff14e10dd64da0742cfc8208fd8c",
+      "complete_input_sha256": "074d032da3de9b1f053020ed082cf0e2b93f9745e84d0ad9bb654f7cf5861070",
+      "embedding_tokens": 332,
+      "reranker_tokens": 330,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第九条取得进口许可证的七项条件，含国内用户需求证明、制造企业所在国法定资质与业绩信誉、技术条件设计方案经国内用户审查、关键零部件和样车型式试验、样车经国内用户技术评价合格等，对象与条件一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K10",
+      "source_location": "S0037，交通运输部官方合并全文，第三章 申请材料，第十条",
+      "candidate_sha256": "b3e8b9aaffda6cc91605bdd0983e56ad3d511557148740b1063be1a9f6196a0d",
+      "complete_input_sha256": "34bbc6c7fc6af63b4ea448aec9c7101cbe590ee5a0586b640d8f7856f05a38ed",
+      "embedding_tokens": 406,
+      "reranker_tokens": 404,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第十条申请型号合格证应提交的六类材料，含申请书、营业执照副本、质量管理体系证明、企业基本情况报告、设计技术总结报告及兜底材料，括号内列举内容与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K11",
+      "source_location": "S0037，交通运输部官方合并全文，第三章 申请材料，第十一条",
+      "candidate_sha256": "7c93807e72f5cac16369e0e2b5fd770bc1a2c2c579764ca957ee7ca31464e6bb",
+      "complete_input_sha256": "4d771d7d326c2e4ce08c7e544a7300dbb4171b49aab3c2a6c46edeb8782b76a3",
+      "embedding_tokens": 406,
+      "reranker_tokens": 404,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第十一条申请制造许可证应提交的八类材料，含型号合格证、产品图样技术条件及合法来源证明、制造技术总结报告等，未遗漏或改变材料项。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K12",
+      "source_location": "S0037，交通运输部官方合并全文，第三章 申请材料，第十二条",
+      "candidate_sha256": "5c7f3b12b4b9c461fe59c47108c4941fc8c2665c48c6a7b9004bfa60a380c5db",
+      "complete_input_sha256": "2e9bc9b54a09dc954961adcc6132bc8e70c9f6ae65ab72ab1439751b32ed1423",
+      "embedding_tokens": 446,
+      "reranker_tokens": 444,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第十二条申请维修许可证应提交的八类材料，含样车试修合同协议或委托维修证明、产品图样技术条件及合法来源证明、维修技术总结报告等，选择关系与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K13",
+      "source_location": "S0037，交通运输部官方合并全文，第三章 申请材料，第十三条",
+      "candidate_sha256": "d6f543aa5570c1b6a529abaf2d401c6686291982b4d8e890f42ae523480044b8",
+      "complete_input_sha256": "def6662394dfbb2f467cc5dd9ce27d29b3a389631413161ddccf0479f002b000",
+      "embedding_tokens": 467,
+      "reranker_tokens": 465,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第十三条申请进口许可证应提交的九类材料，含国内用户需求证明、制造企业合法注册登记及资质证明、质量管理体系证明、进口技术总结报告等，对象与材料项一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K14",
+      "source_location": "S0037，交通运输部官方合并全文，第三章 申请材料，第十四条",
+      "candidate_sha256": "8275a616c75b6fd02e08a820af9b990d09225adc2e1ee61995eb711d9855e976",
+      "complete_input_sha256": "c8e0e970aa1ebe07162d5abf2d05dbbeda6e98dffc69b87b1c99bfc9bee4ef44",
+      "embedding_tokens": 237,
+      "reranker_tokens": 235,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为行政许可申请书，要求采用格式文本，文本格式由国家铁路局制定；候选正文与原文一致，未增删条件或结论。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K15",
+      "source_location": "S0037，交通运输部官方合并全文，第四章 许可程序，第十五条",
+      "candidate_sha256": "5b78747db481c563bb4de54d72ec66ef2236cd66fecda9ac0cc3347667c7b464",
+      "complete_input_sha256": "45e71f97d4394402df4cd69dafc7c0c0e50891a77869550cc70ed698ec5e99a9",
+      "embedding_tokens": 376,
+      "reranker_tokens": 374,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "完整保留国家铁路局对申请材料的三类处理情形：当场更正、5个工作日内一次告知补正（逾期不告知自收到之日起即为受理）、材料齐全或补正后受理；并保留受理或不予受理应出具加盖专用章和注明日期的书面凭证。条件、期限起点与并列关系均与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K16",
+      "source_location": "S0037，交通运输部官方合并全文，第四章 许可程序，第十六条",
+      "candidate_sha256": "13e5e2c9f83fc201416d60960c070727c9ee7e435d8c2f9dfca16630e138db40",
+      "complete_input_sha256": "27d7aefdbe46039e13c8a114ead78ef6ae94f2dbef07066901eea09176984e02",
+      "embedding_tokens": 303,
+      "reranker_tokens": 301,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为国家铁路局受理后的审查行为，条件为必要时可组织现场核实、检验、检测及专家评审；结论区分审查合格作出准予许可书面决定、不合格作出不予许可书面决定并说明理由送达申请企业，与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K17",
+      "source_location": "S0037，交通运输部官方合并全文，第四章 许可程序，第十七条",
+      "candidate_sha256": "ab7e142fdb0d93dae3753b42ee07a18592a86280882cb89ac1ad82a3b97444b8",
+      "complete_input_sha256": "616d4d60b38cd6d0cc5527f83858dbfd90035149647c5fb207f6c67e74f2973c",
+      "embedding_tokens": 279,
+      "reranker_tokens": 277,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "期限起点为受理申请之日，基准期限20个工作日；延长条件为经国家铁路局负责人批准，延长10个工作日并告知理由；检验、检测和专家评审所需时间不计入上述期限，数值与例外均与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K18",
+      "source_location": "S0037，交通运输部官方合并全文，第四章 许可程序，第十八条",
+      "candidate_sha256": "08ec11bf62c589b83926b1f2dbdae44e6d8670a63b4030e5240d7212fb74b543",
+      "complete_input_sha256": "86a0defb19d42c4b60b238fe3033d3c3310d93fcbaf2db1fb4b1cd3109e8d184",
+      "embedding_tokens": 246,
+      "reranker_tokens": 244,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "条件为国家铁路局作出准予行政许可决定，期限起点为作出许可决定之日，期限10个工作日，义务为向申请企业颁发、送达相应行政许可证件，与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K19",
+      "source_location": "S0037，交通运输部官方合并全文，第五章 证书管理，第十九条",
+      "candidate_sha256": "c852fa295bbd74a371acf0c8ad61779d8d5d71f79a223d563cac2a48736a1290",
+      "complete_input_sha256": "b3fbb87ac0ada2cf226c077bcb5498ce31a3d4c5198405615e8d1a85d6edbc75",
+      "embedding_tokens": 256,
+      "reranker_tokens": 254,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "义务主体为被许可企业，载体为产品使用说明书和产品合格证，内容为注明行政许可证书的有效期和编号，与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K20",
+      "source_location": "S0037，交通运输部官方合并全文，第五章 证书管理，第二十条",
+      "candidate_sha256": "43c9e8a9aa7a9228b6104808eb0f287eb5d5bd45fc04b778fe72b5e736ae32a8",
+      "complete_input_sha256": "f25183189d6a7b3a9c20c36e0e7d2b1f1b185fc20e89af6ebfa47bf6dec2b78f",
+      "embedding_tokens": 300,
+      "reranker_tokens": 298,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "完整保留各类证书有效期：型号合格证长期；制造、进口许可证5年；维修许可证按型号分5年、8年、10年且具体有效期由国家铁路局发布；延续申请期限起点为有效期届满，须提前60个工作日提出。数值、单位与期限起点均与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K21",
+      "source_location": "S0037，交通运输部官方合并全文，第五章 证书管理，第二十一条",
+      "candidate_sha256": "c37189657a12c044e5bb9550cdc3fc6d7a1c963291b9774fd7cde4a176ee7e50",
+      "complete_input_sha256": "49fd6d09e225767d9c008ea069055db05dbff892abcd5760dfccb44cae091b42",
+      "embedding_tokens": 318,
+      "reranker_tokens": 316,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "条件为证书有效期内企业名称或制造、维修地址名称发生变化，义务为自变化事项发生后30个工作日内提出变更申请，结论为变更后证书有效期不变；候选已内联第二十二条作为必要依赖，补足“地址变更造成许可条件变化须重新申请”及“型号合格证产品重大变化须重新申请型号许可”的边界，依赖引用正确且未扩大。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K22",
+      "source_location": "S0037，交通运输部官方合并全文，第五章 证书管理，第二十二条",
+      "candidate_sha256": "e98e382024a173cc09af4201f4e5609d8cdf32a01ca0242fbdc09e9d1f6f9416",
+      "complete_input_sha256": "3c8aa1225c68cd09620fed1dd704b40ae98b3e686e4922150632560c19f6aad9",
+      "embedding_tokens": 337,
+      "reranker_tokens": 335,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第二十二条两款：变更制造、维修地址造成许可条件变化的，被许可企业应重新申请制造、维修许可；已取得型号合格证的产品发生重大变化时，应重新申请取得型号许可。内联第二十一条仅作必要依赖，用于区分地址名称变更与地址变更导致许可条件变化，未改变本条对象、条件或结论。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K23",
+      "source_location": "S0037，交通运输部官方合并全文，第六章 监督管理，第二十三条",
+      "candidate_sha256": "15d5bc243bb986e60a9a2a78800c961af2c9e6243467a20610f96d6219be11a1",
+      "complete_input_sha256": "d561f17808154786149275e48742260e37cac4733de8a718c95c46cfa9b08eee",
+      "embedding_tokens": 275,
+      "reranker_tokens": 273,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第二十三条两款：国家铁路局及其铁路监督管理机构对被许可企业实施监督检查，企业应配合并按要求提交材料；取得制造、维修许可证的企业应按年度提交产品质量管理及售后服务情况自查报告。对象、义务主体和年度要求均与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K24",
+      "source_location": "S0037，交通运输部官方合并全文，第六章 监督管理，第二十四条",
+      "candidate_sha256": "957176e104a6a23cb28ba399b7b9fd52d151d9293af9e036dcec1fe5f81f72cf",
+      "complete_input_sha256": "0e473e952e714b0e40f3a8644fe5e7f5ecc4f9307a0c9df8c17685cb0b30fafa",
+      "embedding_tokens": 261,
+      "reranker_tokens": 259,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选准确保留第二十四条：申请企业隐瞒有关情况或提供虚假材料申请行政许可的，国家铁路局不予受理或不予行政许可并给予警告，申请企业在1年内不得再次申请该行政许可。条件、处理结论和1年期限均一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K25",
+      "source_location": "S0037，交通运输部官方合并全文，第六章 监督管理，第二十五条",
+      "candidate_sha256": "5df2a375fc3734f582b2a38731a9c28de3e5803e1e20ca18eaef7d99af2f9791",
+      "complete_input_sha256": "8dfe8492748271b8ed57d44091dac9fa8068f00673bf4009070f35c12f68f1f2",
+      "embedding_tokens": 376,
+      "reranker_tokens": 374,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第二十五条：五项可撤销行政许可情形，以及以欺骗、贿赂等不正当手段取得许可应撤销、申请人在3年内不得再次申请。撤销主体、启动方式（利害关系人请求或依职权）、各项情形和3年限制均与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K26",
+      "source_location": "S0037，交通运输部官方合并全文，第六章 监督管理，第二十六条",
+      "candidate_sha256": "87813a36fe1a0565e59377c0cf0458b337d756d27294d23c73c1faa5772d38ef",
+      "complete_input_sha256": "203c9571dd5c0cd56ff75ce1cde1c3c198c823467e2ef5f904a9dc48d4941a14",
+      "embedding_tokens": 315,
+      "reranker_tokens": 313,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第二十六条五项注销情形：有效期届满未延续、企业依法终止、许可被撤销或证件被吊销、不可抗力导致无法实施、法律法规规定的其他应注销情形。注销主体和各项条件均一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K27",
+      "source_location": "S0037，交通运输部官方合并全文，第七章 附　则，第二十七条",
+      "candidate_sha256": "1e99820c13152bd600bcea17ff27f350597faa9bb63ef93801c3a5f0bf1cc788",
+      "complete_input_sha256": "666b48696c7dda5822423a5f5f256202b886590cdc35676d271628db3ed79029",
+      "embedding_tokens": 227,
+      "reranker_tokens": 225,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选与第二十七条原文一致：国家铁路局依据本办法制定实施细则。主体和授权内容完整。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    },
+    {
+      "knowledge_point_id": "DOC0022-K28",
+      "source_location": "S0037，交通运输部官方合并全文，第七章 附　则，第二十八条",
+      "candidate_sha256": "78b3358bc71f9e6ea58c789ac01bcff56ae447fb0c9eb535589e6efb32f804fd",
+      "complete_input_sha256": "b7bc90b1369dac65c3210d1c304802a70e8ea4cd7aeda12ac2e779a530d51bb8",
+      "embedding_tokens": 261,
+      "reranker_tokens": 259,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第二十八条：本办法自2014年1月1日起施行，2005年4月1日原铁道部公布的《铁路机车车辆设计生产维修进口许可管理办法》（铁道部令第14号）同时废止。施行日期、废止对象和废止时点均一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/evidence.json",
+      "sha256": "ffc8528c6feb80f9e6aea43f67d25f7d33a2236940917d4ecebf8ebeddf999d6"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/verification.json",
+      "sha256": "fe4a679f8093d1062f92b353179c18007591a5710b844d103aac3fffe310dfe1"
+    },
+    {
+      "path": "05-review/revision-visual-v5.json",
+      "sha256": "25ce9038934b4e6b2ff7da066193b96210684ca44bbc8ee4b912743dd20ea832"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/batches/6c45a39264dc5c1289981564a3115d077ca54aca34e1a7b3ff3e1949ceb2abd4.json",
+      "sha256": "95f73372ae23c6c1da97c2cb6c248195382d9b9f522cf971460f3c6b0b7ccb80"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/batches/98d9482310f3336d726884cda4cd8d77d23a45405ede5456c31dd38cff2d6995.json",
+      "sha256": "334068795ca0c652ff2792cb5a485d3c642490bd89da3708a88528fd67aaac39"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/batches/c3233659aed273bdc028bdf6c9afba6b3933686032b1b93e8faea343e4931c94.json",
+      "sha256": "5fa124aeb71a4179e9782f5abc63bfd6187094e10382fc8ac58f498e85e3d493"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/batches/fd6b9a421ee6765652983cd4b10387a910856e4449cc8a43eb6ab5de0b5a5eef.json",
+      "sha256": "b76cfbea116eb126bd8a3b8824230a9758fb47947cdaa26758f1dbf39a15f6a7"
+    }
+  ],
+  "cost": {
+    "semantic_requests": 0,
+    "embedding_requests": 1,
+    "rerank_requests": 1,
+    "tokenization_requests": 29,
+    "provider_cost": null
+  },
+  "limitation": "Structure and current official catalog eligibility only; actual chunks, formal ingestion, retrieval, citations and no-evidence answers require independent acceptance."
+}

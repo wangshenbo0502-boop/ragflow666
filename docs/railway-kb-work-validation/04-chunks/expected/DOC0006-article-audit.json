@@ -1,0 +1,875 @@
+{
+  "doc_id": "DOC0006",
+  "source_id": "S0006",
+  "source_path": "01-originals/baseline/06_railway-safety.md",
+  "output_path": "03-domains/GW/DOC0006_铁路安全管理条例.md",
+  "expected_article_count": 108,
+  "extracted_article_count": 108,
+  "output_sha256": "cf5f7b74a9d975c0bfd62a23a32e21ce5ba904209a277dc63f1abcd30e9c6582",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "6a7afc1de930977d6f556b91241589f0e9a069a49fc75d411c82e41fa6ead6fc",
+      "output_sha256": "6a7afc1de930977d6f556b91241589f0e9a069a49fc75d411c82e41fa6ead6fc",
+      "source_characters": 41,
+      "output_characters": 41
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "a3b80da43cf9f0919298f13f844f2238f1fbb0eee1d83e25bd693c4c4506e864",
+      "output_sha256": "a3b80da43cf9f0919298f13f844f2238f1fbb0eee1d83e25bd693c4c4506e864",
+      "source_characters": 26,
+      "output_characters": 26
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "8c4e8f2eccbae5133e9b98e7faaf7b5e9bacac28c2865522da4632b8ddaa5751",
+      "output_sha256": "8c4e8f2eccbae5133e9b98e7faaf7b5e9bacac28c2865522da4632b8ddaa5751",
+      "source_characters": 137,
+      "output_characters": 137
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "ba3afe50a5d91b552411cb6715b0d72279f4e59c5973f42bfba06ecfe26d033a",
+      "output_sha256": "ba3afe50a5d91b552411cb6715b0d72279f4e59c5973f42bfba06ecfe26d033a",
+      "source_characters": 104,
+      "output_characters": 104
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "6a9823b2218e0a2d67d06e20977edf3b48025b52d71a0ba7abf5989a6f1d9467",
+      "output_sha256": "6a9823b2218e0a2d67d06e20977edf3b48025b52d71a0ba7abf5989a6f1d9467",
+      "source_characters": 178,
+      "output_characters": 178
+    },
+    {
+      "article": "第六条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "f54a89a304b11cb8e8dece2449b717119a6a17c74965673392932bc66e02f7cf",
+      "output_sha256": "f54a89a304b11cb8e8dece2449b717119a6a17c74965673392932bc66e02f7cf",
+      "source_characters": 45,
+      "output_characters": 45
+    },
+    {
+      "article": "第七条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "2fb3ba9d345017df31353bacabb08bef2a8217e29000fd3fb0f34492e32f91d7",
+      "output_sha256": "2fb3ba9d345017df31353bacabb08bef2a8217e29000fd3fb0f34492e32f91d7",
+      "source_characters": 197,
+      "output_characters": 197
+    },
+    {
+      "article": "第八条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "12f5bce55f838840549e9ecaea220aa48ea0f1b0181e593ef0d06a4c718bb964",
+      "output_sha256": "12f5bce55f838840549e9ecaea220aa48ea0f1b0181e593ef0d06a4c718bb964",
+      "source_characters": 40,
+      "output_characters": 40
+    },
+    {
+      "article": "第九条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "0201171825d94b80bab697dd942709351fa4988759546af896cf7813f957907b",
+      "output_sha256": "0201171825d94b80bab697dd942709351fa4988759546af896cf7813f957907b",
+      "source_characters": 59,
+      "output_characters": 59
+    },
+    {
+      "article": "第十条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "3bbbfe9508315b320477060d3495e22a6f7af99a088403308c4ceba20de702bd",
+      "output_sha256": "3bbbfe9508315b320477060d3495e22a6f7af99a088403308c4ceba20de702bd",
+      "source_characters": 68,
+      "output_characters": 68
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "3f0cceab45a6d0b23cc927f6c3270bc62b04dbd9eda0af23f2ca8c8216ffbce7",
+      "output_sha256": "3f0cceab45a6d0b23cc927f6c3270bc62b04dbd9eda0af23f2ca8c8216ffbce7",
+      "source_characters": 150,
+      "output_characters": 150
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "fcd790cbf0b7d05711b8889bf42d31d731de5d3fe85c8362de01efb2aac62143",
+      "output_sha256": "fcd790cbf0b7d05711b8889bf42d31d731de5d3fe85c8362de01efb2aac62143",
+      "source_characters": 52,
+      "output_characters": 52
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "c7271e8e1374520adf74f304b1cb5eb9fceedae5ef804f30c3fd7327613b6fce",
+      "output_sha256": "c7271e8e1374520adf74f304b1cb5eb9fceedae5ef804f30c3fd7327613b6fce",
+      "source_characters": 45,
+      "output_characters": 45
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "1006a22b3f7e19ade88d4f6fc4871a9a783bad882498ffa044468575874def5c",
+      "output_sha256": "1006a22b3f7e19ade88d4f6fc4871a9a783bad882498ffa044468575874def5c",
+      "source_characters": 95,
+      "output_characters": 95
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "fae2c8483a908b869a145006b173b78d95fe95920a40754895023f3cbfadbdc5",
+      "output_sha256": "fae2c8483a908b869a145006b173b78d95fe95920a40754895023f3cbfadbdc5",
+      "source_characters": 67,
+      "output_characters": 67
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "2113438ae2f4d89a3c9b917e1c279144a7756f81d2cf1b201f54116e1ac00db5",
+      "output_sha256": "2113438ae2f4d89a3c9b917e1c279144a7756f81d2cf1b201f54116e1ac00db5",
+      "source_characters": 110,
+      "output_characters": 110
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "e22d509023c637b2f6a952729e804050418a783290d7eba1dcba774598fd44ef",
+      "output_sha256": "e22d509023c637b2f6a952729e804050418a783290d7eba1dcba774598fd44ef",
+      "source_characters": 229,
+      "output_characters": 229
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "9e214863eb1dc58b6c1946bcd17ffe1c13ba79d57564e71e17484f8d3febc9a4",
+      "output_sha256": "9e214863eb1dc58b6c1946bcd17ffe1c13ba79d57564e71e17484f8d3febc9a4",
+      "source_characters": 232,
+      "output_characters": 232
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "b19ddf430aec39b87fa576264d69fb2fb44d7777285be701cd09a0acc934afaa",
+      "output_sha256": "b19ddf430aec39b87fa576264d69fb2fb44d7777285be701cd09a0acc934afaa",
+      "source_characters": 49,
+      "output_characters": 49
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第二章　铁路建设质量安全",
+      "source_sha256": "3b3305a704ef85c859e199c62b35f33d540ecab76007d68397432dcfc0888293",
+      "output_sha256": "3b3305a704ef85c859e199c62b35f33d540ecab76007d68397432dcfc0888293",
+      "source_characters": 45,
+      "output_characters": 45
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第三章　铁路专用设备质量安全",
+      "source_sha256": "09e80dbad4e23bcb5d9081af2c5dfcf36c3e07eb3c02aeaea13ce9718dc4502a",
+      "output_sha256": "09e80dbad4e23bcb5d9081af2c5dfcf36c3e07eb3c02aeaea13ce9718dc4502a",
+      "source_characters": 170,
+      "output_characters": 170
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第三章　铁路专用设备质量安全",
+      "source_sha256": "22222928ec3b7d1e00c2f489db055a6fd66ffa7032be9f812559234a4cc2c397",
+      "output_sha256": "22222928ec3b7d1e00c2f489db055a6fd66ffa7032be9f812559234a4cc2c397",
+      "source_characters": 169,
+      "output_characters": 169
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第三章　铁路专用设备质量安全",
+      "source_sha256": "44c6a4540ee403386ca18094fa21388af6b7f1296542bee49ac057eb9c928a89",
+      "output_sha256": "44c6a4540ee403386ca18094fa21388af6b7f1296542bee49ac057eb9c928a89",
+      "source_characters": 58,
+      "output_characters": 58
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第三章　铁路专用设备质量安全",
+      "source_sha256": "539f4d6b6339de99c2b4f178225b811e9326977f813c2fac449e4ea55dbfe67e",
+      "output_sha256": "539f4d6b6339de99c2b4f178225b811e9326977f813c2fac449e4ea55dbfe67e",
+      "source_characters": 58,
+      "output_characters": 58
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第三章　铁路专用设备质量安全",
+      "source_sha256": "5cd0026f93a2daa2faa614489be848161789e8768f5a40330a37d8d66481e78d",
+      "output_sha256": "5cd0026f93a2daa2faa614489be848161789e8768f5a40330a37d8d66481e78d",
+      "source_characters": 95,
+      "output_characters": 95
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第三章　铁路专用设备质量安全",
+      "source_sha256": "0d532632912e82d0c457b0efa80977d8c6ac0f6389fb8b3ff25d5b2306847d7d",
+      "output_sha256": "0d532632912e82d0c457b0efa80977d8c6ac0f6389fb8b3ff25d5b2306847d7d",
+      "source_characters": 167,
+      "output_characters": 167
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "25eb7e8ddc627d763054b743c31af819061581e4b136ef38ee32047cf1d9ca8a",
+      "output_sha256": "25eb7e8ddc627d763054b743c31af819061581e4b136ef38ee32047cf1d9ca8a",
+      "source_characters": 642,
+      "output_characters": 642
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "7ea115d2c5859e0bf66bfc41b40259153e48216ac83cc78c45b83e174392dacc",
+      "output_sha256": "7ea115d2c5859e0bf66bfc41b40259153e48216ac83cc78c45b83e174392dacc",
+      "source_characters": 82,
+      "output_characters": 82
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "1d6e1bec59a7b186da793b240b7009b34f7bdc4a012c7d12b371745c6af394f3",
+      "output_sha256": "1d6e1bec59a7b186da793b240b7009b34f7bdc4a012c7d12b371745c6af394f3",
+      "source_characters": 78,
+      "output_characters": 78
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "e5ff104ca9d47db607f455967cb8de9f3d24af52951cd2561e1ebb745905e72d",
+      "output_sha256": "e5ff104ca9d47db607f455967cb8de9f3d24af52951cd2561e1ebb745905e72d",
+      "source_characters": 130,
+      "output_characters": 130
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "43eb23a454cea5991b999a2cf0ad315d478b9ee31c0c38f17794c9bb8923dc40",
+      "output_sha256": "43eb23a454cea5991b999a2cf0ad315d478b9ee31c0c38f17794c9bb8923dc40",
+      "source_characters": 198,
+      "output_characters": 198
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "834d922548914c1466ff28ef14850703fd8eeb6a1f8e6932cfb5089befdd6cab",
+      "output_sha256": "834d922548914c1466ff28ef14850703fd8eeb6a1f8e6932cfb5089befdd6cab",
+      "source_characters": 51,
+      "output_characters": 51
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "0b664af589de1288cba3b949883a4b2768c900275c415c01a288e0330e5773a9",
+      "output_sha256": "0b664af589de1288cba3b949883a4b2768c900275c415c01a288e0330e5773a9",
+      "source_characters": 71,
+      "output_characters": 71
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "7f468668c54d373513d1c2c3877479d2f94d2a6b91edbe15e14e6e0fd738513b",
+      "output_sha256": "7f468668c54d373513d1c2c3877479d2f94d2a6b91edbe15e14e6e0fd738513b",
+      "source_characters": 197,
+      "output_characters": 197
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "6b7e31a0ff052ceaf452b7f0f69446379a2ac02d6dacdb1df2534d0a20032038",
+      "output_sha256": "6b7e31a0ff052ceaf452b7f0f69446379a2ac02d6dacdb1df2534d0a20032038",
+      "source_characters": 165,
+      "output_characters": 165
+    },
+    {
+      "article": "第三十六条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "7b9daa02363e81d862f5d114920bacabdbb45998d8189b1ed07fd2bfaac74e04",
+      "output_sha256": "7b9daa02363e81d862f5d114920bacabdbb45998d8189b1ed07fd2bfaac74e04",
+      "source_characters": 80,
+      "output_characters": 80
+    },
+    {
+      "article": "第三十七条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "0e3fd3f6fa70536b3f87f3141a062736c9e5197cdcebeb10d90aaa3b342199d6",
+      "output_sha256": "0e3fd3f6fa70536b3f87f3141a062736c9e5197cdcebeb10d90aaa3b342199d6",
+      "source_characters": 140,
+      "output_characters": 140
+    },
+    {
+      "article": "第三十八条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "e13fc338ede094f73b426c157df236921bce7349ec6a92703e7dd9e052d7cf41",
+      "output_sha256": "e13fc338ede094f73b426c157df236921bce7349ec6a92703e7dd9e052d7cf41",
+      "source_characters": 262,
+      "output_characters": 262
+    },
+    {
+      "article": "第三十九条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "46a762e995914a561cbcd09e27c7e97a04ebb553808cf3afabc19225f0adb740",
+      "output_sha256": "46a762e995914a561cbcd09e27c7e97a04ebb553808cf3afabc19225f0adb740",
+      "source_characters": 116,
+      "output_characters": 116
+    },
+    {
+      "article": "第四十条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "119eb65eca0722b63502fe2c50284f684b79551edda9c4d7bf46fa273847d863",
+      "output_sha256": "119eb65eca0722b63502fe2c50284f684b79551edda9c4d7bf46fa273847d863",
+      "source_characters": 125,
+      "output_characters": 125
+    },
+    {
+      "article": "第四十一条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "4f8d9e9a61638160f4da7fb0fb7f23fb44adbfe969383b0dc28c2b4c0a5f9ade",
+      "output_sha256": "4f8d9e9a61638160f4da7fb0fb7f23fb44adbfe969383b0dc28c2b4c0a5f9ade",
+      "source_characters": 34,
+      "output_characters": 34
+    },
+    {
+      "article": "第四十二条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "2c31a55be921981a3451498bffa3508b04c4a442ad7e0374ed77f0e6121edda2",
+      "output_sha256": "2c31a55be921981a3451498bffa3508b04c4a442ad7e0374ed77f0e6121edda2",
+      "source_characters": 93,
+      "output_characters": 93
+    },
+    {
+      "article": "第四十三条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "ac6d9bda82d0a4f2dda4d487edc365c3de7a61b2347f8861320e7ff8795364e5",
+      "output_sha256": "ac6d9bda82d0a4f2dda4d487edc365c3de7a61b2347f8861320e7ff8795364e5",
+      "source_characters": 193,
+      "output_characters": 193
+    },
+    {
+      "article": "第四十四条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "f3d76127be316a137a38c189bbfcec8588b222dde8b1431ce643291545ad005a",
+      "output_sha256": "f3d76127be316a137a38c189bbfcec8588b222dde8b1431ce643291545ad005a",
+      "source_characters": 103,
+      "output_characters": 103
+    },
+    {
+      "article": "第四十五条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "5689027c7cc547c5cd20af761398d75d884607488a2fb794dafcc3bf520cd937",
+      "output_sha256": "5689027c7cc547c5cd20af761398d75d884607488a2fb794dafcc3bf520cd937",
+      "source_characters": 85,
+      "output_characters": 85
+    },
+    {
+      "article": "第四十六条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "01a2cf3dfff4ce88d85fedea6fd09073d53c5fd3928a6448f804800786145042",
+      "output_sha256": "01a2cf3dfff4ce88d85fedea6fd09073d53c5fd3928a6448f804800786145042",
+      "source_characters": 32,
+      "output_characters": 32
+    },
+    {
+      "article": "第四十七条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "043c2dc79ecbee5c72a81ed54a4513dd38803b07dbd3acc4eb96331b9e6b0a59",
+      "output_sha256": "043c2dc79ecbee5c72a81ed54a4513dd38803b07dbd3acc4eb96331b9e6b0a59",
+      "source_characters": 153,
+      "output_characters": 153
+    },
+    {
+      "article": "第四十八条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "aa242a9137ad8b64ba00713869774afa259164067faddbb66a6ca2fa21cf4c39",
+      "output_sha256": "aa242a9137ad8b64ba00713869774afa259164067faddbb66a6ca2fa21cf4c39",
+      "source_characters": 146,
+      "output_characters": 146
+    },
+    {
+      "article": "第四十九条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "3428b636311f1738c1e59c7515e125581feca4ac2a9f4575b961c16f87c71b4d",
+      "output_sha256": "3428b636311f1738c1e59c7515e125581feca4ac2a9f4575b961c16f87c71b4d",
+      "source_characters": 67,
+      "output_characters": 67
+    },
+    {
+      "article": "第五十条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "3e363d1dc1135449b38efb364b86c4be0e5cca6e02069cf3f48370dec6259f8a",
+      "output_sha256": "3e363d1dc1135449b38efb364b86c4be0e5cca6e02069cf3f48370dec6259f8a",
+      "source_characters": 127,
+      "output_characters": 127
+    },
+    {
+      "article": "第五十一条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "8570980479d146c17f7e7c7444f7055188684339a4d88be8f99016280b60af4e",
+      "output_sha256": "8570980479d146c17f7e7c7444f7055188684339a4d88be8f99016280b60af4e",
+      "source_characters": 56,
+      "output_characters": 56
+    },
+    {
+      "article": "第五十二条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "a1b62f3717746665e02d219bfda086765fafae681277b0806384ec2696113f70",
+      "output_sha256": "a1b62f3717746665e02d219bfda086765fafae681277b0806384ec2696113f70",
+      "source_characters": 185,
+      "output_characters": 185
+    },
+    {
+      "article": "第五十三条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "f65c6e298459bb3ce54767af729bb1f92fdacf3ecddd6197a52de02baba0f593",
+      "output_sha256": "f65c6e298459bb3ce54767af729bb1f92fdacf3ecddd6197a52de02baba0f593",
+      "source_characters": 171,
+      "output_characters": 171
+    },
+    {
+      "article": "第五十四条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "8271e7d65bb9846ad89556fa6fefbd1c7e8ec22f6468d429581a80683a4b1761",
+      "output_sha256": "8271e7d65bb9846ad89556fa6fefbd1c7e8ec22f6468d429581a80683a4b1761",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第五十五条",
+      "chapter": "第四章　铁路线路安全",
+      "source_sha256": "5366d9612d918c8ada3f102c8f78a37d8eb8132b2572150d3340760d82ef6a5b",
+      "output_sha256": "5366d9612d918c8ada3f102c8f78a37d8eb8132b2572150d3340760d82ef6a5b",
+      "source_characters": 90,
+      "output_characters": 90
+    },
+    {
+      "article": "第五十六条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "b0e5c47c75629ec4fb7df6b398320d8d75d12931cbcf9970d63e18811a4837bf",
+      "output_sha256": "b0e5c47c75629ec4fb7df6b398320d8d75d12931cbcf9970d63e18811a4837bf",
+      "source_characters": 71,
+      "output_characters": 71
+    },
+    {
+      "article": "第五十七条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "e466aa581bdace93256b18efc8a7eae9d2acad4db3ed725e5ceadd40f78a247b",
+      "output_sha256": "e466aa581bdace93256b18efc8a7eae9d2acad4db3ed725e5ceadd40f78a247b",
+      "source_characters": 64,
+      "output_characters": 64
+    },
+    {
+      "article": "第五十八条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "59a3d592c1dd54937a5984ddff7c416d846778818f7e3cde9a2f25e0370638ed",
+      "output_sha256": "59a3d592c1dd54937a5984ddff7c416d846778818f7e3cde9a2f25e0370638ed",
+      "source_characters": 59,
+      "output_characters": 59
+    },
+    {
+      "article": "第五十九条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "12282b2d798ac2699e619845c37ac200fbb7a133ba3c2a7ca3b4629a6de9e812",
+      "output_sha256": "12282b2d798ac2699e619845c37ac200fbb7a133ba3c2a7ca3b4629a6de9e812",
+      "source_characters": 64,
+      "output_characters": 64
+    },
+    {
+      "article": "第六十条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "0f8b0fcaa24c4968c4107ad242020bed5fc2e55f8bc6f306255fdb458e3c22ee",
+      "output_sha256": "0f8b0fcaa24c4968c4107ad242020bed5fc2e55f8bc6f306255fdb458e3c22ee",
+      "source_characters": 94,
+      "output_characters": 94
+    },
+    {
+      "article": "第六十一条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "875f681b38592095e4c39fd215f276f46fc88b55e015827b33fc58576e4b2204",
+      "output_sha256": "875f681b38592095e4c39fd215f276f46fc88b55e015827b33fc58576e4b2204",
+      "source_characters": 68,
+      "output_characters": 68
+    },
+    {
+      "article": "第六十二条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "fba2c18fe18482a721dcad6dbfc3dab7256177e7c35e35533a4d8913ec3b2901",
+      "output_sha256": "fba2c18fe18482a721dcad6dbfc3dab7256177e7c35e35533a4d8913ec3b2901",
+      "source_characters": 46,
+      "output_characters": 46
+    },
+    {
+      "article": "第六十三条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "3b26663324dd300c56a78f4eed81ac1e765e5fe4dcdf2f0b67b121a3c7614824",
+      "output_sha256": "3b26663324dd300c56a78f4eed81ac1e765e5fe4dcdf2f0b67b121a3c7614824",
+      "source_characters": 36,
+      "output_characters": 36
+    },
+    {
+      "article": "第六十四条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "64238d61d8795aaa296c0ce7f53c13ec722d5640aea81544867a86fc2a250d4d",
+      "output_sha256": "64238d61d8795aaa296c0ce7f53c13ec722d5640aea81544867a86fc2a250d4d",
+      "source_characters": 190,
+      "output_characters": 190
+    },
+    {
+      "article": "第六十五条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "01566fc9dd4aaee49f0fc324e50888d419188e70edc857737c36b15b713aa35a",
+      "output_sha256": "01566fc9dd4aaee49f0fc324e50888d419188e70edc857737c36b15b713aa35a",
+      "source_characters": 121,
+      "output_characters": 121
+    },
+    {
+      "article": "第六十六条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "6f1d88ddd5fd4f5f2446a9901fa13f7dfed58e76c639f81db450e3910c701987",
+      "output_sha256": "6f1d88ddd5fd4f5f2446a9901fa13f7dfed58e76c639f81db450e3910c701987",
+      "source_characters": 130,
+      "output_characters": 130
+    },
+    {
+      "article": "第六十七条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "30a3eb196852aba8c06c055f04f1bbf26991b865c164eb79f2439d5bf8ecdd4d",
+      "output_sha256": "30a3eb196852aba8c06c055f04f1bbf26991b865c164eb79f2439d5bf8ecdd4d",
+      "source_characters": 100,
+      "output_characters": 100
+    },
+    {
+      "article": "第六十八条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "8159c3c46babea53dc601bd11e68f2039c3e5c1a5ae63f9b275ff1933b4d58c8",
+      "output_sha256": "8159c3c46babea53dc601bd11e68f2039c3e5c1a5ae63f9b275ff1933b4d58c8",
+      "source_characters": 102,
+      "output_characters": 102
+    },
+    {
+      "article": "第六十九条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "dbc31c0daf67119ef2187063adced6d40efd8015ea16bf920f649c4791824518",
+      "output_sha256": "dbc31c0daf67119ef2187063adced6d40efd8015ea16bf920f649c4791824518",
+      "source_characters": 117,
+      "output_characters": 117
+    },
+    {
+      "article": "第七十条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "d299a129f020349549929381b784f5a78aa58658b1f8810caeef7ad144b865a6",
+      "output_sha256": "d299a129f020349549929381b784f5a78aa58658b1f8810caeef7ad144b865a6",
+      "source_characters": 63,
+      "output_characters": 63
+    },
+    {
+      "article": "第七十一条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "35d5ec230a4cc04f6a13d69da214d726382ff4bb0e65dba0811a150d7a4ee5df",
+      "output_sha256": "35d5ec230a4cc04f6a13d69da214d726382ff4bb0e65dba0811a150d7a4ee5df",
+      "source_characters": 43,
+      "output_characters": 43
+    },
+    {
+      "article": "第七十二条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "ee5ea4c8c8daabd45b97660982d85ac7b72105ce94e0b5159f7f77f5f1d14f44",
+      "output_sha256": "ee5ea4c8c8daabd45b97660982d85ac7b72105ce94e0b5159f7f77f5f1d14f44",
+      "source_characters": 64,
+      "output_characters": 64
+    },
+    {
+      "article": "第七十三条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "44bc355cdf02c9063d3186e77e337920beee2d196d2cd6a212f9309cd4dd2378",
+      "output_sha256": "44bc355cdf02c9063d3186e77e337920beee2d196d2cd6a212f9309cd4dd2378",
+      "source_characters": 99,
+      "output_characters": 99
+    },
+    {
+      "article": "第七十四条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "367054f89ad7bc86774c51cbc37fecfde0775ba49bef5a392c8b79d000b22120",
+      "output_sha256": "367054f89ad7bc86774c51cbc37fecfde0775ba49bef5a392c8b79d000b22120",
+      "source_characters": 119,
+      "output_characters": 119
+    },
+    {
+      "article": "第七十五条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "e50eb474551661c2771d0b2ec8b775a70ebcfc99fbebc6868fc2edc54fb5c56a",
+      "output_sha256": "e50eb474551661c2771d0b2ec8b775a70ebcfc99fbebc6868fc2edc54fb5c56a",
+      "source_characters": 120,
+      "output_characters": 120
+    },
+    {
+      "article": "第七十六条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "ed7d8f776b5003e9ddc8d540d60fc712b133c7aa9bcf749feaec0ff9f55c0d4a",
+      "output_sha256": "ed7d8f776b5003e9ddc8d540d60fc712b133c7aa9bcf749feaec0ff9f55c0d4a",
+      "source_characters": 53,
+      "output_characters": 53
+    },
+    {
+      "article": "第七十七条",
+      "chapter": "第五章　铁路运营安全",
+      "source_sha256": "164b2f67d5f10c796ff9c134bb7439caa06b4b9fb3676176fcb6bcdddfde5dae",
+      "output_sha256": "164b2f67d5f10c796ff9c134bb7439caa06b4b9fb3676176fcb6bcdddfde5dae",
+      "source_characters": 468,
+      "output_characters": 468
+    },
+    {
+      "article": "第七十八条",
+      "chapter": "第六章　监督检查",
+      "source_sha256": "497c1d96459c6092be4300db25e31ae83aba859d3c5afedc417e1f3e987a4647",
+      "output_sha256": "497c1d96459c6092be4300db25e31ae83aba859d3c5afedc417e1f3e987a4647",
+      "source_characters": 144,
+      "output_characters": 144
+    },
+    {
+      "article": "第七十九条",
+      "chapter": "第六章　监督检查",
+      "source_sha256": "2bb1bc898a33772b25b009ea2550eaacf5e91f554526e8d3645ba42d72d04d3d",
+      "output_sha256": "2bb1bc898a33772b25b009ea2550eaacf5e91f554526e8d3645ba42d72d04d3d",
+      "source_characters": 88,
+      "output_characters": 88
+    },
+    {
+      "article": "第八十条",
+      "chapter": "第六章　监督检查",
+      "source_sha256": "0e7477107ae9bd2a2a0ce141723092ac535e35b7b1e22ffd3f02478802593469",
+      "output_sha256": "0e7477107ae9bd2a2a0ce141723092ac535e35b7b1e22ffd3f02478802593469",
+      "source_characters": 143,
+      "output_characters": 143
+    },
+    {
+      "article": "第八十一条",
+      "chapter": "第六章　监督检查",
+      "source_sha256": "a69a6dca79c5d34495959df0d908901d494e5eab313a8847fdfe8ac97128566f",
+      "output_sha256": "a69a6dca79c5d34495959df0d908901d494e5eab313a8847fdfe8ac97128566f",
+      "source_characters": 89,
+      "output_characters": 89
+    },
+    {
+      "article": "第八十二条",
+      "chapter": "第六章　监督检查",
+      "source_sha256": "39dd9231f73428447ce0bb50dd386cf60400ae11c13a9f4efe34799c80eb0aad",
+      "output_sha256": "39dd9231f73428447ce0bb50dd386cf60400ae11c13a9f4efe34799c80eb0aad",
+      "source_characters": 69,
+      "output_characters": 69
+    },
+    {
+      "article": "第八十三条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "2479e7dce98ae6124d5e2caef6616c75969f0af36f4c6e397d0b154839784e5c",
+      "output_sha256": "2479e7dce98ae6124d5e2caef6616c75969f0af36f4c6e397d0b154839784e5c",
+      "source_characters": 83,
+      "output_characters": 83
+    },
+    {
+      "article": "第八十四条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "5bf37e9d4e4a14397e8d8b41fee54fb4df64ad0cb277959b7bf994568ef200de",
+      "output_sha256": "5bf37e9d4e4a14397e8d8b41fee54fb4df64ad0cb277959b7bf994568ef200de",
+      "source_characters": 116,
+      "output_characters": 116
+    },
+    {
+      "article": "第八十五条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "bdbda72ca898f46c8d127cc9bda5cb89e9404dee4e86f17e4d00ac3451e37bf1",
+      "output_sha256": "bdbda72ca898f46c8d127cc9bda5cb89e9404dee4e86f17e4d00ac3451e37bf1",
+      "source_characters": 62,
+      "output_characters": 62
+    },
+    {
+      "article": "第八十六条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "9bbbb7fe4b93ce7c592f51e9f5a30ce07923877d8b423e4f9568dbbf649e34d5",
+      "output_sha256": "9bbbb7fe4b93ce7c592f51e9f5a30ce07923877d8b423e4f9568dbbf649e34d5",
+      "source_characters": 115,
+      "output_characters": 115
+    },
+    {
+      "article": "第八十七条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "69aec508f40c3b7bdfb6d2440befe3d0e9bddd37f7e1db52a011db52a26b5e87",
+      "output_sha256": "69aec508f40c3b7bdfb6d2440befe3d0e9bddd37f7e1db52a011db52a26b5e87",
+      "source_characters": 277,
+      "output_characters": 277
+    },
+    {
+      "article": "第八十八条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "478bddc707dca21ddcc18defc1a454194885834d0f30a6b9d4f84ec5daa6588b",
+      "output_sha256": "478bddc707dca21ddcc18defc1a454194885834d0f30a6b9d4f84ec5daa6588b",
+      "source_characters": 121,
+      "output_characters": 121
+    },
+    {
+      "article": "第八十九条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "9739fce063729c34778c7695c553937db936edc1b78981f8860c07cee020a949",
+      "output_sha256": "9739fce063729c34778c7695c553937db936edc1b78981f8860c07cee020a949",
+      "source_characters": 192,
+      "output_characters": 192
+    },
+    {
+      "article": "第九十条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "c7d94f187cd08cbd6c0e8e63220e154f809b798be9fb1e732f16df8bed9971b1",
+      "output_sha256": "c7d94f187cd08cbd6c0e8e63220e154f809b798be9fb1e732f16df8bed9971b1",
+      "source_characters": 171,
+      "output_characters": 171
+    },
+    {
+      "article": "第九十一条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "361771fc822ddd424e8413f9ce26c61a3b7c98d63cb526c1e847dfef36256240",
+      "output_sha256": "361771fc822ddd424e8413f9ce26c61a3b7c98d63cb526c1e847dfef36256240",
+      "source_characters": 278,
+      "output_characters": 278
+    },
+    {
+      "article": "第九十二条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "69c6c7a1aaedd8e5ea53c585ac3b50b9e1bc9b66c77f305e7c09f1bcbba7da39",
+      "output_sha256": "69c6c7a1aaedd8e5ea53c585ac3b50b9e1bc9b66c77f305e7c09f1bcbba7da39",
+      "source_characters": 143,
+      "output_characters": 143
+    },
+    {
+      "article": "第九十三条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "a697c61b14f3a8060528c8a45c04a6ca7d0f99033d51a11dc75358af6cc90cd9",
+      "output_sha256": "a697c61b14f3a8060528c8a45c04a6ca7d0f99033d51a11dc75358af6cc90cd9",
+      "source_characters": 57,
+      "output_characters": 57
+    },
+    {
+      "article": "第九十四条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "649a1a50f071189f13b3ea0e16a1702f6047b3093d3373e60070a3dfc9a59817",
+      "output_sha256": "649a1a50f071189f13b3ea0e16a1702f6047b3093d3373e60070a3dfc9a59817",
+      "source_characters": 64,
+      "output_characters": 64
+    },
+    {
+      "article": "第九十五条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "05a6c98828c7a7da8c569a2ae01bdac5da2797416bab39cba4a0efd63e4d4031",
+      "output_sha256": "05a6c98828c7a7da8c569a2ae01bdac5da2797416bab39cba4a0efd63e4d4031",
+      "source_characters": 81,
+      "output_characters": 81
+    },
+    {
+      "article": "第九十六条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "c7d6aa3b21861f7700d445ab6004f7456b20cce180c151760c79db8c7f99fe88",
+      "output_sha256": "c7d6aa3b21861f7700d445ab6004f7456b20cce180c151760c79db8c7f99fe88",
+      "source_characters": 209,
+      "output_characters": 209
+    },
+    {
+      "article": "第九十七条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "56f3345a14e099cb76bd631ef42c500db5ce349769b37fe30dd800b40d437197",
+      "output_sha256": "56f3345a14e099cb76bd631ef42c500db5ce349769b37fe30dd800b40d437197",
+      "source_characters": 86,
+      "output_characters": 86
+    },
+    {
+      "article": "第九十八条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "d94b146d951cbbc8b3f4fbea50b38d087c7a6929e82a2b21fe08091cd22b1de7",
+      "output_sha256": "d94b146d951cbbc8b3f4fbea50b38d087c7a6929e82a2b21fe08091cd22b1de7",
+      "source_characters": 83,
+      "output_characters": 83
+    },
+    {
+      "article": "第九十九条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "43d899ce2bdce8247c1ffba3a7c305d52a22c48344036428577121311d0df344",
+      "output_sha256": "43d899ce2bdce8247c1ffba3a7c305d52a22c48344036428577121311d0df344",
+      "source_characters": 62,
+      "output_characters": 62
+    },
+    {
+      "article": "第一百条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "55f1a5f4dea71d724ffc1ea3e0919cebbf6610481ce67ba81ca810cff1152979",
+      "output_sha256": "55f1a5f4dea71d724ffc1ea3e0919cebbf6610481ce67ba81ca810cff1152979",
+      "source_characters": 140,
+      "output_characters": 140
+    },
+    {
+      "article": "第一百零一条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "4a691d919797dad87fe24d8875cd57e73151777681e06da87830c35be2c8ee98",
+      "output_sha256": "4a691d919797dad87fe24d8875cd57e73151777681e06da87830c35be2c8ee98",
+      "source_characters": 75,
+      "output_characters": 75
+    },
+    {
+      "article": "第一百零二条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "03cf337e88d76396488884dc34cd5913e7b756e65c3c53f6dd92a3b88661cd29",
+      "output_sha256": "03cf337e88d76396488884dc34cd5913e7b756e65c3c53f6dd92a3b88661cd29",
+      "source_characters": 33,
+      "output_characters": 33
+    },
+    {
+      "article": "第一百零三条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "b77f4890787bfe6dd02cff4315608df3afded0ed96ea0c8371562a42fe89072e",
+      "output_sha256": "b77f4890787bfe6dd02cff4315608df3afded0ed96ea0c8371562a42fe89072e",
+      "source_characters": 53,
+      "output_characters": 53
+    },
+    {
+      "article": "第一百零四条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "e77140c1951f52675f093bcf7fec6c35ea289ea98d04c9eafe17c05541e304e4",
+      "output_sha256": "e77140c1951f52675f093bcf7fec6c35ea289ea98d04c9eafe17c05541e304e4",
+      "source_characters": 50,
+      "output_characters": 50
+    },
+    {
+      "article": "第一百零五条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "9278a1b4a49964c9a643d7112ca1a89a40c6809fe44e4dc0442a5a49ed0ddc02",
+      "output_sha256": "9278a1b4a49964c9a643d7112ca1a89a40c6809fe44e4dc0442a5a49ed0ddc02",
+      "source_characters": 94,
+      "output_characters": 94
+    },
+    {
+      "article": "第一百零六条",
+      "chapter": "第八章　附　　则",
+      "source_sha256": "1944a23c8d39ed03b8b9fbd6e9e0f9f1c35cf032f5637a2970446235f635a50f",
+      "output_sha256": "1944a23c8d39ed03b8b9fbd6e9e0f9f1c35cf032f5637a2970446235f635a50f",
+      "source_characters": 26,
+      "output_characters": 26
+    },
+    {
+      "article": "第一百零七条",
+      "chapter": "第八章　附　　则",
+      "source_sha256": "0d4a42937871801b4b5d1e2b574103c0da3d3f73e76ef2c6d219833b8fc436be",
+      "output_sha256": "0d4a42937871801b4b5d1e2b574103c0da3d3f73e76ef2c6d219833b8fc436be",
+      "source_characters": 56,
+      "output_characters": 56
+    },
+    {
+      "article": "第一百零八条",
+      "chapter": "第八章　附　　则",
+      "source_sha256": "bff1b5906692b53936bb6b13db442f4b82b13b6a10030666083f49969f5e2d54",
+      "output_sha256": "bff1b5906692b53936bb6b13db442f4b82b13b6a10030666083f49969f5e2d54",
+      "source_characters": 51,
+      "output_characters": 51
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-16T07:14:06.443Z",
+  "status": "Generated from official-hash-matched originals; pending human fact review",
+  "documents": [
+    {
+      "doc_id": "DOC0025",
+      "points": 39,
+      "table_points": 12
+    },
+    {
+      "doc_id": "DOC0026",
+      "points": 38,
+      "table_points": 11
+    },
+    {
+      "doc_id": "DOC0027",
+      "points": 35,
+      "table_points": 8
+    },
+    {
+      "doc_id": "DOC0028",
+      "points": 38,
+      "table_points": 11
+    }
+  ],
+  "count": 150,
+  "warning": "Knowledge-point extraction and Markdown structure are drafts, not semantic acceptance or a chunker result."
+}

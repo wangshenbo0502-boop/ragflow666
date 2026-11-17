@@ -1,0 +1,291 @@
+{
+  "doc_id": "DOC0023",
+  "source_id": "S0026",
+  "source_path": "01-originals/web/S0026.txt",
+  "output_path": "03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+  "expected_article_count": 35,
+  "extracted_article_count": 35,
+  "output_sha256": "0a0a834c4263863a13dbde1bae3cdb6e6e84596cc322485e4cb2699f14b6bb23",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章　总则",
+      "source_sha256": "ce16418ffc5b1536b3d8492651781fef4879c8f8fcf40dfe59fbd1169437e3ff",
+      "output_sha256": "ce16418ffc5b1536b3d8492651781fef4879c8f8fcf40dfe59fbd1169437e3ff",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章　总则",
+      "source_sha256": "a97e7b8c7fad6ad37b45fcaf4d2df91badcc30bcbc061e17364e3203f7cef111",
+      "output_sha256": "a97e7b8c7fad6ad37b45fcaf4d2df91badcc30bcbc061e17364e3203f7cef111",
+      "source_characters": 95,
+      "output_characters": 95
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章　总则",
+      "source_sha256": "3815d9c6c864b8342c662bcb6b122b6e90969e33cd20d5014a51a65184ec8e60",
+      "output_sha256": "3815d9c6c864b8342c662bcb6b122b6e90969e33cd20d5014a51a65184ec8e60",
+      "source_characters": 94,
+      "output_characters": 94
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章　总则",
+      "source_sha256": "9913766bba867eb8c283178a9d6dc8b682740ebc969d7bf37acb1e36433b4667",
+      "output_sha256": "9913766bba867eb8c283178a9d6dc8b682740ebc969d7bf37acb1e36433b4667",
+      "source_characters": 39,
+      "output_characters": 39
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章　总则",
+      "source_sha256": "fd473c95a7f3ad18290e159b92e5f0a294b19f79ed96a61d657f37a13c81064e",
+      "output_sha256": "fd473c95a7f3ad18290e159b92e5f0a294b19f79ed96a61d657f37a13c81064e",
+      "source_characters": 101,
+      "output_characters": 101
+    },
+    {
+      "article": "第六条",
+      "chapter": "第一章　总则",
+      "source_sha256": "52f257539d3bae16dc771922e32af7683eb6e71ff21b1592bdaba2eae10e100e",
+      "output_sha256": "52f257539d3bae16dc771922e32af7683eb6e71ff21b1592bdaba2eae10e100e",
+      "source_characters": 54,
+      "output_characters": 54
+    },
+    {
+      "article": "第七条",
+      "chapter": "第一章　总则",
+      "source_sha256": "5072e3118934720194c3d56cb8e19a5d398210bf7841066c4248df518e9fb406",
+      "output_sha256": "5072e3118934720194c3d56cb8e19a5d398210bf7841066c4248df518e9fb406",
+      "source_characters": 112,
+      "output_characters": 112
+    },
+    {
+      "article": "第八条",
+      "chapter": "第一章　总则",
+      "source_sha256": "0544057e339ebcf4397f313eefb75b22102262fdf239d01fc723ca2b8fdb5460",
+      "output_sha256": "0544057e339ebcf4397f313eefb75b22102262fdf239d01fc723ca2b8fdb5460",
+      "source_characters": 91,
+      "output_characters": 91
+    },
+    {
+      "article": "第九条",
+      "chapter": "第二章　产品缺陷调查",
+      "source_sha256": "b24aab41e5837b0dbd2765e994e9cc1af7ef55aeed83e380ff24254c2e76dc1e",
+      "output_sha256": "b24aab41e5837b0dbd2765e994e9cc1af7ef55aeed83e380ff24254c2e76dc1e",
+      "source_characters": 91,
+      "output_characters": 91
+    },
+    {
+      "article": "第十条",
+      "chapter": "第二章　产品缺陷调查",
+      "source_sha256": "16b464793ee915e65f1405bf608a31ff6710f49687f848778913c4fed643f712",
+      "output_sha256": "16b464793ee915e65f1405bf608a31ff6710f49687f848778913c4fed643f712",
+      "source_characters": 42,
+      "output_characters": 42
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第二章　产品缺陷调查",
+      "source_sha256": "7aeafa59d7c411b615a36acf91e1310536611d373500f1cbe833fcfe2aa55cd6",
+      "output_sha256": "7aeafa59d7c411b615a36acf91e1310536611d373500f1cbe833fcfe2aa55cd6",
+      "source_characters": 97,
+      "output_characters": 97
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第二章　产品缺陷调查",
+      "source_sha256": "f49a3d92954f3aff94c0ea1926cbca4613421b018db4a29abc004973c68cf984",
+      "output_sha256": "f49a3d92954f3aff94c0ea1926cbca4613421b018db4a29abc004973c68cf984",
+      "source_characters": 105,
+      "output_characters": 105
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第二章　产品缺陷调查",
+      "source_sha256": "cdff02ac64d3fd7cacbc4f27505e3b2ed83ebbade6cbbc87380ba501a8c57ad7",
+      "output_sha256": "cdff02ac64d3fd7cacbc4f27505e3b2ed83ebbade6cbbc87380ba501a8c57ad7",
+      "source_characters": 140,
+      "output_characters": 140
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第二章　产品缺陷调查",
+      "source_sha256": "c018489794816eca4f4722e250c4e4be9ca1a7cb5a525136613fb4062e1a36e3",
+      "output_sha256": "c018489794816eca4f4722e250c4e4be9ca1a7cb5a525136613fb4062e1a36e3",
+      "source_characters": 117,
+      "output_characters": 117
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第二章　产品缺陷调查",
+      "source_sha256": "a3aeb6f1800bc0da93fba9bf659b5013fc068837c796c91e5ac68abbc0344af4",
+      "output_sha256": "a3aeb6f1800bc0da93fba9bf659b5013fc068837c796c91e5ac68abbc0344af4",
+      "source_characters": 31,
+      "output_characters": 31
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第二章　产品缺陷调查",
+      "source_sha256": "176590d465d8f5103734fa96329f83fe5c80e67592e1923a4b5c04730fd56c99",
+      "output_sha256": "176590d465d8f5103734fa96329f83fe5c80e67592e1923a4b5c04730fd56c99",
+      "source_characters": 257,
+      "output_characters": 257
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第二章　产品缺陷调查",
+      "source_sha256": "9151e3038f96eb4e86551a79346f19621758729f610900cb9cd66ce3ae97ce3a",
+      "output_sha256": "9151e3038f96eb4e86551a79346f19621758729f610900cb9cd66ce3ae97ce3a",
+      "source_characters": 130,
+      "output_characters": 130
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第三章　召回实施",
+      "source_sha256": "543eb7cfdc191ef0ee8a10fd5779c4fb242644d30df411d91787cc05c993a072",
+      "output_sha256": "543eb7cfdc191ef0ee8a10fd5779c4fb242644d30df411d91787cc05c993a072",
+      "source_characters": 88,
+      "output_characters": 88
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第三章　召回实施",
+      "source_sha256": "dce4a5f4861a7a30d8d4330593dfcbd0b0b6c0c1fb3d9767921977d6368bebac",
+      "output_sha256": "dce4a5f4861a7a30d8d4330593dfcbd0b0b6c0c1fb3d9767921977d6368bebac",
+      "source_characters": 237,
+      "output_characters": 237
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第三章　召回实施",
+      "source_sha256": "b0865406bc9a3ec255dc0a5fbd16492e3738247e941009927f8963c9b96500a4",
+      "output_sha256": "b0865406bc9a3ec255dc0a5fbd16492e3738247e941009927f8963c9b96500a4",
+      "source_characters": 37,
+      "output_characters": 37
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第三章　召回实施",
+      "source_sha256": "c7b83aa90c64ebb8e77e2b5bf7e42326a9f71720ebf7128671de4deef201365c",
+      "output_sha256": "c7b83aa90c64ebb8e77e2b5bf7e42326a9f71720ebf7128671de4deef201365c",
+      "source_characters": 67,
+      "output_characters": 67
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第三章　召回实施",
+      "source_sha256": "8fd18ed31677770ad759874c28d50ece50ea88641c9215a68adc05e3a3e2545b",
+      "output_sha256": "8fd18ed31677770ad759874c28d50ece50ea88641c9215a68adc05e3a3e2545b",
+      "source_characters": 56,
+      "output_characters": 56
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第三章　召回实施",
+      "source_sha256": "dc51fb573809659bb39910a42774102267b2ce8360f8028bfef164def51467ec",
+      "output_sha256": "dc51fb573809659bb39910a42774102267b2ce8360f8028bfef164def51467ec",
+      "source_characters": 57,
+      "output_characters": 57
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第三章　召回实施",
+      "source_sha256": "465d59d52089386bd3de4633f763f5e849db3d5f091bd0509dfe6d833fa29b12",
+      "output_sha256": "465d59d52089386bd3de4633f763f5e849db3d5f091bd0509dfe6d833fa29b12",
+      "source_characters": 72,
+      "output_characters": 72
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第三章　召回实施",
+      "source_sha256": "0b38701516d9c7f551b5004105bc88fb6efd3df80e3211b4077f702e7305bbbb",
+      "output_sha256": "0b38701516d9c7f551b5004105bc88fb6efd3df80e3211b4077f702e7305bbbb",
+      "source_characters": 54,
+      "output_characters": 54
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第四章　监督检查",
+      "source_sha256": "2af9bc336f20490ca67bc8e14b254262585869bac25fe7333980163772e5b63c",
+      "output_sha256": "2af9bc336f20490ca67bc8e14b254262585869bac25fe7333980163772e5b63c",
+      "source_characters": 79,
+      "output_characters": 79
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第四章　监督检查",
+      "source_sha256": "a88e23e5c6af2ab9ebbdaac23930ab7c000bc56f690667f8f01fbe388f2932aa",
+      "output_sha256": "a88e23e5c6af2ab9ebbdaac23930ab7c000bc56f690667f8f01fbe388f2932aa",
+      "source_characters": 55,
+      "output_characters": 55
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第四章　监督检查",
+      "source_sha256": "ff3132501179258e6d9e416106a53433f9ef5ef6c45a4c62d2eb5b69791f8752",
+      "output_sha256": "ff3132501179258e6d9e416106a53433f9ef5ef6c45a4c62d2eb5b69791f8752",
+      "source_characters": 49,
+      "output_characters": 49
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第四章　监督检查",
+      "source_sha256": "6e175109b8a5e4d3be3d3907ea107082c6961e05ad271427d780f8bf76942344",
+      "output_sha256": "6e175109b8a5e4d3be3d3907ea107082c6961e05ad271427d780f8bf76942344",
+      "source_characters": 58,
+      "output_characters": 58
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第五章　法律责任",
+      "source_sha256": "d85b0d160c5471e307da724efcaf3d68ad303c7a2ee6eba0179f6dd487df7e58",
+      "output_sha256": "d85b0d160c5471e307da724efcaf3d68ad303c7a2ee6eba0179f6dd487df7e58",
+      "source_characters": 174,
+      "output_characters": 174
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第五章　法律责任",
+      "source_sha256": "3ddbb1875c5913be6148f79a12df65a72be62d76e4477c442a263fc10f243639",
+      "output_sha256": "3ddbb1875c5913be6148f79a12df65a72be62d76e4477c442a263fc10f243639",
+      "source_characters": 175,
+      "output_characters": 175
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第五章　法律责任",
+      "source_sha256": "786cdf43d6b5e028d9b439a79d010987f84e161e7b5a6a0143a28215cea5f708",
+      "output_sha256": "786cdf43d6b5e028d9b439a79d010987f84e161e7b5a6a0143a28215cea5f708",
+      "source_characters": 142,
+      "output_characters": 142
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第五章　法律责任",
+      "source_sha256": "b42de61b8d0df914b60d7c18df4b9229393fa3bbe22b20208911e4a6daf297b1",
+      "output_sha256": "b42de61b8d0df914b60d7c18df4b9229393fa3bbe22b20208911e4a6daf297b1",
+      "source_characters": 91,
+      "output_characters": 91
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第六章　附则",
+      "source_sha256": "20f2364450e53ff49b0cb17562450748cf4510fba37313c58d037f73983bd08e",
+      "output_sha256": "20f2364450e53ff49b0cb17562450748cf4510fba37313c58d037f73983bd08e",
+      "source_characters": 33,
+      "output_characters": 33
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第六章　附则",
+      "source_sha256": "1d78f9db4bcca1e64e55a19375baefdc74216c491eb2de84d7450f00d6a8a548",
+      "output_sha256": "1d78f9db4bcca1e64e55a19375baefdc74216c491eb2de84d7450f00d6a8a548",
+      "source_characters": 17,
+      "output_characters": 17
+    }
+  ]
+}

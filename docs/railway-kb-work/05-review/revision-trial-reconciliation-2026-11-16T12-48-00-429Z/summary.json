@@ -1,0 +1,1127 @@
+{
+  "checked_at": "2026-11-16T12:48:00.429Z",
+  "evidence_folder": "05-review/revision-trial-reconciliation-2026-11-16T12-48-00-429Z",
+  "new_uploads": 0,
+  "documents_reparsed": 0,
+  "original_dataset_modified": false,
+  "documents": [
+    {
+      "doc_id": "DOC0022",
+      "dataset_id": "0fb4da10e6ad4dd0bc7071b4407fe038",
+      "document_id": "98ab6f431ca546b6ae0dc7d68a9f9b35",
+      "classification": "isolation trial; not formal import or acceptance",
+      "local_master_path": "03-domains/CL/DOC0022_铁路机车车辆设计制造维修进口许可办法.md",
+      "local_sha256": "a626bb84fcf0f20881f8c48b9a2e2265f398e4f79fc1ad6ebf8ea6ff289d64b3",
+      "remote_sha256": "a626bb84fcf0f20881f8c48b9a2e2265f398e4f79fc1ad6ebf8ea6ff289d64b3",
+      "expected_path": "04-chunks/expected/DOC0022-v4.json",
+      "expected_sha256": "d3cd7d269f41892288e5f2849286cd4761cd47a95ae80a3ba1be12b1b9057743",
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "parser_config": {
+        "Extractor:AutoExtractDefault": {
+          "keywords": {
+            "top_n": 0
+          },
+          "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+          "metadata": {
+            "built_in_metadata": [],
+            "enabled": false,
+            "metadata": []
+          },
+          "questions": {
+            "top_n": 0
+          },
+          "summary": {
+            "enabled": false
+          },
+          "tags": {
+            "tag_file_id": "",
+            "top_n": 0
+          }
+        },
+        "File": {},
+        "Parser:HipSignsRhyme": {
+          "enable_vision_enhancement": false,
+          "pdf": {
+            "enable_multi_column": true,
+            "flatten_media_to_text": false,
+            "parse_method": "DeepDOC",
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "pdf"
+            ],
+            "vlm": {}
+          },
+          "vlm": {
+            "llm_id": ""
+          }
+        },
+        "TitleChunker:SparklySchoolsTravel": {
+          "chunk_token_cap": 0,
+          "groupRules": [
+            {
+              "levels": [
+                {
+                  "expression": "^#[^#]"
+                },
+                {
+                  "expression": "^##[^#]"
+                },
+                {
+                  "expression": "^###[^#]"
+                },
+                {
+                  "expression": "^####[^#]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+章"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+节"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+条"
+                },
+                {
+                  "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[0-9]+章"
+                },
+                {
+                  "expression": "第[0-9]+节"
+                },
+                {
+                  "expression": "[0-9]{1,2}[\\. 、]"
+                },
+                {
+                  "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+                },
+                {
+                  "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+章"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+节"
+                },
+                {
+                  "expression": "[零一二三四五六七八九十百]+[ 、]"
+                },
+                {
+                  "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+                },
+                {
+                  "expression": "[\\(（][0-9]{,2}[\\)）]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+                },
+                {
+                  "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+                },
+                {
+                  "expression": "Section [0-9]+"
+                },
+                {
+                  "expression": "Article [0-9]+"
+                }
+              ]
+            }
+          ],
+          "hierarchy": 3,
+          "hierarchyGroup": "0",
+          "hierarchyHierarchy": "3",
+          "hierarchyRules": [
+            {
+              "levels": [
+                {
+                  "expression": "^#[^#]"
+                },
+                {
+                  "expression": "^##[^#]"
+                },
+                {
+                  "expression": "^###[^#]"
+                },
+                {
+                  "expression": "^####[^#]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+章"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+节"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+条"
+                },
+                {
+                  "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[0-9]+章"
+                },
+                {
+                  "expression": "第[0-9]+节"
+                },
+                {
+                  "expression": "[0-9]{1,2}[\\. 、]"
+                },
+                {
+                  "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+                },
+                {
+                  "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+章"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+节"
+                },
+                {
+                  "expression": "[零一二三四五六七八九十百]+[ 、]"
+                },
+                {
+                  "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+                },
+                {
+                  "expression": "[\\(（][0-9]{,2}[\\)）]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+                },
+                {
+                  "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+                },
+                {
+                  "expression": "Section [0-9]+"
+                },
+                {
+                  "expression": "Article [0-9]+"
+                }
+              ]
+            }
+          ],
+          "include_heading_content": false,
+          "levels": [
+            [
+              "^#[^#]",
+              "^##[^#]",
+              "^###[^#]"
+            ]
+          ],
+          "method": "hierarchy"
+        },
+        "Tokenizer:GreatCarsWash": {
+          "fields": "text",
+          "filename_embd_weight": 0.1,
+          "search_method": [
+            "embedding",
+            "full_text"
+          ]
+        }
+      },
+      "ingestion_status": "COMPLETED",
+      "chunks_total": 29,
+      "points_total": 28,
+      "points": [
+        {
+          "knowledge_point_id": "DOC0022-K01",
+          "chunk_id": "31d305eb60312502",
+          "expected_text_sha256": "c643024da0b2136e7573628d74a903440db9b1ddd2037b370e9b5a16a61f8bb8",
+          "source_body_sha256": "084d4a07bc4ec7a4c6206793bbc85d5f4c3ba803e5af6bb037aa18c11218b4a5",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K02",
+          "chunk_id": "8c1eaf0b48fe1db4",
+          "expected_text_sha256": "874e8a06d3a60ff06ed78e56c125e43bf645c43b41dcd3c1376d0c8d48581b8d",
+          "source_body_sha256": "250d45e707b81a1e2eb2e0ee0af0402308474416d61e273e311b3110c0f2cae5",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K03",
+          "chunk_id": "342d51376e786b11",
+          "expected_text_sha256": "f7e453480a07af867dd8403acc896744e7604233a6641c5e18af5315d6edcaf5",
+          "source_body_sha256": "a92c492eb96db54531a9bbe36fb220e94b220ad1cffad0473b3c57197f0fc0eb",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K04",
+          "chunk_id": "629faced26b9dad6",
+          "expected_text_sha256": "10988e87c3ea5bdc37f8d63ea95660e51bed3b98794dcedbd1cc9c0cbd2f46a7",
+          "source_body_sha256": "7b9df6e8b39e933acb193badb540d4457ce87bb8cc1e96779933bb198558a536",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K05",
+          "chunk_id": "7cfd18ab1e196691",
+          "expected_text_sha256": "4e8f297129e686a7f1815a0e4fae647a4949897ff145787a0e7bb1bdc5b02bd7",
+          "source_body_sha256": "6c1d24016835b9ae85cf2d1961d015abe834db895c46f4304997cc7c064a444e",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K06",
+          "chunk_id": "a4e6aa89111a519c",
+          "expected_text_sha256": "1755ddb68a74230744422b166d9d2690224cb5e0a171ba8135fd10a286d61338",
+          "source_body_sha256": "1ed684d8656579a32e519d0c8915ac6e657b8249dd5204abe934f37cafad03c5",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K07",
+          "chunk_id": "a599494ba2c2ff4c",
+          "expected_text_sha256": "5a522d3ec438ab89ac60bc8960ad88a6fbd1f2fb4e3bc1cbeaa61549e37eca95",
+          "source_body_sha256": "73f92e0df6217da19e23009605a505d3557b40ae6b1289454404343ecfb96995",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K08",
+          "chunk_id": "277caccf44d88d7a",
+          "expected_text_sha256": "99e70a83813533fce43ba12d15fc000b2f5df5a82c8f94617be77fcc326629d5",
+          "source_body_sha256": "d452aeafe562962aba1f928e810d0df99cac2473fb0e95a76bf6e7164e094610",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K09",
+          "chunk_id": "a7850068c82b1371",
+          "expected_text_sha256": "6ccba80d97ab209b6218c1148c407001b1549d14ba4a835d617c765bb24e7f43",
+          "source_body_sha256": "d512a49b4ce86ec7716c5900de27cff6a094e1952025ae5111539173fec9bd77",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K10",
+          "chunk_id": "5c264fb6a47a5077",
+          "expected_text_sha256": "5a5ba3e0505d1c82332dbad6b942aef3703f57a418a93574968d7d4ba220a06d",
+          "source_body_sha256": "a1752775d837e545fd06d302546860cfb3917a6e55d47f5f85b29059682639d5",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K11",
+          "chunk_id": "a375977fb20ea91f",
+          "expected_text_sha256": "b5ec4e6f4fb2a7f53c795e69e22e749df0fc435b0af25954ec868ef4f6ef4b28",
+          "source_body_sha256": "801796824f2acc7f86cb27b54a051013cbb5d9fcbf5c778d3b8ae02157adc249",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K12",
+          "chunk_id": "0c6ab94adc7a36fc",
+          "expected_text_sha256": "72cdc7390824b977a9e8cb9b7082e02f4ce54718feab108b050835d49340edb1",
+          "source_body_sha256": "ea3123bd8d3605f2e2bc11379be888a875cba088398a4f90a701e588d11791f1",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K13",
+          "chunk_id": "b0f7d999c4dd2c17",
+          "expected_text_sha256": "9e4dc64f6d98773f4a47737894a65c05c65b968600f751e1c99810f6f83817d5",
+          "source_body_sha256": "3d6d90f5bda9c3524cc87615fa8b106317603931e98f5542f7899da72e0c700d",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K14",
+          "chunk_id": "3cbb301857263e74",
+          "expected_text_sha256": "7748c8ec8bf9c61dbd505d1ae46466483042f6d0343fb4e66f4c8ca956888397",
+          "source_body_sha256": "f97dbc32212a080e362fe5a1e348f32cf902635b95798b941bba26d78bbc7369",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K15",
+          "chunk_id": "b6febd54b36cd459",
+          "expected_text_sha256": "df99d38e46a6ba22210d77ce2d8df333bffe81af06dd03cfc0de564421dd620e",
+          "source_body_sha256": "016a8be0462603fa06e40cd8b0753e57794a2b32c3617c149a7e915f333c2b76",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K16",
+          "chunk_id": "3ab75c7c5565520f",
+          "expected_text_sha256": "d42ffecd3d16c893208bd0570c234b31f23feac56a21e59ca3522edfa345bc60",
+          "source_body_sha256": "ce1a685076827ac700e1802e1171e4e1a67306d1ba59f6601ee963ab6cfb769d",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K17",
+          "chunk_id": "ab77ac5318c2673e",
+          "expected_text_sha256": "34e429f225265504567164c585140de93bcac74f49beda5e74777e5d77e1a975",
+          "source_body_sha256": "f16a05e65d075866d173edde2665d959aad96a6a42e6edba98427bcea2f87682",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K18",
+          "chunk_id": "4db824201efeadf7",
+          "expected_text_sha256": "a782c5f7b89b1f1b83a09dc6f1f1dda95e776040fa4944e6215e960ab643a45b",
+          "source_body_sha256": "b503f8cc1f45793835053b71aca83915a101860bb555d09beb52a82a59986a92",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K19",
+          "chunk_id": "78f3802c55ebfc83",
+          "expected_text_sha256": "fad35ef1dc92d68ec202952ecb9d74e5901fd530dc45c75c8ff113f19a4f573d",
+          "source_body_sha256": "db757442f32969580e2e3c56f2ac1fb7667977bf87a1c640c1a1bfc7f9a14b8f",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K20",
+          "chunk_id": "347a24f4eb0a1376",
+          "expected_text_sha256": "1089a44b5dc114191675ee3efd1a404c1a198f57302f7b621f6b0521904684bf",
+          "source_body_sha256": "63736780b32074ee0a37a5b541c5be7b42bfdb5454be09a691dc0a16b1b33693",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K21",
+          "chunk_id": "626f4ceecf913663",
+          "expected_text_sha256": "793d646aec9b6a6bf4e801b017059bad9b0b5abe1e24424364075b49f3932f71",
+          "source_body_sha256": "4d7c08d0a750382e254c2587831c8b215d1aac12c02997238986efe52005ce8c",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K22",
+          "chunk_id": "27abb108fda5f1f0",
+          "expected_text_sha256": "6a0b62df261426a875e4270b0b5476ec71415922e84eb7bee33b2388c3be0938",
+          "source_body_sha256": "594778ceea20b791c19d03571b467de5653574debbc717924c8c753b0900a2d2",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K23",
+          "chunk_id": "1845c4ddd3e7cad5",
+          "expected_text_sha256": "59a1195bfe3056be78756580b313caff84a3a6a1d5a228d6839da991ea6bcb99",
+          "source_body_sha256": "e88df4c015d6c36febcd6b10e757004525d0329ba1a0256b00abd20dd1921887",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K24",
+          "chunk_id": "6ab1c9c78f7abd58",
+          "expected_text_sha256": "2f952bf9caba9f9a2d8c010bf61d93881451b502f0e758210169272cbf5d591b",
+          "source_body_sha256": "e2e9465a6a909926d7ddd751e09f65321ddf524c07fb2b935379a1a1d8d54d05",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K25",
+          "chunk_id": "b697a596de679ab5",
+          "expected_text_sha256": "461e5cde9d41f20b1329e00c4065f61ed060d2ab62a56277a50afac732f82dcc",
+          "source_body_sha256": "86324c7d53dd0582a0cf268d0ac9ee6cee935764fd919d6393810021cc48c0e0",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K26",
+          "chunk_id": "97cda1d1b5e2ac3e",
+          "expected_text_sha256": "5b6e33c747ac2b37bb2c3acf23a3d445c8de02b23648107eeeda820bddef72b4",
+          "source_body_sha256": "4e73cd31213318ffad35fa95850d2a2fcf25fdc1209d041ff4c4cd1f1c7c3c2c",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K27",
+          "chunk_id": "14882f6f7f2f494b",
+          "expected_text_sha256": "77ffc7acf4b0e4dda2246c14a9462aede9ac17fe479b1fbbf77379ce5e806cf7",
+          "source_body_sha256": "2f054846cecb6decd41734fbf436f2c6542078dceb5758f007e0286784bf3da9",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0022-K28",
+          "chunk_id": "414c3f4f8e750385",
+          "expected_text_sha256": "c9e19d2ad563cb502ef45f0206a43bdd367c1cadcf4a90c8ad51a1feafb676bf",
+          "source_body_sha256": "88323cbb5151fc5cdd586fe246eef608134bdc393a5ea48b532211966cba89c5",
+          "complete_expected_text": true,
+          "available": true
+        }
+      ],
+      "metadata_chunk": {
+        "id": "e44f76fadd9e8259",
+        "content_sha256": "a0770d3f85b275801c6bf1e10109bbe6e8dbb05f90f2902d4f71c3f833393f29",
+        "available_before": true,
+        "reason": "Traceability-only index explicitly excluded from business answer evidence",
+        "available_after": false
+      },
+      "structure_acceptance": false,
+      "legal_effectiveness_acceptance": false,
+      "formal_import": false,
+      "business_chunks_available": 28,
+      "original_content_preserved": true
+    },
+    {
+      "doc_id": "DOC0023",
+      "dataset_id": "0fb4da10e6ad4dd0bc7071b4407fe038",
+      "document_id": "09c031de678b4515937d37e133bcdce6",
+      "classification": "isolation trial; not formal import or acceptance",
+      "local_master_path": "03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+      "local_sha256": "9bf32f445d6f5c37082e6d828ba29ef8e183dca7df8b1945f668d4dc1f0cb9ba",
+      "remote_sha256": "9bf32f445d6f5c37082e6d828ba29ef8e183dca7df8b1945f668d4dc1f0cb9ba",
+      "expected_path": "04-chunks/expected/DOC0023-v4.json",
+      "expected_sha256": "2a03068173d608c342c863cc51f4628f3e48fb9dc449276d5ef53f971e2985c2",
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "parser_config": {
+        "Extractor:AutoExtractDefault": {
+          "keywords": {
+            "top_n": 0
+          },
+          "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+          "metadata": {
+            "built_in_metadata": [],
+            "enabled": false,
+            "metadata": []
+          },
+          "questions": {
+            "top_n": 0
+          },
+          "summary": {
+            "enabled": false
+          },
+          "tags": {
+            "tag_file_id": "",
+            "top_n": 0
+          }
+        },
+        "File": {},
+        "Parser:HipSignsRhyme": {
+          "enable_vision_enhancement": false,
+          "pdf": {
+            "enable_multi_column": true,
+            "flatten_media_to_text": false,
+            "parse_method": "DeepDOC",
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "pdf"
+            ],
+            "vlm": {}
+          },
+          "vlm": {
+            "llm_id": ""
+          }
+        },
+        "TitleChunker:SparklySchoolsTravel": {
+          "chunk_token_cap": 0,
+          "groupRules": [
+            {
+              "levels": [
+                {
+                  "expression": "^#[^#]"
+                },
+                {
+                  "expression": "^##[^#]"
+                },
+                {
+                  "expression": "^###[^#]"
+                },
+                {
+                  "expression": "^####[^#]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+章"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+节"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+条"
+                },
+                {
+                  "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[0-9]+章"
+                },
+                {
+                  "expression": "第[0-9]+节"
+                },
+                {
+                  "expression": "[0-9]{1,2}[\\. 、]"
+                },
+                {
+                  "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+                },
+                {
+                  "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+章"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+节"
+                },
+                {
+                  "expression": "[零一二三四五六七八九十百]+[ 、]"
+                },
+                {
+                  "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+                },
+                {
+                  "expression": "[\\(（][0-9]{,2}[\\)）]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+                },
+                {
+                  "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+                },
+                {
+                  "expression": "Section [0-9]+"
+                },
+                {
+                  "expression": "Article [0-9]+"
+                }
+              ]
+            }
+          ],
+          "hierarchy": 3,
+          "hierarchyGroup": "0",
+          "hierarchyHierarchy": "3",
+          "hierarchyRules": [
+            {
+              "levels": [
+                {
+                  "expression": "^#[^#]"
+                },
+                {
+                  "expression": "^##[^#]"
+                },
+                {
+                  "expression": "^###[^#]"
+                },
+                {
+                  "expression": "^####[^#]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+章"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+节"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+条"
+                },
+                {
+                  "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[0-9]+章"
+                },
+                {
+                  "expression": "第[0-9]+节"
+                },
+                {
+                  "expression": "[0-9]{1,2}[\\. 、]"
+                },
+                {
+                  "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+                },
+                {
+                  "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+章"
+                },
+                {
+                  "expression": "第[零一二三四五六七八九十百0-9]+节"
+                },
+                {
+                  "expression": "[零一二三四五六七八九十百]+[ 、]"
+                },
+                {
+                  "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+                },
+                {
+                  "expression": "[\\(（][0-9]{,2}[\\)）]"
+                }
+              ]
+            },
+            {
+              "levels": [
+                {
+                  "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+                },
+                {
+                  "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+                },
+                {
+                  "expression": "Section [0-9]+"
+                },
+                {
+                  "expression": "Article [0-9]+"
+                }
+              ]
+            }
+          ],
+          "include_heading_content": false,
+          "levels": [
+            [
+              "^#[^#]",
+              "^##[^#]",
+              "^###[^#]"
+            ]
+          ],
+          "method": "hierarchy"
+        },
+        "Tokenizer:GreatCarsWash": {
+          "fields": "text",
+          "filename_embd_weight": 0.1,
+          "search_method": [
+            "embedding",
+            "full_text"
+          ]
+        }
+      },
+      "ingestion_status": "COMPLETED",
+      "chunks_total": 36,
+      "points_total": 35,
+      "points": [
+        {
+          "knowledge_point_id": "DOC0023-K01",
+          "chunk_id": "ec2f5283b1b10fa6",
+          "expected_text_sha256": "47cd33dd7508dd8cf0ee6da8b445cc66a636fe84b9e45673401c97f85a04e888",
+          "source_body_sha256": "ce16418ffc5b1536b3d8492651781fef4879c8f8fcf40dfe59fbd1169437e3ff",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K02",
+          "chunk_id": "ee05b98ab107349c",
+          "expected_text_sha256": "6588658929afd9acf1b73969fee42c70fa2afe47db295466258789073d733859",
+          "source_body_sha256": "a97e7b8c7fad6ad37b45fcaf4d2df91badcc30bcbc061e17364e3203f7cef111",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K03",
+          "chunk_id": "acd568c3df0e9e55",
+          "expected_text_sha256": "fe6f6f3a458eb848ffeecbf002d90940b4f25ee965c7092c32d003fb1911c80a",
+          "source_body_sha256": "3815d9c6c864b8342c662bcb6b122b6e90969e33cd20d5014a51a65184ec8e60",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K04",
+          "chunk_id": "26cb896deb4a0c49",
+          "expected_text_sha256": "64926dabb6f3f025ea3a8d41ade3e51efc160271e14aa067d9feabb0f748f173",
+          "source_body_sha256": "9913766bba867eb8c283178a9d6dc8b682740ebc969d7bf37acb1e36433b4667",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K05",
+          "chunk_id": "0e62be6a8f3bd8f0",
+          "expected_text_sha256": "e8acc0b1d2a9575a0f5efba21e0e0b211b8e0e8c073bf81f3541c720f806f1d0",
+          "source_body_sha256": "fd473c95a7f3ad18290e159b92e5f0a294b19f79ed96a61d657f37a13c81064e",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K06",
+          "chunk_id": "befb53c1815fc37b",
+          "expected_text_sha256": "8173e3bee1d4dd2e7a601f2c912cda210e6b395256c41a79b45092aae11b6421",
+          "source_body_sha256": "52f257539d3bae16dc771922e32af7683eb6e71ff21b1592bdaba2eae10e100e",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K07",
+          "chunk_id": "ee4da4b8db57b52b",
+          "expected_text_sha256": "fb7e4cb04eb62813a86375812166dbe5e2c79295c1a68c6e42e6edf0224fc511",
+          "source_body_sha256": "43c1e02b01373fd24490901a8b446097c5c8b991b27222432ac5e65bc514e2e4",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K08",
+          "chunk_id": "1fb9044b4b1515df",
+          "expected_text_sha256": "bab6c75c24790907d650a35ff8b0e43bdf1914c4f20f85b05f1147fbab2117fa",
+          "source_body_sha256": "0544057e339ebcf4397f313eefb75b22102262fdf239d01fc723ca2b8fdb5460",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K09",
+          "chunk_id": "0f6f98ba7c103ae5",
+          "expected_text_sha256": "ae76173545d075fd463b566aa9863240ab2cdeb8c4eec001cf17ce0dca785cad",
+          "source_body_sha256": "b24aab41e5837b0dbd2765e994e9cc1af7ef55aeed83e380ff24254c2e76dc1e",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K10",
+          "chunk_id": "730ec5bc10ad4171",
+          "expected_text_sha256": "f9745ff31608b15a8ec0239208f5face6fede8c9c9d0f2562c2972e42e9be97c",
+          "source_body_sha256": "16b464793ee915e65f1405bf608a31ff6710f49687f848778913c4fed643f712",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K11",
+          "chunk_id": "49a4e98efd83dd5c",
+          "expected_text_sha256": "61b2403171818ad025758a544991a2666078b40afba31e77d35ab7388dbeabda",
+          "source_body_sha256": "7aeafa59d7c411b615a36acf91e1310536611d373500f1cbe833fcfe2aa55cd6",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K12",
+          "chunk_id": "297550ad6bc582de",
+          "expected_text_sha256": "ab74c2239443feb485cc3bebdc0a47cba9c52c2341b69b377636c5cb8c876a8a",
+          "source_body_sha256": "f49a3d92954f3aff94c0ea1926cbca4613421b018db4a29abc004973c68cf984",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K13",
+          "chunk_id": "47e32fd888ec44b3",
+          "expected_text_sha256": "ff45a13554b36c70143d821b47f02127dd8e03d108b1cd41b012cb954807b700",
+          "source_body_sha256": "cdff02ac64d3fd7cacbc4f27505e3b2ed83ebbade6cbbc87380ba501a8c57ad7",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K14",
+          "chunk_id": "2025d987e3cb8d43",
+          "expected_text_sha256": "5121ea73eb26b4e9c52d7acb74c5f077d2e8d9c3fccc8dea191ddb150ed205b3",
+          "source_body_sha256": "c018489794816eca4f4722e250c4e4be9ca1a7cb5a525136613fb4062e1a36e3",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K15",
+          "chunk_id": "22fd240452c0a158",
+          "expected_text_sha256": "c968f364abf776aa3ef2f58384e9090f41a17811e3f1749ea67760e2b317cde7",
+          "source_body_sha256": "a3aeb6f1800bc0da93fba9bf659b5013fc068837c796c91e5ac68abbc0344af4",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K16",
+          "chunk_id": "07376a607cf63656",
+          "expected_text_sha256": "ca79e165ef727d85345120f6a8a66b35343aaf90a98dc753275d64ed2ce21de9",
+          "source_body_sha256": "176590d465d8f5103734fa96329f83fe5c80e67592e1923a4b5c04730fd56c99",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K17",
+          "chunk_id": "70327b8df793d8cc",
+          "expected_text_sha256": "1fefb6a7ccb7f5a3e3c4db20ac1e5ed4a7f8d0211e3169fccac48ce6e99230b6",
+          "source_body_sha256": "9151e3038f96eb4e86551a79346f19621758729f610900cb9cd66ce3ae97ce3a",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K18",
+          "chunk_id": "3fadedfae365e5e9",
+          "expected_text_sha256": "a9a1e325b3ec4c0c54ac897f3eb46bc1df913fe26b8cd352ac8aceae290d4a31",
+          "source_body_sha256": "543eb7cfdc191ef0ee8a10fd5779c4fb242644d30df411d91787cc05c993a072",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K19",
+          "chunk_id": "ef8c4d2c22d288c2",
+          "expected_text_sha256": "0f6457d54077aabd269789106d904c854509a52631246352b805c5817d166ae6",
+          "source_body_sha256": "dce4a5f4861a7a30d8d4330593dfcbd0b0b6c0c1fb3d9767921977d6368bebac",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K20",
+          "chunk_id": "deb30caa1d991893",
+          "expected_text_sha256": "cbba933b10204c3816932a6a3a2530d78beb1e15ab0ae0ec43e696ba692a6049",
+          "source_body_sha256": "b0865406bc9a3ec255dc0a5fbd16492e3738247e941009927f8963c9b96500a4",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K21",
+          "chunk_id": "2efb67fff8a3a6e2",
+          "expected_text_sha256": "175da27391f5dd31230f4530a666e3ae16c29defce05c6f00b028e0633f35759",
+          "source_body_sha256": "c7b83aa90c64ebb8e77e2b5bf7e42326a9f71720ebf7128671de4deef201365c",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K22",
+          "chunk_id": "5f5089e9d5c6cc3f",
+          "expected_text_sha256": "55d11989f829f6438893a3987269c485fb472aa6fbe4f3261720eb96c7fee394",
+          "source_body_sha256": "8fd18ed31677770ad759874c28d50ece50ea88641c9215a68adc05e3a3e2545b",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K23",
+          "chunk_id": "0a3143e0815061fb",
+          "expected_text_sha256": "a6e42b77ea5fa1e97e18ce7e2018adf5198e9d8154ddf4a451bf1fea8cfd483e",
+          "source_body_sha256": "dc51fb573809659bb39910a42774102267b2ce8360f8028bfef164def51467ec",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K24",
+          "chunk_id": "a225c52b7cd891b0",
+          "expected_text_sha256": "b94b205155a3e860b1199e13b3e44c4572e26990cc1a65e7216b614ace30b02d",
+          "source_body_sha256": "465d59d52089386bd3de4633f763f5e849db3d5f091bd0509dfe6d833fa29b12",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K25",
+          "chunk_id": "a6e7555465028089",
+          "expected_text_sha256": "649728d295b30d55c5be26f2edcc9d1161e9c6cec48037bc0a96fe8890de8472",
+          "source_body_sha256": "0b38701516d9c7f551b5004105bc88fb6efd3df80e3211b4077f702e7305bbbb",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K26",
+          "chunk_id": "3dd8383f688a387b",
+          "expected_text_sha256": "6ea3f577694738732dbd39a470ec07a5b0b9679689df2302d33d3c9b63aef01f",
+          "source_body_sha256": "2af9bc336f20490ca67bc8e14b254262585869bac25fe7333980163772e5b63c",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K27",
+          "chunk_id": "e5e8dbd05685f83f",
+          "expected_text_sha256": "b12a482a5002fbb425542b8d53f839e0654f365f6b1801e586ce4b3d0f01e15a",
+          "source_body_sha256": "a88e23e5c6af2ab9ebbdaac23930ab7c000bc56f690667f8f01fbe388f2932aa",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K28",
+          "chunk_id": "f1bab9d5b3bdc45f",
+          "expected_text_sha256": "ca9e1acefd7268a7989a8c03f8b1616c0259c35d681c83f8fb6b7ed5b1429b98",
+          "source_body_sha256": "ff3132501179258e6d9e416106a53433f9ef5ef6c45a4c62d2eb5b69791f8752",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K29",
+          "chunk_id": "91bb09b8724ead02",
+          "expected_text_sha256": "1c7e64a0eb9a5841a37ca4bc21a8d8558377c47106b2c1ab21e7659ff44561d1",
+          "source_body_sha256": "6e175109b8a5e4d3be3d3907ea107082c6961e05ad271427d780f8bf76942344",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K30",
+          "chunk_id": "7b8f13aa1cda695e",
+          "expected_text_sha256": "910abad172ceee84781408e715cd864be9aae02ee0c49af313a80def73254090",
+          "source_body_sha256": "d85b0d160c5471e307da724efcaf3d68ad303c7a2ee6eba0179f6dd487df7e58",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K31",
+          "chunk_id": "c81404aed0ef00ad",
+          "expected_text_sha256": "c0ba3f6ac98707f91c71e198bff60c55d80a1fda18677998b32485f87bab4a5d",
+          "source_body_sha256": "3ddbb1875c5913be6148f79a12df65a72be62d76e4477c442a263fc10f243639",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K32",
+          "chunk_id": "718d54592fdbd0f1",
+          "expected_text_sha256": "22238d6bfae31d4f0d41349e3c8167704eee7bcec868a45be8fcf428e1b32855",
+          "source_body_sha256": "786cdf43d6b5e028d9b439a79d010987f84e161e7b5a6a0143a28215cea5f708",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K33",
+          "chunk_id": "4ef7b1a0cc3bf563",
+          "expected_text_sha256": "0ebe4c287cbc3b34ff50727bdec4da7b4de321eda1ffe307e25d97d5c292ee8e",
+          "source_body_sha256": "b42de61b8d0df914b60d7c18df4b9229393fa3bbe22b20208911e4a6daf297b1",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K34",
+          "chunk_id": "4b0aaf7bb0955ebb",
+          "expected_text_sha256": "8167e01ee67664005c969ba6b1e5ca126d0b9b5afb3e28b4e115cd734188e0b6",
+          "source_body_sha256": "20f2364450e53ff49b0cb17562450748cf4510fba37313c58d037f73983bd08e",
+          "complete_expected_text": true,
+          "available": true
+        },
+        {
+          "knowledge_point_id": "DOC0023-K35",
+          "chunk_id": "a4567f49883702e3",
+          "expected_text_sha256": "dec6d929dcd52cfcca4439538e673f9459cc483167d931bd581f9bf28431c8e7",
+          "source_body_sha256": "1d78f9db4bcca1e64e55a19375baefdc74216c491eb2de84d7450f00d6a8a548",
+          "complete_expected_text": true,
+          "available": true
+        }
+      ],
+      "metadata_chunk": {
+        "id": "bc13e0fb27e6ea67",
+        "content_sha256": "bf8c5dee91aba28583407522addde24ac7c18e944ecc97a43af0672e224ec5c3",
+        "available_before": true,
+        "reason": "Traceability-only index explicitly excluded from business answer evidence",
+        "available_after": false
+      },
+      "structure_acceptance": false,
+      "legal_effectiveness_acceptance": false,
+      "formal_import": false,
+      "business_chunks_available": 35,
+      "original_content_preserved": true
+    }
+  ],
+  "datasets": [
+    {
+      "id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "name": "轨知 · 铁路公开规章",
+      "classification": "original formal dataset",
+      "document_count": 75,
+      "chunk_count": 3411,
+      "accessible": true
+    },
+    {
+      "id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "name": "铁路资料优化试验-GW-工务与基础设施",
+      "classification": "isolation trial",
+      "document_count": 21,
+      "chunk_count": 1305,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "22ac4f4c9f7847c2b180d66be5a88389",
+      "accessible": true
+    },
+    {
+      "id": "8f7cbc152fc64d7b8d39da97028e5abe",
+      "name": "铁路资料优化试验-XH-通信信号与列车控制",
+      "classification": "isolation trial",
+      "document_count": 8,
+      "chunk_count": 303,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "accessible": true
+    },
+    {
+      "id": "6b3ebc8cdb424cc4b489f80a4bf8718c",
+      "name": "铁路资料优化试验-GD-牵引供电与电气设备",
+      "classification": "isolation trial",
+      "document_count": 11,
+      "chunk_count": 412,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "accessible": true
+    },
+    {
+      "id": "0fb4da10e6ad4dd0bc7071b4407fe038",
+      "name": "铁路资料优化试验-CL-机车车辆与运用检修",
+      "classification": "isolation trial",
+      "document_count": 20,
+      "chunk_count": 778,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "accessible": true
+    },
+    {
+      "id": "6276358588ab4dbb8c17baf7600b95c4",
+      "name": "铁路资料优化试验-YS-运输组织与安全管理",
+      "classification": "isolation trial",
+      "document_count": 26,
+      "chunk_count": 1291,
+      "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "accessible": true
+    }
+  ]
+}

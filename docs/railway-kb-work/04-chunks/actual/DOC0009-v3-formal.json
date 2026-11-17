@@ -1,0 +1,1510 @@
+{
+  "doc_id": "DOC0009",
+  "source_id": "S0009",
+  "domain": "GW",
+  "phase": "formal",
+  "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+  "document_id": "392ba2210f3248299010db821f17befd",
+  "filename": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+  "sha256": "a824bce5ac30371b076e29be838c83d1e685629c38f8afd0fd9ffcf51d92df1d",
+  "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+  "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+  "status": "full-body-verified",
+  "uploaded_at": "2026-11-15T17:53:16.734Z",
+  "chunk_count": 57,
+  "business_chunks": 56,
+  "verified_at": "2026-11-15T17:55:25.020Z",
+  "superseded": [
+    {
+      "document_id": "0274875f9f194edc8d82ab659d93483c",
+      "name": "DOC0009_铁路建设工程勘察设计管理办法_精修_1a9bc45fa506.md",
+      "retained": true,
+      "status": "0"
+    }
+  ],
+  "checked_at": "2026-11-15T17:55:31.500Z",
+  "ingestion_status": "COMPLETED",
+  "exported_count": 57,
+  "expected_points": 56,
+  "full_body_passed": 56,
+  "passed": true,
+  "checks": [
+    {
+      "knowledge_point_id": "DOC0009-K01",
+      "article": "第一条",
+      "expected_sha256": "35db647ba3349df99b39af8da54329e09f2cb91c10e8685a0648d632b23f0aa9",
+      "matching_chunk_ids": [
+        "49d3747c647c8ce7"
+      ],
+      "complete_chunk_ids": [
+        "49d3747c647c8ce7"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K02",
+      "article": "第二条",
+      "expected_sha256": "22c2730c98f93a2ca0a8c9bf322c5706a664bbd1b20e417dbb5fe8349b8733e5",
+      "matching_chunk_ids": [
+        "d6fc86186c88d141"
+      ],
+      "complete_chunk_ids": [
+        "d6fc86186c88d141"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K03",
+      "article": "第三条",
+      "expected_sha256": "0ab7b3f52e0df93b268413887ce37c67200b5bcb8d8e9b3b6e6dd5085ad91763",
+      "matching_chunk_ids": [
+        "f01e0bb64335a7c1"
+      ],
+      "complete_chunk_ids": [
+        "f01e0bb64335a7c1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K04",
+      "article": "第四条",
+      "expected_sha256": "11cc73c97130c2721d8af281de7916831025725af5c1c13c6adc98b323c980e7",
+      "matching_chunk_ids": [
+        "988715c4648bf475"
+      ],
+      "complete_chunk_ids": [
+        "988715c4648bf475"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K05",
+      "article": "第五条",
+      "expected_sha256": "9bad25b6047377d09e786f0b60b4c4567cce30e9810918776d415c54a4b92d39",
+      "matching_chunk_ids": [
+        "8afe878d7e130211"
+      ],
+      "complete_chunk_ids": [
+        "8afe878d7e130211"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K06",
+      "article": "第六条",
+      "expected_sha256": "d332b0dbc1c6661d4ca849ca644c5d1ea808b917cf17cf3faad7d79ad8b55f4f",
+      "matching_chunk_ids": [
+        "46f46e76f26ae1a1"
+      ],
+      "complete_chunk_ids": [
+        "46f46e76f26ae1a1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K07",
+      "article": "第七条",
+      "expected_sha256": "c51aa3bd44f257a82a7e40cda9a5e9fe45ab73794911c35887e996d11a026e90",
+      "matching_chunk_ids": [
+        "bbf71d665de9e920"
+      ],
+      "complete_chunk_ids": [
+        "bbf71d665de9e920"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K08",
+      "article": "第八条",
+      "expected_sha256": "f23fb7aba4b8fa388fd04d40443788ee39007795993a8c6033cb5bce10f291b5",
+      "matching_chunk_ids": [
+        "5fe18fc511e5bb31"
+      ],
+      "complete_chunk_ids": [
+        "5fe18fc511e5bb31"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K09",
+      "article": "第九条",
+      "expected_sha256": "6c963a6b58e2464155d2cee63c7d3adad081f62db6da45806fb2f9e28df23fca",
+      "matching_chunk_ids": [
+        "973d42779db6b7fd"
+      ],
+      "complete_chunk_ids": [
+        "973d42779db6b7fd"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K10",
+      "article": "第十条",
+      "expected_sha256": "f796f93018273508da67ee73dd02e2125638d852cdb4ea69f854d545b8716434",
+      "matching_chunk_ids": [
+        "114424801c4584b3"
+      ],
+      "complete_chunk_ids": [
+        "114424801c4584b3"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K11",
+      "article": "第十一条",
+      "expected_sha256": "1ca4f63eefbc27ffc8f11a5d397b84cc35db8e824d11fe9fa1f4528ff3be03c4",
+      "matching_chunk_ids": [
+        "efd427972c93ca29"
+      ],
+      "complete_chunk_ids": [
+        "efd427972c93ca29"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K12",
+      "article": "第十二条",
+      "expected_sha256": "65ea68cb703ff7874a1f9f2a291122425a9f6f1252a1f7114bca0088c8fcf74a",
+      "matching_chunk_ids": [
+        "0698547f3d128093"
+      ],
+      "complete_chunk_ids": [
+        "0698547f3d128093"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K13",
+      "article": "第十三条",
+      "expected_sha256": "15b553ea7ddf1fce7079469c5405a7a4deef87fde1839b6867b1c40c275f145a",
+      "matching_chunk_ids": [
+        "64b8b9972e5be938"
+      ],
+      "complete_chunk_ids": [
+        "64b8b9972e5be938"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K14",
+      "article": "第十四条",
+      "expected_sha256": "e301be3e839d59014058053f54e9fbb2bc5bf548298cd10424d8bdc61dae111a",
+      "matching_chunk_ids": [
+        "79261a5a2b6c0a37"
+      ],
+      "complete_chunk_ids": [
+        "79261a5a2b6c0a37"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K15",
+      "article": "第十五条",
+      "expected_sha256": "9193eb1636b8bc564107f4b8c7ddf880383dcc24f332f4a9db92b32d7ee6a182",
+      "matching_chunk_ids": [
+        "4080df37f8b4e825"
+      ],
+      "complete_chunk_ids": [
+        "4080df37f8b4e825"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K16",
+      "article": "第十六条",
+      "expected_sha256": "0071e7ade665b52a85ee9179262f37f33f66e23be23b7beb69354b92fee44f68",
+      "matching_chunk_ids": [
+        "95f7ab2c3df0a8aa"
+      ],
+      "complete_chunk_ids": [
+        "95f7ab2c3df0a8aa"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K17",
+      "article": "第十七条",
+      "expected_sha256": "cc6476fb7044a5a0aa6dfe6ce31f27839bc6860d0eee91275924dbec37da0f7e",
+      "matching_chunk_ids": [
+        "59932bfb5467017c"
+      ],
+      "complete_chunk_ids": [
+        "59932bfb5467017c"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K18",
+      "article": "第十八条",
+      "expected_sha256": "1031c7a8110cc02d524733111814b63136313539a7ac71cff81babec7033925f",
+      "matching_chunk_ids": [
+        "43a267437c78f9d6"
+      ],
+      "complete_chunk_ids": [
+        "43a267437c78f9d6"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K19",
+      "article": "第十九条",
+      "expected_sha256": "b23ea2b120e5cca9b134c4e8e626a93d8bb876361061147803d4327c3b820f0a",
+      "matching_chunk_ids": [
+        "fa3f89344cb0bd82"
+      ],
+      "complete_chunk_ids": [
+        "fa3f89344cb0bd82"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K20",
+      "article": "第二十条",
+      "expected_sha256": "4c6c73bcbb4405d9787748b4361880c5743c4a6891c6a6a06f95683da7fcd753",
+      "matching_chunk_ids": [
+        "7890901500f9f213"
+      ],
+      "complete_chunk_ids": [
+        "7890901500f9f213"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K21",
+      "article": "第二十一条",
+      "expected_sha256": "8a37c5eb987344b23b4e8e03a3e0c55e4d8c478db384826d2926ed2a946a4322",
+      "matching_chunk_ids": [
+        "9700a44cfef014a6"
+      ],
+      "complete_chunk_ids": [
+        "9700a44cfef014a6"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K22",
+      "article": "第二十二条",
+      "expected_sha256": "9526266f445457a88c68d93428b2a26fbf799516d9fbf91de4fc88b3e0a29ebc",
+      "matching_chunk_ids": [
+        "698d93588a78014e"
+      ],
+      "complete_chunk_ids": [
+        "698d93588a78014e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K23",
+      "article": "第二十三条",
+      "expected_sha256": "29e2114bc0a9b1ceba7a4d95682df0347d60baf69a098feca8e1834b71deab07",
+      "matching_chunk_ids": [
+        "328e0b889890af97"
+      ],
+      "complete_chunk_ids": [
+        "328e0b889890af97"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K24",
+      "article": "第二十四条",
+      "expected_sha256": "a49c3ccfcd8637284c404c06cc1f7ca32298646ae78f23982dff14dfa03e9127",
+      "matching_chunk_ids": [
+        "ba656c7bf7f8fd67"
+      ],
+      "complete_chunk_ids": [
+        "ba656c7bf7f8fd67"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K25",
+      "article": "第二十五条",
+      "expected_sha256": "5dacf737836d54ecf158773ec210f703a894d572400d50ffaf6c45172d4ddbb7",
+      "matching_chunk_ids": [
+        "e9f7b490796048ae"
+      ],
+      "complete_chunk_ids": [
+        "e9f7b490796048ae"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K26",
+      "article": "第二十六条",
+      "expected_sha256": "d4b4f5f97a41756739eb7d07d01cca8296b9db2fc02628c406435f6335ce1288",
+      "matching_chunk_ids": [
+        "f0bbd74a4582f5d1"
+      ],
+      "complete_chunk_ids": [
+        "f0bbd74a4582f5d1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K27",
+      "article": "第二十七条",
+      "expected_sha256": "b2a25b05ba01debe3449381c1451ac91a3bcc560ebfa4bd270a024766133e26f",
+      "matching_chunk_ids": [
+        "b3f2981d2ab0104f"
+      ],
+      "complete_chunk_ids": [
+        "b3f2981d2ab0104f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K28",
+      "article": "第二十八条",
+      "expected_sha256": "eb953c3f9de86e84d295f7748f47d62cec722ae6f9909b46f9b390526d4879b9",
+      "matching_chunk_ids": [
+        "af344bc458f8d6aa"
+      ],
+      "complete_chunk_ids": [
+        "af344bc458f8d6aa"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K29",
+      "article": "第二十九条",
+      "expected_sha256": "4507bcc76bbd3f420db0aa11eb1524d5e27c28456eb10f6f0a3c4acee28d6ef0",
+      "matching_chunk_ids": [
+        "ee1f0539e2609282"
+      ],
+      "complete_chunk_ids": [
+        "ee1f0539e2609282"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K30",
+      "article": "第三十条",
+      "expected_sha256": "3783a837e8e503427da5a19afb672abad1416332dabeb7995879fdfed87e433c",
+      "matching_chunk_ids": [
+        "9d3b6991b20c1b89"
+      ],
+      "complete_chunk_ids": [
+        "9d3b6991b20c1b89"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K31",
+      "article": "第三十一条",
+      "expected_sha256": "4f216578c42076898bea22e1d00d5784023327db7558e1b9407d5d2a148acd79",
+      "matching_chunk_ids": [
+        "3b172adc99409f2a"
+      ],
+      "complete_chunk_ids": [
+        "3b172adc99409f2a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K32",
+      "article": "第三十二条",
+      "expected_sha256": "51c1e77643deca953f13b0e3f214d4562d4153eda179f539dea50eb6baeab3b9",
+      "matching_chunk_ids": [
+        "7419d9e9256ef626"
+      ],
+      "complete_chunk_ids": [
+        "7419d9e9256ef626"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K33",
+      "article": "第三十三条",
+      "expected_sha256": "d4a95d956db02c8165c002cca77d9bb3bf653538f6ea9025f9e170ea2616aa59",
+      "matching_chunk_ids": [
+        "8147f33bf67edf1f"
+      ],
+      "complete_chunk_ids": [
+        "8147f33bf67edf1f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K34",
+      "article": "第三十四条",
+      "expected_sha256": "c678986d5684def87ee65925980dfcb350dba662745d9b6d12036080ea27bed7",
+      "matching_chunk_ids": [
+        "31bd45dc546d432a"
+      ],
+      "complete_chunk_ids": [
+        "31bd45dc546d432a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K35",
+      "article": "第三十五条",
+      "expected_sha256": "69cc6441cc8d18af80caa87394088612e18ac2867568cf0d4c859c746cd789b2",
+      "matching_chunk_ids": [
+        "b5abeeecd7282ed1"
+      ],
+      "complete_chunk_ids": [
+        "b5abeeecd7282ed1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K36",
+      "article": "第三十六条",
+      "expected_sha256": "f2464c1e7324b445fa25e7c390c0f7a69f2833f484da43e9729511e4adf9b751",
+      "matching_chunk_ids": [
+        "4723f10f6e37bccf"
+      ],
+      "complete_chunk_ids": [
+        "4723f10f6e37bccf"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K37",
+      "article": "第三十七条",
+      "expected_sha256": "d094c3abc4779944cc5c45ab4df66b37c804cf535367c6e17c834fcad80d1efb",
+      "matching_chunk_ids": [
+        "f3fc2e9c448adefe"
+      ],
+      "complete_chunk_ids": [
+        "f3fc2e9c448adefe"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K38",
+      "article": "第三十八条",
+      "expected_sha256": "8fae56d0d8335ac0ecf186ac7a40c4b4182826ca2acff774c4c97300e82f910e",
+      "matching_chunk_ids": [
+        "0042cf96f7caeb9b"
+      ],
+      "complete_chunk_ids": [
+        "0042cf96f7caeb9b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K39",
+      "article": "第三十九条",
+      "expected_sha256": "a07ee897914caeb600331e0470ccc13983fcc1483f08571ebb56962db208fcb2",
+      "matching_chunk_ids": [
+        "f2d2ee1182996ff8"
+      ],
+      "complete_chunk_ids": [
+        "f2d2ee1182996ff8"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K40",
+      "article": "第四十条",
+      "expected_sha256": "c72e11e9d08b0a115dca4356f343762f93b1946293d7b49e5bcea71a2f9178da",
+      "matching_chunk_ids": [
+        "71ca183247c15d83"
+      ],
+      "complete_chunk_ids": [
+        "71ca183247c15d83"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K41",
+      "article": "第四十一条",
+      "expected_sha256": "3c868a57579873b34b5ebdd038eb4defa25270a83310277fd7dcfbaa86d2a831",
+      "matching_chunk_ids": [
+        "6b803b7385c50f06"
+      ],
+      "complete_chunk_ids": [
+        "6b803b7385c50f06"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K42",
+      "article": "第四十二条",
+      "expected_sha256": "1cc6bec008e4df53072f7701b337c63c2edf6e9dd4195c8e468d796dc06ca17d",
+      "matching_chunk_ids": [
+        "0fe34f187eb5b497"
+      ],
+      "complete_chunk_ids": [
+        "0fe34f187eb5b497"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K43",
+      "article": "第四十三条",
+      "expected_sha256": "414c74e23a147ce38700dc4994ed05485f808d99286520ffac8852a76ce21945",
+      "matching_chunk_ids": [
+        "15d89df674f74871"
+      ],
+      "complete_chunk_ids": [
+        "15d89df674f74871"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K44",
+      "article": "第四十四条",
+      "expected_sha256": "ab7730510db87a43fd90ac5c85c882dd76ec911b473cd7d5cb1cba244ce47164",
+      "matching_chunk_ids": [
+        "91cab33576c47a16"
+      ],
+      "complete_chunk_ids": [
+        "91cab33576c47a16"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K45",
+      "article": "第四十五条",
+      "expected_sha256": "66aad937f9fe19f8aa348a624651bbf71a9ac31816f8c9602b578a1337ee9804",
+      "matching_chunk_ids": [
+        "7cda28b772701dd2"
+      ],
+      "complete_chunk_ids": [
+        "7cda28b772701dd2"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K46",
+      "article": "第四十六条",
+      "expected_sha256": "674cf815ad8465e29eaf1097c8ce43ac735ed14a3c061e419d302fceedc081c9",
+      "matching_chunk_ids": [
+        "12becf9a68bff18a"
+      ],
+      "complete_chunk_ids": [
+        "12becf9a68bff18a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K47",
+      "article": "第四十七条",
+      "expected_sha256": "f5798375f5acfc2d23b6870ec7d9279a10f9de2d5224aac1ae7f0e0474a18a0e",
+      "matching_chunk_ids": [
+        "bf4fdf811ca6df90"
+      ],
+      "complete_chunk_ids": [
+        "bf4fdf811ca6df90"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K48",
+      "article": "第四十八条",
+      "expected_sha256": "b963879f1e0ecda10f526035b8535150a857e068938c0772aad8343ce3138bae",
+      "matching_chunk_ids": [
+        "3da957b0bd5f3dd9"
+      ],
+      "complete_chunk_ids": [
+        "3da957b0bd5f3dd9"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K49",
+      "article": "第四十九条",
+      "expected_sha256": "87f884e4d2345554f1d964351e105b3be21186a8d578d9ea72de64d86a85472e",
+      "matching_chunk_ids": [
+        "0f58f201845514a0"
+      ],
+      "complete_chunk_ids": [
+        "0f58f201845514a0"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K50",
+      "article": "第五十条",
+      "expected_sha256": "2815b26e0d3df827e28c7af4dbedba4a8d712b3f358cbb14461c874091d4f6d7",
+      "matching_chunk_ids": [
+        "88392aecafb8669a"
+      ],
+      "complete_chunk_ids": [
+        "88392aecafb8669a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K51",
+      "article": "第五十一条",
+      "expected_sha256": "11f10305fc2d03d2f42f06bbef03092ed43d3a9a9280502931a2998995d879ad",
+      "matching_chunk_ids": [
+        "63dcebccd8212cca"
+      ],
+      "complete_chunk_ids": [
+        "63dcebccd8212cca"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K52",
+      "article": "第五十二条",
+      "expected_sha256": "2701358f19cd0ca76d3dd2efbc70b4986312072f1cf3eae9645bebc689a3c887",
+      "matching_chunk_ids": [
+        "0d4c0c26c0823d1f"
+      ],
+      "complete_chunk_ids": [
+        "0d4c0c26c0823d1f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K53",
+      "article": "第五十三条",
+      "expected_sha256": "dece068107bd86b507f648da68319c5ffce352cae58d3efac74f432b697d5cbd",
+      "matching_chunk_ids": [
+        "fda1cc936b044660"
+      ],
+      "complete_chunk_ids": [
+        "fda1cc936b044660"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K54",
+      "article": "第五十四条",
+      "expected_sha256": "a4135f2bc96fd22ff5ad891b8dd6afc8151e22ea396644796ec93804ba80f934",
+      "matching_chunk_ids": [
+        "e569bc6a360f6b5e"
+      ],
+      "complete_chunk_ids": [
+        "e569bc6a360f6b5e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K55",
+      "article": "第五十五条",
+      "expected_sha256": "38ac5cc0355579a7ffa1d64096a03c680163dc992ae8c8baeecde0afd00ffd11",
+      "matching_chunk_ids": [
+        "773f397782ecd2e9"
+      ],
+      "complete_chunk_ids": [
+        "773f397782ecd2e9"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0009-K56",
+      "article": "第五十六条",
+      "expected_sha256": "9b43ae2bfe893fde93fa6a3674fd52c85c596ef1056f141ee7a559170ab944af",
+      "matching_chunk_ids": [
+        "081f4a5d5163d49a"
+      ],
+      "complete_chunk_ids": [
+        "081f4a5d5163d49a"
+      ],
+      "passed": true
+    }
+  ],
+  "metadata_chunk_ids": [
+    "8d641caeaa6e3696"
+  ],
+  "polluted_chunk_ids": [],
+  "chunks": [
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "49d3747c647c8ce7",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第一条｜为了规范铁路建设工程勘察、设计活动\n证据定位： DOC0009-K01；S0009，第一章  总   则，第一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n为了规范铁路建设工程勘察、设计活动，保证铁路建设工程勘察、设计质量，提高铁路建设工程勘察、设计水平，推进铁路建设高质量发展，保护人民生命和财产安全，根据国家有关法律法规，制定本办法。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第一条｜为了规范铁路建设工程勘察、设计活动\n证据定位： DOC0009-K01；S0009，第一章  总   则，第一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n为了规范铁路建设工程勘察、设计活动，保证铁路建设工程勘察、设计质量，提高铁路建设工程勘察、设计水平，推进铁路建设高质量发展，保护人民生命和财产安全，根据国家有关法律法规，制定本办法。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "49d3747c647c8ce7",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "d6fc86186c88d141",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第二条｜本办法适用于在中华人民共和国境内从事铁路建设工程勘察、设计活动及其监督管理工作\n证据定位： DOC0009-K02；S0009，第一章  总   则，第二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本办法适用于在中华人民共和国境内从事铁路建设工程勘察、设计活动及其监督管理工作。\n必要依赖（第五十五条原文）： 抢险救灾及其他临时性铁路建设工程的勘察、设计活动，不适用本办法。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第二条｜本办法适用于在中华人民共和国境内从事铁路建设工程勘察、设计活动及其监督管理工作\n证据定位： DOC0009-K02；S0009，第一章  总   则，第二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本办法适用于在中华人民共和国境内从事铁路建设工程勘察、设计活动及其监督管理工作。\n必要依赖（第五十五条原文）： 抢险救灾及其他临时性铁路建设工程的勘察、设计活动，不适用本办法。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "d6fc86186c88d141",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f01e0bb64335a7c1",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第三条｜本办法所称铁路建设工程勘察\n证据定位： DOC0009-K03；S0009，第一章  总   则，第三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本办法所称铁路建设工程勘察，是指根据铁路建设工程建设方案要求，查明、分析、评价建设场地的地质地理环境特征和工程地质条件，编制铁路建设工程勘察文件的活动。铁路建设工程勘察主要包括初测、定测和补充定测。\n本办法所称铁路建设工程设计，是指根据铁路建设工程的自身要求，在对工程建设所需的技术、经济、资源、环境等条件进行综合分析、论证基础上，编制铁路建设工程设计文件的活动。铁路建设工程设计主要包括初步设计和施工图设计两个阶段。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第三条｜本办法所称铁路建设工程勘察\n证据定位： DOC0009-K03；S0009，第一章  总   则，第三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本办法所称铁路建设工程勘察，是指根据铁路建设工程建设方案要求，查明、分析、评价建设场地的地质地理环境特征和工程地质条件，编制铁路建设工程勘察文件的活动。铁路建设工程勘察主要包括初测、定测和补充定测。\n本办法所称铁路建设工程设计，是指根据铁路建设工程的自身要求，在对工程建设所需的技术、经济、资源、环境等条件进行综合分析、论证基础上，编制铁路建设工程设计文件的活动。铁路建设工程设计主要包括初步设计和施工图设计两个阶段。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "f01e0bb64335a7c1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "988715c4648bf475",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第四条｜国家铁路局对全国铁路建设工程勘察、设计活动实施监督管理\n证据定位： DOC0009-K04；S0009，第一章  总   则，第四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n国家铁路局对全国铁路建设工程勘察、设计活动实施监督管理。\n各地区铁路监督管理局对辖区内铁路建设工程勘察、设计活动实施监督管理。\n国家铁路局、各地区铁路监督管理局等负有铁路工程监管职能的部门，以下统称为铁路工程监管部门。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第四条｜国家铁路局对全国铁路建设工程勘察、设计活动实施监督管理\n证据定位： DOC0009-K04；S0009，第一章  总   则，第四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n国家铁路局对全国铁路建设工程勘察、设计活动实施监督管理。\n各地区铁路监督管理局对辖区内铁路建设工程勘察、设计活动实施监督管理。\n国家铁路局、各地区铁路监督管理局等负有铁路工程监管职能的部门，以下统称为铁路工程监管部门。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "988715c4648bf475",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8afe878d7e130211",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第五条｜铁路建设工程勘察、设计必须完整、准确、全面贯彻新发展理念\n证据定位： DOC0009-K05；S0009，第一章  总   则，第五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计必须完整、准确、全面贯彻新发展理念，严格落实基础设施建设适度超前、不能过度超前的原则，坚持以人民为中心的发展思想，落实铁路高质量发展要求，为经济社会全面协调可持续发展服务，与社会、经济发展水平相适应，做到经济效益、社会效益和生态环境效益相统一。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第五条｜铁路建设工程勘察、设计必须完整、准确、全面贯彻新发展理念\n证据定位： DOC0009-K05；S0009，第一章  总   则，第五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计必须完整、准确、全面贯彻新发展理念，严格落实基础设施建设适度超前、不能过度超前的原则，坚持以人民为中心的发展思想，落实铁路高质量发展要求，为经济社会全面协调可持续发展服务，与社会、经济发展水平相适应，做到经济效益、社会效益和生态环境效益相统一。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "8afe878d7e130211",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "46f46e76f26ae1a1",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第六条｜铁路建设工程勘察、设计单位必须依法开展勘察、设计工作\n证据定位： DOC0009-K06；S0009，第一章  总   则，第六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计单位必须依法开展勘察、设计工作，严格执行国家有关法律法规规章、工程建设强制性标准和国家有关保密规定，并对承揽的铁路建设工程勘察、设计成果质量负责。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第六条｜铁路建设工程勘察、设计单位必须依法开展勘察、设计工作\n证据定位： DOC0009-K06；S0009，第一章  总   则，第六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计单位必须依法开展勘察、设计工作，严格执行国家有关法律法规规章、工程建设强制性标准和国家有关保密规定，并对承揽的铁路建设工程勘察、设计成果质量负责。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "46f46e76f26ae1a1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "bbf71d665de9e920",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第七条｜鼓励在铁路建设工程勘察、设计活动中推广应用先进技术、先进工艺、先进设备、新型材料和现代管理方法\n证据定位： DOC0009-K07；S0009，第一章  总   则，第七条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励在铁路建设工程勘察、设计活动中推广应用先进技术、先进工艺、先进设备、新型材料和现代管理方法。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第七条｜鼓励在铁路建设工程勘察、设计活动中推广应用先进技术、先进工艺、先进设备、新型材料和现代管理方法\n证据定位： DOC0009-K07；S0009，第一章  总   则，第七条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励在铁路建设工程勘察、设计活动中推广应用先进技术、先进工艺、先进设备、新型材料和现代管理方法。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "bbf71d665de9e920",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "5fe18fc511e5bb31",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第八条｜铁路建设工程勘察、设计应当高度重视环境保护和水土保持工作\n证据定位： DOC0009-K08；S0009，第一章  总   则，第八条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计应当高度重视环境保护和水土保持工作，落实职业健康安全、工程风险防范、节约能源和土地、防灾减灾、社会稳定、文物保护和铁路运输安全等有关要求。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第一章  总   则\n### 第八条｜铁路建设工程勘察、设计应当高度重视环境保护和水土保持工作\n证据定位： DOC0009-K08；S0009，第一章  总   则，第八条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计应当高度重视环境保护和水土保持工作，落实职业健康安全、工程风险防范、节约能源和土地、防灾减灾、社会稳定、文物保护和铁路运输安全等有关要求。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "5fe18fc511e5bb31",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "973d42779db6b7fd",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第九条｜铁路建设工程勘察、设计活动必须严格执行铁路基本建设程序，坚持先勘察、后设计、再施工的原则\n证据定位： DOC0009-K09；S0009，第二章  勘察设计程序，第九条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计活动必须严格执行铁路基本建设程序，坚持先勘察、后设计、再施工的原则。\n勘察、设计各阶段工作必须达到规定的要求和深度，不得将本阶段应做的工作推到下一阶段或者施工阶段完成。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第九条｜铁路建设工程勘察、设计活动必须严格执行铁路基本建设程序，坚持先勘察、后设计、再施工的原则\n证据定位： DOC0009-K09；S0009，第二章  勘察设计程序，第九条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计活动必须严格执行铁路基本建设程序，坚持先勘察、后设计、再施工的原则。\n勘察、设计各阶段工作必须达到规定的要求和深度，不得将本阶段应做的工作推到下一阶段或者施工阶段完成。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "973d42779db6b7fd",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "114424801c4584b3",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第十条｜铁路建设工程勘察应当在设计工作之前开展\n证据定位： DOC0009-K10；S0009，第二章  勘察设计程序，第十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察应当在设计工作之前开展，工程地质条件复杂的地段和工点，应当在相应阶段深化地质工作或者开展专项勘察。\n初测主要是初步查明线路可能通过地区的地形、地貌、地物、工程地质和水文地质条件，为工程设计提供基本的工程地质资料。\n定测主要是核实采用建设方案通过地区的地形、地貌、地物，详细查明线路的工程地质和水文地质条件，为设计各类构筑物提供详实、准确的工程地质资料。\n补充定测主要是在定测基础上，根据施工图设计的需要，对部分重要工点、地质复杂工点及存在遗留问题的工点进行补充勘察，完善有关地质资料。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第十条｜铁路建设工程勘察应当在设计工作之前开展\n证据定位： DOC0009-K10；S0009，第二章  勘察设计程序，第十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察应当在设计工作之前开展，工程地质条件复杂的地段和工点，应当在相应阶段深化地质工作或者开展专项勘察。\n初测主要是初步查明线路可能通过地区的地形、地貌、地物、工程地质和水文地质条件，为工程设计提供基本的工程地质资料。\n定测主要是核实采用建设方案通过地区的地形、地貌、地物，详细查明线路的工程地质和水文地质条件，为设计各类构筑物提供详实、准确的工程地质资料。\n补充定测主要是在定测基础上，根据施工图设计的需要，对部分重要工点、地质复杂工点及存在遗留问题的工点进行补充勘察，完善有关地质资料。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "114424801c4584b3",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "efd427972c93ca29",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第十一条｜铁路建设工程设计在勘察成果验收后开展，初步设计依法需经审批的，应当经有关部门审批后开展施工图设计\n证据定位： DOC0009-K11；S0009，第二章  勘察设计程序，第十一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程设计在勘察成果验收后开展，初步设计依法需经审批的，应当经有关部门审批后开展施工图设计。\n工程简易的铁路建设工程，可以直接进行施工图设计。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第十一条｜铁路建设工程设计在勘察成果验收后开展，初步设计依法需经审批的，应当经有关部门审批后开展施工图设计\n证据定位： DOC0009-K11；S0009，第二章  勘察设计程序，第十一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程设计在勘察成果验收后开展，初步设计依法需经审批的，应当经有关部门审批后开展施工图设计。\n工程简易的铁路建设工程，可以直接进行施工图设计。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "efd427972c93ca29",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0698547f3d128093",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第十二条｜初步设计文件是确定建设规模和投资的主要依据\n证据定位： DOC0009-K12；S0009，第二章  勘察设计程序，第十二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n初步设计文件是确定建设规模和投资的主要依据。初步设计应当在定测成果基础上，对局部方案进行比选和比较详细的设计，提出工程数量、主要设备和材料数量、拆迁数量、用地总量与分类及补偿费用、施工组织设计及工程总投资，并确定环境保护和水土保持、节约能源以及施工安全风险防范措施。初步设计文件深度应当满足开展施工图设计的需要。\n初步设计提出的投资概算超过经批准的可行性研究报告提出的投资估算10%的，建设单位应当向可行性研究报告审批部门报告，并按照可行性研究报告审批部门要求重新报送可行性研究报告。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第十二条｜初步设计文件是确定建设规模和投资的主要依据\n证据定位： DOC0009-K12；S0009，第二章  勘察设计程序，第十二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n初步设计文件是确定建设规模和投资的主要依据。初步设计应当在定测成果基础上，对局部方案进行比选和比较详细的设计，提出工程数量、主要设备和材料数量、拆迁数量、用地总量与分类及补偿费用、施工组织设计及工程总投资，并确定环境保护和水土保持、节约能源以及施工安全风险防范措施。初步设计文件深度应当满足开展施工图设计的需要。\n初步设计提出的投资概算超过经批准的可行性研究报告提出的投资估算10%的，建设单位应当向可行性研究报告审批部门报告，并按照可行性研究报告审批部门要求重新报送可行性研究报告。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "0698547f3d128093",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "64b8b9972e5be938",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第十三条｜施工图设计应当根据初步设计文件进行编制\n证据定位： DOC0009-K13；S0009，第二章  勘察设计程序，第十三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n施工图设计应当根据初步设计文件进行编制，为施工提供需要的图表和必要的设计说明，并依据施工图工程数量编制施工图预算。\n依法需经审批的铁路建设工程，施工图预算不得大于经批准的初步设计概算，因特殊情况而超出的，建设单位应当报初步设计审批部门批准。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第十三条｜施工图设计应当根据初步设计文件进行编制\n证据定位： DOC0009-K13；S0009，第二章  勘察设计程序，第十三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n施工图设计应当根据初步设计文件进行编制，为施工提供需要的图表和必要的设计说明，并依据施工图工程数量编制施工图预算。\n依法需经审批的铁路建设工程，施工图预算不得大于经批准的初步设计概算，因特殊情况而超出的，建设单位应当报初步设计审批部门批准。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "64b8b9972e5be938",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "79261a5a2b6c0a37",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十四条｜从事铁路建设工程勘察、设计活动的单位应当具有国家规定的相应资质\n证据定位： DOC0009-K14；S0009，第三章  资质资格与承发包管理，第十四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n从事铁路建设工程勘察、设计活动的单位应当具有国家规定的相应资质，并在资质等级许可的范围内承揽铁路建设工程勘察、设计业务。禁止铁路建设工程勘察、设计单位超越资质等级许可的范围或者以其他建设工程勘察、设计单位的名义承揽铁路建设工程勘察、设计业务。禁止铁路建设工程勘察、设计单位允许其他单位或者个人以本单位的名义承揽铁路建设工程勘察、设计业务。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十四条｜从事铁路建设工程勘察、设计活动的单位应当具有国家规定的相应资质\n证据定位： DOC0009-K14；S0009，第三章  资质资格与承发包管理，第十四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n从事铁路建设工程勘察、设计活动的单位应当具有国家规定的相应资质，并在资质等级许可的范围内承揽铁路建设工程勘察、设计业务。禁止铁路建设工程勘察、设计单位超越资质等级许可的范围或者以其他建设工程勘察、设计单位的名义承揽铁路建设工程勘察、设计业务。禁止铁路建设工程勘察、设计单位允许其他单位或者个人以本单位的名义承揽铁路建设工程勘察、设计业务。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "79261a5a2b6c0a37",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4080df37f8b4e825",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十五条｜发包方不得将铁路建设工程勘察、设计业务发包给不具有相应资质的建设工程勘察、设计单位\n证据定位： DOC0009-K15；S0009，第三章  资质资格与承发包管理，第十五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n发包方不得将铁路建设工程勘察、设计业务发包给不具有相应资质的建设工程勘察、设计单位。铁路建设工程勘察、设计单位不得将所承揽的铁路建设工程勘察、设计转包或者违法分包。\n除铁路建设工程主体、关键部分的勘察、设计外，经发包方书面同意，承包方可以将铁路建设工程其他部分的勘察、设计业务再分包给其他具有相应资质等级的建设工程勘察、设计单位，并对分包的勘察、设计业务质量负责。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十五条｜发包方不得将铁路建设工程勘察、设计业务发包给不具有相应资质的建设工程勘察、设计单位\n证据定位： DOC0009-K15；S0009，第三章  资质资格与承发包管理，第十五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n发包方不得将铁路建设工程勘察、设计业务发包给不具有相应资质的建设工程勘察、设计单位。铁路建设工程勘察、设计单位不得将所承揽的铁路建设工程勘察、设计转包或者违法分包。\n除铁路建设工程主体、关键部分的勘察、设计外，经发包方书面同意，承包方可以将铁路建设工程其他部分的勘察、设计业务再分包给其他具有相应资质等级的建设工程勘察、设计单位，并对分包的勘察、设计业务质量负责。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "4080df37f8b4e825",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "95f7ab2c3df0a8aa",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十六条｜铁路建设工程勘察、设计项目负责人、审核人、审定人应当依法具有相应专业的中级及以上技术职称或者注册资格\n证据定位： DOC0009-K16；S0009，第三章  资质资格与承发包管理，第十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计项目负责人、审核人、审定人应当依法具有相应专业的中级及以上技术职称或者注册资格。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十六条｜铁路建设工程勘察、设计项目负责人、审核人、审定人应当依法具有相应专业的中级及以上技术职称或者注册资格\n证据定位： DOC0009-K16；S0009，第三章  资质资格与承发包管理，第十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计项目负责人、审核人、审定人应当依法具有相应专业的中级及以上技术职称或者注册资格。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "95f7ab2c3df0a8aa",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "59932bfb5467017c",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十七条｜发包人可以依据铁路建设工程的不同特点，按勘察、设计程序分阶段发包或者将勘察设计一体发包\n证据定位： DOC0009-K17；S0009，第三章  资质资格与承发包管理，第十七条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n发包人可以依据铁路建设工程的不同特点，按勘察、设计程序分阶段发包或者将勘察设计一体发包；也可以在保证项目完整性、连续性的前提下，按照技术要求分段或者分项发包。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十七条｜发包人可以依据铁路建设工程的不同特点，按勘察、设计程序分阶段发包或者将勘察设计一体发包\n证据定位： DOC0009-K17；S0009，第三章  资质资格与承发包管理，第十七条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n发包人可以依据铁路建设工程的不同特点，按勘察、设计程序分阶段发包或者将勘察设计一体发包；也可以在保证项目完整性、连续性的前提下，按照技术要求分段或者分项发包。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "59932bfb5467017c",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "43a267437c78f9d6",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十八条｜铁路建设工程的勘察、设计发包，符合必须招标的工程项目规定的，应当依法进行招标\n证据定位： DOC0009-K18；S0009，第三章  资质资格与承发包管理，第十八条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程的勘察、设计发包，符合必须招标的工程项目规定的，应当依法进行招标。\n铁路建设工程勘察、设计招标，招标人应当根据项目实际情况，合理确定投标人资质、业绩、信用、人员及是否接受联合体投标等条件要求，不得设置不合理条件限制、排斥潜在投标人。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十八条｜铁路建设工程的勘察、设计发包，符合必须招标的工程项目规定的，应当依法进行招标\n证据定位： DOC0009-K18；S0009，第三章  资质资格与承发包管理，第十八条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程的勘察、设计发包，符合必须招标的工程项目规定的，应当依法进行招标。\n铁路建设工程勘察、设计招标，招标人应当根据项目实际情况，合理确定投标人资质、业绩、信用、人员及是否接受联合体投标等条件要求，不得设置不合理条件限制、排斥潜在投标人。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "43a267437c78f9d6",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "fa3f89344cb0bd82",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十九条｜依法必须进行招标的铁路建设工程的勘察、设计发包\n证据定位： DOC0009-K19；S0009，第三章  资质资格与承发包管理，第十九条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n依法必须进行招标的铁路建设工程的勘察、设计发包，招标人应当根据国务院发展改革部门会同有关行政监督部门制定的《标准勘察招标文件》《标准设计招标文件》等标准文本以及铁路行业补充文本，结合招标项目具体特点和实际需要，编制招标文件。\n勘察、设计招标文件应当明确允许分包的范围、分包人应当满足的资格条件以及对分包实施的管理要求等内容；应当突出技术性要求并在评标办法中相应增加技术因素的权重。评标办法应当综合考察投标人的业绩、信用和拟承担项目勘察设计人员的资格和能力、勘察设计方案的优劣等因素，择优确定中标人。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第十九条｜依法必须进行招标的铁路建设工程的勘察、设计发包\n证据定位： DOC0009-K19；S0009，第三章  资质资格与承发包管理，第十九条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n依法必须进行招标的铁路建设工程的勘察、设计发包，招标人应当根据国务院发展改革部门会同有关行政监督部门制定的《标准勘察招标文件》《标准设计招标文件》等标准文本以及铁路行业补充文本，结合招标项目具体特点和实际需要，编制招标文件。\n勘察、设计招标文件应当明确允许分包的范围、分包人应当满足的资格条件以及对分包实施的管理要求等内容；应当突出技术性要求并在评标办法中相应增加技术因素的权重。评标办法应当综合考察投标人的业绩、信用和拟承担项目勘察设计人员的资格和能力、勘察设计方案的优劣等因素，择优确定中标人。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "fa3f89344cb0bd82",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7890901500f9f213",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第二十条｜鼓励建设内容明确、技术方案成熟的铁路建设工程采用工程总承包方式\n证据定位： DOC0009-K20；S0009，第三章  资质资格与承发包管理，第二十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励建设内容明确、技术方案成熟的铁路建设工程采用工程总承包方式。采用工程总承包方式的政府投资铁路建设工程，在初步设计审查批准后进行工程总承包项目发包，工程简易的也可以在可行性研究报告批复后进行工程总承包项目发包。\n以工程总承包方式发包的，工程总承包项目范围内的工程设计、施工或者材料设备采购中，有任一项属于依法必须进行招标的项目范围且达到国家规定规模标准的，应当采用招标的方式选择工程总承包单位。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第二十条｜鼓励建设内容明确、技术方案成熟的铁路建设工程采用工程总承包方式\n证据定位： DOC0009-K20；S0009，第三章  资质资格与承发包管理，第二十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励建设内容明确、技术方案成熟的铁路建设工程采用工程总承包方式。采用工程总承包方式的政府投资铁路建设工程，在初步设计审查批准后进行工程总承包项目发包，工程简易的也可以在可行性研究报告批复后进行工程总承包项目发包。\n以工程总承包方式发包的，工程总承包项目范围内的工程设计、施工或者材料设备采购中，有任一项属于依法必须进行招标的项目范围且达到国家规定规模标准的，应当采用招标的方式选择工程总承包单位。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "7890901500f9f213",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "9700a44cfef014a6",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第二十一条｜铁路建设工程勘察、设计承发包双方应当依法订立书面承包合同\n证据定位： DOC0009-K21；S0009，第三章  资质资格与承发包管理，第二十一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计承发包双方应当依法订立书面承包合同。铁路建设工程勘察、设计合同约定的勘察、设计费（率）及支付方式应当公平合理，不得影响勘察设计工作质量；确定的工期应当能够保证勘察、设计单位按照标准规范要求完成相应的勘察、设计工作；确需调整工期等约定事项的，应当在保证勘察、设计工作质量安全的前提下签订补充协议明确有关具体事宜。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第三章  资质资格与承发包管理\n### 第二十一条｜铁路建设工程勘察、设计承发包双方应当依法订立书面承包合同\n证据定位： DOC0009-K21；S0009，第三章  资质资格与承发包管理，第二十一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计承发包双方应当依法订立书面承包合同。铁路建设工程勘察、设计合同约定的勘察、设计费（率）及支付方式应当公平合理，不得影响勘察设计工作质量；确定的工期应当能够保证勘察、设计单位按照标准规范要求完成相应的勘察、设计工作；确需调整工期等约定事项的，应当在保证勘察、设计工作质量安全的前提下签订补充协议明确有关具体事宜。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "9700a44cfef014a6",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "698d93588a78014e",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十二条｜铁路建设工程地质勘察实行综合勘探\n证据定位： DOC0009-K22；S0009，第四章  工程勘察，第二十二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程地质勘察实行综合勘探。勘察单位应当加强地质测（调）绘工作，积极采用新技术、新方法，应用多种地质勘探方法，相互验证和综合分析，提高和保证铁路建设工程勘察质量。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十二条｜铁路建设工程地质勘察实行综合勘探\n证据定位： DOC0009-K22；S0009，第四章  工程勘察，第二十二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程地质勘察实行综合勘探。勘察单位应当加强地质测（调）绘工作，积极采用新技术、新方法，应用多种地质勘探方法，相互验证和综合分析，提高和保证铁路建设工程勘察质量。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "698d93588a78014e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "328e0b889890af97",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十三条｜勘察单位在铁路建设工程地质勘察工作开始前\n证据定位： DOC0009-K23；S0009，第四章  工程勘察，第二十三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n勘察单位在铁路建设工程地质勘察工作开始前，应当依据项目建议书或者可行性研究报告批复意见、规程规范以及委托单位的要求等编制勘察大纲，确定工作方案、工作量和重点。\n铁路建设工程勘察实行勘察大纲审查制度。建设单位应当对勘察大纲组织审查，审查后的勘察大纲为工程勘察合同的组成部分。\n勘察大纲在执行过程中应当根据地质条件、技术要求变化等进行调整，并及时报建设单位审查后实施。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十三条｜勘察单位在铁路建设工程地质勘察工作开始前\n证据定位： DOC0009-K23；S0009，第四章  工程勘察，第二十三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n勘察单位在铁路建设工程地质勘察工作开始前，应当依据项目建议书或者可行性研究报告批复意见、规程规范以及委托单位的要求等编制勘察大纲，确定工作方案、工作量和重点。\n铁路建设工程勘察实行勘察大纲审查制度。建设单位应当对勘察大纲组织审查，审查后的勘察大纲为工程勘察合同的组成部分。\n勘察大纲在执行过程中应当根据地质条件、技术要求变化等进行调整，并及时报建设单位审查后实施。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "328e0b889890af97",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ba656c7bf7f8fd67",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十四条｜重大不良地质和特殊岩土地段\n证据定位： DOC0009-K24；S0009，第四章  工程勘察，第二十四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n重大不良地质和特殊岩土地段，勘察单位应当加强地质勘察和施工揭示地质核实工作，必要时编制地质风险因素控制方案并纳入勘察大纲，经建设单位同意后组织实施。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十四条｜重大不良地质和特殊岩土地段\n证据定位： DOC0009-K24；S0009，第四章  工程勘察，第二十四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n重大不良地质和特殊岩土地段，勘察单位应当加强地质勘察和施工揭示地质核实工作，必要时编制地质风险因素控制方案并纳入勘察大纲，经建设单位同意后组织实施。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "ba656c7bf7f8fd67",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e9f7b490796048ae",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十五条｜高速铁路和地质构造复杂的铁路建设工程实行工程地质勘察监理制度\n证据定位： DOC0009-K25；S0009，第四章  工程勘察，第二十五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n高速铁路和地质构造复杂的铁路建设工程实行工程地质勘察监理制度。其他新建（改建）铁路、铁路枢纽、大型站房等铁路建设工程可以根据需要开展工程地质勘察监理工作。承担工程地质勘察监理的单位应当具备相应的工程勘察资质，不得与勘察单位存在隶属及其他利害关系。\n铁路建设工程地质勘察监理工作应当与工程勘察工作同步进行，并按照铁路建设工程地质勘察监理规程开展相关工作。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十五条｜高速铁路和地质构造复杂的铁路建设工程实行工程地质勘察监理制度\n证据定位： DOC0009-K25；S0009，第四章  工程勘察，第二十五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n高速铁路和地质构造复杂的铁路建设工程实行工程地质勘察监理制度。其他新建（改建）铁路、铁路枢纽、大型站房等铁路建设工程可以根据需要开展工程地质勘察监理工作。承担工程地质勘察监理的单位应当具备相应的工程勘察资质，不得与勘察单位存在隶属及其他利害关系。\n铁路建设工程地质勘察监理工作应当与工程勘察工作同步进行，并按照铁路建设工程地质勘察监理规程开展相关工作。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "e9f7b490796048ae",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f0bbd74a4582f5d1",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十六条｜勘察单位应当依据审查后的勘察大纲\n证据定位： DOC0009-K26；S0009，第四章  工程勘察，第二十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n勘察单位应当依据审查后的勘察大纲，严格按照操作规程作业，加强勘察过程管理，及时整理、核对原始记录，接受工程地质勘察监理单位的检查，保证勘察工作达到规定的要求和深度；编制的工程勘察成果文件应当真实、准确，满足铁路建设工程规划、选址、设计、岩土治理和施工的需要，符合国家规定的勘察深度要求。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十六条｜勘察单位应当依据审查后的勘察大纲\n证据定位： DOC0009-K26；S0009，第四章  工程勘察，第二十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n勘察单位应当依据审查后的勘察大纲，严格按照操作规程作业，加强勘察过程管理，及时整理、核对原始记录，接受工程地质勘察监理单位的检查，保证勘察工作达到规定的要求和深度；编制的工程勘察成果文件应当真实、准确，满足铁路建设工程规划、选址、设计、岩土治理和施工的需要，符合国家规定的勘察深度要求。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "f0bbd74a4582f5d1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b3f2981d2ab0104f",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十七条｜铁路建设工程建设单位应当按照工程勘察约定，协调解决勘察工作中存在的困难，为勘察工作提供必要条件\n证据定位： DOC0009-K27；S0009，第四章  工程勘察，第二十七条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位应当按照工程勘察约定，协调解决勘察工作中存在的困难，为勘察工作提供必要条件；统筹项目建设需求，组织勘察单位与沿线有关单位沟通对接；对勘察工作进行监督、检查。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十七条｜铁路建设工程建设单位应当按照工程勘察约定，协调解决勘察工作中存在的困难，为勘察工作提供必要条件\n证据定位： DOC0009-K27；S0009，第四章  工程勘察，第二十七条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位应当按照工程勘察约定，协调解决勘察工作中存在的困难，为勘察工作提供必要条件；统筹项目建设需求，组织勘察单位与沿线有关单位沟通对接；对勘察工作进行监督、检查。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "b3f2981d2ab0104f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "af344bc458f8d6aa",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十八条｜定测阶段工作结束后，铁路建设工程建设单位应当组织对勘察单位的勘察工作成果进行验收\n证据定位： DOC0009-K28；S0009，第四章  工程勘察，第二十八条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n定测阶段工作结束后，铁路建设工程建设单位应当组织对勘察单位的勘察工作成果进行验收；未经验收或者验收不合格的工程勘察成果文件不得交付使用；经验收合格的工程勘察成果文件不得擅自修改。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第四章  工程勘察\n### 第二十八条｜定测阶段工作结束后，铁路建设工程建设单位应当组织对勘察单位的勘察工作成果进行验收\n证据定位： DOC0009-K28；S0009，第四章  工程勘察，第二十八条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n定测阶段工作结束后，铁路建设工程建设单位应当组织对勘察单位的勘察工作成果进行验收；未经验收或者验收不合格的工程勘察成果文件不得交付使用；经验收合格的工程勘察成果文件不得擅自修改。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "af344bc458f8d6aa",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ee1f0539e2609282",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第二十九条｜铁路建设工程设计必须坚持以人民为中心、为社会服务\n证据定位： DOC0009-K29；S0009，第五章  工程设计，第二十九条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程设计必须坚持以人民为中心、为社会服务，应当依据国家发展规划及国土空间规划、综合交通运输规划、铁路路网规划，严格按照验收合格的工程勘察成果文件开展，加强与其他运输方式规划建设协同和衔接，运用系统工程理论，优化点与点、线与线、点与线、固定设备与移动设备以及装备能力的匹配关系，正确处理建设与运输、建设与维修、新建工程与既有设施设备的关系，通过经济技术比较，选择安全可靠、技术适用、经济环保的建设方案。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第二十九条｜铁路建设工程设计必须坚持以人民为中心、为社会服务\n证据定位： DOC0009-K29；S0009，第五章  工程设计，第二十九条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程设计必须坚持以人民为中心、为社会服务，应当依据国家发展规划及国土空间规划、综合交通运输规划、铁路路网规划，严格按照验收合格的工程勘察成果文件开展，加强与其他运输方式规划建设协同和衔接，运用系统工程理论，优化点与点、线与线、点与线、固定设备与移动设备以及装备能力的匹配关系，正确处理建设与运输、建设与维修、新建工程与既有设施设备的关系，通过经济技术比较，选择安全可靠、技术适用、经济环保的建设方案。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "ee1f0539e2609282",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "9d3b6991b20c1b89",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十条｜铁路建设工程设计应当统筹经济社会需求、工程技术的可行性和建设项目的经济性\n证据定位： DOC0009-K30；S0009，第五章  工程设计，第三十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程设计应当统筹经济社会需求、工程技术的可行性和建设项目的经济性，按照保护环境、节约土地、抗震设防等要求，进行合理充分的方案比选，完善优化设计方案；采用技术先进的施工工艺和安全可靠的工程措施，提出实用经济的施工组织设计；准确计算工程、材料、设备和征地拆迁数量，采用合理的定额和单价，按照建设、运营费用最合理的原则确定工程建设投资。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十条｜铁路建设工程设计应当统筹经济社会需求、工程技术的可行性和建设项目的经济性\n证据定位： DOC0009-K30；S0009，第五章  工程设计，第三十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程设计应当统筹经济社会需求、工程技术的可行性和建设项目的经济性，按照保护环境、节约土地、抗震设防等要求，进行合理充分的方案比选，完善优化设计方案；采用技术先进的施工工艺和安全可靠的工程措施，提出实用经济的施工组织设计；准确计算工程、材料、设备和征地拆迁数量，采用合理的定额和单价，按照建设、运营费用最合理的原则确定工程建设投资。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "9d3b6991b20c1b89",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3b172adc99409f2a",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十一条｜铁路建设工程设计文件中选用的材料、构配件、设备\n证据定位： DOC0009-K31；S0009，第五章  工程设计，第三十一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程设计文件中选用的材料、构配件、设备，应当注明其规格、型号、性能等技术指标，其质量要求必须符合国家规定的标准。\n除有特殊要求的建筑材料、专用设备和工艺生产线等外，设计单位不得指定或者通过设置特定参数、指标等方式变相指定生产厂、供应商。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十一条｜铁路建设工程设计文件中选用的材料、构配件、设备\n证据定位： DOC0009-K31；S0009，第五章  工程设计，第三十一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程设计文件中选用的材料、构配件、设备，应当注明其规格、型号、性能等技术指标，其质量要求必须符合国家规定的标准。\n除有特殊要求的建筑材料、专用设备和工艺生产线等外，设计单位不得指定或者通过设置特定参数、指标等方式变相指定生产厂、供应商。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "3b172adc99409f2a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7419d9e9256ef626",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十二条｜采用新结构、新材料、新工艺和特殊结构的铁路建设工程\n证据定位： DOC0009-K32；S0009，第五章  工程设计，第三十二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n采用新结构、新材料、新工艺和特殊结构的铁路建设工程，设计单位应当在设计文件中提出保障施工作业人员安全和预防生产安全事故的措施建议。\n设计文件中采用的新技术、新材料，可能影响工程质量安全，又没有国家技术标准的，应当由国家认可的检测机构进行试验、论证，出具检测报告，并经国务院有关部门或者省、自治区、直辖市人民政府有关部门组织的建设工程技术专家委员会审定后，方可使用。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十二条｜采用新结构、新材料、新工艺和特殊结构的铁路建设工程\n证据定位： DOC0009-K32；S0009，第五章  工程设计，第三十二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n采用新结构、新材料、新工艺和特殊结构的铁路建设工程，设计单位应当在设计文件中提出保障施工作业人员安全和预防生产安全事故的措施建议。\n设计文件中采用的新技术、新材料，可能影响工程质量安全，又没有国家技术标准的，应当由国家认可的检测机构进行试验、论证，出具检测报告，并经国务院有关部门或者省、自治区、直辖市人民政府有关部门组织的建设工程技术专家委员会审定后，方可使用。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "7419d9e9256ef626",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8147f33bf67edf1f",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十三条｜设计单位应当针对勘察单位提出的重大不良地质和特殊岩土地段风险因素控制方案\n证据定位： DOC0009-K33；S0009，第五章  工程设计，第三十三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n设计单位应当针对勘察单位提出的重大不良地质和特殊岩土地段风险因素控制方案，采取合理措施降低隧道、高墩大跨桥梁以及高陡边坡等重点工程安全风险，并在施工图设计文件中提出对应的工程技术措施和施工安全注意事项。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十三条｜设计单位应当针对勘察单位提出的重大不良地质和特殊岩土地段风险因素控制方案\n证据定位： DOC0009-K33；S0009，第五章  工程设计，第三十三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n设计单位应当针对勘察单位提出的重大不良地质和特殊岩土地段风险因素控制方案，采取合理措施降低隧道、高墩大跨桥梁以及高陡边坡等重点工程安全风险，并在施工图设计文件中提出对应的工程技术措施和施工安全注意事项。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "8147f33bf67edf1f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "31bd45dc546d432a",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十四条｜铁路建设工程初步设计文件依法需经审批的\n证据定位： DOC0009-K34；S0009，第五章  工程设计，第三十四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程初步设计文件依法需经审批的，由项目审批部门或者其他有关部门对项目建设规模、投资概算、设计文件深度等内容进行审查。\n经审查批准的初步设计文件是开展施工图设计的前提。设计单位在开展施工图设计时，对初步设计批准的设计内容需要作重大修改的，应当经建设单位同意并报原初步设计审批部门批准后方可修改。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十四条｜铁路建设工程初步设计文件依法需经审批的\n证据定位： DOC0009-K34；S0009，第五章  工程设计，第三十四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程初步设计文件依法需经审批的，由项目审批部门或者其他有关部门对项目建设规模、投资概算、设计文件深度等内容进行审查。\n经审查批准的初步设计文件是开展施工图设计的前提。设计单位在开展施工图设计时，对初步设计批准的设计内容需要作重大修改的，应当经建设单位同意并报原初步设计审批部门批准后方可修改。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "31bd45dc546d432a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b5abeeecd7282ed1",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十五条｜铁路建设工程实行施工图设计文件审查制度\n证据定位： DOC0009-K35；S0009，第五章  工程设计，第三十五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程实行施工图设计文件审查制度。施工图设计文件交付使用前，建设单位必须履行施工图设计文件审查程序，按照规定将完备的施工图设计文件送交施工图设计文件审查单位审查。施工图设计文件未经审查或者审查不合格的，不得使用。\n施工图设计文件审查办法由国家铁路局另行规定。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第五章  工程设计\n### 第三十五条｜铁路建设工程实行施工图设计文件审查制度\n证据定位： DOC0009-K35；S0009，第五章  工程设计，第三十五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程实行施工图设计文件审查制度。施工图设计文件交付使用前，建设单位必须履行施工图设计文件审查程序，按照规定将完备的施工图设计文件送交施工图设计文件审查单位审查。施工图设计文件未经审查或者审查不合格的，不得使用。\n施工图设计文件审查办法由国家铁路局另行规定。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "b5abeeecd7282ed1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4723f10f6e37bccf",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第三十六条｜铁路建设工程建设单位应当为勘察、设计工作提供必要的现场工作条件\n证据定位： DOC0009-K36；S0009，第六章  勘察、设计管理，第三十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位应当为勘察、设计工作提供必要的现场工作条件，保证合理的勘察、设计工期，提供真实、可靠的原始资料。\n铁路建设工程建设单位应当加强履约管理，强化对勘察、设计单位的安全生产履约管理的检查，按照《保障中小企业款项支付条例》《保障农民工工资支付条例》等国家有关规定，及时足额支付勘察、设计费用。\n铁路建设工程建设单位不得对勘察、设计、工程地质勘察监理等单位提出不符合法律、行政法规和国家强制性标准规定的要求，不得擅自压缩合同约定的工期。不得利用市场优势地位迫使勘察、设计单位以低于成本的价格承揽任务。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第三十六条｜铁路建设工程建设单位应当为勘察、设计工作提供必要的现场工作条件\n证据定位： DOC0009-K36；S0009，第六章  勘察、设计管理，第三十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位应当为勘察、设计工作提供必要的现场工作条件，保证合理的勘察、设计工期，提供真实、可靠的原始资料。\n铁路建设工程建设单位应当加强履约管理，强化对勘察、设计单位的安全生产履约管理的检查，按照《保障中小企业款项支付条例》《保障农民工工资支付条例》等国家有关规定，及时足额支付勘察、设计费用。\n铁路建设工程建设单位不得对勘察、设计、工程地质勘察监理等单位提出不符合法律、行政法规和国家强制性标准规定的要求，不得擅自压缩合同约定的工期。不得利用市场优势地位迫使勘察、设计单位以低于成本的价格承揽任务。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "4723f10f6e37bccf",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f3fc2e9c448adefe",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第三十七条｜编制铁路建设工程勘察、设计文件应当以下列文件和规定为依据\n证据定位： DOC0009-K37；S0009，第六章  勘察、设计管理，第三十七条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n编制铁路建设工程勘察、设计文件应当以下列文件和规定为依据：\n（一）国家发展规划及国土空间规划、综合交通运输规划、铁路路网规划；\n（二）项目批准文件；\n（三）工程建设强制性标准；\n（四）国家规定的建设工程勘察、设计深度要求。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第三十七条｜编制铁路建设工程勘察、设计文件应当以下列文件和规定为依据\n证据定位： DOC0009-K37；S0009，第六章  勘察、设计管理，第三十七条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n编制铁路建设工程勘察、设计文件应当以下列文件和规定为依据：\n（一）国家发展规划及国土空间规划、综合交通运输规划、铁路路网规划；\n（二）项目批准文件；\n（三）工程建设强制性标准；\n（四）国家规定的建设工程勘察、设计深度要求。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "f3fc2e9c448adefe",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0042cf96f7caeb9b",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第三十八条｜铁路建设工程勘察、设计单位交付建设单位的勘察、设计文件应当符合下列要求\n证据定位： DOC0009-K38；S0009，第六章  勘察、设计管理，第三十八条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计单位交付建设单位的勘察、设计文件应当符合下列要求：\n（一）铁路建设工程相关的法律法规规章、规范性文件和标准、规程、规范；\n（二）铁路建设工程勘察、设计合同；\n（三）有工程勘察、设计人员、复核人员及项目负责人的签字；\n（四）有勘察、设计单位主要负责人和技术负责人，或者其委托代理人的签字；\n（五）加盖勘察、设计单位法人印章，注册专业还需加盖注册人员的执业印章；\n（六）建设单位的其他合法要求。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第三十八条｜铁路建设工程勘察、设计单位交付建设单位的勘察、设计文件应当符合下列要求\n证据定位： DOC0009-K38；S0009，第六章  勘察、设计管理，第三十八条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计单位交付建设单位的勘察、设计文件应当符合下列要求：\n（一）铁路建设工程相关的法律法规规章、规范性文件和标准、规程、规范；\n（二）铁路建设工程勘察、设计合同；\n（三）有工程勘察、设计人员、复核人员及项目负责人的签字；\n（四）有勘察、设计单位主要负责人和技术负责人，或者其委托代理人的签字；\n（五）加盖勘察、设计单位法人印章，注册专业还需加盖注册人员的执业印章；\n（六）建设单位的其他合法要求。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "0042cf96f7caeb9b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f2d2ee1182996ff8",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第三十九条｜铁路建设工程勘察单位应当向设计、施工和监理等单位进行勘察技术、地质风险因素交底\n证据定位： DOC0009-K39；S0009，第六章  勘察、设计管理，第三十九条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察单位应当向设计、施工和监理等单位进行勘察技术、地质风险因素交底，参与施工验槽，及时解决工程设计和施工中与勘察工作有关的问题，按照规定参加工程竣工验收。\n铁路建设工程建设单位应当组织勘察、设计单位在工程施工前向施工单位和监理单位说明勘察、设计意图，解释铁路建设工程勘察、设计文件，并按照规定做好重点工程中关于安全技术措施的交底。\n铁路建设工程开工后，勘察、设计单位应当按照合同约定设立现场代表机构，选派主持或者参与该项目勘察、设计的主要技术人员常驻现场，完善和优化工程设计，及时解决施工中出现的勘察、设计问题。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第三十九条｜铁路建设工程勘察单位应当向设计、施工和监理等单位进行勘察技术、地质风险因素交底\n证据定位： DOC0009-K39；S0009，第六章  勘察、设计管理，第三十九条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察单位应当向设计、施工和监理等单位进行勘察技术、地质风险因素交底，参与施工验槽，及时解决工程设计和施工中与勘察工作有关的问题，按照规定参加工程竣工验收。\n铁路建设工程建设单位应当组织勘察、设计单位在工程施工前向施工单位和监理单位说明勘察、设计意图，解释铁路建设工程勘察、设计文件，并按照规定做好重点工程中关于安全技术措施的交底。\n铁路建设工程开工后，勘察、设计单位应当按照合同约定设立现场代表机构，选派主持或者参与该项目勘察、设计的主要技术人员常驻现场，完善和优化工程设计，及时解决施工中出现的勘察、设计问题。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "f2d2ee1182996ff8",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "71ca183247c15d83",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第四十条｜建设单位、施工单位、监理单位不得修改铁路建设工程勘察、设计文件\n证据定位： DOC0009-K40；S0009，第六章  勘察、设计管理，第四十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n建设单位、施工单位、监理单位不得修改铁路建设工程勘察、设计文件；确需修改建设工程勘察、设计文件的，应当由原建设工程勘察、设计单位修改。经原建设工程勘察、设计单位书面同意，建设单位也可以委托其他具有相应资质的建设工程勘察、设计单位修改。修改单位对修改的勘察、设计文件承担相应责任。\n铁路建设工程勘察、设计文件内容需要作重大修改的，建设单位应当报经原审批部门批准后，方可修改。\n施工单位、监理单位发现铁路建设工程勘察、设计文件不符合工程建设强制性标准、合同约定的质量安全要求的，应当报告建设单位，建设单位有权要求建设工程勘察、设计单位对铁路建设工程勘察、设计文件进行补充、修改。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第四十条｜建设单位、施工单位、监理单位不得修改铁路建设工程勘察、设计文件\n证据定位： DOC0009-K40；S0009，第六章  勘察、设计管理，第四十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n建设单位、施工单位、监理单位不得修改铁路建设工程勘察、设计文件；确需修改建设工程勘察、设计文件的，应当由原建设工程勘察、设计单位修改。经原建设工程勘察、设计单位书面同意，建设单位也可以委托其他具有相应资质的建设工程勘察、设计单位修改。修改单位对修改的勘察、设计文件承担相应责任。\n铁路建设工程勘察、设计文件内容需要作重大修改的，建设单位应当报经原审批部门批准后，方可修改。\n施工单位、监理单位发现铁路建设工程勘察、设计文件不符合工程建设强制性标准、合同约定的质量安全要求的，应当报告建设单位，建设单位有权要求建设工程勘察、设计单位对铁路建设工程勘察、设计文件进行补充、修改。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "71ca183247c15d83",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "6b803b7385c50f06",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第四十一条｜勘察、设计单位应当参与铁路建设工程质量事故的分析，并对事故提出相应的技术处理方案\n证据定位： DOC0009-K41；S0009，第六章  勘察、设计管理，第四十一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n勘察、设计单位应当参与铁路建设工程质量事故的分析，并对事故提出相应的技术处理方案。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第四十一条｜勘察、设计单位应当参与铁路建设工程质量事故的分析，并对事故提出相应的技术处理方案\n证据定位： DOC0009-K41；S0009，第六章  勘察、设计管理，第四十一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n勘察、设计单位应当参与铁路建设工程质量事故的分析，并对事故提出相应的技术处理方案。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "6b803b7385c50f06",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0fe34f187eb5b497",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第四十二条｜勘察、设计单位及其法定代表人对本单位编制的勘察、设计文件负责\n证据定位： DOC0009-K42；S0009，第六章  勘察、设计管理，第四十二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n勘察、设计单位及其法定代表人对本单位编制的勘察、设计文件负责，技术负责人对其负责的勘察、设计文件承担技术责任，项目负责人、专业负责人、注册执业人员和其他有关人员对其签字盖章的勘察、设计文件负责。\n勘察、设计单位向建设单位交付勘察、设计文件时，应当一并编制、提供包括前款所述人员的项目勘察、设计人员名录汇总表。项目勘察、设计人员名录汇总表应注明各人的项目岗位、负责的工作范围（专业、里程等）。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第四十二条｜勘察、设计单位及其法定代表人对本单位编制的勘察、设计文件负责\n证据定位： DOC0009-K42；S0009，第六章  勘察、设计管理，第四十二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n勘察、设计单位及其法定代表人对本单位编制的勘察、设计文件负责，技术负责人对其负责的勘察、设计文件承担技术责任，项目负责人、专业负责人、注册执业人员和其他有关人员对其签字盖章的勘察、设计文件负责。\n勘察、设计单位向建设单位交付勘察、设计文件时，应当一并编制、提供包括前款所述人员的项目勘察、设计人员名录汇总表。项目勘察、设计人员名录汇总表应注明各人的项目岗位、负责的工作范围（专业、里程等）。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "0fe34f187eb5b497",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "15d89df674f74871",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第四十三条｜对其经办的工程勘察、设计、地质勘察监理和施工图设计文件审查工作\n证据定位： DOC0009-K43；S0009，第六章  勘察、设计管理，第四十三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位和勘察、设计单位、地质勘察监理单位以及施工图设计文件审查单位法定代表人和直接责任人员按照各自的职责，对其经办的工程勘察、设计、地质勘察监理和施工图设计文件审查工作，在工程合理使用年限内依法承担工程质量安全责任。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第四十三条｜对其经办的工程勘察、设计、地质勘察监理和施工图设计文件审查工作\n证据定位： DOC0009-K43；S0009，第六章  勘察、设计管理，第四十三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位和勘察、设计单位、地质勘察监理单位以及施工图设计文件审查单位法定代表人和直接责任人员按照各自的职责，对其经办的工程勘察、设计、地质勘察监理和施工图设计文件审查工作，在工程合理使用年限内依法承担工程质量安全责任。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "15d89df674f74871",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "91cab33576c47a16",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第七章  变更设计\n### 第四十四条｜本章所称变更设计，是指铁路建设工程施工图设计文件经审查后，实施过程中发生的修改工程设计文件的活动\n证据定位： DOC0009-K44；S0009，第七章  变更设计，第四十四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本章所称变更设计，是指铁路建设工程施工图设计文件经审查后，实施过程中发生的修改工程设计文件的活动。\n施工图设计文件经审查后，任何单位和个人不得擅自变更设计，确需变更的，应当严格履行变更设计程序。变更设计程序包括变更设计建议、变更设计会审、组织编制变更设计文件、审查变更设计文件、下发变更施工图设计文件等。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第七章  变更设计\n### 第四十四条｜本章所称变更设计，是指铁路建设工程施工图设计文件经审查后，实施过程中发生的修改工程设计文件的活动\n证据定位： DOC0009-K44；S0009，第七章  变更设计，第四十四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本章所称变更设计，是指铁路建设工程施工图设计文件经审查后，实施过程中发生的修改工程设计文件的活动。\n施工图设计文件经审查后，任何单位和个人不得擅自变更设计，确需变更的，应当严格履行变更设计程序。变更设计程序包括变更设计建议、变更设计会审、组织编制变更设计文件、审查变更设计文件、下发变更施工图设计文件等。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "91cab33576c47a16",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7cda28b772701dd2",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第七章  变更设计\n### 第四十五条｜铁路建设工程建设单位应当加强对变更设计的管理\n证据定位： DOC0009-K45；S0009，第七章  变更设计，第四十五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位应当加强对变更设计的管理，变更设计应当依法合规、科学合理、实事求是，在确保工程安全、质量和使用功能的同时，严格控制工程投资。\n铁路建设工程建设单位应当根据勘察设计、施工合同约定和项目具体情况制定变更设计管理制度，按照本办法规定明确变更设计管理程序和工作标准，并建立考核机制。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第七章  变更设计\n### 第四十五条｜铁路建设工程建设单位应当加强对变更设计的管理\n证据定位： DOC0009-K45；S0009，第七章  变更设计，第四十五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位应当加强对变更设计的管理，变更设计应当依法合规、科学合理、实事求是，在确保工程安全、质量和使用功能的同时，严格控制工程投资。\n铁路建设工程建设单位应当根据勘察设计、施工合同约定和项目具体情况制定变更设计管理制度，按照本办法规定明确变更设计管理程序和工作标准，并建立考核机制。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "7cda28b772701dd2",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "12becf9a68bff18a",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第七章  变更设计\n### 第四十六条｜变更设计增减的有关费用\n证据定位： DOC0009-K46；S0009，第七章  变更设计，第四十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n变更设计增减的有关费用，勘察、设计、施工和监理单位应当按照工程承包（委托）合同约定与建设单位协商确定，必要时签订补充协议予以明确；建设单位应当按照《保障中小企业款项支付条例》《保障农民工工资支付条例》等国家有关规定，依照约定及时计量支付有关费用。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第七章  变更设计\n### 第四十六条｜变更设计增减的有关费用\n证据定位： DOC0009-K46；S0009，第七章  变更设计，第四十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n变更设计增减的有关费用，勘察、设计、施工和监理单位应当按照工程承包（委托）合同约定与建设单位协商确定，必要时签订补充协议予以明确；建设单位应当按照《保障中小企业款项支付条例》《保障农民工工资支付条例》等国家有关规定，依照约定及时计量支付有关费用。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "12becf9a68bff18a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "bf4fdf811ca6df90",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第七章  变更设计\n### 第四十七条｜铁路建设工程在实施过程中发生危及安全的情形需要立即变更设计予以处理的\n证据定位： DOC0009-K47；S0009，第七章  变更设计，第四十七条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程在实施过程中发生危及安全的情形需要立即变更设计予以处理的，建设单位可以组织勘察、设计、施工、监理等单位提出工程应急设计方案，先行处理；危险状况解除后，应当及时履行变更设计手续。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第七章  变更设计\n### 第四十七条｜铁路建设工程在实施过程中发生危及安全的情形需要立即变更设计予以处理的\n证据定位： DOC0009-K47；S0009，第七章  变更设计，第四十七条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程在实施过程中发生危及安全的情形需要立即变更设计予以处理的，建设单位可以组织勘察、设计、施工、监理等单位提出工程应急设计方案，先行处理；危险状况解除后，应当及时履行变更设计手续。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "bf4fdf811ca6df90",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3da957b0bd5f3dd9",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第八章  监督管理\n### 第四十八条｜铁路建设工程勘察、设计活动监督管理工作的主要事项包括\n证据定位： DOC0009-K48；S0009，第八章  监督管理，第四十八条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计活动监督管理工作的主要事项包括：\n（一）勘察、设计工作贯彻执行有关法律、法规、规章和强制性标准情况；\n（二）勘察、设计承包、发包及其他从业单位资质、人员资格情况；\n（三）勘察、设计程序执行情况；\n（四）工程地质勘察监理制度执行情况；\n（五）初步设计、施工图设计审查情况；\n（六）勘察、设计单位配合事故调查处理情况。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第八章  监督管理\n### 第四十八条｜铁路建设工程勘察、设计活动监督管理工作的主要事项包括\n证据定位： DOC0009-K48；S0009，第八章  监督管理，第四十八条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计活动监督管理工作的主要事项包括：\n（一）勘察、设计工作贯彻执行有关法律、法规、规章和强制性标准情况；\n（二）勘察、设计承包、发包及其他从业单位资质、人员资格情况；\n（三）勘察、设计程序执行情况；\n（四）工程地质勘察监理制度执行情况；\n（五）初步设计、施工图设计审查情况；\n（六）勘察、设计单位配合事故调查处理情况。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "3da957b0bd5f3dd9",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0f58f201845514a0",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第八章  监督管理\n### 第四十九条｜任何单位和个人对铁路建设工程勘察、设计活动中的违法行为都有权检举、控告、投诉\n证据定位： DOC0009-K49；S0009，第八章  监督管理，第四十九条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n任何单位和个人对铁路建设工程勘察、设计活动中的违法行为都有权检举、控告、投诉。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第八章  监督管理\n### 第四十九条｜任何单位和个人对铁路建设工程勘察、设计活动中的违法行为都有权检举、控告、投诉\n证据定位： DOC0009-K49；S0009，第八章  监督管理，第四十九条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n任何单位和个人对铁路建设工程勘察、设计活动中的违法行为都有权检举、控告、投诉。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "0f58f201845514a0",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "88392aecafb8669a",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第九章  法律责任\n### 第五十条｜违反本办法规定，《建设工程质量管理条例》《建设工程勘察设计管理条例》《铁路安全管理条例》等有关法律、行政法规对其处罚有明确规定的，从其规定\n证据定位： DOC0009-K50；S0009，第九章  法律责任，第五十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n违反本办法规定，《建设工程质量管理条例》《建设工程勘察设计管理条例》《铁路安全管理条例》等有关法律、行政法规对其处罚有明确规定的，从其规定。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第九章  法律责任\n### 第五十条｜违反本办法规定，《建设工程质量管理条例》《建设工程勘察设计管理条例》《铁路安全管理条例》等有关法律、行政法规对其处罚有明确规定的，从其规定\n证据定位： DOC0009-K50；S0009，第九章  法律责任，第五十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n违反本办法规定，《建设工程质量管理条例》《建设工程勘察设计管理条例》《铁路安全管理条例》等有关法律、行政法规对其处罚有明确规定的，从其规定。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "88392aecafb8669a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "63dcebccd8212cca",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第九章  法律责任\n### 第五十一条｜铁路建设工程建设单位有下列行为之一的，由铁路工程监管部门责令改正，处5万元以上10万元以下的罚款\n证据定位： DOC0009-K51；S0009，第九章  法律责任，第五十一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位有下列行为之一的，由铁路工程监管部门责令改正，处5万元以上10万元以下的罚款：\n（一）未按照本办法规定审查勘察大纲的；\n（二）未按照本办法规定验收勘察成果资料的。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第九章  法律责任\n### 第五十一条｜铁路建设工程建设单位有下列行为之一的，由铁路工程监管部门责令改正，处5万元以上10万元以下的罚款\n证据定位： DOC0009-K51；S0009，第九章  法律责任，第五十一条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位有下列行为之一的，由铁路工程监管部门责令改正，处5万元以上10万元以下的罚款：\n（一）未按照本办法规定审查勘察大纲的；\n（二）未按照本办法规定验收勘察成果资料的。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "63dcebccd8212cca",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0d4c0c26c0823d1f",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第九章  法律责任\n### 第五十二条｜铁路建设工程勘察、设计、施工图设计文件审查单位有下列行为之一的\n证据定位： DOC0009-K52；S0009，第九章  法律责任，第五十二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计、施工图设计文件审查单位有下列行为之一的，由铁路工程监管部门责令改正，处5万元以上10万元以下的罚款：\n（一）勘察单位未按照本办法规定编制勘察大纲，或者不配合工程地质勘察监理工作的；\n（二）勘察、设计单位授权不具备相应条件的项目负责人、审核人、审定人开展勘察、设计工作，或者未按合同约定设置现场配合机构、配备相应人员的；\n（三）施工图设计文件审查单位转让施工图设计文件审查业务，或者未按照规定审查施工图设计文件的；\n（四）设计单位不配合设计文件审查工作的。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第九章  法律责任\n### 第五十二条｜铁路建设工程勘察、设计、施工图设计文件审查单位有下列行为之一的\n证据定位： DOC0009-K52；S0009，第九章  法律责任，第五十二条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察、设计、施工图设计文件审查单位有下列行为之一的，由铁路工程监管部门责令改正，处5万元以上10万元以下的罚款：\n（一）勘察单位未按照本办法规定编制勘察大纲，或者不配合工程地质勘察监理工作的；\n（二）勘察、设计单位授权不具备相应条件的项目负责人、审核人、审定人开展勘察、设计工作，或者未按合同约定设置现场配合机构、配备相应人员的；\n（三）施工图设计文件审查单位转让施工图设计文件审查业务，或者未按照规定审查施工图设计文件的；\n（四）设计单位不配合设计文件审查工作的。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "0d4c0c26c0823d1f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "fda1cc936b044660",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第九章  法律责任\n### 第五十三条｜给予单位罚款处罚的\n证据定位： DOC0009-K53；S0009，第九章  法律责任，第五十三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n依照本办法规定，给予单位罚款处罚的，对单位直接负责的主管人员和其他直接责任人员处单位罚款数额5%以上10%以下的罚款。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第九章  法律责任\n### 第五十三条｜给予单位罚款处罚的\n证据定位： DOC0009-K53；S0009，第九章  法律责任，第五十三条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n依照本办法规定，给予单位罚款处罚的，对单位直接负责的主管人员和其他直接责任人员处单位罚款数额5%以上10%以下的罚款。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "fda1cc936b044660",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e569bc6a360f6b5e",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第九章  法律责任\n### 第五十四条｜监管人员在铁路建设工程勘察、设计活动监督管理工作中玩忽职守、滥用职权、徇私舞弊\n证据定位： DOC0009-K54；S0009，第九章  法律责任，第五十四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n监管人员在铁路建设工程勘察、设计活动监督管理工作中玩忽职守、滥用职权、徇私舞弊，尚不构成犯罪的，依法给予处分；构成犯罪的，依法追究刑事责任。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第九章  法律责任\n### 第五十四条｜监管人员在铁路建设工程勘察、设计活动监督管理工作中玩忽职守、滥用职权、徇私舞弊\n证据定位： DOC0009-K54；S0009，第九章  法律责任，第五十四条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n监管人员在铁路建设工程勘察、设计活动监督管理工作中玩忽职守、滥用职权、徇私舞弊，尚不构成犯罪的，依法给予处分；构成犯罪的，依法追究刑事责任。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "e569bc6a360f6b5e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "773f397782ecd2e9",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第十章  附   则\n### 第五十五条｜抢险救灾及其他临时性铁路建设工程的勘察、设计活动，不适用本办法\n证据定位： DOC0009-K55；S0009，第十章  附   则，第五十五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n抢险救灾及其他临时性铁路建设工程的勘察、设计活动，不适用本办法。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第十章  附   则\n### 第五十五条｜抢险救灾及其他临时性铁路建设工程的勘察、设计活动，不适用本办法\n证据定位： DOC0009-K55；S0009，第十章  附   则，第五十五条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n抢险救灾及其他临时性铁路建设工程的勘察、设计活动，不适用本办法。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "773f397782ecd2e9",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "081f4a5d5163d49a",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 第十章  附   则\n### 第五十六条｜本办法自2025年9月1日起施行\n证据定位： DOC0009-K56；S0009，第十章  附   则，第五十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本办法自2025年9月1日起施行。原铁道部于2006年1月4日公布的《铁路建设工程勘察设计管理办法》（铁道部令第26号）同时废止。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 第十章  附   则\n### 第五十六条｜本办法自2025年9月1日起施行\n证据定位： DOC0009-K56；S0009，第十章  附   则，第五十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本办法自2025年9月1日起施行。原铁道部于2006年1月4日公布的《铁路建设工程勘察设计管理办法》（铁道部令第26号）同时废止。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "081f4a5d5163d49a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": false,
+      "chunk_id": "8d641caeaa6e3696",
+      "content": "# 铁路建设工程勘察设计管理办法\n## 来源与整理记录\n### 文档版本与原件索引\n文档 ID：DOC0009\n主领域：GW\n来源 ID：S0009\n资料性质：官方原文结构整理；检索小标题为编辑辅助文字。\n来源版本：2025-06-03公布，2025-09-01施行；原件正文未载令号\n适用范围：境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验：按存档原件整理；尚不能证明不存在后续修订。使用时须核验适用版本。\n原件：01-originals/web/S0009.txt\n正文核对底本：01-originals/web/S0009.txt\n官方来源：https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202506/t20250620_349041.shtml\n整理日期：2026-11-16\n本节仅供追溯；不作为业务问答证据。\n",
+      "content_with_weight": "# 铁路建设工程勘察设计管理办法\n## 来源与整理记录\n### 文档版本与原件索引\n文档 ID：DOC0009\n主领域：GW\n来源 ID：S0009\n资料性质：官方原文结构整理；检索小标题为编辑辅助文字。\n来源版本：2025-06-03公布，2025-09-01施行；原件正文未载令号\n适用范围：境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验：按存档原件整理；尚不能证明不存在后续修订。使用时须核验适用版本。\n原件：01-originals/web/S0009.txt\n正文核对底本：01-originals/web/S0009.txt\n官方来源：https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202506/t20250620_349041.shtml\n整理日期：2026-11-16\n本节仅供追溯；不作为业务问答证据。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+      "document_id": "392ba2210f3248299010db821f17befd",
+      "id": "8d641caeaa6e3696",
+      "important_keywords": [],
+      "questions": []
+    }
+  ],
+  "validation_scope": "全量正文和知识点边界自动比对；不冒充全量人工语义核验。模型token预算另行验证。"
+}

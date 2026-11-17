@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-11-17T04:25:13.113Z",
+  "documents": [
+    {
+      "doc_id": "DOC0022",
+      "structure_accepted": true,
+      "evidence": "05-review/revision-preflight-v5-2026-11-17T04-25-13-113Z/DOC0022-structure-decision.json"
+    },
+    {
+      "doc_id": "DOC0023",
+      "structure_accepted": true,
+      "evidence": "05-review/revision-preflight-v5-2026-11-17T04-25-13-113Z/DOC0023-structure-decision.json"
+    }
+  ],
+  "remote_mutation": false
+}

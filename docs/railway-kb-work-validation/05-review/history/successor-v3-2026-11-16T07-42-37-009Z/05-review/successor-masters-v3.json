@@ -1,0 +1,236 @@
+{
+  "checked_at": "2026-11-16T07:38:01.450Z",
+  "history_snapshot": "05-review/history/successor-v3-2026-11-16T07-38-01-450Z",
+  "original_files_unchanged": true,
+  "formal_dataset_modified": false,
+  "final_acceptance": false,
+  "tokenizer_sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+  "reranker_budget_verified": false,
+  "token_scope": "Document/version/source/location/point heading prefix and complete candidate text; not actual pipeline output.",
+  "documents": [
+    {
+      "doc_id": "DOC0025",
+      "domain": "GW",
+      "master_path": "03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "b18d9acc6d913aa7cddc50b7b7e56d90c2d49a4d1a95097929388526a0466fb3",
+      "master_sha256": "b18d9acc6d913aa7cddc50b7b7e56d90c2d49a4d1a95097929388526a0466fb3",
+      "original_sha256": "e330a2ac525225eeb4e8fb71c5697cdb43ebeeb74311a71903425e53a00f894e",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0025-successor-v3.json",
+      "old_point_count": 39,
+      "article_count": 27,
+      "split_table_count": 1,
+      "row_point_count": 81,
+      "preserved_other_point_count": 38,
+      "point_count": 119,
+      "maximum_prefixed_tokens": 6955,
+      "points_over_900": [
+        {
+          "id": "DOC0025-K028",
+          "tokens": 1131
+        },
+        {
+          "id": "DOC0025-K029",
+          "tokens": 6955
+        },
+        {
+          "id": "DOC0025-K030",
+          "tokens": 1694
+        },
+        {
+          "id": "DOC0025-K031",
+          "tokens": 1393
+        },
+        {
+          "id": "DOC0025-K032",
+          "tokens": 1885
+        },
+        {
+          "id": "DOC0025-K033",
+          "tokens": 1696
+        },
+        {
+          "id": "DOC0025-K034",
+          "tokens": 1610
+        },
+        {
+          "id": "DOC0025-S0033-T08-R018",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0025-S0033-T08-R038",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0025-S0033-T08-R047",
+          "tokens": 907
+        },
+        {
+          "id": "DOC0025-S0033-T08-R049",
+          "tokens": 920
+        },
+        {
+          "id": "DOC0025-S0033-T08-R051",
+          "tokens": 932
+        },
+        {
+          "id": "DOC0025-S0033-T08-R054",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0025-S0033-T08-R056",
+          "tokens": 928
+        },
+        {
+          "id": "DOC0025-S0033-T08-R071",
+          "tokens": 948
+        },
+        {
+          "id": "DOC0025-S0033-T08-R074",
+          "tokens": 923
+        },
+        {
+          "id": "DOC0025-S0033-T08-R079",
+          "tokens": 949
+        },
+        {
+          "id": "DOC0025-K036",
+          "tokens": 1614
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0026",
+      "domain": "XH",
+      "master_path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "60df48ec5996fd840410aea09b7dcf0d59231c684186c25f5109dc73e59c7618",
+      "master_sha256": "644f3c087cbc8f36bf1dd71d2c8727f1678b55b76cee48486df372e4508da5f5",
+      "original_sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "old_point_count": 38,
+      "article_count": 27,
+      "split_table_count": 3,
+      "row_point_count": 325,
+      "preserved_other_point_count": 35,
+      "point_count": 360,
+      "maximum_prefixed_tokens": 2272,
+      "points_over_900": [
+        {
+          "id": "DOC0026-K029",
+          "tokens": 2272
+        },
+        {
+          "id": "DOC0026-K034",
+          "tokens": 1614
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0027",
+      "domain": "XH",
+      "master_path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "6b0ae59fad3ea1f3d0a5607a8ba7bd38742b8ec8e919a25782673c6b938d3d64",
+      "master_sha256": "d4e8bb0a3c72d625264e67b98d0ba59e54281850e3d8b6033ec1d90cf49aac1d",
+      "original_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "old_point_count": 35,
+      "article_count": 27,
+      "split_table_count": 1,
+      "row_point_count": 80,
+      "preserved_other_point_count": 34,
+      "point_count": 114,
+      "maximum_prefixed_tokens": 4786,
+      "points_over_900": [
+        {
+          "id": "DOC0027-K028",
+          "tokens": 914
+        },
+        {
+          "id": "DOC0027-K029",
+          "tokens": 4786
+        },
+        {
+          "id": "DOC0027-S0035-T03-R078",
+          "tokens": 937
+        },
+        {
+          "id": "DOC0027-K031",
+          "tokens": 1613
+        },
+        {
+          "id": "DOC0027-K034",
+          "tokens": 982
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0028",
+      "domain": "GD",
+      "master_path": "03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "d37b57cd81347bfc8cfa61fc35c3ef4f2b90e8c299e378a948a68ec7a944d4df",
+      "master_sha256": "cff6a84092ac39be3c270dd02e23cb371e5386baefdab1955b981cafa6988bd3",
+      "original_sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0028-successor-v3.json",
+      "old_point_count": 38,
+      "article_count": 27,
+      "split_table_count": 2,
+      "row_point_count": 228,
+      "preserved_other_point_count": 36,
+      "point_count": 264,
+      "maximum_prefixed_tokens": 1619,
+      "points_over_900": [
+        {
+          "id": "DOC0028-K028",
+          "tokens": 929
+        },
+        {
+          "id": "DOC0028-K030",
+          "tokens": 1430
+        },
+        {
+          "id": "DOC0028-K031",
+          "tokens": 1215
+        },
+        {
+          "id": "DOC0028-K032",
+          "tokens": 1375
+        },
+        {
+          "id": "DOC0028-K033",
+          "tokens": 1284
+        },
+        {
+          "id": "DOC0028-S0036-T07-R028",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0028-S0036-T07-R080",
+          "tokens": 947
+        },
+        {
+          "id": "DOC0028-K035",
+          "tokens": 1619
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    }
+  ]
+}

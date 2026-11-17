@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-17",
+  "doc_id": "DOC0027",
+  "stage": "actual-chunk-budget",
+  "accepted": false,
+  "error": "Review script incorrectly required exact equality across local tokenizer and Ollama runtime counts (1928 !== 1929 at the initial line 200).",
+  "observed_local_tokens": 1929,
+  "observed_runtime_prompt_eval_count": 1928,
+  "embedding_truncate": false,
+  "embedding_returned_valid_1024_vector_before_assertion": true,
+  "embedding_response_saved": false,
+  "real_tokenize_requests": 206,
+  "real_embedding_requests": 1,
+  "real_rerank_requests": 0,
+  "retry_needed": true,
+  "limitation": "Only execution failure and observations retained; no full first-attempt model response. This artifact is not a passing budget proof. Successful retry records full required measurements."
+}

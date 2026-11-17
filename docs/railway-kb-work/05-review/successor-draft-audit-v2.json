@@ -1,0 +1,4721 @@
+{
+  "checked_at": "2026-11-16T07:16:25.241Z",
+  "tokenizer_path": "D:\\ragflow\\deps\\huggingface.co\\BAAI\\bge-m3\\tokenizer.json",
+  "tokenizer_sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+  "token_count_scope": "Draft point text only; final chunk prefixes and query/pair budget are not included.",
+  "embedding_limit_reference": 8192,
+  "reranker_tokenizer_verified": false,
+  "acceptance": false,
+  "formal_dataset_modified": false,
+  "originals_modified": false,
+  "documents": [
+    {
+      "doc_id": "DOC0025",
+      "source_id": "S0033",
+      "master_path": "03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "master_sha256": "b5b06e9661b0e121cce254b66df2554053c3472bc3187367c46cb754c1551aa8",
+      "knowledge_points": 39,
+      "table_count": 12,
+      "native_cells": 2266,
+      "over_900": [
+        {
+          "knowledge_point_id": "DOC0025-K028",
+          "kind": "source_table",
+          "native_table_id": "S0033-T01",
+          "characters": 1333,
+          "embedding_tokens_with_special_tokens": 1025,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K029",
+          "kind": "source_table",
+          "native_table_id": "S0033-T02",
+          "characters": 7804,
+          "embedding_tokens_with_special_tokens": 6850,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K030",
+          "kind": "source_table",
+          "native_table_id": "S0033-T03",
+          "characters": 1789,
+          "embedding_tokens_with_special_tokens": 1588,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K031",
+          "kind": "source_table",
+          "native_table_id": "S0033-T04",
+          "characters": 1424,
+          "embedding_tokens_with_special_tokens": 1284,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K032",
+          "kind": "source_table",
+          "native_table_id": "S0033-T05",
+          "characters": 1921,
+          "embedding_tokens_with_special_tokens": 1779,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K033",
+          "kind": "source_table",
+          "native_table_id": "S0033-T06",
+          "characters": 1703,
+          "embedding_tokens_with_special_tokens": 1557,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K034",
+          "kind": "source_table",
+          "native_table_id": "S0033-T07",
+          "characters": 1662,
+          "embedding_tokens_with_special_tokens": 1503,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K035",
+          "kind": "source_table",
+          "native_table_id": "S0033-T08",
+          "characters": 14770,
+          "embedding_tokens_with_special_tokens": 13082,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K036",
+          "kind": "source_table",
+          "native_table_id": "S0033-T09",
+          "characters": 1604,
+          "embedding_tokens_with_special_tokens": 1506,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "over_embedding_limit": [
+        {
+          "knowledge_point_id": "DOC0025-K035",
+          "kind": "source_table",
+          "native_table_id": "S0033-T08",
+          "characters": 14770,
+          "embedding_tokens_with_special_tokens": 13082,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "unidentified_merge_origins": 0,
+      "annex_list_contamination": [],
+      "maximum_embedding_tokens": 13082,
+      "points": [
+        {
+          "knowledge_point_id": "DOC0025-K001",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 95,
+          "embedding_tokens_with_special_tokens": 52,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K002",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 23,
+          "embedding_tokens_with_special_tokens": 19,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K003",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 101,
+          "embedding_tokens_with_special_tokens": 55,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K004",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 143,
+          "embedding_tokens_with_special_tokens": 83,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K005",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 399,
+          "embedding_tokens_with_special_tokens": 245,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K006",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 127,
+          "embedding_tokens_with_special_tokens": 82,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K007",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 76,
+          "embedding_tokens_with_special_tokens": 60,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K008",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 243,
+          "embedding_tokens_with_special_tokens": 156,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K009",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 73,
+          "embedding_tokens_with_special_tokens": 46,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K010",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 75,
+          "embedding_tokens_with_special_tokens": 48,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K011",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 91,
+          "embedding_tokens_with_special_tokens": 56,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K012",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 67,
+          "embedding_tokens_with_special_tokens": 46,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K013",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 129,
+          "embedding_tokens_with_special_tokens": 74,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K014",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 172,
+          "embedding_tokens_with_special_tokens": 113,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K015",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 101,
+          "embedding_tokens_with_special_tokens": 66,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K016",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 67,
+          "embedding_tokens_with_special_tokens": 43,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K017",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 135,
+          "embedding_tokens_with_special_tokens": 88,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K018",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 135,
+          "embedding_tokens_with_special_tokens": 93,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K019",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 59,
+          "embedding_tokens_with_special_tokens": 35,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K020",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 237,
+          "embedding_tokens_with_special_tokens": 141,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K021",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 213,
+          "embedding_tokens_with_special_tokens": 124,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K022",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 76,
+          "embedding_tokens_with_special_tokens": 50,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K023",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 234,
+          "embedding_tokens_with_special_tokens": 154,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K024",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 171,
+          "embedding_tokens_with_special_tokens": 111,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K025",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 79,
+          "embedding_tokens_with_special_tokens": 50,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K026",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 20,
+          "embedding_tokens_with_special_tokens": 15,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K027",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 23,
+          "embedding_tokens_with_special_tokens": 18,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K028",
+          "kind": "source_table",
+          "native_table_id": "S0033-T01",
+          "characters": 1333,
+          "embedding_tokens_with_special_tokens": 1025,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K029",
+          "kind": "source_table",
+          "native_table_id": "S0033-T02",
+          "characters": 7804,
+          "embedding_tokens_with_special_tokens": 6850,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K030",
+          "kind": "source_table",
+          "native_table_id": "S0033-T03",
+          "characters": 1789,
+          "embedding_tokens_with_special_tokens": 1588,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K031",
+          "kind": "source_table",
+          "native_table_id": "S0033-T04",
+          "characters": 1424,
+          "embedding_tokens_with_special_tokens": 1284,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K032",
+          "kind": "source_table",
+          "native_table_id": "S0033-T05",
+          "characters": 1921,
+          "embedding_tokens_with_special_tokens": 1779,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K033",
+          "kind": "source_table",
+          "native_table_id": "S0033-T06",
+          "characters": 1703,
+          "embedding_tokens_with_special_tokens": 1557,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K034",
+          "kind": "source_table",
+          "native_table_id": "S0033-T07",
+          "characters": 1662,
+          "embedding_tokens_with_special_tokens": 1503,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K035",
+          "kind": "source_table",
+          "native_table_id": "S0033-T08",
+          "characters": 14770,
+          "embedding_tokens_with_special_tokens": 13082,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K036",
+          "kind": "source_table",
+          "native_table_id": "S0033-T09",
+          "characters": 1604,
+          "embedding_tokens_with_special_tokens": 1506,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K037",
+          "kind": "source_table",
+          "native_table_id": "S0033-T10",
+          "characters": 461,
+          "embedding_tokens_with_special_tokens": 384,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K038",
+          "kind": "source_table",
+          "native_table_id": "S0033-T11",
+          "characters": 652,
+          "embedding_tokens_with_special_tokens": 586,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0025-K039",
+          "kind": "source_table",
+          "native_table_id": "S0033-T12",
+          "characters": 818,
+          "embedding_tokens_with_special_tokens": 739,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "S0033-T01",
+          "rows": 12,
+          "columns": 4,
+          "before": [
+            {
+              "paragraph": 1,
+              "label": "",
+              "text": "国家铁路局关于印发"
+            },
+            {
+              "paragraph": 2,
+              "label": "",
+              "text": "《铁路道岔设备生产企业审批实施细则》的通知"
+            },
+            {
+              "paragraph": 3,
+              "label": "",
+              "text": "（国铁设备监规〔2026〕4 号）"
+            },
+            {
+              "paragraph": 5,
+              "label": "",
+              "text": "各地区铁路监管局,北京铁路督察室:"
+            },
+            {
+              "paragraph": 6,
+              "label": "",
+              "text": "现将《铁路道岔设备生产企业审批实施细则》印发给你们，请贯彻执行。"
+            },
+            {
+              "paragraph": 9,
+              "label": "",
+              "text": "国家铁路局"
+            },
+            {
+              "paragraph": 10,
+              "label": "",
+              "text": "2026年2月28日"
+            },
+            {
+              "paragraph": 12,
+              "label": "",
+              "text": "（此件公开发布）"
+            },
+            {
+              "paragraph": 28,
+              "label": "",
+              "text": "铁路道岔设备生产企业审批实施细则"
+            },
+            {
+              "paragraph": 30,
+              "label": "",
+              "text": "第一章 总则"
+            },
+            {
+              "paragraph": 31,
+              "label": "",
+              "text": "第一条 为规范铁路道岔设备生产企业审批，维护公共利益和社会秩序，依据《中华人民共和国行政许可法》《铁路安全管理条例》《铁路运输基础设备生产企业审批办法》等法律法规和国家有关规定，制定本细则。"
+            },
+            {
+              "paragraph": 32,
+              "label": "",
+              "text": "第二条 本细则所称铁路道岔设备目录详见附件1。"
+            },
+            {
+              "paragraph": 33,
+              "label": "",
+              "text": "第三条 在中华人民共和国境内生产铁路道岔设备的企业，应当向国家铁路局提出申请，经审查合格取得“铁路运输基础设备生产企业许可证”（以下简称“生产许可证”）。"
+            },
+            {
+              "paragraph": 34,
+              "label": "",
+              "text": "取得生产许可证的企业名录，由国家铁路局公布。"
+            },
+            {
+              "paragraph": 35,
+              "label": "",
+              "text": "第二章 条件与程序"
+            },
+            {
+              "paragraph": 36,
+              "label": "",
+              "text": "第四条 申请企业应当符合下列条件："
+            },
+            {
+              "paragraph": 37,
+              "label": "",
+              "text": "（一）有按照国家标准、行业标准检测、检验合格的专业生产设备（具体要求详见附件2）；"
+            },
+            {
+              "paragraph": 38,
+              "label": "",
+              "text": "（二）有相应的专业技术人员（具体要求详见附件3）；"
+            },
+            {
+              "paragraph": 39,
+              "label": "",
+              "text": "（三）有完善的产品质量保证体系和安全管理制度（具体要求详见附件4）；"
+            },
+            {
+              "paragraph": 40,
+              "label": "",
+              "text": "（四）法律、行政法规规定的其他条件。"
+            },
+            {
+              "paragraph": 41,
+              "label": "",
+              "text": "第五条 申请企业应当提交下列材料："
+            },
+            {
+              "paragraph": 42,
+              "label": "",
+              "text": "（一）行政许可申请书（附件5），一式两份，装订一份；"
+            },
+            {
+              "paragraph": 43,
+              "label": "",
+              "text": "（二）企业法人营业执照副本复印件，一式两份，装订一份；"
+            },
+            {
+              "paragraph": 44,
+              "label": "",
+              "text": "（三）铁路道岔设备生产企业审查表(附件６)；"
+            },
+            {
+              "paragraph": 45,
+              "label": "",
+              "text": "（四）专业生产设备明细表（附件7）；"
+            },
+            {
+              "paragraph": 46,
+              "label": "",
+              "text": "（五）专业技术人员明细表（附件8）；"
+            },
+            {
+              "paragraph": 47,
+              "label": "",
+              "text": "（六）证明产品质量保证体系有效运转、产品运用质量符合安全要求、产品质量符合标准要求的相关材料；"
+            },
+            {
+              "paragraph": 48,
+              "label": "",
+              "text": "申请企业有关生产过程可以委托其他企业完成（可以外委的生产过程见附件2）,外委企业应当具备相应的生产条件和能力。"
+            },
+            {
+              "paragraph": 49,
+              "label": "（七）",
+              "text": "安全管理制度目录、拟生产的产品目录、设计图纸目录、工艺文件目录，所依据的国家标准、行业标准、企业标准目录；"
+            },
+            {
+              "paragraph": 50,
+              "label": "（八）",
+              "text": "新研发产品试用考核材料；"
+            },
+            {
+              "paragraph": 51,
+              "label": "",
+              "text": "（九）新研发产品技术评审（鉴定）证书或者审查意见；"
+            },
+            {
+              "paragraph": 52,
+              "label": "",
+              "text": "（十）企业简介（含企业资产、股份构成及比例、资质情况、生产经营基本状况、产品主要运用业绩等内容）。"
+            },
+            {
+              "paragraph": 53,
+              "label": "",
+              "text": "第六条 申请延续许可或者因生产条件发生较大变化重新申请许可的企业，应当提交本细则第五条除（八）、（九）外的材料，并提供近5年产品主要运用情况（含因产品质量造成责任事故的整改情况）、许可条件变化情况（含人员、设备等变化内容并明确说明是否持续满足许可条件）。"
+            },
+            {
+              "paragraph": 54,
+              "label": "",
+              "text": "第七条 申请企业提交的材料（A4纸规格）应当按第五条、第六条规定的顺序统一标注页码，无线胶订成册，加盖骑缝章，并附电子版。相关说明材料应当加盖企业公章。"
+            },
+            {
+              "paragraph": 55,
+              "label": "",
+              "text": "第八条 国家铁路局对提交的申请材料，应当根据下列情况分别作出处理："
+            },
+            {
+              "paragraph": 56,
+              "label": "",
+              "text": "（一）申请材料存在可以当场更正错误的，应当允许申请人当场更正；"
+            },
+            {
+              "paragraph": 57,
+              "label": "",
+              "text": "（二）申请材料不齐全或者不符合法定形式的，应当当场或者在5个工作日内一次告知申请人需要补正的全部内容，逾期不告知的，自收到申请材料之日起即为受理；"
+            },
+            {
+              "paragraph": 58,
+              "label": "",
+              "text": "（三）申请材料齐全、符合法定形式，或者申请企业按要求提交全部补正申请材料的，应当受理行政许可申请。"
+            },
+            {
+              "paragraph": 59,
+              "label": "",
+              "text": "国家铁路局受理或者不予受理行政许可申请，应当出具加盖国家铁路局行政许可专用章和注明日期的书面凭证。"
+            },
+            {
+              "paragraph": 60,
+              "label": "",
+              "text": "第九条 国家铁路局在申请材料审查合格的基础上，根据需要组织现场核实、专家评审和检验、检测。对企业提交材料进行现场核实的，应当指派至少2名工作人员。"
+            },
+            {
+              "paragraph": 61,
+              "label": "",
+              "text": "第十条 国家铁路局组织专家评审的，应当书面通知企业做好相应配合。专家评审应当自通知之日起3个月内完成。参加评审的专家，不得与申请企业具有相关利害关系。"
+            },
+            {
+              "paragraph": 62,
+              "label": "",
+              "text": "第十一条 检验、检测应当委托符合国家规定条件的专业检验、检测机构按照铁路专用产品检验检测细则执行。"
+            },
+            {
+              "paragraph": 63,
+              "label": "",
+              "text": "产品功能、设计原理、制造工艺相同或者相近的同类产品可选择代表性产品进行检验检测。"
+            },
+            {
+              "paragraph": 64,
+              "label": "",
+              "text": "第十二条 申请审查合格的，应当依法向申请企业作出准予行政许可的书面决定；不合格的，依法作出不予许可的书面决定，说明理由并送达申请企业。"
+            },
+            {
+              "paragraph": 65,
+              "label": "",
+              "text": "第十三条 国家铁路局应当自受理申请之日起20个工作日内作出行政许可决定。20个工作日内不能作出决定的，经国家铁路局负责人批准，可以延长10个工作日，并将延长期限的理由告知申请企业。"
+            },
+            {
+              "paragraph": 66,
+              "label": "",
+              "text": "检验、检测和专家评审时间不计算在上述期限内，并将所需时间书面告知申请企业。"
+            },
+            {
+              "paragraph": 68,
+              "label": "",
+              "text": "第三章 证书管理"
+            },
+            {
+              "paragraph": 69,
+              "label": "",
+              "text": "第十四条 生产许可证采用统一格式，由国家铁路局统一印制。生产许可证注明生产许可证编号、企业名称、生产地址、设备名称和型号及适用范围、证书查询方式、有效期限、发证日期等内容。"
+            },
+            {
+              "paragraph": 70,
+              "label": "",
+              "text": "生产许可证编号为：TXDC—*****。其中，“TX”代表铁路许可标识；“DC”代表许可类别标识，即道岔设备； “*****”代表生产许可证编号，由5位阿拉伯数字组成。"
+            },
+            {
+              "paragraph": 71,
+              "label": "",
+              "text": "第十五条 生产许可证有效期为5年。被许可企业需要延续已取得的生产许可证有效期的，应当在有效期届满60个工作日前向国家铁路局提出申请。"
+            },
+            {
+              "paragraph": 72,
+              "label": "",
+              "text": "被许可企业名称、生产地址名称发生变化，换发生产许可证时有效期不变。"
+            },
+            {
+              "paragraph": 73,
+              "label": "",
+              "text": "第十六条 被许可企业生产条件发生较大变化的（包括生产地址变化、生产线重大技术改造、外委加工企业变更等），应当向国家铁路局重新申请许可。"
+            },
+            {
+              "paragraph": 74,
+              "label": "",
+              "text": "第十七条 被许可企业名称、生产地址名称等发生变更的，应当向国家铁路局申请办理生产许可证变更手续。"
+            },
+            {
+              "paragraph": 75,
+              "label": "",
+              "text": "申请变更的企业应当提交的材料包括：国家铁路局行政许可申请书，变更事项说明，合法的批准文件及市场监督管理部门核发的新营业执照副本复印件。所提交的材料及复印件应加盖企业公章。"
+            },
+            {
+              "paragraph": 76,
+              "label": "",
+              "text": "第十八条 生产许可证在有效期内遗失或者损坏的，被许可企业应当向国家铁路局申请办理生产许可证补办手续。"
+            },
+            {
+              "paragraph": 77,
+              "label": "",
+              "text": "申请补办的企业应当提交的材料包括：国家铁路局行政许可申请书，补办说明，企业法人营业执照副本复印件。所提交的材料及复印件应加盖企业公章。"
+            },
+            {
+              "paragraph": 78,
+              "label": "",
+              "text": "补发的生产许可证有效期不变。"
+            },
+            {
+              "paragraph": 79,
+              "label": "",
+              "text": "第四章 监督管理"
+            },
+            {
+              "paragraph": 80,
+              "label": "",
+              "text": "第十九条 国家铁路局及地区铁路监督管理局应当依法对被许可企业开展监督检查；对产品质量不良的企业，应当加大监督检查力度。"
+            },
+            {
+              "paragraph": 81,
+              "label": "",
+              "text": "第二十条 被许可企业应当在每年11月完成产品质量保证体系运行情况和安全管理状况自查，12月15日前向地区铁路监督管理局提交自查报告。地区铁路监督管理局按年度核查企业提交的产品质量保证体系运行情况和安全管理状况自查报告，并汇总上报国家铁路局。核查的内容包括："
+            },
+            {
+              "paragraph": 82,
+              "label": "",
+              "text": "（一）企业申请取证条件的保持情况；"
+            },
+            {
+              "paragraph": 83,
+              "label": "",
+              "text": "（二）企业名称、住所、生产地址等变化情况；"
+            },
+            {
+              "paragraph": 84,
+              "label": "",
+              "text": "（三）企业生产状况及产品变化情况；"
+            },
+            {
+              "paragraph": 85,
+              "label": "",
+              "text": "（四）生产许可证使用情况；"
+            },
+            {
+              "paragraph": 86,
+              "label": "",
+              "text": "（五）产品质量监督抽查情况；"
+            },
+            {
+              "paragraph": 87,
+              "label": "",
+              "text": "（六）需要说明的其他相关情况。"
+            },
+            {
+              "paragraph": 88,
+              "label": "",
+              "text": "第二十一条 监督检查的主要内容包括："
+            },
+            {
+              "paragraph": 89,
+              "label": "",
+              "text": "（一）取得生产许可证应当具备条件的保持情况；"
+            },
+            {
+              "paragraph": 90,
+              "label": "",
+              "text": "（二）生产许可证使用情况；"
+            },
+            {
+              "paragraph": 91,
+              "label": "",
+              "text": "（三）必要时对相关产品质量进行检验、检测。"
+            },
+            {
+              "paragraph": 92,
+              "label": "",
+              "text": "国家铁路局及地区铁路监督管理局对监督检查不合格的企业作出整改决定并书面通知企业。企业应当按要求进行整改，并在60个工作日内提交整改报告、提出复查申请。"
+            },
+            {
+              "paragraph": 93,
+              "label": "",
+              "text": "对拒绝监督检查、监督检查不合格后拒不整改或未按规定提交整改报告、提出复查申请的企业，视为监督检查复查不合格。"
+            },
+            {
+              "paragraph": 94,
+              "label": "",
+              "text": "第二十二条 申请企业隐瞒有关情况或者提供虚假材料申请行政许可的，国家铁路局不予受理或者不予行政许可，并给予警告，申请企业在1年内不得再次申请该行政许可。"
+            },
+            {
+              "paragraph": 95,
+              "label": "",
+              "text": "第二十三条 有下列情形之一的，国家铁路局根据利害关系人的请求或者依据职权，可以撤销行政许可："
+            },
+            {
+              "paragraph": 96,
+              "label": "",
+              "text": "（一）行政机关工作人员滥用职权、玩忽职守作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 97,
+              "label": "",
+              "text": "（二）超越法定职权作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 98,
+              "label": "",
+              "text": "（三）违反法定程序作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 99,
+              "label": "",
+              "text": "（四）对不具备申请资格或者不符合法定条件的申请企业准予行政许可的；"
+            },
+            {
+              "paragraph": 100,
+              "label": "",
+              "text": "（五）依法可以撤销行政许可的其他情形。"
+            },
+            {
+              "paragraph": 101,
+              "label": "",
+              "text": "被许可人以欺骗、贿赂等不正当手段取得行政许可的，应当予以撤销。申请人在3年内不得再次申请该行政许可。"
+            },
+            {
+              "paragraph": 102,
+              "label": "",
+              "text": "第二十四条 有下列情形之一的，国家铁路局应当依法办理有关行政许可的注销手续："
+            },
+            {
+              "paragraph": 103,
+              "label": "",
+              "text": "（一）行政许可有效期届满未延续的；"
+            },
+            {
+              "paragraph": 104,
+              "label": "",
+              "text": "（二）被许可企业依法终止的；"
+            },
+            {
+              "paragraph": 105,
+              "label": "",
+              "text": "（三）行政许可依法被撤销，或者行政许可证件依法被吊销的；"
+            },
+            {
+              "paragraph": 106,
+              "label": "",
+              "text": "（四）因不可抗力导致行政许可事项无法实施的；"
+            },
+            {
+              "paragraph": 107,
+              "label": "",
+              "text": "（五）法律、法规规定的应当注销行政许可的其他情形。"
+            },
+            {
+              "paragraph": 108,
+              "label": "",
+              "text": "国家铁路局依法注销并予以公布。"
+            },
+            {
+              "paragraph": 109,
+              "label": "",
+              "text": "第二十五条 行政许可工作人员应当严格依法履行行政许可受理、审查、监督检查及信息公开等职责。不依法履行职责的，对负有责任的领导人员和直接责任人员，依法给予处分。"
+            },
+            {
+              "paragraph": 110,
+              "label": "",
+              "text": "第五章 附则"
+            },
+            {
+              "paragraph": 111,
+              "label": "",
+              "text": "第二十六条 本细则由国家铁路局负责解释。"
+            },
+            {
+              "paragraph": 112,
+              "label": "",
+              "text": "第二十七条 本细则自2026年4月1日起施行。"
+            },
+            {
+              "paragraph": 119,
+              "label": "",
+              "text": "附件：1.铁路道岔设备目录"
+            },
+            {
+              "paragraph": 120,
+              "label": "",
+              "text": "2.专业生产设备要求"
+            },
+            {
+              "paragraph": 121,
+              "label": "",
+              "text": "3.专业技术人员要求"
+            },
+            {
+              "paragraph": 122,
+              "label": "",
+              "text": "4.产品质量保证体系和安全管理制度要求"
+            },
+            {
+              "paragraph": 123,
+              "label": "",
+              "text": "5.国家铁路局行政许可申请书"
+            },
+            {
+              "paragraph": 124,
+              "label": "",
+              "text": "6.铁路道岔设备生产企业审查表"
+            },
+            {
+              "paragraph": 125,
+              "label": "",
+              "text": "7.专业生产设备明细表"
+            },
+            {
+              "paragraph": 126,
+              "label": "",
+              "text": "8.专业技术人员明细表"
+            },
+            {
+              "paragraph": 128,
+              "label": "",
+              "text": "附件1"
+            },
+            {
+              "paragraph": 130,
+              "label": "",
+              "text": "铁路道岔设备目录"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T02",
+          "rows": 135,
+          "columns": 6,
+          "before": [
+            {
+              "paragraph": 185,
+              "label": "",
+              "text": "附件2"
+            },
+            {
+              "paragraph": 187,
+              "label": "",
+              "text": "专业生产设备要求"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T03",
+          "rows": 16,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 961,
+              "label": "",
+              "text": "附件3"
+            },
+            {
+              "paragraph": 962,
+              "label": "",
+              "text": "专业技术人员要求"
+            },
+            {
+              "paragraph": 964,
+              "label": "",
+              "text": "专业技术人员应当是符合法律规定的适龄的注册在职人员。其中中级技术人员是指具有中级技术职称或大学本科毕业工作满5年、大专毕业工作满7年以及取得初级职称工作满4年的技术人员，高级技术人员是指具有高级技术职称或博士研究生毕业工作满2年、硕士研究生毕业工作满5年、大学本科毕业工作满10年以及取得中级职称工作满5年的技术人员。"
+            },
+            {
+              "paragraph": 965,
+              "label": "",
+              "text": "1．固定型辙叉道岔"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T04",
+          "rows": 15,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1087,
+              "label": "",
+              "text": "2．可动心轨辙叉道岔"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T05",
+          "rows": 18,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1201,
+              "label": "",
+              "text": "3．高锰钢辙叉"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T06",
+          "rows": 16,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1337,
+              "label": "",
+              "text": "4．合金钢辙叉（合金钢材料毛坯的热加工、热处理过程外委时，外委企业应具备本表规定的锻压和热处理技术人员）"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T07",
+          "rows": 17,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1457,
+              "label": "",
+              "text": "5．可动心轨辙叉"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T08",
+          "rows": 89,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1588,
+              "label": "",
+              "text": "附件4"
+            },
+            {
+              "paragraph": 1590,
+              "label": "",
+              "text": "产品质量保证体系和安全管理制度要求"
+            },
+            {
+              "paragraph": 1592,
+              "label": "",
+              "text": "生产企业应当建立完善的产品质量保证体系和安全管理制度。生产企业的产品质量保证体系和安全管理制度应当达到《产品质量保证体系和安全管理制度项目及审查表》的要求。"
+            },
+            {
+              "paragraph": 1593,
+              "label": "",
+              "text": "审查说明："
+            },
+            {
+              "paragraph": 1594,
+              "label": "",
+              "text": "1.对产品质量保证体系和安全管理制度进行现场审查时，有关生产线或生产设备无正当理由应当正常运行，否则将判定产品质量保证体系和安全管理制度不完善。"
+            },
+            {
+              "paragraph": 1595,
+              "label": "",
+              "text": "2.本表中标注▲的内容为审查的关键项。"
+            },
+            {
+              "paragraph": 1596,
+              "label": "",
+              "text": "3.本审查表按质量管理、生产资源、技术文件、采购控制、过程控制、质量检验、安全文明生产等七个部分进行审查，七个部分中的每一个审查内容按合格、一般不合格、严重不合格进行评价。严重不合格是指造成区域性、系统性、后果严重的不合格，一般不合格是指个别的、偶然的、孤立的不合格。"
+            },
+            {
+              "paragraph": 1597,
+              "label": "",
+              "text": "4.关键项不能出现严重不合格，关键项一般不合格不能超过2个；普通项严重不合格不能超过2个，普通项一般不合格不能超过10个；总的不合格项不能超过10个。满足前述要求，判定合格，否则判为不合格。"
+            },
+            {
+              "paragraph": 1599,
+              "label": "",
+              "text": "产品质量保证体系和安全管理制度项目及审查表"
+            }
+          ],
+          "following_notes": [
+            {
+              "paragraph": 2317,
+              "label": "",
+              "text": "注：道岔设备选取代表性产品进行检验检测的原则是结构类型相同或相近、工艺相同或相近、高速代替低速、复杂结构代替简单结构。"
+            }
+          ],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T09",
+          "rows": 15,
+          "columns": 7,
+          "before": [
+            {
+              "paragraph": 2317,
+              "label": "",
+              "text": "注：道岔设备选取代表性产品进行检验检测的原则是结构类型相同或相近、工艺相同或相近、高速代替低速、复杂结构代替简单结构。"
+            },
+            {
+              "paragraph": 2320,
+              "label": "",
+              "text": "附件5"
+            },
+            {
+              "paragraph": 2322,
+              "label": "",
+              "text": "国家铁路局行政许可申请书"
+            }
+          ],
+          "following_notes": [
+            {
+              "paragraph": 2379,
+              "label": "",
+              "text": "注：以下内容由受理机构填写"
+            }
+          ],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T10",
+          "rows": 7,
+          "columns": 3,
+          "before": [
+            {
+              "paragraph": 2379,
+              "label": "",
+              "text": "注：以下内容由受理机构填写"
+            },
+            {
+              "paragraph": 2380,
+              "label": "",
+              "text": "签收人：                                签收日期："
+            },
+            {
+              "paragraph": 2382,
+              "label": "",
+              "text": "附件6"
+            },
+            {
+              "paragraph": 2384,
+              "label": "",
+              "text": "铁路道岔设备生产企业审查表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T11",
+          "rows": 3,
+          "columns": 9,
+          "before": [
+            {
+              "paragraph": 2408,
+              "label": "",
+              "text": "附件7"
+            },
+            {
+              "paragraph": 2409,
+              "label": "",
+              "text": "专业生产设备明细表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0033-T12",
+          "rows": 3,
+          "columns": 12,
+          "before": [
+            {
+              "paragraph": 2441,
+              "label": "",
+              "text": "附件8"
+            },
+            {
+              "paragraph": 2443,
+              "label": "",
+              "text": "专业技术人员明细表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0026",
+      "source_id": "S0034",
+      "master_path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "master_sha256": "47005dbe55afe022fcec00be05ad4fc5e561102e617ff9d5416a3388545803a4",
+      "knowledge_points": 38,
+      "table_count": 11,
+      "native_cells": 2648,
+      "over_900": [
+        {
+          "knowledge_point_id": "DOC0026-K029",
+          "kind": "source_table",
+          "native_table_id": "S0034-T02",
+          "characters": 3169,
+          "embedding_tokens_with_special_tokens": 2139,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K030",
+          "kind": "source_table",
+          "native_table_id": "S0034-T03",
+          "characters": 10478,
+          "embedding_tokens_with_special_tokens": 9308,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K032",
+          "kind": "source_table",
+          "native_table_id": "S0034-T05",
+          "characters": 16799,
+          "embedding_tokens_with_special_tokens": 14941,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K033",
+          "kind": "source_table",
+          "native_table_id": "S0034-T06",
+          "characters": 14064,
+          "embedding_tokens_with_special_tokens": 12483,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K034",
+          "kind": "source_table",
+          "native_table_id": "S0034-T07",
+          "characters": 1604,
+          "embedding_tokens_with_special_tokens": 1506,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "over_embedding_limit": [
+        {
+          "knowledge_point_id": "DOC0026-K030",
+          "kind": "source_table",
+          "native_table_id": "S0034-T03",
+          "characters": 10478,
+          "embedding_tokens_with_special_tokens": 9308,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K032",
+          "kind": "source_table",
+          "native_table_id": "S0034-T05",
+          "characters": 16799,
+          "embedding_tokens_with_special_tokens": 14941,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K033",
+          "kind": "source_table",
+          "native_table_id": "S0034-T06",
+          "characters": 14064,
+          "embedding_tokens_with_special_tokens": 12483,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "unidentified_merge_origins": 0,
+      "annex_list_contamination": [],
+      "maximum_embedding_tokens": 14941,
+      "points": [
+        {
+          "knowledge_point_id": "DOC0026-K001",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 95,
+          "embedding_tokens_with_special_tokens": 51,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K002",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 23,
+          "embedding_tokens_with_special_tokens": 18,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K003",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 101,
+          "embedding_tokens_with_special_tokens": 54,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K004",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 143,
+          "embedding_tokens_with_special_tokens": 83,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K005",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 431,
+          "embedding_tokens_with_special_tokens": 264,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K006",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 127,
+          "embedding_tokens_with_special_tokens": 82,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K007",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 76,
+          "embedding_tokens_with_special_tokens": 60,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K008",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 243,
+          "embedding_tokens_with_special_tokens": 156,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K009",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 73,
+          "embedding_tokens_with_special_tokens": 46,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K010",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 75,
+          "embedding_tokens_with_special_tokens": 48,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K011",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 91,
+          "embedding_tokens_with_special_tokens": 56,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K012",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 67,
+          "embedding_tokens_with_special_tokens": 46,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K013",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 129,
+          "embedding_tokens_with_special_tokens": 74,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K014",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 211,
+          "embedding_tokens_with_special_tokens": 140,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K015",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 101,
+          "embedding_tokens_with_special_tokens": 66,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K016",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 65,
+          "embedding_tokens_with_special_tokens": 42,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K017",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 135,
+          "embedding_tokens_with_special_tokens": 88,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K018",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 135,
+          "embedding_tokens_with_special_tokens": 93,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K019",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 59,
+          "embedding_tokens_with_special_tokens": 35,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K020",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 237,
+          "embedding_tokens_with_special_tokens": 141,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K021",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 214,
+          "embedding_tokens_with_special_tokens": 124,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K022",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 76,
+          "embedding_tokens_with_special_tokens": 50,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K023",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 234,
+          "embedding_tokens_with_special_tokens": 154,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K024",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 171,
+          "embedding_tokens_with_special_tokens": 111,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K025",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 79,
+          "embedding_tokens_with_special_tokens": 50,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K026",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 20,
+          "embedding_tokens_with_special_tokens": 15,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K027",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 23,
+          "embedding_tokens_with_special_tokens": 18,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K028",
+          "kind": "source_table",
+          "native_table_id": "S0034-T01",
+          "characters": 799,
+          "embedding_tokens_with_special_tokens": 564,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K029",
+          "kind": "source_table",
+          "native_table_id": "S0034-T02",
+          "characters": 3169,
+          "embedding_tokens_with_special_tokens": 2139,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K030",
+          "kind": "source_table",
+          "native_table_id": "S0034-T03",
+          "characters": 10478,
+          "embedding_tokens_with_special_tokens": 9308,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K031",
+          "kind": "source_table",
+          "native_table_id": "S0034-T04",
+          "characters": 953,
+          "embedding_tokens_with_special_tokens": 675,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K032",
+          "kind": "source_table",
+          "native_table_id": "S0034-T05",
+          "characters": 16799,
+          "embedding_tokens_with_special_tokens": 14941,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K033",
+          "kind": "source_table",
+          "native_table_id": "S0034-T06",
+          "characters": 14064,
+          "embedding_tokens_with_special_tokens": 12483,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K034",
+          "kind": "source_table",
+          "native_table_id": "S0034-T07",
+          "characters": 1604,
+          "embedding_tokens_with_special_tokens": 1506,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K035",
+          "kind": "source_table",
+          "native_table_id": "S0034-T08",
+          "characters": 461,
+          "embedding_tokens_with_special_tokens": 383,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K036",
+          "kind": "source_table",
+          "native_table_id": "S0034-T09",
+          "characters": 595,
+          "embedding_tokens_with_special_tokens": 534,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K037",
+          "kind": "source_table",
+          "native_table_id": "S0034-T10",
+          "characters": 814,
+          "embedding_tokens_with_special_tokens": 736,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0026-K038",
+          "kind": "source_table",
+          "native_table_id": "S0034-T11",
+          "characters": 493,
+          "embedding_tokens_with_special_tokens": 438,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "S0034-T01",
+          "rows": 4,
+          "columns": 5,
+          "before": [
+            {
+              "paragraph": 1,
+              "label": "",
+              "text": "国家铁路局关于印发"
+            },
+            {
+              "paragraph": 2,
+              "label": "",
+              "text": "《铁路信号设备生产企业审批实施细则》的通知"
+            },
+            {
+              "paragraph": 3,
+              "label": "",
+              "text": "国铁设备监规〔2026〕5 号"
+            },
+            {
+              "paragraph": 6,
+              "label": "",
+              "text": "各地区铁路监管局,北京铁路督察室:"
+            },
+            {
+              "paragraph": 7,
+              "label": "",
+              "text": "现将《铁路信号设备生产企业审批实施 细则》印发给你们,请贯彻执行。"
+            },
+            {
+              "paragraph": 10,
+              "label": "",
+              "text": "国家铁路局"
+            },
+            {
+              "paragraph": 11,
+              "label": "",
+              "text": "2026 年 2 月 28 日"
+            },
+            {
+              "paragraph": 14,
+              "label": "",
+              "text": "(此件公开发布)"
+            },
+            {
+              "paragraph": 28,
+              "label": "",
+              "text": "铁路信号设备生产企业审批实施细则"
+            },
+            {
+              "paragraph": 31,
+              "label": "",
+              "text": "第一章 总则"
+            },
+            {
+              "paragraph": 32,
+              "label": "",
+              "text": "第一条 为规范铁路信号设备生产企业审批，维护公共利益和社会秩序，依据《中华人民共和国行政许可法》《铁路安全管理条例》《铁路运输基础设备生产企业审批办法》等法律法规和国家有关规定，制定本细则。"
+            },
+            {
+              "paragraph": 33,
+              "label": "",
+              "text": "第二条 本细则所称铁路信号设备目录详见附件1。"
+            },
+            {
+              "paragraph": 34,
+              "label": "",
+              "text": "第三条 在中华人民共和国境内生产铁路信号设备的企业，应当向国家铁路局提出申请，经审查合格取得“铁路运输基础设备生产企业许可证”（以下简称“生产许可证”）。"
+            },
+            {
+              "paragraph": 35,
+              "label": "",
+              "text": "取得生产许可证的企业名录，由国家铁路局公布。"
+            },
+            {
+              "paragraph": 36,
+              "label": "",
+              "text": "第二章 条件与程序"
+            },
+            {
+              "paragraph": 37,
+              "label": "",
+              "text": "第四条 申请企业应当符合下列条件："
+            },
+            {
+              "paragraph": 38,
+              "label": "",
+              "text": "（一）有按照国家标准、行业标准检测、检验合格的专业生产设备（具体要求详见附件2）；"
+            },
+            {
+              "paragraph": 39,
+              "label": "",
+              "text": "（二）有相应的专业技术人员（具体要求详见附件3）；"
+            },
+            {
+              "paragraph": 40,
+              "label": "",
+              "text": "（三）有完善的产品质量保证体系和安全管理制度（具体要求详见附件4）；"
+            },
+            {
+              "paragraph": 41,
+              "label": "",
+              "text": "（四）法律、行政法规规定的其他条件。"
+            },
+            {
+              "paragraph": 42,
+              "label": "",
+              "text": "第五条 申请企业应当提交下列材料："
+            },
+            {
+              "paragraph": 43,
+              "label": "",
+              "text": "（一）行政许可申请书（附件5），一式两份，装订一份；"
+            },
+            {
+              "paragraph": 44,
+              "label": "",
+              "text": "（二）企业法人营业执照副本复印件，一式两份，装订一份；"
+            },
+            {
+              "paragraph": 45,
+              "label": "",
+              "text": "（三）铁路信号设备生产企业审查表(附件６)；"
+            },
+            {
+              "paragraph": 46,
+              "label": "",
+              "text": "（四）专业生产设备明细表（附件7）；"
+            },
+            {
+              "paragraph": 47,
+              "label": "",
+              "text": "（五）专业技术人员明细表（附件8）；"
+            },
+            {
+              "paragraph": 48,
+              "label": "",
+              "text": "（六）证明产品质量保证体系有效运转、产品运用质量符合安全要求、产品质量符合标准要求的相关材料；"
+            },
+            {
+              "paragraph": 49,
+              "label": "",
+              "text": "申请企业有关生产过程可以委托其他企业完成（可以外委的生产过程见附件2）,外委企业应当具备相应的生产条件和能力;申请信号软件和系统集成生产许可证的企业，还应提交其硬件生产企业名录材料；"
+            },
+            {
+              "paragraph": 50,
+              "label": "",
+              "text": "（七）安全管理制度目录、拟生产的产品目录、设计图纸目录、工艺文件目录，所依据的国家标准、行业标准、企业标准目录；"
+            },
+            {
+              "paragraph": 51,
+              "label": "",
+              "text": "（八）新研发产品试用考核材料；"
+            },
+            {
+              "paragraph": 52,
+              "label": "",
+              "text": "（九）新研发产品技术评审（鉴定）证书或者审查意见；（十）企业简介（含企业资产、股份构成及比例、资质情况、生产经营基本状况、产品主要运用业绩等内容）。"
+            },
+            {
+              "paragraph": 53,
+              "label": "",
+              "text": "第六条 申请延续许可或者因生产条件发生较大变化重新申请许可的企业，应当提交本细则第五条除（八）、（九）外的材料，并提供近5年产品主要运用情况（含因产品质量造成责任事故的整改情况）、许可条件变化情况（含人员、设备等变化内容并明确说明是否持续满足许可条件）。"
+            },
+            {
+              "paragraph": 54,
+              "label": "",
+              "text": "第七条 申请企业提交的材料（A4纸规格）应当按第五条、第六条规定的顺序统一标注页码，无线胶订成册，加盖骑缝章，并附电子版。相关说明材料应当加盖企业公章。"
+            },
+            {
+              "paragraph": 55,
+              "label": "",
+              "text": "第八条 国家铁路局对提交的申请材料，应当根据下列情况分别作出处理："
+            },
+            {
+              "paragraph": 56,
+              "label": "",
+              "text": "（一）申请材料存在可以当场更正错误的，应当允许申请人当场更正；"
+            },
+            {
+              "paragraph": 57,
+              "label": "",
+              "text": "（二）申请材料不齐全或者不符合法定形式的，应当当场或者在5个工作日内一次告知申请人需要补正的全部内容，逾期不告知的，自收到申请材料之日起即为受理；"
+            },
+            {
+              "paragraph": 58,
+              "label": "",
+              "text": "（三）申请材料齐全、符合法定形式，或者申请企业按要求提交全部补正申请材料的，应当受理行政许可申请。"
+            },
+            {
+              "paragraph": 59,
+              "label": "",
+              "text": "国家铁路局受理或者不予受理行政许可申请，应当出具加盖国家铁路局行政许可专用章和注明日期的书面凭证。"
+            },
+            {
+              "paragraph": 60,
+              "label": "",
+              "text": "第九条 国家铁路局在申请材料审查合格的基础上，根据需要组织现场核实、专家评审和检验、检测。对企业提交材料进行现场核实的，应当指派至少2名工作人员。"
+            },
+            {
+              "paragraph": 61,
+              "label": "",
+              "text": "第十条 国家铁路局组织专家评审的，应当书面通知企业做好相应配合。专家评审应当自通知之日起3个月内完成。参加评审的专家，不得与申请企业具有相关利害关系。"
+            },
+            {
+              "paragraph": 62,
+              "label": "",
+              "text": "第十一条 检验、检测应当委托符合国家规定条件的专业检验、检测机构按照铁路专用产品检验检测细则执行。"
+            },
+            {
+              "paragraph": 63,
+              "label": "",
+              "text": "产品功能、设计原理、制造工艺相同或者相近的同类产品可选择代表性产品进行检验检测。"
+            },
+            {
+              "paragraph": 64,
+              "label": "",
+              "text": "第十二条 申请审查合格的，应当依法向申请企业作出准予行政许可的书面决定；不合格的，依法作出不予许可的书面决定，说明理由并送达申请企业。"
+            },
+            {
+              "paragraph": 65,
+              "label": "",
+              "text": "第十三条 国家铁路局应当自受理申请之日起20个工作日内作出行政许可决定。20个工作日内不能作出决定的，经国家铁路局负责人批准，可以延长10个工作日，并将延长期限的理由告知申请企业。"
+            },
+            {
+              "paragraph": 66,
+              "label": "",
+              "text": "检验、检测和专家评审时间不计算在上述期限内，并将所需时间书面告知申请企业。"
+            },
+            {
+              "paragraph": 68,
+              "label": "",
+              "text": "第三章 证书管理"
+            },
+            {
+              "paragraph": 69,
+              "label": "",
+              "text": "第十四条 生产许可证采用统一格式，由国家铁路局统一印制。生产许可证注明生产许可证编号、企业名称、生产地址、设备名称和型号及适用范围、证书查询方式、有效期限、发证日期等内容。"
+            },
+            {
+              "paragraph": 70,
+              "label": "",
+              "text": "生产许可证编号为：TXXH####—*****。其中，“TX”代表铁路许可标识；“XH”代表许可类别标识，即信号设备；“####”代表产品类别编号，由4位阿拉伯数字组成；“*****”代表生产许可证编号，由5位阿拉伯数字组成，按发证先后顺序编排。"
+            },
+            {
+              "paragraph": 71,
+              "label": "",
+              "text": "第十五条 生产许可证有效期为5年。被许可企业需要延续已取得的生产许可证有效期的，应当在有效期届满60个工作日前向国家铁路局提出申请。"
+            },
+            {
+              "paragraph": 72,
+              "label": "",
+              "text": "被许可企业名称、生产地址名称发生变化，换发生产许可证时有效期不变。"
+            },
+            {
+              "paragraph": 73,
+              "label": "",
+              "text": "第十六条 被许可企业生产条件发生较大变化的（生产地址变化、生产线重大技术改造、外委加工企业变更等），应当向国家铁路局重新申请许可。"
+            },
+            {
+              "paragraph": 74,
+              "label": "",
+              "text": "第十七条 被许可企业名称、生产地址名称等发生变更的，应当向国家铁路局申请办理生产许可证变更手续。"
+            },
+            {
+              "paragraph": 75,
+              "label": "",
+              "text": "申请变更的企业应当提交的材料包括：国家铁路局行政许可申请书，变更事项说明，合法的批准文件及市场监督管理部门核发的新营业执照副本复印件。所提交的材料及复印件应加盖企业公章。"
+            },
+            {
+              "paragraph": 76,
+              "label": "",
+              "text": "第十八条 生产许可证在有效期内遗失或者损坏的，被许可企业应当向国家铁路局申请办理生产许可证补办手续。"
+            },
+            {
+              "paragraph": 77,
+              "label": "",
+              "text": "申请补办的企业应当提交的材料包括：国家铁路局行政许可申请书，补办说明，企业法人营业执照副本复印件。所提交的材料及复印件应加盖企业公章。"
+            },
+            {
+              "paragraph": 78,
+              "label": "",
+              "text": "补发的生产许可证有效期不变。"
+            },
+            {
+              "paragraph": 79,
+              "label": "",
+              "text": "第四章 监督管理"
+            },
+            {
+              "paragraph": 80,
+              "label": "",
+              "text": "第十九条 国家铁路局及地区铁路监督管理局应当依法对被许可企业开展监督检查；对产品质量不良的企业，应当加大监督检查力度。"
+            },
+            {
+              "paragraph": 81,
+              "label": "",
+              "text": "第二十条 被许可企业应当在每年11月完成产品质量保证体系运行情况和安全管理状况自查，12月15日前向地区铁路监督管理局提交自查报告。地区铁路监督管理局按年度核查企业提交的产品质量保证体系运行情况和安全管理状况自查报告，并汇总上报国家铁路局。核查的内容包括："
+            },
+            {
+              "paragraph": 82,
+              "label": "",
+              "text": "（一）企业申请取证条件的保持情况；"
+            },
+            {
+              "paragraph": 83,
+              "label": "",
+              "text": "（二）企业名称、住所、生产地址等变化情况；"
+            },
+            {
+              "paragraph": 84,
+              "label": "",
+              "text": "（三）企业生产状况及产品变化情况；"
+            },
+            {
+              "paragraph": 85,
+              "label": "",
+              "text": "（四）生产许可证使用情况；"
+            },
+            {
+              "paragraph": 86,
+              "label": "",
+              "text": "（五）产品质量监督抽查情况；"
+            },
+            {
+              "paragraph": 87,
+              "label": "",
+              "text": "（六）需要说明的其他相关情况。"
+            },
+            {
+              "paragraph": 88,
+              "label": "",
+              "text": "第二十一条 监督检查的主要内容包括："
+            },
+            {
+              "paragraph": 89,
+              "label": "",
+              "text": "（一）取得生产许可证应当具备条件的保持情况；"
+            },
+            {
+              "paragraph": 90,
+              "label": "",
+              "text": "（二）生产许可证使用情况；"
+            },
+            {
+              "paragraph": 91,
+              "label": "",
+              "text": "（三）必要时对相关产品质量进行检验、检测。"
+            },
+            {
+              "paragraph": 92,
+              "label": "",
+              "text": "国家铁路局及地区铁路监督管理局对监督检查不合格的企业作出整改决定并书面通知企业。企业应当按要求进行整改，并在60个工作日内提交整改报告、提出复查申请。"
+            },
+            {
+              "paragraph": 93,
+              "label": "",
+              "text": "对拒绝监督检查、监督检查不合格后拒不整改或者未按规定提交整改报告、提出复查申请的企业，视为监督检查复查不合格。"
+            },
+            {
+              "paragraph": 94,
+              "label": "",
+              "text": "第二十二条 申请企业隐瞒有关情况或者提供虚假材料申请行政许可的，国家铁路局不予受理或者不予行政许可，并给予警告，申请企业在1年内不得再次申请该行政许可。"
+            },
+            {
+              "paragraph": 95,
+              "label": "",
+              "text": "第二十三条 有下列情形之一的，国家铁路局根据利害关系人的请求或者依据职权，可以撤销行政许可："
+            },
+            {
+              "paragraph": 96,
+              "label": "",
+              "text": "（一）行政机关工作人员滥用职权、玩忽职守作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 97,
+              "label": "",
+              "text": "（二）超越法定职权作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 98,
+              "label": "",
+              "text": "（三）违反法定程序作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 99,
+              "label": "",
+              "text": "（四）对不具备申请资格或者不符合法定条件的申请企业准予行政许可的；"
+            },
+            {
+              "paragraph": 100,
+              "label": "",
+              "text": "（五）依法可以撤销行政许可的其他情形。"
+            },
+            {
+              "paragraph": 101,
+              "label": "",
+              "text": "被许可人以欺骗、贿赂等不正当手段取得行政许可的，应当予以撤销。申请人在3年内不得再次申请该行政许可。"
+            },
+            {
+              "paragraph": 102,
+              "label": "",
+              "text": "第二十四条 有下列情形之一的，国家铁路局应当依法办理有关行政许可的注销手续："
+            },
+            {
+              "paragraph": 103,
+              "label": "",
+              "text": "（一）行政许可有效期届满未延续的；"
+            },
+            {
+              "paragraph": 104,
+              "label": "",
+              "text": "（二）被许可企业依法终止的；"
+            },
+            {
+              "paragraph": 105,
+              "label": "",
+              "text": "（三）行政许可依法被撤销，或者行政许可证件依法被吊销的；"
+            },
+            {
+              "paragraph": 106,
+              "label": "",
+              "text": "（四）因不可抗力导致行政许可事项无法实施的；"
+            },
+            {
+              "paragraph": 107,
+              "label": "",
+              "text": "（五）法律、法规规定的应当注销行政许可的其他情形。"
+            },
+            {
+              "paragraph": 108,
+              "label": "",
+              "text": "国家铁路局依法注销并予以公布。"
+            },
+            {
+              "paragraph": 109,
+              "label": "",
+              "text": "第二十五条 行政许可工作人员应当严格依法履行行政许可受理、审查、监督检查及信息公开等职责。不依法履行职责的，对负有责任的领导人员和直接责任人员，依法给予处分。"
+            },
+            {
+              "paragraph": 110,
+              "label": "",
+              "text": "第五章 附则"
+            },
+            {
+              "paragraph": 111,
+              "label": "",
+              "text": "第二十六条 本细则由国家铁路局负责解释。"
+            },
+            {
+              "paragraph": 112,
+              "label": "",
+              "text": "第二十七条 本细则自2026年4月1日起施行。"
+            },
+            {
+              "paragraph": 117,
+              "label": "",
+              "text": "附件：1.铁路信号设备目录"
+            },
+            {
+              "paragraph": 118,
+              "label": "",
+              "text": "2.专业生产设备要求"
+            },
+            {
+              "paragraph": 119,
+              "label": "",
+              "text": "3.专业技术人员要求"
+            },
+            {
+              "paragraph": 120,
+              "label": "",
+              "text": "4.产品质量保证体系和安全管理制度要求"
+            },
+            {
+              "paragraph": 121,
+              "label": "",
+              "text": "5.国家铁路局行政许可申请书"
+            },
+            {
+              "paragraph": 122,
+              "label": "",
+              "text": "6.铁路信号设备生产企业审查表"
+            },
+            {
+              "paragraph": 123,
+              "label": "",
+              "text": "7.专业生产设备明细表"
+            },
+            {
+              "paragraph": 124,
+              "label": "",
+              "text": "8.专业技术人员明细表"
+            },
+            {
+              "paragraph": 126,
+              "label": "",
+              "text": "附件1"
+            },
+            {
+              "paragraph": 128,
+              "label": "",
+              "text": "铁路信号设备目录"
+            },
+            {
+              "paragraph": 130,
+              "label": "",
+              "text": "一、铁路道岔转辙设备"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0034-T02",
+          "rows": 25,
+          "columns": 5,
+          "before": [
+            {
+              "paragraph": 164,
+              "label": "",
+              "text": "二、铁路信号控制软件和控制设备（除高压脉冲轨道电路设备、信号继电器外，含软件、硬件和系统集成）"
+            }
+          ],
+          "following_notes": [
+            {
+              "paragraph": 342,
+              "label": "",
+              "text": "备注：标准更新时，按最新标准执行。"
+            }
+          ],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0034-T03",
+          "rows": 167,
+          "columns": 5,
+          "before": [
+            {
+              "paragraph": 342,
+              "label": "",
+              "text": "备注：标准更新时，按最新标准执行。"
+            },
+            {
+              "paragraph": 344,
+              "label": "",
+              "text": "附件2"
+            },
+            {
+              "paragraph": 346,
+              "label": "",
+              "text": "专业生产设备要求"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0034-T04",
+          "rows": 7,
+          "columns": 6,
+          "before": [
+            {
+              "paragraph": 1154,
+              "label": "",
+              "text": "附件3"
+            },
+            {
+              "paragraph": 1155,
+              "label": "",
+              "text": "专业技术人员要求"
+            },
+            {
+              "paragraph": 1157,
+              "label": "",
+              "text": "专业技术人员应当是符合法律规定的适龄的注册在职人员。其中中级技术人员是指具有中级技术职称或大学本科毕业工作满5年、大专毕业工作满7年以及取得初级职称工作满4年的技术人员，高级技术人员是指具有高级技术职称或博士研究生毕业工作满2年、硕士研究生毕业工作满5年、大学本科毕业工作满10年以及取得中级职称工作满5年的技术人员。"
+            }
+          ],
+          "following_notes": [
+            {
+              "paragraph": 1199,
+              "label": "",
+              "text": "注：信号硬件设备包括：调度集中（CTC）设备、列车运行控制系统ATP车载设备、应答器、应答器信息接收单元、ZPW-2000系列设备、机车信号设备、轨道电路信息接收单元、LKJ设备、STP设备、GYK设备、车站电码化设备、车站列控中心设备、无线闭塞中心设备、临时限速服务器、地面电子单元、计轴设备、车站计算机联锁设备、25Hz相敏轨道电路微电子接收器、高压脉冲轨道电路设备、区域控制器（ZC）、数据存储单元（DSU）、ATP/ATO车载设备主机、列车自动监控设备ATS等硬件设备。"
+            }
+          ],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0034-T05",
+          "rows": 102,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1199,
+              "label": "",
+              "text": "注：信号硬件设备包括：调度集中（CTC）设备、列车运行控制系统ATP车载设备、应答器、应答器信息接收单元、ZPW-2000系列设备、机车信号设备、轨道电路信息接收单元、LKJ设备、STP设备、GYK设备、车站电码化设备、车站列控中心设备、无线闭塞中心设备、临时限速服务器、地面电子单元、计轴设备、车站计算机联锁设备、25Hz相敏轨道电路微电子接收器、高压脉冲轨道电路设备、区域控制器（ZC）、数据存储单元（DSU）、ATP/ATO车载设备主机、列车自动监控设备ATS等硬件设备。"
+            },
+            {
+              "paragraph": 1201,
+              "label": "",
+              "text": "附件4"
+            },
+            {
+              "paragraph": 1203,
+              "label": "",
+              "text": "产品质量保证体系和安全管理制度要求"
+            },
+            {
+              "paragraph": 1205,
+              "label": "",
+              "text": "生产企业应当建立完善的产品质量保证体系和安全管理制度。信号控制软件生产企业的产品质量保证体系和安全管理制度应当达到《产品质量保证体系和安全管理制度项目及审查表-1》的要求，其他信号设备生产企业的产品质量保证体系和安全管理制度应当达到《产品质量保证体系和安全管理制度项目及审查表-2》的要求。"
+            },
+            {
+              "paragraph": 1206,
+              "label": "",
+              "text": "审查说明："
+            },
+            {
+              "paragraph": 1207,
+              "label": "",
+              "text": "1.对产品质量保证体系和安全管理制度进行现场审查时，有关生产线或生产设备无正当理由应当正常运行，否则将判定产品质量保证体系和安全管理制度不完善。"
+            },
+            {
+              "paragraph": 1208,
+              "label": "",
+              "text": "2. 本表中标注▲的内容为审查的关键项。"
+            },
+            {
+              "paragraph": 1209,
+              "label": "",
+              "text": "3．本审查表按质量管理、生产资源、技术文件、采购控制、过程控制、质量检验、安全文明生产等7个部分进行审查，7个部分中的每一个审查内容按合格、一般不合格、严重不合格进行评价。严重不合格是指造成区域性、系统性、后果严重的不合格，一般不合格是指个别的、偶然的、孤立的不合格。"
+            },
+            {
+              "paragraph": 1210,
+              "label": "",
+              "text": "4．关键项不能出现严重不合格，关键项一般不合格不能超过2个；普通项严重不合格不能超过2个，普通项一般不合格不能超过10个；总的不合格项不能超过10个。满足前述要求，判定合格，否则判为不合格。"
+            },
+            {
+              "paragraph": 1212,
+              "label": "",
+              "text": "产品质量保证体系和安全管理制度项目及审查表-1"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0034-T06",
+          "rows": 86,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 2036,
+              "label": "",
+              "text": "产品质量保证体系和安全管理制度项目及审查表-2"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0034-T07",
+          "rows": 15,
+          "columns": 7,
+          "before": [
+            {
+              "paragraph": 2733,
+              "label": "",
+              "text": "附件5"
+            },
+            {
+              "paragraph": 2735,
+              "label": "",
+              "text": "国家铁路局行政许可申请书"
+            }
+          ],
+          "following_notes": [
+            {
+              "paragraph": 2792,
+              "label": "",
+              "text": "注：以下内容由受理机构填写"
+            }
+          ],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0034-T08",
+          "rows": 7,
+          "columns": 3,
+          "before": [
+            {
+              "paragraph": 2792,
+              "label": "",
+              "text": "注：以下内容由受理机构填写"
+            },
+            {
+              "paragraph": 2793,
+              "label": "",
+              "text": "签收人：                                签收日期："
+            },
+            {
+              "paragraph": 2795,
+              "label": "",
+              "text": "附件6"
+            },
+            {
+              "paragraph": 2797,
+              "label": "",
+              "text": "铁路信号设备生产企业审查表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0034-T09",
+          "rows": 3,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 2821,
+              "label": "",
+              "text": "附件7"
+            },
+            {
+              "paragraph": 2822,
+              "label": "",
+              "text": "专业生产设备明细表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0034-T10",
+          "rows": 3,
+          "columns": 12,
+          "before": [
+            {
+              "paragraph": 2851,
+              "label": "",
+              "text": "附件8"
+            },
+            {
+              "paragraph": 2853,
+              "label": "",
+              "text": "专业技术人员明细表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0034-T11",
+          "rows": 4,
+          "columns": 5,
+          "before": [],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0027",
+      "source_id": "S0035",
+      "master_path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "master_sha256": "83eb00c6ddab5e283db242af61ef3ad1c5330c9e68eccc42035bab6cfa958c15",
+      "knowledge_points": 35,
+      "table_count": 8,
+      "native_cells": 1336,
+      "over_900": [
+        {
+          "knowledge_point_id": "DOC0027-K029",
+          "kind": "source_table",
+          "native_table_id": "S0035-T02",
+          "characters": 5218,
+          "embedding_tokens_with_special_tokens": 4682,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K030",
+          "kind": "source_table",
+          "native_table_id": "S0035-T03",
+          "characters": 14420,
+          "embedding_tokens_with_special_tokens": 12814,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K031",
+          "kind": "source_table",
+          "native_table_id": "S0035-T04",
+          "characters": 1604,
+          "embedding_tokens_with_special_tokens": 1506,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "over_embedding_limit": [
+        {
+          "knowledge_point_id": "DOC0027-K030",
+          "kind": "source_table",
+          "native_table_id": "S0035-T03",
+          "characters": 14420,
+          "embedding_tokens_with_special_tokens": 12814,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "unidentified_merge_origins": 0,
+      "annex_list_contamination": [],
+      "maximum_embedding_tokens": 12814,
+      "points": [
+        {
+          "knowledge_point_id": "DOC0027-K001",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 95,
+          "embedding_tokens_with_special_tokens": 51,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K002",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 23,
+          "embedding_tokens_with_special_tokens": 18,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K003",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 101,
+          "embedding_tokens_with_special_tokens": 54,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K004",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 143,
+          "embedding_tokens_with_special_tokens": 83,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K005",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 397,
+          "embedding_tokens_with_special_tokens": 243,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K006",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 127,
+          "embedding_tokens_with_special_tokens": 82,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K007",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 76,
+          "embedding_tokens_with_special_tokens": 60,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K008",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 243,
+          "embedding_tokens_with_special_tokens": 156,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K009",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 73,
+          "embedding_tokens_with_special_tokens": 46,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K010",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 75,
+          "embedding_tokens_with_special_tokens": 48,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K011",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 91,
+          "embedding_tokens_with_special_tokens": 56,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K012",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 67,
+          "embedding_tokens_with_special_tokens": 46,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K013",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 129,
+          "embedding_tokens_with_special_tokens": 74,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K014",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 215,
+          "embedding_tokens_with_special_tokens": 140,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K015",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 101,
+          "embedding_tokens_with_special_tokens": 66,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K016",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 65,
+          "embedding_tokens_with_special_tokens": 42,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K017",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 135,
+          "embedding_tokens_with_special_tokens": 88,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K018",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 135,
+          "embedding_tokens_with_special_tokens": 93,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K019",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 59,
+          "embedding_tokens_with_special_tokens": 35,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K020",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 237,
+          "embedding_tokens_with_special_tokens": 141,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K021",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 214,
+          "embedding_tokens_with_special_tokens": 124,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K022",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 76,
+          "embedding_tokens_with_special_tokens": 50,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K023",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 234,
+          "embedding_tokens_with_special_tokens": 154,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K024",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 171,
+          "embedding_tokens_with_special_tokens": 111,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K025",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 79,
+          "embedding_tokens_with_special_tokens": 50,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K026",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 20,
+          "embedding_tokens_with_special_tokens": 15,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K027",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 23,
+          "embedding_tokens_with_special_tokens": 18,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K028",
+          "kind": "source_table",
+          "native_table_id": "S0035-T01",
+          "characters": 1101,
+          "embedding_tokens_with_special_tokens": 810,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K029",
+          "kind": "source_table",
+          "native_table_id": "S0035-T02",
+          "characters": 5218,
+          "embedding_tokens_with_special_tokens": 4682,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K030",
+          "kind": "source_table",
+          "native_table_id": "S0035-T03",
+          "characters": 14420,
+          "embedding_tokens_with_special_tokens": 12814,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K031",
+          "kind": "source_table",
+          "native_table_id": "S0035-T04",
+          "characters": 1604,
+          "embedding_tokens_with_special_tokens": 1506,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K032",
+          "kind": "source_table",
+          "native_table_id": "S0035-T05",
+          "characters": 461,
+          "embedding_tokens_with_special_tokens": 383,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K033",
+          "kind": "source_table",
+          "native_table_id": "S0035-T06",
+          "characters": 595,
+          "embedding_tokens_with_special_tokens": 534,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K034",
+          "kind": "source_table",
+          "native_table_id": "S0035-T07",
+          "characters": 956,
+          "embedding_tokens_with_special_tokens": 877,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0027-K035",
+          "kind": "source_table",
+          "native_table_id": "S0035-T08",
+          "characters": 551,
+          "embedding_tokens_with_special_tokens": 494,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "S0035-T01",
+          "rows": 10,
+          "columns": 5,
+          "before": [
+            {
+              "paragraph": 2,
+              "label": "",
+              "text": "国家铁路局关于印发"
+            },
+            {
+              "paragraph": 3,
+              "label": "",
+              "text": "《铁路通信设备生产企业审批实施细则》的通知"
+            },
+            {
+              "paragraph": 4,
+              "label": "",
+              "text": "国铁设备监规〔2026〕6 号"
+            },
+            {
+              "paragraph": 6,
+              "label": "",
+              "text": "各地区铁路监管局,北京铁路督察室:"
+            },
+            {
+              "paragraph": 7,
+              "label": "",
+              "text": "现将《铁路通信设备 生产企业审批实施 细则》印发给你们 ,请贯彻执行。"
+            },
+            {
+              "paragraph": 10,
+              "label": "",
+              "text": "国家铁路局"
+            },
+            {
+              "paragraph": 11,
+              "label": "",
+              "text": "2026年2月28日"
+            },
+            {
+              "paragraph": 12,
+              "label": "",
+              "text": "(此件公开发布)"
+            },
+            {
+              "paragraph": 27,
+              "label": "",
+              "text": "铁路通信设备生产企业审批实施细则"
+            },
+            {
+              "paragraph": 29,
+              "label": "",
+              "text": "第一章 总则"
+            },
+            {
+              "paragraph": 30,
+              "label": "",
+              "text": "第一条 为规范铁路通信设备生产企业审批，维护公共利益和社会秩序，依据《中华人民共和国行政许可法》《铁路安全管理条例》《铁路运输基础设备生产企业审批办法》等法律法规和国家有关规定，制定本细则。"
+            },
+            {
+              "paragraph": 31,
+              "label": "",
+              "text": "第二条 本细则所称铁路通信设备目录详见附件1。"
+            },
+            {
+              "paragraph": 32,
+              "label": "",
+              "text": "第三条 在中华人民共和国境内生产铁路通信设备的企业，应当向国家铁路局提出申请，经审查合格取得“铁路运输基础设备生产企业许可证”（以下简称“生产许可证”）。"
+            },
+            {
+              "paragraph": 33,
+              "label": "",
+              "text": "取得生产许可证的企业名录，由国家铁路局公布。"
+            },
+            {
+              "paragraph": 34,
+              "label": "",
+              "text": "第二章 条件与程序"
+            },
+            {
+              "paragraph": 35,
+              "label": "",
+              "text": "第四条 申请企业应当符合下列条件："
+            },
+            {
+              "paragraph": 36,
+              "label": "",
+              "text": "（一）有按照国家标准、行业标准检测、检验合格的专业生产设备（具体要求详见附件2）；"
+            },
+            {
+              "paragraph": 37,
+              "label": "",
+              "text": "（二）有相应的专业技术人员（具体要求详见附件3）；"
+            },
+            {
+              "paragraph": 38,
+              "label": "",
+              "text": "（三）有完善的产品质量保证体系和安全管理制度（具体要求详见附件4）；"
+            },
+            {
+              "paragraph": 39,
+              "label": "",
+              "text": "（四）法律、行政法规规定的其他条件。"
+            },
+            {
+              "paragraph": 40,
+              "label": "",
+              "text": "第五条 申请企业应当提交下列材料："
+            },
+            {
+              "paragraph": 41,
+              "label": "",
+              "text": "（一）行政许可申请书（附件5），一式两份，装订一份；"
+            },
+            {
+              "paragraph": 42,
+              "label": "",
+              "text": "（二）企业法人营业执照副本复印件，一式两份，装订一份；"
+            },
+            {
+              "paragraph": 43,
+              "label": "",
+              "text": "（三）铁路通信设备生产企业审查表(附件６)；"
+            },
+            {
+              "paragraph": 44,
+              "label": "",
+              "text": "（四）专业生产设备明细表（附件7）；"
+            },
+            {
+              "paragraph": 45,
+              "label": "",
+              "text": "（五）专业技术人员明细表（附件8）；"
+            },
+            {
+              "paragraph": 46,
+              "label": "",
+              "text": "（六）证明产品质量保证体系有效运转、产品运用质量符合安全要求、产品质量符合标准要求的相关材料；"
+            },
+            {
+              "paragraph": 47,
+              "label": "",
+              "text": "申请企业有关生产过程可以委托其他企业完成（可以外委的生产过程见附件2）,外委企业应当具备相应的生产条件和能力；"
+            },
+            {
+              "paragraph": 48,
+              "label": "",
+              "text": "（七）安全管理制度目录、拟生产的产品目录、设计图纸目录、工艺文件目录，所依据的国家标准、行业标准、企业标准目录；"
+            },
+            {
+              "paragraph": 49,
+              "label": "",
+              "text": "（八）新研发产品试用考核材料；"
+            },
+            {
+              "paragraph": 50,
+              "label": "",
+              "text": "（九）新研发产品技术评审（鉴定）证书或者审查意见；"
+            },
+            {
+              "paragraph": 51,
+              "label": "",
+              "text": "（十）企业简介（含企业资产、股份构成及比例、资质情况、生产经营基本状况、产品主要运用业绩等内容）。"
+            },
+            {
+              "paragraph": 52,
+              "label": "",
+              "text": "第六条 申请延续许可或者因生产条件发生较大变化重新申请许可的企业，应当提交本细则第五条除（八）、（九）外的材料，并提供近5年产品主要运用情况（含因产品质量造成责任事故的整改情况）、许可条件变化情况（含人员、设备等变化内容并明确说明是否持续满足许可条件）。"
+            },
+            {
+              "paragraph": 53,
+              "label": "",
+              "text": "第七条 申请企业提交的材料（A4纸规格）应当按第五条、第六条规定的顺序统一标注页码，无线胶订成册，加盖骑缝章，并附电子版。相关说明材料应当加盖企业公章。"
+            },
+            {
+              "paragraph": 54,
+              "label": "",
+              "text": "第八条 国家铁路局对提交的申请材料，应当根据下列情况分别作出处理："
+            },
+            {
+              "paragraph": 55,
+              "label": "",
+              "text": "（一）申请材料存在可以当场更正错误的，应当允许申请人当场更正；"
+            },
+            {
+              "paragraph": 56,
+              "label": "",
+              "text": "（二）申请材料不齐全或者不符合法定形式的，应当当场或者在5个工作日内一次告知申请人需要补正的全部内容，逾期不告知的，自收到申请材料之日起即为受理；"
+            },
+            {
+              "paragraph": 57,
+              "label": "",
+              "text": "（三）申请材料齐全、符合法定形式，或者申请企业按要求提交全部补正申请材料的，应当受理行政许可申请。"
+            },
+            {
+              "paragraph": 58,
+              "label": "",
+              "text": "国家铁路局受理或者不予受理行政许可申请，应当出具加盖国家铁路局行政许可专用章和注明日期的书面凭证。"
+            },
+            {
+              "paragraph": 59,
+              "label": "",
+              "text": "第九条 国家铁路局在申请材料审查合格的基础上，根据需要组织现场核实、专家评审和检验、检测。对企业提交材料进行现场核实的，应当指派至少2名工作人员。"
+            },
+            {
+              "paragraph": 60,
+              "label": "",
+              "text": "第十条 国家铁路局组织专家评审的，应当书面通知企业做好相应配合。专家评审应当自通知之日起3个月内完成。参加评审的专家，不得与申请企业具有相关利害关系。"
+            },
+            {
+              "paragraph": 61,
+              "label": "",
+              "text": "第十一条 检验、检测应当委托符合国家规定条件的专业检验、检测机构按照铁路专用产品检验检测细则执行。"
+            },
+            {
+              "paragraph": 62,
+              "label": "",
+              "text": "产品功能、设计原理、制造工艺相同或者相近的同类产品可选择代表性产品进行检验检测。"
+            },
+            {
+              "paragraph": 63,
+              "label": "",
+              "text": "第十二条 申请审查合格的，应当依法向申请企业作出准予行政许可的书面决定；不合格的，依法作出不予许可的书面决定，说明理由并送达申请企业。"
+            },
+            {
+              "paragraph": 64,
+              "label": "",
+              "text": "第十三条 国家铁路局应当自受理申请之日起20个工作日内作出行政许可决定。20个工作日内不能作出决定的，经国家铁路局负责人批准，可以延长10个工作日，并将延长期限的理由告知申请企业。"
+            },
+            {
+              "paragraph": 65,
+              "label": "",
+              "text": "检验、检测和专家评审时间不计算在上述期限内，并将所需时间书面告知申请企业。"
+            },
+            {
+              "paragraph": 67,
+              "label": "",
+              "text": "第三章 证书管理"
+            },
+            {
+              "paragraph": 68,
+              "label": "",
+              "text": "第十四条 生产许可证采用统一格式，由国家铁路局统一印制。生产许可证注明生产许可证编号、企业名称、生产地址、设备名称和型号及适用范围、证书查询方式、有效期限、发证日期等内容。"
+            },
+            {
+              "paragraph": 69,
+              "label": "",
+              "text": "生产许可证编号为：TXTX####—*****。其中，第一个“TX”代表铁路许可标识；第二个“TX”代表许可类别标识，即通信设备；“####”代表产品类别，由4位阿拉伯数字组成；“*****”代表生产许可证编号，由5位阿拉伯数字组成，按发证先后顺序编排。"
+            },
+            {
+              "paragraph": 70,
+              "label": "",
+              "text": "第十五条 生产许可证有效期为5年。被许可企业需要延续已取得的生产许可证有效期的，应当在有效期届满60个工作日前向国家铁路局提出申请。"
+            },
+            {
+              "paragraph": 71,
+              "label": "",
+              "text": "被许可企业名称、生产地址名称发生变化，换发生产许可证时有效期不变。"
+            },
+            {
+              "paragraph": 72,
+              "label": "",
+              "text": "第十六条 被许可企业生产条件发生较大变化的（生产地址变化、生产线重大技术改造、外委加工企业变更等），应当向国家铁路局重新申请许可。"
+            },
+            {
+              "paragraph": 73,
+              "label": "",
+              "text": "第十七条 被许可企业名称、生产地址名称等发生变更的，应当向国家铁路局申请办理生产许可证变更手续。"
+            },
+            {
+              "paragraph": 74,
+              "label": "",
+              "text": "申请变更的企业应当提交的材料包括：国家铁路局行政许可申请书，变更事项说明，合法的批准文件及市场监督管理部门核发的新营业执照副本复印件。所提交的材料及复印件应加盖企业公章。"
+            },
+            {
+              "paragraph": 75,
+              "label": "",
+              "text": "第十八条 生产许可证在有效期内遗失或者损坏的，被许可企业应当向国家铁路局申请办理生产许可证补办手续。"
+            },
+            {
+              "paragraph": 76,
+              "label": "",
+              "text": "申请补办的企业应当提交的材料包括：国家铁路局行政许可申请书，补办说明，企业法人营业执照副本复印件。所提交的材料及复印件应加盖企业公章。"
+            },
+            {
+              "paragraph": 77,
+              "label": "",
+              "text": "补发的生产许可证有效期不变。"
+            },
+            {
+              "paragraph": 79,
+              "label": "",
+              "text": "第四章 监督管理"
+            },
+            {
+              "paragraph": 80,
+              "label": "",
+              "text": "第十九条 国家铁路局及地区铁路监督管理局应当依法对被许可企业开展监督检查；对产品质量不良的企业，应当加大监督检查力度。"
+            },
+            {
+              "paragraph": 81,
+              "label": "",
+              "text": "第二十条 被许可企业应当在每年11月完成产品质量保证体系运行情况和安全管理状况自查，12月15日前向地区铁路监督管理局提交自查报告。地区铁路监督管理局按年度核查企业提交的产品质量保证体系运行情况和安全管理状况自查报告，并汇总上报国家铁路局。核查的内容包括："
+            },
+            {
+              "paragraph": 82,
+              "label": "",
+              "text": "（一）企业申请取证条件的保持情况；"
+            },
+            {
+              "paragraph": 83,
+              "label": "",
+              "text": "（二）企业名称、住所、生产地址等变化情况；"
+            },
+            {
+              "paragraph": 84,
+              "label": "",
+              "text": "（三）企业生产状况及产品变化情况；"
+            },
+            {
+              "paragraph": 85,
+              "label": "",
+              "text": "（四）生产许可证使用情况；"
+            },
+            {
+              "paragraph": 86,
+              "label": "",
+              "text": "（五）产品质量监督抽查情况；"
+            },
+            {
+              "paragraph": 87,
+              "label": "",
+              "text": "（六）需要说明的其他相关情况。"
+            },
+            {
+              "paragraph": 88,
+              "label": "",
+              "text": "第二十一条 监督检查的主要内容包括："
+            },
+            {
+              "paragraph": 89,
+              "label": "",
+              "text": "（一）取得生产许可证应当具备条件的保持情况；"
+            },
+            {
+              "paragraph": 90,
+              "label": "",
+              "text": "（二）生产许可证使用情况；"
+            },
+            {
+              "paragraph": 91,
+              "label": "",
+              "text": "（三）必要时对相关产品质量进行检验、检测。"
+            },
+            {
+              "paragraph": 92,
+              "label": "",
+              "text": "国家铁路局及地区铁路监督管理局对监督检查不合格的企业作出整改决定并书面通知企业。企业应当按要求进行整改，并在60个工作日内提交整改报告、提出复查申请。"
+            },
+            {
+              "paragraph": 93,
+              "label": "",
+              "text": "对拒绝监督检查、监督检查不合格后拒不整改或者未按规定提交整改报告、提出复查申请的企业，视为监督检查复查不合格。"
+            },
+            {
+              "paragraph": 94,
+              "label": "",
+              "text": "第二十二条 申请企业隐瞒有关情况或者提供虚假材料申请行政许可的，国家铁路局不予受理或者不予行政许可，并给予警告，申请企业在1年内不得再次申请该行政许可。"
+            },
+            {
+              "paragraph": 95,
+              "label": "",
+              "text": "第二十三条 有下列情形之一的，国家铁路局根据利害关系人的请求或者依据职权，可以撤销行政许可："
+            },
+            {
+              "paragraph": 96,
+              "label": "",
+              "text": "（一）行政机关工作人员滥用职权、玩忽职守作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 97,
+              "label": "",
+              "text": "（二）超越法定职权作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 98,
+              "label": "",
+              "text": "（三）违反法定程序作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 99,
+              "label": "",
+              "text": "（四）对不具备申请资格或者不符合法定条件的申请企业准予行政许可的；"
+            },
+            {
+              "paragraph": 100,
+              "label": "",
+              "text": "（五）依法可以撤销行政许可的其他情形。"
+            },
+            {
+              "paragraph": 101,
+              "label": "",
+              "text": "被许可人以欺骗、贿赂等不正当手段取得行政许可的，应当予以撤销。申请人在3年内不得再次申请该行政许可。"
+            },
+            {
+              "paragraph": 102,
+              "label": "",
+              "text": "第二十四条 有下列情形之一的，国家铁路局应当依法办理有关行政许可的注销手续："
+            },
+            {
+              "paragraph": 103,
+              "label": "",
+              "text": "（一）行政许可有效期届满未延续的；"
+            },
+            {
+              "paragraph": 104,
+              "label": "",
+              "text": "（二）被许可企业依法终止的；"
+            },
+            {
+              "paragraph": 105,
+              "label": "",
+              "text": "（三）行政许可依法被撤销，或者行政许可证件依法被吊销的；"
+            },
+            {
+              "paragraph": 106,
+              "label": "",
+              "text": "（四）因不可抗力导致行政许可事项无法实施的；"
+            },
+            {
+              "paragraph": 107,
+              "label": "",
+              "text": "（五）法律、法规规定的应当注销行政许可的其他情形。"
+            },
+            {
+              "paragraph": 108,
+              "label": "",
+              "text": "国家铁路局依法注销并予以公布。"
+            },
+            {
+              "paragraph": 109,
+              "label": "",
+              "text": "第二十五条 行政许可工作人员应当严格依法履行行政许可受理、审查、监督检查及信息公开等职责。不依法履行职责的，对负有责任的领导人员和直接责任人员，依法给予处分。"
+            },
+            {
+              "paragraph": 110,
+              "label": "",
+              "text": "第五章 附则"
+            },
+            {
+              "paragraph": 111,
+              "label": "",
+              "text": "第二十六条 本细则由国家铁路局负责解释。"
+            },
+            {
+              "paragraph": 112,
+              "label": "",
+              "text": "第二十七条 本细则自2026年4月1日起施行。"
+            },
+            {
+              "paragraph": 116,
+              "label": "",
+              "text": "附件：1.铁路通信设备目录"
+            },
+            {
+              "paragraph": 117,
+              "label": "",
+              "text": "2.专业生产设备要求"
+            },
+            {
+              "paragraph": 118,
+              "label": "",
+              "text": "3.专业技术人员要求"
+            },
+            {
+              "paragraph": 119,
+              "label": "",
+              "text": "4.产品质量保证体系和安全管理制度要求"
+            },
+            {
+              "paragraph": 120,
+              "label": "",
+              "text": "5.国家铁路局行政许可申请书"
+            },
+            {
+              "paragraph": 121,
+              "label": "",
+              "text": "6.铁路通信设备生产企业审查表"
+            },
+            {
+              "paragraph": 122,
+              "label": "",
+              "text": "7.专业生产设备明细表"
+            },
+            {
+              "paragraph": 123,
+              "label": "",
+              "text": "8.专业技术人员明细表"
+            },
+            {
+              "paragraph": 126,
+              "label": "",
+              "text": "附件1"
+            },
+            {
+              "paragraph": 128,
+              "label": "",
+              "text": "铁路通信设备目录"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0035-T02",
+          "rows": 89,
+          "columns": 5,
+          "before": [
+            {
+              "paragraph": 181,
+              "label": "",
+              "text": "附件2"
+            },
+            {
+              "paragraph": 183,
+              "label": "",
+              "text": "专业生产设备要求"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0035-T03",
+          "rows": 88,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 615,
+              "label": "",
+              "text": "附件3"
+            },
+            {
+              "paragraph": 616,
+              "label": "",
+              "text": "专业技术人员要求"
+            },
+            {
+              "paragraph": 618,
+              "label": "",
+              "text": "专业技术人员应当是符合法律规定的适龄的注册在职人员。其中中级技术人员是指具有中级技术职称或大学本科毕业工作满5年、大专毕业工作满7年以及取得初级职称工作满4年的技术人员，高级技术人员是指具有高级技术职称或博士研究生毕业工作满2年、硕士研究生毕业工作满5年、大学本科毕业工作满10年以及取得中级职称工作满5年的技术人员。"
+            },
+            {
+              "paragraph": 619,
+              "label": "",
+              "text": "企业具有从事拟生产设备的专业技术人员。专业技术人员中通信、计算机、自动控制及相关专业的技术人员占该生产活动总人数的30%以上；其中中级及以上技术人员占该产品技术人员的比例不低于15%，高级技术人员占该产品技术人员的比例不低于3%。"
+            },
+            {
+              "paragraph": 622,
+              "label": "",
+              "text": "附件4"
+            },
+            {
+              "paragraph": 624,
+              "label": "",
+              "text": "产品质量保证体系和安全管理制度要求"
+            },
+            {
+              "paragraph": 626,
+              "label": "",
+              "text": "生产企业应当建立完善的产品质量保证体系和安全管理制度。生产企业的产品质量保证体系和安全管理制度应当达到《产品质量保证体系和安全管理制度项目及审查表》的要求。"
+            },
+            {
+              "paragraph": 627,
+              "label": "",
+              "text": "审查说明："
+            },
+            {
+              "paragraph": 628,
+              "label": "",
+              "text": "1.对产品质量保证体系和安全管理制度进行现场审查时，有关生产线或生产设备无正当理由应当正常运行，否则将判定产品质量保证体系和安全管理制度不完善。"
+            },
+            {
+              "paragraph": 629,
+              "label": "",
+              "text": "2. 本表中标注▲的内容为审查的关键项。"
+            },
+            {
+              "paragraph": 630,
+              "label": "",
+              "text": "3．本审查表按质量管理、生产资源、技术文件、采购控制、过程控制、质量检验、安全文明生产等七个部分进行审查，七个部分中的每一个审查内容按合格、一般不合格、严重不合格进行评价。严重不合格是指造成区域性、系统性、后果严重的不合格，一般不合格是指个别的、偶然的、孤立的不合格。"
+            },
+            {
+              "paragraph": 631,
+              "label": "",
+              "text": "4．关键项不能出现严重不合格，关键项一般不合格不能超过2个；普通项严重不合格不能超过2个，普通项一般不合格不能超过10个；总的不合格项不能超过10个。满足前述要求，判定合格，否则判为不合格。"
+            },
+            {
+              "paragraph": 633,
+              "label": "",
+              "text": "产品质量保证体系和安全管理制度项目及审查表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0035-T04",
+          "rows": 15,
+          "columns": 7,
+          "before": [
+            {
+              "paragraph": 1344,
+              "label": "",
+              "text": "附件5"
+            },
+            {
+              "paragraph": 1346,
+              "label": "",
+              "text": "国家铁路局行政许可申请书"
+            }
+          ],
+          "following_notes": [
+            {
+              "paragraph": 1403,
+              "label": "",
+              "text": "注：以下内容由受理机构填写"
+            }
+          ],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0035-T05",
+          "rows": 7,
+          "columns": 3,
+          "before": [
+            {
+              "paragraph": 1403,
+              "label": "",
+              "text": "注：以下内容由受理机构填写"
+            },
+            {
+              "paragraph": 1404,
+              "label": "",
+              "text": "签收人：                                签收日期："
+            },
+            {
+              "paragraph": 1406,
+              "label": "",
+              "text": "附件6"
+            },
+            {
+              "paragraph": 1408,
+              "label": "",
+              "text": "铁路通信设备生产企业审查表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0035-T06",
+          "rows": 3,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1432,
+              "label": "",
+              "text": "附件7"
+            },
+            {
+              "paragraph": 1433,
+              "label": "",
+              "text": "专业生产设备明细表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0035-T07",
+          "rows": 4,
+          "columns": 12,
+          "before": [
+            {
+              "paragraph": 1462,
+              "label": "",
+              "text": "附件8"
+            },
+            {
+              "paragraph": 1464,
+              "label": "",
+              "text": "专业技术人员明细表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0035-T08",
+          "rows": 5,
+          "columns": 5,
+          "before": [],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0028",
+      "source_id": "S0036",
+      "master_path": "03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "master_sha256": "773811c5e72919d55d7d63193ad68afbb52e8744fecb41dcd52eaf3b09afee8b",
+      "knowledge_points": 38,
+      "table_count": 11,
+      "native_cells": 2446,
+      "over_900": [
+        {
+          "knowledge_point_id": "DOC0028-K029",
+          "kind": "source_table",
+          "native_table_id": "S0036-T02",
+          "characters": 19467,
+          "embedding_tokens_with_special_tokens": 17935,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K030",
+          "kind": "source_table",
+          "native_table_id": "S0036-T03",
+          "characters": 1538,
+          "embedding_tokens_with_special_tokens": 1320,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K031",
+          "kind": "source_table",
+          "native_table_id": "S0036-T04",
+          "characters": 1243,
+          "embedding_tokens_with_special_tokens": 1101,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K032",
+          "kind": "source_table",
+          "native_table_id": "S0036-T05",
+          "characters": 1399,
+          "embedding_tokens_with_special_tokens": 1259,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K033",
+          "kind": "source_table",
+          "native_table_id": "S0036-T06",
+          "characters": 1317,
+          "embedding_tokens_with_special_tokens": 1170,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K034",
+          "kind": "source_table",
+          "native_table_id": "S0036-T07",
+          "characters": 15567,
+          "embedding_tokens_with_special_tokens": 13638,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K035",
+          "kind": "source_table",
+          "native_table_id": "S0036-T08",
+          "characters": 1604,
+          "embedding_tokens_with_special_tokens": 1507,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "over_embedding_limit": [
+        {
+          "knowledge_point_id": "DOC0028-K029",
+          "kind": "source_table",
+          "native_table_id": "S0036-T02",
+          "characters": 19467,
+          "embedding_tokens_with_special_tokens": 17935,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K034",
+          "kind": "source_table",
+          "native_table_id": "S0036-T07",
+          "characters": 15567,
+          "embedding_tokens_with_special_tokens": 13638,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "unidentified_merge_origins": 0,
+      "annex_list_contamination": [],
+      "maximum_embedding_tokens": 17935,
+      "points": [
+        {
+          "knowledge_point_id": "DOC0028-K001",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 97,
+          "embedding_tokens_with_special_tokens": 54,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K002",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 25,
+          "embedding_tokens_with_special_tokens": 21,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K003",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 103,
+          "embedding_tokens_with_special_tokens": 57,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K004",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 143,
+          "embedding_tokens_with_special_tokens": 83,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K005",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 344,
+          "embedding_tokens_with_special_tokens": 214,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K006",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 127,
+          "embedding_tokens_with_special_tokens": 82,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K007",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 76,
+          "embedding_tokens_with_special_tokens": 60,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K008",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 243,
+          "embedding_tokens_with_special_tokens": 156,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K009",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 73,
+          "embedding_tokens_with_special_tokens": 46,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K010",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 75,
+          "embedding_tokens_with_special_tokens": 48,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K011",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 91,
+          "embedding_tokens_with_special_tokens": 56,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K012",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 67,
+          "embedding_tokens_with_special_tokens": 46,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K013",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 129,
+          "embedding_tokens_with_special_tokens": 74,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K014",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 173,
+          "embedding_tokens_with_special_tokens": 115,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K015",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 101,
+          "embedding_tokens_with_special_tokens": 66,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K016",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 58,
+          "embedding_tokens_with_special_tokens": 37,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K017",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 135,
+          "embedding_tokens_with_special_tokens": 88,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K018",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 135,
+          "embedding_tokens_with_special_tokens": 93,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K019",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 59,
+          "embedding_tokens_with_special_tokens": 35,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K020",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 236,
+          "embedding_tokens_with_special_tokens": 141,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K021",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 214,
+          "embedding_tokens_with_special_tokens": 124,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K022",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 76,
+          "embedding_tokens_with_special_tokens": 50,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K023",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 234,
+          "embedding_tokens_with_special_tokens": 154,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K024",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 171,
+          "embedding_tokens_with_special_tokens": 111,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K025",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 79,
+          "embedding_tokens_with_special_tokens": 50,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K026",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 20,
+          "embedding_tokens_with_special_tokens": 15,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K027",
+          "kind": "article",
+          "native_table_id": null,
+          "characters": 23,
+          "embedding_tokens_with_special_tokens": 18,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K028",
+          "kind": "source_table",
+          "native_table_id": "S0036-T01",
+          "characters": 1235,
+          "embedding_tokens_with_special_tokens": 817,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K029",
+          "kind": "source_table",
+          "native_table_id": "S0036-T02",
+          "characters": 19467,
+          "embedding_tokens_with_special_tokens": 17935,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K030",
+          "kind": "source_table",
+          "native_table_id": "S0036-T03",
+          "characters": 1538,
+          "embedding_tokens_with_special_tokens": 1320,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K031",
+          "kind": "source_table",
+          "native_table_id": "S0036-T04",
+          "characters": 1243,
+          "embedding_tokens_with_special_tokens": 1101,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K032",
+          "kind": "source_table",
+          "native_table_id": "S0036-T05",
+          "characters": 1399,
+          "embedding_tokens_with_special_tokens": 1259,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K033",
+          "kind": "source_table",
+          "native_table_id": "S0036-T06",
+          "characters": 1317,
+          "embedding_tokens_with_special_tokens": 1170,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K034",
+          "kind": "source_table",
+          "native_table_id": "S0036-T07",
+          "characters": 15567,
+          "embedding_tokens_with_special_tokens": 13638,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K035",
+          "kind": "source_table",
+          "native_table_id": "S0036-T08",
+          "characters": 1604,
+          "embedding_tokens_with_special_tokens": 1507,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K036",
+          "kind": "source_table",
+          "native_table_id": "S0036-T09",
+          "characters": 463,
+          "embedding_tokens_with_special_tokens": 387,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K037",
+          "kind": "source_table",
+          "native_table_id": "S0036-T10",
+          "characters": 656,
+          "embedding_tokens_with_special_tokens": 590,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        },
+        {
+          "knowledge_point_id": "DOC0028-K038",
+          "kind": "source_table",
+          "native_table_id": "S0036-T11",
+          "characters": 814,
+          "embedding_tokens_with_special_tokens": 737,
+          "unidentified_merge_origins": 0,
+          "article_contains_annex_list": false
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "S0036-T01",
+          "rows": 6,
+          "columns": 4,
+          "before": [
+            {
+              "paragraph": 1,
+              "label": "",
+              "text": "国家铁路局关于印发"
+            },
+            {
+              "paragraph": 2,
+              "label": "",
+              "text": "《铁路牵引供电设备生产企业审批实施细则》的通知"
+            },
+            {
+              "paragraph": 3,
+              "label": "",
+              "text": "（国铁设备监规〔2026〕7 号）"
+            },
+            {
+              "paragraph": 5,
+              "label": "",
+              "text": "各地区铁路监管局,北京铁路督察室:"
+            },
+            {
+              "paragraph": 6,
+              "label": "",
+              "text": "现将《铁路牵引供电设备生产企业审批实施细则》印发给你们，请贯彻执行。"
+            },
+            {
+              "paragraph": 9,
+              "label": "",
+              "text": "国家铁路局"
+            },
+            {
+              "paragraph": 10,
+              "label": "",
+              "text": "2026年2月28日"
+            },
+            {
+              "paragraph": 13,
+              "label": "",
+              "text": "（此件公开发布）"
+            },
+            {
+              "paragraph": 27,
+              "label": "",
+              "text": "铁路牵引供电设备生产企业审批实施细则"
+            },
+            {
+              "paragraph": 29,
+              "label": "",
+              "text": "第一章 总则"
+            },
+            {
+              "paragraph": 30,
+              "label": "",
+              "text": "第一条 为规范铁路牵引供电设备生产企业审批，维护公共利益和社会秩序，依据《中华人民共和国行政许可法》《铁路安全管理条例》《铁路运输基础设备生产企业审批办法》等法律法规和国家有关规定，制定本细则。"
+            },
+            {
+              "paragraph": 31,
+              "label": "",
+              "text": "第二条 本细则所称铁路牵引供电设备目录详见附件1。"
+            },
+            {
+              "paragraph": 32,
+              "label": "",
+              "text": "第三条 在中华人民共和国境内生产铁路牵引供电设备的企业，应当向国家铁路局提出申请，经审查合格取得“铁路运输基础设备生产企业许可证”（以下简称“生产许可证”）。"
+            },
+            {
+              "paragraph": 33,
+              "label": "",
+              "text": "取得生产许可证的企业名录，由国家铁路局公布。"
+            },
+            {
+              "paragraph": 34,
+              "label": "",
+              "text": "第二章 条件与程序"
+            },
+            {
+              "paragraph": 35,
+              "label": "",
+              "text": "第四条 申请企业应当符合下列条件："
+            },
+            {
+              "paragraph": 36,
+              "label": "",
+              "text": "（一）有按照国家标准、行业标准检测、检验合格的专业生产设备（具体要求详见附件2）；"
+            },
+            {
+              "paragraph": 37,
+              "label": "",
+              "text": "（二）有相应的专业技术人员（具体要求详见附件3）；"
+            },
+            {
+              "paragraph": 38,
+              "label": "",
+              "text": "（三）有完善的产品质量保证体系和安全管理制度（具体要求详见附件4）；"
+            },
+            {
+              "paragraph": 39,
+              "label": "",
+              "text": "（四）法律、行政法规规定的其他条件。"
+            },
+            {
+              "paragraph": 40,
+              "label": "",
+              "text": "第五条 申请企业应当提交下列材料："
+            },
+            {
+              "paragraph": 41,
+              "label": "",
+              "text": "（一）行政许可申请书（附件5），一式两份，装订一份；"
+            },
+            {
+              "paragraph": 42,
+              "label": "",
+              "text": "（二）企业法人营业执照副本复印件，一式两份，装订一份；"
+            },
+            {
+              "paragraph": 43,
+              "label": "",
+              "text": "（三）铁路牵引供电设备生产企业审查表(附件６)；"
+            },
+            {
+              "paragraph": 44,
+              "label": "",
+              "text": "（四）专业生产设备明细表（附件7）；"
+            },
+            {
+              "paragraph": 45,
+              "label": "",
+              "text": "（五）专业技术人员明细表（附件8）；"
+            },
+            {
+              "paragraph": 46,
+              "label": "",
+              "text": "（六）证明产品质量保证体系有效运转、产品运用质量符合安全要求、产品质量符合标准要求的相关材料；"
+            },
+            {
+              "paragraph": 47,
+              "label": "（七）",
+              "text": "安全管理制度目录、拟生产的产品目录、设计图纸目录、工艺文件目录，所依据的国家标准、行业标准、企业标准目录；"
+            },
+            {
+              "paragraph": 48,
+              "label": "（八）",
+              "text": "新研发产品试用考核材料；"
+            },
+            {
+              "paragraph": 49,
+              "label": "",
+              "text": "（九）新研发产品技术评审（鉴定）证书或者审查意见；"
+            },
+            {
+              "paragraph": 50,
+              "label": "",
+              "text": "（十）企业简介（含企业资产、股份构成及比例、资质情况、生产经营基本状况、产品主要运用业绩等内容）。"
+            },
+            {
+              "paragraph": 51,
+              "label": "",
+              "text": "第六条 申请延续许可或者因生产条件发生较大变化重新申请许可的企业，应当提交本细则第五条除（八）、（九）外的材料，并提供近5年产品主要运用情况（含因产品质量造成责任事故的整改情况）、许可条件变化情况（含人员、设备等变化内容并明确说明是否持续满足许可条件）。"
+            },
+            {
+              "paragraph": 52,
+              "label": "",
+              "text": "第七条 申请企业提交的材料（A4纸规格）应当按第五条、第六条规定的顺序统一标注页码，无线胶订成册，加盖骑缝章，并附电子版。相关说明材料应当加盖企业公章。"
+            },
+            {
+              "paragraph": 53,
+              "label": "",
+              "text": "第八条 国家铁路局对提交的申请材料，应当根据下列情况分别作出处理："
+            },
+            {
+              "paragraph": 54,
+              "label": "",
+              "text": "（一）申请材料存在可以当场更正错误的，应当允许申请人当场更正；"
+            },
+            {
+              "paragraph": 55,
+              "label": "",
+              "text": "（二）申请材料不齐全或者不符合法定形式的，应当当场或者在5个工作日内一次告知申请人需要补正的全部内容，逾期不告知的，自收到申请材料之日起即为受理；"
+            },
+            {
+              "paragraph": 56,
+              "label": "",
+              "text": "（三）申请材料齐全、符合法定形式，或者申请企业按要求提交全部补正申请材料的，应当受理行政许可申请。"
+            },
+            {
+              "paragraph": 57,
+              "label": "",
+              "text": "国家铁路局受理或者不予受理行政许可申请，应当出具加盖国家铁路局行政许可专用章和注明日期的书面凭证。"
+            },
+            {
+              "paragraph": 58,
+              "label": "",
+              "text": "第九条 国家铁路局在申请材料审查合格的基础上，根据需要组织现场核实、专家评审和检验、检测。对企业提交材料进行现场核实的，应当指派至少2名工作人员。"
+            },
+            {
+              "paragraph": 59,
+              "label": "",
+              "text": "第十条 国家铁路局组织专家评审的，应当书面通知企业做好相应配合。专家评审应当自通知之日起3个月内完成。参加评审的专家，不得与申请企业具有相关利害关系。"
+            },
+            {
+              "paragraph": 60,
+              "label": "",
+              "text": "第十一条 检验、检测应当委托符合国家规定条件的专业检验、检测机构按照铁路专用产品检验检测细则执行。"
+            },
+            {
+              "paragraph": 61,
+              "label": "",
+              "text": "产品功能、设计原理、制造工艺相同或者相近的同类产品可选择代表性产品进行检验检测。"
+            },
+            {
+              "paragraph": 62,
+              "label": "",
+              "text": "第十二条 申请审查合格的，应当依法向申请企业作出准予行政许可的书面决定；不合格的，依法作出不予许可的书面决定，说明理由并送达申请企业。"
+            },
+            {
+              "paragraph": 63,
+              "label": "",
+              "text": "第十三条 国家铁路局应当自受理申请之日起20个工作日内作出行政许可决定。20个工作日内不能作出决定的，经国家铁路局负责人批准，可以延长10个工作日，并将延长期限的理由告知申请企业。"
+            },
+            {
+              "paragraph": 64,
+              "label": "",
+              "text": "检验、检测和专家评审时间不计算在上述期限内，并将所需时间书面告知申请企业。"
+            },
+            {
+              "paragraph": 66,
+              "label": "",
+              "text": "第三章 证书管理"
+            },
+            {
+              "paragraph": 67,
+              "label": "",
+              "text": "第十四条 生产许可证采用统一格式，由国家铁路局统一印制。生产许可证注明生产许可证编号、企业名称、生产地址、设备名称和型号及适用范围、证书查询方式、有效期限、发证日期等内容。"
+            },
+            {
+              "paragraph": 68,
+              "label": "",
+              "text": "生产许可证编号为：TXGD—*****。其中，“TX”代表铁路许可标识；“GD”代表许可类别标识，即牵引供电设备；“*****”代表生产许可证编号，由5位阿拉伯数字组成。"
+            },
+            {
+              "paragraph": 69,
+              "label": "",
+              "text": "第十五条 生产许可证有效期为5年。被许可企业需要延续已取得的生产许可证有效期的，应当在有效期届满60个工作日前向国家铁路局提出申请。"
+            },
+            {
+              "paragraph": 70,
+              "label": "",
+              "text": "被许可企业名称、生产地址名称发生变化，换发生产许可证时有效期不变。"
+            },
+            {
+              "paragraph": 71,
+              "label": "",
+              "text": "第十六条 被许可企业生产条件发生较大变化的（包括生产地址变化、生产线重大技术改造等），应当向国家铁路局重新申请许可。"
+            },
+            {
+              "paragraph": 72,
+              "label": "",
+              "text": "第十七条 被许可企业名称、生产地址名称等发生变更的，应当向国家铁路局申请办理生产许可证变更手续。"
+            },
+            {
+              "paragraph": 73,
+              "label": "",
+              "text": "申请变更的企业应当提交的材料包括：国家铁路局行政许可申请书，变更事项说明，合法的批准文件及市场监督管理部门核发的新营业执照副本复印件。所提交的材料及复印件应加盖企业公章。"
+            },
+            {
+              "paragraph": 74,
+              "label": "",
+              "text": "第十八条 生产许可证在有效期内遗失或者损坏的，被许可企业应当向国家铁路局申请办理生产许可证补办手续。"
+            },
+            {
+              "paragraph": 75,
+              "label": "",
+              "text": "申请补办的企业应当提交的材料包括：国家铁路局行政许可申请书，补办说明，企业法人营业执照副本复印件。所提交的材料及复印件应加盖企业公章。"
+            },
+            {
+              "paragraph": 76,
+              "label": "",
+              "text": "补发的生产许可证有效期不变。"
+            },
+            {
+              "paragraph": 78,
+              "label": "",
+              "text": "第四章 监督管理"
+            },
+            {
+              "paragraph": 79,
+              "label": "",
+              "text": "第十九条 国家铁路局及地区铁路监督管理局应当依法对被许可企业开展监督检查；对产品质量不良的企业，应当加大监督检查力度。"
+            },
+            {
+              "paragraph": 80,
+              "label": "",
+              "text": "第二十条 被许可企业应在每年11月完成产品质量保证体系运行情况和安全管理状况自查，12月15日前向地区铁路监督管理局提交自查报告。地区铁路监督管理局按年度核查企业提交的产品质量保证体系运行情况和安全管理状况自查报告，并汇总上报国家铁路局。核查的内容包括："
+            },
+            {
+              "paragraph": 81,
+              "label": "",
+              "text": "（一）企业申请取证条件的保持情况；"
+            },
+            {
+              "paragraph": 82,
+              "label": "",
+              "text": "（二）企业名称、住所、生产地址等变化情况；"
+            },
+            {
+              "paragraph": 83,
+              "label": "",
+              "text": "（三）企业生产状况及产品变化情况；"
+            },
+            {
+              "paragraph": 84,
+              "label": "",
+              "text": "（四）生产许可证使用情况；"
+            },
+            {
+              "paragraph": 85,
+              "label": "",
+              "text": "（五）产品质量监督抽查情况；"
+            },
+            {
+              "paragraph": 86,
+              "label": "",
+              "text": "（六）需要说明的其他相关情况。"
+            },
+            {
+              "paragraph": 87,
+              "label": "",
+              "text": "第二十一条 监督检查的主要内容包括："
+            },
+            {
+              "paragraph": 88,
+              "label": "",
+              "text": "（一）取得生产许可证应当具备条件的保持情况；"
+            },
+            {
+              "paragraph": 89,
+              "label": "",
+              "text": "（二）生产许可证使用情况；"
+            },
+            {
+              "paragraph": 90,
+              "label": "",
+              "text": "（三）必要时对相关产品质量进行检验、检测。"
+            },
+            {
+              "paragraph": 91,
+              "label": "",
+              "text": "国家铁路局及地区铁路监督管理局对监督检查不合格的企业作出整改决定并书面通知企业。企业应当按要求进行整改，并在60个工作日内提交整改报告、提出复查申请。"
+            },
+            {
+              "paragraph": 92,
+              "label": "",
+              "text": "对拒绝监督检查、监督检查不合格后拒不整改或者未按规定提交整改报告、提出复查申请的企业，视为监督检查复查不合格。"
+            },
+            {
+              "paragraph": 93,
+              "label": "",
+              "text": "第二十二条 申请企业隐瞒有关情况或者提供虚假材料申请行政许可的，国家铁路局不予受理或者不予行政许可，并给予警告，申请企业在1年内不得再次申请该行政许可。"
+            },
+            {
+              "paragraph": 94,
+              "label": "",
+              "text": "第二十三条 有下列情形之一的，国家铁路局根据利害关系人的请求或者依据职权，可以撤销行政许可："
+            },
+            {
+              "paragraph": 95,
+              "label": "",
+              "text": "（一）行政机关工作人员滥用职权、玩忽职守作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 96,
+              "label": "",
+              "text": "（二）超越法定职权作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 97,
+              "label": "",
+              "text": "（三）违反法定程序作出准予行政许可决定的；"
+            },
+            {
+              "paragraph": 98,
+              "label": "",
+              "text": "（四）对不具备申请资格或者不符合法定条件的申请企业准予行政许可的；"
+            },
+            {
+              "paragraph": 99,
+              "label": "",
+              "text": "（五）依法可以撤销行政许可的其他情形。"
+            },
+            {
+              "paragraph": 100,
+              "label": "",
+              "text": "被许可人以欺骗、贿赂等不正当手段取得行政许可的，应当予以撤销。申请人在3年内不得再次申请该行政许可。"
+            },
+            {
+              "paragraph": 101,
+              "label": "",
+              "text": "第二十四条 有下列情形之一的，国家铁路局应当依法办理有关行政许可的注销手续："
+            },
+            {
+              "paragraph": 102,
+              "label": "",
+              "text": "（一）行政许可有效期届满未延续的；"
+            },
+            {
+              "paragraph": 103,
+              "label": "",
+              "text": "（二）被许可企业依法终止的；"
+            },
+            {
+              "paragraph": 104,
+              "label": "",
+              "text": "（三）行政许可依法被撤销，或者行政许可证件依法被吊销的；"
+            },
+            {
+              "paragraph": 105,
+              "label": "",
+              "text": "（四）因不可抗力导致行政许可事项无法实施的；"
+            },
+            {
+              "paragraph": 106,
+              "label": "",
+              "text": "（五）法律、法规规定的应当注销行政许可的其他情形。"
+            },
+            {
+              "paragraph": 107,
+              "label": "",
+              "text": "国家铁路局依法注销并予以公布。"
+            },
+            {
+              "paragraph": 108,
+              "label": "",
+              "text": "第二十五条 行政许可工作人员应当严格依法履行行政许可受理、审查、监督检查及信息公开等职责。不依法履行职责的，对负有责任的领导人员和直接责任人员，依法给予处分。"
+            },
+            {
+              "paragraph": 109,
+              "label": "",
+              "text": "第五章 附则"
+            },
+            {
+              "paragraph": 110,
+              "label": "",
+              "text": "第二十六条 本细则由国家铁路局负责解释。"
+            },
+            {
+              "paragraph": 111,
+              "label": "",
+              "text": "第二十七条 本细则自2026年4月1日起施行。"
+            },
+            {
+              "paragraph": 113,
+              "label": "",
+              "text": "附件：1.铁路牵引供电设备目录"
+            },
+            {
+              "paragraph": 114,
+              "label": "",
+              "text": "2.专业生产设备要求"
+            },
+            {
+              "paragraph": 115,
+              "label": "",
+              "text": "3.专业技术人员要求"
+            },
+            {
+              "paragraph": 116,
+              "label": "",
+              "text": "4.产品质量保证体系和安全管理制度要求"
+            },
+            {
+              "paragraph": 117,
+              "label": "",
+              "text": "5.国家铁路局行政许可申请书"
+            },
+            {
+              "paragraph": 118,
+              "label": "",
+              "text": "6.铁路牵引供电设备生产企业审查表"
+            },
+            {
+              "paragraph": 119,
+              "label": "",
+              "text": "7.专业生产设备明细表"
+            },
+            {
+              "paragraph": 120,
+              "label": "",
+              "text": "8.专业技术人员明细表"
+            },
+            {
+              "paragraph": 122,
+              "label": "",
+              "text": "附件1"
+            },
+            {
+              "paragraph": 124,
+              "label": "",
+              "text": "铁路牵引供电设备目录"
+            }
+          ],
+          "following_notes": [
+            {
+              "paragraph": 163,
+              "label": "",
+              "text": "备注：标准更新时，按最新标准执行。"
+            }
+          ],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0036-T02",
+          "rows": 161,
+          "columns": 9,
+          "before": [
+            {
+              "paragraph": 163,
+              "label": "",
+              "text": "备注：标准更新时，按最新标准执行。"
+            },
+            {
+              "paragraph": 165,
+              "label": "",
+              "text": "附件2"
+            },
+            {
+              "paragraph": 166,
+              "label": "",
+              "text": "专业生产设备要求"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0036-T03",
+          "rows": 15,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1349,
+              "label": "",
+              "text": "附件3"
+            },
+            {
+              "paragraph": 1350,
+              "label": "",
+              "text": "专业技术人员要求"
+            },
+            {
+              "paragraph": 1352,
+              "label": "",
+              "text": "专业技术人员应当是符合法律规定的适龄的注册在职人员。其中中级技术人员是指具有中级技术职称或大学本科毕业工作满5年、大专毕业工作满7年以及取得初级职称工作满4年的技术人员，高级技术人员是指具有高级技术职称或博士研究生毕业工作满2年、硕士研究生毕业工作满5年、大学本科毕业工作满10年以及取得中级职称工作满5年的技术人员。"
+            },
+            {
+              "paragraph": 1353,
+              "label": "",
+              "text": "1．电气化铁路接触网零部件"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0036-T04",
+          "rows": 12,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1474,
+              "label": "",
+              "text": "2．电气化铁路用铜合金接触线"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0036-T05",
+          "rows": 12,
+          "columns": 9,
+          "before": [
+            {
+              "paragraph": 1571,
+              "label": "",
+              "text": "3. 电气化铁路用铜合金承力索"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0036-T06",
+          "rows": 13,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1668,
+              "label": "",
+              "text": "4．电气化铁路接触网用绝缘子"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0036-T07",
+          "rows": 90,
+          "columns": 8,
+          "before": [
+            {
+              "paragraph": 1774,
+              "label": "",
+              "text": "附件4"
+            },
+            {
+              "paragraph": 1776,
+              "label": "",
+              "text": "产品质量保证体系和安全管理制度要求"
+            },
+            {
+              "paragraph": 1778,
+              "label": "",
+              "text": "生产企业应当建立完善的产品质量保证体系和安全管理制度。生产企业的产品质量保证体系和安全管理制度应当达到《产品质量保证体系和安全管理制度项目及审查表》的要求。"
+            },
+            {
+              "paragraph": 1779,
+              "label": "",
+              "text": "审查说明："
+            },
+            {
+              "paragraph": 1780,
+              "label": "",
+              "text": "1.对产品质量保证体系和安全管理制度进行现场审查时，有关生产线或生产设备无正当理由应当正常运行，否则将判定产品质量保证体系和安全管理制度不完善。"
+            },
+            {
+              "paragraph": 1781,
+              "label": "",
+              "text": "2. 本表中标注▲的内容为审查的关键项。"
+            },
+            {
+              "paragraph": 1782,
+              "label": "",
+              "text": "3．本审查表按质量管理、生产资源、技术文件、采购控制、过程控制、质量检验、安全文明生产等七个部分进行审查，七个部分中的每一个审查内容按合格、一般不合格、严重不合格进行评价。严重不合格是指造成区域性、系统性、后果严重的不合格，一般不合格是指个别的、偶然的、孤立的不合格。"
+            },
+            {
+              "paragraph": 1783,
+              "label": "",
+              "text": "4．关键项不能出现严重不合格，关键项一般不合格不能超过2个；普通项严重不合格不能超过2个，普通项一般不合格不能超过10个；总的不合格项不能超过10个。满足前述要求，判定合格，否则判为不合格。"
+            },
+            {
+              "paragraph": 1785,
+              "label": "",
+              "text": "产品质量保证体系和安全管理制度项目及审查表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0036-T08",
+          "rows": 15,
+          "columns": 7,
+          "before": [
+            {
+              "paragraph": 2523,
+              "label": "",
+              "text": "附件5"
+            },
+            {
+              "paragraph": 2525,
+              "label": "",
+              "text": "国家铁路局行政许可申请书"
+            }
+          ],
+          "following_notes": [
+            {
+              "paragraph": 2582,
+              "label": "",
+              "text": "注：以下内容由受理机构填写"
+            }
+          ],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0036-T09",
+          "rows": 7,
+          "columns": 3,
+          "before": [
+            {
+              "paragraph": 2582,
+              "label": "",
+              "text": "注：以下内容由受理机构填写"
+            },
+            {
+              "paragraph": 2583,
+              "label": "",
+              "text": "签收人：                                签收日期："
+            },
+            {
+              "paragraph": 2585,
+              "label": "",
+              "text": "附件6"
+            },
+            {
+              "paragraph": 2587,
+              "label": "",
+              "text": "铁路牵引供电设备生产企业审查表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0036-T10",
+          "rows": 3,
+          "columns": 9,
+          "before": [
+            {
+              "paragraph": 2611,
+              "label": "",
+              "text": "附件7"
+            },
+            {
+              "paragraph": 2612,
+              "label": "",
+              "text": "专业生产设备明细表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        },
+        {
+          "table_id": "S0036-T11",
+          "rows": 3,
+          "columns": 12,
+          "before": [
+            {
+              "paragraph": 2645,
+              "label": "",
+              "text": "附件8"
+            },
+            {
+              "paragraph": 2647,
+              "label": "",
+              "text": "专业技术人员明细表"
+            }
+          ],
+          "following_notes": [],
+          "unresolved_source_origins": []
+        }
+      ]
+    }
+  ]
+}

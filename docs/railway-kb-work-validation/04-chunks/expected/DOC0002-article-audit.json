@@ -1,0 +1,267 @@
+{
+  "doc_id": "DOC0002",
+  "source_id": "S0002",
+  "source_path": "01-originals/baseline/02_real-name-tickets.md",
+  "output_path": "03-domains/YS/DOC0002_铁路旅客车票实名制管理办法.md",
+  "expected_article_count": 32,
+  "extracted_article_count": 32,
+  "output_sha256": "93faf024b94cc8eb60784de276b280413bee5f1ba226dcd38e3bfc923030b9ab",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "e9d48e91953f03d5163c28b4767214b4dc187d952fe151e33a6596404987ddea",
+      "output_sha256": "e9d48e91953f03d5163c28b4767214b4dc187d952fe151e33a6596404987ddea",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "5c43efc37bfb664b35d01ae078aa3e1618f272096b99ebdc6ab6028735dd666a",
+      "output_sha256": "5c43efc37bfb664b35d01ae078aa3e1618f272096b99ebdc6ab6028735dd666a",
+      "source_characters": 42,
+      "output_characters": 42
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "b09c76d6d3341e70c6809f6e6046984de29071713fc26f1a58417d2ca1947301",
+      "output_sha256": "b09c76d6d3341e70c6809f6e6046984de29071713fc26f1a58417d2ca1947301",
+      "source_characters": 163,
+      "output_characters": 163
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "f11c87709576f461b802d8fd59be85d9bb2f3ec036852917a0f475bea07cf989",
+      "output_sha256": "f11c87709576f461b802d8fd59be85d9bb2f3ec036852917a0f475bea07cf989",
+      "source_characters": 87,
+      "output_characters": 87
+    },
+    {
+      "article": "第五条",
+      "chapter": "第二章 基本要求",
+      "source_sha256": "9f406cb478823ea5787046ab57810e72a26b0b384622d3418ea1f296e52cf663",
+      "output_sha256": "9f406cb478823ea5787046ab57810e72a26b0b384622d3418ea1f296e52cf663",
+      "source_characters": 97,
+      "output_characters": 97
+    },
+    {
+      "article": "第六条",
+      "chapter": "第二章 基本要求",
+      "source_sha256": "b271d2196521a5c83a192cfc8ba42cddd7e7465baca97abc5db1ae49a083f37e",
+      "output_sha256": "b271d2196521a5c83a192cfc8ba42cddd7e7465baca97abc5db1ae49a083f37e",
+      "source_characters": 61,
+      "output_characters": 61
+    },
+    {
+      "article": "第七条",
+      "chapter": "第二章 基本要求",
+      "source_sha256": "0ad304e7c9d532dffe6641445b1a667fa1786909bf48309b44e47ff51427189a",
+      "output_sha256": "0ad304e7c9d532dffe6641445b1a667fa1786909bf48309b44e47ff51427189a",
+      "source_characters": 121,
+      "output_characters": 121
+    },
+    {
+      "article": "第八条",
+      "chapter": "第二章 基本要求",
+      "source_sha256": "d695f7a267a1a32cd8de5c08023678eb33ef5c2913063a166ccee82bd50cec6d",
+      "output_sha256": "d695f7a267a1a32cd8de5c08023678eb33ef5c2913063a166ccee82bd50cec6d",
+      "source_characters": 51,
+      "output_characters": 51
+    },
+    {
+      "article": "第九条",
+      "chapter": "第二章 基本要求",
+      "source_sha256": "abbf35c379f04f3112f4c283251254d833eebfd5745e3204c63df176c828a444",
+      "output_sha256": "abbf35c379f04f3112f4c283251254d833eebfd5745e3204c63df176c828a444",
+      "source_characters": 77,
+      "output_characters": 77
+    },
+    {
+      "article": "第十条",
+      "chapter": "第二章 基本要求",
+      "source_sha256": "433aacdcfba99d6dca4d858c46d074b9bd7ca87f8d1a2029c2ded288ce3d8bbc",
+      "output_sha256": "433aacdcfba99d6dca4d858c46d074b9bd7ca87f8d1a2029c2ded288ce3d8bbc",
+      "source_characters": 65,
+      "output_characters": 65
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第三章 车票实名购买",
+      "source_sha256": "7f1ea78a27ba1c54cb269e73ae9ac487daf3bb166b57bc3dcfb05b4a7844abb2",
+      "output_sha256": "7f1ea78a27ba1c54cb269e73ae9ac487daf3bb166b57bc3dcfb05b4a7844abb2",
+      "source_characters": 139,
+      "output_characters": 139
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第三章 车票实名购买",
+      "source_sha256": "4fe77c8c6fd3de39be8b6fe0747af1bc424912b732ffa3dc0cdbd84dc209f76e",
+      "output_sha256": "4fe77c8c6fd3de39be8b6fe0747af1bc424912b732ffa3dc0cdbd84dc209f76e",
+      "source_characters": 366,
+      "output_characters": 366
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第三章 车票实名购买",
+      "source_sha256": "9a8bd7e1a0a2dfb063f5ec7777d43c6146390f40d27151689f655043eb45d11a",
+      "output_sha256": "9a8bd7e1a0a2dfb063f5ec7777d43c6146390f40d27151689f655043eb45d11a",
+      "source_characters": 210,
+      "output_characters": 210
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第三章 车票实名购买",
+      "source_sha256": "241100ba8b455c07b8ed52f29ee654bdb28141f22ae8fef59dab0008cc08424a",
+      "output_sha256": "241100ba8b455c07b8ed52f29ee654bdb28141f22ae8fef59dab0008cc08424a",
+      "source_characters": 71,
+      "output_characters": 71
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第三章 车票实名购买",
+      "source_sha256": "c1a21e177ac66bab48b1a964ddd09a329173a97761ecf16b4a976ad844d4b1de",
+      "output_sha256": "c1a21e177ac66bab48b1a964ddd09a329173a97761ecf16b4a976ad844d4b1de",
+      "source_characters": 47,
+      "output_characters": 47
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第三章 车票实名购买",
+      "source_sha256": "ac62e1d6e8de68afbd0abc07f15ae6ad24fee181ff6aab0130dee19f469a1c19",
+      "output_sha256": "ac62e1d6e8de68afbd0abc07f15ae6ad24fee181ff6aab0130dee19f469a1c19",
+      "source_characters": 105,
+      "output_characters": 105
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第四章 车票实名查验",
+      "source_sha256": "97972a308df4343093f833d8343cbd4116571ae7be497246c5e8010934227f73",
+      "output_sha256": "97972a308df4343093f833d8343cbd4116571ae7be497246c5e8010934227f73",
+      "source_characters": 141,
+      "output_characters": 141
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第四章 车票实名查验",
+      "source_sha256": "3fb9047735a2353c3a2073f7d3441870aa73f79364ff8a9c0f178c82fc2a0653",
+      "output_sha256": "3fb9047735a2353c3a2073f7d3441870aa73f79364ff8a9c0f178c82fc2a0653",
+      "source_characters": 87,
+      "output_characters": 87
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第四章 车票实名查验",
+      "source_sha256": "05ccb5243ee56e8dd3991758470becfc201df284e970a5a76efad1b9df2075ec",
+      "output_sha256": "05ccb5243ee56e8dd3991758470becfc201df284e970a5a76efad1b9df2075ec",
+      "source_characters": 67,
+      "output_characters": 67
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第四章 车票实名查验",
+      "source_sha256": "ed5ee8086d8d8c75e2fd2bb27b4c0d79b5076bc3610c8329b151b71d49c5a5ee",
+      "output_sha256": "ed5ee8086d8d8c75e2fd2bb27b4c0d79b5076bc3610c8329b151b71d49c5a5ee",
+      "source_characters": 77,
+      "output_characters": 77
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第四章 车票实名查验",
+      "source_sha256": "08f1be9980025a268142bdc28a103355b95e08bf477672e1c0a86c53599a8901",
+      "output_sha256": "08f1be9980025a268142bdc28a103355b95e08bf477672e1c0a86c53599a8901",
+      "source_characters": 122,
+      "output_characters": 122
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第四章 车票实名查验",
+      "source_sha256": "c0f931f8d0d504670ed8a9571226224a7a9375292e98a8459f3f39b69732079b",
+      "output_sha256": "c0f931f8d0d504670ed8a9571226224a7a9375292e98a8459f3f39b69732079b",
+      "source_characters": 179,
+      "output_characters": 179
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第五章 监督管理",
+      "source_sha256": "7a9bd336b8f78e2ef9c694e7fe173f2befdb3acdce63013a013ad343cf3780ab",
+      "output_sha256": "7a9bd336b8f78e2ef9c694e7fe173f2befdb3acdce63013a013ad343cf3780ab",
+      "source_characters": 78,
+      "output_characters": 78
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第五章 监督管理",
+      "source_sha256": "9d6e98551db0523d3cbc4fedc987da5d86de810387c7d90ef5d0c5624f244d1c",
+      "output_sha256": "9d6e98551db0523d3cbc4fedc987da5d86de810387c7d90ef5d0c5624f244d1c",
+      "source_characters": 39,
+      "output_characters": 39
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第六章 法律责任",
+      "source_sha256": "2b9a76e85513f31fabbafc65aa7c4f6972823753abc56406747049115c9f6a86",
+      "output_sha256": "2b9a76e85513f31fabbafc65aa7c4f6972823753abc56406747049115c9f6a86",
+      "source_characters": 141,
+      "output_characters": 141
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第六章 法律责任",
+      "source_sha256": "1941f888b53149c747b46b39a21d6dad4ef3ead7df19dc581ba9a3d8772ccd9b",
+      "output_sha256": "1941f888b53149c747b46b39a21d6dad4ef3ead7df19dc581ba9a3d8772ccd9b",
+      "source_characters": 90,
+      "output_characters": 90
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第六章 法律责任",
+      "source_sha256": "ce9b673d11612089685d3b0b0aefeb6c8c34bba17b66da50c993e1047bd2b313",
+      "output_sha256": "ce9b673d11612089685d3b0b0aefeb6c8c34bba17b66da50c993e1047bd2b313",
+      "source_characters": 78,
+      "output_characters": 78
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第六章 法律责任",
+      "source_sha256": "b185e861154916a2650be86bf3104de6b1848a18b1b0898a8745e5e05c033bfc",
+      "output_sha256": "b185e861154916a2650be86bf3104de6b1848a18b1b0898a8745e5e05c033bfc",
+      "source_characters": 82,
+      "output_characters": 82
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第六章 法律责任",
+      "source_sha256": "5b1ff039a1d8b8b242bd733b00e9610c1c2fb955d09acd4f79b7268adc645ad4",
+      "output_sha256": "5b1ff039a1d8b8b242bd733b00e9610c1c2fb955d09acd4f79b7268adc645ad4",
+      "source_characters": 73,
+      "output_characters": 73
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第六章 法律责任",
+      "source_sha256": "2d1ac25e0ef91145265070f84c4260cba984bfb35f9d4b649d265064ab886461",
+      "output_sha256": "2d1ac25e0ef91145265070f84c4260cba984bfb35f9d4b649d265064ab886461",
+      "source_characters": 45,
+      "output_characters": 45
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第六章 法律责任",
+      "source_sha256": "a4278cfa3ffcd425d1401f4fe13a8a51d31ebe1ebf4a8e4f05f11caef50dd5ab",
+      "output_sha256": "a4278cfa3ffcd425d1401f4fe13a8a51d31ebe1ebf4a8e4f05f11caef50dd5ab",
+      "source_characters": 91,
+      "output_characters": 91
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第七章 附 则",
+      "source_sha256": "09dc5d11143a302d701c76dc001624f98e4d452702c3cfb0b62d2153813cc012",
+      "output_sha256": "09dc5d11143a302d701c76dc001624f98e4d452702c3cfb0b62d2153813cc012",
+      "source_characters": 72,
+      "output_characters": 72
+    }
+  ]
+}

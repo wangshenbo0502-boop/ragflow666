@@ -1,0 +1,988 @@
+{
+  "checked_at": "2026-11-16T05:01:18.885Z",
+  "scope": "Local identity, hash and register projection checks only",
+  "current_candidates": 24,
+  "baseline": 6,
+  "expansion_candidates": 18,
+  "final_valid_document_count": null,
+  "prior_snapshot_sha256": "df2a19f733d202a93a7d964f49ec791d0f1b1e313ef48e7820a0a2a881378f55",
+  "preserved_snapshot_path": "05-review/history/pre-reconcile-v3-document-register-full.json",
+  "changed_documents": [
+    {
+      "doc_id": "DOC0001",
+      "differences": {
+        "master_path": {
+          "previous": "03-domains/CL/DOC0001-铁路设备质量安全监督管理办法.md",
+          "current": "03-domains/CL/DOC0001_铁路设备质量安全监督管理办法.md"
+        },
+        "sha256": {
+          "previous": "ce83b1f627a751eaf04f9f471ee4bed2df49e818a70dd27cfa3f92683a4e33fd",
+          "current": "2eb51a1591c8c0fc3aaa81899745b18f967fecde389299caa215de665d361dbb"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0002",
+      "differences": {
+        "master_path": {
+          "previous": "03-domains/YS/DOC0002-铁路旅客车票实名制管理办法.md",
+          "current": "03-domains/YS/DOC0002_铁路旅客车票实名制管理办法.md"
+        },
+        "sha256": {
+          "previous": "6c7f13227c1bc3522791f9bb1696cecd57492cd7c703e16a654bf9c1ae973885",
+          "current": "5b68359deba92c5168fd1ec8ff8984aeca07f47326d91e402fae0fd0e441e870"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0003",
+      "differences": {
+        "master_path": {
+          "previous": "03-domains/YS/DOC0003-铁路旅客运输安全检查管理办法.md",
+          "current": "03-domains/YS/DOC0003_铁路旅客运输安全检查管理办法.md"
+        },
+        "sha256": {
+          "previous": "c0caf61492d93d3740189b166756d1623abe45be4187484cb69eccdcb5b6f630",
+          "current": "57c9de97763e4d81b3a6ae43d27c8f165b0f9df9ff8023750bc8d16f813b3628"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0004",
+      "differences": {
+        "master_path": {
+          "previous": "03-domains/YS/DOC0004-铁路旅客运输规程.md",
+          "current": "03-domains/YS/DOC0004_铁路旅客运输规程.md"
+        },
+        "sha256": {
+          "previous": "8e9a884dada657810577ce6254302bf71ba6cb33c12229cb23431872d131e39f",
+          "current": "3e15e12fbf85314b09d47416277986c81808ee72835052c28453a1d735cd1fb4"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0005",
+      "differences": {
+        "master_path": {
+          "previous": "03-domains/YS/DOC0005-铁路交通事故应急救援和调查处理条例.md",
+          "current": "03-domains/YS/DOC0005_铁路交通事故应急救援和调查处理条例.md"
+        },
+        "sha256": {
+          "previous": "844535ff66635372625d948bcb386b73485fbedfb574d138a926866b36dc8147",
+          "current": "eef2ca59e822177f074d6e3b5252811f20b2bdee0d1c379b81d84a8480961a95"
+        },
+        "status": {
+          "previous": "待结构验收",
+          "current": "待条款语义复核"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0006",
+      "differences": {
+        "master_path": {
+          "previous": "03-domains/GW/DOC0006-铁路安全管理条例.md",
+          "current": "03-domains/GW/DOC0006_铁路安全管理条例.md"
+        },
+        "sha256": {
+          "previous": "a7ea1f982cf71fb65f6d0c3404b8f4c70407fd5de72a1f2dc5a5f021d09e76be",
+          "current": "62effa50332bdb850d1e88778a19f715e09274a2f23fbf75ac281123a7e34c24"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0007",
+      "differences": {
+        "doc_id": {
+          "previous": "S0007",
+          "current": "DOC0007"
+        },
+        "master_path": {
+          "previous": "03-domains/GW/S0007-铁路建设工程安全生产监督管理办法.md",
+          "current": "03-domains/GW/DOC0007_铁路建设工程安全生产监督管理办法.md"
+        },
+        "sha256": {
+          "previous": "a12ffbc8e1306e596e580292d657da3e0cbe551e12a26bb65dd193dbcfa3136a",
+          "current": "1e73bb253210674f7aa061831ec380f64b7d77e2596e5ede6a753b9fef707f7f"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0008",
+      "differences": {
+        "doc_id": {
+          "previous": "S0008",
+          "current": "DOC0008"
+        },
+        "master_path": {
+          "previous": "03-domains/GW/S0008-铁路建设工程竣工验收管理办法.md",
+          "current": "03-domains/GW/DOC0008_铁路建设工程竣工验收管理办法.md"
+        },
+        "sha256": {
+          "previous": "ae95d66155f71817a9df7c486839a08e51c32104ec9ce6ef31944a2742588d25",
+          "current": "e14a050d52ccb508aac229e909eadad7bb03fdd4bb2487108f6365efaa8918e1"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0009",
+      "differences": {
+        "doc_id": {
+          "previous": "S0009",
+          "current": "DOC0009"
+        },
+        "master_path": {
+          "previous": "03-domains/GW/S0009-铁路建设工程勘察设计管理办法.md",
+          "current": "03-domains/GW/DOC0009_铁路建设工程勘察设计管理办法.md"
+        },
+        "sha256": {
+          "previous": "8c40a5862e6f65d89282dd7daff703a4540608e42ef8c9b16db17116c703658d",
+          "current": "a824bce5ac30371b076e29be838c83d1e685629c38f8afd0fd9ffcf51d92df1d"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0010",
+      "differences": {
+        "doc_id": {
+          "previous": "S0010",
+          "current": "DOC0010"
+        },
+        "source_id": {
+          "previous": "S0010",
+          "current": "S0028"
+        },
+        "master_path": {
+          "previous": "03-domains/GW/S0010-高速铁路基础设施运用状态检测管理办法.md",
+          "current": "03-domains/GW/DOC0010_高速铁路基础设施运用状态检测管理办法.md"
+        },
+        "original_path": {
+          "previous": "01-originals/attachments/S0010-1.txt",
+          "current": "01-originals/web/S0028.txt"
+        },
+        "sha256": {
+          "previous": "c4ed91ad4344191451e1d21e4981ca9f1ca272966bf22f3fe78ed5a546800588",
+          "current": "97bbb59187e86f7306d0b6c323863ab4b1923e5aa037d5aaaef553cb8b65bfeb"
+        },
+        "status": {
+          "previous": "待复核",
+          "current": "待归档"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0011",
+      "differences": {
+        "doc_id": {
+          "previous": "S0011",
+          "current": "DOC0011"
+        },
+        "master_path": {
+          "previous": "03-domains/XH/S0011-铁路无线电管理办法.md",
+          "current": "03-domains/XH/DOC0011_铁路无线电管理办法.md"
+        },
+        "sha256": {
+          "previous": "41c3029adf976fb2c65e655c9b1697f6df83532e7fe411b460688723f966e92e",
+          "current": "1aa4aec8bb5dc03a28d284653ce1146ed59481564481f0e4a5ced0dd6e99991f"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0012",
+      "differences": {
+        "doc_id": {
+          "previous": "S0012",
+          "current": "DOC0012"
+        },
+        "master_path": {
+          "previous": "03-domains/XH/S0012-铁路关键信息基础设施安全保护管理办法.md",
+          "current": "03-domains/XH/DOC0012_铁路关键信息基础设施安全保护管理办法.md"
+        },
+        "sha256": {
+          "previous": "84db3696832ec8473be34e08e163abf0d9e96689d5e5482c51cc185a1036df9f",
+          "current": "b0d1bfc3efb5497c549fa0603276757965862b76695e403d59f0d2bcc0842cf5"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0013",
+      "differences": {
+        "doc_id": {
+          "previous": "S0014",
+          "current": "DOC0013"
+        },
+        "master_path": {
+          "previous": "03-domains/XH/S0014-铁路营业线施工安全管理办法.md",
+          "current": "03-domains/YS/DOC0013_铁路营业线施工安全管理办法.md"
+        },
+        "sha256": {
+          "previous": "e380bfb380b0f8281a858d0511099a6da8f4d84a5bd8cbc2105a5dbbbb0b9a5d",
+          "current": "a8a290fdcd9cf9fcf3b96f4193d4efe0a7842b8c799332d5614dd254d9ba5b22"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0014",
+      "differences": {
+        "doc_id": {
+          "previous": "S0016",
+          "current": "DOC0014"
+        },
+        "master_path": {
+          "previous": "03-domains/GD/S0016-铁路运输基础设备生产企业审批实施细则.md",
+          "current": "03-domains/GD/DOC0014_铁路运输基础设备生产企业审批实施细则.md"
+        },
+        "sha256": {
+          "previous": "cf79b328ee6276bebd075d3ddaaf438a557b7acf25dc4dc377ee519c84626b95",
+          "current": "b2fece829b12495c089a90e0d09b8c227451d0051b481e48b26d6100c6f3b88d"
+        },
+        "status": {
+          "previous": "待结构验收",
+          "current": "待归档"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0015",
+      "differences": {
+        "doc_id": {
+          "previous": "S0017",
+          "current": "DOC0015"
+        },
+        "master_path": {
+          "previous": "03-domains/GD/S0017-铁路运输基础设备生产企业审批办法（2021修正）.md",
+          "current": "03-domains/GD/DOC0015_铁路运输基础设备生产企业审批办法（2021修正）.md"
+        },
+        "sha256": {
+          "previous": "3fe252fdc8804ada7bed86ba79e4a7abc521d902b27f51cb98208169ebde01c1",
+          "current": "f4ce77f9398aeca44f2b23d98c79de5114b223de26e78d75d7870b6432db035d"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0016",
+      "differences": {
+        "doc_id": {
+          "previous": "S0018",
+          "current": "DOC0016"
+        },
+        "source_id": {
+          "previous": "S0018",
+          "current": "S0029"
+        },
+        "master_path": {
+          "previous": "03-domains/GD/S0018-铁路专用产品质量监督抽查管理办法.md",
+          "current": "03-domains/GD/DOC0016_铁路专用产品质量监督抽查管理办法.md"
+        },
+        "original_path": {
+          "previous": "01-originals/attachments/S0018-1.txt",
+          "current": "01-originals/web/S0029.txt"
+        },
+        "sha256": {
+          "previous": "c72a1f0e468aa7dbdbcace92694589f9b8d07190d9d2981d08ae4395a53e5a09",
+          "current": "e3aa43c8fc6f7033b312c4deb1919323948094e7c3162153289cbc57e424c2c4"
+        },
+        "status": {
+          "previous": "待复核",
+          "current": "待归档"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0017",
+      "differences": {
+        "doc_id": {
+          "previous": "S0020",
+          "current": "DOC0017"
+        },
+        "master_path": {
+          "previous": "03-domains/CL/S0020-铁路机车车辆驾驶人员资格许可办法.md",
+          "current": "03-domains/CL/DOC0017_铁路机车车辆驾驶人员资格许可办法.md"
+        },
+        "sha256": {
+          "previous": "6334ea3ee9e09b3e1d3db22bf7f76c8f8d14a8ba9db343ca7d96a163fa5a16f2",
+          "current": "3caccf17fd56577fb1423bf21d95904803673c9d62905bc05c1eb2a19fde67d5"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0018",
+      "differences": {
+        "doc_id": {
+          "previous": "S0021",
+          "current": "DOC0018"
+        },
+        "master_path": {
+          "previous": "03-domains/CL/S0021-铁路机车车辆驾驶人员资格考试管理办法.md",
+          "current": "03-domains/CL/DOC0018_铁路机车车辆驾驶人员资格考试管理办法.md"
+        },
+        "sha256": {
+          "previous": "99e33eb1eb75d574c7c2ee49bbb139f484b02b36bdcef03761e7b0960f284efb",
+          "current": "171224c1f8476b480386e19fc68d3951f8e48cd55dffc9421ad8ed792f9090db"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0019",
+      "differences": {
+        "doc_id": {
+          "previous": "S0022",
+          "current": "DOC0019"
+        },
+        "master_path": {
+          "previous": "03-domains/YS/S0022-铁路货物运输规则.md",
+          "current": "03-domains/YS/DOC0019_铁路货物运输规则.md"
+        },
+        "sha256": {
+          "previous": "8d1bffb2f30519955b513de783de3c242d7683985ea8df0b7fd19579a9e70dff",
+          "current": "9a2de29b6e7d4d96a29e7ddaf3a2aafe4af080a75cb2c20fb20877f15541c88d"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0020",
+      "differences": {
+        "doc_id": {
+          "previous": "S0023",
+          "current": "DOC0020"
+        },
+        "master_path": {
+          "previous": "03-domains/YS/S0023-铁路运输服务质量监督管理办法.md",
+          "current": "03-domains/YS/DOC0020_铁路运输服务质量监督管理办法.md"
+        },
+        "sha256": {
+          "previous": "e05000fe2ab674bb8e10b4b9ccf1ca9d50a41d2f1ddbbee1792ecec33c8c00e2",
+          "current": "38644e8c848f9407a6c15c269fe48f9086eeae3e44f5475a1b1f0840c1e1f3c1"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0021",
+      "differences": {
+        "doc_id": {
+          "previous": "S0024",
+          "current": "DOC0021"
+        },
+        "master_path": {
+          "previous": "03-domains/YS/S0024-铁路危险货物运输安全监督管理规定.md",
+          "current": "03-domains/YS/DOC0021_铁路危险货物运输安全监督管理规定.md"
+        },
+        "sha256": {
+          "previous": "496fb7814ee065ce99a51b450fff150c2cefb9549d2e13d0ff0c0887a1a442f8",
+          "current": "7d7b9af33fbe89827dfb22d8ae9b18da881e59f7ed9992aa5401ff7c23422333"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0022",
+      "differences": {
+        "doc_id": {
+          "previous": "S0025",
+          "current": "DOC0022"
+        },
+        "master_path": {
+          "previous": "03-domains/CL/S0025-铁路机车车辆设计制造维修进口许可办法.md",
+          "current": "03-domains/CL/DOC0022_铁路机车车辆设计制造维修进口许可办法.md"
+        },
+        "sha256": {
+          "previous": "be64ce3e72b2a5355c98e310679b5a9d4f0c42b0e68f9eb7f31f9eb4d211b0ed",
+          "current": "8c4fb5ed863811aa6f67676730c305bd2293b9c9bc627187473e0ddf403271d8"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0023",
+      "differences": {
+        "doc_id": {
+          "previous": "S0026",
+          "current": "DOC0023"
+        },
+        "master_path": {
+          "previous": "03-domains/CL/S0026-铁路专用设备缺陷产品召回管理办法.md",
+          "current": "03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md"
+        },
+        "sha256": {
+          "previous": "8e5a448af96c2c04eead00afc57d231864e937aa0a922160b77275fbaf08531b",
+          "current": "00a3a1075deedb9e30821c0817e1197ef5d95f958a8bad278df2dd4420c3f8c9"
+        }
+      }
+    },
+    {
+      "doc_id": "DOC0024",
+      "differences": {
+        "doc_id": {
+          "previous": "S0027",
+          "current": "DOC0024"
+        },
+        "master_path": {
+          "previous": "03-domains/GW/S0027-高速铁路安全防护管理办法.md",
+          "current": "03-domains/GW/DOC0024_高速铁路安全防护管理办法.md"
+        },
+        "sha256": {
+          "previous": "b358e7ae4a54c635aa35b6e1d591357b2fb0c4162682461c1315160d11296be2",
+          "current": "aacc2d4e372eef223168b4f487e307dfc2066b82988145cb5305e0580398d567"
+        }
+      }
+    }
+  ],
+  "checks": [
+    {
+      "doc_id": "DOC0001",
+      "source_id": "S0001",
+      "previous_source_ids": [],
+      "master_path": "03-domains/CL/DOC0001_铁路设备质量安全监督管理办法.md",
+      "master_sha256": "2eb51a1591c8c0fc3aaa81899745b18f967fecde389299caa215de665d361dbb",
+      "original_path": "01-originals/baseline/01_equipment-quality.md",
+      "original_sha256": "33932741e1bfd0823621ec3896a685f70b8da26c1b7b7df9354575df87c6f830",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "edae48b3f4cc4d0db06aa240af2757d5",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 38,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0002",
+      "source_id": "S0002",
+      "previous_source_ids": [],
+      "master_path": "03-domains/YS/DOC0002_铁路旅客车票实名制管理办法.md",
+      "master_sha256": "5b68359deba92c5168fd1ec8ff8984aeca07f47326d91e402fae0fd0e441e870",
+      "original_path": "01-originals/baseline/02_real-name-tickets.md",
+      "original_sha256": "18c2b65c8884f61c9eeff92da689d8fb69e40296a3cce76b2d736eb03e5f0e69",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "af24cb03034443d490c366625bb0bcbd",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 33,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0003",
+      "source_id": "S0003",
+      "previous_source_ids": [],
+      "master_path": "03-domains/YS/DOC0003_铁路旅客运输安全检查管理办法.md",
+      "master_sha256": "57c9de97763e4d81b3a6ae43d27c8f165b0f9df9ff8023750bc8d16f813b3628",
+      "original_path": "01-originals/baseline/03_passenger-security.md",
+      "original_sha256": "6a5f984ecbdb0fda12531d401b60868b79bc0907cb68cc808591ba88c99a4ba1",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "6c53829ba0564c358507af7654f54c66",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 53,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0004",
+      "source_id": "S0004",
+      "previous_source_ids": [],
+      "master_path": "03-domains/YS/DOC0004_铁路旅客运输规程.md",
+      "master_sha256": "3e15e12fbf85314b09d47416277986c81808ee72835052c28453a1d735cd1fb4",
+      "original_path": "01-originals/baseline/04_passenger-transport.md",
+      "original_sha256": "58caf1c1a4abf7f6414b76a858afac11bd84d23e394840841401a56d344d6e48",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "7d9dea7bb3a144a2b275abdc78e25beb",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 53,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0005",
+      "source_id": "S0005",
+      "previous_source_ids": [],
+      "master_path": "03-domains/YS/DOC0005_铁路交通事故应急救援和调查处理条例.md",
+      "master_sha256": "eef2ca59e822177f074d6e3b5252811f20b2bdee0d1c379b81d84a8480961a95",
+      "original_path": "01-originals/baseline/05_railway-emergency.md",
+      "original_sha256": "4c50a068cf7d186ee35e3417570e28def870d4c8d4d95f3ceb0a94ad7b91a9b5",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "6da171065b2d4b8f8c8ab7c4736b8e83",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 42,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0006",
+      "source_id": "S0006",
+      "previous_source_ids": [],
+      "master_path": "03-domains/GW/DOC0006_铁路安全管理条例.md",
+      "master_sha256": "62effa50332bdb850d1e88778a19f715e09274a2f23fbf75ac281123a7e34c24",
+      "original_path": "01-originals/baseline/06_railway-safety.md",
+      "original_sha256": "c0ba3d51ad47d7e1d71818f5c310c65792a977d7164e92592bcfa00a4e56b1d0",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "4ff3801c94384bdd958c6b68bb0f2289",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 109,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0007",
+      "source_id": "S0007",
+      "previous_source_ids": [],
+      "master_path": "03-domains/GW/DOC0007_铁路建设工程安全生产监督管理办法.md",
+      "master_sha256": "1e73bb253210674f7aa061831ec380f64b7d77e2596e5ede6a753b9fef707f7f",
+      "original_path": "01-originals/web/S0007.txt",
+      "original_sha256": "87af8011a8cd81559823664ed51b847940e1f1497049534911c85d0e5a7160cc",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "b733757e2b3a4971820b6adf41269377",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 77,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0008",
+      "source_id": "S0008",
+      "previous_source_ids": [],
+      "master_path": "03-domains/GW/DOC0008_铁路建设工程竣工验收管理办法.md",
+      "master_sha256": "e14a050d52ccb508aac229e909eadad7bb03fdd4bb2487108f6365efaa8918e1",
+      "original_path": "01-originals/web/S0008.txt",
+      "original_sha256": "1a5e18ede55a5f5804ae136f0ac67eacd1c4628e8be1e9b8825c9b04d8adfe11",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "4961ce684bde4f69a512c9c4a00a4d32",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 35,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0009",
+      "source_id": "S0009",
+      "previous_source_ids": [],
+      "master_path": "03-domains/GW/DOC0009_铁路建设工程勘察设计管理办法.md",
+      "master_sha256": "a824bce5ac30371b076e29be838c83d1e685629c38f8afd0fd9ffcf51d92df1d",
+      "original_path": "01-originals/web/S0009.txt",
+      "original_sha256": "77afe41e2e71559a06a0bee801707197c26a01bfca791bc30b9c36d090924545",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "392ba2210f3248299010db821f17befd",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 57,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0010",
+      "source_id": "S0028",
+      "previous_source_ids": [
+        "S0010"
+      ],
+      "master_path": "03-domains/GW/DOC0010_高速铁路基础设施运用状态检测管理办法.md",
+      "master_sha256": "97bbb59187e86f7306d0b6c323863ab4b1923e5aa037d5aaaef553cb8b65bfeb",
+      "original_path": "01-originals/web/S0028.txt",
+      "original_sha256": "f7e81e3856967689e082fbda0ef112773d6d9e9b3562d29696b9fd60f85b787b",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "6fbc149a75714c5c994b710d84ae518a",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 38,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0011",
+      "source_id": "S0011",
+      "previous_source_ids": [],
+      "master_path": "03-domains/XH/DOC0011_铁路无线电管理办法.md",
+      "master_sha256": "1aa4aec8bb5dc03a28d284653ce1146ed59481564481f0e4a5ced0dd6e99991f",
+      "original_path": "01-originals/web/S0011.txt",
+      "original_sha256": "3ac1d2e50c298652395579e7e4de094df7b3376e6534e0b500696abe854ed4c9",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "e391bf1661664df191a7216f1c6d522c",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 42,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0012",
+      "source_id": "S0012",
+      "previous_source_ids": [],
+      "master_path": "03-domains/XH/DOC0012_铁路关键信息基础设施安全保护管理办法.md",
+      "master_sha256": "b0d1bfc3efb5497c549fa0603276757965862b76695e403d59f0d2bcc0842cf5",
+      "original_path": "01-originals/web/S0012.txt",
+      "original_sha256": "d32d3442b71effc00072036b12041559e2b9141c7985669f7689f075ba1843a4",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "bc0b8a1495d74658ac8fc8a1851faaef",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 31,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0013",
+      "source_id": "S0014",
+      "previous_source_ids": [],
+      "master_path": "03-domains/YS/DOC0013_铁路营业线施工安全管理办法.md",
+      "master_sha256": "a8a290fdcd9cf9fcf3b96f4193d4efe0a7842b8c799332d5614dd254d9ba5b22",
+      "original_path": "01-originals/web/S0014.txt",
+      "original_sha256": "0cfd57cafb2ea9870b1f2d48fb42587dc32b1ac967d91c0c34591e42084d0d75",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "6554c41699074df3b30bde20dd7d84e6",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 62,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0014",
+      "source_id": "S0016",
+      "previous_source_ids": [],
+      "master_path": "03-domains/GD/DOC0014_铁路运输基础设备生产企业审批实施细则.md",
+      "master_sha256": "b2fece829b12495c089a90e0d09b8c227451d0051b481e48b26d6100c6f3b88d",
+      "original_path": "01-originals/web/S0016.txt",
+      "original_sha256": "7a5048b5f8ae249f21e2337df3cb5056392bc14d4939aef921cd1e244f3597fc",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "8f75de8dc53f492abda6be6c6e1b76e0",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 50,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0015",
+      "source_id": "S0017",
+      "previous_source_ids": [],
+      "master_path": "03-domains/GD/DOC0015_铁路运输基础设备生产企业审批办法（2021修正）.md",
+      "master_sha256": "f4ce77f9398aeca44f2b23d98c79de5114b223de26e78d75d7870b6432db035d",
+      "original_path": "01-originals/web/S0017.txt",
+      "original_sha256": "df0a66bb25f23b3bcc492dd6af9a2967b8330894056c9c438b8243674dd652a6",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "853f16bd039843ac83b035a886312da1",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 21,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0016",
+      "source_id": "S0029",
+      "previous_source_ids": [
+        "S0018"
+      ],
+      "master_path": "03-domains/GD/DOC0016_铁路专用产品质量监督抽查管理办法.md",
+      "master_sha256": "e3aa43c8fc6f7033b312c4deb1919323948094e7c3162153289cbc57e424c2c4",
+      "original_path": "01-originals/web/S0029.txt",
+      "original_sha256": "890c14dae4720b0d000df3a51e09e4c9d89527d5799cbe43f28d66fbb09ac9c1",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 56,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0017",
+      "source_id": "S0020",
+      "previous_source_ids": [],
+      "master_path": "03-domains/CL/DOC0017_铁路机车车辆驾驶人员资格许可办法.md",
+      "master_sha256": "3caccf17fd56577fb1423bf21d95904803673c9d62905bc05c1eb2a19fde67d5",
+      "original_path": "01-originals/web/S0020.txt",
+      "original_sha256": "7936ba2e5477430eeff6694f9cc6eec8162b2cc5e6f8b9cceb8e97eb6785f652",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "7ed531829bd3479ba2eda9374568b685",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 44,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0018",
+      "source_id": "S0021",
+      "previous_source_ids": [],
+      "master_path": "03-domains/CL/DOC0018_铁路机车车辆驾驶人员资格考试管理办法.md",
+      "master_sha256": "171224c1f8476b480386e19fc68d3951f8e48cd55dffc9421ad8ed792f9090db",
+      "original_path": "01-originals/web/S0021.txt",
+      "original_sha256": "296385afbb3d9d67c0f7c4b9e74b18b84dc1b59be6f20de8a68a9f5692d4ee2a",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "1615044fb64a4c13abe5fba5265cae8d",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 51,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0019",
+      "source_id": "S0022",
+      "previous_source_ids": [],
+      "master_path": "03-domains/YS/DOC0019_铁路货物运输规则.md",
+      "master_sha256": "9a2de29b6e7d4d96a29e7ddaf3a2aafe4af080a75cb2c20fb20877f15541c88d",
+      "original_path": "01-originals/web/S0022.txt",
+      "original_sha256": "1cd00faa3c6734d8727ec38ebaaa2d396451d7d205abb9394b744007bf06f612",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "cf52b1aa83434bec819ba86125ce0134",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 58,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0020",
+      "source_id": "S0023",
+      "previous_source_ids": [],
+      "master_path": "03-domains/YS/DOC0020_铁路运输服务质量监督管理办法.md",
+      "master_sha256": "38644e8c848f9407a6c15c269fe48f9086eeae3e44f5475a1b1f0840c1e1f3c1",
+      "original_path": "01-originals/web/S0023.txt",
+      "original_sha256": "d84ead9f3fe1573650787112989355e3ec173f9b880191edc870aadec064f60b",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "08291c29e9b94d71b2fbf5239bb226d5",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 38,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0021",
+      "source_id": "S0024",
+      "previous_source_ids": [],
+      "master_path": "03-domains/YS/DOC0021_铁路危险货物运输安全监督管理规定.md",
+      "master_sha256": "7d7b9af33fbe89827dfb22d8ae9b18da881e59f7ed9992aa5401ff7c23422333",
+      "original_path": "01-originals/web/S0024.txt",
+      "original_sha256": "633a4b12d17ebbf4d4ce97e8c3fc23e525770489c153a3dfcfe0fd68e99f7e4a",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "6c6f921506504ee0ac852df2883049ec",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 53,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0022",
+      "source_id": "S0025",
+      "previous_source_ids": [],
+      "master_path": "03-domains/CL/DOC0022_铁路机车车辆设计制造维修进口许可办法.md",
+      "master_sha256": "8c4fb5ed863811aa6f67676730c305bd2293b9c9bc627187473e0ddf403271d8",
+      "original_path": "01-originals/web/S0025.txt",
+      "original_sha256": "36f57776681bdb0cb33775bd610614d2a930ad6f3e807c6a1d5629cae0ff1c0a",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "a5664516fe664dcf882de61d58aaab47",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 29,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0023",
+      "source_id": "S0026",
+      "previous_source_ids": [],
+      "master_path": "03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+      "master_sha256": "00a3a1075deedb9e30821c0817e1197ef5d95f958a8bad278df2dd4420c3f8c9",
+      "original_path": "01-originals/web/S0026.txt",
+      "original_sha256": "e5e307c4dee39f2b141f72f9ffbdbdf4e2b24c09cb5de088ed9a34bc7486339c",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "d0f1beb60e5243d8bf78c9781a7c8b99",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 36,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    },
+    {
+      "doc_id": "DOC0024",
+      "source_id": "S0027",
+      "previous_source_ids": [],
+      "master_path": "03-domains/GW/DOC0024_高速铁路安全防护管理办法.md",
+      "master_sha256": "aacc2d4e372eef223168b4f487e307dfc2066b82988145cb5305e0580398d567",
+      "original_path": "01-originals/web/S0027.txt",
+      "original_sha256": "c29502f929ea5a3056300c49f80d58108f4a88280af516fd7ebe68bf6d07ec1f",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "system_document_id": "7ba506b486d64965a6dec165157edaa4",
+      "ingestion_status": "COMPLETED",
+      "imported_chunk_count_including_metadata": 49,
+      "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+      "final_acceptance_status": "待复核",
+      "final_count_eligible": false,
+      "outstanding": [
+        "版本及效力核验",
+        "附件/语义检查",
+        "检索及回答验收"
+      ],
+      "live_status_rechecked_in_this_script": false,
+      "live_status_evidence_checked_at": "2026-11-16T04:01:18.678Z"
+    }
+  ],
+  "originals_and_masters_unchanged": true,
+  "remote_mutation": false
+}

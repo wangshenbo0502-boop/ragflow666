@@ -1,5 +1,5 @@
 import { render, waitFor } from '@testing-library/react';
-import React from 'react';
+import { MemoryRouter } from 'react-router';
 
 import { MessageType } from '@/constants/chat';
 import { SingleChatBox } from './single-chat-box';
@@ -11,6 +11,33 @@ jest.mock('@/components/message-input/next', () => ({
   NextMessageInput: () => null,
 }));
 jest.mock('@/components/message-item', () => () => null);
+jest.mock('./composer-model-select', () => ({
+  ComposerModelSelect: () => null,
+}));
+jest.mock('./composer-dataset-select', () => ({
+  ComposerDatasetSelect: () => null,
+}));
+jest.mock('./chat-media-modes', () => ({
+  ChatMediaModes: () => null,
+  ChatRoutePolicy: () => null,
+}));
+jest.mock('./chat-task-center', () => ({
+  ChatTaskCenter: () => null,
+}));
+jest.mock('../../hooks/use-chat-task-recovery', () => ({
+  useChatTaskRecovery: () => ({ active: [], error: undefined }),
+}));
+jest.mock('./use-composer-settings', () => ({
+  useComposerSettings: () => ({
+    dialog: { icon: '' },
+    canEdit: true,
+    saving: false,
+    saveSettings: jest.fn(),
+  }),
+}));
+jest.mock('@/components/virtual-message-list', () => ({
+  VirtualMessageList: () => null,
+}));
 jest.mock('@/components/pdf-drawer', () => () => null);
 jest.mock('@/components/pdf-drawer/hooks', () => ({
   useClickDrawer: () => ({
@@ -76,7 +103,6 @@ function buildConversation(id: string) {
     update_date: '',
     update_time: 0,
     is_new: true as const,
-    reference: [],
     messages: [
       {
         id: 'old-message',
@@ -100,6 +126,7 @@ describe('SingleChatBox conversation hydration', () => {
 
     render(
       <SingleChatBox conversation={buildConversation('old-conversation')} />,
+      { wrapper: MemoryRouter },
     );
 
     expect(mockHydrateFromServer).not.toHaveBeenCalled();
@@ -111,12 +138,45 @@ describe('SingleChatBox conversation hydration', () => {
       conversationId: conversation.id,
     });
 
-    render(<SingleChatBox conversation={conversation} />);
+    render(<SingleChatBox conversation={conversation} />, {
+      wrapper: MemoryRouter,
+    });
 
     await waitFor(() => {
       expect(mockHydrateFromServer).toHaveBeenCalledWith(
         conversation.id,
         conversation.messages,
+        conversation.update_time,
+      );
+    });
+  });
+
+  it('hydrates a newer server version even when the messages array is unchanged', async () => {
+    const conversation = buildConversation('current-conversation');
+    mockUseGetChatSearchParams.mockReturnValue({
+      conversationId: conversation.id,
+    });
+    const { rerender } = render(<SingleChatBox conversation={conversation} />, {
+      wrapper: MemoryRouter,
+    });
+    await waitFor(() => {
+      expect(mockHydrateFromServer).toHaveBeenCalledTimes(1);
+      expect(mockHydrateFromServer).toHaveBeenLastCalledWith(
+        conversation.id,
+        conversation.messages,
+        conversation.update_time,
+      );
+    });
+
+    const updated = { ...conversation, update_time: 1 };
+    rerender(<SingleChatBox conversation={updated} />);
+
+    await waitFor(() => {
+      expect(mockHydrateFromServer).toHaveBeenCalledTimes(2);
+      expect(mockHydrateFromServer).toHaveBeenLastCalledWith(
+        updated.id,
+        conversation.messages,
+        updated.update_time,
       );
     });
   });

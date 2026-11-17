@@ -1,0 +1,27 @@
+{
+  "source_id": "S0031",
+  "document_id": "DOC0023",
+  "source_path": "01-originals/attachments/S0031-1.pdf",
+  "source_sha256": "6d496b8fb670adf3a2041292f210e3a70d3923bc468702050a8d147d9bab5650",
+  "verification_method": "逐页查看官方PDF第1、2页渲染图，转录第七条完整替换文字；不由摘要推断修订",
+  "page_images": [
+    "05-review/S0031-revision-01.png",
+    "05-review/S0031-revision-02.png"
+  ],
+  "order": "交通运输部令2018年第18号",
+  "published": "2018-08-31",
+  "effective": "2018-10-01",
+  "amended_article": "第七条",
+  "replacement_paragraphs": [
+    "生产企业是缺陷产品召回的实施主体，应当建立完善的产品质量安全档案和相关管理制度，准确记录并保存相关产品设计、制造、销售、标识、检验等信息，建立用户访问和质量分析制度，分析可能存在的缺陷，履行缺陷产品召回的义务并承担相关费用。生产企业制造的铁路机车车辆经监造，符合要求后，方可投入使用。",
+    "本办法所称监造是指由铁路运输企业等铁路机车车辆采购单位或者其委托的专业单位，依据有关产品质量的法律、行政法规以及国家其他有关规定，根据合同约定，按照规定的程序和范围，在机车车辆产品生产企业对生产过程和实物质量实施监督检查，并对产品的符合性作出专业判断。"
+  ],
+  "scope_note": "修正决定将以上两款整体替换第七条，监造定义是第七条第二款，不是另增独立条号。2018修正本仍需后续效力核验。",
+  "latest_effectiveness_verified": false,
+  "remote_mutation": false,
+  "correction": {
+    "at": "2026-11-16T14:58:24.649Z",
+    "previous_path": "05-review/S0031-amendment-transcript-v4.json",
+    "reason": "对照2018修正决定第2页和官方合并PDF第2页，纠正有关产品为相关产品；历史转录记录保留"
+  }
+}

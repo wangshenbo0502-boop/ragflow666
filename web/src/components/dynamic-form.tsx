@@ -33,6 +33,7 @@ import {
   useFormContext,
 } from 'react-hook-form';
 import { ZodSchema, z } from 'zod';
+import { set } from 'lodash';
 
 import EditTag from '@/components/edit-tag';
 import { SelectWithSearch } from '@/components/originui/select-with-search';
@@ -172,7 +173,10 @@ export interface DynamicFormRef {
 // Generate Zod validation schema based on field configurations
 export const generateSchema = (fields: FormFieldConfig[]): ZodSchema<any> => {
   const schema: Record<string, ZodSchema> = {};
-  const nestedSchemas: Record<string, Record<string, ZodSchema>> = {};
+  interface SchemaTree {
+    [key: string]: ZodSchema | SchemaTree;
+  }
+  const nestedSchemas: Record<string, SchemaTree> = {};
 
   fields.forEach((field) => {
     let fieldSchema: ZodSchema;
@@ -303,10 +307,11 @@ export const generateSchema = (fields: FormFieldConfig[]): ZodSchema<any> => {
       let currentSchema = nestedSchemas[firstKey];
       for (let i = 1; i < keys.length - 1; i++) {
         const key = keys[i];
-        if (!currentSchema[key]) {
-          currentSchema[key] = {};
+        const child = currentSchema[key];
+        if (child instanceof z.ZodType) {
+          throw new Error(`Conflicting form field path: ${field.name}`);
         }
-        currentSchema = currentSchema[key];
+        currentSchema = currentSchema[key] = child ?? {};
       }
 
       const lastKey = keys[keys.length - 1];
@@ -317,16 +322,14 @@ export const generateSchema = (fields: FormFieldConfig[]): ZodSchema<any> => {
   });
 
   Object.keys(nestedSchemas).forEach((key) => {
-    const buildNestedSchema = (obj: Record<string, any>): ZodSchema => {
+    const buildNestedSchema = (obj: SchemaTree): ZodSchema => {
       const nestedSchema: Record<string, ZodSchema> = {};
       Object.keys(obj).forEach((subKey) => {
-        if (
-          typeof obj[subKey] === 'object' &&
-          !(obj[subKey] instanceof z.ZodType)
-        ) {
-          nestedSchema[subKey] = buildNestedSchema(obj[subKey]);
+        const child = obj[subKey];
+        if (child instanceof z.ZodType) {
+          nestedSchema[subKey] = child;
         } else {
-          nestedSchema[subKey] = obj[subKey];
+          nestedSchema[subKey] = buildNestedSchema(child);
         }
       });
       return z.object(nestedSchema);
@@ -399,12 +402,10 @@ export const RenderField = ({
   labelClassName?: string;
 }) => {
   if (field.render) {
-    if (field.type === FormFieldType.Custom && field.hideLabel) {
-      return <div className="w-full">{field.render({})}</div>;
-    }
     return (
       <RAGFlowFormItem
         {...field}
+        label={field.hideLabel ? undefined : field.label}
         labelClassName={labelClassName || field.labelClassName}
       >
         {(fieldProps) => {
@@ -712,7 +713,7 @@ const DynamicForm = {
             options,
           );
 
-          let combinedErrors = { ...zodResult.errors };
+          const combinedErrors = { ...zodResult.errors };
 
           const fieldErrors: Record<string, { type: string; message: string }> =
             {};
@@ -751,15 +752,8 @@ const DynamicForm = {
             }
           }
 
-          combinedErrors = {
-            ...combinedErrors,
-            ...fieldErrors,
-          } as any;
-
-          for (const key in combinedErrors) {
-            if (Array.isArray(combinedErrors[key])) {
-              combinedErrors[key] = combinedErrors[key][0];
-            }
+          for (const [name, error] of Object.entries(fieldErrors)) {
+            set(combinedErrors, name, error);
           }
           return {
             values: Object.keys(combinedErrors).length ? {} : data,
@@ -784,7 +778,7 @@ const DynamicForm = {
         });
 
         const subscriptions = Object.keys(dependencyMap).map((depField) => {
-          return form.watch((values: any, { name }) => {
+          return form.watch((_values, { name }) => {
             if (name === depField && dependencyMap[depField]) {
               dependencyMap[depField].forEach((dependentField) => {
                 form.trigger(dependentField as any);
@@ -946,10 +940,14 @@ const DynamicForm = {
                 const shouldShow = field.shouldRender
                   ? field.shouldRender(formValues)
                   : true;
+                // `shouldRender === false` unmounts the field entirely (no DOM),
+                // instead of leaving it hidden. `field.hidden` keeps the previous
+                // hidden-class behavior since it's a separate static concern.
+                if (!shouldShow) return null;
                 return (
                   <div
                     key={field.name}
-                    className={cn({ hidden: field.hidden || !shouldShow })}
+                    className={cn({ hidden: field.hidden })}
                   >
                     <RenderField
                       field={field}
@@ -964,9 +962,9 @@ const DynamicForm = {
         </Form>
       );
     },
-  ) as <T extends FieldValues>(
+  ) as (<T extends FieldValues>(
     props: DynamicFormProps<T> & { ref?: React.Ref<DynamicFormRef> },
-  ) => React.ReactElement,
+  ) => React.ReactElement) & { displayName?: string },
   SavingButton: ({
     submitLoading,
     buttonText,

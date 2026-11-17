@@ -1,4 +1,8 @@
 import ListFilterBar from '@/components/list-filter-bar';
+import DuplicateDialog from '@/ee/components/duplicate-dialog';
+import { PrivilegeManagementDialog } from '@/ee/components/privilege-management/privilege-management-dialog';
+import useDuplicateDataset from '@/ee/pages/datasets/use-duplicate-dataset';
+import { useShowPrivilegeDialog } from '@/ee/pages/datasets/use-show-privilege-dialog';
 import { RenameDialog } from '@/components/rename-dialog';
 import { Button } from '@/components/ui/button';
 import { RAGFlowPagination } from '@/components/ui/ragflow-pagination';
@@ -41,6 +45,8 @@ export default function Datasets() {
   const datasets = kbs ?? [];
   const owners = useSelectOwners();
   const rename = useRenameDataset();
+  const duplicate = useDuplicateDataset();
+  const privilege = useShowPrivilegeDialog();
   const handlePageChange = useCallback(
     (page: number, pageSize?: number) => setPagination({ page, pageSize }),
     [setPagination],
@@ -112,6 +118,10 @@ export default function Datasets() {
                         key={dataset.id}
                         dataset={dataset}
                         showDatasetRenameModal={rename.showDatasetRenameModal}
+                        showDatasetDuplicateModal={duplicate.showModal}
+                        showPrivilegeModal={privilege.handShowPrivilegeModal(
+                          dataset,
+                        )}
                       />
                     ))}
                   </div>
@@ -161,6 +171,20 @@ export default function Datasets() {
           onOk={rename.onDatasetRenameOk}
           initialName={rename.initialDatasetName}
           loading={rename.datasetRenameLoading}
+        />
+      )}
+      {duplicate.isModalVisible && (
+        <DuplicateDialog
+          hideModal={duplicate.hideModal}
+          onOk={duplicate.onOk}
+          initialName={duplicate.initialName}
+          loading={duplicate.loading}
+        />
+      )}
+      {privilege.privilegeModal && (
+        <PrivilegeManagementDialog
+          hideModal={privilege.hidePrivilegeModal}
+          initialValues={privilege.recordWithSourceType}
         />
       )}
     </>

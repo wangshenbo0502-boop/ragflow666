@@ -24,6 +24,7 @@ import { cn } from '@/lib/utils';
 import { ChevronRight } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { ProviderOptions } from '../provider-options';
 
 /**
  * Sidebar selection type for the right pane.
@@ -74,9 +75,12 @@ export function Sidebar({ selection, onSelect }: SidebarProps) {
 
   const filteredProviders = useMemo(() => {
     const q = search.trim().toLowerCase();
-    const list = q
-      ? providers.filter((p) => p.name.toLowerCase().includes(q))
-      : providers;
+    const list = ProviderOptions.filter((option) =>
+      providers.some((provider) => provider.name === option.name),
+    ).filter(
+      (option) =>
+        !q || `${option.name} ${option.label}`.toLowerCase().includes(q),
+    );
     // Stable partition: added providers first, then unadded.
     const added = list.filter((p) => addedSet.has(p.name));
     const others = list.filter((p) => !addedSet.has(p.name));
@@ -139,7 +143,9 @@ export function Sidebar({ selection, onSelect }: SidebarProps) {
                 height={24}
                 imgClass="size-6 text-text-primary"
               />
-              <span className="truncate text-sm flex-1">{provider.name}</span>
+              <span className="truncate text-sm flex-1" title={provider.label}>
+                {provider.label}
+              </span>
               {isAdded && (
                 <span
                   aria-label="configured"

@@ -1,0 +1,1000 @@
+{
+  "checked_at": "2026-11-16T08:28:55.905Z",
+  "history_snapshot": "05-review/history/successor-v3-2026-11-16T08-28-55-905Z",
+  "original_files_unchanged": true,
+  "formal_dataset_modified": false,
+  "final_acceptance": false,
+  "tokenizer_sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+  "reranker_budget_verified": false,
+  "token_scope": "Document/version/source/location/point heading prefix and complete candidate text; not actual pipeline output.",
+  "documents": [
+    {
+      "doc_id": "DOC0025",
+      "domain": "GW",
+      "master_path": "03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "5fbf562009c6f5a52208634ec2b5439ad899d3a03f0b98863b27387cbe5f48a7",
+      "master_sha256": "ae27b41266cb0cc98e50d00ff64b8fee3741789e85f3a213a3961de83490e723",
+      "original_sha256": "e330a2ac525225eeb4e8fb71c5697cdb43ebeeb74311a71903425e53a00f894e",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0025-successor-v3.json",
+      "old_point_count": 39,
+      "article_count": 27,
+      "split_table_count": 2,
+      "row_point_count": 198,
+      "semantic_group_count": 213,
+      "semantic_parent_table_count": 8,
+      "preserved_other_point_count": 32,
+      "point_count": 245,
+      "paragraph_count": 131,
+      "substantive_uncovered_paragraphs": [],
+      "paragraph_coverage_verified": true,
+      "all_nonempty_native_cells_covered": true,
+      "maximum_prefixed_tokens": 1988,
+      "points_over_900": [
+        {
+          "id": "DOC0025-S0033-T03-G009-009",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0025-S0033-T03-G011-011",
+          "tokens": 907
+        },
+        {
+          "id": "DOC0025-S0033-T03-G012-012",
+          "tokens": 917
+        },
+        {
+          "id": "DOC0025-S0033-T03-G014-014",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0025-S0033-T03-G016-016",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0025-S0033-T04-G010-010",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0025-S0033-T04-G011-011",
+          "tokens": 925
+        },
+        {
+          "id": "DOC0025-S0033-T04-G012-012",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0025-S0033-T04-G013-013",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0025-S0033-T04-G015-015",
+          "tokens": 911
+        },
+        {
+          "id": "DOC0025-S0033-T05-G013-013",
+          "tokens": 915
+        },
+        {
+          "id": "DOC0025-S0033-T05-G014-014",
+          "tokens": 911
+        },
+        {
+          "id": "DOC0025-S0033-T05-G015-015",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0025-S0033-T05-G017-017",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0025-S0033-T06-G004-004",
+          "tokens": 950
+        },
+        {
+          "id": "DOC0025-S0033-T06-G005-005",
+          "tokens": 988
+        },
+        {
+          "id": "DOC0025-S0033-T06-G006-006",
+          "tokens": 988
+        },
+        {
+          "id": "DOC0025-S0033-T06-G007-007",
+          "tokens": 987
+        },
+        {
+          "id": "DOC0025-S0033-T06-G008-008",
+          "tokens": 994
+        },
+        {
+          "id": "DOC0025-S0033-T06-G009-009",
+          "tokens": 974
+        },
+        {
+          "id": "DOC0025-S0033-T06-G010-010",
+          "tokens": 991
+        },
+        {
+          "id": "DOC0025-S0033-T06-G011-011",
+          "tokens": 993
+        },
+        {
+          "id": "DOC0025-S0033-T06-G012-012",
+          "tokens": 993
+        },
+        {
+          "id": "DOC0025-S0033-T06-G013-013",
+          "tokens": 1007
+        },
+        {
+          "id": "DOC0025-S0033-T06-G014-014",
+          "tokens": 1005
+        },
+        {
+          "id": "DOC0025-S0033-T06-G015-015",
+          "tokens": 1000
+        },
+        {
+          "id": "DOC0025-S0033-T06-G016-016",
+          "tokens": 1014
+        },
+        {
+          "id": "DOC0025-S0033-T07-G010-010",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0025-S0033-T07-G012-012",
+          "tokens": 910
+        },
+        {
+          "id": "DOC0025-S0033-T07-G016-016",
+          "tokens": 918
+        },
+        {
+          "id": "DOC0025-S0033-T07-G017-017",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0025-S0033-T08-G003-004",
+          "tokens": 1151
+        },
+        {
+          "id": "DOC0025-S0033-T08-G005-008",
+          "tokens": 1344
+        },
+        {
+          "id": "DOC0025-S0033-T08-G009-010",
+          "tokens": 1135
+        },
+        {
+          "id": "DOC0025-S0033-T08-G011-013",
+          "tokens": 1250
+        },
+        {
+          "id": "DOC0025-S0033-T08-G014-016",
+          "tokens": 1231
+        },
+        {
+          "id": "DOC0025-S0033-T08-G017-020",
+          "tokens": 1394
+        },
+        {
+          "id": "DOC0025-S0033-T08-G021-021",
+          "tokens": 1035
+        },
+        {
+          "id": "DOC0025-S0033-T08-G023-025",
+          "tokens": 1267
+        },
+        {
+          "id": "DOC0025-S0033-T08-G026-028",
+          "tokens": 1266
+        },
+        {
+          "id": "DOC0025-S0033-T08-G029-032",
+          "tokens": 1353
+        },
+        {
+          "id": "DOC0025-S0033-T08-G034-036",
+          "tokens": 1268
+        },
+        {
+          "id": "DOC0025-S0033-T08-G037-041",
+          "tokens": 1480
+        },
+        {
+          "id": "DOC0025-S0033-T08-G042-043",
+          "tokens": 1156
+        },
+        {
+          "id": "DOC0025-S0033-T08-G045-046",
+          "tokens": 1149
+        },
+        {
+          "id": "DOC0025-S0033-T08-G047-048",
+          "tokens": 1176
+        },
+        {
+          "id": "DOC0025-S0033-T08-G049-051",
+          "tokens": 1305
+        },
+        {
+          "id": "DOC0025-S0033-T08-G052-052",
+          "tokens": 1055
+        },
+        {
+          "id": "DOC0025-S0033-T08-G054-056",
+          "tokens": 1308
+        },
+        {
+          "id": "DOC0025-S0033-T08-G057-060",
+          "tokens": 1360
+        },
+        {
+          "id": "DOC0025-S0033-T08-G061-065",
+          "tokens": 1486
+        },
+        {
+          "id": "DOC0025-S0033-T08-G067-068",
+          "tokens": 1156
+        },
+        {
+          "id": "DOC0025-S0033-T08-G069-071",
+          "tokens": 1307
+        },
+        {
+          "id": "DOC0025-S0033-T08-G072-074",
+          "tokens": 1286
+        },
+        {
+          "id": "DOC0025-S0033-T08-G076-084",
+          "tokens": 1988
+        },
+        {
+          "id": "DOC0025-S0033-T08-G085-086",
+          "tokens": 1166
+        },
+        {
+          "id": "DOC0025-S0033-T08-G087-089",
+          "tokens": 1274
+        },
+        {
+          "id": "DOC0025-K036",
+          "tokens": 1789
+        },
+        {
+          "id": "DOC0025-K039",
+          "tokens": 983
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0026",
+      "domain": "XH",
+      "master_path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "47d8168355e5855d067013290747e4692eacfe5e8c6de46666fb0010daeccb3f",
+      "master_sha256": "d7579087f2d7cc753e5001c1e5a02de5eb2158f83ad4723079d33ccf9bcdb401",
+      "original_sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "old_point_count": 38,
+      "article_count": 27,
+      "split_table_count": 3,
+      "row_point_count": 325,
+      "semantic_group_count": 238,
+      "semantic_parent_table_count": 6,
+      "preserved_other_point_count": 33,
+      "point_count": 271,
+      "paragraph_count": 129,
+      "substantive_uncovered_paragraphs": [],
+      "paragraph_coverage_verified": true,
+      "all_nonempty_native_cells_covered": true,
+      "maximum_prefixed_tokens": 1995,
+      "points_over_900": [
+        {
+          "id": "DOC0026-S0034-T03-G008-008",
+          "tokens": 1018
+        },
+        {
+          "id": "DOC0026-S0034-T03-G009-009",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0026-S0034-T03-G010-010",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0026-S0034-T03-G012-012",
+          "tokens": 916
+        },
+        {
+          "id": "DOC0026-S0034-T03-G013-013",
+          "tokens": 942
+        },
+        {
+          "id": "DOC0026-S0034-T03-G020-020",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0026-S0034-T03-G022-022",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0026-S0034-T03-G023-023",
+          "tokens": 902
+        },
+        {
+          "id": "DOC0026-S0034-T03-G026-026",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0026-S0034-T03-G029-029",
+          "tokens": 901
+        },
+        {
+          "id": "DOC0026-S0034-T03-G031-031",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0026-S0034-T03-G032-032",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0026-S0034-T03-G033-033",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0026-S0034-T03-G035-035",
+          "tokens": 915
+        },
+        {
+          "id": "DOC0026-S0034-T03-G036-036",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0026-S0034-T03-G037-037",
+          "tokens": 914
+        },
+        {
+          "id": "DOC0026-S0034-T03-G039-039",
+          "tokens": 904
+        },
+        {
+          "id": "DOC0026-S0034-T03-G043-043",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0026-S0034-T05-G003-005",
+          "tokens": 1236
+        },
+        {
+          "id": "DOC0026-S0034-T05-G006-009",
+          "tokens": 1323
+        },
+        {
+          "id": "DOC0026-S0034-T05-G010-011",
+          "tokens": 1119
+        },
+        {
+          "id": "DOC0026-S0034-T05-G012-014",
+          "tokens": 1235
+        },
+        {
+          "id": "DOC0026-S0034-T05-G015-017",
+          "tokens": 1217
+        },
+        {
+          "id": "DOC0026-S0034-T05-G018-020",
+          "tokens": 1258
+        },
+        {
+          "id": "DOC0026-S0034-T05-G021-021",
+          "tokens": 1020
+        },
+        {
+          "id": "DOC0026-S0034-T05-G023-026",
+          "tokens": 1363
+        },
+        {
+          "id": "DOC0026-S0034-T05-G027-030",
+          "tokens": 1373
+        },
+        {
+          "id": "DOC0026-S0034-T05-G031-034",
+          "tokens": 1341
+        },
+        {
+          "id": "DOC0026-S0034-T05-G036-038",
+          "tokens": 1252
+        },
+        {
+          "id": "DOC0026-S0034-T05-G039-043",
+          "tokens": 1458
+        },
+        {
+          "id": "DOC0026-S0034-T05-G044-046",
+          "tokens": 1241
+        },
+        {
+          "id": "DOC0026-S0034-T05-G048-049",
+          "tokens": 1134
+        },
+        {
+          "id": "DOC0026-S0034-T05-G050-051",
+          "tokens": 1160
+        },
+        {
+          "id": "DOC0026-S0034-T05-G052-053",
+          "tokens": 1141
+        },
+        {
+          "id": "DOC0026-S0034-T05-G054-054",
+          "tokens": 1041
+        },
+        {
+          "id": "DOC0026-S0034-T05-G056-064",
+          "tokens": 1885
+        },
+        {
+          "id": "DOC0026-S0034-T05-G065-068",
+          "tokens": 1349
+        },
+        {
+          "id": "DOC0026-S0034-T05-G069-072",
+          "tokens": 1344
+        },
+        {
+          "id": "DOC0026-S0034-T05-G073-078",
+          "tokens": 1593
+        },
+        {
+          "id": "DOC0026-S0034-T05-G080-081",
+          "tokens": 1141
+        },
+        {
+          "id": "DOC0026-S0034-T05-G082-084",
+          "tokens": 1236
+        },
+        {
+          "id": "DOC0026-S0034-T05-G085-087",
+          "tokens": 1271
+        },
+        {
+          "id": "DOC0026-S0034-T05-G089-097",
+          "tokens": 1995
+        },
+        {
+          "id": "DOC0026-S0034-T05-G098-099",
+          "tokens": 1151
+        },
+        {
+          "id": "DOC0026-S0034-T05-G100-102",
+          "tokens": 1258
+        },
+        {
+          "id": "DOC0026-S0034-T06-G005-008",
+          "tokens": 978
+        },
+        {
+          "id": "DOC0026-S0034-T06-G017-019",
+          "tokens": 914
+        },
+        {
+          "id": "DOC0026-S0034-T06-G022-024",
+          "tokens": 906
+        },
+        {
+          "id": "DOC0026-S0034-T06-G025-027",
+          "tokens": 907
+        },
+        {
+          "id": "DOC0026-S0034-T06-G028-031",
+          "tokens": 997
+        },
+        {
+          "id": "DOC0026-S0034-T06-G033-035",
+          "tokens": 908
+        },
+        {
+          "id": "DOC0026-S0034-T06-G036-040",
+          "tokens": 1110
+        },
+        {
+          "id": "DOC0026-S0034-T06-G055-058",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0026-S0034-T06-G059-063",
+          "tokens": 1126
+        },
+        {
+          "id": "DOC0026-S0034-T06-G069-071",
+          "tokens": 926
+        },
+        {
+          "id": "DOC0026-S0034-T06-G073-081",
+          "tokens": 1649
+        },
+        {
+          "id": "DOC0026-S0034-T06-G084-086",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0026-K034",
+          "tokens": 1788
+        },
+        {
+          "id": "DOC0026-K037",
+          "tokens": 978
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0027",
+      "domain": "XH",
+      "master_path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "d0255490f58f71b144ec642addcd25f53a57e659d0cbfb47d29fb64fd82f1d22",
+      "master_sha256": "1f9c1b683474486922b6829034959ab58e96b3567b4c9224804730ab6eea6871",
+      "original_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "old_point_count": 35,
+      "article_count": 27,
+      "split_table_count": 2,
+      "row_point_count": 161,
+      "semantic_group_count": 112,
+      "semantic_parent_table_count": 3,
+      "preserved_other_point_count": 34,
+      "point_count": 146,
+      "paragraph_count": 126,
+      "substantive_uncovered_paragraphs": [],
+      "paragraph_coverage_verified": true,
+      "all_nonempty_native_cells_covered": true,
+      "maximum_prefixed_tokens": 1956,
+      "points_over_900": [
+        {
+          "id": "DOC0027-S0035-T03-G003-004",
+          "tokens": 1097
+        },
+        {
+          "id": "DOC0027-S0035-T03-G005-008",
+          "tokens": 1284
+        },
+        {
+          "id": "DOC0027-S0035-T03-G009-010",
+          "tokens": 1081
+        },
+        {
+          "id": "DOC0027-S0035-T03-G011-013",
+          "tokens": 1196
+        },
+        {
+          "id": "DOC0027-S0035-T03-G014-016",
+          "tokens": 1177
+        },
+        {
+          "id": "DOC0027-S0035-T03-G017-019",
+          "tokens": 1220
+        },
+        {
+          "id": "DOC0027-S0035-T03-G020-020",
+          "tokens": 981
+        },
+        {
+          "id": "DOC0027-S0035-T03-G022-024",
+          "tokens": 1212
+        },
+        {
+          "id": "DOC0027-S0035-T03-G025-027",
+          "tokens": 1213
+        },
+        {
+          "id": "DOC0027-S0035-T03-G028-031",
+          "tokens": 1298
+        },
+        {
+          "id": "DOC0027-S0035-T03-G033-035",
+          "tokens": 1214
+        },
+        {
+          "id": "DOC0027-S0035-T03-G036-040",
+          "tokens": 1416
+        },
+        {
+          "id": "DOC0027-S0035-T03-G041-043",
+          "tokens": 1202
+        },
+        {
+          "id": "DOC0027-S0035-T03-G045-046",
+          "tokens": 1095
+        },
+        {
+          "id": "DOC0027-S0035-T03-G047-048",
+          "tokens": 1122
+        },
+        {
+          "id": "DOC0027-S0035-T03-G049-050",
+          "tokens": 1101
+        },
+        {
+          "id": "DOC0027-S0035-T03-G051-051",
+          "tokens": 1001
+        },
+        {
+          "id": "DOC0027-S0035-T03-G053-055",
+          "tokens": 1201
+        },
+        {
+          "id": "DOC0027-S0035-T03-G056-059",
+          "tokens": 1294
+        },
+        {
+          "id": "DOC0027-S0035-T03-G060-065",
+          "tokens": 1545
+        },
+        {
+          "id": "DOC0027-S0035-T03-G067-068",
+          "tokens": 1102
+        },
+        {
+          "id": "DOC0027-S0035-T03-G069-070",
+          "tokens": 1087
+        },
+        {
+          "id": "DOC0027-S0035-T03-G071-073",
+          "tokens": 1234
+        },
+        {
+          "id": "DOC0027-S0035-T03-G075-083",
+          "tokens": 1956
+        },
+        {
+          "id": "DOC0027-S0035-T03-G084-085",
+          "tokens": 1112
+        },
+        {
+          "id": "DOC0027-S0035-T03-G086-088",
+          "tokens": 1219
+        },
+        {
+          "id": "DOC0027-K031",
+          "tokens": 1787
+        },
+        {
+          "id": "DOC0027-K034",
+          "tokens": 1119
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    },
+    {
+      "doc_id": "DOC0028",
+      "domain": "GD",
+      "master_path": "03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "old_master_sha256": "0ba9a663681e5b6f91facff8c0bcfd01997fa6973969e3ae08a21f9d3d6ae7a7",
+      "master_sha256": "10315cb11a40fb3172e6b7fe3a6ebc4afe8947144a6c346182f90bf5d08fd208",
+      "original_sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+      "v2_snapshot_path": "05-review/history/successor-v3-2026-11-16T07-34-50-600Z/03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "expected_path": "04-chunks/expected/DOC0028-successor-v3.json",
+      "old_point_count": 38,
+      "article_count": 27,
+      "split_table_count": 2,
+      "row_point_count": 228,
+      "semantic_group_count": 221,
+      "semantic_parent_table_count": 7,
+      "preserved_other_point_count": 32,
+      "point_count": 253,
+      "paragraph_count": 129,
+      "substantive_uncovered_paragraphs": [],
+      "paragraph_coverage_verified": true,
+      "all_nonempty_native_cells_covered": true,
+      "maximum_prefixed_tokens": 1992,
+      "points_over_900": [
+        {
+          "id": "DOC0028-S0036-T02-G005-005",
+          "tokens": 934
+        },
+        {
+          "id": "DOC0028-S0036-T02-G006-006",
+          "tokens": 929
+        },
+        {
+          "id": "DOC0028-S0036-T02-G008-008",
+          "tokens": 916
+        },
+        {
+          "id": "DOC0028-S0036-T02-G010-010",
+          "tokens": 926
+        },
+        {
+          "id": "DOC0028-S0036-T02-G011-011",
+          "tokens": 932
+        },
+        {
+          "id": "DOC0028-S0036-T02-G012-012",
+          "tokens": 959
+        },
+        {
+          "id": "DOC0028-S0036-T02-G013-013",
+          "tokens": 936
+        },
+        {
+          "id": "DOC0028-S0036-T02-G015-015",
+          "tokens": 951
+        },
+        {
+          "id": "DOC0028-S0036-T02-G016-016",
+          "tokens": 945
+        },
+        {
+          "id": "DOC0028-S0036-T02-G017-017",
+          "tokens": 946
+        },
+        {
+          "id": "DOC0028-S0036-T02-G018-018",
+          "tokens": 933
+        },
+        {
+          "id": "DOC0028-S0036-T02-G020-020",
+          "tokens": 929
+        },
+        {
+          "id": "DOC0028-S0036-T02-G021-021",
+          "tokens": 935
+        },
+        {
+          "id": "DOC0028-S0036-T02-G022-022",
+          "tokens": 941
+        },
+        {
+          "id": "DOC0028-S0036-T02-G023-023",
+          "tokens": 939
+        },
+        {
+          "id": "DOC0028-S0036-T02-G025-025",
+          "tokens": 954
+        },
+        {
+          "id": "DOC0028-S0036-T02-G026-026",
+          "tokens": 948
+        },
+        {
+          "id": "DOC0028-S0036-T02-G027-027",
+          "tokens": 949
+        },
+        {
+          "id": "DOC0028-S0036-T02-G028-028",
+          "tokens": 937
+        },
+        {
+          "id": "DOC0028-S0036-T02-G030-030",
+          "tokens": 933
+        },
+        {
+          "id": "DOC0028-S0036-T02-G031-031",
+          "tokens": 938
+        },
+        {
+          "id": "DOC0028-S0036-T02-G032-032",
+          "tokens": 965
+        },
+        {
+          "id": "DOC0028-S0036-T02-G033-033",
+          "tokens": 942
+        },
+        {
+          "id": "DOC0028-S0036-T02-G035-035",
+          "tokens": 921
+        },
+        {
+          "id": "DOC0028-S0036-T02-G036-036",
+          "tokens": 939
+        },
+        {
+          "id": "DOC0028-S0036-T02-G037-037",
+          "tokens": 925
+        },
+        {
+          "id": "DOC0028-S0036-T02-G038-038",
+          "tokens": 926
+        },
+        {
+          "id": "DOC0028-S0036-T02-G040-040",
+          "tokens": 946
+        },
+        {
+          "id": "DOC0028-S0036-T02-G041-041",
+          "tokens": 942
+        },
+        {
+          "id": "DOC0028-S0036-T02-G043-043",
+          "tokens": 905
+        },
+        {
+          "id": "DOC0028-S0036-T02-G044-044",
+          "tokens": 927
+        },
+        {
+          "id": "DOC0028-S0036-T02-G046-046",
+          "tokens": 936
+        },
+        {
+          "id": "DOC0028-S0036-T02-G047-047",
+          "tokens": 947
+        },
+        {
+          "id": "DOC0028-S0036-T02-G069-069",
+          "tokens": 918
+        },
+        {
+          "id": "DOC0028-S0036-T02-G147-147",
+          "tokens": 917
+        },
+        {
+          "id": "DOC0028-S0036-T02-G148-148",
+          "tokens": 917
+        },
+        {
+          "id": "DOC0028-S0036-T05-G004-004",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0028-S0036-T05-G005-005",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T05-G006-006",
+          "tokens": 903
+        },
+        {
+          "id": "DOC0028-S0036-T05-G008-008",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0028-S0036-T05-G009-009",
+          "tokens": 913
+        },
+        {
+          "id": "DOC0028-S0036-T05-G010-010",
+          "tokens": 909
+        },
+        {
+          "id": "DOC0028-S0036-T05-G011-011",
+          "tokens": 918
+        },
+        {
+          "id": "DOC0028-S0036-T05-G012-012",
+          "tokens": 916
+        },
+        {
+          "id": "DOC0028-S0036-T07-G003-004",
+          "tokens": 1118
+        },
+        {
+          "id": "DOC0028-S0036-T07-G005-008",
+          "tokens": 1371
+        },
+        {
+          "id": "DOC0028-S0036-T07-G009-010",
+          "tokens": 1102
+        },
+        {
+          "id": "DOC0028-S0036-T07-G011-013",
+          "tokens": 1218
+        },
+        {
+          "id": "DOC0028-S0036-T07-G014-016",
+          "tokens": 1204
+        },
+        {
+          "id": "DOC0028-S0036-T07-G017-019",
+          "tokens": 1269
+        },
+        {
+          "id": "DOC0028-S0036-T07-G020-021",
+          "tokens": 1149
+        },
+        {
+          "id": "DOC0028-S0036-T07-G023-025",
+          "tokens": 1236
+        },
+        {
+          "id": "DOC0028-S0036-T07-G026-029",
+          "tokens": 1404
+        },
+        {
+          "id": "DOC0028-S0036-T07-G030-033",
+          "tokens": 1369
+        },
+        {
+          "id": "DOC0028-S0036-T07-G035-037",
+          "tokens": 1242
+        },
+        {
+          "id": "DOC0028-S0036-T07-G038-042",
+          "tokens": 1451
+        },
+        {
+          "id": "DOC0028-S0036-T07-G043-044",
+          "tokens": 1157
+        },
+        {
+          "id": "DOC0028-S0036-T07-G046-047",
+          "tokens": 1113
+        },
+        {
+          "id": "DOC0028-S0036-T07-G048-049",
+          "tokens": 1143
+        },
+        {
+          "id": "DOC0028-S0036-T07-G050-051",
+          "tokens": 1123
+        },
+        {
+          "id": "DOC0028-S0036-T07-G052-052",
+          "tokens": 1016
+        },
+        {
+          "id": "DOC0028-S0036-T07-G054-056",
+          "tokens": 1289
+        },
+        {
+          "id": "DOC0028-S0036-T07-G057-060",
+          "tokens": 1331
+        },
+        {
+          "id": "DOC0028-S0036-T07-G061-067",
+          "tokens": 1733
+        },
+        {
+          "id": "DOC0028-S0036-T07-G069-070",
+          "tokens": 1160
+        },
+        {
+          "id": "DOC0028-S0036-T07-G071-072",
+          "tokens": 1109
+        },
+        {
+          "id": "DOC0028-S0036-T07-G073-075",
+          "tokens": 1259
+        },
+        {
+          "id": "DOC0028-S0036-T07-G077-085",
+          "tokens": 1992
+        },
+        {
+          "id": "DOC0028-S0036-T07-G086-087",
+          "tokens": 1132
+        },
+        {
+          "id": "DOC0028-S0036-T07-G088-090",
+          "tokens": 1241
+        },
+        {
+          "id": "DOC0028-K035",
+          "tokens": 1797
+        },
+        {
+          "id": "DOC0028-K038",
+          "tokens": 988
+        }
+      ],
+      "points_over_8192": [],
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import_executed": false
+    }
+  ]
+}

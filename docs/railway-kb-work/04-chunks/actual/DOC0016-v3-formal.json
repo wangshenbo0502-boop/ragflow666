@@ -1,0 +1,1484 @@
+{
+  "doc_id": "DOC0016",
+  "source_id": "S0029",
+  "domain": "GD",
+  "phase": "formal",
+  "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+  "document_id": "f3113e656a854629a95a5ebc95f105c0",
+  "filename": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+  "sha256": "e3aa43c8fc6f7033b312c4deb1919323948094e7c3162153289cbc57e424c2c4",
+  "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+  "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+  "status": "full-body-verified",
+  "uploaded_at": "2026-11-15T18:00:39.816Z",
+  "chunk_count": 56,
+  "business_chunks": 55,
+  "verified_at": "2026-11-15T18:02:21.683Z",
+  "superseded": [
+    {
+      "document_id": "4095867ee3ac4e9eb711b162ae40bbf7",
+      "name": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_06923619ea19.md",
+      "retained": true,
+      "status": "0"
+    }
+  ],
+  "checked_at": "2026-11-15T18:02:30.349Z",
+  "ingestion_status": "COMPLETED",
+  "exported_count": 56,
+  "expected_points": 55,
+  "full_body_passed": 55,
+  "passed": true,
+  "checks": [
+    {
+      "knowledge_point_id": "DOC0016-K01",
+      "article": "第一条",
+      "expected_sha256": "21ca282203a51923e72c4f6e8da4e7f46e06ece633d2593690ab5fbb687cee25",
+      "matching_chunk_ids": [
+        "0e2dc77d4b3ef83e"
+      ],
+      "complete_chunk_ids": [
+        "0e2dc77d4b3ef83e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K02",
+      "article": "第二条",
+      "expected_sha256": "52df8a7dd534a2de66fc8d17a7e3f72aa1cccf10a71ce53b4e535a339c6a3f4a",
+      "matching_chunk_ids": [
+        "838ad68f944a1b04"
+      ],
+      "complete_chunk_ids": [
+        "838ad68f944a1b04"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K03",
+      "article": "第三条",
+      "expected_sha256": "0c9a6dbffe8b0b4df41625901673ae02d4ae99ff1bdff38701c4bde59d68cad7",
+      "matching_chunk_ids": [
+        "aad75517bf8a792a"
+      ],
+      "complete_chunk_ids": [
+        "aad75517bf8a792a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K04",
+      "article": "第四条",
+      "expected_sha256": "291bb4f2970cfeb4bb116142d5f3fbb124df6bfadc422b2858f6f555baf36674",
+      "matching_chunk_ids": [
+        "61ad4b395f399d4e"
+      ],
+      "complete_chunk_ids": [
+        "61ad4b395f399d4e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K05",
+      "article": "第五条",
+      "expected_sha256": "04260412a449717989e3fd010a84297990fb870076888a968956683ebf815643",
+      "matching_chunk_ids": [
+        "46e7e0d1914e4599"
+      ],
+      "complete_chunk_ids": [
+        "46e7e0d1914e4599"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K06",
+      "article": "第六条",
+      "expected_sha256": "4a35627bd8c5e5a699283f5bd3e498740c1bc29dbca07053179b73fce0f3808a",
+      "matching_chunk_ids": [
+        "e8939170b769ea33"
+      ],
+      "complete_chunk_ids": [
+        "e8939170b769ea33"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K07",
+      "article": "第七条",
+      "expected_sha256": "d5b4869ebac30c1f2c2172131ab9078c21b0cfbd8e8f19b35cce0e278e78e46e",
+      "matching_chunk_ids": [
+        "13832d9f44f37df9"
+      ],
+      "complete_chunk_ids": [
+        "13832d9f44f37df9"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K08",
+      "article": "第八条",
+      "expected_sha256": "efd7ab0708becd09f975cff76ad447db8b0a05f0f1e5a10ef2fb6a1d1789da52",
+      "matching_chunk_ids": [
+        "470cf7f2f3a678b1"
+      ],
+      "complete_chunk_ids": [
+        "470cf7f2f3a678b1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K09",
+      "article": "第九条",
+      "expected_sha256": "3d599ee47bdc81ea460a38d7c90b6f5dd06fa48bca346a107132483385b469d2",
+      "matching_chunk_ids": [
+        "90dcdde84f2b8128"
+      ],
+      "complete_chunk_ids": [
+        "90dcdde84f2b8128"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K10",
+      "article": "第十条",
+      "expected_sha256": "cd5b0fb6604d6f8bdfa3da5c93440698b8c9efb7c1222debd5c53548d69a32fb",
+      "matching_chunk_ids": [
+        "a0b54b2ec0080337"
+      ],
+      "complete_chunk_ids": [
+        "a0b54b2ec0080337"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K11",
+      "article": "第十一条",
+      "expected_sha256": "680343a9bb09e11002a5c357b528e95f69db83b96ce35aa0c60cd1eccc93f6ac",
+      "matching_chunk_ids": [
+        "633cdf27d890f329"
+      ],
+      "complete_chunk_ids": [
+        "633cdf27d890f329"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K12",
+      "article": "第十二条",
+      "expected_sha256": "426ce1fd03ddf232d55de37a32384d38d030e53564b71564a1860420444aa280",
+      "matching_chunk_ids": [
+        "1a98f1bc1ae0d138"
+      ],
+      "complete_chunk_ids": [
+        "1a98f1bc1ae0d138"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K13",
+      "article": "第十三条",
+      "expected_sha256": "081cf22a0516ddb33c66365591ff32b2e91829e07b22381fb7c44054625e9047",
+      "matching_chunk_ids": [
+        "af4ec1b48119d08e"
+      ],
+      "complete_chunk_ids": [
+        "af4ec1b48119d08e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K14",
+      "article": "第十四条",
+      "expected_sha256": "87e4f1ad9bc67f5b34bbed21d0eafc36a47f5ab6533e21e99be531abbaf1cea8",
+      "matching_chunk_ids": [
+        "2f318a0ee0df3e89"
+      ],
+      "complete_chunk_ids": [
+        "2f318a0ee0df3e89"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K15",
+      "article": "第十五条",
+      "expected_sha256": "f2dd033be83b8f562d1b6aed9e256640d10974a483a728e8d29d65c4a2997422",
+      "matching_chunk_ids": [
+        "2de6c5a3403142de"
+      ],
+      "complete_chunk_ids": [
+        "2de6c5a3403142de"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K16",
+      "article": "第十六条",
+      "expected_sha256": "23780f3f591a2fc457adb0c81088df547987e0a9bf99e1068ec743fc636a6dbc",
+      "matching_chunk_ids": [
+        "f8225b01cd2dcaf3"
+      ],
+      "complete_chunk_ids": [
+        "f8225b01cd2dcaf3"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K17",
+      "article": "第十七条",
+      "expected_sha256": "ae7c3eada94bf7835508de9aa3c457ad4da6e887bf83591119c9c72bf5876447",
+      "matching_chunk_ids": [
+        "ebb62a6ad2b6819c"
+      ],
+      "complete_chunk_ids": [
+        "ebb62a6ad2b6819c"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K18",
+      "article": "第十八条",
+      "expected_sha256": "10bcdee11d92dc459d9ba28c83edcd707b499fa1da16dfa8b773da9d5d737032",
+      "matching_chunk_ids": [
+        "09cb5d0454106e3b"
+      ],
+      "complete_chunk_ids": [
+        "09cb5d0454106e3b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K19",
+      "article": "第十九条",
+      "expected_sha256": "2cf599ba786d1491db1428a2ff9cd3e7af539ab71282224338d257d9dc3e132f",
+      "matching_chunk_ids": [
+        "23bb3fe0e36f0ee6"
+      ],
+      "complete_chunk_ids": [
+        "23bb3fe0e36f0ee6"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K20",
+      "article": "第二十条",
+      "expected_sha256": "bd4d8b1510418f9d3a93d537e34bcfdd59da923791a3da61268290e8bdef6251",
+      "matching_chunk_ids": [
+        "0efe4befb939d965"
+      ],
+      "complete_chunk_ids": [
+        "0efe4befb939d965"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K21",
+      "article": "第二十一条",
+      "expected_sha256": "87fb3f5b64e42c4e570dd3455788d22b8462d6ce86321afa69ebdad64ff4b188",
+      "matching_chunk_ids": [
+        "86608946d625d861"
+      ],
+      "complete_chunk_ids": [
+        "86608946d625d861"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K22",
+      "article": "第二十二条",
+      "expected_sha256": "fdd785e8472a5073a96358d29dbab616a8ddeaab4be88099163af9127291bae1",
+      "matching_chunk_ids": [
+        "c2cb4e34c24601da"
+      ],
+      "complete_chunk_ids": [
+        "c2cb4e34c24601da"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K23",
+      "article": "第二十三条",
+      "expected_sha256": "58d26fbb2878cd43c165733e50eff7f65aba59adaab56d66bf6df495f7198f7c",
+      "matching_chunk_ids": [
+        "272e1c82b64c4866"
+      ],
+      "complete_chunk_ids": [
+        "272e1c82b64c4866"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K24",
+      "article": "第二十四条",
+      "expected_sha256": "8a953291d02c36419a8886b13b2a542fab46a3f32a22a4f020ec9c5162d9e804",
+      "matching_chunk_ids": [
+        "1fbe9fd7846a7d61"
+      ],
+      "complete_chunk_ids": [
+        "1fbe9fd7846a7d61"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K25",
+      "article": "第二十五条",
+      "expected_sha256": "6eadf14b579c0a471376c56be8a4b0e172a952c5fcaaa2f5515e60e13be07fb2",
+      "matching_chunk_ids": [
+        "fb2343e86a455657"
+      ],
+      "complete_chunk_ids": [
+        "fb2343e86a455657"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K26",
+      "article": "第二十六条",
+      "expected_sha256": "c9134e5c60f4d69019ce3a48d3f966e57182f0774628a1eaa4468753dbeb1c5f",
+      "matching_chunk_ids": [
+        "a2cc6ac65b05b96f"
+      ],
+      "complete_chunk_ids": [
+        "a2cc6ac65b05b96f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K27",
+      "article": "第二十七条",
+      "expected_sha256": "5d1322f37716ca482e4d92b64c03c0b4fd6f1dd887d498ec363d2fc06fa07fcf",
+      "matching_chunk_ids": [
+        "4c4ae3f6e161b78d"
+      ],
+      "complete_chunk_ids": [
+        "4c4ae3f6e161b78d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K28",
+      "article": "第二十八条",
+      "expected_sha256": "788a219c240d91505a86d68b8cbf11a4a6f5cf7adea2917fd439249765e9813b",
+      "matching_chunk_ids": [
+        "b7e58e7758722e76"
+      ],
+      "complete_chunk_ids": [
+        "b7e58e7758722e76"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K29",
+      "article": "第二十九条",
+      "expected_sha256": "3cba61832b7965319a91347bb929beb503ad96869c18683b4eb33867a761c4d3",
+      "matching_chunk_ids": [
+        "a0a380bbd8d591af"
+      ],
+      "complete_chunk_ids": [
+        "a0a380bbd8d591af"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K30",
+      "article": "第三十条",
+      "expected_sha256": "db629e5e9ea099fd46ee68a6ff9bf467bd3485ff85698f6608111d5039fe9974",
+      "matching_chunk_ids": [
+        "c2c472f15063ccd6"
+      ],
+      "complete_chunk_ids": [
+        "c2c472f15063ccd6"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K31",
+      "article": "第三十一条",
+      "expected_sha256": "044a3785ea810fe94a46b92825edc4e488b9442192e535a6b2b498735eaf7370",
+      "matching_chunk_ids": [
+        "3ebfd45c2533c3f7"
+      ],
+      "complete_chunk_ids": [
+        "3ebfd45c2533c3f7"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K32",
+      "article": "第三十二条",
+      "expected_sha256": "ac5cdd33f7569840ec22cbf2bc19d898b2af7a71a2baed36a9ecc09e40e26c08",
+      "matching_chunk_ids": [
+        "47086183c71c077a"
+      ],
+      "complete_chunk_ids": [
+        "47086183c71c077a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K33",
+      "article": "第三十三条",
+      "expected_sha256": "d5b70074c1ca71d5a5af2404cdfef9707468ac211ff6b1d5aef5cf0d0d76cbf4",
+      "matching_chunk_ids": [
+        "0b97b2aac081c019"
+      ],
+      "complete_chunk_ids": [
+        "0b97b2aac081c019"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K34",
+      "article": "第三十四条",
+      "expected_sha256": "81933b38fa2eec70bab3936a63baecfd5c1dca5cb07d8cbef4eefda58872408a",
+      "matching_chunk_ids": [
+        "3e7d34ecdda05d51"
+      ],
+      "complete_chunk_ids": [
+        "3e7d34ecdda05d51"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K35",
+      "article": "第三十五条",
+      "expected_sha256": "2122ba204af339c00c71ab5ab0323fab8859562e2c97cbabf792c93f086501b6",
+      "matching_chunk_ids": [
+        "ecc6ac7a52d56f27"
+      ],
+      "complete_chunk_ids": [
+        "ecc6ac7a52d56f27"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K36",
+      "article": "第三十六条",
+      "expected_sha256": "bf288e6acacbe0e51ba73351454b543cd3d573b21a8b12ec178e46d488d7d350",
+      "matching_chunk_ids": [
+        "2dfc48648b1f4ca6"
+      ],
+      "complete_chunk_ids": [
+        "2dfc48648b1f4ca6"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K37",
+      "article": "第三十七条",
+      "expected_sha256": "d3849436e73f6e353c807ed45e20dd68bbf063cec8ede539de4474b1a29ad9cf",
+      "matching_chunk_ids": [
+        "57dafce312e1f306"
+      ],
+      "complete_chunk_ids": [
+        "57dafce312e1f306"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K38",
+      "article": "第三十八条",
+      "expected_sha256": "3fb0022d476ef07e7a04ced69dc09d37b6ce66708d0dbc6e452bc7a7ff533b66",
+      "matching_chunk_ids": [
+        "7b5f41c5000e9813"
+      ],
+      "complete_chunk_ids": [
+        "7b5f41c5000e9813"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K39",
+      "article": "第三十九条",
+      "expected_sha256": "f6ab6bededd8630c476b478e2975c3e328ee86a21e7deba7e0c9264c4e8edbd6",
+      "matching_chunk_ids": [
+        "0ddd1a946f087a15"
+      ],
+      "complete_chunk_ids": [
+        "0ddd1a946f087a15"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K40",
+      "article": "第四十条",
+      "expected_sha256": "21ada0db87ac247ac6ba8a1ec6f8b69473d671add4c1093b751cbccd5dfb7b73",
+      "matching_chunk_ids": [
+        "502401476fe755ed"
+      ],
+      "complete_chunk_ids": [
+        "502401476fe755ed"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K41",
+      "article": "第四十一条",
+      "expected_sha256": "62d9d09d5c64312935b57c9fee2ed0917d24bfcec28d6bafebb6444106c5c29d",
+      "matching_chunk_ids": [
+        "0c071fc0b0ae9e1e"
+      ],
+      "complete_chunk_ids": [
+        "0c071fc0b0ae9e1e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K42",
+      "article": "第四十二条",
+      "expected_sha256": "897a49686a3a7fd852bba5fe26e99161c8fc4d5e2973bc11587cada6d90e827c",
+      "matching_chunk_ids": [
+        "9f6ff46f331f7181"
+      ],
+      "complete_chunk_ids": [
+        "9f6ff46f331f7181"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K43",
+      "article": "第四十三条",
+      "expected_sha256": "f1e83030b0de4676cc0991f96b07389ae619e9bd3b588480d5d41e79a7f0a811",
+      "matching_chunk_ids": [
+        "e93220344beac52e"
+      ],
+      "complete_chunk_ids": [
+        "e93220344beac52e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K44",
+      "article": "第四十四条",
+      "expected_sha256": "4310684ae6e25c50869d0e23a2f3ec038d0027a38e97df4eb5d1d132948cc429",
+      "matching_chunk_ids": [
+        "1ee121258d907afe"
+      ],
+      "complete_chunk_ids": [
+        "1ee121258d907afe"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K45",
+      "article": "第四十五条",
+      "expected_sha256": "220c5eab831b6c92034262c44a9f6df97a6f31eda641906f1c25ff4f1e2c6681",
+      "matching_chunk_ids": [
+        "71c92ee54e103f35"
+      ],
+      "complete_chunk_ids": [
+        "71c92ee54e103f35"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K46",
+      "article": "第四十六条",
+      "expected_sha256": "1b1c448d1dc3c85e39446972193444f05db5fa86f3fe36ddaaa28fe860818f08",
+      "matching_chunk_ids": [
+        "4d0fc6889570ad12"
+      ],
+      "complete_chunk_ids": [
+        "4d0fc6889570ad12"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K47",
+      "article": "第四十七条",
+      "expected_sha256": "1c4243683abd466fdba2a085b796a07571d33c4595e79f76ab71780c072aa71d",
+      "matching_chunk_ids": [
+        "bfa9cdd8cb6db793"
+      ],
+      "complete_chunk_ids": [
+        "bfa9cdd8cb6db793"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K48",
+      "article": "第四十八条",
+      "expected_sha256": "4b4ad891af3ded88faaea4b3e96cd7aefa35bf42ac707a483137f73de324e738",
+      "matching_chunk_ids": [
+        "d801795b7dc2d65f"
+      ],
+      "complete_chunk_ids": [
+        "d801795b7dc2d65f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K49",
+      "article": "第四十九条",
+      "expected_sha256": "7cf296e0edaca3dc1b2c377a231af2f44f1035d25c382944f83d0bb5a28e17d1",
+      "matching_chunk_ids": [
+        "f52a6a2ded4d05e6"
+      ],
+      "complete_chunk_ids": [
+        "f52a6a2ded4d05e6"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K50",
+      "article": "第五十条",
+      "expected_sha256": "241b6fce88ac75fabf3127189672d54c3b7fb305fb688787d85452807da7ba75",
+      "matching_chunk_ids": [
+        "17f35f3740f52ba4"
+      ],
+      "complete_chunk_ids": [
+        "17f35f3740f52ba4"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K51",
+      "article": "第五十一条",
+      "expected_sha256": "dd9672cc002ebebc1fabef77d2c1729c5362ac6ba7f4ab3fdb09d8c2b766340d",
+      "matching_chunk_ids": [
+        "aa44e91e7e511913"
+      ],
+      "complete_chunk_ids": [
+        "aa44e91e7e511913"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K52",
+      "article": "第五十二条",
+      "expected_sha256": "6a7769ec0db6260908815c89ad4282588fa67df014a059afe19584c84b2fe930",
+      "matching_chunk_ids": [
+        "a0ceeddd1c33538b"
+      ],
+      "complete_chunk_ids": [
+        "a0ceeddd1c33538b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K53",
+      "article": "第五十三条",
+      "expected_sha256": "03178fd5d9e8499ceceb0a41dd13beafa31fcb2018fcddfe1d03a0cb7e140a26",
+      "matching_chunk_ids": [
+        "a3ef4834daa0eb2d"
+      ],
+      "complete_chunk_ids": [
+        "a3ef4834daa0eb2d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K54",
+      "article": "第五十四条",
+      "expected_sha256": "dbae318cd2b98e3ba1323ae95ad6be9028c841080e198e4371cbfcc2e7875a2b",
+      "matching_chunk_ids": [
+        "cc8d2c9bb3106e61"
+      ],
+      "complete_chunk_ids": [
+        "cc8d2c9bb3106e61"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0016-K55",
+      "article": "第五十五条",
+      "expected_sha256": "bf82d169ef3a8c85aadef1eb46950440c90137080db81462462678d6a61be445",
+      "matching_chunk_ids": [
+        "e2c6040041a39505"
+      ],
+      "complete_chunk_ids": [
+        "e2c6040041a39505"
+      ],
+      "passed": true
+    }
+  ],
+  "metadata_chunk_ids": [
+    "8a433110e8d411ca"
+  ],
+  "polluted_chunk_ids": [],
+  "chunks": [
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0e2dc77d4b3ef83e",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第一条｜为加强铁路专用产品质量监督管理\n证据定位： DOC0016-K01；S0029，第一章 总则，第一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n为加强铁路专用产品质量监督管理，规范铁路专用产品质量监督抽查工作，根据《中华人民共和国产品质量法》《铁路安全管理条例》等法律、行政法规，制定本办法。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第一条｜为加强铁路专用产品质量监督管理\n证据定位： DOC0016-K01；S0029，第一章 总则，第一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n为加强铁路专用产品质量监督管理，规范铁路专用产品质量监督抽查工作，根据《中华人民共和国产品质量法》《铁路安全管理条例》等法律、行政法规，制定本办法。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "0e2dc77d4b3ef83e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "838ad68f944a1b04",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第二条｜本办法所称铁路专用产品质量监督抽查（以下简称监督抽查）是指国家铁路局为监督铁路专用产品质量\n证据定位： DOC0016-K02；S0029，第一章 总则，第二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n本办法所称铁路专用产品质量监督抽查（以下简称监督抽查）是指国家铁路局为监督铁路专用产品质量，对在中华人民共和国境内生产、销售或使用的铁路专用产品依法有计划地组织随机抽样、检验，并对抽查结果进行公布和处理的活动。\n铁路专用产品是指专用于铁路建设、运输、设备制造维修且涉及铁路运输安全、环境保护的工业产品。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第二条｜本办法所称铁路专用产品质量监督抽查（以下简称监督抽查）是指国家铁路局为监督铁路专用产品质量\n证据定位： DOC0016-K02；S0029，第一章 总则，第二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n本办法所称铁路专用产品质量监督抽查（以下简称监督抽查）是指国家铁路局为监督铁路专用产品质量，对在中华人民共和国境内生产、销售或使用的铁路专用产品依法有计划地组织随机抽样、检验，并对抽查结果进行公布和处理的活动。\n铁路专用产品是指专用于铁路建设、运输、设备制造维修且涉及铁路运输安全、环境保护的工业产品。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "838ad68f944a1b04",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "aad75517bf8a792a",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第三条｜监督抽查工作应当坚持生命至上、安全第一，科学、公正、公平的基本原则，严格执行有关规定和相关工作程序\n证据定位： DOC0016-K03；S0029，第一章 总则，第三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n监督抽查工作应当坚持生命至上、安全第一，科学、公正、公平的基本原则，严格执行有关规定和相关工作程序。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第三条｜监督抽查工作应当坚持生命至上、安全第一，科学、公正、公平的基本原则，严格执行有关规定和相关工作程序\n证据定位： DOC0016-K03；S0029，第一章 总则，第三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n监督抽查工作应当坚持生命至上、安全第一，科学、公正、公平的基本原则，严格执行有关规定和相关工作程序。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "aad75517bf8a792a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "61ad4b395f399d4e",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第四条｜铁路专用产品质量检验应当以国家标准、铁路行业标准及相关技术规范为主要依据\n证据定位： DOC0016-K04；S0029，第一章 总则，第四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n铁路专用产品质量检验应当以国家标准、铁路行业标准及相关技术规范为主要依据。\n监督抽查实行抽检分离制度，按铁路专用产品检验检测细则（以下简称检验检测细则）实施。除现场检验外，抽样人员不得承担其抽样产品的检验工作。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第四条｜铁路专用产品质量检验应当以国家标准、铁路行业标准及相关技术规范为主要依据\n证据定位： DOC0016-K04；S0029，第一章 总则，第四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n铁路专用产品质量检验应当以国家标准、铁路行业标准及相关技术规范为主要依据。\n监督抽查实行抽检分离制度，按铁路专用产品检验检测细则（以下简称检验检测细则）实施。除现场检验外，抽样人员不得承担其抽样产品的检验工作。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "61ad4b395f399d4e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "46e7e0d1914e4599",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第五条｜监督抽查工作中的样品抽取、运输、检验及复查等费用，按照国家有关规定列入政府财政预算管理\n证据定位： DOC0016-K05；S0029，第一章 总则，第五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n监督抽查工作中的样品抽取、运输、检验及复查等费用，按照国家有关规定列入政府财政预算管理。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第五条｜监督抽查工作中的样品抽取、运输、检验及复查等费用，按照国家有关规定列入政府财政预算管理\n证据定位： DOC0016-K05；S0029，第一章 总则，第五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n监督抽查工作中的样品抽取、运输、检验及复查等费用，按照国家有关规定列入政府财政预算管理。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "46e7e0d1914e4599",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e8939170b769ea33",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第二章 机构职责\n### 第六条｜国家铁路局负责组织开展监督抽查工作，具体工作由国家铁路局设备监督管理司负责，主要职责包括\n证据定位： DOC0016-K06；S0029，第二章 机构职责，第六条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局负责组织开展监督抽查工作，具体工作由国家铁路局设备监督管理司负责，主要职责包括：\n（一）拟定监督抽查有关办法；\n（二）编制监督抽查年度计划并组织实施；\n（三）编制发布监督抽查公告；\n（四）组织编制并发布检验检测细则，指导细则归口单位开展相关工作；\n（五）组织建立铁路专用产品信息库；\n（六）建立铁路专用产品检验机构信息库；\n（七）处理监督抽查相关申诉、投诉。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第二章 机构职责\n### 第六条｜国家铁路局负责组织开展监督抽查工作，具体工作由国家铁路局设备监督管理司负责，主要职责包括\n证据定位： DOC0016-K06；S0029，第二章 机构职责，第六条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局负责组织开展监督抽查工作，具体工作由国家铁路局设备监督管理司负责，主要职责包括：\n（一）拟定监督抽查有关办法；\n（二）编制监督抽查年度计划并组织实施；\n（三）编制发布监督抽查公告；\n（四）组织编制并发布检验检测细则，指导细则归口单位开展相关工作；\n（五）组织建立铁路专用产品信息库；\n（六）建立铁路专用产品检验机构信息库；\n（七）处理监督抽查相关申诉、投诉。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "e8939170b769ea33",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "13832d9f44f37df9",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第二章 机构职责\n### 第七条｜地区铁路监督管理局（含北京铁路督察室，下同）负责辖区内监督抽查有关工作，主要职责包括\n证据定位： DOC0016-K07；S0029，第二章 机构职责，第七条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n地区铁路监督管理局（含北京铁路督察室，下同）负责辖区内监督抽查有关工作，主要职责包括：\n（一）组织辖区内监督抽查抽样工作；\n（二）督促辖区内监督抽查不合格生产企业整改；\n（三）督促辖区内铁路运输企业监督抽查不合格产品处置；\n（四）参与协调解决辖区内监督抽查相关申诉、投诉；\n（五）建立辖区内铁路专用产品生产企业信息库；\n（六）完成国家铁路局交办的监督抽查其他工作。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第二章 机构职责\n### 第七条｜地区铁路监督管理局（含北京铁路督察室，下同）负责辖区内监督抽查有关工作，主要职责包括\n证据定位： DOC0016-K07；S0029，第二章 机构职责，第七条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n地区铁路监督管理局（含北京铁路督察室，下同）负责辖区内监督抽查有关工作，主要职责包括：\n（一）组织辖区内监督抽查抽样工作；\n（二）督促辖区内监督抽查不合格生产企业整改；\n（三）督促辖区内铁路运输企业监督抽查不合格产品处置；\n（四）参与协调解决辖区内监督抽查相关申诉、投诉；\n（五）建立辖区内铁路专用产品生产企业信息库；\n（六）完成国家铁路局交办的监督抽查其他工作。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "13832d9f44f37df9",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "470cf7f2f3a678b1",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第二章 机构职责\n### 第八条｜国家铁路局按照政府采购等有关要求，确定抽样机构、检验机构并签订委托协议，明确权利、义务、违约责任等内容\n证据定位： DOC0016-K08；S0029，第二章 机构职责，第八条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局按照政府采购等有关要求，确定抽样机构、检验机构并签订委托协议，明确权利、义务、违约责任等内容。\n抽样机构、检验机构应当在委托范围内开展工作，并保证工作及其结果的科学、公正、准确。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第二章 机构职责\n### 第八条｜国家铁路局按照政府采购等有关要求，确定抽样机构、检验机构并签订委托协议，明确权利、义务、违约责任等内容\n证据定位： DOC0016-K08；S0029，第二章 机构职责，第八条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局按照政府采购等有关要求，确定抽样机构、检验机构并签订委托协议，明确权利、义务、违约责任等内容。\n抽样机构、检验机构应当在委托范围内开展工作，并保证工作及其结果的科学、公正、准确。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "470cf7f2f3a678b1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "90dcdde84f2b8128",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第三章 抽查计划\n### 第九条｜编制监督抽查计划时,应当遵循先重要产品后一般产品、先关键项点后普通项点的原则\n证据定位： DOC0016-K09；S0029，第三章 抽查计划，第九条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n编制监督抽查计划时,应当遵循先重要产品后一般产品、先关键项点后普通项点的原则。\n重要产品是指与铁路运输安全关系密切，且发生质量问题可能对铁路运输、人民生命财产安全构成较大影响的铁路专用产品。\n关键项点是指出现不合格可直接导致产品出现严重质量问题影响安全的参数或者指标。对产品质量影响较大、现场运用质量问题较多的项点应当优先安排抽查。\n因质量原因导致连续发生设备故障或者责任铁路交通事故、发生缺陷产品召回、质量出现异常波动、投诉举报较多的铁路专用产品，应当加大抽查生产企业比例或者产品抽查频次，必要时可将发生产品质量问题的生产企业直接列入监督抽查计划。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第三章 抽查计划\n### 第九条｜编制监督抽查计划时,应当遵循先重要产品后一般产品、先关键项点后普通项点的原则\n证据定位： DOC0016-K09；S0029，第三章 抽查计划，第九条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n编制监督抽查计划时,应当遵循先重要产品后一般产品、先关键项点后普通项点的原则。\n重要产品是指与铁路运输安全关系密切，且发生质量问题可能对铁路运输、人民生命财产安全构成较大影响的铁路专用产品。\n关键项点是指出现不合格可直接导致产品出现严重质量问题影响安全的参数或者指标。对产品质量影响较大、现场运用质量问题较多的项点应当优先安排抽查。\n因质量原因导致连续发生设备故障或者责任铁路交通事故、发生缺陷产品召回、质量出现异常波动、投诉举报较多的铁路专用产品，应当加大抽查生产企业比例或者产品抽查频次，必要时可将发生产品质量问题的生产企业直接列入监督抽查计划。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "90dcdde84f2b8128",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a0b54b2ec0080337",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第三章 抽查计划\n### 第十条｜国家铁路局应当定期检查监督抽查年度计划执行情况，协调解决计划执行中的有关问题\n证据定位： DOC0016-K10；S0029，第三章 抽查计划，第十条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局应当定期检查监督抽查年度计划执行情况，协调解决计划执行中的有关问题。\n国家铁路局可根据铁路运输安全情况动态调整监督抽查年度计划。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第三章 抽查计划\n### 第十条｜国家铁路局应当定期检查监督抽查年度计划执行情况，协调解决计划执行中的有关问题\n证据定位： DOC0016-K10；S0029，第三章 抽查计划，第十条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局应当定期检查监督抽查年度计划执行情况，协调解决计划执行中的有关问题。\n国家铁路局可根据铁路运输安全情况动态调整监督抽查年度计划。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "a0b54b2ec0080337",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "633cdf27d890f329",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十一条｜抽样机构应当按照检验检测细则所规定的抽样方案进行抽样\n证据定位： DOC0016-K11；S0029，第四章 产品抽样，第十一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样机构应当按照检验检测细则所规定的抽样方案进行抽样。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十一条｜抽样机构应当按照检验检测细则所规定的抽样方案进行抽样\n证据定位： DOC0016-K11；S0029，第四章 产品抽样，第十一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样机构应当按照检验检测细则所规定的抽样方案进行抽样。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "633cdf27d890f329",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "1a98f1bc1ae0d138",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十二条｜国家铁路局可自行抽样或者委托抽样机构抽样\n证据定位： DOC0016-K12；S0029，第四章 产品抽样，第十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局可自行抽样或者委托抽样机构抽样。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十二条｜国家铁路局可自行抽样或者委托抽样机构抽样\n证据定位： DOC0016-K12；S0029，第四章 产品抽样，第十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局可自行抽样或者委托抽样机构抽样。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "1a98f1bc1ae0d138",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "af4ec1b48119d08e",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十三条｜产品抽样时，抽样人员不得少于两人\n证据定位： DOC0016-K13；S0029，第四章 产品抽样，第十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n产品抽样时，抽样人员不得少于两人。抽样人员不得事先通知被抽查企业或者用户。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十三条｜产品抽样时，抽样人员不得少于两人\n证据定位： DOC0016-K13；S0029，第四章 产品抽样，第十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n产品抽样时，抽样人员不得少于两人。抽样人员不得事先通知被抽查企业或者用户。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "af4ec1b48119d08e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "2f318a0ee0df3e89",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十四条｜抽样人员应当向被抽样单位出示国家铁路局出具的监督抽查通知书和有效身份证件\n证据定位： DOC0016-K14；S0029，第四章 产品抽样，第十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样人员应当向被抽样单位出示国家铁路局出具的监督抽查通知书和有效身份证件。\n抽样人员应当告知被抽样单位抽查产品范围、抽样方法等。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十四条｜抽样人员应当向被抽样单位出示国家铁路局出具的监督抽查通知书和有效身份证件\n证据定位： DOC0016-K14；S0029，第四章 产品抽样，第十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样人员应当向被抽样单位出示国家铁路局出具的监督抽查通知书和有效身份证件。\n抽样人员应当告知被抽样单位抽查产品范围、抽样方法等。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "2f318a0ee0df3e89",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "2de6c5a3403142de",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十五条｜被抽样单位应当按照相关规定配合产品抽样工作，如实提供监督抽查所需材料和信息\n证据定位： DOC0016-K15；S0029，第四章 产品抽样，第十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n被抽样单位应当按照相关规定配合产品抽样工作，如实提供监督抽查所需材料和信息。抽查的样品由生产企业无偿提供；在用户抽样时，被抽查产品的生产企业应当及时向用户补充相关产品。\n抽查的样品应当由抽样人员在被抽样单位随机抽取，不得由被抽样单位自行抽样。\n抽查的样品应当是近期内生产、检验合格并未经使用的产品，可在用户或者生产企业抽取。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十五条｜被抽样单位应当按照相关规定配合产品抽样工作，如实提供监督抽查所需材料和信息\n证据定位： DOC0016-K15；S0029，第四章 产品抽样，第十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n被抽样单位应当按照相关规定配合产品抽样工作，如实提供监督抽查所需材料和信息。抽查的样品由生产企业无偿提供；在用户抽样时，被抽查产品的生产企业应当及时向用户补充相关产品。\n抽查的样品应当由抽样人员在被抽样单位随机抽取，不得由被抽样单位自行抽样。\n抽查的样品应当是近期内生产、检验合格并未经使用的产品，可在用户或者生产企业抽取。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "2de6c5a3403142de",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f8225b01cd2dcaf3",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十六条｜因转产、停产等原因致使无法抽样的，生产企业应当出具书面说明材料，并提供相关生产、销售记录\n证据定位： DOC0016-K16；S0029，第四章 产品抽样，第十六条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n因转产、停产等原因致使无法抽样的，生产企业应当出具书面说明材料，并提供相关生产、销售记录；抽样人员应当如实记录，并由抽样机构报送国家铁路局。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十六条｜因转产、停产等原因致使无法抽样的，生产企业应当出具书面说明材料，并提供相关生产、销售记录\n证据定位： DOC0016-K16；S0029，第四章 产品抽样，第十六条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n因转产、停产等原因致使无法抽样的，生产企业应当出具书面说明材料，并提供相关生产、销售记录；抽样人员应当如实记录，并由抽样机构报送国家铁路局。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "f8225b01cd2dcaf3",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ebb62a6ad2b6819c",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十七条｜生产企业无正当理由拒绝进行抽样的\n证据定位： DOC0016-K17；S0029，第四章 产品抽样，第十七条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n生产企业无正当理由拒绝进行抽样的，或者生产企业采用提供虚假信息等方式阻碍、规避或者不配合抽样的，视为该企业拒绝监督抽查（以下简称拒检）。\n用户拒绝进行抽样的，抽样机构应当及时报告国家铁路局。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十七条｜生产企业无正当理由拒绝进行抽样的\n证据定位： DOC0016-K17；S0029，第四章 产品抽样，第十七条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n生产企业无正当理由拒绝进行抽样的，或者生产企业采用提供虚假信息等方式阻碍、规避或者不配合抽样的，视为该企业拒绝监督抽查（以下简称拒检）。\n用户拒绝进行抽样的，抽样机构应当及时报告国家铁路局。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "ebb62a6ad2b6819c",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "09cb5d0454106e3b",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十八条｜有下列情形之一的，抽样人员不得抽样\n证据定位： DOC0016-K18；S0029，第四章 产品抽样，第十八条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n有下列情形之一的，抽样人员不得抽样：\n（一）抽样产品数量不符合检验检测细则要求的；\n（二）有充分证据表明拟抽样产品不用于销售，或者只用于出口并且出口合同对产品质量另有约定的；\n（三）产品或者其包装上标注“试制”“处理”“样品”等字样的。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十八条｜有下列情形之一的，抽样人员不得抽样\n证据定位： DOC0016-K18；S0029，第四章 产品抽样，第十八条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n有下列情形之一的，抽样人员不得抽样：\n（一）抽样产品数量不符合检验检测细则要求的；\n（二）有充分证据表明拟抽样产品不用于销售，或者只用于出口并且出口合同对产品质量另有约定的；\n（三）产品或者其包装上标注“试制”“处理”“样品”等字样的。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "09cb5d0454106e3b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "23bb3fe0e36f0ee6",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十九条｜有下列情形之一的，被抽样单位有权拒绝抽样\n证据定位： DOC0016-K19；S0029，第四章 产品抽样，第十九条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n有下列情形之一的，被抽样单位有权拒绝抽样：\n（一） 抽样人员少于2人的；\n（二） 抽样人员姓名与监督抽查通知书不符的；\n（三） 抽样人员应当携带的监督抽查通知书和有效身份证件不全的；\n（四） 要求支付任何费用的。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十九条｜有下列情形之一的，被抽样单位有权拒绝抽样\n证据定位： DOC0016-K19；S0029，第四章 产品抽样，第十九条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n有下列情形之一的，被抽样单位有权拒绝抽样：\n（一） 抽样人员少于2人的；\n（二） 抽样人员姓名与监督抽查通知书不符的；\n（三） 抽样人员应当携带的监督抽查通知书和有效身份证件不全的；\n（四） 要求支付任何费用的。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "23bb3fe0e36f0ee6",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0efe4befb939d965",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十条｜抽样机构应当使用规定的抽样文书记录抽样信息\n证据定位： DOC0016-K20；S0029，第四章 产品抽样，第二十条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样机构应当使用规定的抽样文书记录抽样信息，并对抽样场所、贮存环境、被抽样产品的标识、库存数量、抽样过程等通过拍照或者录像的方式留存证据。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十条｜抽样机构应当使用规定的抽样文书记录抽样信息\n证据定位： DOC0016-K20；S0029，第四章 产品抽样，第二十条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样机构应当使用规定的抽样文书记录抽样信息，并对抽样场所、贮存环境、被抽样产品的标识、库存数量、抽样过程等通过拍照或者录像的方式留存证据。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "0efe4befb939d965",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "86608946d625d861",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十一条｜抽样文书应当经抽样人员和被抽样单位签字，并加盖公章\n证据定位： DOC0016-K21；S0029，第四章 产品抽样，第二十一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样文书应当经抽样人员和被抽样单位签字，并加盖公章；在用户处抽样的，还需生产企业确认样品符合抽样要求，并加盖公章。抽样文书一式两份，一份随样品寄递至检验机构，一份留存至生产企业。\n抽样文书需更正或者补充的，应当由抽样人员和被抽样单位在更正或者补充处签名、盖章确认。\n被抽样单位拒绝签字的，抽样人员应当在抽样文书上注明情况，必要时可以邀请有关人员见证。\n生产企业对样品有异议的，应当在封样前向抽样机构提出，并提供说明材料。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十一条｜抽样文书应当经抽样人员和被抽样单位签字，并加盖公章\n证据定位： DOC0016-K21；S0029，第四章 产品抽样，第二十一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样文书应当经抽样人员和被抽样单位签字，并加盖公章；在用户处抽样的，还需生产企业确认样品符合抽样要求，并加盖公章。抽样文书一式两份，一份随样品寄递至检验机构，一份留存至生产企业。\n抽样文书需更正或者补充的，应当由抽样人员和被抽样单位在更正或者补充处签名、盖章确认。\n被抽样单位拒绝签字的，抽样人员应当在抽样文书上注明情况，必要时可以邀请有关人员见证。\n生产企业对样品有异议的，应当在封样前向抽样机构提出，并提供说明材料。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "86608946d625d861",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c2cb4e34c24601da",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十二条｜抽样人员应当采取有效的防拆封措施\n证据定位： DOC0016-K22；S0029，第四章 产品抽样，第二十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样人员应当采取有效的防拆封措施，对检验样品和备用样品分别封样，并由抽样人员和被抽样单位相关人员签字确认，以保证样品的真实、完整、有效。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十二条｜抽样人员应当采取有效的防拆封措施\n证据定位： DOC0016-K22；S0029，第四章 产品抽样，第二十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样人员应当采取有效的防拆封措施，对检验样品和备用样品分别封样，并由抽样人员和被抽样单位相关人员签字确认，以保证样品的真实、完整、有效。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "c2cb4e34c24601da",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "272e1c82b64c4866",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十三条｜样品应当由抽样人员携带或者寄递至检验机构进行检验\n证据定位： DOC0016-K23；S0029，第四章 产品抽样，第二十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n样品应当由抽样人员携带或者寄递至检验机构进行检验。对运输、贮存过程有特殊要求的样品，应当采取有效措施，保证样品的运输、贮存过程符合有关规定，不发生影响检验结论的变化。\n样品需要先行存放在被抽样单位的，应当予以封存，并加施封存标识。被抽样单位应当妥善保管封存的样品，不得隐匿、转移、变卖、损毁。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十三条｜样品应当由抽样人员携带或者寄递至检验机构进行检验\n证据定位： DOC0016-K23；S0029，第四章 产品抽样，第二十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n样品应当由抽样人员携带或者寄递至检验机构进行检验。对运输、贮存过程有特殊要求的样品，应当采取有效措施，保证样品的运输、贮存过程符合有关规定，不发生影响检验结论的变化。\n样品需要先行存放在被抽样单位的，应当予以封存，并加施封存标识。被抽样单位应当妥善保管封存的样品，不得隐匿、转移、变卖、损毁。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "272e1c82b64c4866",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "1fbe9fd7846a7d61",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十四条｜抽样机构应当按照监督抽查年度计划完成监督抽查产品抽样工作\n证据定位： DOC0016-K24；S0029，第四章 产品抽样，第二十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样机构应当按照监督抽查年度计划完成监督抽查产品抽样工作，向国家铁路局报送抽样相关材料，并定期报告完成情况。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第二十四条｜抽样机构应当按照监督抽查年度计划完成监督抽查产品抽样工作\n证据定位： DOC0016-K24；S0029，第四章 产品抽样，第二十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样机构应当按照监督抽查年度计划完成监督抽查产品抽样工作，向国家铁路局报送抽样相关材料，并定期报告完成情况。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "1fbe9fd7846a7d61",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "fb2343e86a455657",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第二十五条｜检验机构应当按照检验检测细则所规定的检验要求进行检验\n证据定位： DOC0016-K25；S0029，第五章 质量检验，第二十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验机构应当按照检验检测细则所规定的检验要求进行检验。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第二十五条｜检验机构应当按照检验检测细则所规定的检验要求进行检验\n证据定位： DOC0016-K25；S0029，第五章 质量检验，第二十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验机构应当按照检验检测细则所规定的检验要求进行检验。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "fb2343e86a455657",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a2cc6ac65b05b96f",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第二十六条｜国家铁路局委托具有法定资质的检验机构检验\n证据定位： DOC0016-K26；S0029，第五章 质量检验，第二十六条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局委托具有法定资质的检验机构检验。\n检验机构应当具有相应的专业能力和检测条件。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第二十六条｜国家铁路局委托具有法定资质的检验机构检验\n证据定位： DOC0016-K26；S0029，第五章 质量检验，第二十六条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局委托具有法定资质的检验机构检验。\n检验机构应当具有相应的专业能力和检测条件。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "a2cc6ac65b05b96f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4c4ae3f6e161b78d",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第二十七条｜检验机构收到样品后，应当及时告知抽样机构，并核对样品与抽样文书记录的一致性\n证据定位： DOC0016-K27；S0029，第五章 质量检验，第二十七条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验机构收到样品后，应当及时告知抽样机构，并核对样品与抽样文书记录的一致性。\n检验机构应当通过拍照或者录像方式记录拆封过程，对寄递包装、样品包装、样品标识、样品寄递情形、封条等进行查验有无破损以及其他可能对检验结论产生影响的情形。\n对于抽样不规范的样品，检验机构应当拒绝接收并书面说明理由，同时向国家铁路局报告。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第二十七条｜检验机构收到样品后，应当及时告知抽样机构，并核对样品与抽样文书记录的一致性\n证据定位： DOC0016-K27；S0029，第五章 质量检验，第二十七条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验机构收到样品后，应当及时告知抽样机构，并核对样品与抽样文书记录的一致性。\n检验机构应当通过拍照或者录像方式记录拆封过程，对寄递包装、样品包装、样品标识、样品寄递情形、封条等进行查验有无破损以及其他可能对检验结论产生影响的情形。\n对于抽样不规范的样品，检验机构应当拒绝接收并书面说明理由，同时向国家铁路局报告。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "4c4ae3f6e161b78d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b7e58e7758722e76",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第二十八条｜检验过程中遇有检验检测仪器设备故障等情况致使检验无法进行时\n证据定位： DOC0016-K28；S0029，第五章 质量检验，第二十八条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验过程中遇有检验检测仪器设备故障等情况致使检验无法进行时，检验人员应当如实记录，并提供相关证明材料，报送国家铁路局。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第二十八条｜检验过程中遇有检验检测仪器设备故障等情况致使检验无法进行时\n证据定位： DOC0016-K28；S0029，第五章 质量检验，第二十八条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验过程中遇有检验检测仪器设备故障等情况致使检验无法进行时，检验人员应当如实记录，并提供相关证明材料，报送国家铁路局。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "b7e58e7758722e76",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a0a380bbd8d591af",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第二十九条｜检验机构应当使用规定的检测报告模板\n证据定位： DOC0016-K29；S0029，第五章 质量检验，第二十九条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验机构应当使用规定的检测报告模板，检测报告内容应当齐全，检验数据应当准确，结论明确，并按照有关规定签字、盖章。\n检验机构和检验人员应当对其出具的检测报告负责。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第二十九条｜检验机构应当使用规定的检测报告模板\n证据定位： DOC0016-K29；S0029，第五章 质量检验，第二十九条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验机构应当使用规定的检测报告模板，检测报告内容应当齐全，检验数据应当准确，结论明确，并按照有关规定签字、盖章。\n检验机构和检验人员应当对其出具的检测报告负责。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "a0a380bbd8d591af",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c2c472f15063ccd6",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第三十条｜检验机构应当按照监督抽查年度计划完成监督抽查产品质量检验工作\n证据定位： DOC0016-K30；S0029，第五章 质量检验，第三十条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验机构应当按照监督抽查年度计划完成监督抽查产品质量检验工作，向国家铁路局报送抽样文书、检测报告及相关材料，并定期报告完成情况。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第三十条｜检验机构应当按照监督抽查年度计划完成监督抽查产品质量检验工作\n证据定位： DOC0016-K30；S0029，第五章 质量检验，第三十条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验机构应当按照监督抽查年度计划完成监督抽查产品质量检验工作，向国家铁路局报送抽样文书、检测报告及相关材料，并定期报告完成情况。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "c2c472f15063ccd6",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3ebfd45c2533c3f7",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第三十一条｜样品应当在监督抽查结果发布后退还生产企业\n证据定位： DOC0016-K31；S0029，第五章 质量检验，第三十一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n样品应当在监督抽查结果发布后退还生产企业。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第五章 质量检验\n### 第三十一条｜样品应当在监督抽查结果发布后退还生产企业\n证据定位： DOC0016-K31；S0029，第五章 质量检验，第三十一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n样品应当在监督抽查结果发布后退还生产企业。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "3ebfd45c2533c3f7",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "47086183c71c077a",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第六章 异议处理\n### 第三十二条｜检验结果不合格的，检验机构应当在5日内将检测报告送达生产企业\n证据定位： DOC0016-K32；S0029，第六章 异议处理，第三十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验结果不合格的，检验机构应当在5日内将检测报告送达生产企业；生产企业对抽样过程、样品真实性、检验结论有异议的，应当自收到检验结果通知单之日起15日内向国家铁路局提出书面异议处理申请，并提交相关材料。\n国家铁路局收到异议处理申请后，应当组织异议处理，并将处理结论书面告知申请人。\n具备复检条件的，国家铁路局组织具备相应资质的检验机构进行复检，复检机构与初检机构不得为同一机构，仅有一个检验机构具备相应资质的除外。复检结论为最终结论。\n期限依赖（第五十三条原文）： 本办法中所称“日”为自然日。期间届满最后一日为法定节假日的，以法定节假日后的第一日为期间届满的日期。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第六章 异议处理\n### 第三十二条｜检验结果不合格的，检验机构应当在5日内将检测报告送达生产企业\n证据定位： DOC0016-K32；S0029，第六章 异议处理，第三十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验结果不合格的，检验机构应当在5日内将检测报告送达生产企业；生产企业对抽样过程、样品真实性、检验结论有异议的，应当自收到检验结果通知单之日起15日内向国家铁路局提出书面异议处理申请，并提交相关材料。\n国家铁路局收到异议处理申请后，应当组织异议处理，并将处理结论书面告知申请人。\n具备复检条件的，国家铁路局组织具备相应资质的检验机构进行复检，复检机构与初检机构不得为同一机构，仅有一个检验机构具备相应资质的除外。复检结论为最终结论。\n期限依赖（第五十三条原文）： 本办法中所称“日”为自然日。期间届满最后一日为法定节假日的，以法定节假日后的第一日为期间届满的日期。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "47086183c71c077a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0b97b2aac081c019",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第六章 异议处理\n### 第三十三条｜生产企业隐匿、转移、变卖、损毁备用样品的，应当终止复检，并以初检结论为最终结论\n证据定位： DOC0016-K33；S0029，第六章 异议处理，第三十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n生产企业隐匿、转移、变卖、损毁备用样品的，应当终止复检，并以初检结论为最终结论。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第六章 异议处理\n### 第三十三条｜生产企业隐匿、转移、变卖、损毁备用样品的，应当终止复检，并以初检结论为最终结论\n证据定位： DOC0016-K33；S0029，第六章 异议处理，第三十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n生产企业隐匿、转移、变卖、损毁备用样品的，应当终止复检，并以初检结论为最终结论。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "0b97b2aac081c019",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3e7d34ecdda05d51",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第六章 异议处理\n### 第三十四条｜复检结论表明样品合格的，复检费用列入监督抽查经费\n证据定位： DOC0016-K34；S0029，第六章 异议处理，第三十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n复检结论表明样品合格的，复检费用列入监督抽查经费；复检结论表明样品不合格的，复检费用由样品生产企业承担。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第六章 异议处理\n### 第三十四条｜复检结论表明样品合格的，复检费用列入监督抽查经费\n证据定位： DOC0016-K34；S0029，第六章 异议处理，第三十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n复检结论表明样品合格的，复检费用列入监督抽查经费；复检结论表明样品不合格的，复检费用由样品生产企业承担。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "3e7d34ecdda05d51",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ecc6ac7a52d56f27",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十五条｜国家铁路局编制监督抽查公告并在国家铁路局政府网站发布\n证据定位： DOC0016-K35；S0029，第七章 结果处理，第三十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局编制监督抽查公告并在国家铁路局政府网站发布。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十五条｜国家铁路局编制监督抽查公告并在国家铁路局政府网站发布\n证据定位： DOC0016-K35；S0029，第七章 结果处理，第三十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局编制监督抽查公告并在国家铁路局政府网站发布。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "ecc6ac7a52d56f27",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "2dfc48648b1f4ca6",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十六条｜拒检企业的产品按不合格处理，并予以公告\n证据定位： DOC0016-K36；S0029，第七章 结果处理，第三十六条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n拒检企业的产品按不合格处理，并予以公告。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十六条｜拒检企业的产品按不合格处理，并予以公告\n证据定位： DOC0016-K36；S0029，第七章 结果处理，第三十六条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n拒检企业的产品按不合格处理，并予以公告。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "2dfc48648b1f4ca6",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "57dafce312e1f306",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十七条｜对公告的不合格产品，生产企业不得销售，使用单位不得采购、库存产品不得使用\n证据定位： DOC0016-K37；S0029，第七章 结果处理，第三十七条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n对公告的不合格产品，生产企业不得销售，使用单位不得采购、库存产品不得使用。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十七条｜对公告的不合格产品，生产企业不得销售，使用单位不得采购、库存产品不得使用\n证据定位： DOC0016-K37；S0029，第七章 结果处理，第三十七条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n对公告的不合格产品，生产企业不得销售，使用单位不得采购、库存产品不得使用。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "57dafce312e1f306",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7b5f41c5000e9813",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十八条｜不合格产品生产企业，应当按下列要求进行整改:\n证据定位： DOC0016-K38；S0029，第七章 结果处理，第三十八条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n不合格产品生产企业，应当按下列要求进行整改:\n（一）立即停止不合格产品生产；\n（二）查明产品不合格产生的原因，查清质量责任，制定整改方案，落实整改工作；\n（三）对在制产品、库存产品进行全面清理，防止不合格产品继续出厂。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十八条｜不合格产品生产企业，应当按下列要求进行整改:\n证据定位： DOC0016-K38；S0029，第七章 结果处理，第三十八条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n不合格产品生产企业，应当按下列要求进行整改:\n（一）立即停止不合格产品生产；\n（二）查明产品不合格产生的原因，查清质量责任，制定整改方案，落实整改工作；\n（三）对在制产品、库存产品进行全面清理，防止不合格产品继续出厂。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "7b5f41c5000e9813",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0ddd1a946f087a15",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十九条｜对已售出的不合格产品，生产企业应当及时通知使用单位，并采取有效措施保障铁路运营安全\n证据定位： DOC0016-K39；S0029，第七章 结果处理，第三十九条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n对已售出的不合格产品，生产企业应当及时通知使用单位，并采取有效措施保障铁路运营安全。\n对已使用的不合格产品，铁路运输企业应当制定安全措施并组织实施。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十九条｜对已售出的不合格产品，生产企业应当及时通知使用单位，并采取有效措施保障铁路运营安全\n证据定位： DOC0016-K39；S0029，第七章 结果处理，第三十九条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n对已售出的不合格产品，生产企业应当及时通知使用单位，并采取有效措施保障铁路运营安全。\n对已使用的不合格产品，铁路运输企业应当制定安全措施并组织实施。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "0ddd1a946f087a15",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "502401476fe755ed",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十条｜自监督抽查公告发布之日起15日内，不合格产品生产企业应当向国家铁路局提交整改计划\n证据定位： DOC0016-K40；S0029，第七章 结果处理，第四十条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n自监督抽查公告发布之日起15日内，不合格产品生产企业应当向国家铁路局提交整改计划。\n自监督抽查公告发布之日起6个月内，不合格产品生产企业按要求进行整改后，应当向国家铁路局提交整改报告和复查申请。因运用考核、产品验证等技术原因，可适当延长申请时限。\n国家铁路局组织地区铁路监督管理局对整改情况及复查条件进行检查确认。\n具备复查条件的，国家铁路局组织具备相应资质的检验机构进行复查。\n期限依赖（第五十三条原文）： 本办法中所称“日”为自然日。期间届满最后一日为法定节假日的，以法定节假日后的第一日为期间届满的日期。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十条｜自监督抽查公告发布之日起15日内，不合格产品生产企业应当向国家铁路局提交整改计划\n证据定位： DOC0016-K40；S0029，第七章 结果处理，第四十条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n自监督抽查公告发布之日起15日内，不合格产品生产企业应当向国家铁路局提交整改计划。\n自监督抽查公告发布之日起6个月内，不合格产品生产企业按要求进行整改后，应当向国家铁路局提交整改报告和复查申请。因运用考核、产品验证等技术原因，可适当延长申请时限。\n国家铁路局组织地区铁路监督管理局对整改情况及复查条件进行检查确认。\n具备复查条件的，国家铁路局组织具备相应资质的检验机构进行复查。\n期限依赖（第五十三条原文）： 本办法中所称“日”为自然日。期间届满最后一日为法定节假日的，以法定节假日后的第一日为期间届满的日期。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "502401476fe755ed",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0c071fc0b0ae9e1e",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十一条｜应当进行复查的生产企业到期未提出复查申请的，按复查不合格处理\n证据定位： DOC0016-K41；S0029，第七章 结果处理，第四十一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n应当进行复查的生产企业到期未提出复查申请的，按复查不合格处理。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十一条｜应当进行复查的生产企业到期未提出复查申请的，按复查不合格处理\n证据定位： DOC0016-K41；S0029，第七章 结果处理，第四十一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n应当进行复查的生产企业到期未提出复查申请的，按复查不合格处理。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "0c071fc0b0ae9e1e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "9f6ff46f331f7181",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十二条｜对监督抽查不合格且复查仍不合格或者两年内连续两次监督抽查不合格的产品\n证据定位： DOC0016-K42；S0029，第七章 结果处理，第四十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n对监督抽查不合格且复查仍不合格或者两年内连续两次监督抽查不合格的产品，自公布之日起两年期满后，产品生产企业方可向国家铁路局申请再次复查。\n期限依赖（第五十三条原文）： 本办法中所称“日”为自然日。期间届满最后一日为法定节假日的，以法定节假日后的第一日为期间届满的日期。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十二条｜对监督抽查不合格且复查仍不合格或者两年内连续两次监督抽查不合格的产品\n证据定位： DOC0016-K42；S0029，第七章 结果处理，第四十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n对监督抽查不合格且复查仍不合格或者两年内连续两次监督抽查不合格的产品，自公布之日起两年期满后，产品生产企业方可向国家铁路局申请再次复查。\n期限依赖（第五十三条原文）： 本办法中所称“日”为自然日。期间届满最后一日为法定节假日的，以法定节假日后的第一日为期间届满的日期。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "9f6ff46f331f7181",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e93220344beac52e",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十三条｜因转产、停产原因致使无法抽样的生产企业，国家铁路局予以公告\n证据定位： DOC0016-K43；S0029，第七章 结果处理，第四十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n因转产、停产原因致使无法抽样的生产企业，国家铁路局予以公告。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十三条｜因转产、停产原因致使无法抽样的生产企业，国家铁路局予以公告\n证据定位： DOC0016-K43；S0029，第七章 结果处理，第四十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n因转产、停产原因致使无法抽样的生产企业，国家铁路局予以公告。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "e93220344beac52e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "1ee121258d907afe",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十四条｜监督抽查发现产品存在区域性、行业性质量问题\n证据定位： DOC0016-K44；S0029，第七章 结果处理，第四十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n监督抽查发现产品存在区域性、行业性质量问题，国家铁路局或者地区铁路监督管理局组织召开质量分析会，指导相关产品生产企业加强质量管理。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十四条｜监督抽查发现产品存在区域性、行业性质量问题\n证据定位： DOC0016-K44；S0029，第七章 结果处理，第四十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n监督抽查发现产品存在区域性、行业性质量问题，国家铁路局或者地区铁路监督管理局组织召开质量分析会，指导相关产品生产企业加强质量管理。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "1ee121258d907afe",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "71c92ee54e103f35",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第四十五条｜国家铁路局应当定期组织对抽样机构、检验机构的工作情况进行监督检查\n证据定位： DOC0016-K45；S0029，第八章 监督管理，第四十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局应当定期组织对抽样机构、检验机构的工作情况进行监督检查。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第四十五条｜国家铁路局应当定期组织对抽样机构、检验机构的工作情况进行监督检查\n证据定位： DOC0016-K45；S0029，第八章 监督管理，第四十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局应当定期组织对抽样机构、检验机构的工作情况进行监督检查。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "71c92ee54e103f35",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4d0fc6889570ad12",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第四十六条｜参与监督抽查工作的人员，应当严格遵守有关法律、法规、规章和相关制度\n证据定位： DOC0016-K46；S0029，第八章 监督管理，第四十六条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n参与监督抽查工作的人员，应当严格遵守有关法律、法规、规章和相关制度。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第四十六条｜参与监督抽查工作的人员，应当严格遵守有关法律、法规、规章和相关制度\n证据定位： DOC0016-K46；S0029，第八章 监督管理，第四十六条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n参与监督抽查工作的人员，应当严格遵守有关法律、法规、规章和相关制度。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "4d0fc6889570ad12",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "bfa9cdd8cb6db793",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第四十七条｜检验机构不得承担对检验结果公正性有影响的检验项目\n证据定位： DOC0016-K47；S0029，第八章 监督管理，第四十七条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验机构不得承担对检验结果公正性有影响的检验项目。检验机构及其控股股东、实际控制人不得与被抽查企业存在下列关系：\n（一）股权控制关系；\n（二）重大业务往来；\n（三）其他可能影响检验公正性的关系。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第四十七条｜检验机构不得承担对检验结果公正性有影响的检验项目\n证据定位： DOC0016-K47；S0029，第八章 监督管理，第四十七条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n检验机构不得承担对检验结果公正性有影响的检验项目。检验机构及其控股股东、实际控制人不得与被抽查企业存在下列关系：\n（一）股权控制关系；\n（二）重大业务往来；\n（三）其他可能影响检验公正性的关系。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "bfa9cdd8cb6db793",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "d801795b7dc2d65f",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第四十八条｜任何人不得擅自将检验结果及有关材料对外泄露，不得擅自发布监督抽查信息\n证据定位： DOC0016-K48；S0029，第八章 监督管理，第四十八条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n任何人不得擅自将检验结果及有关材料对外泄露，不得擅自发布监督抽查信息。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第四十八条｜任何人不得擅自将检验结果及有关材料对外泄露，不得擅自发布监督抽查信息\n证据定位： DOC0016-K48；S0029，第八章 监督管理，第四十八条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n任何人不得擅自将检验结果及有关材料对外泄露，不得擅自发布监督抽查信息。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "d801795b7dc2d65f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f52a6a2ded4d05e6",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第四十九条｜被抽样生产企业具有以下行为之一的，由国家铁路局或者地区铁路监督管理局责令改正\n证据定位： DOC0016-K49；S0029，第八章 监督管理，第四十九条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n被抽样生产企业具有以下行为之一的，由国家铁路局或者地区铁路监督管理局责令改正；情节严重或者拒不改正的，移交市场监督管理部门处理。\n（一）被抽样产品存在严重质量问题的；\n（二）阻碍、拒绝或者不配合依法进行监督抽查的；\n（三）拒绝向用户补充样品的；\n（四）对已售出的不合格产品未及时采取有效措施的；\n（五）未经国家铁路局认定复查合格恢复生产、销售同一产品的；\n（六）隐匿、转移、变卖、损毁样品的。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第四十九条｜被抽样生产企业具有以下行为之一的，由国家铁路局或者地区铁路监督管理局责令改正\n证据定位： DOC0016-K49；S0029，第八章 监督管理，第四十九条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n被抽样生产企业具有以下行为之一的，由国家铁路局或者地区铁路监督管理局责令改正；情节严重或者拒不改正的，移交市场监督管理部门处理。\n（一）被抽样产品存在严重质量问题的；\n（二）阻碍、拒绝或者不配合依法进行监督抽查的；\n（三）拒绝向用户补充样品的；\n（四）对已售出的不合格产品未及时采取有效措施的；\n（五）未经国家铁路局认定复查合格恢复生产、销售同一产品的；\n（六）隐匿、转移、变卖、损毁样品的。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "f52a6a2ded4d05e6",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "17f35f3740f52ba4",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第五十条｜用户拒绝进行抽样的，或者隐匿、转移、变卖、损毁样品的，由国家铁路局予以通报\n证据定位： DOC0016-K50；S0029，第八章 监督管理，第五十条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n用户拒绝进行抽样的，或者隐匿、转移、变卖、损毁样品的，由国家铁路局予以通报；造成严重后果的，移交市场监督管理部门处理。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第五十条｜用户拒绝进行抽样的，或者隐匿、转移、变卖、损毁样品的，由国家铁路局予以通报\n证据定位： DOC0016-K50；S0029，第八章 监督管理，第五十条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n用户拒绝进行抽样的，或者隐匿、转移、变卖、损毁样品的，由国家铁路局予以通报；造成严重后果的，移交市场监督管理部门处理。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "17f35f3740f52ba4",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "aa44e91e7e511913",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第五十一条｜抽样机构、检验机构及人员具有以下行为之一的，依照《产品质量法》相关规定处理\n证据定位： DOC0016-K51；S0029，第八章 监督管理，第五十一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样机构、检验机构及人员具有以下行为之一的，依照《产品质量法》相关规定处理。《产品质量法》未作规定的，由国家铁路局责令改正；情节严重或者拒不改正的，依法移交市场监督管理部门处理。\n（一）在实施抽样前以任何方式将监督抽查有关内容告知被抽查企业或者用户；\n（二）转包检验任务或者未经国家铁路局同意分包检验任务；\n（三）出具虚假检验报告；\n（四）在承担监督抽查相关工作期间，与被抽查企业签订监督抽查同类产品的有偿服务协议或者接受被抽查企业对同一产品的委托检验；\n（五）利用监督抽查结果开展产品推荐、评比，出具监督抽查产品合格证书、牌匾等；\n（六）利用承担监督抽查相关工作的便利，牟取非法或者不当利益；\n（七）违反规定向被抽查企业收取抽样、检验等与监督抽查有关的费用。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第八章 监督管理\n### 第五十一条｜抽样机构、检验机构及人员具有以下行为之一的，依照《产品质量法》相关规定处理\n证据定位： DOC0016-K51；S0029，第八章 监督管理，第五十一条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样机构、检验机构及人员具有以下行为之一的，依照《产品质量法》相关规定处理。《产品质量法》未作规定的，由国家铁路局责令改正；情节严重或者拒不改正的，依法移交市场监督管理部门处理。\n（一）在实施抽样前以任何方式将监督抽查有关内容告知被抽查企业或者用户；\n（二）转包检验任务或者未经国家铁路局同意分包检验任务；\n（三）出具虚假检验报告；\n（四）在承担监督抽查相关工作期间，与被抽查企业签订监督抽查同类产品的有偿服务协议或者接受被抽查企业对同一产品的委托检验；\n（五）利用监督抽查结果开展产品推荐、评比，出具监督抽查产品合格证书、牌匾等；\n（六）利用承担监督抽查相关工作的便利，牟取非法或者不当利益；\n（七）违反规定向被抽查企业收取抽样、检验等与监督抽查有关的费用。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "aa44e91e7e511913",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a0ceeddd1c33538b",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第九章 附则\n### 第五十二条｜国家铁路局应当妥善保存抽样文书等有关材料、证据，保存期限不得少于两年\n证据定位： DOC0016-K52；S0029，第九章 附则，第五十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局应当妥善保存抽样文书等有关材料、证据，保存期限不得少于两年。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第九章 附则\n### 第五十二条｜国家铁路局应当妥善保存抽样文书等有关材料、证据，保存期限不得少于两年\n证据定位： DOC0016-K52；S0029，第九章 附则，第五十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局应当妥善保存抽样文书等有关材料、证据，保存期限不得少于两年。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "a0ceeddd1c33538b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a3ef4834daa0eb2d",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第九章 附则\n### 第五十三条｜本办法中所称“日”为自然日\n证据定位： DOC0016-K53；S0029，第九章 附则，第五十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n本办法中所称“日”为自然日。期间届满最后一日为法定节假日的，以法定节假日后的第一日为期间届满的日期。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第九章 附则\n### 第五十三条｜本办法中所称“日”为自然日\n证据定位： DOC0016-K53；S0029，第九章 附则，第五十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n本办法中所称“日”为自然日。期间届满最后一日为法定节假日的，以法定节假日后的第一日为期间届满的日期。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "a3ef4834daa0eb2d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "cc8d2c9bb3106e61",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第九章 附则\n### 第五十四条｜本办法由国家铁路局负责解释\n证据定位： DOC0016-K54；S0029，第九章 附则，第五十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n本办法由国家铁路局负责解释。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第九章 附则\n### 第五十四条｜本办法由国家铁路局负责解释\n证据定位： DOC0016-K54；S0029，第九章 附则，第五十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n本办法由国家铁路局负责解释。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "cc8d2c9bb3106e61",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e2c6040041a39505",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 第九章 附则\n### 第五十五条｜本办法自2026年3月15日起施行\n证据定位： DOC0016-K55；S0029，第九章 附则，第五十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n本办法自2026年3月15日起施行。2023年7月25日国家铁路局印发的《铁路专用产品质量监督抽查管理办法》（国铁设备监规〔2023〕18号）同时废止。\n期限依赖（第五十三条原文）： 本办法中所称“日”为自然日。期间届满最后一日为法定节假日的，以法定节假日后的第一日为期间届满的日期。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 第九章 附则\n### 第五十五条｜本办法自2026年3月15日起施行\n证据定位： DOC0016-K55；S0029，第九章 附则，第五十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n本办法自2026年3月15日起施行。2023年7月25日国家铁路局印发的《铁路专用产品质量监督抽查管理办法》（国铁设备监规〔2023〕18号）同时废止。\n期限依赖（第五十三条原文）： 本办法中所称“日”为自然日。期间届满最后一日为法定节假日的，以法定节假日后的第一日为期间届满的日期。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "e2c6040041a39505",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": false,
+      "chunk_id": "8a433110e8d411ca",
+      "content": "# 铁路专用产品质量监督抽查管理办法\n## 来源与整理记录\n### 文档版本与原件索引\n文档 ID：DOC0016\n主领域：GD\n来源 ID：S0029\n资料性质：官方原文结构整理；检索小标题为编辑辅助文字。\n来源版本：国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行\n适用范围：境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验：已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n原件：01-originals/web/S0029.txt\n正文核对底本：02-normalized/reviewed/DOC0016.txt\n官方来源：https://source.nra.gov.cn/jglz/sbjg/fgsb/202602/t20260224_350762.shtml\n整理日期：2026-11-16\n本节仅供追溯；不作为业务问答证据。\n",
+      "content_with_weight": "# 铁路专用产品质量监督抽查管理办法\n## 来源与整理记录\n### 文档版本与原件索引\n文档 ID：DOC0016\n主领域：GD\n来源 ID：S0029\n资料性质：官方原文结构整理；检索小标题为编辑辅助文字。\n来源版本：国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行\n适用范围：境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验：已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n原件：01-originals/web/S0029.txt\n正文核对底本：02-normalized/reviewed/DOC0016.txt\n官方来源：https://source.nra.gov.cn/jglz/sbjg/fgsb/202602/t20260224_350762.shtml\n整理日期：2026-11-16\n本节仅供追溯；不作为业务问答证据。\n",
+      "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+      "document_id": "f3113e656a854629a95a5ebc95f105c0",
+      "id": "8a433110e8d411ca",
+      "important_keywords": [],
+      "questions": []
+    }
+  ],
+  "validation_scope": "全量正文和知识点边界自动比对；不冒充全量人工语义核验。模型token预算另行验证。"
+}

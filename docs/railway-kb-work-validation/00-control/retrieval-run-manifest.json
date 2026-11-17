@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-11-15T16:29:53.103Z",
+  "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+  "signature": "ab1dcf788e82636241924bd5924e54ab3378cd51c4a36033d205bc859b1f98d7",
+  "parameters": {
+    "page_size": 5,
+    "knn_top_k": 32,
+    "knn_num_candidates": 100,
+    "use_kg": false
+  },
+  "question_count": 60,
+  "scope": "Retrieval only. Document identity is diagnostic, not sufficient evidence or answer-quality acceptance.",
+  "holdout_policy": "All 60 questions run once at fixed parameters; no tuning or repeat scoring on holdout questions.",
+  "finished_at": "2026-11-15T16:30:08.007Z",
+  "successful_requests": 60,
+  "failed_requests": 0
+}

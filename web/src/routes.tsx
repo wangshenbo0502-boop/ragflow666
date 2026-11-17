@@ -15,15 +15,9 @@
  */
 
 import { lazy, memo, Suspense } from 'react';
-import {
-  createBrowserRouter,
-  Navigate,
-  redirect,
-  type RouteObject,
-} from 'react-router';
+import { createBrowserRouter, Navigate, type RouteObject } from 'react-router';
 import FallbackComponent from './components/fallback-component';
 import { IS_ENTERPRISE } from './pages/admin/utils';
-import authorizationUtil from './utils/authorization-util';
 
 export enum Routes {
   Root = '/',
@@ -37,13 +31,13 @@ export enum Routes {
   Agent = '/agent',
   AgentTemplates = '/agent-templates',
   Agents = '/agents',
+  Pipeline = '/pipeline',
   Explore = '/explore',
   AgentExplore = `${Routes.Agent}/:id/explore`,
   Memories = '/memories',
   Memory = '/memory',
   MemoryMessage = '/memory-message',
   MemorySetting = '/memory-setting',
-  AgentList = '/agent-list',
   Searches = '/searches',
   Search = '/search',
   SearchShare = '/search/share',
@@ -151,10 +145,6 @@ const routeConfigOptions = [
     layout: false,
   },
   {
-    path: Routes.AgentList,
-    Component: () => import('@/pages/agents'),
-  },
-  {
     path: '/document/:id',
     Component: () => import('@/pages/document-viewer'),
     layout: false,
@@ -168,19 +158,13 @@ const routeConfigOptions = [
     path: Routes.Root,
     layout: false,
     Component: () => import('@/layouts/root-layout'),
-    loader: ({ request }: { request: Request }) => {
-      const url = new URL(request.url);
-      const auth = url.searchParams.get('auth');
-      if (auth) {
-        authorizationUtil.setAuthorization(auth);
-        url.searchParams.delete('auth');
-        return redirect(`${url.pathname}${url.search}`);
-      }
-      return null;
-    },
     children: [
       {
         path: Routes.Root,
+        Component: () => import('@/pages/home'),
+      },
+      {
+        path: Routes.Home,
         Component: () => import('@/pages/home'),
       },
     ],
@@ -194,6 +178,24 @@ const routeConfigOptions = [
     Component: () => import('@/layouts/root-layout'),
     children: [
       {
+        path: Routes.CompilationTemplatesEditNext,
+        Component: () =>
+          import('@/pages/user-setting/compilation-templates/edit-next'),
+      },
+      {
+        path: `${Routes.CompilationTemplatesEditNext}/:id`,
+        Component: () =>
+          import('@/pages/user-setting/compilation-templates/edit-next'),
+      },
+      {
+        path: `${Routes.Pipeline}/:id`,
+        Component: () => import('@/pages/builtin-pipeline'),
+      },
+      {
+        path: Routes.Agents,
+        Component: () => import('@/pages/agents'),
+      },
+      {
         path: Routes.Datasets,
         Component: () => import('@/pages/datasets'),
       },
@@ -201,6 +203,10 @@ const routeConfigOptions = [
         path: Routes.DatasetBase,
         Component: () => import('@/pages/dataset'),
         children: [
+          {
+            path: `${Routes.DatasetBase}${Routes.Compilation}/:id`,
+            Component: () => import('@/pages/dataset/compilation'),
+          },
           {
             path: `${Routes.Dataset}/:id`,
             Component: () => import('@/pages/dataset/dataset'),
@@ -260,23 +266,8 @@ const routeConfigOptions = [
     ],
   },
   {
-    path: Routes.CompilationTemplatesEditNext,
-    layout: false,
-    Component: () =>
-      import('@/pages/user-setting/compilation-templates/edit-next'),
-  },
-  {
-    path: `${Routes.CompilationTemplatesEditNext}/:id`,
-    layout: false,
-    Component: () =>
-      import('@/pages/user-setting/compilation-templates/edit-next'),
-  },
-  {
-    path: `${Routes.DatasetBase}${Routes.Compilation}/:id`,
-    Component: () => import('@/pages/dataset/compilation'),
-  },
-  {
     path: Routes.Agent,
+    Component: () => import('@/layouts/root-layout'),
     children: [
       {
         path: `${Routes.Agent}/:id`,

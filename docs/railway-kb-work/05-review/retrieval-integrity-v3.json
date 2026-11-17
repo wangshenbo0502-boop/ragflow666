@@ -1,0 +1,1937 @@
+{
+  "checked_at": "2026-11-16T04:24:11.169Z",
+  "scope": "保留冻结预期和原始成绩；另列当前正文比对，禁止用知识点ID代替完整证据。",
+  "files": [
+    {
+      "doc_id": "DOC0001",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0002",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0003",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0004",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0005",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0006",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0007",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0008",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0009",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0010",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0011",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0012",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0013",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0014",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0015",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0016",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0017",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0018",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0019",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0020",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0021",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0022",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0023",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    },
+    {
+      "doc_id": "DOC0024",
+      "master_hash_matches": true,
+      "expected_hash_matches": true
+    }
+  ],
+  "frozen_signature": "bf3beef7400d2d1289fcac15c97ac3bc9ec457d52b18a18604fec99f7850974f",
+  "recorded_complete": 43,
+  "recomputed_frozen_complete": 43,
+  "current_body_complete": 43,
+  "expectation_drift": [],
+  "recorded_score_disagreements": [],
+  "questions": [
+    {
+      "test_id": "GW01",
+      "question": "铁路建设工程的竣工验收和运营安全评估是否为同一环节？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0008-K05",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "0eaf32426d4b542d4eba50f38ae15c1589e5363b688069217e1ea3027c3a00af",
+          "current_body_sha256": "0eaf32426d4b542d4eba50f38ae15c1589e5363b688069217e1ea3027c3a00af",
+          "id_ranks": [],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GW02",
+      "question": "高速铁路基础设施运用状态检测针对哪些对象？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0010-K03",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "97e6be06fb552759d1bda0df95ca17509e78592b3e3710c57c5424ec2eff2cb8",
+          "current_body_sha256": "97e6be06fb552759d1bda0df95ca17509e78592b3e3710c57c5424ec2eff2cb8",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        }
+      ]
+    },
+    {
+      "test_id": "GW03",
+      "question": "铁路桥梁附近疏浚，哪些情况需要安全技术评价，日常养护是否例外？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K39",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "46a762e995914a561cbcd09e27c7e97a04ebb553808cf3afabc19225f0adb740",
+          "current_body_sha256": "46a762e995914a561cbcd09e27c7e97a04ebb553808cf3afabc19225f0adb740",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GW04",
+      "question": "铁路建设工期可以因赶进度任意压缩吗？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0007-K17",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "4baeffe828c65b83f0169c15728c58fae06d151f46232d3362fa921706113e69",
+          "current_body_sha256": "4baeffe828c65b83f0169c15728c58fae06d151f46232d3362fa921706113e69",
+          "id_ranks": [
+            2
+          ],
+          "frozen_body_ranks": [
+            2
+          ],
+          "current_body_ranks": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GW05",
+      "question": "铁路线路保护区内施工应先取得什么同意，现场监督由谁承担？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K30",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "e5ff104ca9d47db607f455967cb8de9f3d24af52951cd2561e1ebb745905e72d",
+          "current_body_sha256": "e5ff104ca9d47db607f455967cb8de9f3d24af52951cd2561e1ebb745905e72d",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GW06",
+      "question": "发现铁路线路巡查安全问题，不能立即处理时如何报告和留痕？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K55",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "5366d9612d918c8ada3f102c8f78a37d8eb8132b2572150d3340760d82ef6a5b",
+          "current_body_sha256": "5366d9612d918c8ada3f102c8f78a37d8eb8132b2572150d3340760d82ef6a5b",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GW07",
+      "question": "跨河桥长600米的铁路桥上下游禁采砂范围如何确定，地方划定更大范围怎么办？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K38",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "e13fc338ede094f73b426c157df236921bce7349ec6a92703e7dd9e052d7cf41",
+          "current_body_sha256": "e13fc338ede094f73b426c157df236921bce7349ec6a92703e7dd9e052d7cf41",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GW08",
+      "question": "城市市区与其他地区的高速铁路线路保护区距离分别是多少，从哪里起算？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K27",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "fc96e2a00eb839963f1ef4ea66b0f664f6994c6e1f469c414a30c1247bd54f17",
+          "current_body_sha256": "fc96e2a00eb839963f1ef4ea66b0f664f6994c6e1f469c414a30c1247bd54f17",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GW09",
+      "question": "某型号钢轨探伤仪的现场校准按钮顺序是什么？",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "GW10",
+      "question": "能否依据本库给出某座未提供设计资料隧道的允许沉降值？",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "XH01",
+      "question": "铁路无线电管理中的专用无线电频率与铁路安全是什么关系？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0011-K06",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "63876ea7ab26f93b63676426867f116dd5289c8e62ae56ccb524ff91eb333f3e",
+          "current_body_sha256": "63876ea7ab26f93b63676426867f116dd5289c8e62ae56ccb524ff91eb333f3e",
+          "id_ranks": [
+            2
+          ],
+          "frozen_body_ranks": [
+            2
+          ],
+          "current_body_ranks": [
+            2
+          ]
+        },
+        {
+          "point": "DOC0011-K33",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "40da69c992b51b2bb2a359004a4be53d2512536cf3421d87fd842a5bb590d04f",
+          "current_body_sha256": "40da69c992b51b2bb2a359004a4be53d2512536cf3421d87fd842a5bb590d04f",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "XH02",
+      "question": "铁路关键信息基础设施的运营者承担什么保护责任？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0012-K04",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "024d8ec98b90a5ae8c2940c9fb409f803ff454b8565faafe633529c64cea6bfc",
+          "current_body_sha256": "024d8ec98b90a5ae8c2940c9fb409f803ff454b8565faafe633529c64cea6bfc",
+          "id_ranks": [
+            4
+          ],
+          "frozen_body_ranks": [
+            4
+          ],
+          "current_body_ranks": [
+            4
+          ]
+        },
+        {
+          "point": "DOC0012-K11",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "41d88ed57bf0873097b07cfbfd1b2d8955222dbb4bc1d734125a02d3df90662f",
+          "current_body_sha256": "41d88ed57bf0873097b07cfbfd1b2d8955222dbb4bc1d734125a02d3df90662f",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "XH03",
+      "question": "在铁路地下光电缆附近取土和搭建建筑物有哪些禁止范围？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K52",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "a1b62f3717746665e02d219bfda086765fafae681277b0806384ec2696113f70",
+          "current_body_sha256": "a1b62f3717746665e02d219bfda086765fafae681277b0806384ec2696113f70",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "XH04",
+      "question": "铁路无线电台站设置使用是否都可以免于审批？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0011-K15",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "3a5515633c59030eabf2f386ac466351c90103f7f25207e1ca2570a1547f055a",
+          "current_body_sha256": "3a5515633c59030eabf2f386ac466351c90103f7f25207e1ca2570a1547f055a",
+          "id_ranks": [
+            3
+          ],
+          "frozen_body_ranks": [
+            3
+          ],
+          "current_body_ranks": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "XH05",
+      "question": "铁路调度无线电受到干扰时，企业应先做什么并向谁报告？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0011-K32",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "b89321e40af7d7ba3513ad18f92f68974bb8b787a3a743a3446732c2f4cf75c7",
+          "current_body_sha256": "b89321e40af7d7ba3513ad18f92f68974bb8b787a3a743a3446732c2f4cf75c7",
+          "id_ranks": [
+            4
+          ],
+          "frozen_body_ranks": [
+            4
+          ],
+          "current_body_ranks": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "XH06",
+      "question": "铁路关键信息基础设施发生重大网络安全事件时运营者如何处置报告？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0012-K20",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "965657851b95ecb24538e8464e267e31b56a05c5d3f9c9b4996871c9240c3c53",
+          "current_body_sha256": "965657851b95ecb24538e8464e267e31b56a05c5d3f9c9b4996871c9240c3c53",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "XH07",
+      "question": "过河通信光缆两侧80米处抛锚是否落入禁止范围？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K52",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "a1b62f3717746665e02d219bfda086765fafae681277b0806384ec2696113f70",
+          "current_body_sha256": "a1b62f3717746665e02d219bfda086765fafae681277b0806384ec2696113f70",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "XH08",
+      "question": "铁路通信信号设备型号目录如何区分设备与型号？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0014-K30",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "ed4b59ffd143879bf89ee6c2ff9c09f94ec61f2c8ba71516d0b9b79b341cb40b",
+          "current_body_sha256": "ed4b59ffd143879bf89ee6c2ff9c09f94ec61f2c8ba71516d0b9b79b341cb40b",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        },
+        {
+          "point": "DOC0014-K31",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "841a7270add842127f492aa940350a8d74030876729578935e116d523600a54b",
+          "current_body_sha256": "841a7270add842127f492aa940350a8d74030876729578935e116d523600a54b",
+          "id_ranks": [
+            3
+          ],
+          "frozen_body_ranks": [
+            3
+          ],
+          "current_body_ranks": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "XH09",
+      "question": "某具体联锁站出现红光带时可以直接强制解锁吗，按钮顺序是什么？",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "XH10",
+      "question": "本库能确定某厂家列控软件所有版本的安全认证状态吗？",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "GD01",
+      "question": "铁路牵引供电设备型号目录涵盖哪些设备？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0014-K32",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "c9e77a5c1b26dc171da4b4636b3a59db4ecd10995a7fc80344524ddfad3cb7f1",
+          "current_body_sha256": "c9e77a5c1b26dc171da4b4636b3a59db4ecd10995a7fc80344524ddfad3cb7f1",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        }
+      ]
+    },
+    {
+      "test_id": "GD02",
+      "question": "铁路供电质量和持续供电责任由哪些主体承担？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K75",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "e50eb474551661c2771d0b2ec8b775a70ebcfc99fbebc6868fc2edc54fb5c56a",
+          "current_body_sha256": "e50eb474551661c2771d0b2ec8b775a70ebcfc99fbebc6868fc2edc54fb5c56a",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GD03",
+      "question": "接触网附近升放风筝和杆塔周围取土各有什么范围限制？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K53",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "f65c6e298459bb3ce54767af729bb1f92fdacf3ecddd6197a52de02baba0f593",
+          "current_body_sha256": "f65c6e298459bb3ce54767af729bb1f92fdacf3ecddd6197a52de02baba0f593",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GD04",
+      "question": "牵引供电设备生产许可适用于哪些企业，未获许可可以生产吗？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0015-K03",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "0dec692c5b4565d4cb8fd6cba8bab9bd443bb49e189548d92a107ee276223709",
+          "current_body_sha256": "0dec692c5b4565d4cb8fd6cba8bab9bd443bb49e189548d92a107ee276223709",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        }
+      ]
+    },
+    {
+      "test_id": "GD05",
+      "question": "特殊情况中断铁路电力供应后，电力企业和铁路企业如何分工恢复？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K75",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "e50eb474551661c2771d0b2ec8b775a70ebcfc99fbebc6868fc2edc54fb5c56a",
+          "current_body_sha256": "e50eb474551661c2771d0b2ec8b775a70ebcfc99fbebc6868fc2edc54fb5c56a",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GD06",
+      "question": "牵引供电设备生产许可申请材料不齐全，应如何补正和受理？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0015-K06",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "d8f57c47df2fbf7b837731e5e616adb2dcfbf87d49d7142357430f05282d1b75",
+          "current_body_sha256": "d8f57c47df2fbf7b837731e5e616adb2dcfbf87d49d7142357430f05282d1b75",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GD07",
+      "question": "电力导线外侧400米放气球、杆塔周围15米钻探，分别如何判断？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K53",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "f65c6e298459bb3ce54767af729bb1f92fdacf3ecddd6197a52de02baba0f593",
+          "current_body_sha256": "f65c6e298459bb3ce54767af729bb1f92fdacf3ecddd6197a52de02baba0f593",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GD08",
+      "question": "生产许可的有效期、延续申请时间和审查时限如何区分？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0015-K09",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "59b7c0cf349c1b5f117c5cf7e35c06c8782ec5a7250f813c649b7df819774392",
+          "current_body_sha256": "59b7c0cf349c1b5f117c5cf7e35c06c8782ec5a7250f813c649b7df819774392",
+          "id_ranks": [],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        },
+        {
+          "point": "DOC0015-K11",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "ea546ec92be27f275d373ae65e7cd6ce34c05b0e1d05bc85c68670f8a736d5f4",
+          "current_body_sha256": "ea546ec92be27f275d373ae65e7cd6ce34c05b0e1d05bc85c68670f8a736d5f4",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "GD09",
+      "question": "未提供型号的牵引变压器允许油温上限是多少？",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "GD10",
+      "question": "能否据本库直接签发某站停电作业工作票和倒闸顺序？",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "CL01",
+      "question": "铁路机车车辆设计、制造、维修和进口分别涉及什么许可证？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0022-K03",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "9435efbf3d14b221f664dbec0306e87a8ca0f291f82f1b5a1c92caffb319e84d",
+          "current_body_sha256": "9435efbf3d14b221f664dbec0306e87a8ca0f291f82f1b5a1c92caffb319e84d",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "CL02",
+      "question": "铁路机车车辆目录按哪些类别组织？",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "CL03",
+      "question": "机车车辆重大技术变更或加装改造之前需要什么技术评估？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0001-K19",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "b412bbacd0e93c77f73d11c1f7829c1f9eb3c65a5b8acc5155f1e78a32829111",
+          "current_body_sha256": "b412bbacd0e93c77f73d11c1f7829c1f9eb3c65a5b8acc5155f1e78a32829111",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "CL04",
+      "question": "超过规定寿命的设备在什么情况下不得继续使用？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0001-K14",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "277605e5d8e0be985f40fcb3f76efba442863e7236af8a3471e14424a4cb298f",
+          "current_body_sha256": "277605e5d8e0be985f40fcb3f76efba442863e7236af8a3471e14424a4cb298f",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "CL05",
+      "question": "机车车辆许可申请材料不齐全时应怎样处理？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0022-K15",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "016a8be0462603fa06e40cd8b0753e57794a2b32c3617c149a7e915f333c2b76",
+          "current_body_sha256": "016a8be0462603fa06e40cd8b0753e57794a2b32c3617c149a7e915f333c2b76",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "CL06",
+      "question": "铁路专用设备发现缺陷后生产者与使用方应采取什么措施？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0023-K09",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "b24aab41e5837b0dbd2765e994e9cc1af7ef55aeed83e380ff24254c2e76dc1e",
+          "current_body_sha256": "b24aab41e5837b0dbd2765e994e9cc1af7ef55aeed83e380ff24254c2e76dc1e",
+          "id_ranks": [
+            4
+          ],
+          "frozen_body_ranks": [
+            4
+          ],
+          "current_body_ranks": [
+            4
+          ]
+        },
+        {
+          "point": "DOC0023-K11",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "7aeafa59d7c411b615a36acf91e1310536611d373500f1cbe833fcfe2aa55cd6",
+          "current_body_sha256": "7aeafa59d7c411b615a36acf91e1310536611d373500f1cbe833fcfe2aa55cd6",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        },
+        {
+          "point": "DOC0023-K18",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "543eb7cfdc191ef0ee8a10fd5779c4fb242644d30df411d91787cc05c993a072",
+          "current_body_sha256": "543eb7cfdc191ef0ee8a10fd5779c4fb242644d30df411d91787cc05c993a072",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        }
+      ]
+    },
+    {
+      "test_id": "CL07",
+      "question": "设备使用维修规则至少应列出哪些项目与标准？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0001-K15",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "71d086c74dd6e5b0b481ebf377c2bd16740fa5b067a2aeb2091c1551e2756145",
+          "current_body_sha256": "71d086c74dd6e5b0b481ebf377c2bd16740fa5b067a2aeb2091c1551e2756145",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "CL08",
+      "question": "车辆交付时使用维修说明至少应包含哪些内容？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0001-K10",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "d12d2a680fa9af15dab1f8f180bf2a4978c89c38dc65b4be7392e2574f43ebb2",
+          "current_body_sha256": "d12d2a680fa9af15dab1f8f180bf2a4978c89c38dc65b4be7392e2574f43ebb2",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "CL09",
+      "question": "未提供车型的动车组闸片最小厚度是多少毫米？",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "CL10",
+      "question": "能否用本库直接判断一辆未提供检测数据的机车可否上线？",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "YS01",
+      "question": "车票实名购买与实名查验有什么区别？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0002-K03",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "b09c76d6d3341e70c6809f6e6046984de29071713fc26f1a58417d2ca1947301",
+          "current_body_sha256": "b09c76d6d3341e70c6809f6e6046984de29071713fc26f1a58417d2ca1947301",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        }
+      ]
+    },
+    {
+      "test_id": "YS02",
+      "question": "铁路旅客安检的对象与禁限物品依据是什么？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0003-K03",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "5e6c39d8844146022c36a9faa3d1a22bde66118b12b4b4fddd29b0dbc42ae808",
+          "current_body_sha256": "5e6c39d8844146022c36a9faa3d1a22bde66118b12b4b4fddd29b0dbc42ae808",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "YS03",
+      "question": "未离开已安检区域的中转换乘旅客是否必须再次安检？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0003-K25",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "8bde4bbdb2c2868cd7692d131c6d6647ed39319920bce5effe58b4a92d7621f3",
+          "current_body_sha256": "8bde4bbdb2c2868cd7692d131c6d6647ed39319920bce5effe58b4a92d7621f3",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "YS04",
+      "question": "实行实名制时儿童优惠票与免费乘车的年龄、席位条件是什么？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0004-K12",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "07359215ee9e128eed1bda20dbe30da1cb160dc5afb6b261af9268bcb65efe09",
+          "current_body_sha256": "07359215ee9e128eed1bda20dbe30da1cb160dc5afb6b261af9268bcb65efe09",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "YS05",
+      "question": "旅客物品不能通过安检设备时人工检查需要满足什么条件？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0003-K18",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "b3c59c481a628d5261634fef1d0e5bdbda292de210130c2d8471eb59ee2e1095",
+          "current_body_sha256": "b3c59c481a628d5261634fef1d0e5bdbda292de210130c2d8471eb59ee2e1095",
+          "id_ranks": [
+            3
+          ],
+          "frozen_body_ranks": [
+            3
+          ],
+          "current_body_ranks": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "YS06",
+      "question": "铁路交通事故报告必须包含哪些内容，出现新情况怎么办？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0005-K16",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "3556429877f1b454781bdce70504685572880043d0a1d1ea5a0625d68f55a5a0",
+          "current_body_sha256": "3556429877f1b454781bdce70504685572880043d0a1d1ea5a0625d68f55a5a0",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "YS07",
+      "question": "安检发现可保管物品，免费保管一般多久，另有约定怎么处理？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0003-K33",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "130ee5443d60f0d1a1a2fe0314fa559c14760874094b1f1d862d60bbda83a3bb",
+          "current_body_sha256": "130ee5443d60f0d1a1a2fe0314fa559c14760874094b1f1d862d60bbda83a3bb",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "YS08",
+      "question": "事故等级中以上和以下是否含本数，不能把边界混用的依据是什么？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0005-K13",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "7bc32501fdfe3c920317173615267e01c8f1823e439135b8f0c37df498874876",
+          "current_body_sha256": "7bc32501fdfe3c920317173615267e01c8f1823e439135b8f0c37df498874876",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "current_body_ranks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "YS09",
+      "question": "本库能否查询今天某车次剩余席位和实时票价？",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "YS10",
+      "question": "可以直接把已删除的旧旅客伤亡赔偿限额当作现行赔偿标准吗？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0005-K33",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "c5d8236333df728113eae9fdde04f5b712b7f67f8152ca66257bc71086c05ff2",
+          "current_body_sha256": "c5d8236333df728113eae9fdde04f5b712b7f67f8152ca66257bc71086c05ff2",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "C01",
+      "question": "线路施工涉及地下信号电缆时，施工同意与通信设施保护需要同时核查什么？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0006-K30",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "e5ff104ca9d47db607f455967cb8de9f3d24af52951cd2561e1ebb745905e72d",
+          "current_body_sha256": "e5ff104ca9d47db607f455967cb8de9f3d24af52951cd2561e1ebb745905e72d",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        },
+        {
+          "point": "DOC0006-K52",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "a1b62f3717746665e02d219bfda086765fafae681277b0806384ec2696113f70",
+          "current_body_sha256": "a1b62f3717746665e02d219bfda086765fafae681277b0806384ec2696113f70",
+          "id_ranks": [
+            2
+          ],
+          "frozen_body_ranks": [
+            2
+          ],
+          "current_body_ranks": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "C02",
+      "question": "供电设备故障影响旅客列车运输时，供电恢复与旅客安置退票分别有什么规定？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0006-K75",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "e50eb474551661c2771d0b2ec8b775a70ebcfc99fbebc6868fc2edc54fb5c56a",
+          "current_body_sha256": "e50eb474551661c2771d0b2ec8b775a70ebcfc99fbebc6868fc2edc54fb5c56a",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        },
+        {
+          "point": "DOC0004-K31",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "ded10fff74f88f164e38518d5055f72d40ccf5048de0996c5a20fc3f747adf01",
+          "current_body_sha256": "ded10fff74f88f164e38518d5055f72d40ccf5048de0996c5a20fc3f747adf01",
+          "id_ranks": [
+            5
+          ],
+          "frozen_body_ranks": [
+            1,
+            5
+          ],
+          "current_body_ranks": [
+            1,
+            5
+          ]
+        },
+        {
+          "point": "DOC0004-K43",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "f3d4f4b3bbfc888ece5c032b1de94429fa1cea10fe493e602b0bcf01242fa3f6",
+          "current_body_sha256": "f3d4f4b3bbfc888ece5c032b1de94429fa1cea10fe493e602b0bcf01242fa3f6",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "C03",
+      "question": "新型车辆上线考核与信号通信基础设施检测能否用同一份无条件结论替代？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0022-K06",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "1ed684d8656579a32e519d0c8915ac6e657b8249dd5204abe934f37cafad03c5",
+          "current_body_sha256": "1ed684d8656579a32e519d0c8915ac6e657b8249dd5204abe934f37cafad03c5",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        },
+        {
+          "point": "DOC0010-K03",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "97e6be06fb552759d1bda0df95ca17509e78592b3e3710c57c5424ec2eff2cb8",
+          "current_body_sha256": "97e6be06fb552759d1bda0df95ca17509e78592b3e3710c57c5424ec2eff2cb8",
+          "id_ranks": [
+            2
+          ],
+          "frozen_body_ranks": [
+            2
+          ],
+          "current_body_ranks": [
+            2
+          ]
+        },
+        {
+          "point": "DOC0010-K10",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "fe7f1244537911e58aef01bb0d0f3389cfb11871e133903d48ca55dfaa03ae32",
+          "current_body_sha256": "fe7f1244537911e58aef01bb0d0f3389cfb11871e133903d48ca55dfaa03ae32",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "C04",
+      "question": "新建铁路投入运营前验收评估和设备生产许可分别约束什么对象？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0008-K05",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "0eaf32426d4b542d4eba50f38ae15c1589e5363b688069217e1ea3027c3a00af",
+          "current_body_sha256": "0eaf32426d4b542d4eba50f38ae15c1589e5363b688069217e1ea3027c3a00af",
+          "id_ranks": [
+            2
+          ],
+          "frozen_body_ranks": [
+            1,
+            2
+          ],
+          "current_body_ranks": [
+            1,
+            2
+          ]
+        },
+        {
+          "point": "DOC0015-K03",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "0dec692c5b4565d4cb8fd6cba8bab9bd443bb49e189548d92a107ee276223709",
+          "current_body_sha256": "0dec692c5b4565d4cb8fd6cba8bab9bd443bb49e189548d92a107ee276223709",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        }
+      ]
+    },
+    {
+      "test_id": "C05",
+      "question": "安检设备与车载制动设备的维护要求是否都能从旅客安检办法直接推出？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0003-K09",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "5032e9811866bddf562c6992268b9bc79e5055befb4744676298bc763ebba232",
+          "current_body_sha256": "5032e9811866bddf562c6992268b9bc79e5055befb4744676298bc763ebba232",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        },
+        {
+          "point": "DOC0001-K15",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "71d086c74dd6e5b0b481ebf377c2bd16740fa5b067a2aeb2091c1551e2756145",
+          "current_body_sha256": "71d086c74dd6e5b0b481ebf377c2bd16740fa5b067a2aeb2091c1551e2756145",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        }
+      ]
+    },
+    {
+      "test_id": "C06",
+      "question": "桥梁附近施工与铁路调度无线电干扰分别由谁协调监督？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0006-K30",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "e5ff104ca9d47db607f455967cb8de9f3d24af52951cd2561e1ebb745905e72d",
+          "current_body_sha256": "e5ff104ca9d47db607f455967cb8de9f3d24af52951cd2561e1ebb745905e72d",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        },
+        {
+          "point": "DOC0011-K32",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "b89321e40af7d7ba3513ad18f92f68974bb8b787a3a743a3446732c2f4cf75c7",
+          "current_body_sha256": "b89321e40af7d7ba3513ad18f92f68974bb8b787a3a743a3446732c2f4cf75c7",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        }
+      ]
+    },
+    {
+      "test_id": "C07",
+      "question": "车辆质量事故的信息报告与事故现场救援证据保存有什么不同要求？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0001-K12",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "f51cb00d0aa67cc5b97c880ef653c248192c33bc98bd04acacf4124710757d31",
+          "current_body_sha256": "f51cb00d0aa67cc5b97c880ef653c248192c33bc98bd04acacf4124710757d31",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        },
+        {
+          "point": "DOC0001-K21",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "acbe8fa77a65d65faf98a438d00ddd5c46af2eda2e283f1aecee9fed9ff6e7f9",
+          "current_body_sha256": "acbe8fa77a65d65faf98a438d00ddd5c46af2eda2e283f1aecee9fed9ff6e7f9",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        },
+        {
+          "point": "DOC0005-K24",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "544ad420d2d6187705ac50172ce4025133ac4ccecf3b3716a4efc9f13e89773f",
+          "current_body_sha256": "544ad420d2d6187705ac50172ce4025133ac4ccecf3b3716a4efc9f13e89773f",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "C08",
+      "question": "铁路信号电缆和供电杆塔附近取土的保护范围是否相同？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K52",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "a1b62f3717746665e02d219bfda086765fafae681277b0806384ec2696113f70",
+          "current_body_sha256": "a1b62f3717746665e02d219bfda086765fafae681277b0806384ec2696113f70",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        },
+        {
+          "point": "DOC0006-K53",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "f65c6e298459bb3ce54767af729bb1f92fdacf3ecddd6197a52de02baba0f593",
+          "current_body_sha256": "f65c6e298459bb3ce54767af729bb1f92fdacf3ecddd6197a52de02baba0f593",
+          "id_ranks": [
+            5
+          ],
+          "frozen_body_ranks": [
+            5
+          ],
+          "current_body_ranks": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "C09",
+      "question": "铁路事故导致线路中断后，线路抢修与旅客退款有哪些分别适用的条款？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0005-K19",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "9a7798f3bbb1b4cc1526500bba643720cfe3792337e9295a70d6ef3c815eb3b7",
+          "current_body_sha256": "9a7798f3bbb1b4cc1526500bba643720cfe3792337e9295a70d6ef3c815eb3b7",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        },
+        {
+          "point": "DOC0004-K31",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "ded10fff74f88f164e38518d5055f72d40ccf5048de0996c5a20fc3f747adf01",
+          "current_body_sha256": "ded10fff74f88f164e38518d5055f72d40ccf5048de0996c5a20fc3f747adf01",
+          "id_ranks": [],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "C10",
+      "question": "牵引供电产品许可和机车车辆维修许可的对象能否混用？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0015-K03",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "0dec692c5b4565d4cb8fd6cba8bab9bd443bb49e189548d92a107ee276223709",
+          "current_body_sha256": "0dec692c5b4565d4cb8fd6cba8bab9bd443bb49e189548d92a107ee276223709",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        },
+        {
+          "point": "DOC0022-K03",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "9435efbf3d14b221f664dbec0306e87a8ca0f291f82f1b5a1c92caffb319e84d",
+          "current_body_sha256": "9435efbf3d14b221f664dbec0306e87a8ca0f291f82f1b5a1c92caffb319e84d",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "H01",
+      "question": "一座铁路桥长恰为500米，上游与下游采砂禁区各多远；能否用较小范围替代地方依法划定的较大范围？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0006-K38",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "e13fc338ede094f73b426c157df236921bce7349ec6a92703e7dd9e052d7cf41",
+          "current_body_sha256": "e13fc338ede094f73b426c157df236921bce7349ec6a92703e7dd9e052d7cf41",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "H02",
+      "question": "铁路关键信息基础设施只做上线前一次风险评估够吗，是否要求每年开展？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0012-K16",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "bae572af60deacb5b432da7464b242dba78562d156caae3503bf224c2a21c398",
+          "current_body_sha256": "bae572af60deacb5b432da7464b242dba78562d156caae3503bf224c2a21c398",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "H03",
+      "question": "生产许可现场审查有2项关键项一般不合格、2项普通项严重不合格、8项普通项一般不合格，能否因各分项没超限就判合格？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0014-K45",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "9303f93b3ee22b666a4fc292f236b7a21b6b280d40d9ef0d2952e2560f630faa",
+          "current_body_sha256": "9303f93b3ee22b666a4fc292f236b7a21b6b280d40d9ef0d2952e2560f630faa",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "H04",
+      "question": "申请Z1和Z2铁路驾驶资格时，是否与其他类型一样必须做驾驶适应性测试？请区分2022年考试文件与2024年资格规则。",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0017-K13",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "12913976828a7eddf119a191c7ca9628a9c4a3d5015fba42641b626105a5a2f9",
+          "current_body_sha256": "12913976828a7eddf119a191c7ca9628a9c4a3d5015fba42641b626105a5a2f9",
+          "id_ranks": [
+            2
+          ],
+          "frozen_body_ranks": [
+            2
+          ],
+          "current_body_ranks": [
+            2
+          ]
+        },
+        {
+          "point": "DOC0018-K15",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "97926b5010704ed346e3c5f7af4b2829eb697d21efc03d9a4427561de5c2d9fb",
+          "current_body_sha256": "97926b5010704ed346e3c5f7af4b2829eb697d21efc03d9a4427561de5c2d9fb",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "H05",
+      "question": "安检后走出隔离区域又返回，与始终留在区域内的换乘旅客，复检规则是否一致？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0003-K25",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "8bde4bbdb2c2868cd7692d131c6d6647ed39319920bce5effe58b4a92d7621f3",
+          "current_body_sha256": "8bde4bbdb2c2868cd7692d131c6d6647ed39319920bce5effe58b4a92d7621f3",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "H06",
+      "question": "2026年铁路产品监督抽查办法的文件编号、施行日期是什么；抽查不合格结果几日内通知，生产者异议期限从何时起算？",
+      "answerable": true,
+      "recorded_complete": false,
+      "recomputed_frozen_complete": false,
+      "current_body_complete": false,
+      "evidence": [
+        {
+          "point": "DOC0016-K32",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "32bae1b7dc5834c68a4e4208ff49ddd31ed84449e1678bb6ca2cbe4268d279eb",
+          "current_body_sha256": "32bae1b7dc5834c68a4e4208ff49ddd31ed84449e1678bb6ca2cbe4268d279eb",
+          "id_ranks": [
+            3
+          ],
+          "frozen_body_ranks": [
+            3
+          ],
+          "current_body_ranks": [
+            3
+          ]
+        },
+        {
+          "point": "DOC0016-K55",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "9903243e25a0c2da500e20043c4ed9ec63fbb6750f267d743124e46cab29baad",
+          "current_body_sha256": "9903243e25a0c2da500e20043c4ed9ec63fbb6750f267d743124e46cab29baad",
+          "id_ranks": [],
+          "frozen_body_ranks": [],
+          "current_body_ranks": []
+        }
+      ]
+    },
+    {
+      "test_id": "H07",
+      "question": "制造维修许可的地址名称更名，和实际搬迁导致许可条件变化，能否按同一种变更手续处理？请说明存档版本边界。",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0022-K21",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "4378fd69e2183d5d79bf9bd861a2923a31239757e32f18dac8f1b4316407a4d1",
+          "current_body_sha256": "4378fd69e2183d5d79bf9bd861a2923a31239757e32f18dac8f1b4316407a4d1",
+          "id_ranks": [
+            1
+          ],
+          "frozen_body_ranks": [
+            1
+          ],
+          "current_body_ranks": [
+            1
+          ]
+        },
+        {
+          "point": "DOC0022-K22",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "9af8d518a806f74930ffb680b500bdc8b0f474f5d8b7066f2f510f9b2873150f",
+          "current_body_sha256": "9af8d518a806f74930ffb680b500bdc8b0f474f5d8b7066f2f510f9b2873150f",
+          "id_ranks": [
+            2
+          ],
+          "frozen_body_ranks": [
+            2
+          ],
+          "current_body_ranks": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "H08",
+      "question": "铁路事故中为抢通线路而改变现场，能否不留影像记录；这是否免除运输企业不正常运输时的退票责任？",
+      "answerable": true,
+      "recorded_complete": true,
+      "recomputed_frozen_complete": true,
+      "current_body_complete": true,
+      "evidence": [
+        {
+          "point": "DOC0005-K24",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "544ad420d2d6187705ac50172ce4025133ac4ccecf3b3716a4efc9f13e89773f",
+          "current_body_sha256": "544ad420d2d6187705ac50172ce4025133ac4ccecf3b3716a4efc9f13e89773f",
+          "id_ranks": [
+            5
+          ],
+          "frozen_body_ranks": [
+            5
+          ],
+          "current_body_ranks": [
+            5
+          ]
+        },
+        {
+          "point": "DOC0004-K31",
+          "frozen_body_matches_current": true,
+          "frozen_body_sha256": "ded10fff74f88f164e38518d5055f72d40ccf5048de0996c5a20fc3f747adf01",
+          "current_body_sha256": "ded10fff74f88f164e38518d5055f72d40ccf5048de0996c5a20fc3f747adf01",
+          "id_ranks": [
+            4
+          ],
+          "frozen_body_ranks": [
+            1,
+            4
+          ],
+          "current_body_ranks": [
+            1,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "test_id": "H09",
+      "question": "请列出CTCS-3某厂家软件2026年全部安全认证证书编号和有效截止日期。",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    },
+    {
+      "test_id": "H10",
+      "question": "请直接给出一个没有站名、接线图和设备型号的牵引变电所倒闸操作票，逐步列出开关编号。",
+      "answerable": false,
+      "recorded_complete": null,
+      "recomputed_frozen_complete": null,
+      "current_body_complete": null,
+      "evidence": []
+    }
+  ]
+}

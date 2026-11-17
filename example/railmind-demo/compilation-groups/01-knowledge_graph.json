@@ -1,0 +1,144 @@
+{
+  "name": "演示编译 01 档案证据图谱",
+  "description": "从设备台账、档案和邮件提取已记载的对象与关系，保留证据，区分现状与建议。",
+  "templates": [
+    {
+      "kind": "knowledge_graph",
+      "name": "设备与档案关系",
+      "config": {
+        "entity": {
+          "description": "You are a robust graph entity extractor for knowledge graphs.",
+          "fields": [
+            {
+              "description": "A natural person (individual human).",
+              "rule": "- Full name preferred (e.g., \"Elon Musk\", not \"Musk\" alone if ambiguous).\n- Include titles only if integral to identity (e.g., \"Dr. Smith\").\n- Max length: 60 characters.\n",
+              "type": "person"
+            },
+            {
+              "description": "Organization, company, institution, agency, or any collective group.",
+              "rule": "- Use the official name when possible (e.g., \"United Nations\").\n- Abbreviations accepted if widely known (e.g., \"UN\", \"NASA\").\n- Max length: 80 characters.\n",
+              "type": "org"
+            },
+            {
+              "description": "Tangible or intangible product, service, software, or offering.",
+              "rule": "- Include version numbers if relevant (e.g., \"iPhone 14\").\n- Generic categories (e.g., \"smartphone\") only if no specific name is given.\n- Max length: 100 characters.\n",
+              "type": "product"
+            },
+            {
+              "description": "Law, policy, standard, guideline, or regulatory document.",
+              "rule": "- Use official title or identifier (e.g., \"GDPR\", \"OSHA standard 1910\").\n- Include jurisdiction if known (e.g., \"EU GDPR\").\n- Max length: 120 characters.\n",
+              "type": "regulation"
+            },
+            {
+              "description": "Geographic place (country, city, address, region, natural feature).",
+              "rule": "- Hierarchical format allowed (e.g., \"Paris, France\").\n- Avoid overly vague terms (e.g., \"there\") unless resolved.\n- Max length: 80 characters.\n",
+              "type": "location"
+            },
+            {
+              "description": "Entities that do not fit any above category.",
+              "rule": "- Use sparingly; prefer mapping to a defined type when possible.\n- Still provide a meaningful label.\n- Max length: 80 characters.\n",
+              "type": "other"
+            }
+          ]
+        },
+        "global_rules": "从文件中提取设备编号、档案编号、责任人、归档位置和复核状态。设备、档案和位置都使用资料内的原编号或原文。区分已记录的关系与草案建议，未见批准的变更不建立已生效的位置关系。不得合并不同设备编号。",
+        "kind": "knowledge_graph",
+        "rechunk_rules": "- Group only adjacent source chunks into coherent semantic units for this knowledge-compilation task.\n- Preserve source order: use every source chunk exactly once; do not omit, overlap, duplicate, or reorder chunks.\n- Split when the topic, section, or semantic focus changes; do not merge unrelated content.\n- Keep self-contained tables, lists, figures, and code blocks intact; do not split their internal structure.\n- Do not invent, rewrite, or return source text; return only chunk grouping metadata.\n",
+        "relation": {
+          "description": "You are an expert in extracting semantic relations between entities.",
+          "fields": [
+            {
+              "description": "Ownership or possession (legal or de facto).",
+              "rule": "- Direction from owner to owned: (A owns B).\n",
+              "type": "owns"
+            },
+            {
+              "description": "Mereological relation — component to whole.",
+              "rule": "- Direction from part to whole: (A part_of B).\n",
+              "type": "part_of"
+            },
+            {
+              "description": "Causal relation — event, action, or state leads to another.",
+              "rule": "- Direction from effect to cause: (A caused_by B) meaning B causes A.\n",
+              "type": "caused_by"
+            },
+            {
+              "description": "Regulatory or governing relation (law/standard controls entity).",
+              "rule": "- Direction from regulator to regulated: (A regulates B).\n",
+              "type": "regulates"
+            },
+            {
+              "description": "Spatial containment — entity situated inside a location.",
+              "rule": "- Direction from located entity to containing location: (A located_in B).\n",
+              "type": "located_in"
+            },
+            {
+              "description": "Any meaningful relation not covered by the above types.",
+              "rule": "- Provide an explicit label in a \"relation_label\" field.\n- Direction must be clear.\n",
+              "type": "other"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "kind": "mind_map",
+      "name": "档案证据导图",
+      "config": {
+        "entity": {
+          "description": "You are a robust mind-map extractor. Extract the central concept, major branches, and supporting sub-branches needed to build a non-linear visual hierarchy around the main subject.",
+          "fields": [
+            {
+              "description": "The main idea, goal, problem, or subject placed at the center of the mind map.",
+              "rule": "- Prefer a concise noun phrase that represents the whole chunk or document section.\n- Use the source wording when it clearly names the topic.\n- If no central topic can be inferred, output \"-1\".\n- Max length: 80 characters.\n",
+              "type": "central_topic"
+            },
+            {
+              "description": "A major theme, category, or dimension radiating from the central topic.",
+              "rule": "- Use broad categories that organize multiple related details.\n- Avoid duplicating the central topic as a branch.\n- Keep labels concise and parallel when possible.\n- Max length: 80 characters.\n",
+              "type": "branch"
+            },
+            {
+              "description": "A specific detail, task, supporting concept, example, or item under a branch.",
+              "rule": "- Attach each sub-branch to the most specific relevant parent branch.\n- Preserve important source terms, names, quantities, and constraints.\n- Split unrelated details into separate sub-branches.\n- Max length: 120 characters.\n",
+              "type": "sub_branch"
+            },
+            {
+              "description": "A compact supporting word or phrase that clarifies a branch or sub-branch.",
+              "rule": "- Use only meaningful terms that improve scanability.\n- Do not include filler words or generic labels.\n- Max length: 60 characters.\n",
+              "type": "keyword"
+            }
+          ]
+        },
+        "global_rules": "以档案管理为根主题，分别整理资料来源、设备台账、位置证据、复核状态和待确认事项。只保留原文支持的内容。",
+        "kind": "mind_map",
+        "rechunk_rules": "- Group only adjacent source chunks into coherent semantic units for this knowledge-compilation task.\n- Preserve source order: use every source chunk exactly once; do not omit, overlap, duplicate, or reorder chunks.\n- Keep each main idea with its supporting content, and split when the topic or branch changes.\n- Keep self-contained tables, lists, figures, and code blocks intact; do not split their internal structure.\n- Do not invent, rewrite, or return source text; return only chunk grouping metadata.\n",
+        "relation": {
+          "description": "You are an expert hierarchical reasoning assistant specializing in mind-map structure. Link each concept to its parent so the result forms an intuitive radial hierarchy.",
+          "fields": [
+            {
+              "description": "The central topic contains a major branch.",
+              "rule": "- Direction from central topic to branch: (A has_branch B).\n- Use only for first-level branches radiating from the center.\n",
+              "type": "has_branch"
+            },
+            {
+              "description": "A branch or sub-branch contains a more specific child concept.",
+              "rule": "- Direction from parent to child: (A has_sub_branch B).\n- Use recursively for second-level and deeper details.\n",
+              "type": "has_sub_branch"
+            },
+            {
+              "description": "A keyword, example, task, or detail supports a parent concept.",
+              "rule": "- Direction from supporting item to supported concept: (A supports B).\n- Use when the item explains, evidences, or clarifies the parent.\n",
+              "type": "supports"
+            },
+            {
+              "description": "A cross-link between two concepts that are associated but not parent-child.",
+              "rule": "- Use sparingly; prefer parent-child hierarchy when possible.\n- Direction may follow the stronger explanatory dependency.\n",
+              "type": "related_to"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

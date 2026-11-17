@@ -1,0 +1,22 @@
+[
+  {
+    "doc_id": "DOC0022",
+    "chunks": 29,
+    "points": 28,
+    "missing_or_duplicate": [],
+    "expected_point_text_missing": [],
+    "unmapped_chunks": [
+      "e44f76fadd9e8259"
+    ]
+  },
+  {
+    "doc_id": "DOC0023",
+    "chunks": 36,
+    "points": 35,
+    "missing_or_duplicate": [],
+    "expected_point_text_missing": [],
+    "unmapped_chunks": [
+      "bc13e0fb27e6ea67"
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-11-16T10:48:37.445Z",
+  "scope": "DOC0028 S0036-T02 rows 9-13 conditional merged remark and blank requirement cells",
+  "source_id": "S0036",
+  "source_sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+  "source_evidence": "05-review/successor-structure/S0036-native-tables-v2.json",
+  "candidate_evidence": "04-chunks/expected/DOC0028-successor-v3.json",
+  "semantic_review_evidence": "05-review/successor-semantic-review/batches/27832fa96934142883521a63c3c9daf28d9c639983dc822611673f7522a35e83.json",
+  "merge_geometry": {
+    "table_id": "S0036-T02",
+    "remark_origin": "S0036-T02-R9C9",
+    "remark_origin_text": "铸造铝合金、铜合金零件产品需要",
+    "covered_rows": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "row_14_cell_9": "new merge origin; 1、锻造零件产品需要；2、热处理设备与申报产品材质一致"
+  },
+  "decisions": [
+    {
+      "knowledge_point_id": "DOC0028-S0036-T02-G009-009",
+      "source_location": "S0036-T02 row 9, cells C1-C9",
+      "model_status": "PASS",
+      "decision": "Retain. The remark begins at R9C9 and is reproduced verbatim. Its conditional wording is preserved."
+    },
+    {
+      "knowledge_point_id": "DOC0028-S0036-T02-G010-010",
+      "source_location": "S0036-T02 row 10, cells C1-C9",
+      "model_status": "PASS",
+      "decision": "Retain with explicit boundary. The native vertical merge continues from R9C9. The added note states that the condition is limited to cast aluminum/copper-alloy parts and that the source does not establish that this equipment row satisfies it."
+    },
+    {
+      "knowledge_point_id": "DOC0028-S0036-T02-G011-011",
+      "source_location": "S0036-T02 row 11, cells C1-C9",
+      "model_status": "PASS",
+      "decision": "Retain with explicit boundary for the same source-merge and conditional-applicability reason as row 10."
+    },
+    {
+      "knowledge_point_id": "DOC0028-S0036-T02-G012-012",
+      "source_location": "S0036-T02 row 12, cells C1-C9",
+      "model_status": "FAIL",
+      "decision": "Do not infer what the three blank speed-class requirement cells mean. Preserve each blank as source content and retain the verbatim conditional remark plus the applicability boundary. The source does not establish whether the product meets the remark condition or whether blank cells mean no requirement, not applicable, or omitted. The AI request to choose among those meanings is unsupported by the source; this point remains pending authoritative clarification and must not be used to assert an equipment requirement."
+    },
+    {
+      "knowledge_point_id": "DOC0028-S0036-T02-G013-013",
+      "source_location": "S0036-T02 row 13, cells C1-C9",
+      "model_status": "FAIL",
+      "decision": "Same disposition as row 12. Preserve all blank requirement cells, do not infer their meaning, and keep source/applicability status pending."
+    }
+  ],
+  "limitations": [
+    "The native table export verifies row/cell text and vertical-merge markers; a full visual review of the original page and legal-effectiveness review remain incomplete.",
+    "This adjudication does not pass structure acceptance, actual chunking, formal import, or retrieval acceptance.",
+    "The semantic-review summary remains unchanged as the model's historical/current raw result; this file records the evidence-based adjudication separately."
+  ]
+}

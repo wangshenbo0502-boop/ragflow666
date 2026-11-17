@@ -7,6 +7,9 @@ export const useGetSendButtonDisabled = () => {
   return dialogId === '';
 };
 
-export const useSendButtonDisabled = (value: string) => {
-  return trim(value) === '';
+export const useSendButtonDisabled = (
+  value: string,
+  hasAttachments = false,
+) => {
+  return trim(value) === '' && !hasAttachments;
 };

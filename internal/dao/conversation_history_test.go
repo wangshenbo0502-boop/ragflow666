@@ -13,6 +13,11 @@ import (
 
 func TestFlattenMessageRoundTrip(t *testing.T) {
 	for _, item := range []string{
+		`{"role":"assistant","content":"answer","reference":{"chunks":[{"id":"chunk-1"}],"doc_aggs":[]}}`,
+		`{"role":"assistant","reference":{}}`,
+		`{"role":"assistant","content":"agentic answer","usage":{"prompt_tokens":896,"completion_tokens":71,"total_tokens":967},"elapsed_ms":4168.774506}`,
+		`{"role":"assistant","content":"answer","prompt":"system prompt","usage":{"prompt_tokens":896,"completion_tokens":71,"total_tokens":967},"elapsed_ms":4168.774506}`,
+		`{"role":"assistant","prompt":"","usage":null,"elapsed_ms":0}`,
 		`{"id":"turn-1","role":"assistant","content":"你好\nanswer","status":"completed","thumbup":false,"feedback":"","created_at":123.25,"attachments":[{"id":"file-1"}]}`,
 		`{"role":"user","content":[{"type":"text","text":"question"},{"type":"image_url","image_url":{"url":"test"}}],"tool_calls":[]}`,
 		`{"id":null,"role":null,"content":null,"thumbup":null,"created_at":null,"feedback":null}`,
@@ -24,7 +29,7 @@ func TestFlattenMessageRoundTrip(t *testing.T) {
 			if err != nil {
 				t.Fatal(err)
 			}
-			raw, err := marshalMessage(fields)
+			raw, err := marshalMessage(fields, ConversationHistoryOptions{IncludeReference: true, IncludePrompt: true, IncludeUsage: true, IncludeElapsedMs: true})
 			if err != nil {
 				t.Fatal(err)
 			}
@@ -62,7 +67,7 @@ func TestFlattenedMessagePersistence(t *testing.T) {
 			if err := db.Table(parent).Create(values).Error; err != nil {
 				t.Fatal(err)
 			}
-			raw := json.RawMessage(`[{"id":"turn-1","role":"assistant","content":"searchable content","thumbup":false,"feedback":"bad","created_at":123.25,"attachment":"file-1"}]`)
+			raw := json.RawMessage(`[{"id":"turn-1","role":"assistant","content":"searchable content","thumbup":false,"feedback":"bad","created_at":123.25,"attachment":"file-1","prompt":"system prompt","usage":{"prompt_tokens":896,"completion_tokens":71,"total_tokens":967},"elapsed_ms":4168.774506},{"id":"turn-2","role":"assistant","content":"agentic answer","usage":{"prompt_tokens":896,"completion_tokens":71,"total_tokens":967},"elapsed_ms":4168.774506}]`)
 			if err := createHistory(t.Context(), db, table, "message", "session-1", raw); err != nil {
 				t.Fatal(err)
 			}
@@ -76,7 +81,20 @@ func TestFlattenedMessagePersistence(t *testing.T) {
 			if string(row.Metadata) != `{"attachment":"file-1"}` {
 				t.Fatalf("metadata contains flattened fields: %s", row.Metadata)
 			}
-			histories, err := loadHistory(t.Context(), db, table, "message", []string{"session-1"})
+			if row.Prompt == nil || *row.Prompt != "system prompt" || row.ElapsedMs == nil || *row.ElapsedMs != 4168.774506 {
+				t.Fatalf("missing answer details: %+v", row.ConversationMessageFields)
+			}
+			if row.Usage["total_tokens"] != float64(967) || row.Usage["prompt_tokens"] != float64(896) || row.Usage["completion_tokens"] != float64(71) {
+				t.Fatalf("unexpected usage: %v", row.Usage)
+			}
+			var agenticRow entity.ConversationMessage
+			if err := db.Table(table).Where("conversation_id = ? AND position = ?", "session-1", 1).Take(&agenticRow).Error; err != nil {
+				t.Fatal(err)
+			}
+			if agenticRow.Prompt != nil || !reflect.DeepEqual(agenticRow.Usage, row.Usage) || agenticRow.ElapsedMs == nil || *agenticRow.ElapsedMs != *row.ElapsedMs || agenticRow.Metadata != "{}" {
+				t.Fatalf("unexpected agentic answer details: %+v", agenticRow.ConversationMessageFields)
+			}
+			histories, err := loadHistory(t.Context(), db, table, []string{"session-1"}, ConversationHistoryOptions{IncludeReference: true, IncludePrompt: true, IncludeUsage: true, IncludeElapsedMs: true})
 			if err != nil {
 				t.Fatal(err)
 			}
@@ -91,5 +109,69 @@ func TestFlattenedMessagePersistence(t *testing.T) {
 				t.Fatalf("loaded history = %s, want %s", histories["session-1"], raw)
 			}
 		})
+	}
+}
+
+func TestReservedAnswerUpdatesOnlyItsOwnTurn(t *testing.T) {
+	for _, table := range []string{conversationMessageTable, apiConversationMessageTable} {
+		t.Run(table, func(t *testing.T) {
+			db := setupChatSessionDAOTestDB(t)
+			if err := createHistory(t.Context(), db, table, "message", "session",
+				json.RawMessage(`[{"id":"turn","role":"user","content":"question"}]`)); err != nil {
+				t.Fatal(err)
+			}
+			update := ConversationHistoryUpdate{QuestionID: "turn", Message: map[string]interface{}{
+				"id": "turn", "role": "assistant", "content": "saved text",
+			}}
+			if err := updateConversationHistory(t.Context(), db, table, "session", update); err != nil {
+				t.Fatal(err)
+			}
+			update.Message["content"] = "saved text with audio"
+			if err := updateConversationHistory(t.Context(), db, table, "session", update); err != nil {
+				t.Fatal(err)
+			}
+			var rows []entity.ConversationMessage
+			if err := db.Table(table).Where("conversation_id = ?", "session").Order("position").Find(&rows).Error; err != nil {
+				t.Fatal(err)
+			}
+			if len(rows) != 2 || rows[1].Content == nil || *rows[1].Content != "saved text with audio" {
+				t.Fatalf("multi-stage answer created duplicate or lost content: %+v", rows)
+			}
+			update.Message["id"] = "another-turn"
+			if err := updateConversationHistory(t.Context(), db, table, "session", update); err == nil {
+				t.Fatal("foreign answer overwrote reserved slot")
+			}
+			update.Message["id"] = "turn"
+			if err := db.Table(table).Where("conversation_id = ? AND position = ?", "session", 1).
+				Update("message_id", "different").Error; err != nil {
+				t.Fatal(err)
+			}
+			if err := updateConversationHistory(t.Context(), db, table, "session", update); err == nil {
+				t.Fatal("occupied slot overwritten")
+			}
+		})
+	}
+}
+
+func TestReservedAnswerRetryDoesNotOverwriteNewerContent(t *testing.T) {
+	db := setupChatSessionDAOTestDB(t)
+	if err := createHistory(t.Context(), db, conversationMessageTable, "message", "session",
+		json.RawMessage(`[{"id":"turn","role":"user","content":"question"},{"id":"turn","role":"assistant","content":"new answer"}]`)); err != nil {
+		t.Fatal(err)
+	}
+	expected := int64(1)
+	err := updateConversationHistory(t.Context(), db, conversationMessageTable, "session", ConversationHistoryUpdate{
+		QuestionID: "turn", ExpectedVersion: &expected,
+		Message: map[string]interface{}{"id": "turn", "role": "assistant", "content": "stale retry output"},
+	})
+	if err == nil {
+		t.Fatal("stale retry overwrote a newer answer")
+	}
+	var answer entity.ConversationMessage
+	if err := db.Table(conversationMessageTable).Where("conversation_id = ? AND position = ?", "session", 1).Take(&answer).Error; err != nil {
+		t.Fatal(err)
+	}
+	if answer.Content == nil || *answer.Content != "new answer" {
+		t.Fatalf("newer answer was changed: %+v", answer)
 	}
 }

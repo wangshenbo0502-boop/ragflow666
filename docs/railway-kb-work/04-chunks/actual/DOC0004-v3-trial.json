@@ -1,0 +1,1398 @@
+{
+  "doc_id": "DOC0004",
+  "source_id": "S0004",
+  "domain": "YS",
+  "phase": "trial",
+  "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+  "document_id": "3188d438193b4d4db5f1c68615259531",
+  "filename": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+  "sha256": "3e15e12fbf85314b09d47416277986c81808ee72835052c28453a1d735cd1fb4",
+  "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+  "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+  "status": "full-body-verified",
+  "uploaded_at": "2026-11-15T17:47:49.824Z",
+  "chunk_count": 53,
+  "business_chunks": 52,
+  "verified_at": "2026-11-15T17:49:20.093Z",
+  "checked_at": "2026-11-15T17:49:23.029Z",
+  "ingestion_status": "COMPLETED",
+  "exported_count": 53,
+  "expected_points": 52,
+  "full_body_passed": 52,
+  "passed": true,
+  "checks": [
+    {
+      "knowledge_point_id": "DOC0004-K01",
+      "article": "第一条",
+      "expected_sha256": "d20d10d2336ebadccdd629ab2f519239de3228e15e85fe611dfbc344b1dd9ed5",
+      "matching_chunk_ids": [
+        "d4855d22b0202f0d"
+      ],
+      "complete_chunk_ids": [
+        "d4855d22b0202f0d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K02",
+      "article": "第二条",
+      "expected_sha256": "61db579bd6e595d41bec29bd99f7c110684b5ff691aeee7508c1707526a1a24a",
+      "matching_chunk_ids": [
+        "282874a5481c0508"
+      ],
+      "complete_chunk_ids": [
+        "282874a5481c0508"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K03",
+      "article": "第三条",
+      "expected_sha256": "fa829023e329a698e987aebb43592640bdc07a86a7e9b37b015bfd700615b6f3",
+      "matching_chunk_ids": [
+        "9f0d24d10cffdfba"
+      ],
+      "complete_chunk_ids": [
+        "9f0d24d10cffdfba"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K04",
+      "article": "第四条",
+      "expected_sha256": "84a33ff41fdc4bbb4719394dd0efd92ee6ea610e59908034ff435e8e93eca7f7",
+      "matching_chunk_ids": [
+        "63d778ae735335c4"
+      ],
+      "complete_chunk_ids": [
+        "63d778ae735335c4"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K05",
+      "article": "第五条",
+      "expected_sha256": "5b99f966b86d4db89befc998ca00a585441563c4be6f252980fd9d213108f5ef",
+      "matching_chunk_ids": [
+        "b65435a487880350"
+      ],
+      "complete_chunk_ids": [
+        "b65435a487880350"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K06",
+      "article": "第六条",
+      "expected_sha256": "baee6f41c50508fc5b70526504024345ee07539f70795d3b3b79840e3e311a67",
+      "matching_chunk_ids": [
+        "4e980ef5d9806bcd"
+      ],
+      "complete_chunk_ids": [
+        "4e980ef5d9806bcd"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K07",
+      "article": "第七条",
+      "expected_sha256": "e279fc4e2e9c023315e9e74f05e99eedf226e1a11eaa6c7f28c49ec1c93622ea",
+      "matching_chunk_ids": [
+        "8701afd4acf049c3"
+      ],
+      "complete_chunk_ids": [
+        "8701afd4acf049c3"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K08",
+      "article": "第八条",
+      "expected_sha256": "42352baa400b9f620825dd4651c3e4944f70e268b03b11355c64f164886095fe",
+      "matching_chunk_ids": [
+        "94dcf12e87358624"
+      ],
+      "complete_chunk_ids": [
+        "94dcf12e87358624"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K09",
+      "article": "第九条",
+      "expected_sha256": "f61ebc8873117291d65bfdb138323bd9d17fcc739153bbf48c753a3a87c6d533",
+      "matching_chunk_ids": [
+        "c2d2d0e6ae5236aa"
+      ],
+      "complete_chunk_ids": [
+        "c2d2d0e6ae5236aa"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K10",
+      "article": "第十条",
+      "expected_sha256": "89df7bd133e0f78e8e3496b44b28d7cb1a13d398927b4b3a1f1fdaef0c5952a4",
+      "matching_chunk_ids": [
+        "91d786888897bc9d"
+      ],
+      "complete_chunk_ids": [
+        "91d786888897bc9d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K11",
+      "article": "第十一条",
+      "expected_sha256": "4c5f64dad5cbe858cee9fe9415cb5dff90afe5f9e9f8ff05e0fe6da63574328b",
+      "matching_chunk_ids": [
+        "88ebeba7da41d97a"
+      ],
+      "complete_chunk_ids": [
+        "88ebeba7da41d97a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K12",
+      "article": "第十二条",
+      "expected_sha256": "f2ace992e4496853d8e9cd7182d932c574813068c40983282e348ecaa2152f22",
+      "matching_chunk_ids": [
+        "dcf5d07180e77a1f"
+      ],
+      "complete_chunk_ids": [
+        "dcf5d07180e77a1f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K13",
+      "article": "第十三条",
+      "expected_sha256": "0c97a15bae6538fe03e5ac4677f22b9366474f32dea795d7e890ee10d2b34796",
+      "matching_chunk_ids": [
+        "eaa574503018d123"
+      ],
+      "complete_chunk_ids": [
+        "eaa574503018d123"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K14",
+      "article": "第十四条",
+      "expected_sha256": "21cba57c733890a65c42eeadd8abc4699660a017e5afb6baacec9ed9e2a99fb9",
+      "matching_chunk_ids": [
+        "ad6a02418fb40108"
+      ],
+      "complete_chunk_ids": [
+        "ad6a02418fb40108"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K15",
+      "article": "第十五条",
+      "expected_sha256": "48692822a16591415fc71e6eedc68a8ee62a3233ec6989a9eee9c55a9375152f",
+      "matching_chunk_ids": [
+        "1e993b669b26e354"
+      ],
+      "complete_chunk_ids": [
+        "1e993b669b26e354"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K16",
+      "article": "第十六条",
+      "expected_sha256": "fbb3043e32abd16fae0b0a35e70bc60c533c42dcf3c8a92f794ca2a5015e9927",
+      "matching_chunk_ids": [
+        "4d20c5d882e315f5"
+      ],
+      "complete_chunk_ids": [
+        "4d20c5d882e315f5"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K17",
+      "article": "第十七条",
+      "expected_sha256": "2fc6bab37f3a88e8d8cd46e8c848819b65acb423d7ef13295de5b782dcf7b4bb",
+      "matching_chunk_ids": [
+        "8d42a0126e2c26a3"
+      ],
+      "complete_chunk_ids": [
+        "8d42a0126e2c26a3"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K18",
+      "article": "第十八条",
+      "expected_sha256": "3ab1c34a10e30ae30c1a2ab6b32187461daaa020f2b8b1630fc0869207691d1d",
+      "matching_chunk_ids": [
+        "ecf8048a87b68fc8"
+      ],
+      "complete_chunk_ids": [
+        "ecf8048a87b68fc8"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K19",
+      "article": "第十九条",
+      "expected_sha256": "89594d954000569c9a204a0fa98d1329c8c2ac17a40a5acc59d62f78d54a094d",
+      "matching_chunk_ids": [
+        "926d15fbd23af486"
+      ],
+      "complete_chunk_ids": [
+        "926d15fbd23af486"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K20",
+      "article": "第二十条",
+      "expected_sha256": "4e6ddbb57f431205a2921bd2eab4f4fc609fa2ab844bbe54117141ce8a24e69c",
+      "matching_chunk_ids": [
+        "f779eb025779bf30"
+      ],
+      "complete_chunk_ids": [
+        "f779eb025779bf30"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K21",
+      "article": "第二十一条",
+      "expected_sha256": "f71e10d7707831ee7c7727c1608a9a49c593952504ee461693718a0c84f0e1b5",
+      "matching_chunk_ids": [
+        "4a835f09fcbaaebd"
+      ],
+      "complete_chunk_ids": [
+        "4a835f09fcbaaebd"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K22",
+      "article": "第二十二条",
+      "expected_sha256": "839ea3ad3b5dee752237855c0adc2a7f0db5e89cbe3ccd323e08aa0f9e13fd80",
+      "matching_chunk_ids": [
+        "1de482e9230c1d44"
+      ],
+      "complete_chunk_ids": [
+        "1de482e9230c1d44"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K23",
+      "article": "第二十三条",
+      "expected_sha256": "57f7d44bf56fb68941b769f51efa0a4c8d9ffc913d909ded5d4b795482c1f206",
+      "matching_chunk_ids": [
+        "956ee86138dfa65a"
+      ],
+      "complete_chunk_ids": [
+        "956ee86138dfa65a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K24",
+      "article": "第二十四条",
+      "expected_sha256": "8c1076736e52619209ccd14ae829cd5805eb2a1ed84fc67fc085060f6ac83586",
+      "matching_chunk_ids": [
+        "5281f4058a0d532d"
+      ],
+      "complete_chunk_ids": [
+        "5281f4058a0d532d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K25",
+      "article": "第二十五条",
+      "expected_sha256": "68b6c82ce6baa19b3e170bf6b07d057b79408746f279413ae75c2afc34e98996",
+      "matching_chunk_ids": [
+        "d00006cb875b0d34"
+      ],
+      "complete_chunk_ids": [
+        "d00006cb875b0d34"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K26",
+      "article": "第二十六条",
+      "expected_sha256": "c4310bef05c36654ff7a031b8ee55fa34faf0e8cfb5333288b256ba87c8c0c31",
+      "matching_chunk_ids": [
+        "cc2b81045d5dee59"
+      ],
+      "complete_chunk_ids": [
+        "cc2b81045d5dee59"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K27",
+      "article": "第二十七条",
+      "expected_sha256": "54cd531e68e13b013a1da33f3cb0435ace4215746660cd06154d64165aa66e5f",
+      "matching_chunk_ids": [
+        "8e311c558fc04bf5"
+      ],
+      "complete_chunk_ids": [
+        "8e311c558fc04bf5"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K28",
+      "article": "第二十八条",
+      "expected_sha256": "9750c60db08d11002616a7f04832f0a78e6e4b7dc3bec60395256533c4631119",
+      "matching_chunk_ids": [
+        "f4801b58adab92c1"
+      ],
+      "complete_chunk_ids": [
+        "f4801b58adab92c1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K29",
+      "article": "第二十九条",
+      "expected_sha256": "4d95db99e3b7558501857805bd67880467bff27a0f135cb5b4318f9d27295171",
+      "matching_chunk_ids": [
+        "fd279abf42e030bf"
+      ],
+      "complete_chunk_ids": [
+        "fd279abf42e030bf"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K30",
+      "article": "第三十条",
+      "expected_sha256": "9ed5118b9dc7fec7d182e8466b1f21d77f193e89cb78114758beacc73af2c515",
+      "matching_chunk_ids": [
+        "b095e03229bf9c3b"
+      ],
+      "complete_chunk_ids": [
+        "b095e03229bf9c3b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K31",
+      "article": "第三十一条",
+      "expected_sha256": "10d2fa41a793ed16ded991af20d9c9d6207cdcbe4ef80dc394355d335db91e8e",
+      "matching_chunk_ids": [
+        "cc89b44efe3cb1d1"
+      ],
+      "complete_chunk_ids": [
+        "cc89b44efe3cb1d1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K32",
+      "article": "第三十二条",
+      "expected_sha256": "a169f8eaab828d7379a64d529d6f0b428fcec200ab70e3e9e6544096ed14437c",
+      "matching_chunk_ids": [
+        "822e63fa2978829c"
+      ],
+      "complete_chunk_ids": [
+        "822e63fa2978829c"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K33",
+      "article": "第三十三条",
+      "expected_sha256": "ec36c7c5d7973d12064dc032e75b3a6ab011adf1e7c199820ba702b12e4aeb67",
+      "matching_chunk_ids": [
+        "2e66f796f05202b6"
+      ],
+      "complete_chunk_ids": [
+        "2e66f796f05202b6"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K34",
+      "article": "第三十四条",
+      "expected_sha256": "eecbf69b02fa2b856cb0bbd1cbfde7d6a8cb87328504f3b2c93edb447c840884",
+      "matching_chunk_ids": [
+        "fd546f197bd51062"
+      ],
+      "complete_chunk_ids": [
+        "fd546f197bd51062"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K35",
+      "article": "第三十五条",
+      "expected_sha256": "76a8204c6459697ce9ea2ae88899f5480ef5842fac1933ab010f99d5b2056bf4",
+      "matching_chunk_ids": [
+        "8a00f73e7f161f0a"
+      ],
+      "complete_chunk_ids": [
+        "8a00f73e7f161f0a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K36",
+      "article": "第三十六条",
+      "expected_sha256": "1763ce4ba68790561672dc2172eb34365714c9b18f6eaca6ee5debf5a4052f39",
+      "matching_chunk_ids": [
+        "d035449b45094ea7"
+      ],
+      "complete_chunk_ids": [
+        "d035449b45094ea7"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K37",
+      "article": "第三十七条",
+      "expected_sha256": "96bfd612b7a04f5f9cf9c11e66bfc572da46676cefa467d2ad4254470979adb8",
+      "matching_chunk_ids": [
+        "2086036544818656"
+      ],
+      "complete_chunk_ids": [
+        "2086036544818656"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K38",
+      "article": "第三十八条",
+      "expected_sha256": "d86f929faf61b9bf404c2c45a582a205a6818c434e74fdf183ee0d6b0ce4bcce",
+      "matching_chunk_ids": [
+        "ae5aebca9dbdb932"
+      ],
+      "complete_chunk_ids": [
+        "ae5aebca9dbdb932"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K39",
+      "article": "第三十九条",
+      "expected_sha256": "b011d59100741e9eb8bf76a44c83864a85bddc5cf43dbe8e65a63d2f8fd55e20",
+      "matching_chunk_ids": [
+        "1352a4b9cb0d7eed"
+      ],
+      "complete_chunk_ids": [
+        "1352a4b9cb0d7eed"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K40",
+      "article": "第四十条",
+      "expected_sha256": "a480fa5a2dcc5d0218e37bc14abd0be56f817b96b9a47f4be70921b3a142f891",
+      "matching_chunk_ids": [
+        "1482f68c053287f2"
+      ],
+      "complete_chunk_ids": [
+        "1482f68c053287f2"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K41",
+      "article": "第四十一条",
+      "expected_sha256": "8116be8df895277e8ac0e3cc35419a268f1f3e89cebe984c121baf032fb4a680",
+      "matching_chunk_ids": [
+        "a71932476a059c8e"
+      ],
+      "complete_chunk_ids": [
+        "a71932476a059c8e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K42",
+      "article": "第四十二条",
+      "expected_sha256": "9d040f6ba5469782da6abfdcf20285acbcb2d89eeab73a5d912cec20863a5deb",
+      "matching_chunk_ids": [
+        "3ccbc88d9b3a8e62"
+      ],
+      "complete_chunk_ids": [
+        "3ccbc88d9b3a8e62"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K43",
+      "article": "第四十三条",
+      "expected_sha256": "fce09974b50e974304d27059feebe004b5452c8933560cd1bc830aa6d7f4e742",
+      "matching_chunk_ids": [
+        "971bac6a26b6182b"
+      ],
+      "complete_chunk_ids": [
+        "971bac6a26b6182b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K44",
+      "article": "第四十四条",
+      "expected_sha256": "507b2a3527f6d372b0adda34afe25c964ff084a19a6b793d0a0d5c99a383f3d7",
+      "matching_chunk_ids": [
+        "bb23fe90671d4f8e"
+      ],
+      "complete_chunk_ids": [
+        "bb23fe90671d4f8e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K45",
+      "article": "第四十五条",
+      "expected_sha256": "cc432d1ea9972bcf1e6ce4b45266694e5ad895a476680fc5e03a34ec60af4757",
+      "matching_chunk_ids": [
+        "7b9d6944e4300558"
+      ],
+      "complete_chunk_ids": [
+        "7b9d6944e4300558"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K46",
+      "article": "第四十六条",
+      "expected_sha256": "e8ac3160713ff0365b661e0c2d70747c417c5f002bee6aa9319aef97d1a9e522",
+      "matching_chunk_ids": [
+        "d9536b46539f7b59"
+      ],
+      "complete_chunk_ids": [
+        "d9536b46539f7b59"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K47",
+      "article": "第四十七条",
+      "expected_sha256": "2c61b74aa39c602b2857fee5f4915813dae0e1d39596d7429475ba938cde7254",
+      "matching_chunk_ids": [
+        "8b1933fcaf36ece5"
+      ],
+      "complete_chunk_ids": [
+        "8b1933fcaf36ece5"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K48",
+      "article": "第四十八条",
+      "expected_sha256": "c2fc7bb5230018332849e6e448f299a60d99ea652ff7ecdfe484ff69c98b3e1f",
+      "matching_chunk_ids": [
+        "4a8c253d44cad69e"
+      ],
+      "complete_chunk_ids": [
+        "4a8c253d44cad69e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K49",
+      "article": "第四十九条",
+      "expected_sha256": "0cdbf8604cf37763a80534945551929adbcb241d30cc7353bffda6ab9574535f",
+      "matching_chunk_ids": [
+        "f97515c3e120c427"
+      ],
+      "complete_chunk_ids": [
+        "f97515c3e120c427"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K50",
+      "article": "第五十条",
+      "expected_sha256": "d5b4c7f916d15c7b9d6a70edd46421f4008b05a80cb93db5fa4d5e7d75ae1233",
+      "matching_chunk_ids": [
+        "4a871d5136fc118c"
+      ],
+      "complete_chunk_ids": [
+        "4a871d5136fc118c"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K51",
+      "article": "第五十一条",
+      "expected_sha256": "55a8c88dba6a3e32a6c44861a3e32046664edb7876af39c2e154d74ac4ff50c4",
+      "matching_chunk_ids": [
+        "9124437d333fdc98"
+      ],
+      "complete_chunk_ids": [
+        "9124437d333fdc98"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0004-K52",
+      "article": "第五十二条",
+      "expected_sha256": "333e048b964ed5f9acdaf0d85b9d76146ae81e2b9495fb1af5c4984075985f89",
+      "matching_chunk_ids": [
+        "4e446ac5b4ca2114"
+      ],
+      "complete_chunk_ids": [
+        "4e446ac5b4ca2114"
+      ],
+      "passed": true
+    }
+  ],
+  "metadata_chunk_ids": [
+    "e3ef6f5aa069383d"
+  ],
+  "polluted_chunk_ids": [],
+  "chunks": [
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "d4855d22b0202f0d",
+      "content": "# 铁路旅客运输规程\n## 第一章 总则\n### 第一条｜为了维护铁路旅客运输正常秩序\n证据定位： DOC0004-K01；S0004，第一章 总则，第一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n为了维护铁路旅客运输正常秩序，规范旅客和铁路运输企业的行为，保护旅客和铁路运输企业的合法权益，完善公平公正的旅客运输市场环境，根据《中华人民共和国民法典》《中华人民共和国消费者权益保护法》《中华人民共和国铁路法》《铁路安全管理条例》等法律、行政法规，制定本规程。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第一章 总则\n### 第一条｜为了维护铁路旅客运输正常秩序\n证据定位： DOC0004-K01；S0004，第一章 总则，第一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n为了维护铁路旅客运输正常秩序，规范旅客和铁路运输企业的行为，保护旅客和铁路运输企业的合法权益，完善公平公正的旅客运输市场环境，根据《中华人民共和国民法典》《中华人民共和国消费者权益保护法》《中华人民共和国铁路法》《铁路安全管理条例》等法律、行政法规，制定本规程。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "d4855d22b0202f0d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "282874a5481c0508",
+      "content": "# 铁路旅客运输规程\n## 第一章 总则\n### 第二条｜本规程适用于中华人民共和国境内的铁路旅客运输\n证据定位： DOC0004-K02；S0004，第一章 总则，第二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本规程适用于中华人民共和国境内的铁路旅客运输。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第一章 总则\n### 第二条｜本规程适用于中华人民共和国境内的铁路旅客运输\n证据定位： DOC0004-K02；S0004，第一章 总则，第二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本规程适用于中华人民共和国境内的铁路旅客运输。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "282874a5481c0508",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "9f0d24d10cffdfba",
+      "content": "# 铁路旅客运输规程\n## 第一章 总则\n### 第三条｜铁路运输企业应当根据法律、行政法规和本规程制定旅客运输相关办法\n证据定位： DOC0004-K03；S0004，第一章 总则，第三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当根据法律、行政法规和本规程制定旅客运输相关办法，包括购票、退票、改签，旅客乘车、随身携带物品和托运行李相关规定等事项，并在实施前向社会公布。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第一章 总则\n### 第三条｜铁路运输企业应当根据法律、行政法规和本规程制定旅客运输相关办法\n证据定位： DOC0004-K03；S0004，第一章 总则，第三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当根据法律、行政法规和本规程制定旅客运输相关办法，包括购票、退票、改签，旅客乘车、随身携带物品和托运行李相关规定等事项，并在实施前向社会公布。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "9f0d24d10cffdfba",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "63d778ae735335c4",
+      "content": "# 铁路旅客运输规程\n## 第二章 一般规定\n### 第四条｜车票是铁路旅客运输合同的凭证\n证据定位： DOC0004-K04；S0004，第二章 一般规定，第四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n车票是铁路旅客运输合同的凭证，可以采用纸质形式或者电子数据形式，一般应当载明发站、到站、车次、车厢号、席别、席位号、票价、开车时间等主要信息。铁路运输企业与旅客另有约定的，按照其约定。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第二章 一般规定\n### 第四条｜车票是铁路旅客运输合同的凭证\n证据定位： DOC0004-K04；S0004，第二章 一般规定，第四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n车票是铁路旅客运输合同的凭证，可以采用纸质形式或者电子数据形式，一般应当载明发站、到站、车次、车厢号、席别、席位号、票价、开车时间等主要信息。铁路运输企业与旅客另有约定的，按照其约定。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "63d778ae735335c4",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b65435a487880350",
+      "content": "# 铁路旅客运输规程\n## 第二章 一般规定\n### 第五条｜铁路运输企业应当提供方便快捷的票务服务\n证据定位： DOC0004-K05；S0004，第二章 一般规定，第五条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当提供方便快捷的票务服务，为旅客提供良好的旅行环境和服务设施，文明礼貌地为旅客服务，在约定期限或者合理期限内将旅客安全运输到车票载明的到站。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第二章 一般规定\n### 第五条｜铁路运输企业应当提供方便快捷的票务服务\n证据定位： DOC0004-K05；S0004，第二章 一般规定，第五条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当提供方便快捷的票务服务，为旅客提供良好的旅行环境和服务设施，文明礼貌地为旅客服务，在约定期限或者合理期限内将旅客安全运输到车票载明的到站。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "b65435a487880350",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4e980ef5d9806bcd",
+      "content": "# 铁路旅客运输规程\n## 第二章 一般规定\n### 第六条｜旅客应当遵守法律、行政法规、规章和有关铁路运输安全规定\n证据定位： DOC0004-K06；S0004，第二章 一般规定，第六条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客应当遵守法律、行政法规、规章和有关铁路运输安全规定，配合铁路工作人员的引导，爱护铁路设备设施，不得扰乱铁路运输秩序。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第二章 一般规定\n### 第六条｜旅客应当遵守法律、行政法规、规章和有关铁路运输安全规定\n证据定位： DOC0004-K06；S0004，第二章 一般规定，第六条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客应当遵守法律、行政法规、规章和有关铁路运输安全规定，配合铁路工作人员的引导，爱护铁路设备设施，不得扰乱铁路运输秩序。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "4e980ef5d9806bcd",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8701afd4acf049c3",
+      "content": "# 铁路旅客运输规程\n## 第二章 一般规定\n### 第七条｜旅客享有自主选择旅客运输服务和公平交易的权利\n证据定位： DOC0004-K07；S0004，第二章 一般规定，第七条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客享有自主选择旅客运输服务和公平交易的权利。铁路运输企业不得限定、强制旅客使用某项服务或者搭售商品。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第二章 一般规定\n### 第七条｜旅客享有自主选择旅客运输服务和公平交易的权利\n证据定位： DOC0004-K07；S0004，第二章 一般规定，第七条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客享有自主选择旅客运输服务和公平交易的权利。铁路运输企业不得限定、强制旅客使用某项服务或者搭售商品。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "8701afd4acf049c3",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "94dcf12e87358624",
+      "content": "# 铁路旅客运输规程\n## 第二章 一般规定\n### 第八条｜铁路运输企业应当公布车站运营时间、停止检票时间、服务项目及收费标准、旅客禁止或者限制携带物品目录等信息\n证据定位： DOC0004-K08；S0004，第二章 一般规定，第八条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当公布车站运营时间、停止检票时间、服务项目及收费标准、旅客禁止或者限制携带物品目录等信息。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第二章 一般规定\n### 第八条｜铁路运输企业应当公布车站运营时间、停止检票时间、服务项目及收费标准、旅客禁止或者限制携带物品目录等信息\n证据定位： DOC0004-K08；S0004，第二章 一般规定，第八条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当公布车站运营时间、停止检票时间、服务项目及收费标准、旅客禁止或者限制携带物品目录等信息。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "94dcf12e87358624",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c2d2d0e6ae5236aa",
+      "content": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第九条｜实施车票实名制管理\n证据定位： DOC0004-K09；S0004，第三章 车票销售，第九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照《中华人民共和国反恐怖主义法》《铁路安全管理条例》《铁路旅客车票实名制管理办法》等规定，实施车票实名制管理。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第九条｜实施车票实名制管理\n证据定位： DOC0004-K09；S0004，第三章 车票销售，第九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照《中华人民共和国反恐怖主义法》《铁路安全管理条例》《铁路旅客车票实名制管理办法》等规定，实施车票实名制管理。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "c2d2d0e6ae5236aa",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "91d786888897bc9d",
+      "content": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十条｜购票人应当向铁路运输企业提供乘车人真实有效的联系方式\n证据定位： DOC0004-K10；S0004，第三章 车票销售，第十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n购票人应当向铁路运输企业提供乘车人真实有效的联系方式。\n铁路运输企业对车票销售过程中知悉的旅客信息，应当予以保密，不得泄露、出售或者非法向他人提供。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十条｜购票人应当向铁路运输企业提供乘车人真实有效的联系方式\n证据定位： DOC0004-K10；S0004，第三章 车票销售，第十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n购票人应当向铁路运输企业提供乘车人真实有效的联系方式。\n铁路运输企业对车票销售过程中知悉的旅客信息，应当予以保密，不得泄露、出售或者非法向他人提供。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "91d786888897bc9d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "88ebeba7da41d97a",
+      "content": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十一条｜铁路运输企业应当公平销售车票，保留人工售票服务\n证据定位： DOC0004-K11；S0004，第三章 车票销售，第十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当公平销售车票，保留人工售票服务。鼓励铁路运输企业为旅客提供互联网、自动售票机等多种售票渠道，为旅客购票、取票、退票、改签等提供便利。\n鼓励铁路运输企业开办定期票、计次票、联程票、乘车卡等业务，为旅客提供多元化的服务。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十一条｜铁路运输企业应当公平销售车票，保留人工售票服务\n证据定位： DOC0004-K11；S0004，第三章 车票销售，第十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当公平销售车票，保留人工售票服务。鼓励铁路运输企业为旅客提供互联网、自动售票机等多种售票渠道，为旅客购票、取票、退票、改签等提供便利。\n鼓励铁路运输企业开办定期票、计次票、联程票、乘车卡等业务，为旅客提供多元化的服务。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "88ebeba7da41d97a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "dcf5d07180e77a1f",
+      "content": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十二条｜除需要乘坐火车通勤上学的学生和铁路运输企业同意在旅途中监护的儿童外\n证据定位： DOC0004-K12；S0004，第三章 车票销售，第十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n除需要乘坐火车通勤上学的学生和铁路运输企业同意在旅途中监护的儿童外，实行车票实名制情况下未满14周岁或者未实行车票实名制情况下身高不足1.5米的儿童，应当随同成年人旅客旅行。\n实行车票实名制的，年满6周岁且未满14周岁的儿童应当购买儿童优惠票；年满14周岁的儿童，应当购买全价票。每一名持票成年人旅客可以免费携带一名未满6周岁且不单独占用席位的儿童乘车；超过一名时，超过人数应当购买儿童优惠票。\n未实行车票实名制的，身高1.2米且不足1.5米的儿童应当购买儿童优惠票；身高达到1.5米的儿童，应当购买全价票。每一名持票成年人旅客可以免费携带一名身高未达到1.2米且不单独占用席位的儿童乘车；超过一名时，超过人数应当购买儿童优惠票。\n儿童优惠票的车次、席别应当与同行成年人所持车票相同，到站不得远于成年人车票的到站。按上述规定享受免费乘车的儿童单独占用席位时，应当购买儿童优惠票。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十二条｜除需要乘坐火车通勤上学的学生和铁路运输企业同意在旅途中监护的儿童外\n证据定位： DOC0004-K12；S0004，第三章 车票销售，第十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n除需要乘坐火车通勤上学的学生和铁路运输企业同意在旅途中监护的儿童外，实行车票实名制情况下未满14周岁或者未实行车票实名制情况下身高不足1.5米的儿童，应当随同成年人旅客旅行。\n实行车票实名制的，年满6周岁且未满14周岁的儿童应当购买儿童优惠票；年满14周岁的儿童，应当购买全价票。每一名持票成年人旅客可以免费携带一名未满6周岁且不单独占用席位的儿童乘车；超过一名时，超过人数应当购买儿童优惠票。\n未实行车票实名制的，身高1.2米且不足1.5米的儿童应当购买儿童优惠票；身高达到1.5米的儿童，应当购买全价票。每一名持票成年人旅客可以免费携带一名身高未达到1.2米且不单独占用席位的儿童乘车；超过一名时，超过人数应当购买儿童优惠票。\n儿童优惠票的车次、席别应当与同行成年人所持车票相同，到站不得远于成年人车票的到站。按上述规定享受免费乘车的儿童单独占用席位时，应当购买儿童优惠票。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "dcf5d07180e77a1f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "eaa574503018d123",
+      "content": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十三条｜旅客携带免费乘车儿童时，应当提前告知铁路运输企业，铁路运输企业应当为免费乘车儿童出具乘车凭证\n证据定位： DOC0004-K13；S0004，第三章 车票销售，第十三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客携带免费乘车儿童时，应当提前告知铁路运输企业，铁路运输企业应当为免费乘车儿童出具乘车凭证。实行车票实名制的，免费乘车儿童检票和乘车时需要提供有效身份证件。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十三条｜旅客携带免费乘车儿童时，应当提前告知铁路运输企业，铁路运输企业应当为免费乘车儿童出具乘车凭证\n证据定位： DOC0004-K13；S0004，第三章 车票销售，第十三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客携带免费乘车儿童时，应当提前告知铁路运输企业，铁路运输企业应当为免费乘车儿童出具乘车凭证。实行车票实名制的，免费乘车儿童检票和乘车时需要提供有效身份证件。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "eaa574503018d123",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ad6a02418fb40108",
+      "content": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十四条｜在全日制高等学校（含国务院教育行政部门、省级人民政府审批设置的实施高等学历教育的民办学校）\n证据定位： DOC0004-K14；S0004，第三章 车票销售，第十四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在全日制高等学校（含国务院教育行政部门、省级人民政府审批设置的实施高等学历教育的民办学校），承担研究生教育任务的科学研究机构，军事院校，普通中、小学和中等职业学校（含有实施学历教育资格的公办、民办中等专业学校、职业高中、技工学校）就读的学生、研究生，凭学生证（中、小学生凭盖有学校公章的书面证明）每学年可以购买家庭居住地至院校（实习地点）所在地之间四次单程的学生优惠票。新生凭录取通知书、毕业生凭盖有院校公章的学校书面证明当年可以购买一次学生优惠票。学生优惠票限于使用普通旅客列车硬席或者动车组列车二等座。\n学生证应当附有国务院教育行政部门认可的优惠乘车凭证，优惠乘车凭证需要载明学生照片、姓名、有效身份证件号码、优惠乘车区间、院校公章等信息。学生证优惠乘车区间的记录、变更需要加盖院校公章。\n华侨学生、港澳台学生的优惠乘车区间为口岸车站至学校所在地车站。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十四条｜在全日制高等学校（含国务院教育行政部门、省级人民政府审批设置的实施高等学历教育的民办学校）\n证据定位： DOC0004-K14；S0004，第三章 车票销售，第十四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在全日制高等学校（含国务院教育行政部门、省级人民政府审批设置的实施高等学历教育的民办学校），承担研究生教育任务的科学研究机构，军事院校，普通中、小学和中等职业学校（含有实施学历教育资格的公办、民办中等专业学校、职业高中、技工学校）就读的学生、研究生，凭学生证（中、小学生凭盖有学校公章的书面证明）每学年可以购买家庭居住地至院校（实习地点）所在地之间四次单程的学生优惠票。新生凭录取通知书、毕业生凭盖有院校公章的学校书面证明当年可以购买一次学生优惠票。学生优惠票限于使用普通旅客列车硬席或者动车组列车二等座。\n学生证应当附有国务院教育行政部门认可的优惠乘车凭证，优惠乘车凭证需要载明学生照片、姓名、有效身份证件号码、优惠乘车区间、院校公章等信息。学生证优惠乘车区间的记录、变更需要加盖院校公章。\n华侨学生、港澳台学生的优惠乘车区间为口岸车站至学校所在地车站。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "ad6a02418fb40108",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "1e993b669b26e354",
+      "content": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十五条｜持中华人民共和国残疾军人证、中华人民共和国伤残人民警察证、国家综合性消防救援队伍残疾人员证的人员凭证可以购买优待票\n证据定位： DOC0004-K15；S0004，第三章 车票销售，第十五条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n持中华人民共和国残疾军人证、中华人民共和国伤残人民警察证、国家综合性消防救援队伍残疾人员证的人员凭证可以购买优待票。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十五条｜持中华人民共和国残疾军人证、中华人民共和国伤残人民警察证、国家综合性消防救援队伍残疾人员证的人员凭证可以购买优待票\n证据定位： DOC0004-K15；S0004，第三章 车票销售，第十五条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n持中华人民共和国残疾军人证、中华人民共和国伤残人民警察证、国家综合性消防救援队伍残疾人员证的人员凭证可以购买优待票。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "1e993b669b26e354",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4d20c5d882e315f5",
+      "content": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十六条｜旅客丢失实名制车票后\n证据定位： DOC0004-K16；S0004，第三章 车票销售，第十六条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客丢失实名制车票后，可以向铁路运输企业申请办理车票挂失补办手续，铁路运输企业不得重复收取票款和其他不合理费用。\n旅客丢失非实名制车票应当另行购票乘车。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十六条｜旅客丢失实名制车票后\n证据定位： DOC0004-K16；S0004，第三章 车票销售，第十六条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客丢失实名制车票后，可以向铁路运输企业申请办理车票挂失补办手续，铁路运输企业不得重复收取票款和其他不合理费用。\n旅客丢失非实名制车票应当另行购票乘车。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "4d20c5d882e315f5",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8d42a0126e2c26a3",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第十七条｜对旅客及其随身携带物品进行安全检查\n证据定位： DOC0004-K17；S0004，第四章 乘车，第十七条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照《中华人民共和国反恐怖主义法》《铁路安全管理条例》《铁路旅客运输安全检查管理办法》等规定，对旅客及其随身携带物品进行安全检查。旅客随身携带物品应当遵守国家禁止或者限制运输的相关规定。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第十七条｜对旅客及其随身携带物品进行安全检查\n证据定位： DOC0004-K17；S0004，第四章 乘车，第十七条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照《中华人民共和国反恐怖主义法》《铁路安全管理条例》《铁路旅客运输安全检查管理办法》等规定，对旅客及其随身携带物品进行安全检查。旅客随身携带物品应当遵守国家禁止或者限制运输的相关规定。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "8d42a0126e2c26a3",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ecf8048a87b68fc8",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第十八条｜铁路运输企业应当明确旅客随身携带物品的相关规定，至少包括下列内容\n证据定位： DOC0004-K18；S0004，第四章 乘车，第十八条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当明确旅客随身携带物品的相关规定，至少包括下列内容：\n（一）随身携带物品总重量限额；\n（二）每件物品的重量及尺寸限定；\n（三）免费携带物品的重量；\n（四）超限携带物品计费标准；\n（五）特殊携带物品的相关规定；\n（六）因铁路运输企业责任导致携带物品损坏、丢失的赔偿标准或者所适用的国家有关规定。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第十八条｜铁路运输企业应当明确旅客随身携带物品的相关规定，至少包括下列内容\n证据定位： DOC0004-K18；S0004，第四章 乘车，第十八条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当明确旅客随身携带物品的相关规定，至少包括下列内容：\n（一）随身携带物品总重量限额；\n（二）每件物品的重量及尺寸限定；\n（三）免费携带物品的重量；\n（四）超限携带物品计费标准；\n（五）特殊携带物品的相关规定；\n（六）因铁路运输企业责任导致携带物品损坏、丢失的赔偿标准或者所适用的国家有关规定。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "ecf8048a87b68fc8",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "926d15fbd23af486",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第十九条｜铁路运输企业应当在车站、旅客列车等公共场所设置安全标志、导向系统和信息服务系统等设备设施\n证据定位： DOC0004-K19；S0004，第四章 乘车，第十九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当在车站、旅客列车等公共场所设置安全标志、导向系统和信息服务系统等设备设施。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第十九条｜铁路运输企业应当在车站、旅客列车等公共场所设置安全标志、导向系统和信息服务系统等设备设施\n证据定位： DOC0004-K19；S0004，第四章 乘车，第十九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当在车站、旅客列车等公共场所设置安全标志、导向系统和信息服务系统等设备设施。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "926d15fbd23af486",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f779eb025779bf30",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十条｜铁路运输企业应当按照有效车票记载的时间、车次、车厢号、席别和席位号运输旅客\n证据定位： DOC0004-K20；S0004，第四章 乘车，第二十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照有效车票记载的时间、车次、车厢号、席别和席位号运输旅客；旅客应当按照有效车票载明的时间、车次、车厢号、席别和席位号乘车。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十条｜铁路运输企业应当按照有效车票记载的时间、车次、车厢号、席别和席位号运输旅客\n证据定位： DOC0004-K20；S0004，第四章 乘车，第二十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照有效车票记载的时间、车次、车厢号、席别和席位号运输旅客；旅客应当按照有效车票载明的时间、车次、车厢号、席别和席位号乘车。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "f779eb025779bf30",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4a835f09fcbaaebd",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十一条｜铁路运输企业应当按照《中华人民共和国军人地位和权益保障法》《军人抚恤优待条例》等规定\n证据定位： DOC0004-K21；S0004，第四章 乘车，第二十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照《中华人民共和国军人地位和权益保障法》《军人抚恤优待条例》等规定，为现役军人、残疾军人，烈士、因公牺牲军人和病故军人的遗属，消防救援人员，以及与其随同出行的家属提供优先购票、优先乘车等服务。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十一条｜铁路运输企业应当按照《中华人民共和国军人地位和权益保障法》《军人抚恤优待条例》等规定\n证据定位： DOC0004-K21；S0004，第四章 乘车，第二十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照《中华人民共和国军人地位和权益保障法》《军人抚恤优待条例》等规定，为现役军人、残疾军人，烈士、因公牺牲军人和病故军人的遗属，消防救援人员，以及与其随同出行的家属提供优先购票、优先乘车等服务。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "4a835f09fcbaaebd",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "1de482e9230c1d44",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十二条｜铁路运输企业应当为老幼病残孕旅客提供优先购票、优先乘车等服务\n证据定位： DOC0004-K22；S0004，第四章 乘车，第二十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当为老幼病残孕旅客提供优先购票、优先乘车等服务，为老年人和其他需要帮助的旅客提供必要的人工服务。\n视力残疾旅客可以携带导盲犬进站乘车。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十二条｜铁路运输企业应当为老幼病残孕旅客提供优先购票、优先乘车等服务\n证据定位： DOC0004-K22；S0004，第四章 乘车，第二十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当为老幼病残孕旅客提供优先购票、优先乘车等服务，为老年人和其他需要帮助的旅客提供必要的人工服务。\n视力残疾旅客可以携带导盲犬进站乘车。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "1de482e9230c1d44",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "956ee86138dfa65a",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十三条｜铁路运输企业应当提供齐全、干净、整洁的服务备品\n证据定位： DOC0004-K23；S0004，第四章 乘车，第二十三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当提供齐全、干净、整洁的服务备品。车站、旅客列车等公共场所应当内外整洁、空气清新。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十三条｜铁路运输企业应当提供齐全、干净、整洁的服务备品\n证据定位： DOC0004-K23；S0004，第四章 乘车，第二十三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当提供齐全、干净、整洁的服务备品。车站、旅客列车等公共场所应当内外整洁、空气清新。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "956ee86138dfa65a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "5281f4058a0d532d",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十四条｜铁路运输企业应当提供符合食品安全标准的餐饮服务，不得销售不符合食品安全标准的食品和不合格产品\n证据定位： DOC0004-K24；S0004，第四章 乘车，第二十四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当提供符合食品安全标准的餐饮服务，不得销售不符合食品安全标准的食品和不合格产品。车站内和列车上提供的商品及服务应当做到明码标价、质价相符、信息描述规范。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十四条｜铁路运输企业应当提供符合食品安全标准的餐饮服务，不得销售不符合食品安全标准的食品和不合格产品\n证据定位： DOC0004-K24；S0004，第四章 乘车，第二十四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当提供符合食品安全标准的餐饮服务，不得销售不符合食品安全标准的食品和不合格产品。车站内和列车上提供的商品及服务应当做到明码标价、质价相符、信息描述规范。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "5281f4058a0d532d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "d00006cb875b0d34",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十五条｜旅客应当接受铁路运输企业对乘车相关凭证进行的必要核验\n证据定位： DOC0004-K25；S0004，第四章 乘车，第二十五条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客应当接受铁路运输企业对乘车相关凭证进行的必要核验。\n购买优惠票、优待票的旅客需要凭相应证件乘车。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十五条｜旅客应当接受铁路运输企业对乘车相关凭证进行的必要核验\n证据定位： DOC0004-K25；S0004，第四章 乘车，第二十五条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客应当接受铁路运输企业对乘车相关凭证进行的必要核验。\n购买优惠票、优待票的旅客需要凭相应证件乘车。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "d00006cb875b0d34",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "cc2b81045d5dee59",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十六条｜铁路运输企业发现下列情形之一的，应当补收票款\n证据定位： DOC0004-K26；S0004，第四章 乘车，第二十六条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业发现下列情形之一的，应当补收票款：\n（一）主动补票或者经车站、旅客列车同意上车补票的；\n（二）应当购买儿童优惠票而未买票乘车的；\n（三）应当购买全价票而使用儿童优惠票乘车的。\n需要收取手续费的，按照有关铁路旅客运输杂费的规定办理。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十六条｜铁路运输企业发现下列情形之一的，应当补收票款\n证据定位： DOC0004-K26；S0004，第四章 乘车，第二十六条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业发现下列情形之一的，应当补收票款：\n（一）主动补票或者经车站、旅客列车同意上车补票的；\n（二）应当购买儿童优惠票而未买票乘车的；\n（三）应当购买全价票而使用儿童优惠票乘车的。\n需要收取手续费的，按照有关铁路旅客运输杂费的规定办理。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "cc2b81045d5dee59",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8e311c558fc04bf5",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十七条｜未经铁路运输企业同意，有下列情形之一的，铁路运输企业应当补收票款，可以加收50%已乘区间应补票款\n证据定位： DOC0004-K27；S0004，第四章 乘车，第二十七条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n未经铁路运输企业同意，有下列情形之一的，铁路运输企业应当补收票款，可以加收50%已乘区间应补票款：\n（一）无票乘车未主动补票的；\n（二）在车票到站不下车，且继续乘车的；\n（三）持低等级席位的车票乘坐高等级席位的;\n（四）持不符合减价条件的优惠、优待车票乘车的。\n需要收取手续费的，按照有关铁路旅客运输杂费的规定办理。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十七条｜未经铁路运输企业同意，有下列情形之一的，铁路运输企业应当补收票款，可以加收50%已乘区间应补票款\n证据定位： DOC0004-K27；S0004，第四章 乘车，第二十七条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n未经铁路运输企业同意，有下列情形之一的，铁路运输企业应当补收票款，可以加收50%已乘区间应补票款：\n（一）无票乘车未主动补票的；\n（二）在车票到站不下车，且继续乘车的；\n（三）持低等级席位的车票乘坐高等级席位的;\n（四）持不符合减价条件的优惠、优待车票乘车的。\n需要收取手续费的，按照有关铁路旅客运输杂费的规定办理。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "8e311c558fc04bf5",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f4801b58adab92c1",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十八条｜铁路运输企业发现变造、伪造车票或者证件乘车，霸座或者其他扰乱秩序的行为，应当及时报告公安机关\n证据定位： DOC0004-K28；S0004，第四章 乘车，第二十八条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业发现变造、伪造车票或者证件乘车，霸座或者其他扰乱秩序的行为，应当及时报告公安机关。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十八条｜铁路运输企业发现变造、伪造车票或者证件乘车，霸座或者其他扰乱秩序的行为，应当及时报告公安机关\n证据定位： DOC0004-K28；S0004，第四章 乘车，第二十八条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业发现变造、伪造车票或者证件乘车，霸座或者其他扰乱秩序的行为，应当及时报告公安机关。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "f4801b58adab92c1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "fd279abf42e030bf",
+      "content": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十九条｜对下列旅客，铁路运输企业可以拒绝运输\n证据定位： DOC0004-K29；S0004，第四章 乘车，第二十九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n对下列旅客，铁路运输企业可以拒绝运输：\n（一）有本规程第二十七条第一款规定的情形之一，拒不支付应补票款、加收票款的；\n（二）不接受安全检查的；\n（三）购买实名制车票但不接受身份信息核验，或者车票所记载身份信息与所持身份证件或者真实身份不符的；\n（四）按照《中华人民共和国传染病防治法》等传染病防治的法律、行政法规和国家有关规定，应当实施隔离管理的；\n（五）扰乱车站、列车秩序，严重精神障碍和醉酒等有可能危及列车安全或者其他旅客以及铁路运输企业工作人员人身安全的；\n（六）国家规定的其他情况。\n旅客不听从铁路运输企业工作人员劝阻，坚持携带或者夹带危险物品或者违禁物品的，铁路运输企业应当拒绝运输。对涉嫌违反治安管理的行为应当及时报告公安机关。\n必要依赖（第二十七条原文）： 未经铁路运输企业同意，有下列情形之一的，铁路运输企业应当补收票款，可以加收50%已乘区间应补票款：\n（一）无票乘车未主动补票的；\n（二）在车票到站不下车，且继续乘车的；\n（三）持低等级席位的车票乘坐高等级席位的;\n（四）持不符合减价条件的优惠、优待车票乘车的。\n需要收取手续费的，按照有关铁路旅客运输杂费的规定办理。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十九条｜对下列旅客，铁路运输企业可以拒绝运输\n证据定位： DOC0004-K29；S0004，第四章 乘车，第二十九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n对下列旅客，铁路运输企业可以拒绝运输：\n（一）有本规程第二十七条第一款规定的情形之一，拒不支付应补票款、加收票款的；\n（二）不接受安全检查的；\n（三）购买实名制车票但不接受身份信息核验，或者车票所记载身份信息与所持身份证件或者真实身份不符的；\n（四）按照《中华人民共和国传染病防治法》等传染病防治的法律、行政法规和国家有关规定，应当实施隔离管理的；\n（五）扰乱车站、列车秩序，严重精神障碍和醉酒等有可能危及列车安全或者其他旅客以及铁路运输企业工作人员人身安全的；\n（六）国家规定的其他情况。\n旅客不听从铁路运输企业工作人员劝阻，坚持携带或者夹带危险物品或者违禁物品的，铁路运输企业应当拒绝运输。对涉嫌违反治安管理的行为应当及时报告公安机关。\n必要依赖（第二十七条原文）： 未经铁路运输企业同意，有下列情形之一的，铁路运输企业应当补收票款，可以加收50%已乘区间应补票款：\n（一）无票乘车未主动补票的；\n（二）在车票到站不下车，且继续乘车的；\n（三）持低等级席位的车票乘坐高等级席位的;\n（四）持不符合减价条件的优惠、优待车票乘车的。\n需要收取手续费的，按照有关铁路旅客运输杂费的规定办理。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "fd279abf42e030bf",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b095e03229bf9c3b",
+      "content": "# 铁路旅客运输规程\n## 第五章 车票改签与退票\n### 第三十条｜因旅客自身原因不能按车票记载的时间、车次、车厢号、席别和席位号乘车\n证据定位： DOC0004-K30；S0004，第五章 车票改签与退票，第三十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n因旅客自身原因不能按车票记载的时间、车次、车厢号、席别和席位号乘车，或者按照本规程规定被拒绝运输时，旅客要求办理退票或者改签的，应当按照铁路运输企业和旅客的约定办理。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第五章 车票改签与退票\n### 第三十条｜因旅客自身原因不能按车票记载的时间、车次、车厢号、席别和席位号乘车\n证据定位： DOC0004-K30；S0004，第五章 车票改签与退票，第三十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n因旅客自身原因不能按车票记载的时间、车次、车厢号、席别和席位号乘车，或者按照本规程规定被拒绝运输时，旅客要求办理退票或者改签的，应当按照铁路运输企业和旅客的约定办理。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "b095e03229bf9c3b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "cc89b44efe3cb1d1",
+      "content": "# 铁路旅客运输规程\n## 第五章 车票改签与退票\n### 第三十一条｜铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客\n证据定位： DOC0004-K31；S0004，第五章 车票改签与退票，第三十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n因铁路运输企业原因或者自然灾害等其他不能正常运输情形导致旅客不能按车票记载的时间、车次、车厢号、席别和席位号乘车时，铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客。重新安排的席位票价高于原票价时，超过部分不予补收；低于原票价时，应当退还票价差额。\n对前款规定的情形，铁路运输企业不得收取退票费。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第五章 车票改签与退票\n### 第三十一条｜铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客\n证据定位： DOC0004-K31；S0004，第五章 车票改签与退票，第三十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n因铁路运输企业原因或者自然灾害等其他不能正常运输情形导致旅客不能按车票记载的时间、车次、车厢号、席别和席位号乘车时，铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客。重新安排的席位票价高于原票价时，超过部分不予补收；低于原票价时，应当退还票价差额。\n对前款规定的情形，铁路运输企业不得收取退票费。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "cc89b44efe3cb1d1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "822e63fa2978829c",
+      "content": "# 铁路旅客运输规程\n## 第五章 车票改签与退票\n### 第三十二条｜旅客办理退票、申请退款后\n证据定位： DOC0004-K32；S0004，第五章 车票改签与退票，第三十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客办理退票、申请退款后，铁路运输企业应当在7个工作日内办理完成退款手续，上述时间不含金融机构处理时间和旅客自身原因导致的时间延误。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第五章 车票改签与退票\n### 第三十二条｜旅客办理退票、申请退款后\n证据定位： DOC0004-K32；S0004，第五章 车票改签与退票，第三十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客办理退票、申请退款后，铁路运输企业应当在7个工作日内办理完成退款手续，上述时间不含金融机构处理时间和旅客自身原因导致的时间延误。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "822e63fa2978829c",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "2e66f796f05202b6",
+      "content": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十三条｜行李票是铁路行李运输合同的凭证\n证据定位： DOC0004-K33；S0004，第六章 行李运输，第三十三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n行李票是铁路行李运输合同的凭证，应当载明车票票号、发站、到站、包装、件数、重量、费用、承运时间及旅客的姓名、地址、联系电话等主要信息。铁路运输企业与旅客另有约定的，按照其约定。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十三条｜行李票是铁路行李运输合同的凭证\n证据定位： DOC0004-K33；S0004，第六章 行李运输，第三十三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n行李票是铁路行李运输合同的凭证，应当载明车票票号、发站、到站、包装、件数、重量、费用、承运时间及旅客的姓名、地址、联系电话等主要信息。铁路运输企业与旅客另有约定的，按照其约定。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "2e66f796f05202b6",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "fd546f197bd51062",
+      "content": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十四条｜旅客凭有效车票、身份证件可以在行李办理站间托运行李，行李票和车票的发到城市应当保持一致\n证据定位： DOC0004-K34；S0004，第六章 行李运输，第三十四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客凭有效车票、身份证件可以在行李办理站间托运行李，行李票和车票的发到城市应当保持一致。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十四条｜旅客凭有效车票、身份证件可以在行李办理站间托运行李，行李票和车票的发到城市应当保持一致\n证据定位： DOC0004-K34；S0004，第六章 行李运输，第三十四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客凭有效车票、身份证件可以在行李办理站间托运行李，行李票和车票的发到城市应当保持一致。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "fd546f197bd51062",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8a00f73e7f161f0a",
+      "content": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十五条｜铁路运输企业应当明确旅客托运行李的相关规定，至少包括下列内容\n证据定位： DOC0004-K35；S0004，第六章 行李运输，第三十五条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当明确旅客托运行李的相关规定，至少包括下列内容：\n（一）托运行李总重量限额；\n（二）每件行李的重量及尺寸限定；\n（三）超限行李计费方式；\n（四）是否提供声明价值服务，或者为旅客办理行李声明价值的相关约定；\n（五）特殊行李运输的相关规定；\n（六）行李损坏、丢失、延误的赔偿标准或者所适用的国家有关规定。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十五条｜铁路运输企业应当明确旅客托运行李的相关规定，至少包括下列内容\n证据定位： DOC0004-K35；S0004，第六章 行李运输，第三十五条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当明确旅客托运行李的相关规定，至少包括下列内容：\n（一）托运行李总重量限额；\n（二）每件行李的重量及尺寸限定；\n（三）超限行李计费方式；\n（四）是否提供声明价值服务，或者为旅客办理行李声明价值的相关约定；\n（五）特殊行李运输的相关规定；\n（六）行李损坏、丢失、延误的赔偿标准或者所适用的国家有关规定。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "8a00f73e7f161f0a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "d035449b45094ea7",
+      "content": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十六条｜对旅客托运的行李进行安全检查\n证据定位： DOC0004-K36；S0004，第六章 行李运输，第三十六条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照《中华人民共和国反恐怖主义法》《铁路安全管理条例》《铁路旅客运输安全检查管理办法》等规定，对旅客托运的行李进行安全检查。旅客托运行李应当遵守国家禁止运输或者限制运输的相关规定，不得夹带货币、珍贵文物、金银珠宝、档案材料、证书证件等贵重物品。\n铁路运输企业在承运行李时或者运输过程中，发现行李中装有不得作为行李运输的任何物品，应当拒绝承运或者终止运输，并通知旅客处理。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十六条｜对旅客托运的行李进行安全检查\n证据定位： DOC0004-K36；S0004，第六章 行李运输，第三十六条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照《中华人民共和国反恐怖主义法》《铁路安全管理条例》《铁路旅客运输安全检查管理办法》等规定，对旅客托运的行李进行安全检查。旅客托运行李应当遵守国家禁止运输或者限制运输的相关规定，不得夹带货币、珍贵文物、金银珠宝、档案材料、证书证件等贵重物品。\n铁路运输企业在承运行李时或者运输过程中，发现行李中装有不得作为行李运输的任何物品，应当拒绝承运或者终止运输，并通知旅客处理。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "d035449b45094ea7",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "2086036544818656",
+      "content": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十七条｜行李的包装应当完整牢固、适合运输，包装材料和方式符合国家规定的包装标准和条件\n证据定位： DOC0004-K37；S0004，第六章 行李运输，第三十七条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n行李的包装应当完整牢固、适合运输，包装材料和方式符合国家规定的包装标准和条件。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十七条｜行李的包装应当完整牢固、适合运输，包装材料和方式符合国家规定的包装标准和条件\n证据定位： DOC0004-K37；S0004，第六章 行李运输，第三十七条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n行李的包装应当完整牢固、适合运输，包装材料和方式符合国家规定的包装标准和条件。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "2086036544818656",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ae5aebca9dbdb932",
+      "content": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十八条｜行李应当随旅客所乘列车或者就近列车运送，如遇特殊情况的，铁路运输企业应当向旅客作出说明\n证据定位： DOC0004-K38；S0004，第六章 行李运输，第三十八条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n行李应当随旅客所乘列车或者就近列车运送，如遇特殊情况的，铁路运输企业应当向旅客作出说明。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十八条｜行李应当随旅客所乘列车或者就近列车运送，如遇特殊情况的，铁路运输企业应当向旅客作出说明\n证据定位： DOC0004-K38；S0004，第六章 行李运输，第三十八条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n行李应当随旅客所乘列车或者就近列车运送，如遇特殊情况的，铁路运输企业应当向旅客作出说明。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "ae5aebca9dbdb932",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "1352a4b9cb0d7eed",
+      "content": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十九条｜铁路运输企业应当为旅客办理行李托运变更手续提供便利条件\n证据定位： DOC0004-K39；S0004，第六章 行李运输，第三十九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当为旅客办理行李托运变更手续提供便利条件。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第三十九条｜铁路运输企业应当为旅客办理行李托运变更手续提供便利条件\n证据定位： DOC0004-K39；S0004，第六章 行李运输，第三十九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当为旅客办理行李托运变更手续提供便利条件。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "1352a4b9cb0d7eed",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "1482f68c053287f2",
+      "content": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第四十条｜铁路运输企业应当及时通知旅客领取到达的行李\n证据定位： DOC0004-K40；S0004，第六章 行李运输，第四十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当及时通知旅客领取到达的行李。\n行李从运到日起，铁路运输企业应当至少免费保管3日；逾期到达的行李应当至少免费保管10日。因行李损失或者不可抗力等原因应当适当增加免费保管日数。\n对前款规定的时限，铁路运输企业与旅客另有约定的，按照其约定。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第四十条｜铁路运输企业应当及时通知旅客领取到达的行李\n证据定位： DOC0004-K40；S0004，第六章 行李运输，第四十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当及时通知旅客领取到达的行李。\n行李从运到日起，铁路运输企业应当至少免费保管3日；逾期到达的行李应当至少免费保管10日。因行李损失或者不可抗力等原因应当适当增加免费保管日数。\n对前款规定的时限，铁路运输企业与旅客另有约定的，按照其约定。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "1482f68c053287f2",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a71932476a059c8e",
+      "content": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第四十一条｜在行李运输过程中，行李发生损坏、丢失或者延误，旅客要求出具行李运输损失凭证的，铁路运输企业应当及时提供\n证据定位： DOC0004-K41；S0004，第六章 行李运输，第四十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在行李运输过程中，行李发生损坏、丢失或者延误，旅客要求出具行李运输损失凭证的，铁路运输企业应当及时提供。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第六章 行李运输\n### 第四十一条｜在行李运输过程中，行李发生损坏、丢失或者延误，旅客要求出具行李运输损失凭证的，铁路运输企业应当及时提供\n证据定位： DOC0004-K41；S0004，第六章 行李运输，第四十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在行李运输过程中，行李发生损坏、丢失或者延误，旅客要求出具行李运输损失凭证的，铁路运输企业应当及时提供。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "a71932476a059c8e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3ccbc88d9b3a8e62",
+      "content": "# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十二条｜铁路运输企业应当针对自然灾害、恶劣天气、设备设施故障以及安全事故等对旅客出行产生重大影响的情形\n证据定位： DOC0004-K42；S0004，第七章 应急处置，第四十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当针对自然灾害、恶劣天气、设备设施故障以及安全事故等对旅客出行产生重大影响的情形，依法制定相应的应急预案，配备必要的应急物品，并定期组织演练。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十二条｜铁路运输企业应当针对自然灾害、恶劣天气、设备设施故障以及安全事故等对旅客出行产生重大影响的情形\n证据定位： DOC0004-K42；S0004，第七章 应急处置，第四十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当针对自然灾害、恶劣天气、设备设施故障以及安全事故等对旅客出行产生重大影响的情形，依法制定相应的应急预案，配备必要的应急物品，并定期组织演练。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "3ccbc88d9b3a8e62",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "971bac6a26b6182b",
+      "content": "# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十三条｜线路中断、列车不能继续运行时\n证据定位： DOC0004-K43；S0004，第七章 应急处置，第四十三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n线路中断、列车不能继续运行时，铁路运输企业应当妥善安排受阻旅客，并及时公告铁路旅客运输相关业务停办、恢复等信息。\n因线路中断影响旅行，旅客要求出具证明的，铁路运输企业应当及时提供。\n必要依赖（第三十一条原文）： 因铁路运输企业原因或者自然灾害等其他不能正常运输情形导致旅客不能按车票记载的时间、车次、车厢号、席别和席位号乘车时，铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客。重新安排的席位票价高于原票价时，超过部分不予补收；低于原票价时，应当退还票价差额。\n对前款规定的情形，铁路运输企业不得收取退票费。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十三条｜线路中断、列车不能继续运行时\n证据定位： DOC0004-K43；S0004，第七章 应急处置，第四十三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n线路中断、列车不能继续运行时，铁路运输企业应当妥善安排受阻旅客，并及时公告铁路旅客运输相关业务停办、恢复等信息。\n因线路中断影响旅行，旅客要求出具证明的，铁路运输企业应当及时提供。\n必要依赖（第三十一条原文）： 因铁路运输企业原因或者自然灾害等其他不能正常运输情形导致旅客不能按车票记载的时间、车次、车厢号、席别和席位号乘车时，铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客。重新安排的席位票价高于原票价时，超过部分不予补收；低于原票价时，应当退还票价差额。\n对前款规定的情形，铁路运输企业不得收取退票费。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "971bac6a26b6182b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "bb23fe90671d4f8e",
+      "content": "# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十四条｜线路中断后，铁路运输企业应当妥善保管承运的行李，并及时通知旅客，与旅客协商处理方案\n证据定位： DOC0004-K44；S0004，第七章 应急处置，第四十四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n线路中断后，铁路运输企业应当妥善保管承运的行李，并及时通知旅客，与旅客协商处理方案。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十四条｜线路中断后，铁路运输企业应当妥善保管承运的行李，并及时通知旅客，与旅客协商处理方案\n证据定位： DOC0004-K44；S0004，第七章 应急处置，第四十四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n线路中断后，铁路运输企业应当妥善保管承运的行李，并及时通知旅客，与旅客协商处理方案。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "bb23fe90671d4f8e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7b9d6944e4300558",
+      "content": "# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十五条｜发生旅客急病、分娩、遇险时，铁路运输企业应当积极采取救助措施并做好记录\n证据定位： DOC0004-K45；S0004，第七章 应急处置，第四十五条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n发生旅客急病、分娩、遇险时，铁路运输企业应当积极采取救助措施并做好记录。\n公安机关开展调查、侦查时，铁路运输企业应当配合公安机关开展工作，协助收集相关证据、调查事件发生原因。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十五条｜发生旅客急病、分娩、遇险时，铁路运输企业应当积极采取救助措施并做好记录\n证据定位： DOC0004-K45；S0004，第七章 应急处置，第四十五条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n发生旅客急病、分娩、遇险时，铁路运输企业应当积极采取救助措施并做好记录。\n公安机关开展调查、侦查时，铁路运输企业应当配合公安机关开展工作，协助收集相关证据、调查事件发生原因。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "7b9d6944e4300558",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "d9536b46539f7b59",
+      "content": "# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十六条｜铁路运输企业对运输过程中旅客的人身伤亡和财产损失，依法承担民事责任\n证据定位： DOC0004-K46；S0004，第七章 应急处置，第四十六条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业对运输过程中旅客的人身伤亡和财产损失，依法承担民事责任。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十六条｜铁路运输企业对运输过程中旅客的人身伤亡和财产损失，依法承担民事责任\n证据定位： DOC0004-K46；S0004，第七章 应急处置，第四十六条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业对运输过程中旅客的人身伤亡和财产损失，依法承担民事责任。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "d9536b46539f7b59",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8b1933fcaf36ece5",
+      "content": "# 铁路旅客运输规程\n## 第八章 旅客投诉与建议\n### 第四十七条｜旅客有权就铁路旅客运输服务质量问题向铁路运输企业投诉，也可以向铁路监管部门投诉\n证据定位： DOC0004-K47；S0004，第八章 旅客投诉与建议，第四十七条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客有权就铁路旅客运输服务质量问题向铁路运输企业投诉，也可以向铁路监管部门投诉。\n铁路运输企业应当建立旅客运输投诉处理机制，设立电话、网络、信件等投诉渠道并对外公布，配备必要的投诉处理人员并保证投诉渠道畅通，运行良好。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第八章 旅客投诉与建议\n### 第四十七条｜旅客有权就铁路旅客运输服务质量问题向铁路运输企业投诉，也可以向铁路监管部门投诉\n证据定位： DOC0004-K47；S0004，第八章 旅客投诉与建议，第四十七条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n旅客有权就铁路旅客运输服务质量问题向铁路运输企业投诉，也可以向铁路监管部门投诉。\n铁路运输企业应当建立旅客运输投诉处理机制，设立电话、网络、信件等投诉渠道并对外公布，配备必要的投诉处理人员并保证投诉渠道畅通，运行良好。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "8b1933fcaf36ece5",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4a8c253d44cad69e",
+      "content": "# 铁路旅客运输规程\n## 第八章 旅客投诉与建议\n### 第四十八条｜铁路运输企业应当在收到旅客投诉后3个工作日内答复受理情况，10个工作日内告知实质性处理结果\n证据定位： DOC0004-K48；S0004，第八章 旅客投诉与建议，第四十八条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当在收到旅客投诉后3个工作日内答复受理情况，10个工作日内告知实质性处理结果；不予受理的，应当说明理由。\n铁路运输企业应当记录旅客的投诉情况及处理结果，投诉记录至少保存3年。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第八章 旅客投诉与建议\n### 第四十八条｜铁路运输企业应当在收到旅客投诉后3个工作日内答复受理情况，10个工作日内告知实质性处理结果\n证据定位： DOC0004-K48；S0004，第八章 旅客投诉与建议，第四十八条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当在收到旅客投诉后3个工作日内答复受理情况，10个工作日内告知实质性处理结果；不予受理的，应当说明理由。\n铁路运输企业应当记录旅客的投诉情况及处理结果，投诉记录至少保存3年。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "4a8c253d44cad69e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f97515c3e120c427",
+      "content": "# 铁路旅客运输规程\n## 第八章 旅客投诉与建议\n### 第四十九条｜铁路运输企业应当认真研究旅客提出的服务改进意见建议，必要时主动沟通并作出答复\n证据定位： DOC0004-K49；S0004，第八章 旅客投诉与建议，第四十九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当认真研究旅客提出的服务改进意见建议，必要时主动沟通并作出答复。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第八章 旅客投诉与建议\n### 第四十九条｜铁路运输企业应当认真研究旅客提出的服务改进意见建议，必要时主动沟通并作出答复\n证据定位： DOC0004-K49；S0004，第八章 旅客投诉与建议，第四十九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当认真研究旅客提出的服务改进意见建议，必要时主动沟通并作出答复。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "f97515c3e120c427",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4a871d5136fc118c",
+      "content": "# 铁路旅客运输规程\n## 第九章 附则\n### 第五十条｜铁路营业站及营业线的启用、封闭和业务范围的变更，铁路运输企业应当公告\n证据定位： DOC0004-K50；S0004，第九章 附则，第五十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路营业站及营业线的启用、封闭和业务范围的变更，铁路运输企业应当公告。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第九章 附则\n### 第五十条｜铁路营业站及营业线的启用、封闭和业务范围的变更，铁路运输企业应当公告\n证据定位： DOC0004-K50；S0004，第九章 附则，第五十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路营业站及营业线的启用、封闭和业务范围的变更，铁路运输企业应当公告。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "4a871d5136fc118c",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "9124437d333fdc98",
+      "content": "# 铁路旅客运输规程\n## 第九章 附则\n### 第五十一条｜铁路运输企业利用旅客列车办理包裹运输业务的，参照本规程行李运输有关规定执行\n证据定位： DOC0004-K51；S0004，第九章 附则，第五十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业利用旅客列车办理包裹运输业务的，参照本规程行李运输有关规定执行。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第九章 附则\n### 第五十一条｜铁路运输企业利用旅客列车办理包裹运输业务的，参照本规程行李运输有关规定执行\n证据定位： DOC0004-K51；S0004，第九章 附则，第五十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业利用旅客列车办理包裹运输业务的，参照本规程行李运输有关规定执行。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "9124437d333fdc98",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4e446ac5b4ca2114",
+      "content": "# 铁路旅客运输规程\n## 第九章 附则\n### 第五十二条｜本规程自2023年1月1日起施行\n证据定位： DOC0004-K52；S0004，第九章 附则，第五十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本规程自2023年1月1日起施行。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 第九章 附则\n### 第五十二条｜本规程自2023年1月1日起施行\n证据定位： DOC0004-K52；S0004，第九章 附则，第五十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本规程自2023年1月1日起施行。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "4e446ac5b4ca2114",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": false,
+      "chunk_id": "e3ef6f5aa069383d",
+      "content": "# 铁路旅客运输规程\n## 来源与整理记录\n### 文档版本与原件索引\n文档 ID：DOC0004\n主领域：YS\n来源 ID：S0004\n资料性质：官方原文结构整理；检索小标题为编辑辅助文字。\n来源版本：原件末条载明自2023-01-01施行；原件未载公布令号\n适用范围：铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验：按存档原件整理；尚不能证明不存在后续修订。使用时须核验适用版本。\n原件：01-originals/baseline/04_passenger-transport.md\n正文核对底本：01-originals/baseline/04_passenger-transport.md\n官方来源：https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202211/t20221117_338894.shtml\n整理日期：2026-11-16\n本节仅供追溯；不作为业务问答证据。\n",
+      "content_with_weight": "# 铁路旅客运输规程\n## 来源与整理记录\n### 文档版本与原件索引\n文档 ID：DOC0004\n主领域：YS\n来源 ID：S0004\n资料性质：官方原文结构整理；检索小标题为编辑辅助文字。\n来源版本：原件末条载明自2023-01-01施行；原件未载公布令号\n适用范围：铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验：按存档原件整理；尚不能证明不存在后续修订。使用时须核验适用版本。\n原件：01-originals/baseline/04_passenger-transport.md\n正文核对底本：01-originals/baseline/04_passenger-transport.md\n官方来源：https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202211/t20221117_338894.shtml\n整理日期：2026-11-16\n本节仅供追溯；不作为业务问答证据。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+      "document_id": "3188d438193b4d4db5f1c68615259531",
+      "id": "e3ef6f5aa069383d",
+      "important_keywords": [],
+      "questions": []
+    }
+  ],
+  "validation_scope": "全量正文和知识点边界自动比对；不冒充全量人工语义核验。模型token预算另行验证。"
+}

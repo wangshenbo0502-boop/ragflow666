@@ -1,0 +1,427 @@
+{
+  "doc_id": "DOC0021",
+  "source_id": "S0024",
+  "source_path": "01-originals/web/S0024.txt",
+  "output_path": "03-domains/YS/DOC0021_铁路危险货物运输安全监督管理规定.md",
+  "expected_article_count": 52,
+  "extracted_article_count": 52,
+  "output_sha256": "09b95f01ef2f2e05d73ca2e33159823dfb54b197156456b7a79c39d861146865",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "4665afff41af45c85db9d078c0fce01c609e523b3e55406ba8a3265a4f65a7d2",
+      "output_sha256": "4665afff41af45c85db9d078c0fce01c609e523b3e55406ba8a3265a4f65a7d2",
+      "source_characters": 129,
+      "output_characters": 129
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "736997eb6e1fa22b8009edf002e4b5b2c2f9ffef8d4ae2affe138c40d07bd90d",
+      "output_sha256": "736997eb6e1fa22b8009edf002e4b5b2c2f9ffef8d4ae2affe138c40d07bd90d",
+      "source_characters": 166,
+      "output_characters": 166
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "7ae5d6e3e8f0076d4fcde817c7835449a281d73695388e5f941e42b035f8b4ba",
+      "output_sha256": "7ae5d6e3e8f0076d4fcde817c7835449a281d73695388e5f941e42b035f8b4ba",
+      "source_characters": 151,
+      "output_characters": 151
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "482fdb58b615583a6e3fa28ae392f06a93b52aaaac3578cc0a96a656e2c991ca",
+      "output_sha256": "482fdb58b615583a6e3fa28ae392f06a93b52aaaac3578cc0a96a656e2c991ca",
+      "source_characters": 156,
+      "output_characters": 156
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "ec5a8ae2b77918aff1ce4e3babed3b3c671b9b8e054fe08fe5a9bde27084a256",
+      "output_sha256": "ec5a8ae2b77918aff1ce4e3babed3b3c671b9b8e054fe08fe5a9bde27084a256",
+      "source_characters": 84,
+      "output_characters": 84
+    },
+    {
+      "article": "第六条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "532210e1633f0b7aa528184d05daa6099c2f543c2eccd14a8c84e6805a0aa669",
+      "output_sha256": "532210e1633f0b7aa528184d05daa6099c2f543c2eccd14a8c84e6805a0aa669",
+      "source_characters": 94,
+      "output_characters": 94
+    },
+    {
+      "article": "第七条",
+      "chapter": "第二章 运输条件",
+      "source_sha256": "08dc6d5881b2f0795ff89b62b8f64b61b53e6ca2b648d2204fe8c6b7823d8fed",
+      "output_sha256": "08dc6d5881b2f0795ff89b62b8f64b61b53e6ca2b648d2204fe8c6b7823d8fed",
+      "source_characters": 168,
+      "output_characters": 168
+    },
+    {
+      "article": "第八条",
+      "chapter": "第二章 运输条件",
+      "source_sha256": "829ab8041ed1129636383da4ef2d79bd7e0c27e1a89335608673c90ea857f374",
+      "output_sha256": "829ab8041ed1129636383da4ef2d79bd7e0c27e1a89335608673c90ea857f374",
+      "source_characters": 81,
+      "output_characters": 81
+    },
+    {
+      "article": "第九条",
+      "chapter": "第二章 运输条件",
+      "source_sha256": "a37d5c5fbf5d779b1fa6082ebcb650f618027c676571d514736395b2b7b3d29e",
+      "output_sha256": "a37d5c5fbf5d779b1fa6082ebcb650f618027c676571d514736395b2b7b3d29e",
+      "source_characters": 366,
+      "output_characters": 366
+    },
+    {
+      "article": "第十条",
+      "chapter": "第二章 运输条件",
+      "source_sha256": "8f33051464467c32d699201d788c2058e71ffdb12ef4311fdd910a991fb8f2b4",
+      "output_sha256": "8f33051464467c32d699201d788c2058e71ffdb12ef4311fdd910a991fb8f2b4",
+      "source_characters": 238,
+      "output_characters": 238
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第二章 运输条件",
+      "source_sha256": "3bad1b5817151536916de94aebf0fb6030f5abbb552213152efd2b249cfa4a8b",
+      "output_sha256": "3bad1b5817151536916de94aebf0fb6030f5abbb552213152efd2b249cfa4a8b",
+      "source_characters": 251,
+      "output_characters": 251
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第二章 运输条件",
+      "source_sha256": "0d5f786f9eed7ed813966d6b54d6fbd6a9e4090041dd2fc5361f38948da0082f",
+      "output_sha256": "0d5f786f9eed7ed813966d6b54d6fbd6a9e4090041dd2fc5361f38948da0082f",
+      "source_characters": 290,
+      "output_characters": 290
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第二章 运输条件",
+      "source_sha256": "96830a19b762e3f8f57dd1cfdc07571c9ae14c690eef0e25ff807ee7432a1cf8",
+      "output_sha256": "96830a19b762e3f8f57dd1cfdc07571c9ae14c690eef0e25ff807ee7432a1cf8",
+      "source_characters": 146,
+      "output_characters": 146
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "cd34aaaba15d5a084d22c93ba85a0576c7ecadd6fae163d8fc0b7b448b94e364",
+      "output_sha256": "cd34aaaba15d5a084d22c93ba85a0576c7ecadd6fae163d8fc0b7b448b94e364",
+      "source_characters": 118,
+      "output_characters": 118
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "e4f1694a219e3bd78b9947b717343fca7c850ed86f6be4bd960a7499783ed623",
+      "output_sha256": "e4f1694a219e3bd78b9947b717343fca7c850ed86f6be4bd960a7499783ed623",
+      "source_characters": 339,
+      "output_characters": 339
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "1d13e8b263b61d93ae8e5a21c778d5210c91b8dec80cb7bf253252f1ec5dee22",
+      "output_sha256": "1d13e8b263b61d93ae8e5a21c778d5210c91b8dec80cb7bf253252f1ec5dee22",
+      "source_characters": 134,
+      "output_characters": 134
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "6162fcf81c128eeaaa3ba37136452d00e013665b45d139559187e253774c9df9",
+      "output_sha256": "6162fcf81c128eeaaa3ba37136452d00e013665b45d139559187e253774c9df9",
+      "source_characters": 25,
+      "output_characters": 25
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "2ab5d7417b1e29f153d24ba46fbc1bf69a5afe14488c38923cd7c254a0187291",
+      "output_sha256": "2ab5d7417b1e29f153d24ba46fbc1bf69a5afe14488c38923cd7c254a0187291",
+      "source_characters": 352,
+      "output_characters": 352
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "7c85e23ba4c627c72d461d73f0aa95a51de6bc21b961e1ea162559966347541a",
+      "output_sha256": "7c85e23ba4c627c72d461d73f0aa95a51de6bc21b961e1ea162559966347541a",
+      "source_characters": 213,
+      "output_characters": 213
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "4bcbc181f8c59e7347a0a2cdece6d8802f74e619b4f4f45f53893fe65f58d639",
+      "output_sha256": "4bcbc181f8c59e7347a0a2cdece6d8802f74e619b4f4f45f53893fe65f58d639",
+      "source_characters": 309,
+      "output_characters": 309
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "ef27b25174c8fdfca918300dc78b14123e4e544ec6bc1eff58bd22fde6e40376",
+      "output_sha256": "ef27b25174c8fdfca918300dc78b14123e4e544ec6bc1eff58bd22fde6e40376",
+      "source_characters": 157,
+      "output_characters": 157
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "38ea613aee8d8e669a55b5ef2fcc09896ae03b6ee25425360c59361fd37e8c78",
+      "output_sha256": "38ea613aee8d8e669a55b5ef2fcc09896ae03b6ee25425360c59361fd37e8c78",
+      "source_characters": 205,
+      "output_characters": 205
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "d5a1b869b5f969ec7203b60047f48456db960c51a59b59b6c8d42960ff105174",
+      "output_sha256": "d5a1b869b5f969ec7203b60047f48456db960c51a59b59b6c8d42960ff105174",
+      "source_characters": 46,
+      "output_characters": 46
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "928d133a1045b6e8db95ded0c4aca4fe5ad5be763d0adf803d7c3c790d41a2c7",
+      "output_sha256": "928d133a1045b6e8db95ded0c4aca4fe5ad5be763d0adf803d7c3c790d41a2c7",
+      "source_characters": 276,
+      "output_characters": 276
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "0cebe411a990c06f1f3d26a54631280ff70dd919c854360cba6f0241f85f8fca",
+      "output_sha256": "0cebe411a990c06f1f3d26a54631280ff70dd919c854360cba6f0241f85f8fca",
+      "source_characters": 127,
+      "output_characters": 127
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "c61e4be72315df93f422d5dd3ef9b05f8babf5db5163fa648a8b7957a2396149",
+      "output_sha256": "c61e4be72315df93f422d5dd3ef9b05f8babf5db5163fa648a8b7957a2396149",
+      "source_characters": 149,
+      "output_characters": 149
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "f272b34268741b33588329bb30de01a3915c293b093510e7f567f5c63dd3b983",
+      "output_sha256": "f272b34268741b33588329bb30de01a3915c293b093510e7f567f5c63dd3b983",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "126e73889644dda388a45abbafc8ba2ff2ef8010877c4c9a75fb798feb9bee30",
+      "output_sha256": "126e73889644dda388a45abbafc8ba2ff2ef8010877c4c9a75fb798feb9bee30",
+      "source_characters": 106,
+      "output_characters": 106
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "732ebd7d6b59655fd32ea24c9c9b8da2a79b5f5f4eadd4fb4c36942c23cc5531",
+      "output_sha256": "732ebd7d6b59655fd32ea24c9c9b8da2a79b5f5f4eadd4fb4c36942c23cc5531",
+      "source_characters": 122,
+      "output_characters": 122
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "83028be2d69d55afa4264edf613a6454f1e91e26896d3c24c1f023aa70994022",
+      "output_sha256": "83028be2d69d55afa4264edf613a6454f1e91e26896d3c24c1f023aa70994022",
+      "source_characters": 111,
+      "output_characters": 111
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "39cd14fb9a72a9ddc30dbe931a0369be9725ed6536124a08dba8836b1f5c9b33",
+      "output_sha256": "39cd14fb9a72a9ddc30dbe931a0369be9725ed6536124a08dba8836b1f5c9b33",
+      "source_characters": 225,
+      "output_characters": 225
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "e3db3d0019384db6ec0d6e25d0bed552ad0785168d88e6f73a6d6f0b92d5512e",
+      "output_sha256": "e3db3d0019384db6ec0d6e25d0bed552ad0785168d88e6f73a6d6f0b92d5512e",
+      "source_characters": 118,
+      "output_characters": 118
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "1c5d5fec1aa2277c7aba9261e5e57d05a0f25130275074e0c92df97c9fc83e26",
+      "output_sha256": "1c5d5fec1aa2277c7aba9261e5e57d05a0f25130275074e0c92df97c9fc83e26",
+      "source_characters": 71,
+      "output_characters": 71
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "2790e0a85c3b4789b03801feac5f69b69075d7325034089c8bd4d8d8bb1d820f",
+      "output_sha256": "2790e0a85c3b4789b03801feac5f69b69075d7325034089c8bd4d8d8bb1d820f",
+      "source_characters": 149,
+      "output_characters": 149
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "8703961a5446e785fdbe6e07bf7312c7e99483e2f64d08f294fe5d8798b3e857",
+      "output_sha256": "8703961a5446e785fdbe6e07bf7312c7e99483e2f64d08f294fe5d8798b3e857",
+      "source_characters": 256,
+      "output_characters": 256
+    },
+    {
+      "article": "第三十六条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "03e0990c0b01edddc5b74933e6ce237de356a846d881ce2f9d14d758db09f766",
+      "output_sha256": "03e0990c0b01edddc5b74933e6ce237de356a846d881ce2f9d14d758db09f766",
+      "source_characters": 182,
+      "output_characters": 182
+    },
+    {
+      "article": "第三十七条",
+      "chapter": "第三章 运输安全管理",
+      "source_sha256": "7afa8aca25f76dbfc51aa603c2a328adb96ca32921ea9076ed1b0a3ba209cc0c",
+      "output_sha256": "7afa8aca25f76dbfc51aa603c2a328adb96ca32921ea9076ed1b0a3ba209cc0c",
+      "source_characters": 67,
+      "output_characters": 67
+    },
+    {
+      "article": "第三十八条",
+      "chapter": "第四章 监督检查",
+      "source_sha256": "69ded5c0e3bb714180cdf017d89fd10924213c04a6853950521d3b78e6c23fc8",
+      "output_sha256": "69ded5c0e3bb714180cdf017d89fd10924213c04a6853950521d3b78e6c23fc8",
+      "source_characters": 375,
+      "output_characters": 375
+    },
+    {
+      "article": "第三十九条",
+      "chapter": "第四章 监督检查",
+      "source_sha256": "862a871f0b23d496bf172df1027707bda3ecbf430bdb62909bac3df51c4fb85d",
+      "output_sha256": "862a871f0b23d496bf172df1027707bda3ecbf430bdb62909bac3df51c4fb85d",
+      "source_characters": 319,
+      "output_characters": 319
+    },
+    {
+      "article": "第四十条",
+      "chapter": "第四章 监督检查",
+      "source_sha256": "22c228f5c2891e414582095c9b1ba88e60b1a8ebf9cbf5a060a15df924f3afc6",
+      "output_sha256": "22c228f5c2891e414582095c9b1ba88e60b1a8ebf9cbf5a060a15df924f3afc6",
+      "source_characters": 138,
+      "output_characters": 138
+    },
+    {
+      "article": "第四十一条",
+      "chapter": "第四章 监督检查",
+      "source_sha256": "28d745e27406e9409d410dd19794ea5e4aa0c0a2a2c79dc07058ecf3c763c27c",
+      "output_sha256": "28d745e27406e9409d410dd19794ea5e4aa0c0a2a2c79dc07058ecf3c763c27c",
+      "source_characters": 143,
+      "output_characters": 143
+    },
+    {
+      "article": "第四十二条",
+      "chapter": "第四章 监督检查",
+      "source_sha256": "0210372943b1be1107d7ef3207c40bcd63bc52e8bc1f657005a4c69020417cad",
+      "output_sha256": "0210372943b1be1107d7ef3207c40bcd63bc52e8bc1f657005a4c69020417cad",
+      "source_characters": 78,
+      "output_characters": 78
+    },
+    {
+      "article": "第四十三条",
+      "chapter": "第四章 监督检查",
+      "source_sha256": "af614bd27363a3d850d86b08f06a7ace47347eb47788352ae8daafec5ec07b06",
+      "output_sha256": "af614bd27363a3d850d86b08f06a7ace47347eb47788352ae8daafec5ec07b06",
+      "source_characters": 138,
+      "output_characters": 138
+    },
+    {
+      "article": "第四十四条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "2c633ac963af7ea1226dfe6b392fe7f5296ab4f7dd5892f18fff6a8c5113ad6f",
+      "output_sha256": "2c633ac963af7ea1226dfe6b392fe7f5296ab4f7dd5892f18fff6a8c5113ad6f",
+      "source_characters": 163,
+      "output_characters": 163
+    },
+    {
+      "article": "第四十五条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "6b43f5615569ee4914b46fbe5b3c852c3e862c106c06519c2cdda43715446990",
+      "output_sha256": "6b43f5615569ee4914b46fbe5b3c852c3e862c106c06519c2cdda43715446990",
+      "source_characters": 396,
+      "output_characters": 396
+    },
+    {
+      "article": "第四十六条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "9b024551f93ca07eacd784e81f7b81b6444a0d6964c7249d87360c9dbcf85cfb",
+      "output_sha256": "9b024551f93ca07eacd784e81f7b81b6444a0d6964c7249d87360c9dbcf85cfb",
+      "source_characters": 333,
+      "output_characters": 333
+    },
+    {
+      "article": "第四十七条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "ad37eaa58051e40b80d5ca951d041af1c633727bc42a576db413539e7a5ea56e",
+      "output_sha256": "ad37eaa58051e40b80d5ca951d041af1c633727bc42a576db413539e7a5ea56e",
+      "source_characters": 336,
+      "output_characters": 336
+    },
+    {
+      "article": "第四十八条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "2e98dea495faf8694b861f9c7fcccd32140aace01d9e8bf3dfac5123a85da1d3",
+      "output_sha256": "2e98dea495faf8694b861f9c7fcccd32140aace01d9e8bf3dfac5123a85da1d3",
+      "source_characters": 62,
+      "output_characters": 62
+    },
+    {
+      "article": "第四十九条",
+      "chapter": "第六章 附 则",
+      "source_sha256": "02e397639e883e721d67e85f1647ed9d51413d09ca9353117f0fbd0dcdd4aeb8",
+      "output_sha256": "02e397639e883e721d67e85f1647ed9d51413d09ca9353117f0fbd0dcdd4aeb8",
+      "source_characters": 109,
+      "output_characters": 109
+    },
+    {
+      "article": "第五十条",
+      "chapter": "第六章 附 则",
+      "source_sha256": "b1ebeaed105ad3da9128a8be66cb7105d3639bf7f5ec0d9bc70c6905f7b2eaeb",
+      "output_sha256": "b1ebeaed105ad3da9128a8be66cb7105d3639bf7f5ec0d9bc70c6905f7b2eaeb",
+      "source_characters": 130,
+      "output_characters": 130
+    },
+    {
+      "article": "第五十一条",
+      "chapter": "第六章 附 则",
+      "source_sha256": "33a877b0da48bcf040fea0c52e3066714439b5a5d196d6863793bcf05f22838f",
+      "output_sha256": "33a877b0da48bcf040fea0c52e3066714439b5a5d196d6863793bcf05f22838f",
+      "source_characters": 19,
+      "output_characters": 19
+    },
+    {
+      "article": "第五十二条",
+      "chapter": "第六章 附 则",
+      "source_sha256": "e6a669e59fed83efcded976f049d93125c9d8abcb121c4c7337b38a777a075cd",
+      "output_sha256": "e6a669e59fed83efcded976f049d93125c9d8abcb121c4c7337b38a777a075cd",
+      "source_characters": 44,
+      "output_characters": 44
+    }
+  ]
+}

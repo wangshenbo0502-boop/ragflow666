@@ -33,22 +33,27 @@ const SceneDetails = {
 };
 
 function getScene(data: IDialog): RailwayScene | undefined {
-  if (data.prompt_config?.railway_scene)
-    return data.prompt_config.railway_scene;
-  if (data.name.includes('安全')) return 'safety';
-  if (data.name.includes('学习') || data.name.includes('培训'))
-    return 'training';
-  if (data.name.includes('设备')) return 'equipment';
-  if (data.name.includes('客运')) return 'passenger';
+  const scene = data.prompt_config?.railway_scene;
+  if (
+    data.prompt_config?.domain === 'railway' &&
+    scene &&
+    Object.hasOwn(SceneDetails, scene)
+  ) {
+    return scene;
+  }
   return undefined;
 }
 
-type ChatCardProps = { data: IDialog } & Pick<
+type ChatCardProps = { data: IDialog; showPrivilegeModal(): void } & Pick<
   ReturnType<typeof useRenameChat>,
   'showChatRenameModal'
 >;
 
-export function ChatCard({ data, showChatRenameModal }: ChatCardProps) {
+export function ChatCard({
+  data,
+  showChatRenameModal,
+  showPrivilegeModal,
+}: ChatCardProps) {
   const scene = getScene(data);
   const detail = scene ? SceneDetails[scene] : undefined;
   const Icon = detail?.icon || MessagesSquare;
@@ -71,7 +76,11 @@ export function ChatCard({ data, showChatRenameModal }: ChatCardProps) {
         </div>
         <ArrowUpRight className="rail-assistant-arrow size-5" />
       </Link>
-      <ChatDropdown chat={data} showChatRenameModal={showChatRenameModal}>
+      <ChatDropdown
+        chat={data}
+        showChatRenameModal={showChatRenameModal}
+        showPrivilegeModal={showPrivilegeModal}
+      >
         <MoreButton
           className="!opacity-100 !size-7"
           aria-label={`${data.name}的操作`}

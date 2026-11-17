@@ -1,0 +1,355 @@
+{
+  "doc_id": "DOC0017",
+  "source_id": "S0020",
+  "source_path": "01-originals/web/S0020.txt",
+  "output_path": "03-domains/CL/DOC0017_铁路机车车辆驾驶人员资格许可办法.md",
+  "expected_article_count": 43,
+  "extracted_article_count": 43,
+  "output_sha256": "09d1736e93c70a0a1ae7b043a82d37d700f0822801144093e394c15a7e3d3220",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "bc09f8f7c9b21c4ca0a3dc9a1523a532fdb722b68ba5be1cb1a030573a997290",
+      "output_sha256": "bc09f8f7c9b21c4ca0a3dc9a1523a532fdb722b68ba5be1cb1a030573a997290",
+      "source_characters": 93,
+      "output_characters": 93
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "0a34764648c4723194eb2650594b331a0979bb47277104db87b5fb67387f0141",
+      "output_sha256": "0a34764648c4723194eb2650594b331a0979bb47277104db87b5fb67387f0141",
+      "source_characters": 208,
+      "output_characters": 208
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "5cf37ad3c198e6747807b23f94155855da9069890284291eae182826b9d7e372",
+      "output_sha256": "5cf37ad3c198e6747807b23f94155855da9069890284291eae182826b9d7e372",
+      "source_characters": 106,
+      "output_characters": 106
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "cf3e2ee975e28401c8b347c5b93c48a26a6a7181f1196a5cfba4e08353a50539",
+      "output_sha256": "cf3e2ee975e28401c8b347c5b93c48a26a6a7181f1196a5cfba4e08353a50539",
+      "source_characters": 221,
+      "output_characters": 221
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "b99e331a110c5194bce7803cb1af185bc402565a2cee607350634b1a8caca830",
+      "output_sha256": "b99e331a110c5194bce7803cb1af185bc402565a2cee607350634b1a8caca830",
+      "source_characters": 80,
+      "output_characters": 80
+    },
+    {
+      "article": "第六条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "995cb16ce601a0169c2662456acfbc27c6a6e031cd4a0525392d9ab49604ce82",
+      "output_sha256": "995cb16ce601a0169c2662456acfbc27c6a6e031cd4a0525392d9ab49604ce82",
+      "source_characters": 325,
+      "output_characters": 325
+    },
+    {
+      "article": "第七条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "17782686dda996779d6b68713c18627506a0a1f7491a81b482eb180c82b895e8",
+      "output_sha256": "17782686dda996779d6b68713c18627506a0a1f7491a81b482eb180c82b895e8",
+      "source_characters": 470,
+      "output_characters": 470
+    },
+    {
+      "article": "第八条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "6d899d954272db2048e45a326595a43bf3ab5b515302c213ace98bf39ff68097",
+      "output_sha256": "6d899d954272db2048e45a326595a43bf3ab5b515302c213ace98bf39ff68097",
+      "source_characters": 67,
+      "output_characters": 67
+    },
+    {
+      "article": "第九条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "8f17f4888bb6c3322b33943725ef2e361d429aad50aa6e85d4a4e8b234c1a0d9",
+      "output_sha256": "8f17f4888bb6c3322b33943725ef2e361d429aad50aa6e85d4a4e8b234c1a0d9",
+      "source_characters": 121,
+      "output_characters": 121
+    },
+    {
+      "article": "第十条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "c4b61cf282c56156a65ca44f3d0f4b7858f9a26761c9324b62e2e8db68dc29e9",
+      "output_sha256": "c4b61cf282c56156a65ca44f3d0f4b7858f9a26761c9324b62e2e8db68dc29e9",
+      "source_characters": 328,
+      "output_characters": 328
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "8eac90ccc7840c880de86c1d29248f7c4e4fae19d1d006cca93c8a94587bcf7f",
+      "output_sha256": "8eac90ccc7840c880de86c1d29248f7c4e4fae19d1d006cca93c8a94587bcf7f",
+      "source_characters": 45,
+      "output_characters": 45
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "0fc0cf048561836cca3db65fba670a82b374d89585de8c5a81928bb5dd804b31",
+      "output_sha256": "0fc0cf048561836cca3db65fba670a82b374d89585de8c5a81928bb5dd804b31",
+      "source_characters": 77,
+      "output_characters": 77
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第二章  申   请",
+      "source_sha256": "9a5495abe9abf4bfaffcc62dedf48aa8f1242d57738df5afe997ff51a3ccb5e1",
+      "output_sha256": "9a5495abe9abf4bfaffcc62dedf48aa8f1242d57738df5afe997ff51a3ccb5e1",
+      "source_characters": 732,
+      "output_characters": 732
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第二章  申   请",
+      "source_sha256": "84ece550393c2555e2db4514fbf1f3884f987ee2b89f1d0a4d0134a7d9afc6e8",
+      "output_sha256": "84ece550393c2555e2db4514fbf1f3884f987ee2b89f1d0a4d0134a7d9afc6e8",
+      "source_characters": 137,
+      "output_characters": 137
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第二章  申   请",
+      "source_sha256": "337d56cfbe08e89182e12634202dfd4ee579d91da9938887ebd12143766d7e6e",
+      "output_sha256": "337d56cfbe08e89182e12634202dfd4ee579d91da9938887ebd12143766d7e6e",
+      "source_characters": 47,
+      "output_characters": 47
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第二章  申   请",
+      "source_sha256": "04f44c1399011c3cdaeb07d0a558793aa0eab90ce19bee7f98cadd0bb1f988ed",
+      "output_sha256": "04f44c1399011c3cdaeb07d0a558793aa0eab90ce19bee7f98cadd0bb1f988ed",
+      "source_characters": 288,
+      "output_characters": 288
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第二章  申   请",
+      "source_sha256": "91726abda64594147ba15da42de1a82a4961214a67313231aaf7a6d661f3e9b5",
+      "output_sha256": "91726abda64594147ba15da42de1a82a4961214a67313231aaf7a6d661f3e9b5",
+      "source_characters": 46,
+      "output_characters": 46
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第三章  考   试",
+      "source_sha256": "a5e2359275bc172d3899faebaa9b3edaf427f78145ea6fddc7a1ecb77f28fa11",
+      "output_sha256": "a5e2359275bc172d3899faebaa9b3edaf427f78145ea6fddc7a1ecb77f28fa11",
+      "source_characters": 92,
+      "output_characters": 92
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第三章  考   试",
+      "source_sha256": "a7e481a178c2d532a89ca6dae23ca392e8ae6925cb2284af153423bea4f4f9d4",
+      "output_sha256": "a7e481a178c2d532a89ca6dae23ca392e8ae6925cb2284af153423bea4f4f9d4",
+      "source_characters": 57,
+      "output_characters": 57
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第三章  考   试",
+      "source_sha256": "0080cc85fbc78af033ab3a89445126fd1cdcc696aa65a33c024dee54de97e8e4",
+      "output_sha256": "0080cc85fbc78af033ab3a89445126fd1cdcc696aa65a33c024dee54de97e8e4",
+      "source_characters": 145,
+      "output_characters": 145
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第三章  考   试",
+      "source_sha256": "ca16e18c81b8670792f086ba43d0c5abc3bca8e8b1a86c12a8b96a46aa0d79ec",
+      "output_sha256": "ca16e18c81b8670792f086ba43d0c5abc3bca8e8b1a86c12a8b96a46aa0d79ec",
+      "source_characters": 91,
+      "output_characters": 91
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第四章  驾驶证管理",
+      "source_sha256": "c3df6ffa5c717c9775a968015970886d62514af8925d57fb90c2c36e63fd4e7c",
+      "output_sha256": "c3df6ffa5c717c9775a968015970886d62514af8925d57fb90c2c36e63fd4e7c",
+      "source_characters": 64,
+      "output_characters": 64
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第四章  驾驶证管理",
+      "source_sha256": "fa0041514f216fd2ea5a327efaf81f69bdb2118216168e4028b3a381ee5a6367",
+      "output_sha256": "fa0041514f216fd2ea5a327efaf81f69bdb2118216168e4028b3a381ee5a6367",
+      "source_characters": 116,
+      "output_characters": 116
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第四章  驾驶证管理",
+      "source_sha256": "dca2bc3a8a44ff76ea832fd04915373da53ba3128ba3198b78987e21124f5f95",
+      "output_sha256": "dca2bc3a8a44ff76ea832fd04915373da53ba3128ba3198b78987e21124f5f95",
+      "source_characters": 126,
+      "output_characters": 126
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第四章  驾驶证管理",
+      "source_sha256": "b0ef9bbb4e0e6fa888434f8a08bfa9d064d45f9bfdac358526f8b27fedb13cf6",
+      "output_sha256": "b0ef9bbb4e0e6fa888434f8a08bfa9d064d45f9bfdac358526f8b27fedb13cf6",
+      "source_characters": 244,
+      "output_characters": 244
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第四章  驾驶证管理",
+      "source_sha256": "ce98665a75b95c908af1e15341374bd192541e91534f8bf03bfed7320ae61a99",
+      "output_sha256": "ce98665a75b95c908af1e15341374bd192541e91534f8bf03bfed7320ae61a99",
+      "source_characters": 139,
+      "output_characters": 139
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第四章  驾驶证管理",
+      "source_sha256": "d579e84fa5b757d53f094a1681bb0a9ada6b4deecca97de989c326a922e3e718",
+      "output_sha256": "d579e84fa5b757d53f094a1681bb0a9ada6b4deecca97de989c326a922e3e718",
+      "source_characters": 92,
+      "output_characters": 92
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第五章  监督管理",
+      "source_sha256": "a61454176207b317e05b09bb4e5973e3f153a897e074c795c5ca92cd6867edd1",
+      "output_sha256": "a61454176207b317e05b09bb4e5973e3f153a897e074c795c5ca92cd6867edd1",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第五章  监督管理",
+      "source_sha256": "15c655767d083833c77eb4814be9184ed1f1fa12a1407759757fcd4469cf32a5",
+      "output_sha256": "15c655767d083833c77eb4814be9184ed1f1fa12a1407759757fcd4469cf32a5",
+      "source_characters": 41,
+      "output_characters": 41
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第五章  监督管理",
+      "source_sha256": "f0ec87cab3674a2e13dbb93b0418745aea6814a297a37a24d7fe237a95e1f647",
+      "output_sha256": "f0ec87cab3674a2e13dbb93b0418745aea6814a297a37a24d7fe237a95e1f647",
+      "source_characters": 123,
+      "output_characters": 123
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第五章  监督管理",
+      "source_sha256": "7f55d0107fc17931415944c0f0758c31b9cbadb6a59f7c168ab98f3ea443a6c7",
+      "output_sha256": "7f55d0107fc17931415944c0f0758c31b9cbadb6a59f7c168ab98f3ea443a6c7",
+      "source_characters": 75,
+      "output_characters": 75
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第五章  监督管理",
+      "source_sha256": "13e948d8f74d271c3b50a810944f2921df9381f83f2820fe8ab0050284ef9fd1",
+      "output_sha256": "13e948d8f74d271c3b50a810944f2921df9381f83f2820fe8ab0050284ef9fd1",
+      "source_characters": 110,
+      "output_characters": 110
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第五章  监督管理",
+      "source_sha256": "26123bf60191a12273907cf75d8c17b7efe3e8a7466e44ce9ad06971e4851236",
+      "output_sha256": "26123bf60191a12273907cf75d8c17b7efe3e8a7466e44ce9ad06971e4851236",
+      "source_characters": 61,
+      "output_characters": 61
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第六章  法律责任",
+      "source_sha256": "fb0b72b7d34599cbefa2bd4e4cc5d9a4d914d2da59543897c22917216648cf3c",
+      "output_sha256": "fb0b72b7d34599cbefa2bd4e4cc5d9a4d914d2da59543897c22917216648cf3c",
+      "source_characters": 62,
+      "output_characters": 62
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第六章  法律责任",
+      "source_sha256": "54392e18c096f357475e9f735e7c2295b02b5dc2325b6ce445d902a33e592b04",
+      "output_sha256": "54392e18c096f357475e9f735e7c2295b02b5dc2325b6ce445d902a33e592b04",
+      "source_characters": 52,
+      "output_characters": 52
+    },
+    {
+      "article": "第三十六条",
+      "chapter": "第六章  法律责任",
+      "source_sha256": "4e2377f1c32e1dfa6ca992068d4bf2fc4fd21a18315595044cbf18cb6625e57a",
+      "output_sha256": "4e2377f1c32e1dfa6ca992068d4bf2fc4fd21a18315595044cbf18cb6625e57a",
+      "source_characters": 163,
+      "output_characters": 163
+    },
+    {
+      "article": "第三十七条",
+      "chapter": "第六章  法律责任",
+      "source_sha256": "0d4f32ac7803a631006a131b129284a3cddeff583abee53f0d2065fb17d26779",
+      "output_sha256": "0d4f32ac7803a631006a131b129284a3cddeff583abee53f0d2065fb17d26779",
+      "source_characters": 167,
+      "output_characters": 167
+    },
+    {
+      "article": "第三十八条",
+      "chapter": "第六章  法律责任",
+      "source_sha256": "183e052131d9ff878e523af0ca36fc8c61ed98a25d2c5bf0c938aa8408a86a75",
+      "output_sha256": "183e052131d9ff878e523af0ca36fc8c61ed98a25d2c5bf0c938aa8408a86a75",
+      "source_characters": 376,
+      "output_characters": 376
+    },
+    {
+      "article": "第三十九条",
+      "chapter": "第六章  法律责任",
+      "source_sha256": "4f93dd366c58912aabaa52f001d10ee0dd2c5c98182206a4dadf23e07ef93b7b",
+      "output_sha256": "4f93dd366c58912aabaa52f001d10ee0dd2c5c98182206a4dadf23e07ef93b7b",
+      "source_characters": 315,
+      "output_characters": 315
+    },
+    {
+      "article": "第四十条",
+      "chapter": "第六章  法律责任",
+      "source_sha256": "2ec33f79a39285590716c81345e27bd16ac321c5f4a94ea18e95541de60b6cce",
+      "output_sha256": "2ec33f79a39285590716c81345e27bd16ac321c5f4a94ea18e95541de60b6cce",
+      "source_characters": 164,
+      "output_characters": 164
+    },
+    {
+      "article": "第四十一条",
+      "chapter": "第七章  附   则",
+      "source_sha256": "2f054846cecb6decd41734fbf436f2c6542078dceb5758f007e0286784bf3da9",
+      "output_sha256": "2f054846cecb6decd41734fbf436f2c6542078dceb5758f007e0286784bf3da9",
+      "source_characters": 17,
+      "output_characters": 17
+    },
+    {
+      "article": "第四十二条",
+      "chapter": "第七章  附   则",
+      "source_sha256": "df9c72e4303c640636e780edfc45e042d0d74a25c41d8e2cba60c9d3942829d1",
+      "output_sha256": "df9c72e4303c640636e780edfc45e042d0d74a25c41d8e2cba60c9d3942829d1",
+      "source_characters": 94,
+      "output_characters": 94
+    },
+    {
+      "article": "第四十三条",
+      "chapter": "第七章  附   则",
+      "source_sha256": "7a911b895c4c959cf1469368b77c90b5bc2dd86ec77ac740ff562e39e0bde7e4",
+      "output_sha256": "7a911b895c4c959cf1469368b77c90b5bc2dd86ec77ac740ff562e39e0bde7e4",
+      "source_characters": 76,
+      "output_characters": 76
+    }
+  ]
+}

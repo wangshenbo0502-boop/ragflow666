@@ -1,0 +1,209 @@
+{
+  "checked_at": "2026-11-16T04:43:29.031Z",
+  "scope": "Local source register reconciliation only",
+  "source_records_before": 24,
+  "source_records_after": 26,
+  "current_document_candidates": 24,
+  "final_valid_document_count": null,
+  "counting_note": "来源载体/替代版本补登记不增加文献数；最终有效量待版本、效力、附件及语义核验",
+  "originals_unchanged": true,
+  "historical_registers_preserved": true,
+  "document_source_checks": [
+    {
+      "doc_id": "DOC0001",
+      "source_id": "S0001",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0002",
+      "source_id": "S0002",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0003",
+      "source_id": "S0003",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0004",
+      "source_id": "S0004",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0005",
+      "source_id": "S0005",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0006",
+      "source_id": "S0006",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0007",
+      "source_id": "S0007",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0008",
+      "source_id": "S0008",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0009",
+      "source_id": "S0009",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0010",
+      "source_id": "S0028",
+      "previous_source_ids": [
+        "S0010"
+      ],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0011",
+      "source_id": "S0011",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0012",
+      "source_id": "S0012",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0013",
+      "source_id": "S0014",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0014",
+      "source_id": "S0016",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0015",
+      "source_id": "S0017",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0016",
+      "source_id": "S0029",
+      "previous_source_ids": [
+        "S0018"
+      ],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0017",
+      "source_id": "S0020",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0018",
+      "source_id": "S0021",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0019",
+      "source_id": "S0022",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0020",
+      "source_id": "S0023",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0021",
+      "source_id": "S0024",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0022",
+      "source_id": "S0025",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0023",
+      "source_id": "S0026",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    },
+    {
+      "doc_id": "DOC0024",
+      "source_id": "S0027",
+      "previous_source_ids": [],
+      "original_exists": true,
+      "master_exists": true,
+      "master_mentions_current_source": true
+    }
+  ]
+}

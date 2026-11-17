@@ -1,0 +1,60 @@
+data: {"code":0,"message":"success","data":{"answer":"# 关于查询实时余票和票价\n\n**无法查询","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"。** 本知识库中未收录任何实时","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"席位余票或动态票价数据。\n\n## 知识","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"库实际包含的内容\n\n知识库收录的是","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"《铁路旅客运输规程》等**规范性","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"文件条文**，与“实时查询”相关的仅是","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"规则性规定，例如：\n\n- **第四条**：车","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"票是铁路旅客运输合同的凭证","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，可采用纸质或电子数据形式，","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"一般应载明发站、到站、车次、车厢","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"号、席别、席位号、票价、开车","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"时间等信息。\n- **第二十条**：铁路运输","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"企业应当按照有效车票记载的时间、车","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"次、车厢号、席别和席位号运输","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"旅客。\n- **第三十一条**：因铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"运输企业原因或自然灾害等不能正常","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"运输情形导致旅客不能按票面乘车","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"时，应旅客要求办理退票或改由","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"其他车次、席位运送；重新安排席位","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"票价高于原票价时超过部分不予补","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"收，低于原票价时退还差额，且","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"不得收取退票费。\n\n## 提示\n\n上述条文","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"只说明车票应载明票价等信息、以及改签","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"退票的规则，**并不提供任何具体车","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"次在某一天的剩余席位数量或实时","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"票价**。如需查询当日余票与票价，请通过","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"铁路官方售票渠道（如12306","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"）查询。","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"# 关于查询实时余票和票价\n\n**无法查询。** 本知识库中未收录任何实时席位余票或动态票价数据。\n\n## 知识库实际包含的内容\n\n知识库收录的是《铁路旅客运输规程》等**规范性文件条文**，与“实时查询”相关的仅是规则性规定，例如：\n\n- **第四条**：车票是铁路旅客运输合同的凭证，可采用纸质或电子数据形式，一般应载明发站、到站、车次、车厢号、席别、席位号、票价、开车时间等信息。\n- **第二十条**：铁路运输企业应当按照有效车票记载的时间、车次、车厢号、席别和席位号运输旅客。\n- **第三十一条**：因铁路运输企业原因或自然灾害等不能正常运输情形导致旅客不能按票面乘车时，应旅客要求办理退票或改由其他车次、席位运送；重新安排席位票价高于原票价时超过部分不予补收，低于原票价时退还差额，且不得收取退票费。\n\n## 提示\n\n上述条文只说明车票应载明票价等信息、以及改签退票的规则，**并不提供任何具体车次在某一天的剩余席位数量或实时票价**。如需查询当日余票与票价，请通过铁路官方售票渠道（如12306）查询。","reference":{"chunks":[{"content":"# 铁路旅客运输规程\n## 第五章 车票改签与退票\n### 第三十一条｜铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客\n证据定位： DOC0004-K31；S0004，第五章 车票改签与退票，第三十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n因铁路运输企业原因或者自然灾害等其他不能正常运输情形导致旅客不能按车票记载的时间、车次、车厢号、席别和席位号乘车时，铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客。重新安排的席位票价高于原票价时，超过部分不予补收；低于原票价时，应当退还票价差额。\n对前款规定的情形，铁路运输企业不得收取退票费。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"7d9dea7bb3a144a2b275abdc78e25beb","document_metadata":null,"document_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md","id":"25c941d5b1765f30","image_id":"","positions":"","row_id":"25c941d5b1765f30","similarity":0.536499880539303,"term_similarity":0.282217061078606,"url":"","vector_similarity":0.7907827},{"content":"# 铁路旅客运输规程\n## 第二章 一般规定\n### 第四条｜车票是铁路旅客运输合同的凭证\n证据定位： DOC0004-K04；S0004，第二章 一般规定，第四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n车票是铁路旅客运输合同的凭证，可以采用纸质形式或者电子数据形式，一般应当载明发站、到站、车次、车厢号、席别、席位号、票价、开车时间等主要信息。铁路运输企业与旅客另有约定的，按照其约定。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"7d9dea7bb3a144a2b275abdc78e25beb","document_metadata":null,"document_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md","id":"7c2b8c4ef87c9f0a","image_id":"","positions":"","row_id":"7c2b8c4ef87c9f0a","similarity":0.5318462483118882,"term_similarity":0.27098004662377645,"url":"","vector_similarity":0.79271245},{"content":"# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十三条｜线路中断、列车不能继续运行时\n证据定位： DOC0004-K43；S0004，第七章 应急处置，第四十三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n线路中断、列车不能继续运行时，铁路运输企业应当妥善安排受阻旅客，并及时公告铁路旅客运输相关业务停办、恢复等信息。\n因线路中断影响旅行，旅客要求出具证明的，铁路运输企业应当及时提供。\n必要依赖（第三十一条原文）： 因铁路运输企业原因或者自然灾害等其他不能正常运输情形导致旅客不能按车票记载的时间、车次、车厢号、席别和席位号乘车时，铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客。重新安排的席位票价高于原票价时，超过部分不予补收；低于原票价时，应当退还票价差额。\n对前款规定的情形，铁路运输企业不得收取退票费。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"7d9dea7bb3a144a2b275abdc78e25beb","document_metadata":null,"document_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md","id":"512d81ec885daec4","image_id":"","positions":"","row_id":"512d81ec885daec4","similarity":0.48704896837280554,"term_similarity":0.18897003674561108,"url":"","vector_similarity":0.7851279},{"content":"# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十条｜铁路运输企业应当按照有效车票记载的时间、车次、车厢号、席别和席位号运输旅客\n证据定位： DOC0004-K20；S0004，第四章 乘车，第二十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照有效车票记载的时间、车次、车厢号、席别和席位号运输旅客；旅客应当按照有效车票载明的时间、车次、车厢号、席别和席位号乘车。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"7d9dea7bb3a144a2b275abdc78e25beb","document_metadata":null,"document_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md","id":"f6ab4ec97a2faeee","image_id":"","positions":"","row_id":"f6ab4ec97a2faeee","similarity":0.4645974142757787,"term_similarity":0.13008977855155746,"url":"","vector_similarity":0.79910505},{"content":"# 铁路旅客运输规程\n## 第五章 车票改签与退票\n### 第三十条｜因旅客自身原因不能按车票记载的时间、车次、车厢号、席别和席位号乘车\n证据定位： DOC0004-K30；S0004，第五章 车票改签与退票，第三十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n因旅客自身原因不能按车票记载的时间、车次、车厢号、席别和席位号乘车，或者按照本规程规定被拒绝运输时，旅客要求办理退票或者改签的，应当按照铁路运输企业和旅客的约定办理。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"7d9dea7bb3a144a2b275abdc78e25beb","document_metadata":null,"document_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md","id":"331ff528bbda8713","image_id":"","positions":"","row_id":"331ff528bbda8713","similarity":0.46353871427577875,"term_similarity":0.13008977855155746,"url":"","vector_similarity":0.79698765},{"content":"# 铁路旅客运输规程\n## 第三章 车票销售\n### 第十二条｜除需要乘坐火车通勤上学的学生和铁路运输企业同意在旅途中监护的儿童外\n证据定位： DOC0004-K12；S0004，第三章 车票销售，第十二条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n除需要乘坐火车通勤上学的学生和铁路运输企业同意在旅途中监护的儿童外，实行车票实名制情况下未满14周岁或者未实行车票实名制情况下身高不足1.5米的儿童，应当随同成年人旅客旅行。\n实行车票实名制的，年满6周岁且未满14周岁的儿童应当购买儿童优惠票；年满14周岁的儿童，应当购买全价票。每一名持票成年人旅客可以免费携带一名未满6周岁且不单独占用席位的儿童乘车；超过一名时，超过人数应当购买儿童优惠票。\n未实行车票实名制的，身高1.2米且不足1.5米的儿童应当购买儿童优惠票；身高达到1.5米的儿童，应当购买全价票。每一名持票成年人旅客可以免费携带一名身高未达到1.2米且不单独占用席位的儿童乘车；超过一名时，超过人数应当购买儿童优惠票。\n儿童优惠票的车次、席别应当与同行成年人所持车票相同，到站不得远于成年人车票的到站。按上述规定享受免费乘车的儿童单独占用席位时，应当购买儿童优惠票。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"7d9dea7bb3a144a2b275abdc78e25beb","document_metadata":null,"document_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md","id":"b990c23aef224c54","image_id":"","positions":"","row_id":"b990c23aef224c54","similarity":0.4587548192757787,"term_similarity":0.13008977855155746,"url":"","vector_similarity":0.78741986},{"content":"# 铁路危险货物运输安全监督管理规定\n## 第三章 运输安全管理\n### 第二十八条｜铁路运输企业应当按照《中华人民共和国反恐怖主义法》等的规定\n证据定位： DOC0021-K28；S0024，第三章 运输安全管理，第二十八条。\n来源版本与范围： 交通运输部令2022年第24号；2022-09-26公布，2022-12-01施行；铁路危险货物运输安全及监督管理；危险货物界定及特殊边界以第二条、第四十九条、第五十条为准。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照《中华人民共和国反恐怖主义法》等的规定，通过定位系统对运营中的危险货物运输工具实行监控，对危险货物运输全程跟踪和实时查询，按照铁路监管部门的规定预留安全监管数据接口，并按时向铁路监管部门报送。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"6c6f921506504ee0ac852df2883049ec","document_metadata":null,"document_name":"DOC0021_铁路危险货物运输安全监督管理规定_精修_7d7b9af33fbe.md","id":"64ebd7925a59d7ea","image_id":"","positions":"","row_id":"64ebd7925a59d7ea","similarity":0.38947794460242624,"term_similarity":0.04638728920485246,"url":"","vector_similarity":0.7325686},{"content":"# 铁路运输基础设备生产企业审批实施细则\n## 附件1 设备目录\n### 设备目录的设备名称、适用范围和执行标准须联合核对\n证据定位： DOC0014-K29；S0016，附件1 设备目录，附件PDF文件页序1~6（印刷页12~17）。\n整理说明： 以下为原表核对说明，保留原表作为完整证据；不是逐单元格全文转录。原表：01-originals/attachments/S0016-1.pdf。该附件为2025年实施细则附件。\n附件1是铁路运输基础设备目录，分别列铁路道岔设备、辙叉、信号设备、通信设备、牵引供电设备。应按具体行的设备名称、适用范围、执行标准联合判断，不能把设备类别或系统名称当作某厂家具体型号已取得生产许可的证据。道岔和辙叉含合并速度等级单元格；完整对应关系保留原表，不将空白格猜填为通用范围。目录备注规定标准更新时按最新标准执行；存档标准号不能证明其截至查询日未更新。\n来源版本与范围： 国铁设备监规〔2025〕14号；2025-04-27印发，2025-06-01施行，废止2023年8号文件；铁路运输基础设备生产企业审批；正文28条及附件1~8。复杂表以原PDF为准，检索文字不是全部表格的替代。\n效力核验边界： 依存档原件核对；具体使用须核验适用版本。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"8f75de8dc53f492abda6be6c6e1b76e0","document_metadata":null,"document_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_b2fece829b12.md","id":"e738987a6966fc0e","image_id":"","positions":"","row_id":"e738987a6966fc0e","similarity":0.3827037814866223,"term_similarity":0.0458968629732447,"url":"","vector_similarity":0.7195107}],"doc_aggs":[{"count":6,"doc_id":"7d9dea7bb3a144a2b275abdc78e25beb","doc_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md"},{"count":1,"doc_id":"6c6f921506504ee0ac852df2883049ec","doc_name":"DOC0021_铁路危险货物运输安全监督管理规定_精修_7d7b9af33fbe.md"},{"count":1,"doc_id":"8f75de8dc53f492abda6be6c6e1b76e0","doc_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_b2fece829b12.md"}]},"final":true}}
+
+data: {"code": 0, "message": "success", "data": true}
+

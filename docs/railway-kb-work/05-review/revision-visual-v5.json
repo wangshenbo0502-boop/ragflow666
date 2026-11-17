@@ -1,0 +1,191 @@
+{
+  "checked_at": "2026-11-16T14:58:24.649Z",
+  "records": [
+    {
+      "doc_id": "DOC0022",
+      "source_id": "S0037",
+      "pdf_path": "01-originals/attachments/S0037-1.pdf",
+      "pdf_sha256": "7922e18323032861596b4fb1efe661ba5c9fcd81b7941f644e2799cdf9dcd49a",
+      "pages": 13,
+      "viewed_pages": [
+        {
+          "page": 1,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-01.png",
+          "image_sha256": "3dcaa0886ca613eca90cbe10f2535b88d02b0b0647e4701dc2d64d7c4940e281",
+          "viewed": true,
+          "observation": "标题、2013发布及2019修正说明；第一至二条适用对象。"
+        },
+        {
+          "page": 2,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-02.png",
+          "image_sha256": "bc30ce4cabb495e96f7e01f37eec0f1fb136bf8db940679167153220a04970ce",
+          "viewed": true,
+          "observation": "第三条四类许可与大修定义使用中文弯引号；第四至六条开头。"
+        },
+        {
+          "page": 3,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-03.png",
+          "image_sha256": "ee5067670b86679286b2d5ad2722e79cabd935b0aa164220be2a95a753f11234",
+          "viewed": true,
+          "observation": "第六条条件续页及后续许可条件，保留并列项。"
+        },
+        {
+          "page": 4,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-04.png",
+          "image_sha256": "40d779e270cd968f2180110b8d306110bae7071e85a21e27c101c00c81df2b9e",
+          "viewed": true,
+          "observation": "制造、维修条件连续列表，未见正文因换页丢失。"
+        },
+        {
+          "page": 5,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-05.png",
+          "image_sha256": "e53043e0108ba2034efcb553c90c2eecb20bcd37c60a9134df3ba25a6d5b2c76",
+          "viewed": true,
+          "observation": "维修条件续页及进口条件，保留不同许可对象。"
+        },
+        {
+          "page": 6,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-06.png",
+          "image_sha256": "8d0b1a1cec584ca689b2f7e1b5b57d5c56441f19c5d2ed2275073bd5bc193715",
+          "viewed": true,
+          "observation": "第十条申请材料及第十一条开头，材料列表跨页。"
+        },
+        {
+          "page": 7,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-07.png",
+          "image_sha256": "5ae2acf2d6b6acc3316e00e39eb79cc66f99d1306015e895877e1f8ebdb9ab4d",
+          "viewed": true,
+          "observation": "第十一条（二）至（八）；第十二条（一）至（三）跨页。"
+        },
+        {
+          "page": 8,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-08.png",
+          "image_sha256": "036cea02c6fc781e30f153fc15c8d2b2f46c0d90d49b6e6d40cd5645b76a1821",
+          "viewed": true,
+          "observation": "第十二条续页至（八）；第十三条（一）至（四）。"
+        },
+        {
+          "page": 9,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-09.png",
+          "image_sha256": "5e94f57128ce1189d7782f29652e2cf73dcf53133abddd57c6f448c5fa8e3b79",
+          "viewed": true,
+          "observation": "第十三条（五）至（九）、第十四条及第四章第十五条开头。"
+        },
+        {
+          "page": 10,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-10.png",
+          "image_sha256": "128d0a256ca9e040ff42dd32dd79ef29ba7f7c326c3854f69d3fb007cd096c56",
+          "viewed": true,
+          "observation": "第十五条三种受理情形与5工作日；第十六条审查；第十七条20+10工作日及不计时事项。"
+        },
+        {
+          "page": 11,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-11.png",
+          "image_sha256": "39611ac318e7b918e1aa891008798f90a24924b0238368bca77401095a9a6bfa",
+          "viewed": true,
+          "observation": "第十八条10工作日；第十九条标注；第二十条长期/5/5、8、10年与60工作日；第二十一条30工作日；第二十二条起段。"
+        },
+        {
+          "page": 12,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-12.png",
+          "image_sha256": "ee5eb967020cc75a4ff887cee4c5ffbacefada402c18a5f64da41b2112ace4a3",
+          "viewed": true,
+          "observation": "第二十二条产品重大变化续段；第二十三至二十四条；第二十五条撤销情形前三项。"
+        },
+        {
+          "page": 13,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0022-visual-13.png",
+          "image_sha256": "3d3fa79bacd6d37d81a3fdd8a30b2aabce0fa2948552d6ee0dbb7581fede0b92",
+          "viewed": true,
+          "observation": "第二十五条续项、欺骗贿赂及3年限制；第二十六条注销；第二十七至二十八条及原2014施行日期。"
+        }
+      ],
+      "method": "逐页查看官方PDF渲染图；先前续接已查看页复用，本批补齐其余11页；结合全文逐条差异清单核对",
+      "limitation": "完整页面视觉查看与条款转录核对；不是法律意见或所有后续公告穷尽核查"
+    },
+    {
+      "doc_id": "DOC0023",
+      "source_id": "S0038",
+      "pdf_path": "01-originals/attachments/S0038-1.pdf",
+      "pdf_sha256": "0a7ab0b7cc901b8be0630b7a4810701fdfe32a78e2f92672443b6fa7e2f75617",
+      "pages": 10,
+      "viewed_pages": [
+        {
+          "page": 1,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023-visual-01.png",
+          "image_sha256": "96ce5f2622a96e899ad35f685f8662ee652061bdd36a76dce44744000c5e9016",
+          "viewed": true,
+          "observation": "标题、2015发布及2018修正说明；第一至三条适用范围及缺陷定义。"
+        },
+        {
+          "page": 2,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023-visual-02.png",
+          "image_sha256": "3b57f50a12088ab54a6cfcf8c508a75dc447707d0085a79d459d1505f55a0973",
+          "viewed": true,
+          "observation": "第四至六条；第七条第一款印为“相关产品”，两款跨页。"
+        },
+        {
+          "page": 3,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023-visual-03.png",
+          "image_sha256": "27442cb96013381e97171afc5c4acba61f755e8eecc421a3f94724b5fad443cd",
+          "viewed": true,
+          "observation": "第七条监造定义续页；第八至十一条及第十二条起段。"
+        },
+        {
+          "page": 4,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023-visual-04.png",
+          "image_sha256": "5faf267700f7c7532c4f169ac6f89b4fce0136fe69c871f2e38808d5f6c320d5",
+          "viewed": true,
+          "observation": "缺陷调查条款；第十四条（三）以分号结束。"
+        },
+        {
+          "page": 5,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023-visual-05.png",
+          "image_sha256": "abbde1fcac92f3777664ef7342f88def5aa429c96a9b27a444b244a4d02290f6",
+          "viewed": true,
+          "observation": "第十六条调查报告列表；第十七条异议程序起段。"
+        },
+        {
+          "page": 6,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023-visual-06.png",
+          "image_sha256": "69342e7b5f8073130ae27c8b58794367b0559c2e1ef9a6dcfb65c2f45a50bc0c",
+          "viewed": true,
+          "observation": "第十七条技术检验续句；第十八条立即停止与运输秩序例外同条；第十九条计划（一）至（七）。"
+        },
+        {
+          "page": 7,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023-visual-07.png",
+          "image_sha256": "1fe2459cbee89e168729714c51ee6a5af7b061a9bc3ecf4cd654dbb6a6137b0c",
+          "viewed": true,
+          "observation": "第十九条（八）（九）续页；第二十至二十五条；第二十一条并且关系、第二十三条不少于5年。"
+        },
+        {
+          "page": 8,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023-visual-08.png",
+          "image_sha256": "76ea1fa4643d667ce76872918e3c18d91f3d06b9e9ed682b03701610d389623a",
+          "viewed": true,
+          "observation": "第二十六至二十九条监督、保密、投诉与不得阻挠；第三十条起段。"
+        },
+        {
+          "page": 9,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023-visual-09.png",
+          "image_sha256": "108a9498e469a5b9ae3d7e5f994c2265a97fcab803bd9e4a8feaafe3bf8121c4",
+          "viewed": true,
+          "observation": "第三十条冒号；第三十一条责令改正后分号及1～5%、5～8%、8～10%和吊销；第三十二条分号与冒号。"
+        },
+        {
+          "page": 10,
+          "image_path": "05-review/revision-current-official-2026-11-16T14-47-05-635Z/DOC0023-visual-10.png",
+          "image_sha256": "07de51adf4d4995cf9c1d842a3b61505bf0d914d1045c25521e5e5eb876f0b1b",
+          "viewed": true,
+          "observation": "第三十二条续项；第三十三条其他责任；第三十四条细则；第三十五条原2016施行日期。"
+        }
+      ],
+      "method": "逐页查看官方PDF渲染图；先前续接已查看页复用，本批补齐其余11页；结合全文逐条差异清单核对",
+      "limitation": "完整页面视觉查看与条款转录核对；不是法律意见或所有后续公告穷尽核查"
+    }
+  ],
+  "all_pages_viewed": true,
+  "semantic_model_approval": false,
+  "formal_import": false
+}

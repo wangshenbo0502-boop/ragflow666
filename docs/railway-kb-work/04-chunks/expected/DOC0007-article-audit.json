@@ -1,0 +1,619 @@
+{
+  "doc_id": "DOC0007",
+  "source_id": "S0007",
+  "source_path": "01-originals/web/S0007.txt",
+  "output_path": "03-domains/GW/DOC0007_铁路建设工程安全生产监督管理办法.md",
+  "expected_article_count": 76,
+  "extracted_article_count": 76,
+  "output_sha256": "4aa961fe026bd7c8c97f8b9170ae9bd05efa34933c838d1120c8f765312760c1",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章  总    则",
+      "source_sha256": "53c5ad075b03fae40a0bd4447e80f45aafb5e480abc6e0cdecc9e744e8f2402c",
+      "output_sha256": "53c5ad075b03fae40a0bd4447e80f45aafb5e480abc6e0cdecc9e744e8f2402c",
+      "source_characters": 144,
+      "output_characters": 144
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章  总    则",
+      "source_sha256": "5f09c36d6ff1854a969ebcbf9e0439ed22d4354bc5266b6da696aae6001ef5cb",
+      "output_sha256": "5f09c36d6ff1854a969ebcbf9e0439ed22d4354bc5266b6da696aae6001ef5cb",
+      "source_characters": 89,
+      "output_characters": 89
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章  总    则",
+      "source_sha256": "a5fe47e4490962cc68540ab65b8a8545a97722fe2a8de1acfd1da1735447e879",
+      "output_sha256": "a5fe47e4490962cc68540ab65b8a8545a97722fe2a8de1acfd1da1735447e879",
+      "source_characters": 226,
+      "output_characters": 226
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章  总    则",
+      "source_sha256": "cf477c01bb8083a820ea3c754a73218698f9f32780b3e682ada0474d915ccdba",
+      "output_sha256": "cf477c01bb8083a820ea3c754a73218698f9f32780b3e682ada0474d915ccdba",
+      "source_characters": 121,
+      "output_characters": 121
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章  总    则",
+      "source_sha256": "823b5d16a0a8e99bb4ebcaf0a42936b271e5e4b2327055dd7a0ab5c9ac23eaa0",
+      "output_sha256": "823b5d16a0a8e99bb4ebcaf0a42936b271e5e4b2327055dd7a0ab5c9ac23eaa0",
+      "source_characters": 86,
+      "output_characters": 86
+    },
+    {
+      "article": "第六条",
+      "chapter": "第一章  总    则",
+      "source_sha256": "242c2c23a7b44fde10cf7b30f81ccf7bf2ec9846a5cd07c4d8f0b334861cd3a1",
+      "output_sha256": "242c2c23a7b44fde10cf7b30f81ccf7bf2ec9846a5cd07c4d8f0b334861cd3a1",
+      "source_characters": 265,
+      "output_characters": 265
+    },
+    {
+      "article": "第七条",
+      "chapter": "第一章  总    则",
+      "source_sha256": "9c5a1b67c32891afa61cb2702322c2704dd4a5f73ab67ced063a8b28c80d113d",
+      "output_sha256": "9c5a1b67c32891afa61cb2702322c2704dd4a5f73ab67ced063a8b28c80d113d",
+      "source_characters": 97,
+      "output_characters": 97
+    },
+    {
+      "article": "第八条",
+      "chapter": "第一章  总    则",
+      "source_sha256": "7679ec78552eb8826dff359858e486e782eeb4c2adcf7692c5f51bbac707901b",
+      "output_sha256": "7679ec78552eb8826dff359858e486e782eeb4c2adcf7692c5f51bbac707901b",
+      "source_characters": 55,
+      "output_characters": 55
+    },
+    {
+      "article": "第九条",
+      "chapter": "第一章  总    则",
+      "source_sha256": "7a5688bc5d54222440a98d702bfeed1162886ae396031c791ebd9b9a48f3b447",
+      "output_sha256": "7a5688bc5d54222440a98d702bfeed1162886ae396031c791ebd9b9a48f3b447",
+      "source_characters": 120,
+      "output_characters": 120
+    },
+    {
+      "article": "第十条",
+      "chapter": "第一章  总    则",
+      "source_sha256": "6bcec7880f35930ed00f6fa731431468d982e1cdc8293435d7500dccb140d7a6",
+      "output_sha256": "6bcec7880f35930ed00f6fa731431468d982e1cdc8293435d7500dccb140d7a6",
+      "source_characters": 72,
+      "output_characters": 72
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "58ca18667ed3b268a1827893fd0a5d4572bb6ec028a4391e1224d803a2a94ccf",
+      "output_sha256": "58ca18667ed3b268a1827893fd0a5d4572bb6ec028a4391e1224d803a2a94ccf",
+      "source_characters": 255,
+      "output_characters": 255
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "6d6fe388f75eb0b7d1d841800f8dc0cc06f43b9271b34c02bb98aba953d726bf",
+      "output_sha256": "6d6fe388f75eb0b7d1d841800f8dc0cc06f43b9271b34c02bb98aba953d726bf",
+      "source_characters": 79,
+      "output_characters": 79
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "199f9f6fbba58e0ea3ac6502b2fc52c35159f1b1ae645af2134b4a7d47ae5529",
+      "output_sha256": "199f9f6fbba58e0ea3ac6502b2fc52c35159f1b1ae645af2134b4a7d47ae5529",
+      "source_characters": 72,
+      "output_characters": 72
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "574d38ead229d90d8063ad8a64c1cc90645ec64579b23b19d5f6d4068b2d1a1e",
+      "output_sha256": "574d38ead229d90d8063ad8a64c1cc90645ec64579b23b19d5f6d4068b2d1a1e",
+      "source_characters": 150,
+      "output_characters": 150
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "3ea4fe52f98b431ea6d671d7f43432a362a1668296560e47bb2dbc9c7b795f89",
+      "output_sha256": "3ea4fe52f98b431ea6d671d7f43432a362a1668296560e47bb2dbc9c7b795f89",
+      "source_characters": 101,
+      "output_characters": 101
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "4e43c6a84c6348f7eb08fe0c085f0812cd58506f3c76526a86ed47bb69d2295f",
+      "output_sha256": "4e43c6a84c6348f7eb08fe0c085f0812cd58506f3c76526a86ed47bb69d2295f",
+      "source_characters": 98,
+      "output_characters": 98
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "4baeffe828c65b83f0169c15728c58fae06d151f46232d3362fa921706113e69",
+      "output_sha256": "4baeffe828c65b83f0169c15728c58fae06d151f46232d3362fa921706113e69",
+      "source_characters": 208,
+      "output_characters": 208
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "e722aea7e9e7a4ea18f01c7a52be7c29714996e839aaa5e2973ea0e9a4dd4688",
+      "output_sha256": "e722aea7e9e7a4ea18f01c7a52be7c29714996e839aaa5e2973ea0e9a4dd4688",
+      "source_characters": 84,
+      "output_characters": 84
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "ff8263091fbe5ac15d633b471bb0a89e33755b8893628712e97354dd9adb3879",
+      "output_sha256": "ff8263091fbe5ac15d633b471bb0a89e33755b8893628712e97354dd9adb3879",
+      "source_characters": 176,
+      "output_characters": 176
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "0e96990ade836592bbd65980cffdf1051a8bfac2fb83f52431fc0972326b4e36",
+      "output_sha256": "0e96990ade836592bbd65980cffdf1051a8bfac2fb83f52431fc0972326b4e36",
+      "source_characters": 235,
+      "output_characters": 235
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "31b3ab681831fac8e24f67a376d39325f91bcb5b56976f545d6e05e742f01874",
+      "output_sha256": "31b3ab681831fac8e24f67a376d39325f91bcb5b56976f545d6e05e742f01874",
+      "source_characters": 251,
+      "output_characters": 251
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第二章  建设单位的安全责任",
+      "source_sha256": "d8bd569468646ad019d9947574481a209e3bee1d681215a4dcc8ebc60702b087",
+      "output_sha256": "d8bd569468646ad019d9947574481a209e3bee1d681215a4dcc8ebc60702b087",
+      "source_characters": 138,
+      "output_characters": 138
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第三章  勘察、设计单位的安全责任",
+      "source_sha256": "34a2dd8a7a82eaedc66adbf6d438ea29f170cd80e32908be8f47bafff79a3f58",
+      "output_sha256": "34a2dd8a7a82eaedc66adbf6d438ea29f170cd80e32908be8f47bafff79a3f58",
+      "source_characters": 332,
+      "output_characters": 332
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第三章  勘察、设计单位的安全责任",
+      "source_sha256": "401bd5a1b07d3a3ec89322c89b742291954af0be9711d9923695e2be8068353f",
+      "output_sha256": "401bd5a1b07d3a3ec89322c89b742291954af0be9711d9923695e2be8068353f",
+      "source_characters": 440,
+      "output_characters": 440
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第三章  勘察、设计单位的安全责任",
+      "source_sha256": "ac0d62d2f03524e31a048390ff536e451529e55f09be52ac1adf8ae5e7639b30",
+      "output_sha256": "ac0d62d2f03524e31a048390ff536e451529e55f09be52ac1adf8ae5e7639b30",
+      "source_characters": 217,
+      "output_characters": 217
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第三章  勘察、设计单位的安全责任",
+      "source_sha256": "14db913df9910a74d99a88ab7dbedd67e1b738264b13d2130ef108003e2c8491",
+      "output_sha256": "14db913df9910a74d99a88ab7dbedd67e1b738264b13d2130ef108003e2c8491",
+      "source_characters": 243,
+      "output_characters": 243
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "cf3ff23b6aa637549be20ab6b7a72349bc04ba6233e85009a760761c9205e8f0",
+      "output_sha256": "cf3ff23b6aa637549be20ab6b7a72349bc04ba6233e85009a760761c9205e8f0",
+      "source_characters": 114,
+      "output_characters": 114
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "08e0acd4561f9e27409f077b992c18d52b1169c2c1e86b2b51409344b27e0f7b",
+      "output_sha256": "08e0acd4561f9e27409f077b992c18d52b1169c2c1e86b2b51409344b27e0f7b",
+      "source_characters": 169,
+      "output_characters": 169
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "22dc9afc92e75b987133ae30c77ff1b155d894024b95d35e95252a2116727065",
+      "output_sha256": "22dc9afc92e75b987133ae30c77ff1b155d894024b95d35e95252a2116727065",
+      "source_characters": 381,
+      "output_characters": 381
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "a1f76b15bfc9ce43202523a8a6d0439b9b1e21f4b64e1cef078386cf30614f98",
+      "output_sha256": "a1f76b15bfc9ce43202523a8a6d0439b9b1e21f4b64e1cef078386cf30614f98",
+      "source_characters": 472,
+      "output_characters": 472
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "cfb0e4f220226361be78129bf1827b21a183e00a81eb5d4008568ffddb9f204c",
+      "output_sha256": "cfb0e4f220226361be78129bf1827b21a183e00a81eb5d4008568ffddb9f204c",
+      "source_characters": 300,
+      "output_characters": 300
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "3791fef19c0dfce23b808fb3c654b7055b4ba9ef40bb82be9ccbe868d67858b8",
+      "output_sha256": "3791fef19c0dfce23b808fb3c654b7055b4ba9ef40bb82be9ccbe868d67858b8",
+      "source_characters": 182,
+      "output_characters": 182
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "4f1e82faba82fef7827366ebab85d3eea8376750b8a99fbf7c9f206645d62bf0",
+      "output_sha256": "4f1e82faba82fef7827366ebab85d3eea8376750b8a99fbf7c9f206645d62bf0",
+      "source_characters": 61,
+      "output_characters": 61
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "4c2ba85211dd714b949313843acedbc4266f5dc529eaac3f0284b495f0f201f6",
+      "output_sha256": "4c2ba85211dd714b949313843acedbc4266f5dc529eaac3f0284b495f0f201f6",
+      "source_characters": 107,
+      "output_characters": 107
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "2d18e4a716639342a0c69cecfe2bf857c175ee2b08d77718553196043382e6d2",
+      "output_sha256": "2d18e4a716639342a0c69cecfe2bf857c175ee2b08d77718553196043382e6d2",
+      "source_characters": 412,
+      "output_characters": 412
+    },
+    {
+      "article": "第三十六条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "14fd025489e16c85a9e75b88056c0f7c573b82c308c846511c99a81e9f0c0180",
+      "output_sha256": "14fd025489e16c85a9e75b88056c0f7c573b82c308c846511c99a81e9f0c0180",
+      "source_characters": 141,
+      "output_characters": 141
+    },
+    {
+      "article": "第三十七条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "5ccac1fc592fe8c2797df2f6d4d8d5673e656b565b065923542080d992a4a877",
+      "output_sha256": "5ccac1fc592fe8c2797df2f6d4d8d5673e656b565b065923542080d992a4a877",
+      "source_characters": 382,
+      "output_characters": 382
+    },
+    {
+      "article": "第三十八条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "ae9f599398c251d3df43450cba812a8e0a767cbabb817acb52cfe2ae26650fbe",
+      "output_sha256": "ae9f599398c251d3df43450cba812a8e0a767cbabb817acb52cfe2ae26650fbe",
+      "source_characters": 76,
+      "output_characters": 76
+    },
+    {
+      "article": "第三十九条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "d9515469e72d72cb1f112b76924ed32112ce9e728297a5ed460e345f52030df4",
+      "output_sha256": "d9515469e72d72cb1f112b76924ed32112ce9e728297a5ed460e345f52030df4",
+      "source_characters": 430,
+      "output_characters": 430
+    },
+    {
+      "article": "第四十条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "a9ab1700d9dff863f536f71683aadc3c2ebf4e1b5f6612876b6c60e34ec908d9",
+      "output_sha256": "a9ab1700d9dff863f536f71683aadc3c2ebf4e1b5f6612876b6c60e34ec908d9",
+      "source_characters": 78,
+      "output_characters": 78
+    },
+    {
+      "article": "第四十一条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "0b4bee3c81465d97759621ceeda142e2dc16c6b5ceab563b4a230ab63ff192b7",
+      "output_sha256": "0b4bee3c81465d97759621ceeda142e2dc16c6b5ceab563b4a230ab63ff192b7",
+      "source_characters": 233,
+      "output_characters": 233
+    },
+    {
+      "article": "第四十二条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "5899abead836cbe864c38bc792c3bf96524e13bd7aa7ca3b906babfe8eba05e6",
+      "output_sha256": "5899abead836cbe864c38bc792c3bf96524e13bd7aa7ca3b906babfe8eba05e6",
+      "source_characters": 107,
+      "output_characters": 107
+    },
+    {
+      "article": "第四十三条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "72023fb2a13a34e09debcbf30c4b13dc66ca5862da39fee9940cdea9a1008b11",
+      "output_sha256": "72023fb2a13a34e09debcbf30c4b13dc66ca5862da39fee9940cdea9a1008b11",
+      "source_characters": 230,
+      "output_characters": 230
+    },
+    {
+      "article": "第四十四条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "c3e89e98715a0fea3a9fb833032fff0340ab315bc08a83d5f86f23255d2a6790",
+      "output_sha256": "c3e89e98715a0fea3a9fb833032fff0340ab315bc08a83d5f86f23255d2a6790",
+      "source_characters": 138,
+      "output_characters": 138
+    },
+    {
+      "article": "第四十五条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "290da77d438c648099cdec596268891e12ec542d8dd96fcc855484e3822338e8",
+      "output_sha256": "290da77d438c648099cdec596268891e12ec542d8dd96fcc855484e3822338e8",
+      "source_characters": 208,
+      "output_characters": 208
+    },
+    {
+      "article": "第四十六条",
+      "chapter": "第四章  施工单位的安全责任",
+      "source_sha256": "b4cc25eecc59660bdbcd9407b1ad52fdf36332cf327a5c337c65f1336842f2f7",
+      "output_sha256": "b4cc25eecc59660bdbcd9407b1ad52fdf36332cf327a5c337c65f1336842f2f7",
+      "source_characters": 95,
+      "output_characters": 95
+    },
+    {
+      "article": "第四十七条",
+      "chapter": "第五章  监理单位的安全责任",
+      "source_sha256": "c7fd36a02e2f40987a1ecf917f478812a087f278ae451138b321531ce8eae835",
+      "output_sha256": "c7fd36a02e2f40987a1ecf917f478812a087f278ae451138b321531ce8eae835",
+      "source_characters": 62,
+      "output_characters": 62
+    },
+    {
+      "article": "第四十八条",
+      "chapter": "第五章  监理单位的安全责任",
+      "source_sha256": "f1fb7d2578a2dc2253f8f1d0b81ad0a843bb50fabdd9e877179742c054121712",
+      "output_sha256": "f1fb7d2578a2dc2253f8f1d0b81ad0a843bb50fabdd9e877179742c054121712",
+      "source_characters": 53,
+      "output_characters": 53
+    },
+    {
+      "article": "第四十九条",
+      "chapter": "第五章  监理单位的安全责任",
+      "source_sha256": "84340854907f1b349575c56786da76d78a926fba5a5a1a20d3471c2c5c2dd1b3",
+      "output_sha256": "84340854907f1b349575c56786da76d78a926fba5a5a1a20d3471c2c5c2dd1b3",
+      "source_characters": 167,
+      "output_characters": 167
+    },
+    {
+      "article": "第五十条",
+      "chapter": "第五章  监理单位的安全责任",
+      "source_sha256": "f8ec2aa2ba42f0cb924a492a63433c55f9a84f01811d1807c9bebafc0e941dbc",
+      "output_sha256": "f8ec2aa2ba42f0cb924a492a63433c55f9a84f01811d1807c9bebafc0e941dbc",
+      "source_characters": 583,
+      "output_characters": 583
+    },
+    {
+      "article": "第五十一条",
+      "chapter": "第五章  监理单位的安全责任",
+      "source_sha256": "d8d78a8e190c68f3813196b03295552e642dd2fca9e375e5bf454413a2d52013",
+      "output_sha256": "d8d78a8e190c68f3813196b03295552e642dd2fca9e375e5bf454413a2d52013",
+      "source_characters": 100,
+      "output_characters": 100
+    },
+    {
+      "article": "第五十二条",
+      "chapter": "第五章  监理单位的安全责任",
+      "source_sha256": "0c7d2147939b742626d7dc2ed81564a742b59ccfcbe57664f9bc652c29e82258",
+      "output_sha256": "0c7d2147939b742626d7dc2ed81564a742b59ccfcbe57664f9bc652c29e82258",
+      "source_characters": 189,
+      "output_characters": 189
+    },
+    {
+      "article": "第五十三条",
+      "chapter": "第五章  监理单位的安全责任",
+      "source_sha256": "579e5353ed3a9af20d14a060b02bc49093a6d78328c099b9481be4fdef8cb9d9",
+      "output_sha256": "579e5353ed3a9af20d14a060b02bc49093a6d78328c099b9481be4fdef8cb9d9",
+      "source_characters": 54,
+      "output_characters": 54
+    },
+    {
+      "article": "第五十四条",
+      "chapter": "第六章  监督管理",
+      "source_sha256": "35892dc57dc1587fa8d176c2b6f30a432f3cd2b4955d272099809ac4cd4f56b8",
+      "output_sha256": "35892dc57dc1587fa8d176c2b6f30a432f3cd2b4955d272099809ac4cd4f56b8",
+      "source_characters": 61,
+      "output_characters": 61
+    },
+    {
+      "article": "第五十五条",
+      "chapter": "第六章  监督管理",
+      "source_sha256": "9317033c2dac18cb754f7b8fb4fa4f8b04684b90eee36cc845ba0a8f31831929",
+      "output_sha256": "9317033c2dac18cb754f7b8fb4fa4f8b04684b90eee36cc845ba0a8f31831929",
+      "source_characters": 131,
+      "output_characters": 131
+    },
+    {
+      "article": "第五十六条",
+      "chapter": "第六章  监督管理",
+      "source_sha256": "a36b1ac2dd255ce7f148366a79171b36064b0a87a6f9d601b46a18d7baf461b6",
+      "output_sha256": "a36b1ac2dd255ce7f148366a79171b36064b0a87a6f9d601b46a18d7baf461b6",
+      "source_characters": 260,
+      "output_characters": 260
+    },
+    {
+      "article": "第五十七条",
+      "chapter": "第六章  监督管理",
+      "source_sha256": "fb14267b8ac9db9cb4dcc6aa76d6411bdb1ee9df45ec71a14cfc12ff8acc5b89",
+      "output_sha256": "fb14267b8ac9db9cb4dcc6aa76d6411bdb1ee9df45ec71a14cfc12ff8acc5b89",
+      "source_characters": 352,
+      "output_characters": 352
+    },
+    {
+      "article": "第五十八条",
+      "chapter": "第六章  监督管理",
+      "source_sha256": "902dddd4d097e6101391bff3ad9e1da769c221dfd225f90f6808fd00b2baad6a",
+      "output_sha256": "902dddd4d097e6101391bff3ad9e1da769c221dfd225f90f6808fd00b2baad6a",
+      "source_characters": 168,
+      "output_characters": 168
+    },
+    {
+      "article": "第五十九条",
+      "chapter": "第六章  监督管理",
+      "source_sha256": "f7ec568670738f0b1ff954cbfe50cf97e6d156103ddfaee40d1e8978234bbc5c",
+      "output_sha256": "f7ec568670738f0b1ff954cbfe50cf97e6d156103ddfaee40d1e8978234bbc5c",
+      "source_characters": 87,
+      "output_characters": 87
+    },
+    {
+      "article": "第六十条",
+      "chapter": "第六章  监督管理",
+      "source_sha256": "c967a320eae1b4e8e9e5132627fc05d5952981c83ef4203c3c76f9a68283ddfe",
+      "output_sha256": "c967a320eae1b4e8e9e5132627fc05d5952981c83ef4203c3c76f9a68283ddfe",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第六十一条",
+      "chapter": "第七章  事故应急救援和调查处理",
+      "source_sha256": "d771b4d146ff6253007ff54855f8d47c0335d3fa7af7da9054b9b4b5d939be29",
+      "output_sha256": "d771b4d146ff6253007ff54855f8d47c0335d3fa7af7da9054b9b4b5d939be29",
+      "source_characters": 134,
+      "output_characters": 134
+    },
+    {
+      "article": "第六十二条",
+      "chapter": "第七章  事故应急救援和调查处理",
+      "source_sha256": "032875cb95d3d96b9914bbd710a852253188577ca8331e419302bde32d1d28e7",
+      "output_sha256": "032875cb95d3d96b9914bbd710a852253188577ca8331e419302bde32d1d28e7",
+      "source_characters": 122,
+      "output_characters": 122
+    },
+    {
+      "article": "第六十三条",
+      "chapter": "第七章  事故应急救援和调查处理",
+      "source_sha256": "10e94fbfb0b3306ed30ab288b4d6acebed78cc29b571cfee654251bac7d2411e",
+      "output_sha256": "10e94fbfb0b3306ed30ab288b4d6acebed78cc29b571cfee654251bac7d2411e",
+      "source_characters": 405,
+      "output_characters": 405
+    },
+    {
+      "article": "第六十四条",
+      "chapter": "第七章  事故应急救援和调查处理",
+      "source_sha256": "af7fa6f5d265b020923c1edc7f385316e9181e00102386039b3ca2a3ea619046",
+      "output_sha256": "af7fa6f5d265b020923c1edc7f385316e9181e00102386039b3ca2a3ea619046",
+      "source_characters": 193,
+      "output_characters": 193
+    },
+    {
+      "article": "第六十五条",
+      "chapter": "第七章  事故应急救援和调查处理",
+      "source_sha256": "14fc3a307167c983ebabe562d166702c7f8c88921a0e2d5fa0194a11b927ba2d",
+      "output_sha256": "14fc3a307167c983ebabe562d166702c7f8c88921a0e2d5fa0194a11b927ba2d",
+      "source_characters": 117,
+      "output_characters": 117
+    },
+    {
+      "article": "第六十六条",
+      "chapter": "第七章  事故应急救援和调查处理",
+      "source_sha256": "ab62534e7d9b43160c314167a97e0eef7a12721f5a0db8ad38683a0a20111f5b",
+      "output_sha256": "ab62534e7d9b43160c314167a97e0eef7a12721f5a0db8ad38683a0a20111f5b",
+      "source_characters": 92,
+      "output_characters": 92
+    },
+    {
+      "article": "第六十七条",
+      "chapter": "第七章  事故应急救援和调查处理",
+      "source_sha256": "09dceb1135cb4fd54bda489ee5f9e6e7348db9a6e91aed73571708310f8d56e1",
+      "output_sha256": "09dceb1135cb4fd54bda489ee5f9e6e7348db9a6e91aed73571708310f8d56e1",
+      "source_characters": 54,
+      "output_characters": 54
+    },
+    {
+      "article": "第六十八条",
+      "chapter": "第七章  事故应急救援和调查处理",
+      "source_sha256": "5517b14b8714521dc39246165753cb2eb0188385ff730228d05455e21f72e5a0",
+      "output_sha256": "5517b14b8714521dc39246165753cb2eb0188385ff730228d05455e21f72e5a0",
+      "source_characters": 74,
+      "output_characters": 74
+    },
+    {
+      "article": "第六十九条",
+      "chapter": "第八章  法律责任",
+      "source_sha256": "326148bd76e3936ed91759940248b6cc7507a407ab430fcd6a640e0fd3ff48ff",
+      "output_sha256": "326148bd76e3936ed91759940248b6cc7507a407ab430fcd6a640e0fd3ff48ff",
+      "source_characters": 133,
+      "output_characters": 133
+    },
+    {
+      "article": "第七十条",
+      "chapter": "第八章  法律责任",
+      "source_sha256": "341b8d95997fa6ae94289aaef8ecb56626d45bbe4a1644d8bf29afd9dc375fcb",
+      "output_sha256": "341b8d95997fa6ae94289aaef8ecb56626d45bbe4a1644d8bf29afd9dc375fcb",
+      "source_characters": 170,
+      "output_characters": 170
+    },
+    {
+      "article": "第七十一条",
+      "chapter": "第八章  法律责任",
+      "source_sha256": "188cad34dd9b501c5039b9577785e845cf09804c7ac21b3a2e1caf1db7bce52f",
+      "output_sha256": "188cad34dd9b501c5039b9577785e845cf09804c7ac21b3a2e1caf1db7bce52f",
+      "source_characters": 76,
+      "output_characters": 76
+    },
+    {
+      "article": "第七十二条",
+      "chapter": "第八章  法律责任",
+      "source_sha256": "8b855377a5041f58f09090042a46bca18114b3b406ec0ac7e742f7c6a0521bf2",
+      "output_sha256": "8b855377a5041f58f09090042a46bca18114b3b406ec0ac7e742f7c6a0521bf2",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第七十三条",
+      "chapter": "第八章  法律责任",
+      "source_sha256": "6aa2d39924abe094920fad4d62ac4f64dbac0d070bd57ee95b8c84e7145bf045",
+      "output_sha256": "6aa2d39924abe094920fad4d62ac4f64dbac0d070bd57ee95b8c84e7145bf045",
+      "source_characters": 215,
+      "output_characters": 215
+    },
+    {
+      "article": "第七十四条",
+      "chapter": "第八章  法律责任",
+      "source_sha256": "c7722b546d9591800c9796832e35236d2dfc0c26f3a2d74c4f0a0216fabfe2a5",
+      "output_sha256": "c7722b546d9591800c9796832e35236d2dfc0c26f3a2d74c4f0a0216fabfe2a5",
+      "source_characters": 226,
+      "output_characters": 226
+    },
+    {
+      "article": "第七十五条",
+      "chapter": "第九章  附    则",
+      "source_sha256": "81a37f3677bfb7217a657e032f1cd398578c7d04f032b9b40fe9e9cfa242a2e2",
+      "output_sha256": "81a37f3677bfb7217a657e032f1cd398578c7d04f032b9b40fe9e9cfa242a2e2",
+      "source_characters": 28,
+      "output_characters": 28
+    },
+    {
+      "article": "第七十六条",
+      "chapter": "第九章  附    则",
+      "source_sha256": "6e0c778faf70d1c7742b92b5b74d71adf971eba5a591e9919c6ee2122c782c82",
+      "output_sha256": "6e0c778faf70d1c7742b92b5b74d71adf971eba5a591e9919c6ee2122c782c82",
+      "source_characters": 48,
+      "output_characters": 48
+    }
+  ]
+}

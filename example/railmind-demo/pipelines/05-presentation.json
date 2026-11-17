@@ -1,0 +1,333 @@
+{
+  "components": {
+    "Extractor:AutoExtractDefault": {
+      "downstream": [
+        "Tokenizer:TallTreesDance"
+      ],
+      "obj": {
+        "component_name": "Extractor",
+        "params": {
+          "keywords": {
+            "top_n": 0
+          },
+          "llm_id": "",
+          "metadata": {
+            "built_in_metadata": [],
+            "enabled": false,
+            "metadata": []
+          },
+          "questions": {
+            "top_n": 0
+          },
+          "summary": {
+            "enabled": false
+          },
+          "tags": {
+            "tag_file_id": "",
+            "top_n": 0
+          }
+        }
+      },
+      "upstream": [
+        "PageChunker:HappyHillsGlow"
+      ]
+    },
+    "File": {
+      "downstream": [
+        "Parser:HipSignsRhyme"
+      ],
+      "obj": {
+        "component_name": "File",
+        "params": {}
+      },
+      "upstream": []
+    },
+    "PageChunker:HappyHillsGlow": {
+      "downstream": [
+        "Extractor:AutoExtractDefault"
+      ],
+      "obj": {
+        "component_name": "PageChunker",
+        "params": {
+          "outputs": {
+            "chunks": {
+              "type": "Array<Object>",
+              "value": []
+            }
+          }
+        }
+      },
+      "upstream": [
+        "Parser:HipSignsRhyme"
+      ]
+    },
+    "Parser:HipSignsRhyme": {
+      "downstream": [
+        "PageChunker:HappyHillsGlow"
+      ],
+      "obj": {
+        "component_name": "Parser",
+        "params": {
+          "enable_vision_enhancement": false,
+          "outputs": {
+            "html": {
+              "type": "string",
+              "value": ""
+            },
+            "json": {
+              "type": "Array<object>",
+              "value": []
+            },
+            "markdown": {
+              "type": "string",
+              "value": ""
+            },
+            "text": {
+              "type": "string",
+              "value": ""
+            }
+          },
+          "pdf": {
+            "flatten_media_to_text": false,
+            "parse_method": "DeepDOC",
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "pdf"
+            ],
+            "vlm": {}
+          },
+          "slides": {
+            "parse_method": "DeepDOC",
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "pptx",
+              "ppt",
+              "dps",
+              "dpt"
+            ]
+          },
+          "vlm": {
+            "llm_id": ""
+          }
+        }
+      },
+      "upstream": [
+        "File"
+      ]
+    },
+    "Tokenizer:TallTreesDance": {
+      "downstream": [],
+      "obj": {
+        "component_name": "Tokenizer",
+        "params": {
+          "fields": "text",
+          "filename_embd_weight": 0.1,
+          "outputs": {},
+          "search_method": [
+            "embedding",
+            "full_text"
+          ]
+        }
+      },
+      "upstream": [
+        "Extractor:AutoExtractDefault"
+      ]
+    }
+  },
+  "globals": {
+    "sys.history": []
+  },
+  "graph": {
+    "edges": [
+      {
+        "id": "xy-edge__Filestart-Parser:HipSignsRhymeend",
+        "source": "File",
+        "sourceHandle": "start",
+        "target": "Parser:HipSignsRhyme",
+        "targetHandle": "end"
+      },
+      {
+        "id": "xy-edge__Parser:HipSignsRhymestart-PageChunker:HappyHillsGlowend",
+        "source": "Parser:HipSignsRhyme",
+        "sourceHandle": "start",
+        "target": "PageChunker:HappyHillsGlow",
+        "targetHandle": "end"
+      },
+      {
+        "id": "xy-edge__PageChunker:HappyHillsGlowstart-Extractor:AutoExtractDefaultend",
+        "source": "PageChunker:HappyHillsGlow",
+        "sourceHandle": "start",
+        "target": "Extractor:AutoExtractDefault",
+        "targetHandle": "end"
+      },
+      {
+        "id": "xy-edge__Extractor:AutoExtractDefaultstart-Tokenizer:TallTreesDanceend",
+        "source": "Extractor:AutoExtractDefault",
+        "sourceHandle": "start",
+        "target": "Tokenizer:TallTreesDance",
+        "targetHandle": "end"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "label": "File",
+          "name": "File"
+        },
+        "id": "File",
+        "measured": {
+          "height": 49,
+          "width": 200
+        },
+        "position": {
+          "x": 50,
+          "y": 200
+        },
+        "sourcePosition": "left",
+        "targetPosition": "right",
+        "type": "beginNode"
+      },
+      {
+        "data": {
+          "form": {
+            "enable_vision_enhancement": false,
+            "outputs": {
+              "html": {
+                "type": "string",
+                "value": ""
+              },
+              "json": {
+                "type": "Array<object>",
+                "value": []
+              },
+              "markdown": {
+                "type": "string",
+                "value": ""
+              },
+              "text": {
+                "type": "string",
+                "value": ""
+              }
+            },
+            "setups": [
+              {
+                "fileFormat": "pdf",
+                "flatten_media_to_text": false,
+                "parse_method": "DeepDOC",
+                "preprocess": [
+                  "main_content"
+                ],
+                "vlm": {}
+              },
+              {
+                "fileFormat": "slides",
+                "parse_method": "DeepDOC",
+                "preprocess": [
+                  "main_content"
+                ]
+              }
+            ],
+            "vlm": {
+              "llm_id": ""
+            }
+          },
+          "label": "Parser",
+          "name": "Parser"
+        },
+        "dragging": false,
+        "id": "Parser:HipSignsRhyme",
+        "measured": {
+          "height": 73,
+          "width": 200
+        },
+        "position": {
+          "x": 316.99524094206413,
+          "y": 188
+        },
+        "selected": true,
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "type": "parserNode"
+      },
+      {
+        "data": {
+          "form": {
+            "outputs": {
+              "chunks": {
+                "type": "Array<Object>",
+                "value": []
+              }
+            }
+          },
+          "label": "PageChunker",
+          "name": "Presentation Chunker"
+        },
+        "id": "PageChunker:HappyHillsGlow",
+        "measured": {
+          "height": 73,
+          "width": 200
+        },
+        "position": {
+          "x": 616.9952409420641,
+          "y": 188
+        },
+        "selected": false,
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "type": "chunkerNode"
+      },
+      {
+        "data": {
+          "form": {
+            "fields": "text",
+            "filename_embd_weight": 0.1,
+            "outputs": {},
+            "search_method": [
+              "embedding",
+              "full_text"
+            ]
+          },
+          "label": "Tokenizer",
+          "name": "Indexer"
+        },
+        "id": "Tokenizer:TallTreesDance",
+        "measured": {
+          "height": 113,
+          "width": 200
+        },
+        "position": {
+          "x": 1216.9952409420641,
+          "y": 168
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "type": "tokenizerNode"
+      },
+      {
+        "data": {
+          "label": "Extractor",
+          "name": "Extractor"
+        },
+        "id": "Extractor:AutoExtractDefault",
+        "measured": {
+          "height": 59,
+          "width": 200
+        },
+        "position": {
+          "x": 916.9952409420641,
+          "y": 195
+        },
+        "type": "contextNode"
+      }
+    ]
+  },
+  "history": [],
+  "messages": [],
+  "path": [],
+  "retrieval": [],
+  "variables": []
+}

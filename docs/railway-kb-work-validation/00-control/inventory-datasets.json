@@ -1,0 +1,1572 @@
+[
+  {
+    "avatar": null,
+    "chunk_count": 3,
+    "description": "文档解析、语义切片、编译实体关系与思维导图、写入检索索引。",
+    "document_count": 1,
+    "embedding_model": "bge-m3@ollama_local@Ollama",
+    "id": "f1fbad4dd7f24852a21bb2bd1b1a3c4f",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "演示成果 档案证据图谱",
+    "nickname": "test",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "Compiler:Evidence": {
+        "compilation_template_group_id": "d7b8a12e60db4935a64dbfa89ae79b12",
+        "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+        "plan": false
+      },
+      "File": {},
+      "GeneralChunker:SixApplesFall": {
+        "children_delimiters": [],
+        "chunk_token_size": 420,
+        "delimiters": [
+          "\n",
+          "!",
+          "?",
+          ";",
+          "。",
+          "；",
+          "！",
+          "？"
+        ],
+        "image_context_size": 0,
+        "overlapped_percent": 12,
+        "table_context_size": 64
+      },
+      "Parser:HipSignsRhyme": {
+        "doc": {
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "doc"
+          ]
+        },
+        "docx": {
+          "flatten_media_to_text": false,
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "docx"
+          ],
+          "vlm": {}
+        },
+        "enable_vision_enhancement": false,
+        "html": {
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "htm",
+            "html"
+          ]
+        },
+        "markdown": {
+          "flatten_media_to_text": false,
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "vlm": {}
+        },
+        "pdf": {
+          "flatten_media_to_text": false,
+          "pages": [
+            [
+              1,
+              100000
+            ]
+          ],
+          "parse_method": "Plain Text",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "spreadsheet": {
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "xls",
+            "xlsx",
+            "csv"
+          ],
+          "vlm": {}
+        },
+        "text&code": {
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "txt",
+            "py",
+            "js",
+            "java",
+            "c",
+            "cpp",
+            "h",
+            "php",
+            "go",
+            "ts",
+            "sh",
+            "cs",
+            "kt",
+            "sql"
+          ]
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "Tokenizer:LegalReadersDecide": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_id": "e321e8824c064afd94017f51a4c4de0d",
+    "pipeline_version_id": "deedfeb7192f415db1b7f9f92a51c25b",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 2909,
+    "update_time": 1794712511663
+  },
+  {
+    "avatar": null,
+    "chunk_count": 3,
+    "description": "EML 邮件及 TXT 纪要。保留发件人、收件人、日期、主题和正文，长正文按句段切片。",
+    "document_count": 3,
+    "embedding_model": "bge-m3@ollama_local@Ollama",
+    "id": "cd5e415dd0384f668ee47e72062d990c",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "邮件与纪要",
+    "nickname": "test",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "Extractor:AutoExtractDefault": {
+        "keywords": {
+          "top_n": 0
+        },
+        "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+        "metadata": {
+          "built_in_metadata": [],
+          "enabled": false,
+          "metadata": []
+        },
+        "questions": {
+          "top_n": 0
+        },
+        "summary": {
+          "enabled": false
+        },
+        "tags": {
+          "tag_file_id": "",
+          "top_n": 0
+        }
+      },
+      "File": {},
+      "Parser:BirdsFlutterHigh": {
+        "email": {
+          "fields": [
+            "from",
+            "to",
+            "cc",
+            "date",
+            "subject",
+            "body"
+          ],
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "eml"
+          ]
+        },
+        "enable_vision_enhancement": false,
+        "text&code": {
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "txt"
+          ]
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "TokenChunker:WarmBreadSmells": {
+        "children_delimiters": [],
+        "chunk_token_size": 360,
+        "delimiter_mode": "delimiter",
+        "delimiters": [
+          "\n",
+          "!",
+          "?",
+          "。",
+          "；",
+          "！",
+          "？"
+        ],
+        "image_context_size": 0,
+        "overlapped_percent": 10,
+        "parent_child": {
+          "children_delimiter": "\n",
+          "use_parent_child": false
+        },
+        "table_context_size": 0
+      },
+      "Tokenizer:NiceWordsSpoken": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_id": "f7f9fc719f3e4af29892380c14ad7dbb",
+    "pipeline_version_id": "874f37bb452d4d7a99aef60ffeff32b5",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 349,
+    "update_time": 1794713098328
+  },
+  {
+    "avatar": null,
+    "chunk_count": 2,
+    "description": "双栏论文 PDF 和技术报告。DeepDOC 布局识别后按章节切片，保留标题线索。",
+    "document_count": 1,
+    "embedding_model": "bge-m3@ollama_local@Ollama",
+    "id": "d35d7dd736d8462db2602be48c1aa601",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "论文与技术报告",
+    "nickname": "test",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "Extractor:AutoExtractDefault": {
+        "keywords": {
+          "top_n": 0
+        },
+        "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+        "metadata": {
+          "built_in_metadata": [],
+          "enabled": false,
+          "metadata": []
+        },
+        "questions": {
+          "top_n": 0
+        },
+        "summary": {
+          "enabled": false
+        },
+        "tags": {
+          "tag_file_id": "",
+          "top_n": 0
+        }
+      },
+      "File": {},
+      "Parser:HipSignsRhyme": {
+        "enable_vision_enhancement": false,
+        "pdf": {
+          "enable_multi_column": true,
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "TitleChunker:SparklySchoolsTravel": {
+        "groupRules": [
+          {
+            "levels": [
+              {
+                "expression": "^#[^#]"
+              },
+              {
+                "expression": "^##[^#]"
+              },
+              {
+                "expression": "^###[^#]"
+              },
+              {
+                "expression": "^####[^#]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+条"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[0-9]+章"
+              },
+              {
+                "expression": "第[0-9]+节"
+              },
+              {
+                "expression": "[0-9]{1,2}[\\. 、]"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "[零一二三四五六七八九十百]+[ 、]"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              },
+              {
+                "expression": "[\\(（][0-9]{,2}[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+              },
+              {
+                "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+              },
+              {
+                "expression": "Section [0-9]+"
+              },
+              {
+                "expression": "Article [0-9]+"
+              }
+            ]
+          }
+        ],
+        "hierarchy": 0,
+        "hierarchyGroup": "0",
+        "hierarchyHierarchy": "0",
+        "hierarchyRules": [
+          {
+            "levels": [
+              {
+                "expression": "^#[^#]"
+              },
+              {
+                "expression": "^##[^#]"
+              },
+              {
+                "expression": "^###[^#]"
+              },
+              {
+                "expression": "^####[^#]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+条"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[0-9]+章"
+              },
+              {
+                "expression": "第[0-9]+节"
+              },
+              {
+                "expression": "[0-9]{1,2}[\\. 、]"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "[零一二三四五六七八九十百]+[ 、]"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              },
+              {
+                "expression": "[\\(（][0-9]{,2}[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+              },
+              {
+                "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+              },
+              {
+                "expression": "Section [0-9]+"
+              },
+              {
+                "expression": "Article [0-9]+"
+              }
+            ]
+          }
+        ],
+        "include_heading_content": true,
+        "levels": [
+          [
+            "^#[^#]",
+            "^##[^#]",
+            "^###[^#]",
+            "^####[^#]"
+          ],
+          [
+            "第[零一二三四五六七八九十百0-9]+(分?编|部分)",
+            "第[零一二三四五六七八九十百0-9]+章",
+            "第[零一二三四五六七八九十百0-9]+节",
+            "第[零一二三四五六七八九十百0-9]+条",
+            "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+          ],
+          [
+            "第[0-9]+章",
+            "第[0-9]+节",
+            "[0-9]{1,2}[\\. 、]",
+            "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])",
+            "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+          ],
+          [
+            "第[零一二三四五六七八九十百0-9]+章",
+            "第[零一二三四五六七八九十百0-9]+节",
+            "[零一二三四五六七八九十百]+[ 、]",
+            "[\\(（][零一二三四五六七八九十百]+[\\)）]",
+            "[\\(（][0-9]{,2}[\\)）]"
+          ],
+          [
+            "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)",
+            "Chapter (I+V?|VI*|XI|IX|X)",
+            "Section [0-9]+",
+            "Article [0-9]+"
+          ]
+        ],
+        "method": "group"
+      },
+      "Tokenizer:GreatCarsWash": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_id": "d3af5efb4cad42479bd17b2050d3f334",
+    "pipeline_version_id": "092cdf6f5ff84ea98a800bd017c29fdc",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 89,
+    "update_time": 1794713098281
+  },
+  {
+    "avatar": null,
+    "chunk_count": 3,
+    "description": "扫描版 PDF、PNG、JPEG 等文字图片。DeepDOC OCR 后按段切片，检索前可检查识别结果。",
+    "document_count": 3,
+    "embedding_model": "bge-m3@ollama_local@Ollama",
+    "id": "313490d024684066a07ce17b5dcab5b2",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "扫描件与图片",
+    "nickname": "test",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "Extractor:AutoExtractDefault": {
+        "keywords": {
+          "top_n": 0
+        },
+        "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+        "metadata": {
+          "built_in_metadata": [],
+          "enabled": false,
+          "metadata": []
+        },
+        "questions": {
+          "top_n": 0
+        },
+        "summary": {
+          "enabled": false
+        },
+        "tags": {
+          "tag_file_id": "",
+          "top_n": 0
+        }
+      },
+      "File": {},
+      "GeneralChunker:BrightColorsGlow": {
+        "children_delimiters": [],
+        "chunk_token_size": 340,
+        "delimiters": [
+          "\n",
+          "。",
+          "；",
+          "！",
+          "？",
+          "!",
+          "?"
+        ],
+        "image_context_size": 0,
+        "overlapped_percent": 8,
+        "table_context_size": 0
+      },
+      "Parser:ViewsCaptureLight": {
+        "enable_vision_enhancement": false,
+        "image": {
+          "ocr_enabled": true,
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "jpeg",
+            "jpg",
+            "png",
+            "tif",
+            "tiff",
+            "bmp",
+            "webp"
+          ]
+        },
+        "pdf": {
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "Tokenizer:SharpLensFocus": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_id": "ddfb5bede3ca4818a458604215edaeb1",
+    "pipeline_version_id": "728487c9dea94feb97c922b64ab63067",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 130,
+    "update_time": 1794713098234
+  },
+  {
+    "avatar": null,
+    "chunk_count": 8,
+    "description": "PPTX 和按页导出的 PDF。按幻灯片或 PDF 页保留上下文与页面定位。",
+    "document_count": 2,
+    "embedding_model": "bge-m3@ollama_local@Ollama",
+    "id": "e43ebbaec5954486b072ec4ca9181463",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "演示文稿",
+    "nickname": "test",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "Extractor:AutoExtractDefault": {
+        "keywords": {
+          "top_n": 0
+        },
+        "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+        "metadata": {
+          "built_in_metadata": [],
+          "enabled": false,
+          "metadata": []
+        },
+        "questions": {
+          "top_n": 0
+        },
+        "summary": {
+          "enabled": false
+        },
+        "tags": {
+          "tag_file_id": "",
+          "top_n": 0
+        }
+      },
+      "File": {},
+      "PageChunker:HappyHillsGlow": {},
+      "Parser:HipSignsRhyme": {
+        "enable_vision_enhancement": false,
+        "pdf": {
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "slides": {
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pptx",
+            "ppt",
+            "dps",
+            "dpt"
+          ]
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "Tokenizer:TallTreesDance": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_id": "b33aa824586746a299c6878aab8e3779",
+    "pipeline_version_id": "f0c1ee82ef7443f19256de2e5a10c238",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 108,
+    "update_time": 1794713098186
+  },
+  {
+    "avatar": null,
+    "chunk_count": 4,
+    "description": "双列表格或按问答成对编写的文本。一个问题和对应答案保留在同一切片。",
+    "document_count": 2,
+    "embedding_model": "bge-m3@ollama_local@Ollama",
+    "id": "eb604453eb954ada9cde753ce20277df",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "FAQ 问答对",
+    "nickname": "test",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "File": {},
+      "Parser:HipSignsRhyme": {
+        "docx": {
+          "flatten_media_to_text": false,
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "docx"
+          ],
+          "vlm": {}
+        },
+        "enable_vision_enhancement": false,
+        "markdown": {
+          "flatten_media_to_text": false,
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "vlm": {}
+        },
+        "pdf": {
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "spreadsheet": {
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "xls",
+            "xlsx",
+            "csv"
+          ],
+          "vlm": {}
+        },
+        "text&code": {
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "txt"
+          ]
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "QAChunker:TidyCloudsThink": {},
+      "Tokenizer:ColdCloudsDream": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_id": "737b7ef7202b49f986766fc2af8fffb0",
+    "pipeline_version_id": "3674ca26acf945968cfac587efd83a32",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 145,
+    "update_time": 1794713098139
+  },
+  {
+    "avatar": null,
+    "chunk_count": 6,
+    "description": "XLSX、XLS 与 CSV 台账。按记录切片，每条保留列名与对应字段。",
+    "document_count": 2,
+    "embedding_model": "bge-m3@ollama_local@Ollama",
+    "id": "c6dc1df37ad2425f984958216434ae31",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "台账与表格",
+    "nickname": "test",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "File": {},
+      "Parser:HipSignsRhyme": {
+        "enable_vision_enhancement": false,
+        "spreadsheet": {
+          "column_mode": "auto",
+          "column_names": [],
+          "column_roles": {},
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "xls",
+            "xlsx",
+            "csv"
+          ],
+          "vlm": {}
+        },
+        "text&code": {
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "txt"
+          ]
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "TableChunker:FastFoxesJump": {},
+      "Tokenizer:DeepLakesShine": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_id": "a1bec3d5486a449ab738a1f003642144",
+    "pipeline_version_id": "466d5b0ec34f4d87a81e636b480955f1",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 213,
+    "update_time": 1794713098092
+  },
+  {
+    "avatar": null,
+    "chunk_count": 4,
+    "description": "Word、PDF 与 Markdown 手册。按章、节、条与标题层级切片，保留上级标题。",
+    "document_count": 2,
+    "embedding_model": "bge-m3@ollama_local@Ollama",
+    "id": "4e15b4a139264a00866f355e66dd2c66",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "手册与制度",
+    "nickname": "test",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "Extractor:AutoExtractDefault": {
+        "keywords": {
+          "top_n": 0
+        },
+        "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+        "metadata": {
+          "built_in_metadata": [],
+          "enabled": false,
+          "metadata": []
+        },
+        "questions": {
+          "top_n": 0
+        },
+        "summary": {
+          "enabled": false
+        },
+        "tags": {
+          "tag_file_id": "",
+          "top_n": 0
+        }
+      },
+      "File": {},
+      "ManualChunker:NineInsectsFind": {
+        "groupRules": [
+          {
+            "levels": [
+              {
+                "expression": "^#[^#]"
+              },
+              {
+                "expression": "^##[^#]"
+              },
+              {
+                "expression": "^###[^#]"
+              },
+              {
+                "expression": "^####[^#]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+条"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[0-9]+章"
+              },
+              {
+                "expression": "第[0-9]+节"
+              },
+              {
+                "expression": "[0-9]{1,2}[\\. 、]"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "[零一二三四五六七八九十百]+[ 、]"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              },
+              {
+                "expression": "[\\(（][0-9]{,2}[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+              },
+              {
+                "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+              },
+              {
+                "expression": "Section [0-9]+"
+              },
+              {
+                "expression": "Article [0-9]+"
+              }
+            ]
+          }
+        ],
+        "hierarchy": 0,
+        "hierarchyGroup": "0",
+        "hierarchyHierarchy": "0",
+        "hierarchyRules": [
+          {
+            "levels": [
+              {
+                "expression": "^#[^#]"
+              },
+              {
+                "expression": "^##[^#]"
+              },
+              {
+                "expression": "^###[^#]"
+              },
+              {
+                "expression": "^####[^#]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+条"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[0-9]+章"
+              },
+              {
+                "expression": "第[0-9]+节"
+              },
+              {
+                "expression": "[0-9]{1,2}[\\. 、]"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "[零一二三四五六七八九十百]+[ 、]"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              },
+              {
+                "expression": "[\\(（][0-9]{,2}[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+              },
+              {
+                "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+              },
+              {
+                "expression": "Section [0-9]+"
+              },
+              {
+                "expression": "Article [0-9]+"
+              }
+            ]
+          }
+        ],
+        "include_heading_content": true,
+        "levels": [
+          [
+            "^#[^#]",
+            "^##[^#]",
+            "^###[^#]",
+            "^####[^#]"
+          ],
+          [
+            "第[零一二三四五六七八九十百0-9]+(分?编|部分)",
+            "第[零一二三四五六七八九十百0-9]+章",
+            "第[零一二三四五六七八九十百0-9]+节",
+            "第[零一二三四五六七八九十百0-9]+条",
+            "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+          ],
+          [
+            "第[0-9]+章",
+            "第[0-9]+节",
+            "[0-9]{1,2}[\\. 、]",
+            "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])",
+            "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+          ],
+          [
+            "第[零一二三四五六七八九十百0-9]+章",
+            "第[零一二三四五六七八九十百0-9]+节",
+            "[零一二三四五六七八九十百]+[ 、]",
+            "[\\(（][零一二三四五六七八九十百]+[\\)）]",
+            "[\\(（][0-9]{,2}[\\)）]"
+          ],
+          [
+            "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)",
+            "Chapter (I+V?|VI*|XI|IX|X)",
+            "Section [0-9]+",
+            "Article [0-9]+"
+          ]
+        ],
+        "method": "group"
+      },
+      "Parser:HipSignsRhyme": {
+        "doc": {
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "doc"
+          ]
+        },
+        "docx": {
+          "flatten_media_to_text": false,
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "docx"
+          ],
+          "vlm": {}
+        },
+        "enable_vision_enhancement": false,
+        "markdown": {
+          "flatten_media_to_text": false,
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "vlm": {}
+        },
+        "pdf": {
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "Tokenizer:FunnyBalloonsGrin": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_id": "88e855f3b51341b1a22b71aa435b9a1b",
+    "pipeline_version_id": "627428bcba42451b81c183d1a219e8f1",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 174,
+    "update_time": 1794713098049
+  },
+  {
+    "avatar": null,
+    "chunk_count": 6,
+    "description": "普通 PDF、Word、Markdown、网页与纯文本。按句段合并，目标 420 tokens，12% 重叠，保留表格上下文。",
+    "document_count": 4,
+    "embedding_model": "bge-m3@ollama_local@Ollama",
+    "id": "6e3fca9cd59942408038a67a33bb8578",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "通用文档",
+    "nickname": "test",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "Extractor:AutoExtractDefault": {
+        "keywords": {
+          "top_n": 0
+        },
+        "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+        "metadata": {
+          "built_in_metadata": [],
+          "enabled": false,
+          "metadata": []
+        },
+        "questions": {
+          "top_n": 0
+        },
+        "summary": {
+          "enabled": false
+        },
+        "tags": {
+          "tag_file_id": "",
+          "top_n": 0
+        }
+      },
+      "File": {},
+      "GeneralChunker:SixApplesFall": {
+        "children_delimiters": [],
+        "chunk_token_size": 420,
+        "delimiters": [
+          "\n",
+          "!",
+          "?",
+          ";",
+          "。",
+          "；",
+          "！",
+          "？"
+        ],
+        "image_context_size": 0,
+        "overlapped_percent": 12,
+        "table_context_size": 64
+      },
+      "Parser:HipSignsRhyme": {
+        "doc": {
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "doc"
+          ]
+        },
+        "docx": {
+          "flatten_media_to_text": false,
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "docx"
+          ],
+          "vlm": {}
+        },
+        "enable_vision_enhancement": false,
+        "html": {
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "htm",
+            "html"
+          ]
+        },
+        "markdown": {
+          "flatten_media_to_text": false,
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "vlm": {}
+        },
+        "pdf": {
+          "flatten_media_to_text": false,
+          "pages": [
+            [
+              1,
+              100000
+            ]
+          ],
+          "parse_method": "Plain Text",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "spreadsheet": {
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "xls",
+            "xlsx",
+            "csv"
+          ],
+          "vlm": {}
+        },
+        "text&code": {
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "txt",
+            "py",
+            "js",
+            "java",
+            "c",
+            "cpp",
+            "h",
+            "php",
+            "go",
+            "ts",
+            "sh",
+            "cs",
+            "kt",
+            "sql"
+          ]
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "Tokenizer:LegalReadersDecide": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_id": "a94edc44bae8421c9d8b74bfb32e3978",
+    "pipeline_version_id": "7b9b811923884e03aa17a8530fb1640a",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 303,
+    "update_time": 1794713098001
+  },
+  {
+    "avatar": null,
+    "chunk_count": 91,
+    "description": null,
+    "document_count": 6,
+    "embedding_model": "bge-m3@ollama_local@Ollama",
+    "id": "66ff4d9d5ff748af8e83080bd7482f04",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "轨知 · 铁路公开规章",
+    "nickname": "test",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "Extractor:AutoExtractDefault": {
+        "keywords": {
+          "top_n": 0
+        },
+        "llm_id": "deepseek-flash@deepseek_local@DeepSeek",
+        "metadata": {
+          "built_in_metadata": [],
+          "enabled": false,
+          "metadata": []
+        },
+        "questions": {
+          "top_n": 0
+        },
+        "summary": {
+          "enabled": false
+        },
+        "tags": {
+          "tag_file_id": "",
+          "top_n": 0
+        }
+      },
+      "File": {},
+      "GeneralChunker:SixApplesFall": {
+        "children_delimiters": [],
+        "chunk_token_size": 512,
+        "delimiters": [
+          "\n",
+          "!",
+          "?",
+          ";",
+          "。",
+          "；",
+          "！",
+          "？"
+        ],
+        "image_context_size": 0,
+        "overlapped_percent": 0,
+        "parent_child": {
+          "children_delimiter": "\n",
+          "use_parent_child": false
+        },
+        "table_context_size": 0
+      },
+      "Parser:HipSignsRhyme": {
+        "doc": {
+          "output_format": "json",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "doc"
+          ]
+        },
+        "docx": {
+          "flatten_media_to_text": false,
+          "output_format": "json",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "docx"
+          ],
+          "vlm": {}
+        },
+        "html": {
+          "output_format": "json",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "htm",
+            "html"
+          ]
+        },
+        "markdown": {
+          "flatten_media_to_text": false,
+          "output_format": "json",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "md",
+            "markdown",
+            "mdx"
+          ],
+          "vlm": {}
+        },
+        "pdf": {
+          "flatten_media_to_text": false,
+          "output_format": "json",
+          "pages": [
+            [
+              1,
+              100000
+            ]
+          ],
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "spreadsheet": {
+          "flatten_media_to_text": false,
+          "output_format": "json",
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "xls",
+            "xlsx",
+            "csv"
+          ],
+          "vlm": {}
+        },
+        "text&code": {
+          "output_format": "json",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "txt",
+            "py",
+            "js",
+            "java",
+            "c",
+            "cpp",
+            "h",
+            "php",
+            "go",
+            "ts",
+            "sh",
+            "cs",
+            "kt",
+            "sql"
+          ]
+        }
+      },
+      "Tokenizer:LegalReadersDecide": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 23254,
+    "update_time": 1794672837337
+  }
+]

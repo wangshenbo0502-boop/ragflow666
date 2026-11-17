@@ -1,0 +1,256 @@
+{
+  "recorded_at": "2026-11-16T13:45:01.518Z",
+  "doc_id": "DOC0027",
+  "bindings": {
+    "original": {
+      "path": "01-originals/attachments/S0035-1.docx",
+      "sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474"
+    },
+    "master": {
+      "path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "sha256": "c00a5743ba54ca5afd90c6b41ddaaa3afd11225c9936c6be4328e2701664ebcc"
+    },
+    "expected": {
+      "path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "sha256": "ed8a9240c065db7cfd20562ca9a94764166c33ea0c6e0bcfd7468767aa995a7d"
+    },
+    "native": {
+      "path": "05-review/successor-structure/S0035-native-tables-v2.json",
+      "sha256": "57d16066cb527945b1216ec5a90dcb52b3ffbc6787352713b9a21a13dee97b11"
+    },
+    "original_pdf": {
+      "path": "05-review/successor-visual/S0035-original.pdf",
+      "sha256": "b057a00fe260845ffc5d70125a76d362fbeb97a9c5f543e5b22c879593f78ec4"
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "image_path": "05-review/successor-visual/S0035-page-01.png",
+      "image_sha256": "90803b2c76bf904979fbc693c932330dc85a31716f5e35d0645d67b6dfba250a",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 2,
+      "image_path": "05-review/successor-visual/S0035-page-02.png",
+      "image_sha256": "7247cf56b86ba59400f396a018fb6b880e66b91ab630c6d4731f193e654a3cae",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 3,
+      "image_path": "05-review/successor-visual/S0035-page-03.png",
+      "image_sha256": "f3fde21f3e1f941394ba85121c0acc7b819660356504dff2aec575864709bcd9",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 4,
+      "image_path": "05-review/successor-visual/S0035-page-04.png",
+      "image_sha256": "7dc4dde332d51bef3186e007ff303d4c27f4382eebbb1572bbb38b4af603c926",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 5,
+      "image_path": "05-review/successor-visual/S0035-page-05.png",
+      "image_sha256": "b8dd7571f1cc710797d5c3c83323de7ab701f2f23f5763f05d254263d48d19f4",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 6,
+      "image_path": "05-review/successor-visual/S0035-page-06.png",
+      "image_sha256": "6974f53e7e4e88601be655e0183717ad16b4df99e4f1fd1608e848d09c07c133",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 7,
+      "image_path": "05-review/successor-visual/S0035-page-07.png",
+      "image_sha256": "fc59ab03ae58247fec74db7cedb13b50fd2d48128ff67c2c1fed7bceb7301c36",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 8,
+      "image_path": "05-review/successor-visual/S0035-page-08.png",
+      "image_sha256": "f0d4871a9955a6babc8ac8fbde5c923a0e716137d3d59b5258e7a78e016bffac",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 9,
+      "image_path": "05-review/successor-visual/S0035-page-09.png",
+      "image_sha256": "2fffec98825352e0733bd5a822cafb1e3fbbec3edd0aa3ddb586c1de76340b33",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 10,
+      "image_path": "05-review/successor-visual/S0035-page-10.png",
+      "image_sha256": "49b0d6e56d84a551344683ae4d7f779511289e029369a4fa9a7320e4ab6dcbdc",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 11,
+      "image_path": "05-review/successor-visual/S0035-page-11.png",
+      "image_sha256": "a895de194ad88ced16b7a9b9b31b3849fbd7767e49066c50e97327df6f9edeba",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 12,
+      "image_path": "05-review/successor-visual/S0035-page-12.png",
+      "image_sha256": "30e87f1507389a237c608e236392db29e27032e80f31c6f6ff4ecec615188ae7",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 13,
+      "image_path": "05-review/successor-visual/S0035-page-13.png",
+      "image_sha256": "abafa6393c2ac9c834451faae17a41e7596189774b1c81b26da9116afeef2c29",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 14,
+      "image_path": "05-review/successor-visual/S0035-page-14.png",
+      "image_sha256": "615ab8b73ff1bb02f66371d423bcb7fe97857d1beca49c9d0bff5318579ba27c",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 15,
+      "image_path": "05-review/successor-visual/S0035-page-15.png",
+      "image_sha256": "4fdbf962bc3c2a1a726e8222f43f050c69b79fbdd7f5cf367c4805f8b26a2d0c",
+      "observation": "Prior visual review: LTE dedicated test software requirement and remark cells are blank; no values inferred.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 16,
+      "image_path": "05-review/successor-visual/S0035-page-16.png",
+      "image_sha256": "d4f3a51a117770a239d73dd6b6c7e4819862d6a9926449f4c093c06a2e767940",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 17,
+      "image_path": "05-review/successor-visual/S0035-page-17.png",
+      "image_sha256": "e9bb93bf680249eb1135dc453306ce6fa1469379076a7e929ff23eb05dd8ba7c",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 18,
+      "image_path": "05-review/successor-visual/S0035-page-18.png",
+      "image_sha256": "fc2760a10428c55ef0ce103a81f67aba4592972fd2917c7b9ae08f1261bd5f1a",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 19,
+      "image_path": "05-review/successor-visual/S0035-page-19.png",
+      "image_sha256": "30531dab039fe83099e6ce6e897aae757c48923625e8a07d1103e6dfc4e99eae",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 20,
+      "image_path": "05-review/successor-visual/S0035-page-20.png",
+      "image_sha256": "d36c34f188f8e69595a79a3ef039c1d8b7e59eaa640c10c3c7c25d3e847e481e",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 21,
+      "image_path": "05-review/successor-visual/S0035-page-21.png",
+      "image_sha256": "9f3427d108f80cbbe8323a58dec5980e05fd25fcb7d3d20c5061d36fdbc557a1",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 22,
+      "image_path": "05-review/successor-visual/S0035-page-22.png",
+      "image_sha256": "1e470f61fb869c179d472b0ceb56f765d51fcb9653e64ad71e1fbd5249445575",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 23,
+      "image_path": "05-review/successor-visual/S0035-page-23.png",
+      "image_sha256": "f8c2efe431f55ba3b778c583ea05128ff11bb53cab27452a82638ab8a336a589",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 24,
+      "image_path": "05-review/successor-visual/S0035-page-24.png",
+      "image_sha256": "a707ec61a89a5cf9a9ff4c709c887790a283ca8c73348427259c7bbed778bdb7",
+      "observation": "Page viewed in the preceding continuation; detailed page-specific notes were not retained in the handover.",
+      "evidence_origin": "Previous continuation visual inspection, carried forward in handover"
+    },
+    {
+      "page": 25,
+      "image_path": "05-review/successor-visual/S0035-page-25.png",
+      "image_sha256": "9c5d696a48e6728c66007a27db50fa99e87ac835947b64e190cac8ef2da3d263",
+      "observation": "Section 6.3 delivery inspection: three items, first key; section 7 safety/civilized production: fourteen items; 7.1 item 4 continues on page 26.",
+      "evidence_origin": "Previous continuation pages 25-32 visual inspection, carried forward in handover"
+    },
+    {
+      "page": 26,
+      "image_path": "05-review/successor-visual/S0035-page-26.png",
+      "image_sha256": "ffe9146c1651a9cddf3ba516f322a2d517894efa69ba0e090631609ddfe64380",
+      "observation": "Continuation retains prohibitions concerning equipment and data; 7.1 items 5-9, 7.2 two items, 7.3 three items. Final cell text clipped in full-document rendering; resolved by readonly native-cell excerpt.",
+      "evidence_origin": "Previous continuation pages 25-32 visual inspection, carried forward in handover"
+    },
+    {
+      "page": 27,
+      "image_path": "05-review/successor-visual/S0035-page-27.png",
+      "image_sha256": "25ced8882db0e26b9c5990731aa337fdaa84dac553f491f13c95107c480b67fb",
+      "observation": "Blank body with page number only; not treated as lost substantive text.",
+      "evidence_origin": "Previous continuation pages 25-32 visual inspection, carried forward in handover"
+    },
+    {
+      "page": 28,
+      "image_path": "05-review/successor-visual/S0035-page-28.png",
+      "image_sha256": "6ea4dae84cf1123c9a0199961869a96fb40ecd56b37c6e0cc2ab12dc46c54231",
+      "observation": "Application form includes applicant/unit/agent/application/materials; receiving-authority fields remain distinct.",
+      "evidence_origin": "Previous continuation pages 25-32 visual inspection, carried forward in handover"
+    },
+    {
+      "page": 29,
+      "image_path": "05-review/successor-visual/S0035-page-29.png",
+      "image_sha256": "be8318486c593f769597689ee0595910e6f571b73e2c717bb617cc1031d138ad",
+      "observation": "Receipt signature and date fields only.",
+      "evidence_origin": "Previous continuation pages 25-32 visual inspection, carried forward in handover"
+    },
+    {
+      "page": 30,
+      "image_path": "05-review/successor-visual/S0035-page-30.png",
+      "image_sha256": "423a99a062439d780fdee485565978a3e3e32e2de2148486da4f995b6d715c07",
+      "observation": "Six enterprise-review form items; answer cells unfilled.",
+      "evidence_origin": "Previous continuation pages 25-32 visual inspection, carried forward in handover"
+    },
+    {
+      "page": 31,
+      "image_path": "05-review/successor-visual/S0035-page-31.png",
+      "image_sha256": "1c856d440df5282813f273cd7bc0c12d17935679015ec418aba6e8a951360d3e",
+      "observation": "Blank equipment form, eight headers retained.",
+      "evidence_origin": "Previous continuation pages 25-32 visual inspection, carried forward in handover"
+    },
+    {
+      "page": 32,
+      "image_path": "05-review/successor-visual/S0035-page-32.png",
+      "image_sha256": "de30deb3d803353d26c17e08344f460fdfca07219cecbcb373a4c6112b3df661",
+      "observation": "Personnel details has twelve headers; statistics has five columns and a merged blank total column.",
+      "evidence_origin": "Previous continuation pages 25-32 visual inspection, carried forward in handover"
+    }
+  ],
+  "full_document_pages_viewed": 32,
+  "excerpt_review_path": "05-review/DOC0027-preflight-2026-11-16T13-45-01-518Z/excerpt-visual-review.json",
+  "scope": "All rendered pages were viewed in the continuing task. Records distinguish retained observations from pages lacking detailed notes. This does not claim every cell was independently visually transcribed.",
+  "original_unchanged": true
+}

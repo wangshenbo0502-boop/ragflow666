@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-11-16T06:27:15.260Z",
+  "app_id": "3b0470c7c4fb414dab6d32c19dfee8da",
+  "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+  "model": {
+    "id": "54b3e07f096e4b008cd789a563fd06ec",
+    "name": "bge-reranker-v2-m3",
+    "limits": {
+      "max_tokens": 8192,
+      "verify": "success"
+    },
+    "status": "active",
+    "endpoint": {
+      "base_url": "http://host.docker.internal:8082/v1",
+      "region": ""
+    },
+    "instance": "local-bge-reranker",
+    "provider": "VLLM",
+    "model_type": 16
+  },
+  "scope": "Read-only runtime checks; no model, application, database or service settings changed.",
+  "containers": [
+    "workshop-twin-assistant-1\tUp 13 hours (healthy)\tworkshop-twin-assistant",
+    "ragflow-chat-test-log-api\tExited (0) 13 hours ago\tragflow-go-builder-test:latest",
+    "ragflow-chat-test-log-ingestor\tExited (0) 13 hours ago\tragflow-go-builder-test:latest",
+    "ragflow-chat-test-rollback-api\tExited (0) 14 hours ago\tragflow-go-builder-test:latest",
+    "ragflow-chat-test-rollback-ingestor\tExited (0) 14 hours ago\tragflow-go-builder-test:latest",
+    "ragflow-chat-test-rollout-api\tExited (0) 14 hours ago\tragflow-go-builder-test:latest",
+    "ragflow-chat-test-rollout-ingestor\tExited (0) 14 hours ago\tragflow-go-builder-test:latest",
+    "ragflow-chat-test-ingestor\tUp 13 hours\tragflow-go-builder-test:latest",
+    "ragflow-chat-test-api\tUp 13 hours\tragflow-go-builder-test:latest",
+    "ragflow-chat-test-kvrocks\tUp 21 hours (healthy)\tapache/kvrocks:2.16.0",
+    "ragflow-chat-test-minio\tUp 21 hours\tpgsty/silo:RELEASE.2026-08-06T00-00-00Z",
+    "ragflow-chat-test-nats\tUp 21 hours\tnats:2.14.2",
+    "docker-ragflow-cpu-1\tUp 27 hours\tragflow:go-local",
+    "docker-kvrocks-1\tUp 36 hours (healthy)\tapache/kvrocks:2.16.0",
+    "docker-minio-1\tUp 36 hours (healthy)\tpgsty/silo:RELEASE.2026-08-06T00-00-00Z",
+    "docker-nats-1\tUp 36 hours (healthy)\tnats:2.14.2",
+    "ragflow-v1-builder\tUp 39 hours\tragflow-go-builder-test:latest",
+    "docker-clickhouse-1\tUp 40 hours (healthy)\tclickhouse/clickhouse-server:26.5.5.8",
+    "docker-es01-1\tUp 40 hours (healthy)\telasticsearch:8.11.3",
+    "workshop-twin-pgvector-1\tUp 40 hours (healthy)\tpgvector/pgvector:pg16",
+    "study-room-kb-ragflow-1\tExited (137) 7 days ago\tragflow:go-local",
+    "study-room-kb-es01-1\tExited (143) 7 days ago\telasticsearch:8.11.3",
+    "study-room-kb-kvrocks-1\tExited (0) 7 days ago\tapache/kvrocks:2.16.0",
+    "study-room-kb-nats-1\tExited (0) 7 days ago\tnats:2.14.2",
+    "study-room-kb-clickhouse-1\tExited (0) 7 days ago\tclickhouse/clickhouse-server:26.5.5.8",
+    "study-room-kb-mysql-1\tExited (0) 7 days ago\tmysql:8.0.40",
+    "study-room-kb-minio-1\tExited (0) 7 days ago\tpgsty/silo:RELEASE.2026-08-06T00-00-00Z",
+    "study-room-kb-ollama-1\tExited (0) 7 days ago\tollama/ollama:latest",
+    "docker-mysql-1\tUp 40 hours (healthy)\tmysql:8.0.40",
+    "railmind-go-validation\tExited (1) 2 days ago\tragflow:go-local",
+    "railmind-build\tExited (0) 2 days ago\tragflow-go-builder-test",
+    "ragflow-ollama\tUp 40 hours\tollama/ollama",
+    "dazzling_euclid\tExited (1) 6 weeks ago\tpgvector/pgvector:pg16",
+    "ai-job-knowledge-db\tExited (0) 4 weeks ago\tpgvector/pgvector:pg16"
+  ],
+  "host_endpoint": {
+    "reachable": false,
+    "error": "ECONNREFUSED"
+  },
+  "actual_retrieval": {
+    "succeeded": false,
+    "error": "POST /datasets/search: 200 102 retrieval search failed: failed to send request: Post \"http://host.docker.internal:8082/v1/rerank\": dial tcp 192.168.65.254:8082: connect: connection refused"
+  },
+  "user_app_unchanged": true,
+  "prior_no_rerank_score": "43/58 (74.1%); not a measurement of the user application with reranking."
+}

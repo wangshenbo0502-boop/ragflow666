@@ -26,6 +26,7 @@ interface IImage extends React.ImgHTMLAttributes<HTMLImageElement> {
   documentId?: string;
   t?: string | number;
   label?: string;
+  previewButton?: React.ReactNode;
 }
 
 type ImageCacheItem = {
@@ -79,6 +80,31 @@ export const evictDocumentImage = (id: string, documentId?: string) => {
 };
 
 const fetchDocumentImage = (url: string, authorization: string) => {
+  const path = new URL(url, window.location.origin).pathname;
+  if (/^\/api\/v1\/chats\/[^/]+\/sessions\/[^/]+\/media\//.test(path)) {
+    const controller = new AbortController();
+    let objectUrl: string | undefined;
+    let released = false;
+    const promise = fetch(url, {
+      headers: { [Authorization]: authorization },
+      cache: 'no-store',
+      signal: controller.signal,
+    }).then(async (response) => {
+      if (!response.ok) throw new Error('Media unavailable');
+      const blob = await response.blob();
+      if (released) throw new Error('Media request released');
+      objectUrl = URL.createObjectURL(blob);
+      return objectUrl;
+    });
+    return {
+      promise,
+      release: () => {
+        released = true;
+        controller.abort();
+        if (objectUrl) URL.revokeObjectURL(objectUrl);
+      },
+    };
+  }
   const cacheKey = `${authorization}:${url}`;
   let item = imageCache.get(cacheKey);
 
@@ -267,7 +293,7 @@ export const AuthenticatedImg = ({
 };
 
 const Image = React.forwardRef<HTMLImageElement, IImage>(function Image(
-  { id, documentId, t, label, className, ...props },
+  { id, documentId, t, label, previewButton, className, ...props },
   ref,
 ) {
   const src = useDocumentImageUrl(id, documentId, t);
@@ -287,6 +313,7 @@ const Image = React.forwardRef<HTMLImageElement, IImage>(function Image(
   return (
     <div className="relative inline-block w-full">
       {imageElement}
+      {previewButton}
       <div className="absolute bottom-2 right-2 bg-accent-primary text-white px-2 py-0.5 rounded-xl text-xs font-normal backdrop-blur-sm">
         {label}
       </div>

@@ -1,0 +1,136 @@
+data: {"code":0,"message":"success","data":{"answer":"# 铁路通信信号设备“目录”与","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"“型号”的区分\n\n## 先说明一处名称对应","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"\n\n您问的“铁路通信信号设备**型号","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"目录**”，在知识库中对应的是《铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"运输基础设备生产企业审批实施细则","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"》（国铁设备监规〔2025〕14","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"号）**附件1“设备目录”**，其中分","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"列铁路道岔设备、辙叉、**","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"信号设备**、**通信设备**、牵引","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"供电设备。知识库中没有单独名为","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"“型号目录”的文件，以下按该附件1的内容","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"说明。\n\n## 核心区分原则：目录列的是","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"“设备类别/系统”，不等于具体型号已","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"获许可\n\n知识库明确提示：\n\n\u003e ","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"应按具体行的**设备名称、适用范围","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"、执行标准**联合判断，**不能把设备","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"类别或系统名称当作某厂家具体型号","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"已取得生产许可的证据**。\n\n也就是说","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"：\n- **设备目录**回答的是“哪些","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"类别的设备需要审批、按什么标准","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"”；\n- **具体型号是否取证**，须回到","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"原表对应行核对，目录本身不是“全部","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"型号或全部软件版本的安全认证清单”。\n\n##","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":" 信号设备目录包含的内容（类别层面","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"）\n\n附件1信号设备目录列有：LKJ、","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"STP、GYK、机车信号、应答器信息","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"接收单元（BTM）、轨道电路信息接收","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"单元（TCR）、调度集中（CTC）、车站","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"列控中心、无线闭塞中心、临时","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"限速服务器、地面电子单元（LEU）、应答","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"器；以及车站计算机联锁、列控","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"系统ATP车载设备、ZPW-2000系列、","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"车站电码化、计轴、25Hz相敏轨道","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"电路微电子接收器、高压脉冲","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"轨道电路、信号继电器。市域","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"（郊）铁路CBTC制式另列区域","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"控制器（ZC）、数据存储单元（D","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"SU）、ATP/ATO车载设备、列车自动监控","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"设备（ATS）。\n\n## 通信设备目录包含","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"的内容（类别层面）\n\n机车综合无线","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"通信设备、列车安全预警系统设备（","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"道口预警设备、便携式预警","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"设备）、铁路移动通信中继设备（","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"GSM-R数字光纤直放站、模拟光纤","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"直放站）、铁路移动通信基站（GSM","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"-R基站），以及铁路LTE移动通信系统的","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"LTE基站、车载电台、车载接入单元（","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"TAU）。\n\n知识库特别提示：**不同类别","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"不能仅凭名称中的“无线通信”互相","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"代替**，完整标准对应关系须","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"见原表。\n\n## 实务核对要点\n\n1. **联合","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"核对**：设备名称 + 适用范围","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"（制式、速度条件）+ 执行标准，三者","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"一起看，不能只看类别名。\n2. **标准","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"时效**：目录备注规定标准更新时按最新","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"标准执行，存档标准号不能证明其","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"截至查询日未更新。\n3. **以原表为准","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"**：复杂表格以原PDF（附件1，印刷","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"页12~17）为准，检索文字不是全部表格","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"的替代。\n4. **版本核验**：该细则","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"2025-04-27印发、2025-06-01","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"施行，废止2023年8号文件；具体","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"使用须核验适用版本。\n\n简言之：**目录","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"管“类别与标准”，型号取证状态须","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"逐行回原表核对**，二者不能混同","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"。","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"# 铁路通信信号设备“目录”与“型号”的区分\n\n## 先说明一处名称对应\n\n您问的“铁路通信信号设备**型号目录**”，在知识库中对应的是《铁路运输基础设备生产企业审批实施细则》（国铁设备监规〔2025〕14号）**附件1“设备目录”**，其中分列铁路道岔设备、辙叉、**信号设备**、**通信设备**、牵引供电设备。知识库中没有单独名为“型号目录”的文件，以下按该附件1的内容说明。\n\n## 核心区分原则：目录列的是“设备类别/系统”，不等于具体型号已获许可\n\n知识库明确提示：\n\n\u003e 应按具体行的**设备名称、适用范围、执行标准**联合判断，**不能把设备类别或系统名称当作某厂家具体型号已取得生产许可的证据**。\n\n也就是说：\n- **设备目录**回答的是“哪些类别的设备需要审批、按什么标准”；\n- **具体型号是否取证**，须回到原表对应行核对，目录本身不是“全部型号或全部软件版本的安全认证清单”。\n\n## 信号设备目录包含的内容（类别层面）\n\n附件1信号设备目录列有：LKJ、STP、GYK、机车信号、应答器信息接收单元（BTM）、轨道电路信息接收单元（TCR）、调度集中（CTC）、车站列控中心、无线闭塞中心、临时限速服务器、地面电子单元（LEU）、应答器；以及车站计算机联锁、列控系统ATP车载设备、ZPW-2000系列、车站电码化、计轴、25Hz相敏轨道电路微电子接收器、高压脉冲轨道电路、信号继电器。市域（郊）铁路CBTC制式另列区域控制器（ZC）、数据存储单元（DSU）、ATP/ATO车载设备、列车自动监控设备（ATS）。\n\n## 通信设备目录包含的内容（类别层面）\n\n机车综合无线通信设备、列车安全预警系统设备（道口预警设备、便携式预警设备）、铁路移动通信中继设备（GSM-R数字光纤直放站、模拟光纤直放站）、铁路移动通信基站（GSM-R基站），以及铁路LTE移动通信系统的LTE基站、车载电台、车载接入单元（TAU）。\n\n知识库特别提示：**不同类别不能仅凭名称中的“无线通信”互相代替**，完整标准对应关系须见原表。\n\n## 实务核对要点\n\n1. **联合核对**：设备名称 + 适用范围（制式、速度条件）+ 执行标准，三者一起看，不能只看类别名。\n2. **标准时效**：目录备注规定标准更新时按最新标准执行，存档标准号不能证明其截至查询日未更新。\n3. **以原表为准**：复杂表格以原PDF（附件1，印刷页12~17）为准，检索文字不是全部表格的替代。\n4. **版本核验**：该细则2025-04-27印发、2025-06-01施行，废止2023年8号文件；具体使用须核验适用版本。\n\n简言之：**目录管“类别与标准”，型号取证状态须逐行回原表核对**，二者不能混同。","reference":{"chunks":[{"content":"# 铁路运输基础设备生产企业审批实施细则\n## 附件1 设备目录\n### 信号设备目录与具体产品认证状态的区别\n证据定位： DOC0014-K30；S0016，附件1 设备目录，附件PDF文件页序2~5（印刷页13~16）。\n整理说明： 以下为原表核对说明，保留原表作为完整证据；不是逐单元格全文转录。原表：01-originals/attachments/S0016-1.pdf。该附件为2025年实施细则附件。\n附件1铁路信号设备目录包含LKJ、STP、GYK、机车信号、应答器信息接收单元（BTM）、轨道电路信息接收单元（TCR）、调度集中（CTC）、车站列控中心、无线闭塞中心、临时限速服务器、地面电子单元（LEU）、应答器等设备；还列有车站计算机联锁、列控系统ATP车载设备、ZPW-2000系列、车站电码化、计轴、25Hz相敏轨道电路微电子接收器、高压脉冲轨道电路、信号继电器。市域（郊）铁路CBTC制式另列区域控制器（ZC）、数据存储单元（DSU）、ATP/ATO车载设备、列车自动监控设备（ATS）。各设备的制式、速度条件和执行标准必须回对应原表行核对；本段不是全部型号或全部软件版本的安全认证清单。\n来源版本与范围： 国铁设备监规〔2025〕14号；2025-04-27印发，2025-06-01施行，废止2023年8号文件；铁路运输基础设备生产企业审批；正文28条及附件1~8。复杂表以原PDF为准，检索文字不是全部表格的替代。\n效力核验边界： 依存档原件核对；具体使用须核验适用版本。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"8f75de8dc53f492abda6be6c6e1b76e0","document_metadata":null,"document_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_b2fece829b12.md","id":"bf62c290513e17f8","image_id":"","positions":"","row_id":"bf62c290513e17f8","similarity":0.5683273800175812,"term_similarity":0.27778622003516246,"url":"","vector_similarity":0.85886854},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第一章　总　　则\n### 第二条｜本办法所称铁路运输基础设备是指铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路通信设备、铁路牵引供电设备\n证据定位： DOC0015-K02；S0017，第一章　总　　则，第二条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本办法所称铁路运输基础设备是指铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路通信设备、铁路牵引供电设备。铁路运输基础设备目录由国家铁路局制定、调整并公布。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"853f16bd039843ac83b035a886312da1","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"79c76db20ba3ce04","image_id":"","positions":"","row_id":"79c76db20ba3ce04","similarity":0.5599193130700455,"term_similarity":0.301813986140091,"url":"","vector_similarity":0.81802464},{"content":"# 铁路运输基础设备生产企业审批实施细则\n## 附件1 设备目录\n### 铁路通信设备目录的类别和系统范围\n证据定位： DOC0014-K31；S0016，附件1 设备目录，附件PDF文件页序5（印刷页16）。\n整理说明： 以下为原表核对说明，保留原表作为完整证据；不是逐单元格全文转录。原表：01-originals/attachments/S0016-1.pdf。该附件为2025年实施细则附件。\n目录列机车综合无线通信设备、列车安全预警系统设备、铁路移动通信中继设备、铁路移动通信基站，以及铁路LTE移动通信系统的LTE基站、车载电台、车载接入单元（TAU）。列车安全预警系统设备有道口预警设备和便携式预警设备；中继设备的适用范围列GSM-R数字光纤直放站、模拟光纤直放站，移动通信基站列GSM-R基站。不同类别不能仅凭名称中的“无线通信”互相代替，完整标准对应关系见原表。\n来源版本与范围： 国铁设备监规〔2025〕14号；2025-04-27印发，2025-06-01施行，废止2023年8号文件；铁路运输基础设备生产企业审批；正文28条及附件1~8。复杂表以原PDF为准，检索文字不是全部表格的替代。\n效力核验边界： 依存档原件核对；具体使用须核验适用版本。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"8f75de8dc53f492abda6be6c6e1b76e0","document_metadata":null,"document_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_b2fece829b12.md","id":"be21afdc136068d5","image_id":"","positions":"","row_id":"be21afdc136068d5","similarity":0.5579687635319234,"term_similarity":0.25551812706384675,"url":"","vector_similarity":0.8604194},{"content":"# 铁路设备质量安全监督管理办法\n## 第六章 附 则\n### 第三十六条｜本办法所称铁路设备\n证据定位： DOC0001-K36；S0001，第六章 附 则，第三十六条。\n来源版本与范围： 交通运输部令2023年第7号；2023-07-26公布，2023-09-01施行；铁路设备质量安全监督管理；不包含设备检修作业规程。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本办法所称铁路设备，是指用于铁路运输的铁路机车、动车组、客车、货车、轨道车、救援起重机、铺轨机和架桥机（组）车辆、接触网作业车、大型养路机械等铁路机车车辆，以及铁路道岔及其转辙设备、信号控制软件和控制设备、通信设备、牵引供电设备、电力设备、线路路基、轨道、桥隧等铁路基础设施设备。\n本办法所称铁路设备的维修，是指检查、维护和修理。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"edae48b3f4cc4d0db06aa240af2757d5","document_metadata":null,"document_name":"DOC0001_铁路设备质量安全监督管理办法_精修_2eb51a1591c8.md","id":"ffe9c25280c0263d","image_id":"","positions":"","row_id":"ffe9c25280c0263d","similarity":0.5370744822314645,"term_similarity":0.25421501446292893,"url":"","vector_similarity":0.81993395},{"content":"# 铁路运输基础设备生产企业审批实施细则\n## 附件1 设备目录\n### 设备目录的设备名称、适用范围和执行标准须联合核对\n证据定位： DOC0014-K29；S0016，附件1 设备目录，附件PDF文件页序1~6（印刷页12~17）。\n整理说明： 以下为原表核对说明，保留原表作为完整证据；不是逐单元格全文转录。原表：01-originals/attachments/S0016-1.pdf。该附件为2025年实施细则附件。\n附件1是铁路运输基础设备目录，分别列铁路道岔设备、辙叉、信号设备、通信设备、牵引供电设备。应按具体行的设备名称、适用范围、执行标准联合判断，不能把设备类别或系统名称当作某厂家具体型号已取得生产许可的证据。道岔和辙叉含合并速度等级单元格；完整对应关系保留原表，不将空白格猜填为通用范围。目录备注规定标准更新时按最新标准执行；存档标准号不能证明其截至查询日未更新。\n来源版本与范围： 国铁设备监规〔2025〕14号；2025-04-27印发，2025-06-01施行，废止2023年8号文件；铁路运输基础设备生产企业审批；正文28条及附件1~8。复杂表以原PDF为准，检索文字不是全部表格的替代。\n效力核验边界： 依存档原件核对；具体使用须核验适用版本。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"8f75de8dc53f492abda6be6c6e1b76e0","document_metadata":null,"document_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_b2fece829b12.md","id":"e738987a6966fc0e","image_id":"","positions":"","row_id":"e738987a6966fc0e","similarity":0.5341204487628622,"term_similarity":0.2323701975257246,"url":"","vector_similarity":0.8358707},{"content":"# 铁路运输基础设备生产企业审批实施细则\n## 附件5~8 申请及审查表\n### 专业技术人员明细表及通信信号补充统计\n证据定位： DOC0014-K49；S0016，附件5~8 申请及审查表，附件PDF文件页序48（印刷页59）。\n整理说明： 以下为原表核对说明，保留原表作为完整证据；不是逐单元格全文转录。原表：01-originals/attachments/S0016-1.pdf。该附件为2025年实施细则附件。\n附件8专业技术人员明细表列姓名、性别、年龄、工作年限、学历、所学专业、从事专业、技术职务（称）、技术等级、工作岗位、备注等。申请铁路通信、信号设备生产许可证的企业还应填写中级及以上、高级、全部技术人员、总人数的数量，以及占全部技术人员比例、占总人数比例的补充统计。须区分两类分母并按附件3对应产品要求判断；空白表不能证明企业人员已达标。\n来源版本与范围： 国铁设备监规〔2025〕14号；2025-04-27印发，2025-06-01施行，废止2023年8号文件；铁路运输基础设备生产企业审批；正文28条及附件1~8。复杂表以原PDF为准，检索文字不是全部表格的替代。\n效力核验边界： 依存档原件核对；具体使用须核验适用版本。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"8f75de8dc53f492abda6be6c6e1b76e0","document_metadata":null,"document_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_b2fece829b12.md","id":"393ffa94b2113450","image_id":"","positions":"","row_id":"393ffa94b2113450","similarity":0.5260275357743447,"term_similarity":0.2332444715486894,"url":"","vector_similarity":0.8188106},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第一章　总　　则\n### 第三条｜境内铁路运输基础设备生产企业的取证义务\n证据定位： DOC0015-K03；S0017，第一章　总　　则，第三条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在中华人民共和国境内生产铁路运输基础设备的企业，应当向国家铁路局提出申请，经审查合格取得铁路运输基础设备生产企业许可证（以下简称生产许可证）。\n必要依赖（第二条原文）： 本办法所称铁路运输基础设备是指铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路通信设备、铁路牵引供电设备。铁路运输基础设备目录由国家铁路局制定、调整并公布。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"853f16bd039843ac83b035a886312da1","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"0f71e5f35a63eb46","image_id":"","positions":"","row_id":"0f71e5f35a63eb46","similarity":0.5165836987628623,"term_similarity":0.2323701975257246,"url":"","vector_similarity":0.8007972},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第五章　附　　则\n### 第十九条｜国家铁路局依据本办法制定实施细则\n证据定位： DOC0015-K19；S0017，第五章　附　　则，第十九条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n国家铁路局依据本办法制定实施细则。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"853f16bd039843ac83b035a886312da1","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"a12de1b6b0d91cef","image_id":"","positions":"","row_id":"a12de1b6b0d91cef","similarity":0.5146570487628623,"term_similarity":0.2323701975257246,"url":"","vector_similarity":0.7969439},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第二章　条件与程序\n### 第四条｜申请企业应当符合下列条件\n证据定位： DOC0015-K04；S0017，第二章　条件与程序，第四条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n申请企业应当符合下列条件：\n（一）有按照国家标准、行业标准检测、检验合格的专业生产设备；\n（二）有相应的专业技术人员；\n（三）有完善的产品质量保证体系和安全管理制度；\n（四）法律、行政法规规定的其他条件。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"853f16bd039843ac83b035a886312da1","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"7b25bb47f11a9de5","image_id":"","positions":"","row_id":"7b25bb47f11a9de5","similarity":0.5126187487628623,"term_similarity":0.2323701975257246,"url":"","vector_similarity":0.7928673},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第二章　条件与程序\n### 第六条｜基础设备生产许可申请材料更正、补正及受理\n证据定位： DOC0015-K06；S0017，第二章　条件与程序，第六条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n国家铁路局对申请企业提交的申请材料，应当根据下列情况分别作出处理：\n（一）申请材料存在可以当场更正的错误的，应当允许申请人当场更正；\n（二）申请材料不齐全或者不符合法定形式的，应当当场或者在5个工作日内一次告知申请人需要补正的全部内容，逾期不告知的，自收到申请材料之日起即为受理；\n（三）申请材料齐全、符合法定形式，或者申请企业按要求提交全部补正申请材料的，应当受理行政许可申请。\n国家铁路局受理或者不予受理行政许可申请，应当出具加盖国家铁路局行政许可专用章和注明日期的书面凭证。\n必要依赖（第二条原文）： 本办法所称铁路运输基础设备是指铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路通信设备、铁路牵引供电设备。铁路运输基础设备目录由国家铁路局制定、调整并公布。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"853f16bd039843ac83b035a886312da1","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"ff46938c4a031864","image_id":"","positions":"","row_id":"ff46938c4a031864","similarity":0.5117725987628623,"term_similarity":0.2323701975257246,"url":"","vector_similarity":0.791175},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第二章　条件与程序\n### 第五条｜申请企业应当提交下列材料\n证据定位： DOC0015-K05；S0017，第二章　条件与程序，第五条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n申请企业应当提交下列材料：\n（一）行政许可申请书；\n（二）企业法人营业执照副本复印件；\n（三）专业生产设备明细表；\n（四）专业技术人员明细表；\n（五）企业产品质量保证体系和安全管理制度相关材料；\n（六）拟生产的产品目录、设计图纸目录、工艺文件目录，所依据的国家标准、行业标准、企业标准目录；\n（七）新研发产品试用考核材料；\n（八）新研发产品技术评审（鉴定）证书或者审查意见；\n（九）法律法规要求的其他材料。\n行政许可申请书采用格式文本，文本格式由国家铁路局制定。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"853f16bd039843ac83b035a886312da1","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"a24699c3877837bf","image_id":"","positions":"","row_id":"a24699c3877837bf","similarity":0.5099301487628622,"term_similarity":0.2323701975257246,"url":"","vector_similarity":0.7874901},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第五章　附　　则\n### 第二十条｜本办法自2014年1月1日起施行\n证据定位： DOC0015-K20；S0017，第五章　附　　则，第二十条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本办法自2014年1月1日起施行。2005年4月1日原铁道部公布的《铁路运输安全设备生产企业认定办法》（铁道部令第15号）同时废止。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"853f16bd039843ac83b035a886312da1","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"20eeaad3c59bba51","image_id":"","positions":"","row_id":"20eeaad3c59bba51","similarity":0.5078333487628622,"term_similarity":0.2323701975257246,"url":"","vector_similarity":0.7832965}],"doc_aggs":[{"count":26,"doc_id":"edae48b3f4cc4d0db06aa240af2757d5","doc_name":"DOC0001_铁路设备质量安全监督管理办法_精修_2eb51a1591c8.md"},{"count":25,"doc_id":"8f75de8dc53f492abda6be6c6e1b76e0","doc_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_b2fece829b12.md"},{"count":14,"doc_id":"4ff3801c94384bdd958c6b68bb0f2289","doc_name":"DOC0006_铁路安全管理条例_精修_62effa50332b.md"},{"count":13,"doc_id":"e391bf1661664df191a7216f1c6d522c","doc_name":"DOC0011_铁路无线电管理办法_精修_1aa4aec8bb5d.md"},{"count":8,"doc_id":"853f16bd039843ac83b035a886312da1","doc_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md"},{"count":5,"doc_id":"d0f1beb60e5243d8bf78c9781a7c8b99","doc_name":"DOC0023_铁路专用设备缺陷产品召回管理办法_精修_00a3a1075dee.md"},{"count":2,"doc_id":"6c6f921506504ee0ac852df2883049ec","doc_name":"DOC0021_铁路危险货物运输安全监督管理规定_精修_7d7b9af33fbe.md"},{"count":2,"doc_id":"f3113e656a854629a95a5ebc95f105c0","doc_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md"},{"count":1,"doc_id":"6fbc149a75714c5c994b710d84ae518a","doc_name":"DOC0010_高速铁路基础设施运用状态检测管理办法_精修_97bbb59187e8.md"},{"count":1,"doc_id":"392ba2210f3248299010db821f17befd","doc_name":"DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md"},{"count":1,"doc_id":"a5664516fe664dcf882de61d58aaab47","doc_name":"DOC0022_铁路机车车辆设计制造维修进口许可办法_精修_8c4fb5ed8638.md"},{"count":1,"doc_id":"cf52b1aa83434bec819ba86125ce0134","doc_name":"DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md"},{"count":1,"doc_id":"7d9dea7bb3a144a2b275abdc78e25beb","doc_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md"}]},"final":true}}
+
+data: {"code": 0, "message": "success", "data": true}
+

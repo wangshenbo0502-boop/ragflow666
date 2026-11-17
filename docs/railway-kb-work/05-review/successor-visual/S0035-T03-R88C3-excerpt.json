@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-11-16T13:31:07.4975024Z",
+  "purpose": "Display-only excerpt of an original cell clipped in the full-document PDF; not an official replacement.",
+  "doc_id": "DOC0027",
+  "cell_id": "S0035-T03-R88C3",
+  "source_path": "01-originals/attachments/S0035-1.docx",
+  "source_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+  "original_pdf_page": 26,
+  "source_range_start": 11090,
+  "source_range_end": 11132,
+  "source_text": "3. 应当关注从业人员的身体、心理状况和行为习惯，加强对从业人员的心理疏导、精神慰藉",
+  "source_text_matches_native": true,
+  "excerpt_text_matches_source": true,
+  "source_opened_read_only": true,
+  "pdf_path": "D:\\ragflow\\docs\\railway-kb-work\\05-review\\successor-visual\\S0035-T03-R88C3-excerpt.pdf",
+  "pdf_sha256": "f2c463735388df06aee3a62cec81fcdbdbb43cb1339919a7c1cb1ca32ddbf29c",
+  "visual_review_status": "Rendered; awaiting image inspection."
+}

@@ -29,7 +29,10 @@ export type ChatStreamSession = {
   // restoring the input box directly would either be a no-op or type into the
   // wrong session's input.
   pendingInput?: string;
+  interruptedTurnIds?: string[];
   lastActiveAt: number;
+  serverRevision?: number;
+  streamEndedAt?: number;
 };
 
 export type ChatStreamState = {
@@ -37,14 +40,19 @@ export type ChatStreamState = {
 
   ensureSession(conversationId: string, chatId: string): void;
   seedPrologue(conversationId: string, chatId: string, prologue: string): void;
-  hydrateFromServer(conversationId: string, messages: IMessage[]): void;
+  hydrateFromServer(
+    conversationId: string,
+    messages: IMessage[],
+    revision?: number,
+    requestedAt?: number,
+  ): void;
   appendQuestion(conversationId: string, message: IMessage): void;
   beginStream(conversationId: string, controller: AbortController): boolean;
   applyAnswer(conversationId: string, answer: IAnswer): void;
   failStream(conversationId: string, pendingInput: string): void;
   consumePendingInput(conversationId: string): void;
   removeMessageById(conversationId: string, messageId: string): void;
-  endStream(conversationId: string): void;
+  endStream(conversationId: string, interrupted?: boolean): void;
   stopStream(conversationId: string): void;
   removeSessions(conversationIds: string[]): void;
 };
@@ -81,6 +89,69 @@ function evictIdleSessions(
     delete next[id];
   });
   return next;
+}
+
+function mergeInterruptedTurns(
+  serverMessages: IMessage[],
+  previous?: ChatStreamSession,
+) {
+  const retainedIds = new Set(previous?.interruptedTurnIds ?? []);
+  if (!retainedIds.size) {
+    return { messages: serverMessages, interruptedTurnIds: [] };
+  }
+
+  const messages = [...serverMessages];
+  const stillInterrupted: string[] = [];
+  for (const turnId of retainedIds) {
+    const questionIndex = previous?.messages.findIndex(
+      (message) => message.role === MessageType.User && message.id === turnId,
+    );
+    if (questionIndex === undefined || questionIndex < 0) continue;
+    const question = previous!.messages[questionIndex];
+    const answer = previous!.messages[questionIndex + 1];
+    if (!answer || answer.role !== MessageType.Assistant) continue;
+
+    const serverAnswer = messages.find(
+      (message) =>
+        message.role === MessageType.Assistant && message.id === turnId,
+    );
+    const serverVersion = (
+      serverAnswer as (IMessage & { answer_version?: number }) | undefined
+    )?.answer_version;
+    const localVersion = (
+      answer as IMessage & {
+        answer_version?: number;
+      }
+    ).answer_version;
+    if (
+      serverAnswer &&
+      Number(serverVersion ?? 0) >= Number(localVersion ?? 0)
+    ) {
+      continue;
+    }
+
+    stillInterrupted.push(turnId);
+    const serverQuestionIndex = messages.findIndex(
+      (message) => message.role === MessageType.User && message.id === turnId,
+    );
+    if (serverQuestionIndex >= 0) {
+      const next = messages[serverQuestionIndex + 1];
+      if (next?.role === MessageType.Assistant && next.id === turnId) {
+        messages.splice(serverQuestionIndex, 2, question, answer);
+      } else {
+        messages[serverQuestionIndex] = question;
+        messages.splice(serverQuestionIndex + 1, 0, answer);
+      }
+    } else {
+      messages.splice(
+        Math.min(questionIndex, messages.length),
+        0,
+        question,
+        answer,
+      );
+    }
+  }
+  return { messages, interruptedTurnIds: stillInterrupted };
 }
 
 export const useChatStreamStore = create<ChatStreamState>()(
@@ -139,24 +210,24 @@ export const useChatStreamStore = create<ChatStreamState>()(
         );
       },
 
-      hydrateFromServer: (conversationId, messages) => {
+      hydrateFromServer: (conversationId, messages, revision, requestedAt) => {
         if (!conversationId) return;
         const session = get().sessions[conversationId];
         // A stream in flight owns the list: the answer it is building hasn't
         // been persisted yet, so anything the server returns is behind.
         if (session?.isStreaming) return;
-        // Otherwise compare lengths instead of latching authority to the local
-        // list forever. A shorter server list is a stale snapshot taken before
-        // the latest exchange was persisted — accepting it would truncate a
-        // just-finished answer (the pre-existing race). An equal or longer list
-        // is at least as new as what we hold, and it carries the real message
-        // ids, references and prompts that the SSE payload lacks, plus any
-        // exchange added from another tab.
-        if (session && messages.length < session.messages.length) return;
+        if (revision !== undefined && revision < (session?.serverRevision ?? 0))
+          return;
+        if (
+          requestedAt !== undefined &&
+          requestedAt < (session?.streamEndedAt ?? 0)
+        )
+          return;
 
         set(
           (state) => {
             const previous = state.sessions[conversationId];
+            const merged = mergeInterruptedTurns(messages, previous);
             return {
               sessions: evictIdleSessions(
                 {
@@ -164,9 +235,11 @@ export const useChatStreamStore = create<ChatStreamState>()(
                   [conversationId]: {
                     ...(previous ?? createSession('')),
                     messages: mergeLocalFiles(
-                      messages,
+                      merged.messages,
                       previous?.messages ?? [],
                     ),
+                    interruptedTurnIds: merged.interruptedTurnIds,
+                    serverRevision: revision ?? previous?.serverRevision,
                     lastActiveAt: Date.now(),
                   },
                 },
@@ -246,15 +319,47 @@ export const useChatStreamStore = create<ChatStreamState>()(
             // placeholder) were just deleted: without it, the flush would slice
             // off whatever message is now last.
             if (!previous.isStreaming) return state;
+            const messages = previous.messages.slice(0, -1);
+            const question = messages.at(-1);
+            const completedQuestion =
+              question?.role === MessageType.User ? question : undefined;
+            // The server assigns the turn ID for question-only requests.
+            // Keep the local question and streamed answer paired under that ID.
+            if (
+              answer.id &&
+              question?.role === MessageType.User &&
+              question.id !== answer.id
+            ) {
+              messages[messages.length - 1] = {
+                ...question,
+                id: answer.id,
+              };
+            }
+            messages.push(buildAssistantMessageFromAnswer(answer));
+            const supersededTurnIds = new Set(
+              (previous.interruptedTurnIds ?? []).filter((turnId) => {
+                const interruptedQuestion = previous.messages.find(
+                  (message) =>
+                    message.role === MessageType.User && message.id === turnId,
+                );
+                return (
+                  completedQuestion &&
+                  interruptedQuestion?.content === completedQuestion.content
+                );
+              }),
+            );
+            const nextMessages = supersededTurnIds.size
+              ? messages.filter((message) => !supersededTurnIds.has(message.id))
+              : messages;
             return {
               sessions: {
                 ...state.sessions,
                 [conversationId]: {
                   ...previous,
-                  messages: [
-                    ...previous.messages.slice(0, -1),
-                    buildAssistantMessageFromAnswer(answer),
-                  ],
+                  messages: nextMessages,
+                  interruptedTurnIds: (
+                    previous.interruptedTurnIds ?? []
+                  ).filter((turnId) => !supersededTurnIds.has(turnId)),
                   lastActiveAt: Date.now(),
                 },
               },
@@ -265,9 +370,7 @@ export const useChatStreamStore = create<ChatStreamState>()(
         );
       },
 
-      // Drops the failed question/placeholder pair and parks the question text
-      // on the session so it can be handed back to the input box whenever the
-      // user is (or returns to) this conversation.
+      // Keep received output; return the failed question to its own input.
       failStream: (conversationId, pendingInput) => {
         if (!conversationId) return;
         set(
@@ -279,7 +382,9 @@ export const useChatStreamStore = create<ChatStreamState>()(
                 ...state.sessions,
                 [conversationId]: {
                   ...previous,
-                  messages: previous.messages.slice(0, -2),
+                  messages: previous.messages.at(-1)?.content
+                    ? previous.messages
+                    : previous.messages.slice(0, -2),
                   pendingInput,
                 },
               },
@@ -352,12 +457,24 @@ export const useChatStreamStore = create<ChatStreamState>()(
         );
       },
 
-      endStream: (conversationId) => {
+      endStream: (conversationId, interrupted = false) => {
         if (!conversationId) return;
         set(
           (state) => {
             const previous = state.sessions[conversationId];
             if (!previous) return state;
+            const answer = previous.messages.at(-1);
+            const question = previous.messages.at(-2);
+            const interruptedTurnIds = new Set(previous.interruptedTurnIds);
+            if (
+              interrupted &&
+              answer?.role === MessageType.Assistant &&
+              answer.content &&
+              question?.role === MessageType.User &&
+              answer.id === question.id
+            ) {
+              interruptedTurnIds.add(question.id);
+            }
             return {
               sessions: {
                 ...state.sessions,
@@ -365,6 +482,8 @@ export const useChatStreamStore = create<ChatStreamState>()(
                   ...previous,
                   isStreaming: false,
                   abortController: undefined,
+                  interruptedTurnIds: [...interruptedTurnIds],
+                  streamEndedAt: Date.now(),
                 },
               },
             };

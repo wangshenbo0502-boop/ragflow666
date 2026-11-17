@@ -1,0 +1,2 @@
+data: {"code":500,"message":"failed to send request: Post \"https://api.deepseek.com/v1/chat/completions\": unexpected EOF","data":{"answer":"**ERROR**: failed to send request: Post \"https://api.deepseek.com/v1/chat/completions\": unexpected EOF","reference":[],"final":false}}
+

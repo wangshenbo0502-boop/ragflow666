@@ -1,0 +1,307 @@
+{
+  "doc_id": "DOC0001",
+  "source_id": "S0001",
+  "source_path": "01-originals/baseline/01_equipment-quality.md",
+  "output_path": "03-domains/CL/DOC0001_铁路设备质量安全监督管理办法.md",
+  "expected_article_count": 37,
+  "extracted_article_count": 37,
+  "output_sha256": "315a6a9844bd85e441fc843a56e0ba546b40bd0eba771790f26829d15f0f2b80",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "1bdb446c21ae348166217626a84b8530733f3bfc2d54b603ecc977923d2d609e",
+      "output_sha256": "1bdb446c21ae348166217626a84b8530733f3bfc2d54b603ecc977923d2d609e",
+      "source_characters": 93,
+      "output_characters": 93
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "57b3e86b0bdd0755872b135645d0d0a761cf05d17f8887610b0e32055c829f9a",
+      "output_sha256": "57b3e86b0bdd0755872b135645d0d0a761cf05d17f8887610b0e32055c829f9a",
+      "source_characters": 31,
+      "output_characters": 31
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "5b6903d7c9260df89007d5d8c5889202ed32a6d3fec54312a73f9508c29964a4",
+      "output_sha256": "5b6903d7c9260df89007d5d8c5889202ed32a6d3fec54312a73f9508c29964a4",
+      "source_characters": 50,
+      "output_characters": 50
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "5964b6661c2a90480e22fc0b8b1a444e3eb576dac8f68dc9948c6acb06ab86a2",
+      "output_sha256": "5964b6661c2a90480e22fc0b8b1a444e3eb576dac8f68dc9948c6acb06ab86a2",
+      "source_characters": 213,
+      "output_characters": 213
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "b95295f0106bef9efec05959e69e89cddb61c5360120a2ac6e169b1ead9010b7",
+      "output_sha256": "b95295f0106bef9efec05959e69e89cddb61c5360120a2ac6e169b1ead9010b7",
+      "source_characters": 87,
+      "output_characters": 87
+    },
+    {
+      "article": "第六条",
+      "chapter": "第一章 总 则",
+      "source_sha256": "f0e7f942837add9da20499139f8321f54798611cf9fec5244888aa6a4e7a6099",
+      "output_sha256": "f0e7f942837add9da20499139f8321f54798611cf9fec5244888aa6a4e7a6099",
+      "source_characters": 62,
+      "output_characters": 62
+    },
+    {
+      "article": "第七条",
+      "chapter": "第二章 铁路设备的生产",
+      "source_sha256": "3be241d827a7995e6786ba285b215af95486e3435c5422193059ec45f7b2ee51",
+      "output_sha256": "3be241d827a7995e6786ba285b215af95486e3435c5422193059ec45f7b2ee51",
+      "source_characters": 63,
+      "output_characters": 63
+    },
+    {
+      "article": "第八条",
+      "chapter": "第二章 铁路设备的生产",
+      "source_sha256": "1d9173175317768b2397789b43736d4deca19c57702122e0611e90bb93af4c46",
+      "output_sha256": "1d9173175317768b2397789b43736d4deca19c57702122e0611e90bb93af4c46",
+      "source_characters": 90,
+      "output_characters": 90
+    },
+    {
+      "article": "第九条",
+      "chapter": "第二章 铁路设备的生产",
+      "source_sha256": "3c7fd6052f9bbc3d5bddfea85ec77315b85dcfc2ff3c4c89ac0d3d7f6e095b94",
+      "output_sha256": "3c7fd6052f9bbc3d5bddfea85ec77315b85dcfc2ff3c4c89ac0d3d7f6e095b94",
+      "source_characters": 185,
+      "output_characters": 185
+    },
+    {
+      "article": "第十条",
+      "chapter": "第二章 铁路设备的生产",
+      "source_sha256": "d12d2a680fa9af15dab1f8f180bf2a4978c89c38dc65b4be7392e2574f43ebb2",
+      "output_sha256": "d12d2a680fa9af15dab1f8f180bf2a4978c89c38dc65b4be7392e2574f43ebb2",
+      "source_characters": 140,
+      "output_characters": 140
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第二章 铁路设备的生产",
+      "source_sha256": "d6777af418a312b660888ca381874d66c6d2fc62b0ad2fe371f3235ca7a2f300",
+      "output_sha256": "d6777af418a312b660888ca381874d66c6d2fc62b0ad2fe371f3235ca7a2f300",
+      "source_characters": 105,
+      "output_characters": 105
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第二章 铁路设备的生产",
+      "source_sha256": "f51cb00d0aa67cc5b97c880ef653c248192c33bc98bd04acacf4124710757d31",
+      "output_sha256": "f51cb00d0aa67cc5b97c880ef653c248192c33bc98bd04acacf4124710757d31",
+      "source_characters": 73,
+      "output_characters": 73
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第三章 铁路设备的使用和维修",
+      "source_sha256": "bd26edc5f188da9eda7ff74c06af4ba4ee52aa22faa4f771b51e550a7f4b375f",
+      "output_sha256": "bd26edc5f188da9eda7ff74c06af4ba4ee52aa22faa4f771b51e550a7f4b375f",
+      "source_characters": 57,
+      "output_characters": 57
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第三章 铁路设备的使用和维修",
+      "source_sha256": "277605e5d8e0be985f40fcb3f76efba442863e7236af8a3471e14424a4cb298f",
+      "output_sha256": "277605e5d8e0be985f40fcb3f76efba442863e7236af8a3471e14424a4cb298f",
+      "source_characters": 241,
+      "output_characters": 241
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第三章 铁路设备的使用和维修",
+      "source_sha256": "71d086c74dd6e5b0b481ebf377c2bd16740fa5b067a2aeb2091c1551e2756145",
+      "output_sha256": "71d086c74dd6e5b0b481ebf377c2bd16740fa5b067a2aeb2091c1551e2756145",
+      "source_characters": 230,
+      "output_characters": 230
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第三章 铁路设备的使用和维修",
+      "source_sha256": "6a43d905e009d96e13fb5d22d4cc362956c160ef18ed863dc4e31181537ed605",
+      "output_sha256": "6a43d905e009d96e13fb5d22d4cc362956c160ef18ed863dc4e31181537ed605",
+      "source_characters": 70,
+      "output_characters": 70
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第三章 铁路设备的使用和维修",
+      "source_sha256": "030f3bee4026c6674e03fd402a1437de480b551eb9cdc98a64f09e7e2c56b702",
+      "output_sha256": "030f3bee4026c6674e03fd402a1437de480b551eb9cdc98a64f09e7e2c56b702",
+      "source_characters": 100,
+      "output_characters": 100
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第三章 铁路设备的使用和维修",
+      "source_sha256": "959d0b2171e34747a5982875343634143888fcf530694448a9d89429396d6fb5",
+      "output_sha256": "959d0b2171e34747a5982875343634143888fcf530694448a9d89429396d6fb5",
+      "source_characters": 151,
+      "output_characters": 151
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第三章 铁路设备的使用和维修",
+      "source_sha256": "b412bbacd0e93c77f73d11c1f7829c1f9eb3c65a5b8acc5155f1e78a32829111",
+      "output_sha256": "b412bbacd0e93c77f73d11c1f7829c1f9eb3c65a5b8acc5155f1e78a32829111",
+      "source_characters": 74,
+      "output_characters": 74
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第三章 铁路设备的使用和维修",
+      "source_sha256": "bc7eee38dfefef358c0565c26609f1abef0e6da8ee76a1b5d51fe1ea325fcda7",
+      "output_sha256": "bc7eee38dfefef358c0565c26609f1abef0e6da8ee76a1b5d51fe1ea325fcda7",
+      "source_characters": 186,
+      "output_characters": 186
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第三章 铁路设备的使用和维修",
+      "source_sha256": "acbe8fa77a65d65faf98a438d00ddd5c46af2eda2e283f1aecee9fed9ff6e7f9",
+      "output_sha256": "acbe8fa77a65d65faf98a438d00ddd5c46af2eda2e283f1aecee9fed9ff6e7f9",
+      "source_characters": 159,
+      "output_characters": 159
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第四章 监督管理",
+      "source_sha256": "11477c472e960dfdca9c0378672acf85b454b2da260306b0540d53e23cee0b66",
+      "output_sha256": "11477c472e960dfdca9c0378672acf85b454b2da260306b0540d53e23cee0b66",
+      "source_characters": 72,
+      "output_characters": 72
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第四章 监督管理",
+      "source_sha256": "be7bdf983305f5d63c6e9a4b13d8a31bc1c0633936f0a234eb682e86d6ce3977",
+      "output_sha256": "be7bdf983305f5d63c6e9a4b13d8a31bc1c0633936f0a234eb682e86d6ce3977",
+      "source_characters": 246,
+      "output_characters": 246
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第四章 监督管理",
+      "source_sha256": "12292621a3fd0caa996a73be1eff733b78e42d97d720a8544f461ae9f5a74ff8",
+      "output_sha256": "12292621a3fd0caa996a73be1eff733b78e42d97d720a8544f461ae9f5a74ff8",
+      "source_characters": 270,
+      "output_characters": 270
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第四章 监督管理",
+      "source_sha256": "f68c9fb704521e62da5ec816f77d61f0008fd77a2433f62c49e4e328d9164649",
+      "output_sha256": "f68c9fb704521e62da5ec816f77d61f0008fd77a2433f62c49e4e328d9164649",
+      "source_characters": 76,
+      "output_characters": 76
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第四章 监督管理",
+      "source_sha256": "3bbabc8414ca04525b597d4d3f4564a787cb9dc5e82bc7ebdbfcd8edb1ae4e9f",
+      "output_sha256": "3bbabc8414ca04525b597d4d3f4564a787cb9dc5e82bc7ebdbfcd8edb1ae4e9f",
+      "source_characters": 98,
+      "output_characters": 98
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第四章 监督管理",
+      "source_sha256": "08923fd7ce084ecf1c975b281aac1dc0d2d6012e12d8cbf342b082edda1a5ba5",
+      "output_sha256": "08923fd7ce084ecf1c975b281aac1dc0d2d6012e12d8cbf342b082edda1a5ba5",
+      "source_characters": 143,
+      "output_characters": 143
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第四章 监督管理",
+      "source_sha256": "b39ef94c1fde345e4a5345604e626cc13311ad0996ece5b25002dff09f574c86",
+      "output_sha256": "b39ef94c1fde345e4a5345604e626cc13311ad0996ece5b25002dff09f574c86",
+      "source_characters": 93,
+      "output_characters": 93
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "4c10798e4fc0c4f110aeedf8bd27db7b208eecdd0eb79b7ccd128a271d3b0c86",
+      "output_sha256": "4c10798e4fc0c4f110aeedf8bd27db7b208eecdd0eb79b7ccd128a271d3b0c86",
+      "source_characters": 112,
+      "output_characters": 112
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "70d0be76f40e2911b2fc0f8b717ad381676e9cc5e52e96101b7205dff7195c79",
+      "output_sha256": "70d0be76f40e2911b2fc0f8b717ad381676e9cc5e52e96101b7205dff7195c79",
+      "source_characters": 174,
+      "output_characters": 174
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "dd768c08785163ec6f4fdbf68e243fe99dbbea610c999a91d1267dae008b8ee6",
+      "output_sha256": "dd768c08785163ec6f4fdbf68e243fe99dbbea610c999a91d1267dae008b8ee6",
+      "source_characters": 103,
+      "output_characters": 103
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "472a4bbb0419259fdcf1882f9553c62c8f3bc6998ca103f660bccf9fcb6e49a7",
+      "output_sha256": "472a4bbb0419259fdcf1882f9553c62c8f3bc6998ca103f660bccf9fcb6e49a7",
+      "source_characters": 105,
+      "output_characters": 105
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "9e5ab2e8b0e85f84dc93742ca56f6ebab756b314110bdcf440d2f3d0bb3a505a",
+      "output_sha256": "9e5ab2e8b0e85f84dc93742ca56f6ebab756b314110bdcf440d2f3d0bb3a505a",
+      "source_characters": 483,
+      "output_characters": 483
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "aec97706e64ca50c40893f35495c6bda69c35fde0ad97500180e06ba8344dcd4",
+      "output_sha256": "aec97706e64ca50c40893f35495c6bda69c35fde0ad97500180e06ba8344dcd4",
+      "source_characters": 344,
+      "output_characters": 344
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第五章 法律责任",
+      "source_sha256": "5bf80bffa09311303b5ff2407d0ad6703d9eb0b521ba00c88bad75ae96e6a922",
+      "output_sha256": "5bf80bffa09311303b5ff2407d0ad6703d9eb0b521ba00c88bad75ae96e6a922",
+      "source_characters": 144,
+      "output_characters": 144
+    },
+    {
+      "article": "第三十六条",
+      "chapter": "第六章 附 则",
+      "source_sha256": "cc698da5f6e35db4c02fee70b012d1c82d39f0bea2c5c8ff44260edfd433c6d0",
+      "output_sha256": "cc698da5f6e35db4c02fee70b012d1c82d39f0bea2c5c8ff44260edfd433c6d0",
+      "source_characters": 166,
+      "output_characters": 166
+    },
+    {
+      "article": "第三十七条",
+      "chapter": "第六章 附 则",
+      "source_sha256": "a01942c64c3bae1c409795349e3fa454ae66218cdb78f35afaa2a9a6228d8a4c",
+      "output_sha256": "a01942c64c3bae1c409795349e3fa454ae66218cdb78f35afaa2a9a6228d8a4c",
+      "source_characters": 17,
+      "output_characters": 17
+    }
+  ]
+}

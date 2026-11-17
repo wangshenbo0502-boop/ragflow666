@@ -1,4 +1,5 @@
 import { useFetchKnowledgeBaseConfiguration } from '@/hooks/use-knowledge-request';
+import { OwnerTenantIdContext } from '@/pages/agent/context';
 import { KnowledgeBaseProvider } from '@/pages/dataset/contexts/knowledge-base-context';
 
 import { Outlet } from 'react-router';
@@ -8,13 +9,15 @@ export default function DatasetWrapper() {
   const { data, loading } = useFetchKnowledgeBaseConfiguration();
 
   return (
-    <KnowledgeBaseProvider knowledgeBase={data} loading={loading}>
-      <article className="rail-feature-shell">
-        <SideBar dataset={data} />
-        <div className="rail-feature-content">
-          <Outlet />
-        </div>
-      </article>
-    </KnowledgeBaseProvider>
+    <OwnerTenantIdContext.Provider value={data?.tenant_id ?? ''}>
+      <KnowledgeBaseProvider knowledgeBase={data} loading={loading}>
+        <article className="rail-feature-shell">
+          <SideBar dataset={data} />
+          <div className="rail-feature-content">
+            <Outlet />
+          </div>
+        </article>
+      </KnowledgeBaseProvider>
+    </OwnerTenantIdContext.Provider>
   );
 }

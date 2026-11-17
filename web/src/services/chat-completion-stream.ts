@@ -10,19 +10,23 @@
  * loop out of the hook layer.
  */
 import { Authorization } from '@/constants/authorization';
-import { ResponseType } from '@/interfaces/database/base';
 import { IMessage, Variable } from '@/interfaces/database/chat';
 import api from '@/utils/api';
 import { getAuthorization } from '@/utils/authorization-util';
 import { EventSourceParserStream } from 'eventsource-parser/stream';
 
 export type ChatCompletionStreamParams = {
+  messageId?: string;
   chatId?: string;
   sessionId: string;
-  messages: IMessage[];
+  question: string;
+  files?: IMessage['files'];
   enableThinking?: string;
   enableInternet?: boolean;
   llmSetting?: Variable;
+  mode?: string;
+  routePolicy?: string;
+  editAssetId?: string;
 };
 
 export type CompletionChunk = {
@@ -33,6 +37,13 @@ export type CompletionChunk = {
   [key: string]: any;
 };
 
+export class ChatCompletionStreamError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'ChatCompletionStreamError';
+  }
+}
+
 function normalizeThinkingForRequest(thinking?: Variable['thinking']) {
   if (thinking === 'enabled' || thinking === 'disabled') return thinking;
   return undefined;
@@ -40,12 +51,17 @@ function normalizeThinkingForRequest(thinking?: Variable['thinking']) {
 
 export function requestChatCompletionStream(
   {
+    messageId,
     chatId,
     sessionId,
-    messages,
+    question,
+    files,
     enableThinking,
     enableInternet,
     llmSetting,
+    mode,
+    routePolicy,
+    editAssetId,
   }: ChatCompletionStreamParams,
   signal: AbortSignal,
 ) {
@@ -64,14 +80,25 @@ export function requestChatCompletionStream(
     headers: {
       [Authorization]: getAuthorization(),
       'Content-Type': 'application/json',
+      ...(messageId
+        ? { 'Idempotency-Key': `turn:${sessionId}:${messageId}` }
+        : {}),
     },
     body: JSON.stringify({
       chat_id: chatId,
       session_id: sessionId,
-      messages,
-      pass_all_history_messages: true,
+      ...(messageId
+        ? {
+            messages: [
+              { id: messageId, role: 'user', content: question, files },
+            ],
+          }
+        : { question, files }),
       reasoning: Number(enableThinking),
       internet: enableInternet,
+      mode,
+      route_policy: routePolicy,
+      edit_asset_id: editAssetId,
       ...(temperature === undefined ? {} : { temperature }),
       ...(top_p === undefined ? {} : { top_p }),
       ...(frequency_penalty === undefined ? {} : { frequency_penalty }),
@@ -84,13 +111,12 @@ export function requestChatCompletionStream(
 }
 
 /**
- * Yields each parsed SSE payload's `data` field. Terminates on stream end and
- * on any reader error; an AbortError is rethrown so the caller can distinguish
- * user cancellation from a genuine failure.
+ * Yields answer chunks and the server's explicit terminal event. Transport,
+ * envelope, and payload failures are surfaced to the caller.
  */
 export async function* parseCompletionEventStream(
   response: Response,
-): AsyncGenerator<CompletionChunk> {
+): AsyncGenerator<CompletionChunk | { streamTerminal: true }> {
   const reader = response.body
     ?.pipeThrough(new TextDecoderStream())
     .pipeThrough(new EventSourceParserStream())
@@ -107,9 +133,9 @@ export async function* parseCompletionEventStream(
       if (error instanceof DOMException && error.name === 'AbortError') {
         throw error;
       }
-      // Any other reader failure means the stream is unusable. Unlike the
-      // legacy loop in logic-hooks.ts, break out instead of spinning forever.
-      break;
+      throw new ChatCompletionStreamError(
+        'Chat response stream was interrupted',
+      );
     }
 
     if (chunk.done) break;
@@ -118,25 +144,35 @@ export async function* parseCompletionEventStream(
     try {
       payload = JSON.parse(chunk.value?.data || '');
     } catch {
-      // Swallow malformed SSE payloads, matching existing behaviour.
-      continue;
+      throw new ChatCompletionStreamError(
+        'Chat response contained an invalid event',
+      );
+    }
+
+    if (!payload || typeof payload.code !== 'number') {
+      throw new ChatCompletionStreamError(
+        'Chat response contained an invalid envelope',
+      );
+    }
+    if (payload.code !== 0) {
+      throw new ChatCompletionStreamError(
+        typeof payload.message === 'string' && payload.message
+          ? payload.message
+          : 'Chat request failed',
+      );
     }
 
     const data = payload?.data;
-    // The backend signals termination with a boolean `data` field.
-    if (typeof data === 'boolean') continue;
+    if (data === true) {
+      yield { streamTerminal: true };
+      return;
+    }
+    if (!data || typeof data !== 'object' || Array.isArray(data)) {
+      throw new ChatCompletionStreamError(
+        'Chat response contained an invalid chunk',
+      );
+    }
 
     yield data as CompletionChunk;
-  }
-}
-
-/** Reads the response body as JSON without throwing on a non-JSON body. */
-export async function readJsonSafely(
-  response: Response,
-): Promise<ResponseType | undefined> {
-  try {
-    return await response.json();
-  } catch {
-    return undefined;
   }
 }

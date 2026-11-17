@@ -1,0 +1,259 @@
+{
+  "checked_at": "2026-11-16T11:17:27.8381091Z",
+  "documents": [
+    {
+      "source_id": "S0033",
+      "original_sha256": "e330a2ac525225eeb4e8fb71c5697cdb43ebeeb74311a71903425e53a00f894e",
+      "original_unchanged": true,
+      "pdf_path": "D:\\ragflow\\docs\\railway-kb-work\\05-review\\successor-visual\\S0033-original.pdf",
+      "pdf_sha256": "facaef6ccc430751b237ee475e67385184b9548f155688f469fa5056ec65bd4c",
+      "pages": 39,
+      "tables": [
+        {
+          "table_id": "S0033-T01",
+          "first_page": 11,
+          "last_page": 12
+        },
+        {
+          "table_id": "S0033-T02",
+          "first_page": 13,
+          "last_page": 18
+        },
+        {
+          "table_id": "S0033-T03",
+          "first_page": 19,
+          "last_page": 20
+        },
+        {
+          "table_id": "S0033-T04",
+          "first_page": 20,
+          "last_page": 21
+        },
+        {
+          "table_id": "S0033-T05",
+          "first_page": 21,
+          "last_page": 22
+        },
+        {
+          "table_id": "S0033-T06",
+          "first_page": 22,
+          "last_page": 23
+        },
+        {
+          "table_id": "S0033-T07",
+          "first_page": 23,
+          "last_page": 23
+        },
+        {
+          "table_id": "S0033-T08",
+          "first_page": 26,
+          "last_page": 34
+        },
+        {
+          "table_id": "S0033-T09",
+          "first_page": 35,
+          "last_page": 35
+        },
+        {
+          "table_id": "S0033-T10",
+          "first_page": 37,
+          "last_page": 37
+        },
+        {
+          "table_id": "S0033-T11",
+          "first_page": 38,
+          "last_page": 38
+        },
+        {
+          "table_id": "S0033-T12",
+          "first_page": 39,
+          "last_page": 39
+        }
+      ],
+      "visual_review_status": "rendered only; not yet reviewed"
+    },
+    {
+      "source_id": "S0034",
+      "original_sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+      "original_unchanged": true,
+      "pdf_path": "D:\\ragflow\\docs\\railway-kb-work\\05-review\\successor-visual\\S0034-original.pdf",
+      "pdf_sha256": "5326300d27e9b6068fef2b842041268498cb34052661d150efbd9a27b188dada",
+      "pages": 37,
+      "tables": [
+        {
+          "table_id": "S0034-T01",
+          "first_page": 10,
+          "last_page": 10
+        },
+        {
+          "table_id": "S0034-T02",
+          "first_page": 10,
+          "last_page": 12
+        },
+        {
+          "table_id": "S0034-T03",
+          "first_page": 13,
+          "last_page": 17
+        },
+        {
+          "table_id": "S0034-T04",
+          "first_page": 18,
+          "last_page": 18
+        },
+        {
+          "table_id": "S0034-T05",
+          "first_page": 21,
+          "last_page": 27
+        },
+        {
+          "table_id": "S0034-T06",
+          "first_page": 28,
+          "last_page": 33
+        },
+        {
+          "table_id": "S0034-T07",
+          "first_page": 34,
+          "last_page": 34
+        },
+        {
+          "table_id": "S0034-T08",
+          "first_page": 35,
+          "last_page": 35
+        },
+        {
+          "table_id": "S0034-T09",
+          "first_page": 36,
+          "last_page": 36
+        },
+        {
+          "table_id": "S0034-T10",
+          "first_page": 37,
+          "last_page": 37
+        },
+        {
+          "table_id": "S0034-T11",
+          "first_page": 37,
+          "last_page": 37
+        }
+      ],
+      "visual_review_status": "rendered only; not yet reviewed"
+    },
+    {
+      "source_id": "S0035",
+      "original_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+      "original_unchanged": true,
+      "pdf_path": "D:\\ragflow\\docs\\railway-kb-work\\05-review\\successor-visual\\S0035-original.pdf",
+      "pdf_sha256": "b057a00fe260845ffc5d70125a76d362fbeb97a9c5f543e5b22c879593f78ec4",
+      "pages": 32,
+      "tables": [
+        {
+          "table_id": "S0035-T01",
+          "first_page": 11,
+          "last_page": 11
+        },
+        {
+          "table_id": "S0035-T02",
+          "first_page": 12,
+          "last_page": 15
+        },
+        {
+          "table_id": "S0035-T03",
+          "first_page": 19,
+          "last_page": 27
+        },
+        {
+          "table_id": "S0035-T04",
+          "first_page": 28,
+          "last_page": 28
+        },
+        {
+          "table_id": "S0035-T05",
+          "first_page": 30,
+          "last_page": 30
+        },
+        {
+          "table_id": "S0035-T06",
+          "first_page": 31,
+          "last_page": 31
+        },
+        {
+          "table_id": "S0035-T07",
+          "first_page": 32,
+          "last_page": 32
+        },
+        {
+          "table_id": "S0035-T08",
+          "first_page": 32,
+          "last_page": 32
+        }
+      ],
+      "visual_review_status": "rendered only; not yet reviewed"
+    },
+    {
+      "source_id": "S0036",
+      "original_sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+      "original_unchanged": true,
+      "pdf_path": "D:\\ragflow\\docs\\railway-kb-work\\05-review\\successor-visual\\S0036-original.pdf",
+      "pdf_sha256": "0cb47245a5a7a2e155c964475256ebb1e297e01e4bf0269a37d0b5341a421b1c",
+      "pages": 33,
+      "tables": [
+        {
+          "table_id": "S0036-T01",
+          "first_page": 9,
+          "last_page": 9
+        },
+        {
+          "table_id": "S0036-T02",
+          "first_page": 10,
+          "last_page": 15
+        },
+        {
+          "table_id": "S0036-T03",
+          "first_page": 16,
+          "last_page": 17
+        },
+        {
+          "table_id": "S0036-T04",
+          "first_page": 17,
+          "last_page": 17
+        },
+        {
+          "table_id": "S0036-T05",
+          "first_page": 17,
+          "last_page": 18
+        },
+        {
+          "table_id": "S0036-T06",
+          "first_page": 18,
+          "last_page": 19
+        },
+        {
+          "table_id": "S0036-T07",
+          "first_page": 21,
+          "last_page": 28
+        },
+        {
+          "table_id": "S0036-T08",
+          "first_page": 29,
+          "last_page": 29
+        },
+        {
+          "table_id": "S0036-T09",
+          "first_page": 31,
+          "last_page": 31
+        },
+        {
+          "table_id": "S0036-T10",
+          "first_page": 32,
+          "last_page": 32
+        },
+        {
+          "table_id": "S0036-T11",
+          "first_page": 33,
+          "last_page": 33
+        }
+      ],
+      "visual_review_status": "rendered only; not yet reviewed"
+    }
+  ]
+}

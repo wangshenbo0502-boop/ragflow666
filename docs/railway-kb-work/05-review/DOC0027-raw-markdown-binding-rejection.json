@@ -1,0 +1,317 @@
+{
+  "checked_at": "2026-11-16T14:28:55.767Z",
+  "record": {
+    "doc_id": "DOC0027",
+    "source_id": "S0035",
+    "domain": "XH",
+    "phase": "trial",
+    "dataset_id": "8f7cbc152fc64d7b8d39da97028e5abe",
+    "document_id": "47b972521e2346668848f6e0575c0d54",
+    "filename": "DOC0027_铁路通信设备生产企业审批实施细则_复核稿_结构通过_e1079ba502a1.md",
+    "sha256": "e1079ba502a1c8231ebd9c8f6439d97e2b938dd394f533c2d96354f64ef4650f",
+    "pipeline_id": "fd8d3360d44b451683f133f40e127185",
+    "pipeline_version_id": "cdbcbbfb48df4b0db71f9bc22eb9ef51",
+    "structure_evidence": "05-review/DOC0027-structure-decision-2026-11-16.json",
+    "status": "pipeline-binding-rejected",
+    "reused_existing_upload": true,
+    "prior_quality_evidence": "05-review/DOC0027-trial-quality-rejection-2026-11-16.json",
+    "configuration_debug_evidence": "05-review/DOC0027-raw-markdown-debug-2026-11-16T14-26-16-990Z.json",
+    "created_at": "2026-11-16T14:27:04.495Z",
+    "error": "invalid pipeline DSL: ExtractAllComponentParams: component ID VariableAggregator:RawMarkdownFile must be <name>:<instance>; ingestion IsComponentKey accepts only IsComponentName kinds."
+  },
+  "remote": {
+    "chunk_count": 545,
+    "chunk_method": "general",
+    "create_date": "2026-11-16 21:56:42",
+    "create_time": 1794837402383,
+    "created_by": "f8123cce6b744a88bde9137a8fab0ed1",
+    "dataset_id": "8f7cbc152fc64d7b8d39da97028e5abe",
+    "id": "47b972521e2346668848f6e0575c0d54",
+    "ingestion_status": "COMPLETED",
+    "latest_ingestion_event": {
+      "id": 2564,
+      "ts": "2026-11-16T21:59:45+08:00",
+      "event_type": 2,
+      "component": "",
+      "phase": 0,
+      "message": "Task completed."
+    },
+    "location": "DOC0027_铁路通信设备生产企业审批实施细则_复核稿_结构通过_e1079ba502a1.md",
+    "meta_fields": {},
+    "name": "DOC0027_铁路通信设备生产企业审批实施细则_复核稿_结构通过_e1079ba502a1.md",
+    "nickname": "test",
+    "parser_config": {
+      "Extractor:AutoExtractDefault": {
+        "keywords": {
+          "top_n": 0
+        },
+        "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+        "metadata": {
+          "built_in_metadata": [],
+          "enabled": false,
+          "metadata": []
+        },
+        "questions": {
+          "top_n": 0
+        },
+        "summary": {
+          "enabled": false
+        },
+        "tags": {
+          "tag_file_id": "",
+          "top_n": 0
+        }
+      },
+      "File": {},
+      "Parser:HipSignsRhyme": {
+        "enable_vision_enhancement": false,
+        "pdf": {
+          "enable_multi_column": true,
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "TitleChunker:SparklySchoolsTravel": {
+        "chunk_token_cap": 0,
+        "groupRules": [
+          {
+            "levels": [
+              {
+                "expression": "^#[^#]"
+              },
+              {
+                "expression": "^##[^#]"
+              },
+              {
+                "expression": "^###[^#]"
+              },
+              {
+                "expression": "^####[^#]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+条"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[0-9]+章"
+              },
+              {
+                "expression": "第[0-9]+节"
+              },
+              {
+                "expression": "[0-9]{1,2}[\\. 、]"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "[零一二三四五六七八九十百]+[ 、]"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              },
+              {
+                "expression": "[\\(（][0-9]{,2}[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+              },
+              {
+                "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+              },
+              {
+                "expression": "Section [0-9]+"
+              },
+              {
+                "expression": "Article [0-9]+"
+              }
+            ]
+          }
+        ],
+        "hierarchy": 3,
+        "hierarchyGroup": "0",
+        "hierarchyHierarchy": "3",
+        "hierarchyRules": [
+          {
+            "levels": [
+              {
+                "expression": "^#[^#]"
+              },
+              {
+                "expression": "^##[^#]"
+              },
+              {
+                "expression": "^###[^#]"
+              },
+              {
+                "expression": "^####[^#]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+条"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[0-9]+章"
+              },
+              {
+                "expression": "第[0-9]+节"
+              },
+              {
+                "expression": "[0-9]{1,2}[\\. 、]"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "[零一二三四五六七八九十百]+[ 、]"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              },
+              {
+                "expression": "[\\(（][0-9]{,2}[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+              },
+              {
+                "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+              },
+              {
+                "expression": "Section [0-9]+"
+              },
+              {
+                "expression": "Article [0-9]+"
+              }
+            ]
+          }
+        ],
+        "include_heading_content": false,
+        "levels": [
+          [
+            "^#[^#]",
+            "^##[^#]",
+            "^###[^#]"
+          ]
+        ],
+        "method": "hierarchy"
+      },
+      "Tokenizer:GreatCarsWash": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+    "pipeline_name": "铁路知识库-条文层级试切",
+    "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+    "process_begin_at": "2026-11-16 21:56:42",
+    "process_duration": 182.91432053,
+    "progress": 1,
+    "progress_msg": "",
+    "size": 380019,
+    "status": "1",
+    "suffix": "md",
+    "thumbnail": "",
+    "token_count": 104766,
+    "type": "doc",
+    "update_date": "2026-11-16 21:59:45",
+    "update_time": 1794837585551
+  },
+  "debug_passed": true,
+  "parse_requested": false,
+  "remote_binding_unchanged": true,
+  "actual_chunks_unchanged": true,
+  "formal_import": false,
+  "retrieval_accepted": false,
+  "owning_code": [
+    "internal/ingestion/pipeline/component_params.go:45",
+    "internal/common/component_identity.go:63"
+  ]
+}

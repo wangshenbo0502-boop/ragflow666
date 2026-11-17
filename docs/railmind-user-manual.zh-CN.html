@@ -1,0 +1,3828 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="description" content="轨知 RailMind 功能与子功能详解，包含操作步骤、参数解释、示例和常见问题。">
+<title>轨知 RailMind 详细用户使用说明</title>
+<style>
+:root{color-scheme:light;--ink:#243437;--muted:#54656c;--line:#d9e2e3;--green:#13675c;--soft:#edf5f2}
+*{box-sizing:border-box;letter-spacing:0}
+html{scroll-padding-top:20px}
+body{margin:0;background:#f6f8f8;color:var(--ink);font:16px/1.85 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+a{color:var(--green);text-underline-offset:3px;overflow-wrap:anywhere}
+a:hover{text-decoration-thickness:2px}
+button,input{font:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid #bc6625;outline-offset:3px}
+.skip{position:absolute;left:16px;top:-100px;padding:8px 16px;background:white}
+.skip:focus{top:12px}
+.top{background:#164d43;color:#fff;border-bottom:4px solid #acc7bc}
+.top-inner{max-width:1400px;margin:auto;padding:28px 28px 24px}
+.top h1{font-size:30px;line-height:1.45;margin:0 0 8px}
+.top p{font-size:14px;color:#e0ede7;margin:0}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;align-items:center}
+.toolbar a,.toolbar button{font-size:14px;color:#fff;background:transparent;border:1px solid #86a89c;border-radius:4px;padding:6px 12px;text-decoration:none}
+.layout{display:grid;grid-template-columns:300px minmax(0,1fr);gap:32px;max-width:1400px;margin:auto;padding:28px 28px 64px}
+.sidebar{position:sticky;top:16px;align-self:start;max-height:calc(100vh - 32px);overflow:auto;scrollbar-gutter:stable;padding-right:14px}
+.sidebar h2{font-size:17px;border:0;padding:0;margin:0 0 10px}
+.search-label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+.search-row{display:flex;gap:6px}
+#search{width:100%;min-width:0;background:#fff;border:1px solid #9fb2b5;border-radius:4px;padding:8px 10px;font-size:14px}
+#clear{flex:none;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--muted);padding:4px 8px;font-size:13px}
+#search-status{font-size:12px;color:var(--muted);min-height:24px;margin:7px 0 12px}
+.chapter{border-top:1px solid var(--line);padding:9px 0;font-size:13px;line-height:1.65}
+.chapter summary{cursor:pointer}
+.chapter summary a{color:var(--ink);font-weight:600;text-decoration:none}
+.chapter ul{list-style:none;padding:0 0 0 16px;margin:6px 0}
+.chapter li{padding:0;margin:6px 0}
+.chapter li a{color:var(--muted);text-decoration:none}
+.chapter a:hover{text-decoration:underline;color:var(--green)}
+[hidden]{display:none!important}
+.document{min-width:0;background:white;padding:8px 32px 32px;border-left:1px solid var(--line)}
+.document>p:first-child{margin-top:0}
+.document h2{font-size:24px;line-height:1.55;margin:44px 0 18px;padding-top:22px;border-top:2px solid var(--line)}
+.document h3{font-size:19px;line-height:1.65;margin:28px 0 12px}
+.document h2:focus,.document h3:focus{outline:none}
+p{margin:14px 0}
+li{margin:7px 0;padding-left:2px}
+ul,ol{padding-left:25px}
+strong{color:#174c43}
+blockquote{margin:20px 0;padding:10px 18px;background:var(--soft);border-left:4px solid var(--green)}
+blockquote p{margin:5px 0}
+.table-wrap{max-width:100%;overflow:auto;margin:20px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.75}
+th,td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top;min-width:105px;overflow-wrap:anywhere}
+th{background:var(--soft);color:#174c43}
+tr:nth-child(even) td{background:#f8fafb}
+pre{padding:16px;background:#f1f5f6;border:1px solid var(--line);border-radius:4px;overflow:auto;font-size:13px;line-height:1.8}
+code{font-family:Consolas,"Microsoft YaHei",monospace}
+:not(pre)>code{font-size:.9em;background:#eef2f4;padding:1px 4px;border-radius:3px;overflow-wrap:anywhere}
+img{max-width:100%;height:auto}
+.foot{font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:36px;padding-top:16px}
+.back{display:inline-block;margin-top:12px}
+@media(max-width:960px){
+ .layout{grid-template-columns:1fr;gap:22px;padding:20px 16px 40px}
+ .sidebar{position:static;max-height:none;padding-right:0}
+ .toc-list{max-height:340px;overflow:auto;border-bottom:1px solid var(--line)}
+ .document{padding:0 0 20px;border:0;background:transparent}
+ .top-inner{padding:24px 16px}
+ .top h1{font-size:25px}
+ .title-desc{display:block;margin-top:4px}
+ .document h2{font-size:22px}
+ .document h3{font-size:18px}
+ table{font-size:13px}
+ th,td{padding:9px;min-width:105px}
+ pre{white-space:pre-wrap;overflow-wrap:anywhere}
+}
+@media print{
+ @page{size:A4;margin:16mm}
+ body{background:white;font-size:10.5pt;line-height:1.65;color:#111}
+ .sidebar,.toolbar,.back,.skip{display:none!important}
+ .top{background:white;color:#111;border-color:#555}
+ .top-inner{padding:0 0 12pt}
+ .top h1{font-size:22pt}
+ .top p{color:#444}
+ .layout{display:block;padding:0}
+ .document{padding:0;border:0}
+ .document h2{font-size:16pt;margin-top:24pt;break-after:avoid}
+ .document h3{font-size:12pt;break-after:avoid}
+ p,li{orphans:3;widows:3}
+ table{font-size:9pt}
+ thead{display:table-header-group}
+ tr{break-inside:avoid}
+ th,td{min-width:0;padding:6pt}
+ .table-wrap{overflow:visible}
+ pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:9pt}
+ a{color:#222;text-decoration:none}
+}
+</style>
+</head>
+<body id="top">
+<a class="skip" href="#manual">跳到正文</a>
+<header class="top"><div class="top-inner">
+<h1><span>轨知 RailMind</span> <span class="title-desc">详细用户使用说明</span></h1>
+<p>功能介绍 · 子功能说明 · 操作步骤 · 参数解释 · 示例与排错</p>
+<div class="toolbar">
+<a href="#chapter-5">第一次完整操作</a>
+<a href="#chapter-16">逐项功能详解</a>
+<a href="#chapter-26">术语与练习</a>
+<a href="railmind-user-manual.zh-CN.md">Markdown 原文</a>
+<button type="button" id="print">打印 / 另存为 PDF</button>
+</div></div></header>
+<div class="layout">
+<nav class="sidebar" aria-label="手册目录">
+<h2>阅读目录</h2>
+<label for="search" class="search-label">搜索功能或问题</label>
+<div class="search-row"><input type="search" id="search" placeholder="例如：上传、钉钉、阈值" autocomplete="off"><button type="button" id="clear">清空</button></div>
+<p id="search-status" role="status" aria-live="polite">输入关键词搜索正文，展开章节查看子功能。</p>
+<div class="toc-list"><details class="chapter" data-id="chapter-0" open>
+<summary><a href="#chapter-0">0. 不知道功能是什么意思，先从这里找</a></summary>
+<ul><li><a href="#section-0-1">0.1 本机快速体验</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-1">
+<summary><a href="#chapter-1">1. 先弄清楚：这个系统怎么用</a></summary>
+<ul><li><a href="#section-1-1">1.1 四个最容易混淆的概念</a></li>
+<li><a href="#section-1-2">1.2 当前适合做的事</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-2">
+<summary><a href="#chapter-2">2. 界面导航：该去哪个页面</a></summary>
+<ul></ul>
+</details>
+<details class="chapter" data-id="chapter-3">
+<summary><a href="#chapter-3">3. 使用前准备清单</a></summary>
+<ul><li><a href="#section-3-1">3.1 普通使用者需要准备什么</a></li>
+<li><a href="#section-3-2">3.2 访问地址</a></li>
+<li><a href="#section-3-3">3.3 登录或注册</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-4">
+<summary><a href="#chapter-4">4. 配置模型：最先需要做对的一步</a></summary>
+<ul><li><a href="#section-4-1">4.1 为什么要两类模型</a></li>
+<li><a href="#section-4-2">4.2 操作步骤</a></li>
+<li><a href="#section-4-3">4.3 当前为什么看不到某个服务商</a></li>
+<li><a href="#section-4-4">4.4 字段怎样填才不容易出错</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-5" open>
+<summary><a href="#chapter-5">5. 第一次完整操作：用内置资料完成一次问答</a></summary>
+<ul><li><a href="#section-5-1">步骤一：导入资料</a></li>
+<li><a href="#section-5-2">步骤二：等待解析</a></li>
+<li><a href="#section-5-3">步骤三：选择场景和资料范围</a></li>
+<li><a href="#section-5-4">步骤四：进入聊天并确认发送</a></li>
+<li><a href="#section-5-5">步骤五：检查依据</a></li>
+<li><a href="#section-5-6">第一次使用的完成标准</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-6">
+<summary><a href="#chapter-6">6. 内置的六份资料是什么</a></summary>
+<ul></ul>
+</details>
+<details class="chapter" data-id="chapter-7">
+<summary><a href="#chapter-7">7. 上传你自己的资料</a></summary>
+<ul><li><a href="#section-7-1">7.1 先决定怎样分库</a></li>
+<li><a href="#section-7-2">7.2 创建知识库</a></li>
+<li><a href="#section-7-3">7.3 上传与解析</a></li>
+<li><a href="#section-7-4">7.4 怎样检查解析结果</a></li>
+<li><a href="#section-7-5">7.5 修改解析设置后要注意什么</a></li>
+<li><a href="#section-7-6">7.6 怎样维护版本</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-8">
+<summary><a href="#chapter-8">8. 检索测试：答不对时先查这一页</a></summary>
+<ul><li><a href="#section-8-1">8.1 操作步骤</a></li>
+<li><a href="#section-8-2">8.2 怎样理解结果</a></li>
+<li><a href="#section-8-3">8.3 参数用最少的方式理解</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-9">
+<summary><a href="#chapter-9">9. 四种场景怎样提问</a></summary>
+<ul><li><a href="#section-9-1">9.1 安全规章</a></li>
+<li><a href="#section-9-2">9.2 客运服务</a></li>
+<li><a href="#section-9-3">9.3 设备分析</a></li>
+<li><a href="#section-9-4">9.4 学习培训</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-10">
+<summary><a href="#chapter-10">10. 管理助手和聊天记录</a></summary>
+<ul><li><a href="#section-10-1">10.1 继续使用已有助手</a></li>
+<li><a href="#section-10-2">10.2 不要每次都创建一个新助手</a></li>
+<li><a href="#section-10-3">10.3 从列表新建铁路问答</a></li>
+<li><a href="#section-10-4">10.4 修改助手配置</a></li>
+<li><a href="#section-10-5">10.5 反馈与删除</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-11">
+<summary><a href="#chapter-11">11. 进阶功能总览与阅读路线</a></summary>
+<ul></ul>
+</details>
+<details class="chapter" data-id="chapter-12">
+<summary><a href="#chapter-12">12. 常见问题与排查顺序</a></summary>
+<ul></ul>
+</details>
+<details class="chapter" data-id="chapter-13">
+<summary><a href="#chapter-13">13. 给部署维护人员的简明附录</a></summary>
+<ul><li><a href="#section-13-1">13.1 启动前核对</a></li>
+<li><a href="#section-13-2">13.2 常用命令</a></li>
+<li><a href="#section-13-3">13.3 数据保存与维护</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-14">
+<summary><a href="#chapter-14">14. 可以直接照做的学习与演示安排</a></summary>
+<ul><li><a href="#section-14-1">14.1 第一天：只完成三个练习</a></li>
+<li><a href="#section-14-2">14.2 十分钟演示脚本</a></li>
+<li><a href="#section-14-3">14.3 个人使用记录模板</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-15">
+<summary><a href="#chapter-15">15. 本说明的核对依据</a></summary>
+<ul></ul>
+</details>
+<details class="chapter" data-id="chapter-16">
+<summary><a href="#chapter-16">16. 工作台：每个区域是干什么的</a></summary>
+<ul><li><a href="#section-16-1">16.1 场景选择：改变这次问题的背景</a></li>
+<li><a href="#section-16-2">16.2 知识与模型准备：查看能不能开始</a></li>
+<li><a href="#section-16-3">16.3 提问区、设备背景和开始对话</a></li>
+<li><a href="#section-16-4">16.4 工作台不能代替哪些系统</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-17">
+<summary><a href="#chapter-17">17. 知识库：从文件到可用资料的全部环节</a></summary>
+<ul><li><a href="#section-17-1">17.1 知识库列表、新建和搜索</a></li>
+<li><a href="#section-17-2">17.2 添加文件：上传文件与空文件</a></li>
+<li><a href="#section-17-3">17.3 文件列表每列和每个图标</a></li>
+<li><a href="#section-17-4">17.4 批量选择、解析、取消、启用、禁用与删除</a></li>
+<li><a href="#section-17-5">17.5 状态到底表示什么</a></li>
+<li><a href="#section-17-6">17.6 片段页面：查看、搜索和对照原文</a></li>
+<li><a href="#section-17-7">17.7 片段编辑、新增、启用与批量维护</a></li>
+<li><a href="#section-17-8">17.8 元数据：给资料贴可筛选的属性</a></li>
+<li><a href="#section-17-9">17.9 分块设置：保存处理规则</a></li>
+<li><a href="#section-17-10">17.10 日志：判断卡在哪一步</a></li>
+<li><a href="#section-17-11">17.11 检索测试的进阶子功能</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-18">
+<summary><a href="#chapter-18">18. 铁路问答：按钮与设置逐项说明</a></summary>
+<ul><li><a href="#section-18-1">18.1 助手列表和会话列表有什么区别</a></li>
+<li><a href="#section-18-2">18.2 输入、发送、附件、停止与重新生成</a></li>
+<li><a href="#section-18-3">18.3 引用、复制、反馈、朗读和提示详情</a></li>
+<li><a href="#section-18-4">18.4 聊天设置的基础项</a></li>
+<li><a href="#section-18-5">18.5 模型参数：影响表达方式，不代替资料</a></li>
+<li><a href="#section-18-6">18.6 高级设置：引用、语音、联网、过滤</a></li>
+<li><a href="#section-18-7">18.7 普通检索设置：让检索与回答协作</a></li>
+<li><a href="#section-18-8">18.8 研究 / Agentic 设置</a></li>
+<li><a href="#section-18-9">18.9 分享与嵌入网站</a></li>
+<li><a href="#section-18-10">18.10 生图、参考图与连续改图</a></li>
+<li><a href="#section-18-11">18.11 语音回答与朗读</a></li>
+<li><a href="#section-18-12">18.12 唱歌</a></li>
+<li><a href="#section-18-13">18.13 媒体功能常见问题</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-19">
+<summary><a href="#chapter-19">19. 知识成果：Wiki、树、图谱等分别是什么</a></summary>
+<ul><li><a href="#section-19-1">19.1 五种视图解决不同问题</a></li>
+<li><a href="#section-19-2">19.2 怎样实际生成一份成果</a></li>
+<li><a href="#section-19-3">19.3 Wiki 的目录、文章、链接和证据</a></li>
+<li><a href="#section-19-4">19.4 Wiki 编辑、提交、历史版本、差异与导出</a></li>
+<li><a href="#section-19-5">19.5 树、图谱、思维导图与时间线怎样看</a></li>
+<li><a href="#section-19-6">19.6 成果页上方的辅助入口</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-20">
+<summary><a href="#chapter-20">20. 更多 → 工作流：把一个任务拆成多个步骤</a></summary>
+<ul><li><a href="#section-20-1">20.1 工作流、数据处理流程、编译算子如何区分</a></li>
+<li><a href="#section-20-2">20.2 列表、新建、模板、导入、标签和删除</a></li>
+<li><a href="#section-20-3">20.3 画布、节点、连线和变量</a></li>
+<li><a href="#section-20-4">20.4 基础、对话和判断节点</a></li>
+<li><a href="#section-20-5">20.5 循环与数据处理节点</a></li>
+<li><a href="#section-20-6">20.6 外部工具与接口：选择器里的名称是什么意思</a></li>
+<li><a href="#section-20-7">20.7 保存草稿、检查、运行、探索与发布</a></li>
+<li><a href="#section-20-8">20.8 管理菜单：变量、历史、导出、设置、嵌入</a></li>
+<li><a href="#section-20-9">20.9 文档生成：把流程结果变成可下载文件</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-21">
+<summary><a href="#chapter-21">21. 更多 → 数据处理流程：文档怎样被整理</a></summary>
+<ul><li><a href="#section-21-1">21.1 内置流程、复制和自定义流程</a></li>
+<li><a href="#section-21-2">21.2 节点顺序和输入输出</a></li>
+<li><a href="#section-21-3">21.3 解析器：文件类型与基础选项</a></li>
+<li><a href="#section-21-4">21.4 解析器的细分设置</a></li>
+<li><a href="#section-21-5">21.5 Token 分块器：按长度和分隔符整理</a></li>
+<li><a href="#section-21-6">21.6 标题分块器：沿章节结构整理</a></li>
+<li><a href="#section-21-7">21.7 提取器：为片段补充哪些信息</a></li>
+<li><a href="#section-21-8">21.8 知识编译器与索引器</a></li>
+<li><a href="#section-21-9">21.9 保存、发布、绑定、重新解析：一次完整练习</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-22">
+<summary><a href="#chapter-22">22. 更多 → 编译算子：定义资料整理规则</a></summary>
+<ul><li><a href="#section-22-1">22.1 为什么需要“编译算子”</a></li>
+<li><a href="#section-22-2">22.2 新建、命名、类型、描述和全局规则</a></li>
+<li><a href="#section-22-3">22.3 Wiki 模式、蓝图指令和示例</a></li>
+<li><a href="#section-22-4">22.4 实体、关系、概念、声明与字段编辑</a></li>
+<li><a href="#section-22-5">22.5 重分块与树形整理的专用设置</a></li>
+<li><a href="#section-22-6">22.6 JSON 预览、工作流配置预览与保存</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-23">
+<summary><a href="#chapter-23">23. 设置 → 数据源：自动取回外部资料</a></summary>
+<ul><li><a href="#section-23-1">23.1 数据源与上传有什么区别</a></li>
+<li><a href="#section-23-2">23.2 从创建到可检索的完整步骤</a></li>
+<li><a href="#section-23-3">23.3 连接字段、周期、启停和删除同步</a></li>
+<li><a href="#section-23-4">23.4 网站与接口类来源</a></li>
+<li><a href="#section-23-5">23.5 对象存储、网盘和文件空间</a></li>
+<li><a href="#section-23-6">23.6 协作、业务与项目平台来源</a></li>
+<li><a href="#section-23-7">23.7 代码托管平台来源</a></li>
+<li><a href="#section-23-8">23.8 MySQL、PostgreSQL、BigQuery：数据库资料同步</a></li>
+<li><a href="#section-23-9">23.9 REST API：列表路径、字段映射和分页</a></li>
+<li><a href="#section-23-10">23.10 同步故障怎么定位</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-24">
+<summary><a href="#chapter-24">24. 设置 → 聊天渠道：从外部平台向助手提问</a></summary>
+<ul><li><a href="#section-24-1">24.1 渠道做什么，不做什么</a></li>
+<li><a href="#section-24-2">24.2 添加、编辑、绑定、解绑和删除</a></li>
+<li><a href="#section-24-3">24.3 常用平台各字段是什么意思</a></li>
+<li><a href="#section-24-4">24.4 其他渠道类型及准备内容</a></li>
+<li><a href="#section-24-5">24.5 WhatsApp 网关与二维码</a></li>
+<li><a href="#section-24-6">24.6 运行状态翻译与排错</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-25">
+<summary><a href="#chapter-25">25. 账号、管理后台与当前入口范围</a></summary>
+<ul><li><a href="#section-25-1">25.1 普通用户设置</a></li>
+<li><a href="#section-25-2">25.2 管理后台与普通页面的区别</a></li>
+<li><a href="#section-25-3">25.3 为什么教程有的菜单，这里却没有</a></li>
+<li><a href="#section-25-4">25.4 四类保存分别影响什么</a></li></ul>
+</details>
+<details class="chapter" data-id="chapter-26">
+<summary><a href="#chapter-26">26. 术语速查与对照练习</a></summary>
+<ul><li><a href="#section-26-1">26.1 英文和专业词用普通话解释</a></li>
+<li><a href="#section-26-2">26.2 用一份教学资料把功能串起来</a></li>
+<li><a href="#section-26-3">26.3 不同目标用哪条最短路线</a></li></ul>
+</details></div>
+<noscript><p>目录可直接展开。浏览器的“查找”也可以搜索正文。</p></noscript>
+</nav>
+<main class="document" id="manual" tabindex="-1">
+<p>适用对象：第一次使用的同学、教师、铁路知识学习者、资料维护人员和本地部署维护人员。</p>
+<p>更新日期：2026 年 11 月 15 日。本次补充本机启动、生图、连续改图、语音回答、唱歌和媒体排错；其他章节沿用 11 月 14 日的页面与代码核对记录。</p>
+<p>本文按当前“轨知”界面与 Go 处理逻辑编写。功能入口已对照代码核对；实际登录、文档解析、模型回答以及外部平台连接仍取决于你的部署和账号配置。本文的阅读页面检查不代表这些业务已经在你的环境中运行成功。如果页面与本文不同，先确认运行镜像和前端是否来自同一版本。</p>
+<p>进阶功能按本次开发代码说明，不同部署版本的入口和字段可能不同；菜单中未出现的功能不要当作已经开放。第 25 章列出了当前未提供普通入口的能力。</p>
+<p>阅读版本：<a href="railmind-user-manual.zh-CN.html">可直接打开的 HTML 手册</a>，支持目录搜索和打印；本文件为完整说明原文。配套文档：<a href="railmind-upgrade-proposal.zh-CN.md">后续升级优化建议书</a>。</p>
+<h2 id="chapter-0" tabindex="-1">0. 不知道功能是什么意思，先从这里找</h2>
+<p><strong>第 1～10 章教你完成一次问答；第 16～26 章按界面解释功能和子功能。</strong> 不必先理解所有参数，先找到你正在看的页面，再阅读对应条目。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>你现在的疑问</th>
+<th>阅读位置</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>我第一次打开，接下来点哪里？</td>
+<td>第 3～5 章：准备账号、配置模型、完成首次问答</td>
+</tr>
+<tr>
+<td>首页四个场景、设备背景、就绪状态有什么用？</td>
+<td>第 9、16 章：工作台逐项说明</td>
+</tr>
+<tr>
+<td>文件已经传了，为什么还是不能回答？</td>
+<td>第 7、17 章：文件、解析、分块、启用状态</td>
+</tr>
+<tr>
+<td>片段、关键词、元数据、相似度是什么意思？</td>
+<td>第 8、17、26 章</td>
+</tr>
+<tr>
+<td>聊天旁边一堆设置，不知道怎么填</td>
+<td>第 18 章：聊天按钮和设置逐项说明</td>
+</tr>
+<tr>
+<td>Wiki、树、图谱、思维导图、时间线有什么区别？</td>
+<td>第 19 章：知识成果</td>
+</tr>
+<tr>
+<td>工作流里的节点和连线是什么意思？</td>
+<td>第 20 章：工作流与工具</td>
+</tr>
+<tr>
+<td>数据处理流程与工作流有什么区别？</td>
+<td>第 21 章：文档处理流程</td>
+</tr>
+<tr>
+<td>编译算子是什么，怎么生成知识成果？</td>
+<td>第 22 章，并按第 19.2 节串起来操作</td>
+</tr>
+<tr>
+<td>想自动同步网盘、网站或数据库里的资料</td>
+<td>第 23 章：数据源</td>
+</tr>
+<tr>
+<td>想从钉钉、飞书、QQ 等平台问问题</td>
+<td>第 24 章：聊天渠道</td>
+</tr>
+<tr>
+<td>管理员能做什么，为什么我找不到某个菜单？</td>
+<td>第 25 章：账号、管理和当前功能范围</td>
+</tr>
+<tr>
+<td>我就想先打开系统玩一下</td>
+<td>第 0.1 节：本机快速体验</td>
+</tr>
+<tr>
+<td>怎么生图、改图、让助手说话或唱歌？</td>
+<td>第 18.10～18.13 节：媒体功能与排错</td>
+</tr>
+</tbody></table>
+</div>
+<p>操作说明中的“例如”是填写方法，不是已经创建好的资料。模型、知识库、流程名称请选你自己账号里实际存在的项目。</p>
+<h3 id="section-0-1" tabindex="-1">0.1 本机快速体验</h3>
+<p>当前已配置的 Windows 本机环境，在项目根目录打开 PowerShell：</p>
+<pre><code class="language-powershell">.\tools\scripts\start-local-project.ps1
+</code></pre>
+<p>启动完成后打开 <a href="http://localhost/">轨知工作台</a>，用已有账号登录。已有模型、资料和聊天记录可继续使用，不需要重新导入。全新克隆的队友需要先按 README 准备配置和运行资源，不能仅靠这条命令完成首次安装。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>想先体验什么</th>
+<th>直接怎么做</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>资料问答</td>
+<td>进入“铁路问答”，选择已有助手和会话，输入问题并发送；新建助手按第 5 章操作</td>
+</tr>
+<tr>
+<td>图片生成</td>
+<td>在已保存的聊天中输入 <code>@</code>，选择“生图”，再输入“一列高铁穿过青山，写实摄影”并发送</td>
+</tr>
+<tr>
+<td>连续改图</td>
+<td>同一会话继续用 <code>@生图 把上一张改成夕阳，列车保持不变</code></td>
+</tr>
+<tr>
+<td>语音回答</td>
+<td>发送 <code>@语音 用温柔轻松的语气说一句晚安</code>，完成后播放音频</td>
+</tr>
+<tr>
+<td>唱一小段歌</td>
+<td>发送 <code>@语音 唱一段 20 秒的中文晚安歌</code>，等待本地音乐模型生成</td>
+</tr>
+</tbody></table>
+</div>
+<p>生图、语音和唱歌需要相应服务已配置；普通文字聊天成功不代表媒体服务可用。涉及铁路知识的问题，仍按后文检查资料和引用。</p>
+<p>本机使用结束后，从项目根目录执行：</p>
+<pre><code class="language-powershell">.\tools\scripts\stop-local-project.ps1
+</code></pre>
+<p>该脚本停止项目并关闭配套语音、音乐进程；不会删除业务数据卷。不要把删除数据卷作为日常退出步骤。</p>
+<h2 id="chapter-1" tabindex="-1">1. 先弄清楚：这个系统怎么用</h2>
+<p>你可以把它理解成一个“先翻资料，再回答问题”的铁路知识助手。</p>
+<p>你提供资料，系统把资料整理成可以搜索的小段；提问后，它找到相关段落，再让对话模型组织回答。你最后还要检查回答引用的原文。</p>
+<pre><code class="language-text">准备模型 → 导入资料 → 解析完成 → 检索测试 → 选择知识库提问 → 查看引用
+</code></pre>
+<p>第一次使用，只需要掌握这一条路线。工作流、知识图谱、数据源、聊天渠道都可以后面再学。</p>
+<h3 id="section-1-1" tabindex="-1">1.1 四个最容易混淆的概念</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>界面概念</th>
+<th>用通俗的话解释</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>模型</td>
+<td>负责理解、查找或生成文字的能力</td>
+<td>LLM 负责回答，Embedding 负责把资料变成可检索的数据</td>
+</tr>
+<tr>
+<td>知识库</td>
+<td>一组供助手查询的资料</td>
+<td>“轨知 · 铁路公开规章”</td>
+</tr>
+<tr>
+<td>问答助手</td>
+<td>保存模型、知识库和回答规则的配置</td>
+<td>“轨知 · 安全规章 · …”</td>
+</tr>
+<tr>
+<td>会话</td>
+<td>同一个助手里的一次聊天记录</td>
+<td>“学习安全保护区”“复习实名制规定”</td>
+</tr>
+</tbody></table>
+</div>
+<p><strong>创建助手、创建会话、发送消息是三件不同的事。</strong> 首页的“开始对话”会创建助手并进入聊天页；你在首页填写的问题会带入输入框，还需要确认发送。</p>
+<h3 id="section-1-2" tabindex="-1">1.2 当前适合做的事</h3>
+<ul>
+<li>根据已入库资料查询铁路规章、客运规则和概念。</li>
+<li>找到答案对应的文档片段，回看依据。</li>
+<li>整理课程知识、比较条文、生成待人工核对的学习提纲。</li>
+<li>在有适用手册时，整理设备现象、相关证据和待确认信息。</li>
+</ul>
+<p>当前内置资料没有覆盖具体设备型号的检修手册。系统也没有在铁路问答主路径中接入实时票务或现场设备控制。设备分析结果用于资料查找和分析参考，不能当作现场作业或调度指令。</p>
+<h2 id="chapter-2" tabindex="-1">2. 界面导航：该去哪个页面</h2>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>入口</th>
+<th>你在这里做什么</th>
+<th>第一次是否需要</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>工作台</td>
+<td>选择场景、导入官方资料、查看准备状态、发起铁路问答</td>
+<td>需要</td>
+</tr>
+<tr>
+<td>知识库</td>
+<td>上传自己的文件、检查解析、做检索测试、维护资料</td>
+<td>第二步学习</td>
+</tr>
+<tr>
+<td>铁路问答</td>
+<td>找到已有助手，继续会话、整理历史记录</td>
+<td>需要</td>
+</tr>
+<tr>
+<td>更多</td>
+<td>查看工作流、数据处理流程和编译相关功能</td>
+<td>暂时跳过</td>
+</tr>
+<tr>
+<td>右上角头像 → 模型设置</td>
+<td>配置服务商、模型实例和默认模型</td>
+<td>首次配置需要</td>
+</tr>
+</tbody></table>
+</div>
+<p>窗口较窄时，主导航会收进菜单按钮。设置页在窄屏下可能只显示图标；模型配置和复杂表单建议先在电脑宽屏完成。</p>
+<p>“知识与模型准备”位于工作台提问区，是可展开的区域。如果看不到“导入官方铁路资料”，先展开它。</p>
+<h2 id="chapter-3" tabindex="-1">3. 使用前准备清单</h2>
+<h3 id="section-3-1" tabindex="-1">3.1 普通使用者需要准备什么</h3>
+<ol>
+<li>系统访问地址和登录账号。</li>
+<li>一个可用的默认对话模型，以及一个可用的默认嵌入模型；管理员已配置时无需重复添加。</li>
+<li>想问的问题。如果问设备问题，准备已有的型号、报警记录和适用资料。</li>
+<li>第一次练习优先使用内置公开资料，等跑通后再上传复杂 PDF 或扫描件。</li>
+</ol>
+<p>页面能打开，只证明前端可以显示。完整问答还需要后端、文档处理服务、存储和模型服务都能正常工作。</p>
+<h3 id="section-3-2" tabindex="-1">3.2 访问地址</h3>
+<p>本仓库配置的常用入口如下，部署人员改过端口时以实际地址为准。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>场景</th>
+<th>地址或说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>完整 Docker 部署</td>
+<td>通常为 <a href="http://localhost/">本机 Web 入口</a></td>
+</tr>
+<tr>
+<td>Vite 前端开发</td>
+<td>默认 <a href="http://localhost:9222/">本机开发入口</a>，占用时会自动换端口</td>
+</tr>
+<tr>
+<td>Go API</td>
+<td>默认端口 9380，不是日常聊天页面</td>
+</tr>
+<tr>
+<td>Admin 服务</td>
+<td>默认端口 9381，不是普通用户登录入口</td>
+</tr>
+</tbody></table>
+</div>
+<p>另一台电脑或手机上的 <code>localhost</code> 指向那台设备自己。跨设备访问应使用部署人员提供的地址。</p>
+<h3 id="section-3-3" tabindex="-1">3.3 登录或注册</h3>
+<ol>
+<li>打开系统，进入登录页面。</li>
+<li>已有账号时填写邮箱和密码，点击登录。</li>
+<li>若页面提供注册入口，可填写邮箱、昵称和密码注册。</li>
+<li>若没有注册入口，表示当前配置未开放自助注册，请使用管理员分配的账号。</li>
+<li>登录后确认进入“轨知 RailMind”工作台。</li>
+</ol>
+<p>新账号可能没有旧账号的模型配置、个人知识库或聊天记录。换账号后列表为空，不代表原数据被删除。</p>
+<h2 id="chapter-4" tabindex="-1">4. 配置模型：最先需要做对的一步</h2>
+<h3 id="section-4-1" tabindex="-1">4.1 为什么要两类模型</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>当前页面常见名称</th>
+<th>作用</th>
+<th>初次是否需要</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>对话模型</td>
+<td>LLM</td>
+<td>根据问题和资料生成答案</td>
+<td>需要</td>
+</tr>
+<tr>
+<td>嵌入模型</td>
+<td>Embedding</td>
+<td>把文档和问题转换成可搜索的向量</td>
+<td>导入、检索资料需要</td>
+</tr>
+<tr>
+<td>重排序模型</td>
+<td>Rerank</td>
+<td>对候选资料重新排序</td>
+<td>可以先不配置</td>
+</tr>
+<tr>
+<td>视觉、语音、语音合成等</td>
+<td>依模型类型显示</td>
+<td>处理图片或音频等专门任务</td>
+<td>需要对应任务时再配置</td>
+</tr>
+</tbody></table>
+</div>
+<p>一个服务商不一定同时提供对话与嵌入服务。能聊天的模型不能仅靠改个名称就当嵌入模型使用。</p>
+<h3 id="section-4-2" tabindex="-1">4.2 操作步骤</h3>
+<ol>
+<li>在工作台展开“知识与模型准备”，点击“模型设置”；也可以点击右上角头像进入设置。</li>
+<li>左侧选择你实际使用的服务商。</li>
+<li>没有实例时，右侧会出现待填写的实例卡片；已有实例时，可点击“添加实例”。</li>
+<li>填写实例名称，例如 <code>rail-chat-main</code>。这是你给连接配置起的名字，不是模型的真实 ID。</li>
+<li>按表单填写 API Key、Base URL 或该服务商要求的其他凭据。</li>
+<li>在实例的模型区域点击“模型列表”。若服务商不提供模型列表接口，可通过更多菜单选择“添加自定义模型”。</li>
+<li>核对模型 ID 和类型，启用需要的模型。手动添加时，使用服务商或本地部署实际提供的模型 ID。</li>
+<li>点击实例卡片的保存按钮。没有保存的草稿不能当作配置完成。</li>
+<li>如需验证，在模型区域的更多菜单中使用“验证全部模型”，或使用模型行提供的验证操作。验证可能实际调用模型服务。</li>
+<li>回到左侧“设置默认模型”，为 <code>LLM</code> 和 <code>Embedding</code> 分别选择已保存、已启用的对应模型。</li>
+<li>默认模型选择会提交保存请求；等待请求成功，再刷新页面确认选择仍然存在。</li>
+<li>回到工作台，展开准备区域，确认“对话模型已就绪”和“嵌入模型已就绪”。</li>
+</ol>
+<p>“已就绪”在工作台主要表示已取得默认模型 ID，并不等于每次调用都能成功。真实可用性还要通过资料解析和一次问答确认。</p>
+<h3 id="section-4-3" tabindex="-1">4.3 当前为什么看不到某个服务商</h3>
+<p>当前模型侧栏只展示代码允许列表与后端返回列表的交集，允许列表包括 DeepSeek、GLM / 智谱、自定义 / OpenAI 兼容、讯飞 / Spark、阿里云 / 通义千问、小米 / MiMo。其他服务商即使在底层配置中存在，也不一定有当前页面入口。</p>
+<p>若服务确实支持对应的 OpenAI 兼容协议，可以使用“自定义 / OpenAI 兼容”。这不代表所有服务都能通过这个入口接入；需要核对它提供的接口和模型类型。</p>
+<h3 id="section-4-4" tabindex="-1">4.4 字段怎样填才不容易出错</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>字段</th>
+<th>应填写的内容</th>
+<th>常见误填</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>实例名称</td>
+<td>自己取的易识别名称</td>
+<td>把密钥填在这里</td>
+</tr>
+<tr>
+<td>API Key</td>
+<td>当前服务商签发的访问密钥</td>
+<td>复制了其他服务商的密钥，或只复制到一部分</td>
+</tr>
+<tr>
+<td>Base URL</td>
+<td>服务商说明中的 API 基地址</td>
+<td>填成网站首页，或者随意追加完整聊天接口路径</td>
+</tr>
+<tr>
+<td>模型 ID</td>
+<td>API 实际支持的标识</td>
+<td>填成宣传名称或实例名称</td>
+</tr>
+<tr>
+<td>模型类型</td>
+<td>Chat、Embedding、Rerank 等真实能力</td>
+<td>把 Chat 误设成 Embedding</td>
+</tr>
+</tbody></table>
+</div>
+<p>本说明不固定推荐某个商业模型和价格。先使用你已有权限的服务，确认对话、嵌入各一项可用，再做质量比较。</p>
+<p>如果 Go 后端运行在 Docker 内，本地模型服务运行在 Windows 宿主机，容器里的 <code>localhost</code> 通常不是 Windows 宿主机。当前 Compose 已配置 <code>host.docker.internal</code>，部署人员可据此核对连接地址、监听地址和防火墙。</p>
+<h2 id="chapter-5" tabindex="-1">5. 第一次完整操作：用内置资料完成一次问答</h2>
+<p>这一节的目标是得到一条可以回看依据的回答，不需要预先研究全部设置。</p>
+<h3 id="section-5-1" tabindex="-1">步骤一：导入资料</h3>
+<ol>
+<li>回到“工作台”。</li>
+<li>展开“知识与模型准备”。</li>
+<li>确认嵌入模型已配置；否则导入按钮不可用。</li>
+<li>点击“导入官方铁路资料”。</li>
+<li>观察“准备个人铁路知识库”“正在上传”等进度提示。</li>
+</ol>
+<p>系统会创建或复用当前用户拥有的“轨知 · 铁路公开规章”知识库，并上传项目自带的资料文件、提交解析任务。这里的“导入”读取本项目打包的存档，不是点击后实时去官方网站下载最新规章。</p>
+<h3 id="section-5-2" tabindex="-1">步骤二：等待解析</h3>
+<p>展开“查看资料解析状态”。不要只看“已上传”就开始判断问答效果。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>状态</th>
+<th>含义</th>
+<th>你要做什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>待解析</td>
+<td>文件已存在，但尚未处理</td>
+<td>对内置资料可重试导入；自有文件可在文件列表执行解析</td>
+</tr>
+<tr>
+<td>已排队</td>
+<td>解析任务已提交，等待处理</td>
+<td>等待；长时间不动时让维护人员检查任务服务</td>
+</tr>
+<tr>
+<td>解析中</td>
+<td>正在处理文档</td>
+<td>等待，不要连续重复提交</td>
+</tr>
+<tr>
+<td>已完成</td>
+<td>本次解析流程结束</td>
+<td>还要确认存在片段，再做检索测试</td>
+</tr>
+<tr>
+<td>解析失败</td>
+<td>任务遇到错误</td>
+<td>读取失败信息，修正原因后重试</td>
+</tr>
+<tr>
+<td>已取消 / 正在停止</td>
+<td>任务被取消或正在停止</td>
+<td>等停止完成后决定是否重新解析</td>
+</tr>
+</tbody></table>
+</div>
+<p>当前工作台的开始条件是：默认对话模型存在、已选择知识库、知识库有片段，并且至少一份文档处于完成状态且片段数大于 0。一次完整演示建议等计划使用的资料全部完成，避免只在部分资料里检索。</p>
+<h3 id="section-5-3" tabindex="-1">步骤三：选择场景和资料范围</h3>
+<ol>
+<li>选择“安全规章”。</li>
+<li>在“资料范围”下拉框中确认选中“轨知 · 铁路公开规章”。</li>
+<li>输入下面的问题，或点击当前场景显示的“试着问”。</li>
+</ol>
+<pre><code class="language-text">请根据知识库解释铁路线路安全保护区的概念，并标出依据。
+如果资料存在适用条件，请分别说明；不要推断未提供的现场情况。
+</code></pre>
+<p>工作台可能自动选中一个已有知识库，因此每次换场景都应看一眼资料范围。选择场景不会自动帮你补齐该场景需要的专业资料。</p>
+<h3 id="section-5-4" tabindex="-1">步骤四：进入聊天并确认发送</h3>
+<ol>
+<li>点击“开始对话”。工作台支持 <code>Ctrl + Enter</code>；Mac 可用 <code>Command + Enter</code>。</li>
+<li>系统创建助手并进入聊天页。</li>
+<li>检查输入框中已带入的问题。</li>
+<li>点击聊天页的发送按钮，等待回答。</li>
+</ol>
+<p><strong>进入聊天页后没有立即出现回答，先检查问题是否还在输入框。当前首页流程只带入问题，不自动发送。</strong></p>
+<h3 id="section-5-5" tabindex="-1">步骤五：检查依据</h3>
+<ol>
+<li>阅读回答中的引用标记和参考资料。</li>
+<li>点击引用关联的文档或片段，打开资料查看区域。</li>
+<li>核对原文是否支持回答的关键结论。</li>
+<li>注意适用范围、资料名称和版本说明。Markdown 存档不一定有原始 PDF 页码，不要求每种文件都能精确跳页。</li>
+<li>如果只是文档主题相近，原文没有支持具体结论，这条回答仍应标记为需要复核。</li>
+</ol>
+<h3 id="section-5-6" tabindex="-1">第一次使用的完成标准</h3>
+<ul>
+<li>能登录。</li>
+<li>默认对话模型和嵌入模型均已配置。</li>
+<li>至少一份文档解析完成且有片段。</li>
+<li>能发出问题并收到响应。</li>
+<li>能打开相关来源，判断回答是否有依据。</li>
+</ul>
+<p>满足这些条件，才算跑通最小使用流程。回答流畅、界面显示正常，都不能单独证明检索和引用正确。</p>
+<h2 id="chapter-6" tabindex="-1">6. 内置的六份资料是什么</h2>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>资料名称</th>
+<th>适合先尝试的问题方向</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>铁路安全管理条例</td>
+<td>铁路安全责任、安全保护区等概念</td>
+</tr>
+<tr>
+<td>铁路交通事故应急救援和调查处理条例</td>
+<td>救援职责与调查职责的区别</td>
+</tr>
+<tr>
+<td>铁路旅客运输规程</td>
+<td>旅客运输合同和一般规则</td>
+</tr>
+<tr>
+<td>铁路旅客运输安全检查管理办法</td>
+<td>安检中的责任、权利与义务</td>
+</tr>
+<tr>
+<td>铁路旅客车票实名制管理办法</td>
+<td>实名制规则及适用条件</td>
+</tr>
+<tr>
+<td>铁路设备质量安全监督管理办法</td>
+<td>设备质量监督、报告和追溯</td>
+</tr>
+</tbody></table>
+</div>
+<p>本地清单记录的发布网站为国家铁路局，采集日期为 2026 年 10 月 12 日。工作台“官方资料”区域可以查看原始来源链接和采集日期。采集日期表示存档时间，不表示生效日期或今天仍然适用的证明。</p>
+<p>重新点击导入会按文件名跳过已有文件，并对未开始、失败或已停止的相关任务尝试提交解析；不会自动替换同名文件中的旧正文。已经更新了本地资料包时，应由资料维护人员核对版本后更新库内文件，再重新解析。</p>
+<h2 id="chapter-7" tabindex="-1">7. 上传你自己的资料</h2>
+<h3 id="section-7-1" tabindex="-1">7.1 先决定怎样分库</h3>
+<p>初期可以按用途建立少量知识库：</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>建议库名</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>铁路公开规章</td>
+<td>经核对的公开规章资料</td>
+</tr>
+<tr>
+<td>某课程教学资料</td>
+<td>讲义、术语、练习材料</td>
+</tr>
+<tr>
+<td>某设备型号技术资料</td>
+<td>该型号的适用说明书、报警说明、维修资料</td>
+</tr>
+<tr>
+<td>脱敏故障案例</td>
+<td>经授权、去除不必要个人信息的案例记录</td>
+</tr>
+</tbody></table>
+</div>
+<p>这些名称是组织建议，不是系统自动生成的固定模块。初期不把多个不同型号、不同版本的手册全部混进同一个库。</p>
+<h3 id="section-7-2" tabindex="-1">7.2 创建知识库</h3>
+<ol>
+<li>点击主导航“知识库”。</li>
+<li>点击“创建知识库”。</li>
+<li>填写一个能说明主题的名称。</li>
+<li>选择已启用的 Embedding 模型。</li>
+<li>选择内置解析方式。初次用普通文字、Markdown 或结构清楚的文档时，可先用“通用”；复杂表格、图片或手册再按文件特点选择。</li>
+<li>保存并进入知识库。</li>
+</ol>
+<p>初次不必创建自定义数据处理流程。后续只在实际解析结果不满足需求时调整。</p>
+<h3 id="section-7-3" tabindex="-1">7.3 上传与解析</h3>
+<ol>
+<li>在知识库左侧选择“文件列表”。</li>
+<li>点击添加文件按钮，在菜单中选择“上传文件”。</li>
+<li>选择文件。</li>
+<li>若希望上传后立即处理，打开“创建时解析”。<strong>当前上传弹窗默认关闭这个选项。</strong></li>
+<li>提交上传，回到文件列表。</li>
+<li>如果未启用自动解析，勾选文件，使用“解析”操作。</li>
+<li>等待完成，检查片段数和日志。</li>
+</ol>
+<p>文件格式能否处理，还取决于所选解析方式及对应模型是否已配置。页面提示缺少解析能力或模型时，先补齐配置，再运行；不要把“上传成功”理解为所有文件都已成功进入检索。</p>
+<p>第一次建议先上传一份结构清楚的小文档。它成功后，再分批导入扫描件、复杂表格和大文件，便于定位问题。</p>
+<h3 id="section-7-4" tabindex="-1">7.4 怎样检查解析结果</h3>
+<p>进入文件对应的片段或解析结果页面，至少抽查以下内容：</p>
+<ul>
+<li>标题与正文有没有混在一起。</li>
+<li>条款编号、否定词、数字和单位有没有错。</li>
+<li>表格中的设备名称、参数和值是否仍能对应。</li>
+<li>跨页内容有没有断裂或重复。</li>
+<li>OCR 文本是否出现明显乱码。</li>
+<li>文件显示完成，但片段是否为 0。</li>
+</ul>
+<p>若原始资料就缺页或无法辨认，换模型通常不能恢复缺失内容。先修正资料来源和质量。</p>
+<h3 id="section-7-5" tabindex="-1">7.5 修改解析设置后要注意什么</h3>
+<p>知识库左侧的分块设置页面用于配置解析方式及相关参数。当前页面支持保存设置，并在适用时提示是否应用到已有文档。</p>
+<p>保存配置、把配置应用到已有文档、重新解析，是需要分别检查的环节。完成调整后应确认相关文档重新处理成功，再做检索测试；不要假设保存设置会立即重算所有旧片段。</p>
+<p>已有片段时，当前界面的 Embedding 选择会被禁用。如果要换嵌入模型，建议建立新知识库、重新上传和解析原始资料，验证后再切换助手绑定。不要为了切换模型直接清空唯一的数据副本。</p>
+<h3 id="section-7-6" tabindex="-1">7.6 怎样维护版本</h3>
+<p>建议文件名包含主题、型号和版本，例如 <code>设备A_报警说明_教学版_2026-11.md</code>；正文开头保留来源、适用范围和版本信息。能使用文档元数据时，也把这些信息写入元数据。</p>
+<p>本项目有通用元数据和过滤能力，但没有因此自动完成“规章有效性审查”。正式使用哪些版本，仍需要资料负责人确认。</p>
+<h2 id="chapter-8" tabindex="-1">8. 检索测试：答不对时先查这一页</h2>
+<p>检索测试只检查“有没有找到合适的资料片段”，不要把它与完整问答混为一谈。上游官方入门流程也先做检索测试再创建问答，但本项目按钮与布局以本地界面为准。<a href="https://ragflow.io/docs">RAGFlow 官方入门说明</a></p>
+<h3 id="section-8-1" tabindex="-1">8.1 操作步骤</h3>
+<ol>
+<li>打开目标知识库。</li>
+<li>选择左侧“检索测试”。</li>
+<li>先输入一条你确认能在原文找到答案的问题。</li>
+<li>保持默认检索参数，点击“运行”。</li>
+<li>查看返回片段及其来源文档。</li>
+<li>对照原文，记录是否命中真正支持答案的内容。</li>
+</ol>
+<h3 id="section-8-2" tabindex="-1">8.2 怎样理解结果</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>结果</th>
+<th>优先检查</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>没有片段</td>
+<td>文档是否完成、是否启用、是否有片段、资料是否真的包含答案、过滤条件是否过严</td>
+</tr>
+<tr>
+<td>有片段，但主题不对</td>
+<td>问题表述、知识库选择、资料质量、切分质量、检索参数</td>
+</tr>
+<tr>
+<td>有正确片段，但聊天仍答错</td>
+<td>助手绑定、对话模型、提示配置、上下文和引用组织</td>
+</tr>
+<tr>
+<td>原文正确，但片段数字错</td>
+<td>OCR、表格解析或切分结果</td>
+</tr>
+<tr>
+<td>同一问题命中多个版本</td>
+<td>资料版本和适用范围整理、过滤条件</td>
+</tr>
+</tbody></table>
+</div>
+<h3 id="section-8-3" tabindex="-1">8.3 参数用最少的方式理解</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>含义</th>
+<th>初学者怎么做</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>相似度阈值</td>
+<td>控制哪些候选片段能够进入结果</td>
+<td>先不改；漏检时小幅调整并重复同一组题目</td>
+</tr>
+<tr>
+<td>关键词相似度权重</td>
+<td>控制字面匹配与向量匹配的组合</td>
+<td>报警代码、型号类问题注意精确词是否命中</td>
+</tr>
+<tr>
+<td>返回数量 / Top N</td>
+<td>取多少片段供显示或回答使用</td>
+<td>保持默认起步；越大不一定越准</td>
+</tr>
+<tr>
+<td>重排序候选数量</td>
+<td>送去重新排序的候选范围</td>
+<td>与返回数量配合使用；数量增大可能增加耗时</td>
+</tr>
+<tr>
+<td>Rerank</td>
+<td>进一步排列相关资料</td>
+<td>先确认普通检索有效，再比较它的实际收益</td>
+</tr>
+<tr>
+<td>元数据过滤</td>
+<td>按文档属性限定范围</td>
+<td>属性确实存在且值正确时再使用</td>
+</tr>
+</tbody></table>
+</div>
+<p>相似度分数不是“答案正确概率”。每次只改一个参数，用固定问题比较结果，不能因为一题变好就断定所有问题都改善。</p>
+<h2 id="chapter-9" tabindex="-1">9. 四种场景怎样提问</h2>
+<h3 id="section-9-1" tabindex="-1">9.1 安全规章</h3>
+<p>适合查规定、概念和职责。尽量说明想了解哪类对象、哪份资料，不要求系统代替现场判断。</p>
+<pre><code class="language-text">请根据当前知识库，整理“铁路安全隐患报告责任”的相关规定。
+按“责任主体、资料支持的要求、依据、仍需核对的适用条件”回答。
+没有找到依据的内容请直接说明。
+</code></pre>
+<h3 id="section-9-2" tabindex="-1">9.2 客运服务</h3>
+<p>适合查资料中的一般规则。实时余票、价格、当日时刻、退改签办理结果，需要在实际业务渠道核对。</p>
+<pre><code class="language-text">请根据已导入的旅客运输和实名制资料，解释儿童乘车的相关实名制要求。
+列明原文依据和适用条件，并说明本次回答未查询实时票务信息。
+</code></pre>
+<h3 id="section-9-3" tabindex="-1">9.3 设备分析</h3>
+<p>选择“设备分析”后，工作台会出现以下字段：</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>字段</th>
+<th>怎样填写</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>设备型号</td>
+<td>按已有铭牌记录或文件填写，不知道就留空</td>
+</tr>
+<tr>
+<td>报警代码或提示</td>
+<td>尽量抄录原始文字，保留字母、数字和大小写</td>
+</tr>
+<tr>
+<td>发生位置</td>
+<td>填已有记录中的位置，可使用教学或脱敏标识</td>
+</tr>
+<tr>
+<td>发生时间</td>
+<td>按使用者当地时间填写</td>
+</tr>
+</tbody></table>
+</div>
+<p>这些字段会组装进待发送的问题，并非创建独立设备台账或维修工单。</p>
+<pre><code class="language-text">这是教学案例。某设备出现间歇性报警，具体记录见上面的背景字段。
+请只依据所选知识库整理：已知现象、资料支持的可能原因、
+尚不能确认的判断、还需要补充的信息，并给出引用。
+如果没有适用型号的手册，请说明无法判断，不编造参数。
+</code></pre>
+<p>如果选的仍是公开规章库，它通常无法回答具体设备复位参数和检修细节。此时提示资料不足是合理结果，下一步是补充适用资料。</p>
+<h3 id="section-9-4" tabindex="-1">9.4 学习培训</h3>
+<pre><code class="language-text">请根据知识库做一份“铁路事故应急救援与事故调查职责”的学习提纲。
+分成概念、职责对比、易混点和三个自测问题。
+自测题的参考答案请附资料依据，假设案例要明确标注。
+</code></pre>
+<p>当前是通过问答帮助学习。独立的考试、成绩统计、错题本和班级管理不应当作已经交付的功能。</p>
+<h2 id="chapter-10" tabindex="-1">10. 管理助手和聊天记录</h2>
+<h3 id="section-10-1" tabindex="-1">10.1 继续使用已有助手</h3>
+<ol>
+<li>点击“铁路问答”。</li>
+<li>在助手列表里找到之前由工作台创建的助手。</li>
+<li>点击卡片进入。</li>
+<li>在左侧选择旧会话继续提问，或通过加号创建新会话。</li>
+</ol>
+<p>手机上的会话列表由会话按钮打开。讨论不同案例时建议新建会话，避免上下文互相影响。</p>
+<h3 id="section-10-2" tabindex="-1">10.2 不要每次都创建一个新助手</h3>
+<p>当前工作台每点一次“开始对话”都会创建一个新助手，名称包含场景和随机标识。如果模型、资料范围和用途没变化，日常使用可以进入已有助手，再创建会话。</p>
+<p>助手卡片的更多菜单可以用于重命名等管理操作。可以命名为“安全规章学习助手”或“设备A教学助手”，便于以后找到。</p>
+<h3 id="section-10-3" tabindex="-1">10.3 从列表新建铁路问答</h3>
+<p>“铁路问答”列表页顶部和空列表中的“新建铁路问答”都进入工作台，并将焦点移到问题输入框。浏览器返回按钮可以回到列表。</p>
+<ol>
+<li>选择安全规章、客运服务、设备分析或学习培训场景。</li>
+<li>核对默认对话模型和知识库，确保至少有一份已完成解析且有可检索片段的资料。</li>
+<li>填写问题；设备分析场景可补充设备背景。</li>
+<li>点击“开始对话”创建助手，进入聊天页核对预填内容后再发送。创建不会自动发送问题。</li>
+</ol>
+<p>创建失败时，工作台会保留场景、资料范围和已填写内容，修复问题后可以重试。服务端也会检查场景、模型和资料状态，避免页面显示就绪后资料状态变化仍创建无资料的铁路助手。</p>
+<p>助手卡片根据保存的领域和场景显示分类。单纯给通用助手起一个铁路名称，不会启用铁路领域规则；已有通用助手仍显示为“知识问答”。</p>
+<h3 id="section-10-4" tabindex="-1">10.4 修改助手配置</h3>
+<ol>
+<li>进入助手，点击聊天区域右侧的齿轮按钮。</li>
+<li>在“聊天设置”中核对名称、对话模型、知识库。</li>
+<li>按需要修改，并点击底部保存。</li>
+<li>建立新会话，用同一个测试问题验证效果。</li>
+</ol>
+<p>当前通用设置界面仍可能显示提示词、引用、联网等选项。但对带铁路标记的助手，Go 请求处理会固定铁路系统提示、引用和无依据回复，并关闭该路径的联网选项。界面允许修改，并不代表这些修改会改变铁路模式的实际行为。</p>
+<p>初学者先只管理名称、模型和知识库；检索参数通过固定问题逐项比较。研究模式及复杂配置应在完成基础流程后，由维护人员针对实际后端路径验证。</p>
+<h3 id="section-10-5" tabindex="-1">10.5 反馈与删除</h3>
+<p>回答操作区提供反馈等操作。反馈时最好写清楚“哪句话、哪份资料、为什么有问题”，例如：</p>
+<pre><code class="language-text">问题：……
+需要复核的回答原句：……
+引用的文档与片段：……
+原文实际内容：……
+问题类型：资料缺失 / 检索错误 / 引用不支持 / 回答越界 / 其他
+</code></pre>
+<p>点不满意不会自动训练模型或修正知识库。资料维护人员仍需定位原因、修改资料或配置并重新验证。</p>
+<p>删除会话或助手前，确认没有需要保留的学习记录。不要把删除当成解决模型调用失败或解析失败的第一步。</p>
+<h2 id="chapter-11" tabindex="-1">11. 进阶功能总览与阅读路线</h2>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>适用情况</th>
+<th>先完成什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>知识成果</td>
+<td>查看处理流程生成的 Wiki、结构图等整理结果，详见第 19 章</td>
+<td>文档解析和基础检索有效；相关生成配置可用</td>
+</tr>
+<tr>
+<td>数据处理流程</td>
+<td>文件类型复杂，需要定制解析与处理步骤</td>
+<td>先证明默认解析不能满足目标</td>
+</tr>
+<tr>
+<td>工作流</td>
+<td>任务需要多步处理、条件分支或工具组合</td>
+<td>基础问答已稳定；工具权限和输出经过验证</td>
+</tr>
+<tr>
+<td>编译相关配置</td>
+<td>定制知识整理产物</td>
+<td>理解输入资料和预期成果，并检查额外模型调用</td>
+</tr>
+<tr>
+<td>数据源</td>
+<td>周期性同步外部资料</td>
+<td>先通过手动上传验证资料质量和检索效果</td>
+</tr>
+<tr>
+<td>聊天渠道</td>
+<td>从外部渠道访问助手</td>
+<td>先完成浏览器内测试和访问控制验证</td>
+</tr>
+</tbody></table>
+</div>
+<p>知识成果不是上传后必然已有的内容；它由配置了知识编译器的处理流程生成，查看成果页不会开始生成。详细步骤和子选项见第 19～24 章。当前侧栏、路由和开源能力与通用 RAGFlow 教程并不完全相同，找不到团队、MCP、API 或独立搜索入口时，可先查第 25 章确认当前入口范围。</p>
+<h2 id="chapter-12" tabindex="-1">12. 常见问题与排查顺序</h2>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>现象</th>
+<th>先检查</th>
+<th>下一步</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>网页打不开</td>
+<td>地址、实际端口、前端和 Docker 是否启动</td>
+<td>由部署人员检查服务状态</td>
+</tr>
+<tr>
+<td>网页能打开但登录失败</td>
+<td>账号密码、注册是否开放、API 是否可达</td>
+<td>查看登录请求错误，不要只重启浏览器</td>
+</tr>
+<tr>
+<td>导入按钮灰色</td>
+<td>默认 Embedding 是否已选择</td>
+<td>到模型设置完成配置</td>
+</tr>
+<tr>
+<td>“开始对话”灰色</td>
+<td>默认 LLM、知识库选择、完成状态、片段数</td>
+<td>展开“知识与模型准备”逐项检查</td>
+</tr>
+<tr>
+<td>导入提示完整性校验失败</td>
+<td>当前静态文件是否与资料清单匹配</td>
+<td>由维护人员重新核对文件和 SHA-256，不绕过校验</td>
+</tr>
+<tr>
+<td>“当前环境不支持资料完整性校验”</td>
+<td>当前地址是否支持浏览器安全上下文</td>
+<td>非本机 HTTP 访问可请部署人员配置 HTTPS</td>
+</tr>
+<tr>
+<td>文件上传了却一直待解析</td>
+<td>是否开启“创建时解析”</td>
+<td>在文件列表执行解析</td>
+</tr>
+<tr>
+<td>一直排队</td>
+<td>ingestor、NATS、任务状态和服务日志</td>
+<td>让维护人员定位；不要连续重复导入</td>
+</tr>
+<tr>
+<td>解析失败</td>
+<td>文档日志、嵌入模型、解析模型、存储或索引错误</td>
+<td>针对错误修正后重试</td>
+</tr>
+<tr>
+<td>已完成但片段数为 0</td>
+<td>空文件、提取结果、解析方式</td>
+<td>抽查原文与解析产物</td>
+</tr>
+<tr>
+<td>提示资料不足</td>
+<td>所选库是否真的含答案</td>
+<td>先做检索测试，缺资料就补资料</td>
+</tr>
+<tr>
+<td>配置了模型却无法选择</td>
+<td>模型是否保存、启用、类型正确</td>
+<td>返回实例模型列表确认</td>
+</tr>
+<tr>
+<td>模型报 401 / 403</td>
+<td>密钥、权限和服务商设置</td>
+<td>由配置人员核对凭据；不要在反馈里粘贴密钥</td>
+</tr>
+<tr>
+<td>模型报 429 / 超时</td>
+<td>服务商限额、并发、网络、输入长度</td>
+<td>稍后重试并查看服务端错误</td>
+</tr>
+<tr>
+<td>首页进入聊天后没回答</td>
+<td>问题是否还在输入框</td>
+<td>确认内容并点击发送</td>
+</tr>
+<tr>
+<td>改了系统提示词却没生效</td>
+<td>是否为铁路专用助手</td>
+<td>该模式的部分规则由后端固定</td>
+</tr>
+<tr>
+<td>引用了资料但答案仍不对</td>
+<td>引用是否逐项支持结论</td>
+<td>记录错误并检查检索和生成环节</td>
+</tr>
+<tr>
+<td>换了模型，旧库表现异常</td>
+<td>改的是聊天模型还是嵌入模型</td>
+<td>嵌入模型变更要重新建立一致的索引</td>
+</tr>
+<tr>
+<td>修改源码后页面没变</td>
+<td>浏览器访问的是 Vite 还是旧镜像</td>
+<td>部署正确版本后再检查缓存</td>
+</tr>
+<tr>
+<td>教程说有某个菜单但没有</td>
+<td>教程与当前定制版本是否一致</td>
+<td>按本文导航表确认当前入口</td>
+</tr>
+</tbody></table>
+</div>
+<p>建议按这个顺序排查，避免一次改很多设置：</p>
+<pre><code class="language-text">能否访问服务？
+  → 模型是否可调用？
+  → 文档是否解析完成并有片段？
+  → 检索测试能否找到正确原文？
+  → 助手是否绑定该知识库？
+  → 模型回答是否正确使用证据？
+</code></pre>
+<h2 id="chapter-13" tabindex="-1">13. 给部署维护人员的简明附录</h2>
+<p>以下是当前仓库配置的核对方式，不是本次已成功运行的记录。普通使用者可以跳过。</p>
+<h3 id="section-13-1" tabindex="-1">13.1 启动前核对</h3>
+<ul>
+<li>Docker Desktop 已启动，且当前使用 Linux 容器引擎。</li>
+<li><code>docker/.env</code> 中的镜像、端口和依赖配置符合当前环境。</li>
+<li>Compose 引用了 <code>.env.local</code>，确认该文件由部署人员正确准备。</li>
+<li>当前配置中的主镜像名为 <code>ragflow:railmind-v1.0.0</code>，这是本地定制标签，不保证公共仓库存在。镜像缺失时应先取得或构建与代码对应的镜像。</li>
+</ul>
+<h3 id="section-13-2" tabindex="-1">13.2 常用命令</h3>
+<p>当前已配置的 Windows 本机应使用配套启动脚本，以同时管理语音和音乐服务。在项目根目录执行：</p>
+<pre><code class="language-powershell">.\tools\scripts\start-local-project.ps1
+</code></pre>
+<p>仅检查 Docker 状态时，在项目根目录执行：</p>
+<pre><code class="language-powershell">docker version
+docker compose --env-file docker/.env -f docker/docker-compose.yml config --services
+docker compose --env-file docker/.env -f docker/docker-compose.yml ps
+</code></pre>
+<p>开发前端时，在另一个终端执行；依赖已正确安装时可直接运行开发命令：</p>
+<pre><code class="language-powershell">Set-Location D:\ragflow\web
+npm ci
+npm run dev
+</code></pre>
+<p>Vite 默认把 <code>/api</code>、<code>/v1</code> 转到本机 9380，把 <code>/api/v1/admin</code> 转到 9381。如果修改后端端口，代理目标也要保持一致。以终端实际显示的前端地址为准。</p>
+<p>API 只读探测示例：</p>
+<pre><code class="language-powershell">Invoke-RestMethod http://localhost/api/v1/system/healthz
+Invoke-RestMethod http://127.0.0.1:18880/health
+Invoke-RestMethod http://127.0.0.1:18881/health
+</code></pre>
+<p>后两个地址分别检查本机语音和音乐服务。关闭本机项目使用 <code>.\tools\scripts\stop-local-project.ps1</code>。完整准备条件见 <a href="ai-local-startup-guide.md">本地启动说明</a> 和 <a href="chat-media-local.md">本地媒体说明</a>；排错时不要把含有真实密钥的配置或完整日志发到公开仓库。</p>
+<p>健康接口通过后，还应实际验证上传、解析、检索和问答。服务能响应不代表整条链路可用。</p>
+<h3 id="section-13-3" tabindex="-1">13.3 数据保存与维护</h3>
+<p>停止服务时使用保留数据的操作，不把删除数据卷当作常规排错步骤。备份至少覆盖业务数据库、原始文件、检索索引或可重建材料、模型与应用配置；恢复时要验证它们属于同一个一致的版本。</p>
+<p>Docker 数据卷独立于容器生命周期，镜像也不等于数据库备份。备份要做恢复演练，不能只检查压缩包是否生成。<a href="https://docs.docker.com/engine/storage/volumes/">Docker 数据卷文档</a></p>
+<p>Go 修改的测试和构建统一遵循仓库 <code>build.sh</code> 与 AGENTS 指引；不要因缺少原生库而切回 Python 服务。部署入口与历史验证见<a href="railway-agent.md">铁路智能体说明</a>，其中镜像名、路径和环境假设须与当前配置核对。</p>
+<h2 id="chapter-14" tabindex="-1">14. 可以直接照做的学习与演示安排</h2>
+<h3 id="section-14-1" tabindex="-1">14.1 第一天：只完成三个练习</h3>
+<ol>
+<li><strong>规章查询</strong>：导入公开资料，问一条保护区概念问题，打开引用。</li>
+<li><strong>资料不足</strong>：问库里没有的某型号报警参数，观察是否明确说明依据不足。</li>
+<li><strong>自有文档</strong>：建一个教学资料库，上传一份小文档，解析后用原文中的信息做检索测试。</li>
+</ol>
+<p>完成后，应能解释“为什么不能跳过解析”和“为什么找不到资料时不应强迫模型给结论”。</p>
+<h3 id="section-14-2" tabindex="-1">14.2 十分钟演示脚本</h3>
+<p>演示前完成模型配置和资料解析，不把现场等待大文件解析算入演示时长。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>时间安排</th>
+<th>展示动作</th>
+<th>要说明的价值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第 1 分钟</td>
+<td>工作台、四个场景</td>
+<td>项目面向哪些铁路知识任务</td>
+</tr>
+<tr>
+<td>第 2～3 分钟</td>
+<td>打开资料库和已完成文件</td>
+<td>答案有具体资料基础</td>
+</tr>
+<tr>
+<td>第 4～5 分钟</td>
+<td>提问并打开原文引用</td>
+<td>结论可以回查</td>
+</tr>
+<tr>
+<td>第 6～7 分钟</td>
+<td>展示资料不足问题</td>
+<td>系统应说明能力和证据边界</td>
+</tr>
+<tr>
+<td>第 8～9 分钟</td>
+<td>展示设备背景字段、选择适用手册库</td>
+<td>专业问题需要明确上下文</td>
+</tr>
+<tr>
+<td>第 10 分钟</td>
+<td>展示一条真实反馈与改进记录</td>
+<td>说明如何持续提高质量</td>
+</tr>
+</tbody></table>
+</div>
+<p>没有适用设备手册时，设备场景只展示记录和澄清，不演示成已经验证的自动诊断。</p>
+<h3 id="section-14-3" tabindex="-1">14.3 个人使用记录模板</h3>
+<pre><code class="language-text">日期：
+使用场景：
+知识库与资料版本：
+对话模型 / 嵌入模型：
+问题原文：
+是否检索到相关资料：
+回答是否有引用：
+引用是否支持关键结论：
+存在的问题：
+下一次只调整的一项内容：
+</code></pre>
+<h2 id="chapter-15" tabindex="-1">15. 本说明的核对依据</h2>
+<p>下列文件用于维护人员回查当前行为；普通用户不需要阅读代码。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>说明内容</th>
+<th>本地依据</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>导航与当前页面入口</td>
+<td><a href="../web/src/layouts/components/global-navbar.tsx">主导航</a>、<a href="../web/src/routes.tsx">路由</a></td>
+</tr>
+<tr>
+<td>工作台按钮、场景和状态</td>
+<td><a href="../web/src/pages/home/index.tsx">工作台</a>、<a href="../web/src/pages/home/use-railway-workbench.ts">就绪条件</a></td>
+</tr>
+<tr>
+<td>官方导入与铁路助手创建</td>
+<td><a href="../web/src/services/railway-service.ts">铁路服务</a></td>
+</tr>
+<tr>
+<td>问题带入后需要发送</td>
+<td><a href="../web/src/pages/next-chats/hooks/use-send-chat-message.ts">聊天发送逻辑</a></td>
+</tr>
+<tr>
+<td>列表页统一创建入口</td>
+<td><a href="../web/src/pages/next-chats/index.tsx">铁路问答列表</a>、<a href="../web/src/pages/home/index.tsx">工作台</a></td>
+</tr>
+<tr>
+<td>模型入口、保存与默认选择</td>
+<td><a href="../web/src/pages/user-setting/setting-model/index.tsx">模型页面</a>、<a href="../web/src/pages/user-setting/setting-model/layout/system-setting.tsx">默认模型</a></td>
+</tr>
+<tr>
+<td>上传默认不自动解析</td>
+<td><a href="../web/src/components/file-upload-dialog/index.tsx">上传弹窗</a>、<a href="../web/src/pages/dataset/dataset/use-upload-document.ts">上传处理</a></td>
+</tr>
+<tr>
+<td>检索测试参数</td>
+<td><a href="../web/src/pages/dataset/testing/testing-form.tsx">检索测试表单</a></td>
+</tr>
+<tr>
+<td>铁路请求级规则与空证据处理</td>
+<td><a href="../internal/service/railway_chat.go">铁路策略</a>、<a href="../internal/service/chat_pipeline.go">聊天主流程</a></td>
+</tr>
+<tr>
+<td>存档名称、来源和采集日期</td>
+<td><a href="../web/public/railway/manifest.json">资料清单</a></td>
+</tr>
+<tr>
+<td>已有待评测问题</td>
+<td><a href="../web/public/railway/evaluation.json">12 道评测题</a></td>
+</tr>
+</tbody></table>
+</div>
+<p>资料清单提供 SHA-256，可用于比较存档文件是否完整一致；文件完整性不证明资料现行有效或模型回答正确。</p>
+<h2 id="chapter-16" tabindex="-1">16. 工作台：每个区域是干什么的</h2>
+<h3 id="section-16-1" tabindex="-1">16.1 场景选择：改变这次问题的背景</h3>
+<p><strong>用途：</strong> 告诉助手你正在做哪类任务，帮助组织提问和回答要求。场景不等于四套独立模型，也不会自动补全缺失的专业资料。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>什么时候选</th>
+<th>可以这样问</th>
+<th>看什么结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>安全规章</td>
+<td>查询规定、责任、概念、适用条件</td>
+<td>“按责任主体整理隐患报告要求，附依据”</td>
+<td>引用是否来自有关规章，条件是否完整</td>
+</tr>
+<tr>
+<td>客运服务</td>
+<td>学习乘车、安检、实名制等资料内容</td>
+<td>“对比实名制与安全检查的要求”</td>
+<td>不把一般规定说成实时办理结果</td>
+</tr>
+<tr>
+<td>设备分析</td>
+<td>已有现象记录和适用设备资料，需要查找依据</td>
+<td>“只按 A1 教学手册整理报警的已知信息和待查项”</td>
+<td>是否匹配型号；无手册时明确说明不足</td>
+</tr>
+<tr>
+<td>学习培训</td>
+<td>做提纲、概念对比、案例讨论、自测题</td>
+<td>“生成三道练习题并附参考依据”</td>
+<td>题目和答案可回查；假设案例有标记</td>
+</tr>
+</tbody></table>
+</div>
+<p><strong>操作：</strong> 选择场景 → 选择资料范围 → 填写具体问题 → 检查准备状态 → 开始对话 → 在聊天页发送。详细提问模板见第 9 章。</p>
+<h3 id="section-16-2" tabindex="-1">16.2 知识与模型准备：查看能不能开始</h3>
+<p>这个可展开区域把“回答能力”和“资料准备”放在一起检查。收起时只是隐藏内容，并没有停止后台解析。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能或状态</th>
+<th>含义</th>
+<th>你该做什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>模型设置</td>
+<td>打开服务商、模型实例及默认模型配置</td>
+<td>按第 4 章准备默认对话模型和 Embedding</td>
+</tr>
+<tr>
+<td>导入官方铁路资料</td>
+<td>导入项目附带的六份公开资料存档</td>
+<td>点击后去知识库检查解析；不是现场联网抓取最新版本</td>
+</tr>
+<tr>
+<td>知识库选择</td>
+<td>限定这次助手能查询的资料范围</td>
+<td>选与问题匹配的库，不是库越多越好</td>
+</tr>
+<tr>
+<td>已完成资料、片段数</td>
+<td>提示是否已有可用资料</td>
+<td>至少一份已完成且片段数大于 0；仅上传不算完成</td>
+</tr>
+<tr>
+<td>模型就绪提示</td>
+<td>已保存必要的模型选择</td>
+<td>仍需实际调用验证密钥、额度、网络和模型支持情况</td>
+</tr>
+</tbody></table>
+</div>
+<p>重复导入会复用对应个人知识库，并按文件名跳过已有文件、处理可重试的解析状态。它不是“覆盖成最新版”的更新按钮。更换资料版本应由维护人员核对后管理。</p>
+<h3 id="section-16-3" tabindex="-1">16.3 提问区、设备背景和开始对话</h3>
+<p>问题输入框写“要解决的事”，例如“请解释 A1 教学手册中 E01 的定义，找不到就说明”。设备型号、报警、位置、时间写已知背景，未知内容不必猜。</p>
+<p><strong>“开始对话”保存的是一个新助手。</strong> 首页填写的问题会带入聊天输入框；检查内容后还要发送。想继续上次讨论时，从“铁路问答”进入原助手即可，避免积累大量相同助手。</p>
+<p>开始按钮不可用时，先展开准备区；开始失败时，优先按提示检查模型、知识库和解析状态。反复点击不会让资料更快处理。</p>
+<h3 id="section-16-4" tabindex="-1">16.4 工作台不能代替哪些系统</h3>
+<p>工作台负责发起知识问答。设备背景不是设备资产台账；学习培训不是考试成绩系统；客运问答不是购票页面。需要具体业务记录或现场操作时，应回到对应业务系统。</p>
+<h2 id="chapter-17" tabindex="-1">17. 知识库：从文件到可用资料的全部环节</h2>
+<h3 id="section-17-1" tabindex="-1">17.1 知识库列表、新建和搜索</h3>
+<p><strong>用途：</strong> 按资料用途分组，控制助手查哪些内容。进入顶部“知识库”，搜索已有库；新建时起一个能说明主题和版本范围的名称，例如“设备 A1 教学资料”。</p>
+<p>列表中的文件数表示已保存多少文档；片段数表示处理后得到多少检索单元；更新时间用于判断近期是否有变动。数量多不说明内容准确。进入库后，左侧依次使用文件列表、检索测试、日志、分块设置、知识成果。</p>
+<p>重命名只改变识别名称；删除知识库属于移除资料容器的操作，应先确认需要保留的原文件。删除不是修复模型故障的方法。</p>
+<h3 id="section-17-2" tabindex="-1">17.2 添加文件：上传文件与空文件</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>作用</th>
+<th>操作方法</th>
+<th>完成标志</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>上传文件</td>
+<td>保存你电脑上的资料</td>
+<td>添加文件 → 上传文件 → 选择文件 → 确认</td>
+<td>文件出现在列表</td>
+</tr>
+<tr>
+<td>创建时解析</td>
+<td>上传后接着执行文档处理</td>
+<td>上传弹窗中主动开启；当前默认关闭</td>
+<td>状态进入排队或处理中</td>
+</tr>
+<tr>
+<td>空文件</td>
+<td>创建没有上传原件的虚拟文档，用来手工维护片段</td>
+<td>添加文件 → 空文件 → 命名，再进入片段页添加内容</td>
+<td>有文档条目，手工添加后有片段</td>
+</tr>
+</tbody></table>
+</div>
+<p><strong>上传成功与解析成功是两次检查。</strong> 新手先上传一份短 Markdown 或文字清晰的文档，再处理复杂扫描 PDF。空文件没有原始附件可下载，也不按普通文件批量解析。</p>
+<p>示例：创建“教学问答补充”空文件，添加一条经审核的概念解释，并在片段正文写清来源。它适合人工维护少量知识，不会自动验证你输入的内容。</p>
+<h3 id="section-17-3" tabindex="-1">17.3 文件列表每列和每个图标</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>列、图标或操作</th>
+<th>含义与使用方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>文件名</td>
+<td>点击进入该文档的真实片段页面，核对处理后的内容</td>
+</tr>
+<tr>
+<td>上传时间、排序箭头</td>
+<td>判断先后顺序；点击列头箭头改变排序</td>
+</tr>
+<tr>
+<td>片段数量</td>
+<td>文档处理后的检索单元数；完成但为 0 时仍要排查</td>
+</tr>
+<tr>
+<td>启用开关</td>
+<td>控制文档是否参与后续检索；关掉通常用于暂时停用</td>
+</tr>
+<tr>
+<td>解析状态和解析菜单</td>
+<td>开始处理、查看状态或选择可用处理配置</td>
+</tr>
+<tr>
+<td>日志入口</td>
+<td>查看这份文档处理过程中的信息与失败原因</td>
+</tr>
+<tr>
+<td>铅笔</td>
+<td>重命名；不会把文件正文替换成新内容</td>
+</tr>
+<tr>
+<td>眼睛</td>
+<td>查看或管理文件元数据，不是打开全文原件</td>
+</tr>
+<tr>
+<td>下载</td>
+<td>取回可下载的原始文件；空文件不提供原件</td>
+</tr>
+<tr>
+<td>垃圾桶</td>
+<td>删除文档，按确认弹窗核对对象</td>
+</tr>
+</tbody></table>
+</div>
+<p>部分行操作在鼠标移入或键盘焦点进入后才出现。处理中的文件会限制重命名、下载、删除等操作，先等待完成或按需要取消任务。</p>
+<h3 id="section-17-4" tabindex="-1">17.4 批量选择、解析、取消、启用、禁用与删除</h3>
+<p>先勾选文件行，再使用批量菜单。表头勾选以当前页面显示的行范围为准，翻页后重新核对选择。</p>
+<ol>
+<li><strong>解析：</strong> 为有效文件创建处理任务。混合选择中，虚拟文档、不支持类型或缺少必要模型的文件可能被跳过，阅读提示并核对实际入队数量。</li>
+<li><strong>取消：</strong> 请求停止尚未完成的处理。取消不等于删除原件，也不代表已有片段已清除。</li>
+<li><strong>启用 / 禁用：</strong> 决定这些资料是否参与后续检索。暂时停用旧版本可先禁用。</li>
+<li><strong>元数据：</strong> 给选中文档维护共同属性，确认是否应对所有选中文件使用同一值。</li>
+<li><strong>删除：</strong> 移除选中资料。确认名称和数量，避免把整页选择误当成一个文件。</li>
+</ol>
+<p>重新解析可能清理或重建已有片段，包括手工修订内容。看到确认弹窗时先读清处理范围；需要长期保留的修订，应同时更新源文档。</p>
+<h3 id="section-17-5" tabindex="-1">17.5 状态到底表示什么</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>状态</th>
+<th>当前发生什么</th>
+<th>下一步</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>待解析</td>
+<td>原件已保存，尚未开始处理</td>
+<td>选择解析</td>
+</tr>
+<tr>
+<td>排队</td>
+<td>任务已提交，等待处理服务</td>
+<td>稍后查看；长时间不动请维护人员检查任务服务</td>
+</tr>
+<tr>
+<td>处理中</td>
+<td>正在读取、切分、提取或建立索引</td>
+<td>等待，查看日志了解具体阶段</td>
+</tr>
+<tr>
+<td>完成</td>
+<td>处理任务结束</td>
+<td>核对片段数、内容及检索命中</td>
+</tr>
+<tr>
+<td>失败</td>
+<td>某一步执行异常</td>
+<td>看日志中的首个有效错误，修复后重试</td>
+</tr>
+<tr>
+<td>已取消</td>
+<td>处理被停止</td>
+<td>根据需要重新解析</td>
+</tr>
+</tbody></table>
+</div>
+<p>状态完成不是内容质量证明。扫描件的数字、表格列、单位、条款编号仍需人工抽查。</p>
+<h3 id="section-17-6" tabindex="-1">17.6 片段页面：查看、搜索和对照原文</h3>
+<p><strong>入口：</strong> 文件列表 → 点击文件名。此处的片段是后续检索的重要材料。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>怎样使用</th>
+<th>对系统内容的影响</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>全文 / 省略显示</td>
+<td>切换片段展开程度，便于精读或快速浏览</td>
+<td>仅改变显示</td>
+</tr>
+<tr>
+<td>片段搜索</td>
+<td>输入原文关键字，例如 <code>E01</code></td>
+<td>缩小当前文档的片段列表</td>
+</tr>
+<tr>
+<td>启用状态筛选</td>
+<td>筛选全部、启用或禁用片段</td>
+<td>仅改变显示范围</td>
+</tr>
+<tr>
+<td>分页</td>
+<td>查看其他片段；换页后重新确认选择</td>
+<td>仅改变显示范围</td>
+</tr>
+<tr>
+<td>文档视图与原文定位</td>
+<td>有可用原件、页码及位置时对照高亮</td>
+<td>不保证所有文件都能逐页定位</td>
+</tr>
+<tr>
+<td>点击片段或结构节点</td>
+<td>查看关联证据、声明或对应片段</td>
+<td>关联内容必须已由处理流程生成</td>
+</tr>
+</tbody></table>
+</div>
+<p>文档区域的“预览 / Preview”看原始文件；“Artifact”看知识编译后生成的结构。Artifact 中先选可用的成果类型，再搜索实体或点击节点，右侧会筛出关联片段；树形成果有对应数据时还能查看声明与证据。切回预览会清除结构节点带来的片段筛选。这里空白不一定是上传失败，也可能只是该文档还没有运行知识编译，生成方法见第 19.2 节。</p>
+<p>先确认文件名和片段内容属于你的资料。若从旧链接进入看到 <code>xxx</code>、重复几何示例或无响应的 Save / Copy / Export，那是尚未完成接入的预览页面；不要把示例当成已解析的资料，也不要依赖这些按钮保存。返回知识库，从文件名进入当前片段页。</p>
+<h3 id="section-17-7" tabindex="-1">17.7 片段编辑、新增、启用与批量维护</h3>
+<p><strong>编辑：</strong> 在真实片段页面双击片段正文，打开编辑框；修改后确认，再搜索刚修改的关键字核对。<strong>新增：</strong> 点加号，填写正文，并检查“启用”是否打开。新增框中的开关不能跳过，否则片段可能保存成禁用状态。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>编辑子项</th>
+<th>是什么</th>
+<th>示例或用法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>正文</td>
+<td>供检索与回答引用的内容</td>
+<td>写完整定义及适用范围，不只填一个标题</td>
+</tr>
+<tr>
+<td>关键词</td>
+<td>帮助表达重要字面词</td>
+<td><code>E01</code>、<code>报警</code>，应与正文有关</td>
+</tr>
+<tr>
+<td>问题</td>
+<td>该片段可回答的问题表达</td>
+<td>“E01 在 A1 教学手册中是什么意思？”</td>
+</tr>
+<tr>
+<td>标签</td>
+<td>对片段进行标记</td>
+<td><code>教学资料</code>；不是自动授予访问权限</td>
+</tr>
+<tr>
+<td>图片</td>
+<td>在对应编辑能力可用时补充片段图像</td>
+<td>确认图片与正文相符</td>
+</tr>
+<tr>
+<td>标签特征</td>
+<td>标签解析场景中的结构化特征</td>
+<td>只在你明确使用该解析方式时维护</td>
+</tr>
+<tr>
+<td>启用</td>
+<td>让片段参与后续检索</td>
+<td>保存后重新做检索测试</td>
+</tr>
+</tbody></table>
+</div>
+<p>片段卡片上的开关可单独启用或禁用。勾选片段后，可批量启用、禁用或删除；全选作用于当前加载页面。禁用比删除更适合临时排查坏片段。手工改片段不会同步改写原始附件，重新解析时应再次核对。</p>
+<h3 id="section-17-8" tabindex="-1">17.8 元数据：给资料贴可筛选的属性</h3>
+<p><strong>用途：</strong> 在不同型号、版本、来源之间限制检索范围。元数据是字段和值，例如 <code>device_model = A1</code>、<code>version = 2026-11</code>，不同于正文里随意写的备注。</p>
+<p><strong>操作示例：</strong></p>
+<ol>
+<li>在文件行眼睛图标或批量元数据入口打开管理框。</li>
+<li>创建或选择字段 <code>device_model</code>，按字段要求设置类型，填写 <code>A1</code>。</li>
+<li>给对应文档保存；其他型号填写各自的值。</li>
+<li>进入检索测试，添加该字段的过滤条件，选择匹配 <code>A1</code>。</li>
+<li>运行同一个问题，确认来源只剩符合条件的资料。</li>
+</ol>
+<p>字段名、大小写、字段类型、值都要一致。设置过滤却没有给文档填写属性，容易把本来能找到的资料排除。元数据不会自动审查规章时效，也不自动把所有文档识别成正确型号。</p>
+<h3 id="section-17-9" tabindex="-1">17.9 分块设置：保存处理规则</h3>
+<p><strong>用途：</strong> 决定这个库的文档如何读取、切分和建立索引。先理解“分块”是把长文整理成便于查找的内容单元。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>设置类别</th>
+<th>作用</th>
+<th>如何使用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>名称、图标、描述</td>
+<td>帮助识别知识库用途</td>
+<td>描述写主题、来源、版本范围</td>
+</tr>
+<tr>
+<td>Embedding 模型</td>
+<td>把资料转为向量供语义检索</td>
+<td>优先在导入前确定；有片段时选择会受限制</td>
+</tr>
+<tr>
+<td>解析模式 / 内置流程</td>
+<td>使用已有的文档处理规则</td>
+<td>初学者选与资料类型匹配的现成流程</td>
+</tr>
+<tr>
+<td>自定义数据处理流程</td>
+<td>使用自己发布的处理步骤</td>
+<td>按第 21 章建立并发布后再绑定</td>
+</tr>
+<tr>
+<td>节点参数</td>
+<td>调整解析、切分、提取和索引</td>
+<td>每次改一项，用小样本文档验证</td>
+</tr>
+<tr>
+<td>文档重要性 / PageRank 类参数</td>
+<td>在检索相关性之外影响资料权重</td>
+<td>按实际可见项设置；不能用高权重修复错误资料</td>
+</tr>
+<tr>
+<td>关联数据源</td>
+<td>将已配置来源接入该知识库</td>
+<td>见第 23.2 节，还需确定自动解析</td>
+</tr>
+</tbody></table>
+</div>
+<p><strong>生效顺序：</strong> 保存设置 → 确认对已有文档应用的配置 → 对需要更新的文档重新解析 → 检查片段 → 做检索测试。保存不代表历史索引瞬间全部更新。</p>
+<h3 id="section-17-10" tabindex="-1">17.10 日志：判断卡在哪一步</h3>
+<p>知识库 → 日志，可按页面提供的文件处理、数据源处理等分类查看任务。查看状态、时间、对应对象，点详情或眼睛查看实际消息。</p>
+<p>例如：上传已成功，但日志提示嵌入模型调用失败，应该检查 Embedding 的地址、密钥、额度和输出维度；不用反复重新上传。看到解析成功但零片段，应检查文件是否可读、页码范围和切分配置。</p>
+<p>任务数量和成功率表示处理任务情况，不等于问答准确率。向维护人员反馈时提供文档名、处理时间、失败阶段和错误摘要；凭据字段不要当成问题描述发送。</p>
+<h3 id="section-17-11" tabindex="-1">17.11 检索测试的进阶子功能</h3>
+<p>基础步骤见第 8 章。调参时保持问题和资料不变，只改变一项。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>更具体的含义</th>
+<th>使用方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>语义与关键词混合</td>
+<td>同时利用表达含义与字面词</td>
+<td>先用默认值；型号和代码问题比较精确命中情况</td>
+</tr>
+<tr>
+<td>相似度阈值</td>
+<td>过滤相关性不足的候选</td>
+<td>太高可能漏掉答案；太低可能混入无关内容</td>
+</tr>
+<tr>
+<td>重排序候选数</td>
+<td>先取出多少候选再排序</td>
+<td>应不小于最终返回数量；不是最终给模型的片段数</td>
+</tr>
+<tr>
+<td>Top N</td>
+<td>最后取多少相关片段</td>
+<td>只增加数量可能引入噪声并增加上下文</td>
+</tr>
+<tr>
+<td>重排序模型</td>
+<td>进一步判断问题与片段的相关程度</td>
+<td>配好 Rerank 模型再启用，比较耗时与命中</td>
+</tr>
+<tr>
+<td>元数据过滤</td>
+<td>先限制资料属性范围</td>
+<td>先验证无过滤时能找到，再加过滤比较</td>
+</tr>
+</tbody></table>
+</div>
+<p>建议记录 5 个固定问题：原文定义、型号代码、跨段问题、不同版本问题、资料中没有答案的问题。这样更容易看出改动是否有用。</p>
+<h2 id="chapter-18" tabindex="-1">18. 铁路问答：按钮与设置逐项说明</h2>
+<h3 id="section-18-1" tabindex="-1">18.1 助手列表和会话列表有什么区别</h3>
+<p><strong>助手</strong>保存模型、知识库和规则；<strong>会话</strong>保存一段聊天。修改助手设置影响后续请求，旧消息不会自动改写成新答案。</p>
+<p>在铁路问答列表中搜索并进入助手；卡片更多菜单可重命名、删除。进入后左侧是该助手的会话列表，可以新建、搜索、重命名或删除会话。手机先打开会话抽屉再选择。</p>
+<p>批量管理时，进入选择状态 → 勾选或全选当前列表 → 核对数量 → 删除确认；返回箭头用于退出选择。搜索后的全选不能理解成全账号所有聊天。</p>
+<h3 id="section-18-2" tabindex="-1">18.2 输入、发送、附件、停止与重新生成</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>作用</th>
+<th>怎么用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>输入框与发送</td>
+<td>发送这一次问题</td>
+<td>核对问题和附件后点输入区发送按钮</td>
+</tr>
+<tr>
+<td>附件</td>
+<td>为当前聊天提供补充材料</td>
+<td>支持多文件、粘贴截图和拖入图片；上传失败可重试或移除，剩余附件全部就绪后才能发送</td>
+</tr>
+<tr>
+<td>停止生成</td>
+<td>中止正在输出的回答</td>
+<td>等停止后再补充或重新提问</td>
+</tr>
+<tr>
+<td>重新生成</td>
+<td>对已有问题再请求回答</td>
+<td>回答可能变化，仍需检查引用</td>
+</tr>
+<tr>
+<td>推理 / 研究相关开关</td>
+<td>请求对应的推理或多步处理</td>
+<td>取决于模型和后端支持，可能更慢</td>
+</tr>
+<tr>
+<td>联网相关开关</td>
+<td>通用路径中使用配置的外部搜索</td>
+<td>需服务配置；铁路主路径按铁路规则关闭联网</td>
+</tr>
+</tbody></table>
+</div>
+<p>聊天附件不会因为上传到输入框就自动成为永久知识库文档。以后要持续查询，应按第 7 章入库、解析并绑定。停止只影响当前输出，不会撤销已经发生的模型调用。</p>
+<p>注意区分两个纸飞机：<strong>输入区的发送按钮发问题；会话列表标题旁的纸飞机用于分享或嵌入设置。</strong></p>
+<h3 id="section-18-3" tabindex="-1">18.3 引用、复制、反馈、朗读和提示详情</h3>
+<p>回答的操作按钮常在鼠标移入消息后显示。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>操作与结果</th>
+<th>应注意什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>引用</td>
+<td>点击回答中的来源标记，查看相关片段与文档</td>
+<td>有引用不等于每句话都有依据，要逐句对照</td>
+</tr>
+<tr>
+<td>复制</td>
+<td>复制当前消息文字</td>
+<td>正式记录中同时保留来源和资料版本</td>
+</tr>
+<tr>
+<td>满意 / 不满意</td>
+<td>提交对回答的反馈，必要时填写原因</td>
+<td>不会立即训练模型或自动改正下一次回答</td>
+</tr>
+<tr>
+<td>朗读 / 暂停</td>
+<td>配有可用语音合成时播放答案</td>
+<td>需要对应模型，文字显示成功不代表语音可用</td>
+</tr>
+<tr>
+<td>提示详情</td>
+<td>后端返回相关信息时查看组织请求的内容</td>
+<td>不是每条消息都会出现</td>
+</tr>
+<tr>
+<td>删除消息</td>
+<td>移除所选消息记录</td>
+<td>不能用来证明错误内容从所有导出或分享处消失</td>
+</tr>
+</tbody></table>
+</div>
+<p>遇到错答时，按“资料是否有 → 检索是否找到 → 引用是否支持 → 回答是否按依据表达”的顺序排查。</p>
+<h3 id="section-18-4" tabindex="-1">18.4 聊天设置的基础项</h3>
+<p><strong>入口：</strong> 进入助手 → 聊天区域右侧齿轮 → 聊天设置。修改后点底部保存；取消放弃当前未保存修改。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>含义</th>
+<th>填写建议</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>名称、图标、描述</td>
+<td>帮你识别这个助手</td>
+<td>“A1 教学手册助手”，描述写用途和资料范围</td>
+</tr>
+<tr>
+<td>对话模型</td>
+<td>组织和生成答案的模型</td>
+<td>选已测试可调用的模型</td>
+</tr>
+<tr>
+<td>开场白</td>
+<td>进入对话时的提示文字</td>
+<td>写适合提出的问题和资料范围</td>
+</tr>
+<tr>
+<td>知识库</td>
+<td>允许助手检索的资料集合</td>
+<td>选已完成解析的有关资料；排除无关和过期版本</td>
+</tr>
+</tbody></table>
+</div>
+<p>保存后新建会话，用固定问题验证。库被删除或当前账号无权限时，先重新选择有效知识库。</p>
+<h3 id="section-18-5" tabindex="-1">18.5 模型参数：影响表达方式，不代替资料</h3>
+<p>当前界面提供预设或自定义参数。开关通常表示是否明确传入该参数；关闭时可能使用服务默认值，不等于数值为 0。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>通俗解释</th>
+<th>初学者怎么选</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>自由度预设</td>
+<td>一组预先搭配的生成参数</td>
+<td>先使用默认或偏严谨的预设</td>
+</tr>
+<tr>
+<td>Temperature / 温度</td>
+<td>控制生成时的随机程度</td>
+<td>规章查阅先保持较稳定设置；低温度也可能答错</td>
+</tr>
+<tr>
+<td>Top P</td>
+<td>另一种控制候选文字范围的方法</td>
+<td>不要和温度同时反复大幅调整</td>
+</tr>
+<tr>
+<td>Presence penalty</td>
+<td>影响模型引入新内容的倾向</td>
+<td>基础问答先默认</td>
+</tr>
+<tr>
+<td>Frequency penalty</td>
+<td>减少重复措辞的倾向</td>
+<td>反复重复时再针对性比较</td>
+</tr>
+<tr>
+<td>Max tokens</td>
+<td>限制生成长度</td>
+<td>太小可能截断；token 不是固定一个汉字</td>
+</tr>
+<tr>
+<td>Thinking / 思考模式</td>
+<td>请求模型默认、开启或关闭思考能力</td>
+<td>按模型支持选择；不支持时可能被忽略或报错</td>
+</tr>
+</tbody></table>
+</div>
+<p>模型参数不改变文档原文，也不能把缺失的手册变出来。开启更多选项可能增加耗时或调用费用。</p>
+<h3 id="section-18-6" tabindex="-1">18.6 高级设置：引用、语音、联网、过滤</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>作用</th>
+<th>使用步骤</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>显示引用</td>
+<td>请求答案携带来源</td>
+<td>打开后用已知问题验证来源可查</td>
+</tr>
+<tr>
+<td>TTS / 语音合成</td>
+<td>将回答转成语音</td>
+<td>先配置可用 TTS，再测试短回答</td>
+</tr>
+<tr>
+<td>网络搜索</td>
+<td>用外部搜索补充信息</td>
+<td>选择支持的提供方，按界面填写凭据；搜索结果需核对</td>
+</tr>
+<tr>
+<td>元数据过滤</td>
+<td>只查询匹配属性的资料</td>
+<td>先给文档填属性，再设置条件</td>
+</tr>
+</tbody></table>
+</div>
+<p><strong>铁路助手有服务端固定规则：</strong> 铁路系统提示、引用、无依据回复及关闭联网按铁路处理逻辑执行。通用设置页显示这些字段，不代表改完就能覆盖铁路规则。普通通用助手和自建工作流应分别验证。</p>
+<h3 id="section-18-7" tabindex="-1">18.7 普通检索设置：让检索与回答协作</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>是什么</th>
+<th>怎么用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>无结果回复</td>
+<td>没有合适资料时的回复内容</td>
+<td>通用助手可写“资料不足，请补充适用版本”；铁路路径固定</td>
+</tr>
+<tr>
+<td>关键词提取</td>
+<td>从问题中提炼用于查找的词</td>
+<td>比较开启前后是否保留型号、代码等关键字</td>
+</tr>
+<tr>
+<td>系统提示词</td>
+<td>给模型规定回答身份、依据和结构</td>
+<td>通用助手写“仅依据资料，引用不足时说明”</td>
+</tr>
+<tr>
+<td>相似度、关键词权重、候选数、Top N、Rerank</td>
+<td>决定取回哪些资料</td>
+<td>含义和调参方式见第 17.11 节</td>
+</tr>
+<tr>
+<td>跨语言检索</td>
+<td>帮助跨语言查找相关资料</td>
+<td>资料与问题语言不同时再试；不保证术语翻译准确</td>
+</tr>
+<tr>
+<td>多轮问题优化</td>
+<td>结合对话理解“它”“上一条”等省略表达</td>
+<td>连续追问有用；换主题可新建会话</td>
+</tr>
+<tr>
+<td>动态变量</td>
+<td>为提示模板设置每次运行需要的输入项</td>
+<td>变量名、模板引用和实际值保持一致；必填项需有值</td>
+</tr>
+</tbody></table>
+</div>
+<p>示例：问完“实名制要求有哪些？”再问“儿童也一样吗？”，多轮优化帮助理解“也一样”指前面的实名制要求。它不能补足资料中不存在的条件。</p>
+<h3 id="section-18-8" tabindex="-1">18.8 研究 / Agentic 设置</h3>
+<p>研究模式让系统按配置进行更多步骤的检索和整理。它不表示模型重新学习了你的文件，也不自动获得实时网络访问。</p>
+<p><strong>决策模型：</strong> 决定处理下一步用的模型；没有单独选择时按系统默认规则处理。<strong>研究模板：</strong> 描述多步处理方法与工具约束；保留模板要求的变量和结构，修改后用简单问题验证。</p>
+<p>先用普通模式找到正确片段，再比较研究模式能否改善跨文档整理。研究失败时检查决策模型、模板和实际工具配置，不能只靠增加 Top N。</p>
+<h3 id="section-18-9" tabindex="-1">18.9 分享与嵌入网站</h3>
+<p>进入助手的分享或嵌入入口，按弹窗生成链接或网页嵌入配置。先在另一个浏览器窗口实际打开，检查对方是否能访问、展示哪些内容，以及对应助手是否仍能回答。</p>
+<p>分享不等于导出完整系统；链接访问范围按部署配置和实际页面为准。通过外部链接提供服务前，确认所绑定资料允许该受众查看。调整助手或渠道后，也要复查分享入口的行为。</p>
+<h3 id="section-18-10" tabindex="-1">18.10 生图、参考图与连续改图</h3>
+<ol>
+<li>进入已有助手的已保存会话，在输入框输入 <code>@</code> 并选择“生图”。</li>
+<li>写清主体、数量、构图、风格，以及需要出现在图中的文字，再发送。</li>
+<li>生成结束后，图片显示在回答中；刷新后可继续在同一会话查看。</li>
+<li>修改上一张时继续选择“生图”，说明哪些内容要改、哪些保持不变。</li>
+</ol>
+<pre><code class="language-text">@生图 横版 2K 高铁旅行海报，标题“向山而行”，一列高铁穿过青山
+@生图 把上一张改成夕阳，列车和标题保持不变
+</code></pre>
+<p>需要参考图时，先添加 PNG、JPEG 或 WebP 附件，等待上传完成，再发送生图请求。只使用本轮附件进行新创作，与继续修改上一张，是不同的要求；请在文字中明确。需要同时使用上一张和新附件时，上次生成图为参考图 1，附件按上传顺序接续编号。</p>
+<p>当前生图服务固定使用 <code>gpt-image-2.5-sunburst</code>，默认高质量、原生 2K；可以明确要求横版、竖版、方形或 4K，最长边支持到 3840 像素。编辑未指定新尺寸时沿用上一张。生成仍可能出现文字、数量或细节偏差，需检查结果后继续修改。聊天模式优化建议书里的任务调度等规划尚不能作为当前已上线功能使用。</p>
+<h3 id="section-18-11" tabindex="-1">18.11 语音回答与朗读</h3>
+<p>在已保存会话选择 <code>@语音</code> 后，输入问题或想表达的内容：</p>
+<pre><code class="language-text">@语音 高铁和动车有什么区别？
+@语音 用温柔轻松的语气说一句晚安
+</code></pre>
+<p>语音请求由当前选择的对话模型生成回答，涉及资料依据时结合知识库与会话上下文，再交给本地语音服务发声；不会因为选了语音就自动更换聊天模型。完成后会保留文字、实际返回的引用和可播放音频。</p>
+<p>当前本机语音使用 Qwen3-TTS 的 Serena 女声，可以请求调整情绪和语速，实际效果以生成结果为准。已有文字回答旁的扬声器按钮用于朗读该回答，需要已配置可用的默认 TTS。它与发送一次新的 <code>@语音</code> 请求用途不同。</p>
+<h3 id="section-18-12" tabindex="-1">18.12 唱歌</h3>
+<p>仍选择 <code>@语音</code>，明确写出“唱歌”或“唱一段”，并说明语言、曲风和时长：</p>
+<pre><code class="language-text">@语音 唱一段 20 秒的中文甜美女声晚安歌，轻柔钢琴伴奏
+</code></pre>
+<p>当前本机歌曲由 ACE-Step 生成，支持 10～45 秒短歌。系统先合成 Serena 参考语音，再生成音乐，因此首次生成可能比普通说话更慢。语音和唱歌使用不同引擎，不能保证音色完全一致，也不支持保证复刻某个真人声音。</p>
+<p>完成后在消息中播放音频，歌词和音频随回答保留。没有明确要求唱歌时，<code>@语音</code> 按说话处理。参考语音生成失败会报错，需要排查语音服务后再试。</p>
+<h3 id="section-18-13" tabindex="-1">18.13 媒体功能常见问题</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>现象</th>
+<th>先检查什么</th>
+<th>怎么处理</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>提示需要已保存会话</td>
+<td>是否仍是未保存的聊天</td>
+<td>先创建或进入已有会话，再选工具发送</td>
+</tr>
+<tr>
+<td>提示未配置生图和语音</td>
+<td>当前部署的媒体配置</td>
+<td>请维护人员核对私有配置，不要把 API Key 发到聊天或公开仓库</td>
+</tr>
+<tr>
+<td>普通问答可以，语音或唱歌失败</td>
+<td>本机配套进程是否运行</td>
+<td>使用项目启动脚本；维护人员检查本节上方列出的两个本地健康地址</td>
+</tr>
+<tr>
+<td>已上传图片但模型看不懂</td>
+<td>普通聊天所选模型是否有视觉能力</td>
+<td>选择支持视觉的模型；<code>@生图</code> 参考图走图片编辑服务</td>
+</tr>
+<tr>
+<td>上传失败导致无法发送</td>
+<td>输入框中是否仍有失败的附件</td>
+<td>重试失败项，或移除后发送</td>
+</tr>
+<tr>
+<td>改图没有沿用上一张</td>
+<td>是否同一会话，要求是否明确</td>
+<td>使用“修改上一张”，写清保留项与修改项</td>
+</tr>
+<tr>
+<td>歌曲生成较慢</td>
+<td>是否正在首次加载或生成</td>
+<td>等待本次任务，不要连续重复提交；失败后查看错误再重试</td>
+</tr>
+</tbody></table>
+</div>
+<p>项目退出与恢复方法见第 0.1 节。只停止容器时配套进程也会退出，重新使用媒体前应运行本机启动脚本。</p>
+<h2 id="chapter-19" tabindex="-1">19. 知识成果：Wiki、树、图谱等分别是什么</h2>
+<h3 id="section-19-1" tabindex="-1">19.1 五种视图解决不同问题</h3>
+<p><strong>入口：</strong> 知识库 → 进入某个库 → 左侧“知识成果”。这是处理结果的阅读区，切换视图不会启动生成。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>视图</th>
+<th>用通俗的话解释</th>
+<th>适合什么任务</th>
+<th>不应误解为</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>LLM Wiki</td>
+<td>按主题或实体整理的文章集合</td>
+<td>学习主题、查看交叉链接和原文证据</td>
+<td>经人工审核的百科全书</td>
+</tr>
+<tr>
+<td>树 / 导航</td>
+<td>按层级组织章节、主题和摘要</td>
+<td>先看全貌，再逐层找到具体资料</td>
+<td>每一层都是原文真实章节</td>
+</tr>
+<tr>
+<td>图谱 / Graph</td>
+<td>展示实体之间提取出的关系</td>
+<td>查看某设备、概念、责任主体与谁有关</td>
+<td>系统已验证每条关系真实正确</td>
+</tr>
+<tr>
+<td>思维导图 / MindMap</td>
+<td>用中心主题和分支组织知识</td>
+<td>课程提纲、主题结构、概念复习</td>
+<td>设备电路图或业务执行流程</td>
+</tr>
+<tr>
+<td>时间线 / Timeline</td>
+<td>按提取到的时间组织事件</td>
+<td>梳理资料中有明确日期的变化和事件</td>
+<td>自动推断出缺失或模糊日期</td>
+</tr>
+</tbody></table>
+</div>
+<p>当前页面不把 Skills 作为普通可选成果视图。没有成果时显示空状态是合理情况，先检查生成链路。</p>
+<h3 id="section-19-2" tabindex="-1">19.2 怎样实际生成一份成果</h3>
+<p>用“整理教学资料为 Wiki”为例，先选一份短文档做样本：</p>
+<ol>
+<li>到“更多 → 编译算子”，创建或选择 Wiki 类配置，填写整理规则并保存，详见第 22 章。</li>
+<li>到“更多 → 数据处理流程”，在可编辑流程中安排文件解析、分块、知识编译器、索引等步骤。</li>
+<li>在知识编译器节点选择刚保存的编译算子和可用对话模型；检查上下游输入输出。</li>
+<li>保存草稿并发布这个数据处理流程；内置只读流程需要先复制成可编辑流程。</li>
+<li>回到知识库 → 分块设置，选择该已发布流程并保存，确认需要处理的文档使用此配置。</li>
+<li>在文件列表对样本文档执行解析，等待完成，查看日志是否实际执行了知识编译。</li>
+<li>打开知识成果，选择对应视图；核对生成文字和证据。</li>
+</ol>
+<p><strong>成功标志：</strong> 不仅有文档片段，还出现对应的主题、结构或文章内容，并能回查证据。只保存算子、发布空流程或打开成果页都不会自动完成上述工作。</p>
+<p>没有结果时依次查：是否绑定正确流程 → 是否已发布 → 编译器是否选择算子与模型 → 文档是否重新处理 → 日志是否成功 → 当前视图是否匹配产物类型。</p>
+<h3 id="section-19-3" tabindex="-1">19.3 Wiki 的目录、文章、链接和证据</h3>
+<p>生成主题后，左侧用于选择文章或查看主题关系；右侧阅读内容。点击内部知识链接可跳转到相关条目，再用页面返回历史继续阅读。</p>
+<p><strong>读一篇文章的顺序：</strong> 看标题 → 看适用范围 → 看主要结论 → 打开证据 → 对照原文。生成的概述与资料直接写出的事实要分清。</p>
+<p>实体模式适合“以设备、人物、术语为中心”；主题模式适合“以安全、服务、培训知识点为中心”。具体可用项由所选算子决定。</p>
+<h3 id="section-19-4" tabindex="-1">19.4 Wiki 编辑、提交、历史版本、差异与导出</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>使用方法</th>
+<th>结果与限制</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>编辑正文</td>
+<td>在允许编辑的当前版本修改内容</td>
+<td>修改后还要提交</td>
+</tr>
+<tr>
+<td>取消</td>
+<td>放弃当前未提交修改</td>
+<td>不会删除历史版本</td>
+</tr>
+<tr>
+<td>提交</td>
+<td>填写提交说明，确认本次修订</td>
+<td>便于追踪改了什么和原因</td>
+</tr>
+<tr>
+<td>历史版本</td>
+<td>选择以前保存的版本查看</td>
+<td>历史内容按只读查看；不要假定有一键恢复</td>
+</tr>
+<tr>
+<td>差异对比</td>
+<td>查看前后增加、删除和修改内容</td>
+<td>比较文本变化，不自动判断哪版正确</td>
+</tr>
+<tr>
+<td>导出 / 下载文章</td>
+<td>使用实际文章操作区的导出入口</td>
+<td>导出的是文章，不是数据库、索引和原件的完整备份</td>
+</tr>
+</tbody></table>
+</div>
+<p>示例提交说明：“补充 A1 教学资料的适用范围，修正引用不支持的结论。”资料负责人仍需审核修订；编辑 Wiki 不等于同步改写源文档。</p>
+<h3 id="section-19-5" tabindex="-1">19.5 树、图谱、思维导图与时间线怎样看</h3>
+<p><strong>树 / 导航：</strong> 从总览逐层展开，选节点看摘要、关联声明和证据。PageIndex、树及 RAPTOR 类结构可能使用树形呈现，理解为不同整理方法，不必把它们当成三份原始资料。</p>
+<p><strong>图谱：</strong> 搜索实体名称，选匹配项后查看关联子图和节点详情；搜不到时先清空关键词，再核对实体是否生成、名称是否不同。关系线表示提取关系，关键结论应查看原文支持。</p>
+<p><strong>思维导图：</strong> 沿主题分支阅读，适合整理学习范围；需要精确条款时返回文档和片段。<strong>时间线：</strong> 核对日期、事件和出处，不要把文档发布日期误当作事件发生日期。</p>
+<h3 id="section-19-6" tabindex="-1">19.6 成果页上方的辅助入口</h3>
+<p>提供这些快捷入口的版本中，“配置知识库”返回处理规则，“解析文档”用于进入资料处理，“查看日志”用于检查执行情况。没有这些按钮时，从知识库侧栏进入配置、文件和日志页面完成同样的检查。</p>
+<p>当前知识库侧栏以“知识成果”为普通入口；不必为找旧教程中的单独知识图谱菜单而反复切换账号。</p>
+<h2 id="chapter-20" tabindex="-1">20. 更多 → 工作流：把一个任务拆成多个步骤</h2>
+<h3 id="section-20-1" tabindex="-1">20.1 工作流、数据处理流程、编译算子如何区分</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>名称</th>
+<th>接收什么</th>
+<th>做什么</th>
+<th>产出什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>工作流</td>
+<td>问题、变量、运行时输入</td>
+<td>检索、生成、分类、判断、调用工具</td>
+<td>回复、处理结果或文件</td>
+</tr>
+<tr>
+<td>数据处理流程</td>
+<td>文档文件</td>
+<td>读取、切分、提取、知识编译、索引</td>
+<td>可检索片段和配置好的知识成果</td>
+</tr>
+<tr>
+<td>编译算子</td>
+<td>编译规则定义</td>
+<td>告诉知识编译器如何整理资料</td>
+<td>算子本身是规则；实际成果由处理流程运行生成</td>
+</tr>
+</tbody></table>
+</div>
+<p>只想查规章时，不需要先画工作流。工作流适合“先判断问题类型，再检索对应资料，最后按固定格式回答”等明确的多步任务。</p>
+<h3 id="section-20-2" tabindex="-1">20.2 列表、新建、模板、导入、标签和删除</h3>
+<p>进入“更多”选择工作流标签。可搜索名称、按页面条件筛选、通过标签整理；卡片菜单提供名称、标签和删除等管理动作。</p>
+<p><strong>空白创建：</strong> 适合学习最简单流程。<strong>从模板创建：</strong> 保留已安排好的步骤，但仍要选择自己的模型，并为每个检索节点绑定自己的知识库。<strong>导入 JSON：</strong> 读取流程定义，不会把另一账号的密钥、知识库和文档一起搬过来。</p>
+<p>模板能创建成功不等于能运行成功。先打开各节点检查红色错误和必填项，再测试。导出也是配置文件，不是系统完整备份。</p>
+<h3 id="section-20-3" tabindex="-1">20.3 画布、节点、连线和变量</h3>
+<p><strong>画布</strong>是一张步骤图；<strong>节点</strong>做一件事；<strong>连线</strong>表示执行先后；<strong>变量</strong>把上一步结果交给下一步。</p>
+<pre><code class="language-text">开始：接收用户问题
+  ↓
+检索：到指定知识库找依据
+  ↓
+Agent：结合问题和检索结果组织回答
+  ↓
+消息：把需要展示的内容发送给用户
+</code></pre>
+<p>点击节点打开配置面板，通过节点菜单添加下一步。连接了两个节点还不够，下一节点的输入也要引用上一步真实输出。例如生成节点应引用检索结果，而不是手工写“检索结果”四个字。</p>
+<p>输入框支持变量选择时优先从选择器选，保持类型一致：文字给文字字段，列表给列表处理，文件给文件处理。复制别人的变量名不会自动建立数据关联。</p>
+<h3 id="section-20-4" tabindex="-1">20.4 基础、对话和判断节点</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>节点或子功能</th>
+<th>用途</th>
+<th>关键配置</th>
+<th>小例子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>开始 / Begin</td>
+<td>接收一次任务的初始输入</td>
+<td>输入类型、必要变量</td>
+<td>接收问题和 <code>device_model</code></td>
+</tr>
+<tr>
+<td>检索 / Retrieval</td>
+<td>查找知识库内容</td>
+<td>查询、资料库、阈值、Top N、候选数、Rerank</td>
+<td>查 A1 的 E01 定义</td>
+</tr>
+<tr>
+<td>Agent</td>
+<td>让模型结合输入生成或决策</td>
+<td>模型、指令、引用变量、所用工具</td>
+<td>只按检索证据回答</td>
+</tr>
+<tr>
+<td>消息 / Message</td>
+<td>输出预设文字或前一步结果</td>
+<td>文本及变量引用</td>
+<td>显示答案和资料不足提示</td>
+</tr>
+<tr>
+<td>用户补充 / UserFillUp</td>
+<td>运行中收集缺少的输入</td>
+<td>字段、类型、是否必填</td>
+<td>询问未知设备型号</td>
+</tr>
+<tr>
+<td>分类 / Categorize</td>
+<td>让模型把问题分到预设类别</td>
+<td>类别名称、描述、模型</td>
+<td>规章类或设备类</td>
+</tr>
+<tr>
+<td>条件分支 / Switch</td>
+<td>按明确条件选择路径</td>
+<td>比较字段、条件、默认分支</td>
+<td>型号为空时先补充信息</td>
+</tr>
+<tr>
+<td>注释 / Note</td>
+<td>给维护人员标注设计说明</td>
+<td>备注文字</td>
+<td>标记“此分支仅用于教学”</td>
+</tr>
+</tbody></table>
+</div>
+<p>分类偏语义判断，条件分支偏明确规则。默认分支也要安排结果，避免没有匹配时无输出。检索节点中可见的记忆类配置，不表示本版已经提供独立记忆管理菜单；普通资料检索先绑定知识库。</p>
+<h3 id="section-20-5" tabindex="-1">20.5 循环与数据处理节点</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>节点</th>
+<th>用途</th>
+<th>配置时要理解的事</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>迭代 / Iteration</td>
+<td>对列表中的每一项重复步骤</td>
+<td>输入必须是列表；输出可能仍是列表</td>
+</tr>
+<tr>
+<td>循环 / Loop、退出循环</td>
+<td>在条件允许时重复执行</td>
+<td>设置结束条件或限制，检查退出分支</td>
+</tr>
+<tr>
+<td>代码 / Code</td>
+<td>用脚本完成明确计算或转换</td>
+<td>语言、输入变量、输出结构及执行环境；由懂代码的人维护</td>
+</tr>
+<tr>
+<td>字符串转换</td>
+<td>拼接或拆分文字</td>
+<td>分隔符决定怎样切；不是内容理解</td>
+</tr>
+<tr>
+<td>数据操作</td>
+<td>按条件转换或筛选数据</td>
+<td>字段类型、比较方式、找不到时如何处理</td>
+</tr>
+<tr>
+<td>列表操作</td>
+<td>处理一组数据</td>
+<td>核对输入列表、顺序和输出格式</td>
+</tr>
+<tr>
+<td>变量赋值</td>
+<td>保存或更新流程变量</td>
+<td>名称与类型一致，避免误覆盖</td>
+</tr>
+<tr>
+<td>变量聚合</td>
+<td>合并不同分支的输出</td>
+<td>确认下游取得的是哪个分支结果</td>
+</tr>
+</tbody></table>
+</div>
+<p>例如对三条培训问题逐条检索可以用迭代；只有一个问题时不必先加循环。代码执行需要管理员配置的运行环境，画布能保存不代表运行环境已可用。</p>
+<h3 id="section-20-6" tabindex="-1">20.6 外部工具与接口：选择器里的名称是什么意思</h3>
+<p>下表解释当前工具配置所覆盖的类别。具体是否出现于当前节点选择器、能否调用，以节点面板和实际服务为准；有些提供方需要密钥、可达网络或额外服务。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>工具或类别</th>
+<th>干什么</th>
+<th>需要准备 / 怎么用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Tavily Search、Querit Search、Google、Bing、DuckDuckGo</td>
+<td>搜索网页</td>
+<td>问题或查询词、结果数，按提供方要求填凭据</td>
+</tr>
+<tr>
+<td>SearXNG</td>
+<td>使用自建聚合搜索服务</td>
+<td>可达的服务地址和查询词</td>
+</tr>
+<tr>
+<td>You.com、Sofya、Keenable、Search1API Search</td>
+<td>其他外部搜索提供方</td>
+<td>各自的账号配置与密钥，不能混用</td>
+</tr>
+<tr>
+<td>Crawler、Tavily Extract、Querit Contents、Search1API Crawl</td>
+<td>读取指定网页内容</td>
+<td>网页地址、可访问范围和抓取配置；不是长期自动同步</td>
+</tr>
+<tr>
+<td>Wikipedia</td>
+<td>查询百科内容</td>
+<td>搜索词，结果还需核对来源</td>
+</tr>
+<tr>
+<td>ArXiv、PubMed、Google Scholar、BGPT</td>
+<td>查询论文或研究内容</td>
+<td>主题词及可用服务；不是铁路规章专用数据库</td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>查询代码托管平台相关内容</td>
+<td>节点实际支持的查询、凭据与范围</td>
+</tr>
+<tr>
+<td>Yahoo Finance、WenCai</td>
+<td>查询金融相关数据</td>
+<td>与业务目标无关时无需配置</td>
+</tr>
+<tr>
+<td>ExeSQL</td>
+<td>执行配置的数据库查询</td>
+<td>连接、查询语句、允许的权限；不同于把文档片段做检索</td>
+</tr>
+<tr>
+<td>HTTP / Invoke</td>
+<td>调用指定服务接口</td>
+<td>URL、方法、请求头、参数和响应字段引用</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>按配置调用邮件功能</td>
+<td>邮件服务、收发参数；运行可能真正发送邮件</td>
+</tr>
+<tr>
+<td>文档生成 / DocGenerator</td>
+<td>将内容生成指定格式文件</td>
+<td>正文输入、格式、输出文件名以及运行依赖</td>
+</tr>
+</tbody></table>
+</div>
+<p>外部工具返回的内容不会自动变成你的知识库。铁路工作台助手的固定规则也不会自动附加到任意自建流程，流程中的指令、引用和证据不足处理要自己配置和验证。</p>
+<h3 id="section-20-7" tabindex="-1">20.7 保存草稿、检查、运行、探索与发布</h3>
+<ol>
+<li>配置各节点和变量，在画布检查清单中处理必填项或连接问题。</li>
+<li>点击“保存草稿”，确认当前编辑已保存。自动保存也不能代替检查发布版本。</li>
+<li>工作流使用“运行”输入测试问题，查看输出；复杂对话可在探索页面实际试聊。</li>
+<li>用有答案、无答案、缺字段的情况分别验证，检查节点日志而不只看最后一段文字。</li>
+<li>点击“发布”，按确认步骤形成版本；记录本次变化。</li>
+</ol>
+<p><strong>草稿是正在编辑的配置，发布是可引用的版本。</strong> 发布成功不等于所有模型和接口都验证通过。</p>
+<h3 id="section-20-8" tabindex="-1">20.8 管理菜单：变量、历史、导出、设置、嵌入</h3>
+<p><strong>会话变量</strong>保存同一流程会话中需要复用的值，例如已收集的型号；新会话如何初始化按流程配置检查。<strong>历史版本</strong>用于查看已保存版本及差异，切换操作前核对目标。<strong>导出</strong>保存流程定义，导入后仍需重新绑定依赖。</p>
+<p><strong>设置</strong>管理流程实际提供的运行选项；<strong>嵌入网站</strong>将可对话工作流提供给网页使用。先完成浏览器内测试，再验证嵌入后的输入、输出和访问范围。</p>
+<p><strong>运行日志</strong>用于查看某次执行、各节点输入输出和错误。遇到“最后没有回复”，先看在哪个节点停止，而不是重新创建整个流程。</p>
+<h3 id="section-20-9" tabindex="-1">20.9 文档生成：把流程结果变成可下载文件</h3>
+<p><strong>入口：</strong> 在工作流中添加“文档生成 / DocGenerator”工具节点。先让前面的步骤产出正文，再在此节点的“内容”中引用该输出；只填文件名不会自动写出报告。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子选项</th>
+<th>怎样填或选择</th>
+<th>注意什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>输出格式</td>
+<td>PDF、DOCX、TXT、Markdown、HTML</td>
+<td>需要固定版面可选 PDF，需要继续编辑可选 DOCX；纯文字可选 TXT</td>
+</tr>
+<tr>
+<td>内容</td>
+<td>写入文字，或从变量选择器引用前一步结果</td>
+<td>先运行确认这里拿到实际正文，不能是空值或变量名的字面文字</td>
+</tr>
+<tr>
+<td>文件名</td>
+<td>例如 <code>A1-教学学习提纲</code></td>
+<td>与正文标题、实际资料版本保持一致</td>
+</tr>
+<tr>
+<td>字号</td>
+<td>使用面板允许的整数，至少 12</td>
+<td>PDF、DOCX、HTML 显示此类排版项；不要用字号替代章节结构</td>
+</tr>
+<tr>
+<td>页眉、页脚</td>
+<td>例如资料名称、教学用途说明</td>
+<td>TXT、Markdown 不提供这些排版项</td>
+</tr>
+<tr>
+<td>水印</td>
+<td>例如“教学演示”</td>
+<td>PDF、DOCX、HTML 可配置；不代表文档经过审定</td>
+</tr>
+<tr>
+<td>页码</td>
+<td>需要时打开</td>
+<td>当前面板仅在 PDF 格式显示此开关</td>
+</tr>
+<tr>
+<td>时间戳</td>
+<td>需要区分生成时间时打开</td>
+<td>这是生成时间，不是所引规章的生效日期</td>
+</tr>
+<tr>
+<td>输出字段</td>
+<td>查看文件 ID、文件名、类型、大小、下载信息</td>
+<td>下游节点要引用实际输出；把正文输出给用户不等于同时提供了文件下载</td>
+</tr>
+</tbody></table>
+</div>
+<p>一个练习流程是“检索 → Agent 整理学习提纲 → 文档生成 → 消息展示结果”。先用 TXT 验证内容和下载信息，再按需要测试 PDF 或 DOCX 的版面。保存节点后还要运行整个流程，确认文件能打开、中文显示正常、引用和内容没有遗漏；转换服务或字体缺失时请维护人员检查运行环境。</p>
+<h2 id="chapter-21" tabindex="-1">21. 更多 → 数据处理流程：文档怎样被整理</h2>
+<h3 id="section-21-1" tabindex="-1">21.1 内置流程、复制和自定义流程</h3>
+<p><strong>用途：</strong> 规定文件进入知识库后如何处理。它处理文件，与接收聊天问题的工作流用途不同。</p>
+<p>在“更多 → 数据处理流程”查看现有流程。内置条目是只读预览，需要修改时先复制成自己的流程，再打开编辑。看到不能编辑并不一定是账号故障。</p>
+<p>当前数据处理画布不提供与聊天工作流相同的“运行”按钮。验证方式是：<strong>保存并发布 → 知识库绑定 → 解析样本文档 → 看日志和片段</strong>。</p>
+<h3 id="section-21-2" tabindex="-1">21.2 节点顺序和输入输出</h3>
+<p>常见结构如下，具体步骤以你选择的流程为准：</p>
+<pre><code class="language-text">文件 → 解析器 → Token 分块 或 标题分块
+     → 可选提取器 / 知识编译器 → 索引器
+</code></pre>
+<p>解析器把文件读成结构化内容；分块器整理内容单元；提取器补充关键词等信息；知识编译器生成知识组织结果；索引器让内容能被检索。节点只是出现在画布上不够，还要正确连接和传递输入。</p>
+<h3 id="section-21-3" tabindex="-1">21.3 解析器：文件类型与基础选项</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>文件类别 / 选项</th>
+<th>作用</th>
+<th>选择方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>PDF</td>
+<td>读取页面文字、表格和版面内容</td>
+<td>先用适合该 PDF 的可用解析方法；扫描件要检查识别效果</td>
+</tr>
+<tr>
+<td>DOC / DOCX</td>
+<td>读取 Word 正文和结构</td>
+<td>关注标题、页眉页脚、表格顺序</td>
+</tr>
+<tr>
+<td>电子表格</td>
+<td>读取表格内容</td>
+<td>检查表头与行列关系，不把编号或单位弄丢</td>
+</tr>
+<tr>
+<td>PPT</td>
+<td>读取幻灯片文字、图片及表格</td>
+<td>抽查顺序、表格返回方式和图片</td>
+</tr>
+<tr>
+<td>图片</td>
+<td>用 OCR 读取图中文字，可结合视觉增强</td>
+<td>选择内置 DeepDoc 或已配置外部 OCR，按界面可用项选择</td>
+</tr>
+<tr>
+<td>音频</td>
+<td>用 ASR 把语音转为文本</td>
+<td>先有可用语音识别模型，核对专有词</td>
+</tr>
+<tr>
+<td>邮件</td>
+<td>选择读取的邮件字段</td>
+<td>按需选择发件人、收件人、抄送、密送、日期、主题、正文、附件</td>
+</tr>
+<tr>
+<td>HTML</td>
+<td>从网页文件中提取正文</td>
+<td>检查导航、页脚是否被当正文</td>
+</tr>
+<tr>
+<td>文字 / Markdown / 代码</td>
+<td>读取文本结构</td>
+<td>关注编码、标题和内容是否完整</td>
+</tr>
+</tbody></table>
+</div>
+<p>当前批量解析路径不应当作已支持视频解析使用；先按实际支持的资料类型操作。</p>
+<h3 id="section-21-4" tabindex="-1">21.4 解析器的细分设置</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子选项</th>
+<th>是什么意思</th>
+<th>何时调整</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>解析方法</td>
+<td>用哪种可用引擎读取文件</td>
+<td>对比少量样本质量后选择</td>
+</tr>
+<tr>
+<td>页码范围</td>
+<td>仅处理指定页面区间</td>
+<td>去除封面或只试读部分页面，核对起止页</td>
+</tr>
+<tr>
+<td>主要内容 / 标题 / 摘要 / 作者等预处理项</td>
+<td>从解析内容中关注的部分</td>
+<td>按节点实际可用项选择，不保证所有格式都有这些结构</td>
+</tr>
+<tr>
+<td>移除页眉页脚</td>
+<td>排除每页重复的页眉页脚</td>
+<td>重复内容干扰时使用，检查是否误删条文</td>
+</tr>
+<tr>
+<td>移除目录</td>
+<td>减少目录重复干扰</td>
+<td>资料确有目录且支持该选项时使用</td>
+</tr>
+<tr>
+<td>多栏识别</td>
+<td>处理一页左右多栏的阅读顺序</td>
+<td>双栏资料乱序时测试</td>
+</tr>
+<tr>
+<td>表格返回形式</td>
+<td>决定后续拿到怎样的表格表示</td>
+<td>以字段和值能保持对应为目标</td>
+</tr>
+<tr>
+<td>图片返回形式</td>
+<td>决定图片在后续内容中的表示</td>
+<td>需要结合下游能力检查，而非只看缩略图</td>
+</tr>
+<tr>
+<td>语言</td>
+<td>指定或继承资料处理语言</td>
+<td>与实际资料相符，核对专业词</td>
+</tr>
+<tr>
+<td>图片 OCR 开关与 OCR 模型</td>
+<td>识别图中的文字</td>
+<td>印刷文字与复杂图片分别抽查</td>
+</tr>
+<tr>
+<td>视觉增强、视觉模型、系统提示</td>
+<td>用视觉模型补充图像理解</td>
+<td>需要可调用的视觉模型，可能增加成本与耗时</td>
+</tr>
+<tr>
+<td>音频模型</td>
+<td>执行语音转文字</td>
+<td>选择 ASR，不是普通对话或 TTS 模型</td>
+</tr>
+</tbody></table>
+</div>
+<p>图片文字读取相关配置需要至少保留有效的文字来源，不能关闭必要读取能力后期待得到文字片段。解析选项随文件类型和引擎变化，不是每一份文件都有所有开关。</p>
+<h3 id="section-21-5" tabindex="-1">21.5 Token 分块器：按长度和分隔符整理</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子选项</th>
+<th>含义</th>
+<th>使用建议</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>分隔符模式 / 单块模式</td>
+<td>按边界切分或尽量作为一个单元</td>
+<td>长文先分块；单块不适合无限长文</td>
+</tr>
+<tr>
+<td>目标 token 数</td>
+<td>每块大致长度限制</td>
+<td>先默认，兼顾条文完整性与检索粒度</td>
+</tr>
+<tr>
+<td>重叠比例</td>
+<td>相邻块重复一部分内容</td>
+<td>跨段语义容易断开时小幅增加</td>
+</tr>
+<tr>
+<td>分隔符</td>
+<td>优先在哪些字符处切开</td>
+<td>例如换行、中文句号；避免破坏型号代码</td>
+</tr>
+<tr>
+<td>表格上下文 / 图片上下文</td>
+<td>保留邻近说明文字</td>
+<td>图表离开说明后无法理解时使用</td>
+</tr>
+<tr>
+<td>图表上下文窗口</td>
+<td>关联图表周边内容的范围</td>
+<td>按实际配置项与样本结果调整</td>
+</tr>
+<tr>
+<td>子块开关、子块分隔符</td>
+<td>在块内部再形成更小单元</td>
+<td>先明确父子块用途再开启</td>
+</tr>
+</tbody></table>
+</div>
+<p>块太小可能把“要求”和“例外”拆开；块太大可能混入多个主题。用真实问题检索，而不是只追求片段数多。</p>
+<h3 id="section-21-6" tabindex="-1">21.6 标题分块器：沿章节结构整理</h3>
+<p><strong>用途：</strong> 让同一章、节、条的内容尽量保持结构。适合有清晰标题的规章和手册。</p>
+<p>主要选项包括层级模式与分组模式、识别到哪个标题级别、标题匹配规则、是否包含标题正文、是否将根块当标题、块长度上限、表格及图片上下文。</p>
+<p><strong>操作例子：</strong> 对有“第一章、第一节、第一条”的资料，选择匹配中文章条的规则 → 设置合适层级 → 解析短样本 → 检查标题是否漏掉、正文是否挂错章节。规则是识别文本的表达式，不是让模型自动理解全部排版；无明确标题时可先用 Token 分块。</p>
+<h3 id="section-21-7" tabindex="-1">21.7 提取器：为片段补充哪些信息</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>生成什么</th>
+<th>关键选项与用法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>关键词</td>
+<td>概括片段中的重要词</td>
+<td>开关、数量和提示规则；保留型号与代码</td>
+</tr>
+<tr>
+<td>问题</td>
+<td>片段可能回答的问题</td>
+<td>开关、数量和提示规则；核对问题确能由片段回答</td>
+</tr>
+<tr>
+<td>摘要</td>
+<td>内容概述</td>
+<td>开关和提示词；不把概述直接当原文</td>
+</tr>
+<tr>
+<td>标签</td>
+<td>从配置的标签体系选标记</td>
+<td>开关、数量、标签文件；确保标签来源已配置</td>
+</tr>
+<tr>
+<td>元数据</td>
+<td>结构化属性</td>
+<td>自定义字段与内置属性；抽查值和类型</td>
+</tr>
+<tr>
+<td>对话模型和生成参数</td>
+<td>执行上述文字提取</td>
+<td>先确认模型可用，再逐项开启</td>
+</tr>
+</tbody></table>
+</div>
+<p>提取结果也可能出错。先验证一项是否改善检索，再增加其他项，避免一次开启所有功能却无法判断哪一步有问题。</p>
+<h3 id="section-21-8" tabindex="-1">21.8 知识编译器与索引器</h3>
+<p><strong>知识编译器：</strong> 选择编译算子、对话模型及生成参数，按第 22 章定义的规则整理资料。它不是编译 Go 程序，也不是训练模型。没有配置时不能期待自动生成 Wiki 或图谱。</p>
+<p><strong>索引器 / Tokenizer：</strong> 把处理后的内容写成可以查找的数据。可配置语义向量与全文检索方式、文件名权重、索引正文或问题或摘要等字段。</p>
+<p>例如需要按报警代码查找时，字面词索引很重要；语义检索帮助查“过热提示”与相关描述。文件名权重只影响文件名信息参与检索的方式，不会修正文档中错识别的数字。</p>
+<h3 id="section-21-9" tabindex="-1">21.9 保存、发布、绑定、重新解析：一次完整练习</h3>
+<p>创建“教学手册处理流程” → 配置解析和标题分块 → 配置索引器 → 保存草稿 → 检查并发布 → 打开教学资料库的分块设置 → 选择该流程 → 保存并确认文档配置 → 解析一份样本 → 核对片段 → 用原文问题检索。</p>
+<p>需要知识成果时，再加入知识编译器并重复验证。流程改了但旧资料没变，先检查是否仍绑定旧发布版本、文档是否实际重新处理。</p>
+<h2 id="chapter-22" tabindex="-1">22. 更多 → 编译算子：定义资料整理规则</h2>
+<h3 id="section-22-1" tabindex="-1">22.1 为什么需要“编译算子”</h3>
+<p>你可以把它理解成一份“资料整理作业要求”。比如：读完教学资料，按主题生成文章；提取概念定义；把设备和报警的关系整理出来。</p>
+<p><strong>保存算子只保存规则。</strong> 真正执行由数据处理流程中的知识编译器负责，成果在知识库中查看。它不负责自动判断规章是否现行有效。</p>
+<h3 id="section-22-2" tabindex="-1">22.2 新建、命名、类型、描述和全局规则</h3>
+<p>进入更多 → 编译算子 → 新建或编辑，选择界面实际提供的内置类型，再配置规则。当前编辑界面以所选单个算子为主，不必寻找一个页面同时批量维护许多模板的入口。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>字段</th>
+<th>怎样理解</th>
+<th>填写示例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>名称</td>
+<td>便于在流程中选择的规则名</td>
+<td>“A1 教学资料主题 Wiki”</td>
+</tr>
+<tr>
+<td>描述</td>
+<td>说明适用资料与目标</td>
+<td>“仅用于教学手册，按概念和报警主题整理”</td>
+</tr>
+<tr>
+<td>内置类型</td>
+<td>决定生成哪类结构</td>
+<td>按目标选择 Wiki、图谱、时间线、树等实际可选项</td>
+</tr>
+<tr>
+<td>全局规则</td>
+<td>所有提取与整理都需遵守的要求</td>
+<td>“只使用输入依据，保留型号、单位和版本；缺失内容不补写”</td>
+</tr>
+</tbody></table>
+</div>
+<p>切换类型后重新检查字段，原类型的配置不一定适用于新类型。不要仅修改名称就认为生成类型已变化。</p>
+<h3 id="section-22-3" tabindex="-1">22.3 Wiki 模式、蓝图指令和示例</h3>
+<p><strong>实体 / 主题模式：</strong> 决定围绕对象还是知识主题组织文章。<strong>蓝图指令：</strong> 说明文章结构、必须包含的内容、证据要求。<strong>示例：</strong> 展示希望的格式，帮助模型理解，不是替真实资料补事实。</p>
+<p>示例指令：</p>
+<pre><code class="language-text">按教学主题组织内容。
+每个条目包含：名称、定义、适用范围、资料直接支持的要点、来源。
+不同型号或版本分开叙述。
+资料未说明的条件写“资料未提供”，不补充具体参数。
+</code></pre>
+<p>先用一两页样本检查是否按预期生成，尤其核对“例子中的事实”有没有被误写进成果。</p>
+<h3 id="section-22-4" tabindex="-1">22.4 实体、关系、概念、声明与字段编辑</h3>
+<p>各类型显示的结构化区域不同，按实际出现的区域设置。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>结构</th>
+<th>代表什么</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>实体</td>
+<td>可识别的对象</td>
+<td>某设备型号、某术语</td>
+</tr>
+<tr>
+<td>关系</td>
+<td>对象之间的联系</td>
+<td>某报警“属于”某设备型号的资料范围</td>
+</tr>
+<tr>
+<td>概念</td>
+<td>定义和解释性知识</td>
+<td>“安全保护区”的资料定义</td>
+</tr>
+<tr>
+<td>声明 / Claim</td>
+<td>资料明确表达的一条主张</td>
+<td>某条文对某主体提出的要求</td>
+</tr>
+<tr>
+<td>字段名称、类型、描述、规则</td>
+<td>规定应提取什么、用何种格式</td>
+<td><code>device_model</code> 为文本；保留原始型号拼写</td>
+</tr>
+</tbody></table>
+</div>
+<p>添加字段后，检查必填项和结构；编辑或删除字段会改变后续产物的形状，已有结果不会因此自动全部更新。来源、主体、定义片段等字段应与所选类型的要求对应。</p>
+<h3 id="section-22-5" tabindex="-1">22.5 重分块与树形整理的专用设置</h3>
+<p><strong>重分块开关与规则：</strong> 允许按编译目标重新组织输入片段，可能改变参与检索的内容单元。先对样本比较检索，不要只看成果是否更美观。</p>
+<p>树 / RAPTOR 类配置还包括：</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>专用选项</th>
+<th>作用</th>
+<th>怎么理解</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>摘要提示词</td>
+<td>规定层级摘要怎样写</td>
+<td>保留主题、适用范围和来源关系</td>
+</tr>
+<tr>
+<td>声明提取提示词</td>
+<td>规定从内容中提炼哪些主张</td>
+<td>只提取资料支持的内容</td>
+</tr>
+<tr>
+<td>最大 token</td>
+<td>限制生成摘要的长度</td>
+<td>太短可能丢失条件</td>
+</tr>
+<tr>
+<td>聚类阈值</td>
+<td>控制相近内容怎样归组</td>
+<td>与当前算法和资料相关，先默认</td>
+</tr>
+<tr>
+<td>聚类比例</td>
+<td>控制聚类组织的相关参数</td>
+<td>用同一份样本比较层级是否合理</td>
+</tr>
+<tr>
+<td>按树叶重分块</td>
+<td>用树的叶节点组织检索片段</td>
+<td>可能保留原块但使原块不再参与检索，须验证来源和命中</td>
+</tr>
+</tbody></table>
+</div>
+<h3 id="section-22-6" tabindex="-1">22.6 JSON 预览、工作流配置预览与保存</h3>
+<p>预览让维护者检查生成的配置结构，不是调用模型试运行，也不会生成真实知识成果。保存成功后，到数据处理流程的知识编译器节点选择该算子，再按第 19.2 节处理文档。</p>
+<p>检查标准：字段清楚 → 规则保存 → 编译器引用正确 → 文档执行成功 → 结果有证据 → 检索仍符合预期。只看到预览 JSON 不算完成。</p>
+<h2 id="chapter-23" tabindex="-1">23. 设置 → 数据源：自动取回外部资料</h2>
+<h3 id="section-23-1" tabindex="-1">23.1 数据源与上传有什么区别</h3>
+<p>上传由你手工选文件；数据源按连接配置从外部平台取资料，并可定期同步。它主要解决“资料不断更新，不想每次手工上传”的问题。</p>
+<p><strong>数据源定义、知识库绑定、同步成功、解析完成是四个不同状态。</strong> 来源能连上，也不一定已产生可检索片段。</p>
+<h3 id="section-23-2" tabindex="-1">23.2 从创建到可检索的完整步骤</h3>
+<ol>
+<li>头像 → 设置 → 数据源，添加来源，选择实际平台。</li>
+<li>填名称、平台所需的地址与凭据，限制需要读取的目录、站点、仓库、页面或查询范围。</li>
+<li>使用连接测试，按提示修复访问或权限问题，再保存。</li>
+<li>进入来源详情，核对是否启用、刷新周期和同步状态。</li>
+<li>进入目标知识库 → 分块设置 → 关联数据源，选择刚创建的来源。</li>
+<li>按需求开启该关联的自动解析；保存绑定设置。</li>
+<li>等待同步服务取回资料，在文件列表和来源日志中核对实际文件。</li>
+<li>等待解析完成，检查片段并做检索测试。</li>
+</ol>
+<p>示例：先只关联一个教学资料目录，确认能同步一份文件；成功后再扩大范围。不要把“连接测试成功”当成已把全部网盘建好索引。</p>
+<h3 id="section-23-3" tabindex="-1">23.3 连接字段、周期、启停和删除同步</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子功能</th>
+<th>含义</th>
+<th>填写 / 操作方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>名称、类型</td>
+<td>区分不同来源定义</td>
+<td>名称说明平台与资料范围</td>
+</tr>
+<tr>
+<td>地址、Endpoint、服务器</td>
+<td>从哪里读取</td>
+<td>填后端可访问的地址；容器中的 localhost 不指向你的电脑服务</td>
+</tr>
+<tr>
+<td>Token、密钥、账号、OAuth</td>
+<td>证明有权读取资料</td>
+<td>使用该平台要求的对应凭据，不同类型不能混填</td>
+</tr>
+<tr>
+<td>路径、前缀、空间、项目、页面</td>
+<td>限定读取范围</td>
+<td>先填最小测试范围，再扩大</td>
+</tr>
+<tr>
+<td>启用、开始、暂停</td>
+<td>控制后续同步</td>
+<td>暂停不等于删除已经入库的文件</td>
+</tr>
+<tr>
+<td>刷新周期</td>
+<td>多久尝试同步一次</td>
+<td>当前字段按分钟填写，不是秒</td>
+</tr>
+<tr>
+<td>超时时间</td>
+<td>单次操作允许等待多久</td>
+<td>按字段说明填写秒；太小可能误判网络失败</td>
+</tr>
+<tr>
+<td>同步源端删除</td>
+<td>源端移除资料后同步清理</td>
+<td>开启前确认希望删除变化传递到库中</td>
+</tr>
+<tr>
+<td>清理周期</td>
+<td>检查源端删除的间隔</td>
+<td>开启删除同步后按分钟配置</td>
+</tr>
+<tr>
+<td>日志和状态</td>
+<td>实际读取、更新或失败记录</td>
+<td>检查对象、时间和原因</td>
+</tr>
+<tr>
+<td>解除知识库关联</td>
+<td>取消这一条来源到库的关系</td>
+<td>先核对确认框对已有资料的处理，不把解绑当作自动备份</td>
+</tr>
+<tr>
+<td>重建 / 重新处理关联</td>
+<td>对相应来源关联执行重新同步或处理</td>
+<td>以当前确认范围为准，完成后检查片段</td>
+</tr>
+</tbody></table>
+</div>
+<p>当前来源详情对名称等字段可能限制编辑；需要更换连接目标时核对能编辑哪些项。删除来源前先阅读确认范围，不假定源端资料会被删除，也不假定库内旧资料一定保留。</p>
+<h3 id="section-23-4" tabindex="-1">23.4 网站与接口类来源</h3>
+<p>以下是当前来源目录中的类型说明，列出入口不表示已经逐个平台完成连通性验证。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>用来读取什么</th>
+<th>重点准备</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>RSS</td>
+<td>订阅中的更新条目</td>
+<td>Feed 地址与范围</td>
+</tr>
+<tr>
+<td>Sitemap</td>
+<td>站点地图列出的网页</td>
+<td>Sitemap 地址、页面可访问性与抓取范围</td>
+</tr>
+<tr>
+<td>REST API</td>
+<td>自定义业务接口中的条目</td>
+<td>URL、认证、列表路径、字段映射和分页，见第 23.9 节</td>
+</tr>
+<tr>
+<td>Xquik</td>
+<td>对应外部内容服务中的资料</td>
+<td>服务要求的访问凭据与查询范围</td>
+</tr>
+<tr>
+<td>WebDAV</td>
+<td>支持 WebDAV 的文件服务器</td>
+<td>服务地址、账号和目录</td>
+</tr>
+<tr>
+<td>IMAP</td>
+<td>邮件服务器中的邮件</td>
+<td>服务器、端口、账号、邮箱或文件夹范围</td>
+</tr>
+<tr>
+<td>Gmail、Outlook</td>
+<td>对应账号授权的邮件资料</td>
+<td>平台要求的 OAuth / 授权与邮件范围</td>
+</tr>
+</tbody></table>
+</div>
+<p>网页抓取只会取得能访问到的内容；登录页、动态页面或被限制的站点可能不能直接读取。建立来源不是开通整张互联网检索。</p>
+<h3 id="section-23-5" tabindex="-1">23.5 对象存储、网盘和文件空间</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>资料位置</th>
+<th>重点准备</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>S3</td>
+<td>兼容 S3 的桶</td>
+<td>Endpoint、区域、桶、前缀及密钥</td>
+</tr>
+<tr>
+<td>GCS</td>
+<td>Google Cloud Storage</td>
+<td>项目、桶及对应服务授权</td>
+</tr>
+<tr>
+<td>Oracle Storage</td>
+<td>Oracle 对象存储</td>
+<td>区域、命名空间、桶和访问配置</td>
+</tr>
+<tr>
+<td>R2</td>
+<td>Cloudflare R2</td>
+<td>对应 S3 兼容地址、桶和密钥</td>
+</tr>
+<tr>
+<td>Azure Blob</td>
+<td>Azure Blob 存储</td>
+<td>账号或服务地址、容器和授权</td>
+</tr>
+<tr>
+<td>Google Drive</td>
+<td>Google 网盘</td>
+<td>授权账号、文件夹范围</td>
+</tr>
+<tr>
+<td>OneDrive</td>
+<td>Microsoft 网盘</td>
+<td>账号或应用授权、目录范围</td>
+</tr>
+<tr>
+<td>SharePoint</td>
+<td>SharePoint 站点文档</td>
+<td>租户、应用授权、站点与库范围</td>
+</tr>
+<tr>
+<td>Dropbox</td>
+<td>Dropbox 文件</td>
+<td>授权与路径</td>
+</tr>
+<tr>
+<td>Box</td>
+<td>Box 文件空间</td>
+<td>访问授权与文件夹</td>
+</tr>
+<tr>
+<td>SeaFile</td>
+<td>SeaFile 文件库</td>
+<td>服务地址、授权和资料库</td>
+</tr>
+</tbody></table>
+</div>
+<p><strong>S3 类例子：</strong> 只同步桶中的 <code>teaching/a1/</code> 前缀，不等于同步整个桶。前缀是对象路径范围；区域和 Endpoint 按实际部署提供，不能把网页控制台登录地址当成接口地址。</p>
+<h3 id="section-23-6" tabindex="-1">23.6 协作、业务与项目平台来源</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>用途</th>
+<th>重点准备</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Notion</td>
+<td>同步工作区页面</td>
+<td>集成凭据以及允许该集成访问的页面</td>
+</tr>
+<tr>
+<td>Confluence</td>
+<td>同步知识空间页面</td>
+<td>服务地址、授权、空间范围</td>
+</tr>
+<tr>
+<td>Feishu Wiki</td>
+<td>同步飞书知识库</td>
+<td>应用授权、知识空间和节点范围</td>
+</tr>
+<tr>
+<td>Discord</td>
+<td>读取授权频道内容</td>
+<td>Bot 凭据与频道权限</td>
+</tr>
+<tr>
+<td>Slack</td>
+<td>读取授权工作区内容</td>
+<td>平台 Token 与频道范围</td>
+</tr>
+<tr>
+<td>Microsoft Teams</td>
+<td>读取授权团队内容</td>
+<td>应用及租户授权、团队范围</td>
+</tr>
+<tr>
+<td>DingTalk AI Table</td>
+<td>读取钉钉相关表格资料</td>
+<td>应用授权、表格和字段配置</td>
+</tr>
+<tr>
+<td>Airtable</td>
+<td>读取表格记录</td>
+<td>Token、Base、表及读取字段</td>
+</tr>
+<tr>
+<td>Jira</td>
+<td>同步问题与项目记录</td>
+<td>服务地址、凭据和项目 / 查询范围</td>
+</tr>
+<tr>
+<td>Asana</td>
+<td>同步项目任务</td>
+<td>授权与工作区 / 项目范围</td>
+</tr>
+<tr>
+<td>Moodle</td>
+<td>同步课程平台资料</td>
+<td>服务地址、Token 和课程范围</td>
+</tr>
+<tr>
+<td>Zendesk</td>
+<td>同步服务平台内容</td>
+<td>账号、授权与支持的内容范围</td>
+</tr>
+<tr>
+<td>Salesforce</td>
+<td>同步业务对象资料</td>
+<td>实例授权、对象与查询范围</td>
+</tr>
+<tr>
+<td>Zotero</td>
+<td>同步文献库内容</td>
+<td>用户或群组库、密钥及集合范围</td>
+</tr>
+</tbody></table>
+</div>
+<p><strong>同一平台的两个用途要分清：</strong> 数据源里的 Slack 是取资料，聊天渠道里的 Slack 是收问题并回复。配好其中一个不会自动开通另一个。</p>
+<h3 id="section-23-7" tabindex="-1">23.7 代码托管平台来源</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>使用目标</th>
+<th>重点配置</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>GitHub</td>
+<td>同步指定仓库所支持的协作内容</td>
+<td>Owner、仓库名、Token、是否包含 Issues / Pull Requests</td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td>同步项目内容</td>
+<td>服务地址、项目、Token；按需选择代码文件等实际选项</td>
+</tr>
+<tr>
+<td>Bitbucket</td>
+<td>同步授权仓库内容</td>
+<td>工作区、仓库、访问授权</td>
+</tr>
+<tr>
+<td>Azure DevOps</td>
+<td>同步项目中的支持内容</td>
+<td>组织、项目、凭据及范围</td>
+</tr>
+</tbody></table>
+</div>
+<p>GitHub 来源的 Issues / Pull Requests 开关只控制这些内容，不应理解为必然索引整个仓库所有代码文件。需要代码资料时先核对具体连接器支持范围及同步日志。</p>
+<h3 id="section-23-8" tabindex="-1">23.8 MySQL、PostgreSQL、BigQuery：数据库资料同步</h3>
+<p>这些连接器把查询结果整理成资料，再进行解析和检索。它们不等于问答时实时执行任意 SQL，也不保证回答时看到数据库刚发生的变化。</p>
+<p>MySQL / PostgreSQL 的常见字段包括主机、端口、数据库、用户名、密码、查询语句、正文列、元数据列、唯一 ID 列、时间戳列、文件扩展名、批大小。</p>
+<p>例如有一张已经存在的教学表：</p>
+<pre><code class="language-sql">SELECT id, title, content, device_model, updated_at
+FROM teaching_notes
+WHERE published = 1
+</code></pre>
+<p>把 <code>title</code>、<code>content</code> 作为正文列，<code>device_model</code> 作为元数据列，<code>id</code> 作为稳定唯一 ID，<code>updated_at</code> 作为更新判断字段。表名和列名只是示例，必须换成真实结构。BigQuery 按自身项目、数据集和授权表单配置。</p>
+<p>第一次让维护人员用小范围只读查询验证，确认记录没有重复、正文不为空、时间字段可用，再开启定时同步。需要实时查询业务数据，应另行设计对应工作流与接口。</p>
+<h3 id="section-23-9" tabindex="-1">23.9 REST API：列表路径、字段映射和分页</h3>
+<p>用一个教学接口的示例响应来理解：</p>
+<pre><code class="language-json">{
+  &quot;data&quot;: {
+    &quot;items&quot;: [
+      {
+        &quot;id&quot;: &quot;note-001&quot;,
+        &quot;title&quot;: &quot;教学记录&quot;,
+        &quot;content&quot;: &quot;这是一条示例资料正文。&quot;,
+        &quot;device_model&quot;: &quot;A1&quot;,
+        &quot;updated_at&quot;: &quot;2026-11-14T09:00:00+08:00&quot;
+      }
+    ]
+  }
+}
+</code></pre>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>子项</th>
+<th>示例含义</th>
+<th>填写原则</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>URL、方法</td>
+<td>请求接口的位置与 GET / POST 等方法</td>
+<td>按接口实际约定，不填网页前台地址</td>
+</tr>
+<tr>
+<td>Query parameters / 请求体</td>
+<td>传给接口的筛选条件</td>
+<td>名称、类型与接口一致</td>
+</tr>
+<tr>
+<td>认证</td>
+<td>无认证、API 请求头、Bearer、Basic 等</td>
+<td>只选接口实际要求的方式</td>
+</tr>
+<tr>
+<td>Items path</td>
+<td>找到记录列表的位置</td>
+<td>例中逻辑位置是 <code>data.items</code>，按表单要求的路径语法填写</td>
+</tr>
+<tr>
+<td>ID field</td>
+<td>每条记录的稳定标识</td>
+<td>例中是 <code>id</code>，不要用每次随机值</td>
+</tr>
+<tr>
+<td>Content fields</td>
+<td>哪些字段作为正文</td>
+<td>例中 <code>title</code>、<code>content</code></td>
+</tr>
+<tr>
+<td>Metadata fields</td>
+<td>哪些字段保存为属性</td>
+<td>例中 <code>device_model</code></td>
+</tr>
+<tr>
+<td>时间戳字段</td>
+<td>判断记录是否更新</td>
+<td>例中 <code>updated_at</code>，实际格式应被连接器支持</td>
+</tr>
+<tr>
+<td>分页</td>
+<td>逐页取完记录</td>
+<td>按接口选无分页、页码、偏移量或游标</td>
+</tr>
+<tr>
+<td>高级限制</td>
+<td>起始页、每页量、最大页数、延迟等</td>
+<td>先限制几条验证，避免误取无限范围</td>
+</tr>
+</tbody></table>
+</div>
+<p>先测试是否取到一条完整记录，再扩大页数。HTTP 返回成功但列表为空时，重点检查 Items path、筛选条件和分页字段。</p>
+<h3 id="section-23-10" tabindex="-1">23.10 同步故障怎么定位</h3>
+<p><strong>测试失败：</strong> 查地址、认证类型、平台权限和后端网络。<strong>能连但无文件：</strong> 查范围、文件类型、查询结果和同步服务。<strong>文件已到但不能搜：</strong> 查关联自动解析、任务状态、片段和启用开关。<strong>修改迟迟不出现：</strong> 查刷新周期、时间戳、缓存和最新日志。</p>
+<p>平台撤销授权后，网页里保留一条连接配置并不能维持访问。同步还依赖部署人员运行相应同步服务。</p>
+<h2 id="chapter-24" tabindex="-1">24. 设置 → 聊天渠道：从外部平台向助手提问</h2>
+<h3 id="section-24-1" tabindex="-1">24.1 渠道做什么，不做什么</h3>
+<p>聊天渠道把钉钉、飞书、QQ 等平台接到已配置的助手或工作流，让用户在这些平台里提问。它不是把群消息自动当知识库资料同步进来；那属于数据源。</p>
+<p>先在浏览器里验证助手能回答，再接渠道。浏览器中助手报错时，换平台通常不会修复模型和资料问题。</p>
+<h3 id="section-24-2" tabindex="-1">24.2 添加、编辑、绑定、解绑和删除</h3>
+<ol>
+<li>头像 → 设置 → 聊天渠道 → 添加，选择平台。</li>
+<li>填平台应用或机器人的实际凭据，按平台要求准备权限、事件或连接方式。</li>
+<li>保存渠道配置。</li>
+<li>点渠道的链条图标，选择绑定“助手”或“工作流”，再选择具体对象并确认。</li>
+<li>查看运行状态，等待已连接后到平台发送简单问题。</li>
+<li>对照浏览器测试答案及来源，再做缺资料问题测试。</li>
+</ol>
+<p>齿轮用于编辑；链条用于修改绑定；清空绑定选择用于解绑；垃圾桶用于删除渠道配置。凭据保存成功、绑定成功、连接成功、问答成功应分别确认。</p>
+<p>绑定一个工作流不会自动获得铁路助手规则；要检查这个工作流自己如何处理证据和未知问题。</p>
+<h3 id="section-24-3" tabindex="-1">24.3 常用平台各字段是什么意思</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>平台</th>
+<th>关键子项</th>
+<th>如何理解</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>钉钉 DingTalk</td>
+<td>Client ID、Client Secret、Streaming、卡片模板 ID、流内容键</td>
+<td>来自钉钉应用；开启流式卡片时按实际模板填写，内容键需匹配模板</td>
+</tr>
+<tr>
+<td>飞书 / Lark</td>
+<td>App ID、App Secret、域、Streaming</td>
+<td>域选择对应国内飞书或 Lark；不能混用另一应用凭据</td>
+</tr>
+<tr>
+<td>企业微信 WeCom</td>
+<td>Webhook 或 WebSocket 模式</td>
+<td>Webhook 按界面填企业 ID、应用 ID、Secret、Token、AES 等；WebSocket 使用对应 Bot ID / Secret</td>
+</tr>
+<tr>
+<td>QQ Bot</td>
+<td>App ID、Client Secret</td>
+<td>对应开放平台机器人应用，非个人 QQ 密码</td>
+</tr>
+<tr>
+<td>Telegram</td>
+<td>Bot Token</td>
+<td>对应机器人的令牌</td>
+</tr>
+<tr>
+<td>Discord</td>
+<td>Bot Token，按需 Application ID</td>
+<td>应用与机器人身份及服务权限需一致</td>
+</tr>
+<tr>
+<td>Slack</td>
+<td>Bot Token、App Token、Signing Secret，按需 User Token</td>
+<td>用途各不相同；按平台应用配置填写</td>
+</tr>
+<tr>
+<td>Microsoft Teams</td>
+<td>应用与租户相关配置</td>
+<td>由组织应用管理者提供对应凭据和授权</td>
+</tr>
+<tr>
+<td>Google Chat</td>
+<td>Webhook 或服务账号 JSON / 文件等模式</td>
+<td>选择实际接入模式；单有 Webhook 不应假定已经接通全部入站事件</td>
+</tr>
+<tr>
+<td>WhatsApp</td>
+<td>网关地址与二维码</td>
+<td>先运行配套网关，保存后按二维码完成登录</td>
+</tr>
+</tbody></table>
+</div>
+<p>流式输出表示边生成边显示，不会提高资料正确性。平台可能对消息样式、卡片或引用显示有限制，应实际检查接收效果。</p>
+<h3 id="section-24-4" tabindex="-1">24.4 其他渠道类型及准备内容</h3>
+<p>下列渠道在当前目录中有入口，具体字段按添加弹窗提供的配置填写；每项都需要对应平台的实际服务和授权。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>渠道</th>
+<th>用途与准备方向</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ClickClack</td>
+<td>对应消息平台的账号或应用接入配置</td>
+</tr>
+<tr>
+<td>IRC</td>
+<td>服务器、身份和目标频道等连接配置</td>
+</tr>
+<tr>
+<td>LINE</td>
+<td>LINE 消息应用的访问与验证配置</td>
+</tr>
+<tr>
+<td>Matrix</td>
+<td>Matrix 服务、访问身份和会话范围</td>
+</tr>
+<tr>
+<td>Mattermost</td>
+<td>服务地址、机器人访问配置和目标范围</td>
+</tr>
+<tr>
+<td>Nextcloud Talk</td>
+<td>Nextcloud 服务及 Talk 的认证、会话配置</td>
+</tr>
+<tr>
+<td>Nostr</td>
+<td>对应身份与中继等连接配置</td>
+</tr>
+<tr>
+<td>Synology Chat</td>
+<td>Synology Chat 服务及机器人接入配置</td>
+</tr>
+<tr>
+<td>Tlon / Urbit</td>
+<td>对应服务身份与访问配置</td>
+</tr>
+<tr>
+<td>Twitch</td>
+<td>Twitch 账号、频道及聊天授权</td>
+</tr>
+<tr>
+<td>Yuanbao</td>
+<td>对应平台的接入配置</td>
+</tr>
+<tr>
+<td>Zalo</td>
+<td>平台应用或官方账号所需配置</td>
+</tr>
+<tr>
+<td>Zalo Personal</td>
+<td>个人账号对应的登录配置，区别于应用接入</td>
+</tr>
+</tbody></table>
+</div>
+<p>这些名称不是系统已经代你注册好的账号。某个平台的凭据不能填进另一个渠道。</p>
+<h3 id="section-24-5" tabindex="-1">24.5 WhatsApp 网关与二维码</h3>
+<p>网关是替渠道处理外部连接的额外服务。界面默认地址可能是 <code>http://host.docker.internal:3005</code>，它只适用于相应本地部署方式；服务器部署应由维护人员填写真实可达地址。</p>
+<p>先确认网关运行 → 保存渠道 → 打开二维码入口 → 在对应客户端扫码 → 等待连接状态变化 → 绑定并测试。二维码出现不代表已登录；扫码后仍等待时检查网关日志和账号状态。</p>
+<h3 id="section-24-6" tabindex="-1">24.6 运行状态翻译与排错</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>页面状态</th>
+<th>中文含义</th>
+<th>下一步</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Connected</td>
+<td>已建立渠道连接</td>
+<td>再发问题确认绑定对象和回复正常</td>
+</tr>
+<tr>
+<td>Connecting / Reconnecting</td>
+<td>正在连接 / 重连</td>
+<td>稍候；持续不变时查网络与凭据</td>
+</tr>
+<tr>
+<td>Waiting</td>
+<td>等待运行服务启动</td>
+<td>由维护人员检查渠道运行服务</td>
+</tr>
+<tr>
+<td>QR</td>
+<td>等待扫码</td>
+<td>完成对应平台登录</td>
+</tr>
+<tr>
+<td>Error / Disconnected</td>
+<td>运行错误 / 已断开</td>
+<td>看具体错误与平台授权</td>
+</tr>
+<tr>
+<td>Stopped</td>
+<td>当前已停止</td>
+<td>检查运行服务和配置状态</td>
+</tr>
+</tbody></table>
+</div>
+<p><strong>能收消息但不回答：</strong> 查是否绑定了有效助手或工作流、模型是否可用。<strong>完全收不到消息：</strong> 查平台事件订阅、机器人范围、网络及运行状态。<strong>只有部分人能用：</strong> 查平台和部署的访问限制。</p>
+<p>外部平台用户的访问范围不会因为你在浏览器用个人账号登录就自动完全相同。将助手接入群或组织前，核对其可查询的知识库是否适合该受众。</p>
+<h2 id="chapter-25" tabindex="-1">25. 账号、管理后台与当前入口范围</h2>
+<h3 id="section-25-1" tabindex="-1">25.1 普通用户设置</h3>
+<p>当前普通设置主要包括模型、数据源、聊天渠道；还可按实际菜单切换主题、查看账号标识和退出登录。主题只改变显示风格，不改变资料和模型。</p>
+<p>退出后换账号，看到的个人配置、资料和会话可能不同。记录里空了，先确认当前登录邮箱，不要立刻重新上传全部资料。</p>
+<h3 id="section-25-2" tabindex="-1">25.2 管理后台与普通页面的区别</h3>
+<p>管理员使用部署提供的管理入口和管理账号。前端管理路由与普通工作台不同；9381 通常是 Admin 服务端口，不是让普通使用者直接拿来聊天的地址。</p>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>用途</th>
+<th>操作重点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>服务状态</td>
+<td>查看后端依赖服务与任务执行情况</td>
+<td>按名称、类型搜索或筛选，查看状态、地址及详情</td>
+</tr>
+<tr>
+<td>服务 / 执行器详情</td>
+<td>查看某项服务的具体运行信息</td>
+<td>用于定位任务不动、连接失败；绿灯不证明问答准确</td>
+</tr>
+<tr>
+<td>用户列表</td>
+<td>搜索账号和查看启用状态</td>
+<td>按邮箱核对操作对象</td>
+</tr>
+<tr>
+<td>创建用户</td>
+<td>管理员分配账号</td>
+<td>填邮箱和初始密码，按实际部署交付账号</td>
+</tr>
+<tr>
+<td>启用 / 停用用户</td>
+<td>控制账号是否可继续使用</td>
+<td>停用不是清空资料</td>
+</tr>
+<tr>
+<td>重置密码</td>
+<td>帮助用户恢复登录</td>
+<td>核对对象并完成必要交接</td>
+</tr>
+<tr>
+<td>授予 / 撤销超级用户</td>
+<td>调整管理权限</td>
+<td>仅由负责管理的人操作</td>
+</tr>
+<tr>
+<td>删除用户</td>
+<td>删除账号相关对象</td>
+<td>先阅读确认范围并确认需要保留的数据</td>
+</tr>
+<tr>
+<td>用户详情</td>
+<td>看登录、创建、更新等账号信息</td>
+<td>不等于当前开源版提供全部企业资产管理能力</td>
+</tr>
+<tr>
+<td>代码执行环境设置</td>
+<td>为工作流代码节点配置运行服务</td>
+<td>选择可用提供方，填写连接参数，测试并保存</td>
+</tr>
+</tbody></table>
+</div>
+<p>代码执行环境的测试连接，只检查对应运行环境，不会同时验证知识库和所有外部工具。非维护人员使用普通问答时不需要先配置这一页。</p>
+<h3 id="section-25-3" tabindex="-1">25.3 为什么教程有的菜单，这里却没有</h3>
+<p>当前注册的普通页面没有独立团队管理、API 密钥管理、MCP 管理、记忆管理和独立搜索应用入口。仓库里存在相关源码或旧文档，不代表当前导航已提供可使用的页面。</p>
+<p>白名单、细粒度角色、监控等企业能力也不能当成本开源版本已经可用的普通菜单。如果使用的是另一版本或企业部署，应让部署人员说明相应差异。</p>
+<h3 id="section-25-4" tabindex="-1">25.4 四类保存分别影响什么</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>你按了什么</th>
+<th>实际保存什么</th>
+<th>还需检查</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>保存模型实例</td>
+<td>连接与模型配置</td>
+<td>测试调用、选择默认模型</td>
+</tr>
+<tr>
+<td>保存知识库设置</td>
+<td>文档处理规则</td>
+<td>对已有资料的应用和重新解析</td>
+</tr>
+<tr>
+<td>保存草稿 / 发布流程</td>
+<td>编辑内容 / 可引用版本</td>
+<td>依赖绑定、运行或样本解析</td>
+</tr>
+<tr>
+<td>保存数据源 / 渠道</td>
+<td>外部连接配置</td>
+<td>绑定、运行状态、实际资料或回复</td>
+</tr>
+</tbody></table>
+</div>
+<p>“保存成功”只证明这一步被接受。完成一个功能，要看它最后服务的目标有没有实现。</p>
+<h2 id="chapter-26" tabindex="-1">26. 术语速查与对照练习</h2>
+<h3 id="section-26-1" tabindex="-1">26.1 英文和专业词用普通话解释</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>术语</th>
+<th>用普通话解释</th>
+<th>与什么容易混淆</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>LLM / Chat model</td>
+<td>根据输入组织回答的对话模型</td>
+<td>不等于你的资料库</td>
+</tr>
+<tr>
+<td>Embedding</td>
+<td>将内容转换成可比较含义的数字表示</td>
+<td>不负责直接写答案</td>
+</tr>
+<tr>
+<td>Rerank</td>
+<td>把候选资料再排一次顺序</td>
+<td>不会修正源文档事实</td>
+</tr>
+<tr>
+<td>OCR</td>
+<td>从图片中认文字</td>
+<td>不等于真正理解设备运行情况</td>
+</tr>
+<tr>
+<td>ASR</td>
+<td>把语音转成文字</td>
+<td>与把文字读出来的 TTS 相反</td>
+</tr>
+<tr>
+<td>VLM / Vision</td>
+<td>理解图片内容的视觉模型</td>
+<td>仍可能看错图表</td>
+</tr>
+<tr>
+<td>Chunk / 分块 / 片段</td>
+<td>长文处理后用于检索的单元</td>
+<td>不一定等于一页或一条完整规定</td>
+</tr>
+<tr>
+<td>Token</td>
+<td>模型计算文字长度的单位</td>
+<td>不是固定一个字或一个单词</td>
+</tr>
+<tr>
+<td>Index / 索引</td>
+<td>供系统快速查找资料的数据组织</td>
+<td>不是原始文件备份</td>
+</tr>
+<tr>
+<td>Prompt / 提示词</td>
+<td>给模型的要求和上下文模板</td>
+<td>不是程序权限或事实证明</td>
+</tr>
+<tr>
+<td>Metadata / 元数据</td>
+<td>文档或片段的属性</td>
+<td>不等于正文随手写的标签词</td>
+</tr>
+<tr>
+<td>Top N</td>
+<td>最后保留多少条结果</td>
+<td>不等于候选总数</td>
+</tr>
+<tr>
+<td>Threshold / 阈值</td>
+<td>筛掉不足某条件的结果的门槛</td>
+<td>不表示答案正确概率</td>
+</tr>
+<tr>
+<td>Endpoint / Base URL</td>
+<td>服务接口地址</td>
+<td>通常不是服务商网站首页</td>
+</tr>
+<tr>
+<td>API key / Token / Secret</td>
+<td>接口身份凭据</td>
+<td>不同于模型名称，也不能跨平台混用</td>
+</tr>
+<tr>
+<td>OAuth</td>
+<td>通过授权流程允许访问某账号内容</td>
+<td>不是只填普通登录密码</td>
+</tr>
+<tr>
+<td>Webhook</td>
+<td>平台把事件送往配置入口的方式</td>
+<td>单有地址不说明双向聊天已接通</td>
+</tr>
+<tr>
+<td>Streaming / 流式</td>
+<td>生成一点就显示一点</td>
+<td>不等于生成更准确</td>
+</tr>
+<tr>
+<td>Pipeline</td>
+<td>文件处理步骤的组合</td>
+<td>不同于聊天工作流</td>
+</tr>
+<tr>
+<td>Compilation / 知识编译</td>
+<td>按规则把资料整理为知识结构</td>
+<td>不等于编译程序或训练模型</td>
+</tr>
+<tr>
+<td>JSON</td>
+<td>表示结构化配置或数据的文本格式</td>
+<td>导出 JSON 通常不是全系统备份</td>
+</tr>
+<tr>
+<td>Draft / Publish</td>
+<td>草稿 / 发布成版本</td>
+<td>保存草稿不等于更新使用中的版本</td>
+</tr>
+</tbody></table>
+</div>
+<h3 id="section-26-2" tabindex="-1">26.2 用一份教学资料把功能串起来</h3>
+<p>下面是可以自己创建的测试材料，全部是假设教学数据，不是实际设备操作依据：</p>
+<pre><code class="language-text">名称：A1 教学演示说明
+用途：仅用于练习系统操作
+型号：A1
+版本：2026-11
+正文：
+本教学例子中，E01 表示“示例输入数据缺失”。
+资料只解释演示代码，不包含设备检修或复位步骤。
+资料负责人：教学演示组。
+</code></pre>
+<ol>
+<li>把这段资料作为你自己的小文档上传，解析后确认能找到 <code>E01</code>。</li>
+<li>给文档填写 <code>device_model = A1</code> 元数据，用过滤前后相同问题比较。</li>
+<li>在检索测试问“这个教学例子中 E01 是什么意思？”，应找到正文。</li>
+<li>选择这个库发起问答，打开引用，确认解释来自这段教学材料。</li>
+<li>问“实际设备怎么复位？”，应认识到资料没有提供这项依据。</li>
+<li>禁用文档后新建会话，重复查找，检查未来检索范围的变化；旧消息仍可能保留旧引用。</li>
+<li>重新启用后再查；需要练习知识成果时，按第 19.2 节给这份样本配置知识编译。</li>
+</ol>
+<p>这些练习分别验证上传、解析、过滤、检索、问答和停用，能帮助你知道问题到底出在哪个环节。</p>
+<h3 id="section-26-3" tabindex="-1">26.3 不同目标用哪条最短路线</h3>
+<div class="table-wrap" role="region" aria-label="说明表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>你的目标</th>
+<th>最短操作路线</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>查公开规章</td>
+<td>配好模型 → 工作台导入 → 等解析 → 选择场景 → 提问并看引用</td>
+</tr>
+<tr>
+<td>查自己的手册</td>
+<td>建库 → 上传 → 解析 → 检索测试 → 绑定助手</td>
+</tr>
+<tr>
+<td>暂时排除旧版资料</td>
+<td>文件列表禁用 → 新会话验证 → 核对新版是否可检索</td>
+</tr>
+<tr>
+<td>修复一个错识别的字</td>
+<td>文件名进入片段 → 双击编辑 → 保存验证 → 同步修订源文档</td>
+</tr>
+<tr>
+<td>生成主题文章</td>
+<td>编译算子 → 带编译器的已发布流程 → 知识库绑定 → 解析 → 知识成果</td>
+</tr>
+<tr>
+<td>自动更新资料</td>
+<td>创建数据源 → 测试 → 知识库关联 → 同步与解析 → 检索验证</td>
+</tr>
+<tr>
+<td>做多步问答任务</td>
+<td>创建工作流 → 绑定模型与资料 → 检查变量 → 运行测试 → 发布</td>
+</tr>
+<tr>
+<td>接到钉钉或飞书</td>
+<td>浏览器问答通过 → 配渠道 → 绑定助手 / 工作流 → 等连接 → 平台测试</td>
+</tr>
+</tbody></table>
+</div>
+<p>遇到问题，先说清“我在哪个页面、点了哪个按钮、希望得到什么、实际显示什么”。例如“知识库里文件已完成，但片段数为 0”，比“系统不能用”更容易找到原因。</p>
+
+<footer class="foot">本说明可离线阅读。功能是否可用，以部署版本、模型、资料和服务配置为准。<br>
+配套资料：<a href="railmind-upgrade-proposal.zh-CN.md">后续升级建议书</a>。建议书中的规划不表示已经实现。<br>
+<a class="back" href="#top">返回顶部与目录</a></footer>
+</main></div>
+<script>
+const search = document.getElementById('search');
+const status = document.getElementById('search-status');
+const headings = [...document.querySelectorAll('main h2, main h3')];
+const normalize = (text) => text.toLocaleLowerCase().replace(/\s+/g, ' ').trim();
+const sections = new Map(headings.map((heading, index) => {
+  const range = document.createRange();
+  range.setStartBefore(heading);
+  if (headings[index + 1]) range.setEndBefore(headings[index + 1]);
+  else range.setEndAfter(document.querySelector('main .foot'));
+  return [heading.id, normalize(range.toString())];
+}));
+const groups = [...document.querySelectorAll('.chapter')].map((element) => ({
+  element, initialOpen: element.open,
+  title: normalize(element.querySelector('summary').textContent),
+  children: [...element.querySelectorAll('li')],
+}));
+function filter() {
+  const terms = normalize(search.value).split(' ').filter(Boolean);
+  let count = 0;
+  for (const group of groups) {
+    const chapterText = group.title + ' ' + sections.get(group.element.dataset.id);
+    const chapterMatch = terms.every((term) => chapterText.includes(term));
+    let childMatch = false;
+    for (const item of group.children) {
+      const id = item.querySelector('a').hash.slice(1);
+      const text = group.title + ' ' + sections.get(id);
+      const match = terms.every((term) => text.includes(term));
+      item.hidden = terms.length > 0 && !match && !chapterMatch;
+      childMatch ||= match;
+    }
+    const match = chapterMatch || childMatch;
+    group.element.hidden = !match;
+    group.element.open = terms.length ? match : group.initialOpen;
+    if (match) count++;
+  }
+  status.textContent = terms.length
+    ? (count ? '找到 ' + count + ' 个相关章节，点击条目阅读。' : '没有找到匹配项，请换个词试试。')
+    : '输入关键词搜索正文，展开章节查看子功能。';
+}
+search.addEventListener('input', filter);
+document.getElementById('clear').addEventListener('click', () => {
+  search.value = ''; filter(); search.focus();
+});
+document.getElementById('print').addEventListener('click', () => window.print());
+document.querySelectorAll('a[href^="#"]').forEach((link) => {
+  link.addEventListener('click', () => {
+    const target = document.getElementById(link.hash.slice(1));
+    if (target) target.focus({ preventScroll: true });
+  });
+});
+</script>
+</body></html>

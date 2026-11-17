@@ -1,0 +1,1528 @@
+{
+  "doc_id": "DOC0019",
+  "source_id": "S0022",
+  "domain": "YS",
+  "phase": "trial",
+  "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+  "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+  "filename": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+  "sha256": "9a2de29b6e7d4d96a29e7ddaf3a2aafe4af080a75cb2c20fb20877f15541c88d",
+  "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+  "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+  "status": "full-body-verified",
+  "uploaded_at": "2026-11-15T17:58:47.286Z",
+  "chunk_count": 58,
+  "business_chunks": 57,
+  "verified_at": "2026-11-15T18:00:35.385Z",
+  "checked_at": "2026-11-15T18:00:38.432Z",
+  "ingestion_status": "COMPLETED",
+  "exported_count": 58,
+  "expected_points": 57,
+  "full_body_passed": 57,
+  "passed": true,
+  "checks": [
+    {
+      "knowledge_point_id": "DOC0019-K01",
+      "article": "第一条",
+      "expected_sha256": "b8c0d3ddec1021b036c45ad267c82672e15de2d44fe420fadd58ad14c24f8a54",
+      "matching_chunk_ids": [
+        "d28cc497fda197f3"
+      ],
+      "complete_chunk_ids": [
+        "d28cc497fda197f3"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K02",
+      "article": "第二条",
+      "expected_sha256": "b693404ab6fbbc18de641029a8d66c4eb9df96d09729356d4e3df501af975960",
+      "matching_chunk_ids": [
+        "2951ceb562537c15"
+      ],
+      "complete_chunk_ids": [
+        "2951ceb562537c15"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K03",
+      "article": "第三条",
+      "expected_sha256": "37516775644233db9566f98e581772b6bb7f68cacd41c670f9d14d5bb153f5ec",
+      "matching_chunk_ids": [
+        "fa34f56b107fcd4c"
+      ],
+      "complete_chunk_ids": [
+        "fa34f56b107fcd4c"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K04",
+      "article": "第四条",
+      "expected_sha256": "3d964c4a7564a0658775ff7483f10338ae3544ac4efd0fb2d54ccce0803e5950",
+      "matching_chunk_ids": [
+        "90954afceec578d2"
+      ],
+      "complete_chunk_ids": [
+        "90954afceec578d2"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K05",
+      "article": "第五条",
+      "expected_sha256": "a627e1309b4adc54b2201a37faafbe3814c2bbcde4fe82a11ff0d416481901a9",
+      "matching_chunk_ids": [
+        "70d37653279edf26"
+      ],
+      "complete_chunk_ids": [
+        "70d37653279edf26"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K06",
+      "article": "第六条",
+      "expected_sha256": "53e93af9bbc55b9d7822755be007f90f8e74e5e0fe21f3618c30adcad2f92a9b",
+      "matching_chunk_ids": [
+        "201edd14d635061a"
+      ],
+      "complete_chunk_ids": [
+        "201edd14d635061a"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K07",
+      "article": "第七条",
+      "expected_sha256": "94d27abe4d916f0d7635a3cd1cf19ed49458358fc2f06accd7937e7edb1f523e",
+      "matching_chunk_ids": [
+        "931ea44f231d294e"
+      ],
+      "complete_chunk_ids": [
+        "931ea44f231d294e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K08",
+      "article": "第八条",
+      "expected_sha256": "704565a23cc558fbe0e8cca94fe10f029cf75a64ba6dda78b849b0c0def44e23",
+      "matching_chunk_ids": [
+        "e3a7d515c27e1a61"
+      ],
+      "complete_chunk_ids": [
+        "e3a7d515c27e1a61"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K09",
+      "article": "第九条",
+      "expected_sha256": "5b7a79bd83d5d50361225cfa1e6964ca31cf5597e56f15ea31aacd295b356382",
+      "matching_chunk_ids": [
+        "76aaafdb818e5286"
+      ],
+      "complete_chunk_ids": [
+        "76aaafdb818e5286"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K10",
+      "article": "第十条",
+      "expected_sha256": "3a1d3c0f7253d4f285b425d03c01da4b27a5ecc6487d12b3e40849841fb1b7f9",
+      "matching_chunk_ids": [
+        "a69fdd0c8fdd9c16"
+      ],
+      "complete_chunk_ids": [
+        "a69fdd0c8fdd9c16"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K11",
+      "article": "第十一条",
+      "expected_sha256": "63f19309d8e4048a491ef6d77384e0b75609c45698c068c07ab24c91b3f134bb",
+      "matching_chunk_ids": [
+        "44404551f6198c0b"
+      ],
+      "complete_chunk_ids": [
+        "44404551f6198c0b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K12",
+      "article": "第十二条",
+      "expected_sha256": "16f3f6cb18b7419e6976935ad2ac77ce9feb27b23a74340fae8be3124abdefd8",
+      "matching_chunk_ids": [
+        "22b70889d813864e"
+      ],
+      "complete_chunk_ids": [
+        "22b70889d813864e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K13",
+      "article": "第十三条",
+      "expected_sha256": "6dd1846a374f47008cd1a3227c8d9f8b457c584459731d80b2160655cdbe03c6",
+      "matching_chunk_ids": [
+        "ffd63499ac468b75"
+      ],
+      "complete_chunk_ids": [
+        "ffd63499ac468b75"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K14",
+      "article": "第十四条",
+      "expected_sha256": "f4a426e046556f897d50c666a6f0cf2c22da6f9c8a1768808542dd7d6caac54c",
+      "matching_chunk_ids": [
+        "e91be3e38c62468e"
+      ],
+      "complete_chunk_ids": [
+        "e91be3e38c62468e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K15",
+      "article": "第十五条",
+      "expected_sha256": "208d037ddab0814f81fcc628fac7be21eb4ac0d604fe9b3d1f2252d45c3285d9",
+      "matching_chunk_ids": [
+        "637afc050a218b63"
+      ],
+      "complete_chunk_ids": [
+        "637afc050a218b63"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K16",
+      "article": "第十六条",
+      "expected_sha256": "33be6a16e64f2f540d20d5ac4eba58a2a375a33d37b1afedaba78894c7b2887d",
+      "matching_chunk_ids": [
+        "ac0c646c9f651558"
+      ],
+      "complete_chunk_ids": [
+        "ac0c646c9f651558"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K17",
+      "article": "第十七条",
+      "expected_sha256": "9011c4d5a7756404a284066f6da1d7af2ca65feccebe31049e3e6330ffacbfa2",
+      "matching_chunk_ids": [
+        "713866cb158fe05e"
+      ],
+      "complete_chunk_ids": [
+        "713866cb158fe05e"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K18",
+      "article": "第十八条",
+      "expected_sha256": "a132af6a5ee8e94124202d56f6deedc57b040ba5dffc45a07044c315a6603a8a",
+      "matching_chunk_ids": [
+        "e939bdb21f562dde"
+      ],
+      "complete_chunk_ids": [
+        "e939bdb21f562dde"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K19",
+      "article": "第十九条",
+      "expected_sha256": "862690b78273d1e1556a2569c8b8d03dba74730f9a1ff11243dcbb9a4fa50e72",
+      "matching_chunk_ids": [
+        "a933486b7fb21fc1"
+      ],
+      "complete_chunk_ids": [
+        "a933486b7fb21fc1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K20",
+      "article": "第二十条",
+      "expected_sha256": "66851218fc8cf00e46bd117df59a11d53ba36980b92d58969494eff308d49084",
+      "matching_chunk_ids": [
+        "f087b07b01784c20"
+      ],
+      "complete_chunk_ids": [
+        "f087b07b01784c20"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K21",
+      "article": "第二十一条",
+      "expected_sha256": "27e11aab411818925bcf5b83961e68d0f19465148e1b68a23421a61b3acefbf8",
+      "matching_chunk_ids": [
+        "c720fc0f2cf88638"
+      ],
+      "complete_chunk_ids": [
+        "c720fc0f2cf88638"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K22",
+      "article": "第二十二条",
+      "expected_sha256": "8495dc0a0e6db7e6081dd1d9a2da077cd31c12a1fe93862773f96d7452bf52f8",
+      "matching_chunk_ids": [
+        "dcade1b9bdd90252"
+      ],
+      "complete_chunk_ids": [
+        "dcade1b9bdd90252"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K23",
+      "article": "第二十三条",
+      "expected_sha256": "fc53aaefe5d609a4b5f66fe47ea67c0f8224140cb195d3e59988ca05fd504efe",
+      "matching_chunk_ids": [
+        "bdc2b705d9aeedac"
+      ],
+      "complete_chunk_ids": [
+        "bdc2b705d9aeedac"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K24",
+      "article": "第二十四条",
+      "expected_sha256": "f104e9c0fb0eed2132128737f4b72b372e4b96c616a479c06d2340e78cbb5372",
+      "matching_chunk_ids": [
+        "3e611ec5bb764696"
+      ],
+      "complete_chunk_ids": [
+        "3e611ec5bb764696"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K25",
+      "article": "第二十五条",
+      "expected_sha256": "0be3df5c3491970269d7d74a63505771ea57c15caab800022ed3bd10b6c82843",
+      "matching_chunk_ids": [
+        "21608b055a9ad7ec"
+      ],
+      "complete_chunk_ids": [
+        "21608b055a9ad7ec"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K26",
+      "article": "第二十六条",
+      "expected_sha256": "b4e9ac9739126a9dc2a24ad1f3ad66e7903ead4c4f3ac2e9e9aa3cb190d0df6f",
+      "matching_chunk_ids": [
+        "f195c9a12e74c043"
+      ],
+      "complete_chunk_ids": [
+        "f195c9a12e74c043"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K27",
+      "article": "第二十七条",
+      "expected_sha256": "014f276d88773fa16830f40651be4b86a9a5bc3216b8bdef0b49b917be63992a",
+      "matching_chunk_ids": [
+        "de61fd9b1fc9ded4"
+      ],
+      "complete_chunk_ids": [
+        "de61fd9b1fc9ded4"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K28",
+      "article": "第二十八条",
+      "expected_sha256": "3e3a5dadb0534132214b16213256dfbb326641418368523a7803789fe2cd73c7",
+      "matching_chunk_ids": [
+        "49cb0d4ec43d5a8f"
+      ],
+      "complete_chunk_ids": [
+        "49cb0d4ec43d5a8f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K29",
+      "article": "第二十九条",
+      "expected_sha256": "ad08ce5ff62e87dce87baef171fdaaede1252a7f9fc84ce397b822b0193b0b49",
+      "matching_chunk_ids": [
+        "2b8f56f198c91583"
+      ],
+      "complete_chunk_ids": [
+        "2b8f56f198c91583"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K30",
+      "article": "第三十条",
+      "expected_sha256": "109ac7c178a2c186081d207b1f76a546d964f02e4b4ec41fa1eee9fa2dd33cd3",
+      "matching_chunk_ids": [
+        "0ef0a8444186d1bc"
+      ],
+      "complete_chunk_ids": [
+        "0ef0a8444186d1bc"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K31",
+      "article": "第三十一条",
+      "expected_sha256": "1e861d21dfb63ee52a09d0cb7cc53f6883c20477a50ccc7245cd6fbe73eda59e",
+      "matching_chunk_ids": [
+        "6de16c9b75a5288c"
+      ],
+      "complete_chunk_ids": [
+        "6de16c9b75a5288c"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K32",
+      "article": "第三十二条",
+      "expected_sha256": "b2f982a348b7ccb15091ac3314b77d49cef72ccd695793a48cc5d84674d59071",
+      "matching_chunk_ids": [
+        "42068ef5fbc2bc25"
+      ],
+      "complete_chunk_ids": [
+        "42068ef5fbc2bc25"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K33",
+      "article": "第三十三条",
+      "expected_sha256": "3c2fb195a95a44028c91f1dcb7c2db9272870e5ec7ed899fff52e792a9858bd9",
+      "matching_chunk_ids": [
+        "7684b7dd1b5e686b"
+      ],
+      "complete_chunk_ids": [
+        "7684b7dd1b5e686b"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K34",
+      "article": "第三十四条",
+      "expected_sha256": "1d642847aab156bfe8a79f95f78bd048a18495bde33ca697bc83d877d0aab269",
+      "matching_chunk_ids": [
+        "b025aec1870de13f"
+      ],
+      "complete_chunk_ids": [
+        "b025aec1870de13f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K35",
+      "article": "第三十五条",
+      "expected_sha256": "afc0849d73cf2e4d771d53c668c5f037ec241f2c7f6b31aa73a41fb27584cb96",
+      "matching_chunk_ids": [
+        "ef83856c2cc773bd"
+      ],
+      "complete_chunk_ids": [
+        "ef83856c2cc773bd"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K36",
+      "article": "第三十六条",
+      "expected_sha256": "23995e4ed75f526271dfe16f81307f175bbae2d0bcfe0a919ab1a6c1d5062669",
+      "matching_chunk_ids": [
+        "3bae5ee9cfbecae1"
+      ],
+      "complete_chunk_ids": [
+        "3bae5ee9cfbecae1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K37",
+      "article": "第三十七条",
+      "expected_sha256": "ab73d7edf4c1b2b284a4061896808ef66ffbdea238e1e8cfbc8af52c8255a203",
+      "matching_chunk_ids": [
+        "5edc051cf61cd631"
+      ],
+      "complete_chunk_ids": [
+        "5edc051cf61cd631"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K38",
+      "article": "第三十八条",
+      "expected_sha256": "69054c05ccb9e442898cf9b20d024ed05705a259d8bf62e7492607341a6420ce",
+      "matching_chunk_ids": [
+        "a81ae7e32ffb7b34"
+      ],
+      "complete_chunk_ids": [
+        "a81ae7e32ffb7b34"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K39",
+      "article": "第三十九条",
+      "expected_sha256": "69e891e707e01441ef033766b25a2b228af37f2b4204aea36a5b3367368e1b4e",
+      "matching_chunk_ids": [
+        "c723a11419de68de"
+      ],
+      "complete_chunk_ids": [
+        "c723a11419de68de"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K40",
+      "article": "第四十条",
+      "expected_sha256": "1f564de60a54a3e407038a63b14220d596a55a815e7bbed1fc0fd65b7a74c95c",
+      "matching_chunk_ids": [
+        "af3932872fdde0c1"
+      ],
+      "complete_chunk_ids": [
+        "af3932872fdde0c1"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K41",
+      "article": "第四十一条",
+      "expected_sha256": "6b542a50dacb1aea611ecd9277c0a44fe00f544a2e1d438d26813973c9456828",
+      "matching_chunk_ids": [
+        "4e8f75d904947cbd"
+      ],
+      "complete_chunk_ids": [
+        "4e8f75d904947cbd"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K42",
+      "article": "第四十二条",
+      "expected_sha256": "d1e8bae27913e1acd7d55f1abf9175a3b0e7c8320c509cfe8594b91381246b37",
+      "matching_chunk_ids": [
+        "b27df3c3c28a2dc4"
+      ],
+      "complete_chunk_ids": [
+        "b27df3c3c28a2dc4"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K43",
+      "article": "第四十三条",
+      "expected_sha256": "54e8de8b7f1da8ff967bb8c3e16b9aceb2d72932b23c4ddb97f49b74cb63ce7a",
+      "matching_chunk_ids": [
+        "3dd10ee5e0b1bde2"
+      ],
+      "complete_chunk_ids": [
+        "3dd10ee5e0b1bde2"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K44",
+      "article": "第四十四条",
+      "expected_sha256": "4f9cb2daa5413794dba5b770a8f4297c7b8cd3eb3b4f80c42a65b3d1417b1f2d",
+      "matching_chunk_ids": [
+        "165082358457521d"
+      ],
+      "complete_chunk_ids": [
+        "165082358457521d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K45",
+      "article": "第四十五条",
+      "expected_sha256": "1109ec937cffe2d1e802b4d460b69d5e8352cb0e7fcc071dba8c137dcec12c9d",
+      "matching_chunk_ids": [
+        "83005c565bce449c"
+      ],
+      "complete_chunk_ids": [
+        "83005c565bce449c"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K46",
+      "article": "第四十六条",
+      "expected_sha256": "ed1b8b0fdf03c3b3f0d5802021d896c58cf5eca561dec841a8bae70da2cc325e",
+      "matching_chunk_ids": [
+        "dee00783cf125f12"
+      ],
+      "complete_chunk_ids": [
+        "dee00783cf125f12"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K47",
+      "article": "第四十七条",
+      "expected_sha256": "691fd8d7b805e71fb62dfaed34fac43113631215f22ce8e2b3251413b402c2a1",
+      "matching_chunk_ids": [
+        "8e8d19774301e068"
+      ],
+      "complete_chunk_ids": [
+        "8e8d19774301e068"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K48",
+      "article": "第四十八条",
+      "expected_sha256": "9b5d7ec3f4028823c5ac27d34297545e56c03c4d8f944a67e66e5d4c4aa9081d",
+      "matching_chunk_ids": [
+        "e13d3054596989da"
+      ],
+      "complete_chunk_ids": [
+        "e13d3054596989da"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K49",
+      "article": "第四十九条",
+      "expected_sha256": "b33d6b977d859c14e2620ed6425db43f63268a1ad8b49bf30629873a865f7ab1",
+      "matching_chunk_ids": [
+        "b2dcb4d932ee5225"
+      ],
+      "complete_chunk_ids": [
+        "b2dcb4d932ee5225"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K50",
+      "article": "第五十条",
+      "expected_sha256": "7fa4aa9303e74148cc3d267af489412f9fe6e85c40d3b87bce5eaa84c1223ccb",
+      "matching_chunk_ids": [
+        "7e37b9a70eaca973"
+      ],
+      "complete_chunk_ids": [
+        "7e37b9a70eaca973"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K51",
+      "article": "第五十一条",
+      "expected_sha256": "ad0e81fb1c2b8c7c4eec0cd83b1db04f2b349b9fc88c2ce9be7b289e782156c0",
+      "matching_chunk_ids": [
+        "ef8d53e87d51c228"
+      ],
+      "complete_chunk_ids": [
+        "ef8d53e87d51c228"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K52",
+      "article": "第五十二条",
+      "expected_sha256": "31f0c6f62deefa146b398ae44333e08deeb7e0bf3496d01c9020a0ce4332d04a",
+      "matching_chunk_ids": [
+        "b50c989ef15f803f"
+      ],
+      "complete_chunk_ids": [
+        "b50c989ef15f803f"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K53",
+      "article": "第五十三条",
+      "expected_sha256": "f7be38a6d1a9f2d40a8c1a069a8fc74347c88b81be2607711ae3adbbdbff730f",
+      "matching_chunk_ids": [
+        "bb74b415a4cdd4ca"
+      ],
+      "complete_chunk_ids": [
+        "bb74b415a4cdd4ca"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K54",
+      "article": "第五十四条",
+      "expected_sha256": "665acf107809e7503974b825c58093279fd364ade636e26e4c9c0354b51a4b6f",
+      "matching_chunk_ids": [
+        "4ccfbd37b9387929"
+      ],
+      "complete_chunk_ids": [
+        "4ccfbd37b9387929"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K55",
+      "article": "第五十五条",
+      "expected_sha256": "f53f329405c0b5c5961522ae67b86f38e53d13666cf06b29df0f0e8a67e19d17",
+      "matching_chunk_ids": [
+        "96d6c0ef78364b2d"
+      ],
+      "complete_chunk_ids": [
+        "96d6c0ef78364b2d"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K56",
+      "article": "第五十六条",
+      "expected_sha256": "11c4922462e380040ded4040558d60d3af1f10881be09fe6ad7929be0ab59d1b",
+      "matching_chunk_ids": [
+        "688695f88128b016"
+      ],
+      "complete_chunk_ids": [
+        "688695f88128b016"
+      ],
+      "passed": true
+    },
+    {
+      "knowledge_point_id": "DOC0019-K57",
+      "article": "第五十七条",
+      "expected_sha256": "9af8267c7d1e59dd6539c04df1343b5b217d26c99fa689c47e7e17a50e65036a",
+      "matching_chunk_ids": [
+        "8857c6c0d2a79388"
+      ],
+      "complete_chunk_ids": [
+        "8857c6c0d2a79388"
+      ],
+      "passed": true
+    }
+  ],
+  "metadata_chunk_ids": [
+    "b77db25871fa7dea"
+  ],
+  "polluted_chunk_ids": [],
+  "chunks": [
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "d28cc497fda197f3",
+      "content": "# 铁路货物运输规则\n## 第一章  总    则\n### 第一条｜为了保障铁路货物运输安全\n证据定位： DOC0019-K01；S0022，第一章  总    则，第一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n为了保障铁路货物运输安全，规范铁路货物运输市场，提升铁路货物运输服务质量，根据《中华人民共和国民法典》《中华人民共和国铁路法》《铁路安全管理条例》等法律、行政法规，制定本规则。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第一章  总    则\n### 第一条｜为了保障铁路货物运输安全\n证据定位： DOC0019-K01；S0022，第一章  总    则，第一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n为了保障铁路货物运输安全，规范铁路货物运输市场，提升铁路货物运输服务质量，根据《中华人民共和国民法典》《中华人民共和国铁路法》《铁路安全管理条例》等法律、行政法规，制定本规则。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "d28cc497fda197f3",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "2951ceb562537c15",
+      "content": "# 铁路货物运输规则\n## 第一章  总    则\n### 第二条｜本规则适用于中华人民共和国境内的铁路货物运输\n证据定位： DOC0019-K02；S0022，第一章  总    则，第二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本规则适用于中华人民共和国境内的铁路货物运输。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第一章  总    则\n### 第二条｜本规则适用于中华人民共和国境内的铁路货物运输\n证据定位： DOC0019-K02；S0022，第一章  总    则，第二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本规则适用于中华人民共和国境内的铁路货物运输。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "2951ceb562537c15",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "fa34f56b107fcd4c",
+      "content": "# 铁路货物运输规则\n## 第一章  总    则\n### 第三条｜铁路运输企业应当通过网络平台、车站等便于公众知晓的方式向社会公开下列信息\n证据定位： DOC0019-K03；S0022，第一章  总    则，第三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当通过网络平台、车站等便于公众知晓的方式向社会公开下列信息：\n（一）货运站名称、地址及营业时间；\n（二）业务办理范围及流程；\n（三）收费项目和收费标准；\n（四）服务监督投诉渠道信息；\n（五）需要公开的其他信息。\n货运站的启用、关闭和业务办理范围变更，应当提前向社会公告。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第一章  总    则\n### 第三条｜铁路运输企业应当通过网络平台、车站等便于公众知晓的方式向社会公开下列信息\n证据定位： DOC0019-K03；S0022，第一章  总    则，第三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当通过网络平台、车站等便于公众知晓的方式向社会公开下列信息：\n（一）货运站名称、地址及营业时间；\n（二）业务办理范围及流程；\n（三）收费项目和收费标准；\n（四）服务监督投诉渠道信息；\n（五）需要公开的其他信息。\n货运站的启用、关闭和业务办理范围变更，应当提前向社会公告。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "fa34f56b107fcd4c",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "90954afceec578d2",
+      "content": "# 铁路货物运输规则\n## 第一章  总    则\n### 第四条｜铁路运输企业应当按照国家有关规定承担公益性货物运输任务\n证据定位： DOC0019-K04；S0022，第一章  总    则，第四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照国家有关规定承担公益性货物运输任务，优先运输国家抢险救灾、应急、救援等物资以及国家调运储备物资等关系国计民生的重点物资。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第一章  总    则\n### 第四条｜铁路运输企业应当按照国家有关规定承担公益性货物运输任务\n证据定位： DOC0019-K04；S0022，第一章  总    则，第四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照国家有关规定承担公益性货物运输任务，优先运输国家抢险救灾、应急、救援等物资以及国家调运储备物资等关系国计民生的重点物资。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "90954afceec578d2",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "70d37653279edf26",
+      "content": "# 铁路货物运输规则\n## 第一章  总    则\n### 第五条｜鼓励铁路运输企业之间、铁路运输与其他运输方式之间深度融合、优势互补\n证据定位： DOC0019-K05；S0022，第一章  总    则，第五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励铁路运输企业之间、铁路运输与其他运输方式之间深度融合、优势互补，开展多式联运和全程物流等服务，合理利用资源、降低运输费用，创新铁路提单，完善货运服务信息系统，提升数字化、智能化水平，实现数据共享。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第一章  总    则\n### 第五条｜鼓励铁路运输企业之间、铁路运输与其他运输方式之间深度融合、优势互补\n证据定位： DOC0019-K05；S0022，第一章  总    则，第五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励铁路运输企业之间、铁路运输与其他运输方式之间深度融合、优势互补，开展多式联运和全程物流等服务，合理利用资源、降低运输费用，创新铁路提单，完善货运服务信息系统，提升数字化、智能化水平，实现数据共享。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "70d37653279edf26",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "201edd14d635061a",
+      "content": "# 铁路货物运输规则\n## 第一章  总    则\n### 第六条｜铁路货物运输中使用的机车车辆、装卸搬运机械等应当符合大气污染物排放相关强制性标准\n证据定位： DOC0019-K06；S0022，第一章  总    则，第六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运输中使用的机车车辆、装卸搬运机械等应当符合大气污染物排放相关强制性标准。鼓励铁路运输企业使用电力机车、新能源机车或者满足更高排放标准的内燃机车开展铁路货物运输。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第一章  总    则\n### 第六条｜铁路货物运输中使用的机车车辆、装卸搬运机械等应当符合大气污染物排放相关强制性标准\n证据定位： DOC0019-K06；S0022，第一章  总    则，第六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运输中使用的机车车辆、装卸搬运机械等应当符合大气污染物排放相关强制性标准。鼓励铁路运输企业使用电力机车、新能源机车或者满足更高排放标准的内燃机车开展铁路货物运输。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "201edd14d635061a",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "931ea44f231d294e",
+      "content": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第七条｜铁路货物运输种类包括整车运输、集装箱运输等\n证据定位： DOC0019-K07；S0022，第二章  一般规定，第七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运输种类包括整车运输、集装箱运输等。铁路运输企业应当根据设备设施条件和货物品类、性质、件数、重量、规格等确定货运站办理的货物运输种类。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第七条｜铁路货物运输种类包括整车运输、集装箱运输等\n证据定位： DOC0019-K07；S0022，第二章  一般规定，第七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运输种类包括整车运输、集装箱运输等。铁路运输企业应当根据设备设施条件和货物品类、性质、件数、重量、规格等确定货运站办理的货物运输种类。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "931ea44f231d294e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e3a7d515c27e1a61",
+      "content": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第八条｜铁路运输危险货物，应当遵守法律、行政法规、规章和国家铁路局有关规定，并符合有关技术要求\n证据定位： DOC0019-K08；S0022，第二章  一般规定，第八条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输危险货物，应当遵守法律、行政法规、规章和国家铁路局有关规定，并符合有关技术要求。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第八条｜铁路运输危险货物，应当遵守法律、行政法规、规章和国家铁路局有关规定，并符合有关技术要求\n证据定位： DOC0019-K08；S0022，第二章  一般规定，第八条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输危险货物，应当遵守法律、行政法规、规章和国家铁路局有关规定，并符合有关技术要求。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "e3a7d515c27e1a61",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "76aaafdb818e5286",
+      "content": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第九条｜铁路运输需要采取制冷、加温、保温、通风、上水等特殊措施的易腐货物、活动物等鲜活货物时\n证据定位： DOC0019-K09；S0022，第二章  一般规定，第九条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输需要采取制冷、加温、保温、通风、上水等特殊措施的易腐货物、活动物等鲜活货物时，铁路运输企业和托运人应当事先约定运输技术条件。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第九条｜铁路运输需要采取制冷、加温、保温、通风、上水等特殊措施的易腐货物、活动物等鲜活货物时\n证据定位： DOC0019-K09；S0022，第二章  一般规定，第九条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输需要采取制冷、加温、保温、通风、上水等特殊措施的易腐货物、活动物等鲜活货物时，铁路运输企业和托运人应当事先约定运输技术条件。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "76aaafdb818e5286",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a69fdd0c8fdd9c16",
+      "content": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十条｜铁路超限超重货物运输应当符合有关技术要求\n证据定位： DOC0019-K10；S0022，第二章  一般规定，第十条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路超限超重货物运输应当符合有关技术要求。托运人应当提供齐全有效、符合有关要求的货物技术资料，铁路运输企业根据货物技术资料确定运输条件。\n铁路运输企业应当加强超限货物运输径路的限界管理，不得无故缩小铁路建筑实际限界。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十条｜铁路超限超重货物运输应当符合有关技术要求\n证据定位： DOC0019-K10；S0022，第二章  一般规定，第十条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路超限超重货物运输应当符合有关技术要求。托运人应当提供齐全有效、符合有关要求的货物技术资料，铁路运输企业根据货物技术资料确定运输条件。\n铁路运输企业应当加强超限货物运输径路的限界管理，不得无故缩小铁路建筑实际限界。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "a69fdd0c8fdd9c16",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "44404551f6198c0b",
+      "content": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十一条｜铁路运输能够使用自身走行系统在铁路线路上运行的自轮运转货物（含托运的机车、车辆等）\n证据定位： DOC0019-K11；S0022，第二章  一般规定，第十一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输能够使用自身走行系统在铁路线路上运行的自轮运转货物（含托运的机车、车辆等），托运人应当确保货物符合铁路运输要求，并向铁路运输企业提出相关技术证明或者文件。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十一条｜铁路运输能够使用自身走行系统在铁路线路上运行的自轮运转货物（含托运的机车、车辆等）\n证据定位： DOC0019-K11；S0022，第二章  一般规定，第十一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输能够使用自身走行系统在铁路线路上运行的自轮运转货物（含托运的机车、车辆等），托运人应当确保货物符合铁路运输要求，并向铁路运输企业提出相关技术证明或者文件。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "44404551f6198c0b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "22b70889d813864e",
+      "content": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十二条｜铁路货物运单（以下简称货物运单）是运输合同或者合同的组成部分\n证据定位： DOC0019-K12；S0022，第二章  一般规定，第十二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运单（以下简称货物运单）是运输合同或者合同的组成部分，可以采用纸质形式或者电子数据形式，一般应当载明下列基本内容：\n（一）托运人和收货人名称（姓名）、地址、联系方式，或者凭指示的收货人，经办人姓名和联系方式；\n（二）发站、装车专用线（专用铁路）、到站、卸车专用线（专用铁路）及发站、到站所属的铁路运输企业；\n（三）货物名称、包装、件数、重量（包括货物包装重量）；\n（四）承运日期、运到期限、运输费用；\n（五）货车类型和车号、标记载重，集装箱箱型和箱号；\n（六）施封号码，篷布号码；\n（七）双方约定的其他事项。\n铁路运输企业与托运人另有约定的，按照其约定。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十二条｜铁路货物运单（以下简称货物运单）是运输合同或者合同的组成部分\n证据定位： DOC0019-K12；S0022，第二章  一般规定，第十二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运单（以下简称货物运单）是运输合同或者合同的组成部分，可以采用纸质形式或者电子数据形式，一般应当载明下列基本内容：\n（一）托运人和收货人名称（姓名）、地址、联系方式，或者凭指示的收货人，经办人姓名和联系方式；\n（二）发站、装车专用线（专用铁路）、到站、卸车专用线（专用铁路）及发站、到站所属的铁路运输企业；\n（三）货物名称、包装、件数、重量（包括货物包装重量）；\n（四）承运日期、运到期限、运输费用；\n（五）货车类型和车号、标记载重，集装箱箱型和箱号；\n（六）施封号码，篷布号码；\n（七）双方约定的其他事项。\n铁路运输企业与托运人另有约定的，按照其约定。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "22b70889d813864e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ffd63499ac468b75",
+      "content": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十三条｜铁路运输企业应当保障货物运输安全，提高服务质量，并遵守下列规定\n证据定位： DOC0019-K13；S0022，第二章  一般规定，第十三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当保障货物运输安全，提高服务质量，并遵守下列规定：\n（一）建立健全铁路货物运输管理制度，保证必要的安全和服务设施投入；\n（二）按照约定提供状态良好、清扫干净的货车、集装箱等；\n（三）托运人装车或者收货人卸车的，将铁路货车调到装卸地点或者约定的交接地点；\n（四）对装车的货物，接收货物时检查核验货物名称、件数以及运输包装、标志等，并及时装车；\n（五）铁路运输企业卸车的，向收货人发出领货通知；\n（六）按照合同约定将货物完整、无损地交给收货人；\n（七）按照合同约定及时办理托运人、收货人货车和集装箱、篷布等用具的回送；\n（八）严格落实铁路运输调度规则和铁路货物运输相关规章制度，公平高效配置货车、路网等运力资源，及时高效办理货车中转、空车配置等；\n（九）为托运人和收货人免费提供货物运输查询服务，具备条件的应当提供在线受理、跟踪查询、电子票据、结算办理、货物交付等一站式服务；\n（十）国家规定的其他要求。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十三条｜铁路运输企业应当保障货物运输安全，提高服务质量，并遵守下列规定\n证据定位： DOC0019-K13；S0022，第二章  一般规定，第十三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当保障货物运输安全，提高服务质量，并遵守下列规定：\n（一）建立健全铁路货物运输管理制度，保证必要的安全和服务设施投入；\n（二）按照约定提供状态良好、清扫干净的货车、集装箱等；\n（三）托运人装车或者收货人卸车的，将铁路货车调到装卸地点或者约定的交接地点；\n（四）对装车的货物，接收货物时检查核验货物名称、件数以及运输包装、标志等，并及时装车；\n（五）铁路运输企业卸车的，向收货人发出领货通知；\n（六）按照合同约定将货物完整、无损地交给收货人；\n（七）按照合同约定及时办理托运人、收货人货车和集装箱、篷布等用具的回送；\n（八）严格落实铁路运输调度规则和铁路货物运输相关规章制度，公平高效配置货车、路网等运力资源，及时高效办理货车中转、空车配置等；\n（九）为托运人和收货人免费提供货物运输查询服务，具备条件的应当提供在线受理、跟踪查询、电子票据、结算办理、货物交付等一站式服务；\n（十）国家规定的其他要求。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "ffd63499ac468b75",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e91be3e38c62468e",
+      "content": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十四条｜托运人托运货物应当遵守下列规定\n证据定位： DOC0019-K14；S0022，第二章  一般规定，第十四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n托运人托运货物应当遵守下列规定：\n（一）准确表明托运人和收货人的名称（姓名）、地址、联系方式，提供完整准确的货物名称、性质、件数、重量（包括货物包装重量）等有关货物运输的必要信息。\n（二）货物需要包装的，应当按照国家相关技术标准包装；没有标准的，应当妥善包装，使货物在运输途中不因包装原因而受损坏。\n（三）托运人装车的，装车前应当对车体状况和清洁状态进行检查，按照规定装载，并及时完成装车或者将货车送至交接地点。\n（四）托运人提供集装箱的，应当保证集装箱质量符合铁路运输要求，装箱前应当对箱体状况和清洁状态进行检查。\n（五）及时将领货信息（领货凭证）通知（寄送）收货人。\n（六）国家规定的其他要求。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十四条｜托运人托运货物应当遵守下列规定\n证据定位： DOC0019-K14；S0022，第二章  一般规定，第十四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n托运人托运货物应当遵守下列规定：\n（一）准确表明托运人和收货人的名称（姓名）、地址、联系方式，提供完整准确的货物名称、性质、件数、重量（包括货物包装重量）等有关货物运输的必要信息。\n（二）货物需要包装的，应当按照国家相关技术标准包装；没有标准的，应当妥善包装，使货物在运输途中不因包装原因而受损坏。\n（三）托运人装车的，装车前应当对车体状况和清洁状态进行检查，按照规定装载，并及时完成装车或者将货车送至交接地点。\n（四）托运人提供集装箱的，应当保证集装箱质量符合铁路运输要求，装箱前应当对箱体状况和清洁状态进行检查。\n（五）及时将领货信息（领货凭证）通知（寄送）收货人。\n（六）国家规定的其他要求。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "e91be3e38c62468e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "637afc050a218b63",
+      "content": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十五条｜收货人领取货物应当遵守下列规定\n证据定位： DOC0019-K15；S0022，第二章  一般规定，第十五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n收货人领取货物应当遵守下列规定：\n（一）支付托运人未付或者少付的运输费用；\n（二）铁路运输企业卸车的，及时领取货物；\n（三）收货人卸车的，及时办理交接手续；\n（四）国家规定的其他要求。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十五条｜收货人领取货物应当遵守下列规定\n证据定位： DOC0019-K15；S0022，第二章  一般规定，第十五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n收货人领取货物应当遵守下列规定：\n（一）支付托运人未付或者少付的运输费用；\n（二）铁路运输企业卸车的，及时领取货物；\n（三）收货人卸车的，及时办理交接手续；\n（四）国家规定的其他要求。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "637afc050a218b63",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ac0c646c9f651558",
+      "content": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十六条｜铁路运输企业应当与接轨的铁路专用线（专用铁路）产权单位、管理单位签订运输协议\n证据定位： DOC0019-K16；S0022，第二章  一般规定，第十六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当与接轨的铁路专用线（专用铁路）产权单位、管理单位签订运输协议。\n运输协议应当包括设备设施状况、交接地点和方法、装卸作业、货车取送、安全生产措施及责任等内容及双方约定的其他事项。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第二章  一般规定\n### 第十六条｜铁路运输企业应当与接轨的铁路专用线（专用铁路）产权单位、管理单位签订运输协议\n证据定位： DOC0019-K16；S0022，第二章  一般规定，第十六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当与接轨的铁路专用线（专用铁路）产权单位、管理单位签订运输协议。\n运输协议应当包括设备设施状况、交接地点和方法、装卸作业、货车取送、安全生产措施及责任等内容及双方约定的其他事项。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "ac0c646c9f651558",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "713866cb158fe05e",
+      "content": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第十七条｜托运人向铁路运输企业交运货物，应当提出货物运单\n证据定位： DOC0019-K17；S0022，第三章  托运与承运，第十七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n托运人向铁路运输企业交运货物，应当提出货物运单。托运人应当如实填写托运相关信息，对其在货物运单及所附物品清单等填记事项的真实性和完整性负责。因货物性质特殊，对运到期限、运输条件等有特殊要求的，托运人应当与铁路运输企业约定，并在货物运单上记明。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第十七条｜托运人向铁路运输企业交运货物，应当提出货物运单\n证据定位： DOC0019-K17；S0022，第三章  托运与承运，第十七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n托运人向铁路运输企业交运货物，应当提出货物运单。托运人应当如实填写托运相关信息，对其在货物运单及所附物品清单等填记事项的真实性和完整性负责。因货物性质特殊，对运到期限、运输条件等有特殊要求的，托运人应当与铁路运输企业约定，并在货物运单上记明。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "713866cb158fe05e",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e939bdb21f562dde",
+      "content": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第十八条｜根据法律法规和国家有关规定\n证据定位： DOC0019-K18；S0022，第三章  托运与承运，第十八条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n根据法律法规和国家有关规定，需凭证明文件运输的货物，托运人应当提供有效证明文件，并在货物运单注明文件名称和号码；需办理审批、检验检疫等手续的，应当将办理完有关手续的文件提交铁路运输企业。托运人应当对其提供文件的真实性和完整性负责。\n铁路运输企业应当按照规定留存托运人提供的文件；托运人未按照规定提供有效文件的，铁路运输企业不得受理。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第十八条｜根据法律法规和国家有关规定\n证据定位： DOC0019-K18；S0022，第三章  托运与承运，第十八条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n根据法律法规和国家有关规定，需凭证明文件运输的货物，托运人应当提供有效证明文件，并在货物运单注明文件名称和号码；需办理审批、检验检疫等手续的，应当将办理完有关手续的文件提交铁路运输企业。托运人应当对其提供文件的真实性和完整性负责。\n铁路运输企业应当按照规定留存托运人提供的文件；托运人未按照规定提供有效文件的，铁路运输企业不得受理。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "e939bdb21f562dde",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a933486b7fb21fc1",
+      "content": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第十九条｜铁路货物运输实行实名制\n证据定位： DOC0019-K19；S0022，第三章  托运与承运，第十九条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运输实行实名制。铁路运输企业应当制定并落实安全查验制度和托运人身份、货物信息登记制度，相关基本信息至少保存18个月。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第十九条｜铁路货物运输实行实名制\n证据定位： DOC0019-K19；S0022，第三章  托运与承运，第十九条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运输实行实名制。铁路运输企业应当制定并落实安全查验制度和托运人身份、货物信息登记制度，相关基本信息至少保存18个月。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "a933486b7fb21fc1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f087b07b01784c20",
+      "content": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十条｜铁路运输企业不得拒绝受理托运人通常、合理的运输需求\n证据定位： DOC0019-K20；S0022，第三章  托运与承运，第二十条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业不得拒绝受理托运人通常、合理的运输需求。\n铁路运输企业对托运人的特殊运输需求不能受理的，应当向托运人说明理由。\n铁路运输企业应当遵守国家禁止或者限制运输货物的有关规定。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十条｜铁路运输企业不得拒绝受理托运人通常、合理的运输需求\n证据定位： DOC0019-K20；S0022，第三章  托运与承运，第二十条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业不得拒绝受理托运人通常、合理的运输需求。\n铁路运输企业对托运人的特殊运输需求不能受理的，应当向托运人说明理由。\n铁路运输企业应当遵守国家禁止或者限制运输货物的有关规定。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "f087b07b01784c20",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c720fc0f2cf88638",
+      "content": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十一条｜铁路运输企业应当按照铁路货物运输安全的有关规定对其装车（箱）的货物进行安全检查\n证据定位： DOC0019-K21；S0022，第三章  托运与承运，第二十一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照铁路货物运输安全的有关规定对其装车（箱）的货物进行安全检查。\n托运人负责装车（箱）的货物，铁路运输企业应当按照规定交接检查并记录检查结果。\n货物安全检查相关资料应当至少保存6个月。\n铁路运输企业不得运输托运人拒绝安全检查的货物和不符合安全规定、可能危害铁路运输安全的货物。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十一条｜铁路运输企业应当按照铁路货物运输安全的有关规定对其装车（箱）的货物进行安全检查\n证据定位： DOC0019-K21；S0022，第三章  托运与承运，第二十一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照铁路货物运输安全的有关规定对其装车（箱）的货物进行安全检查。\n托运人负责装车（箱）的货物，铁路运输企业应当按照规定交接检查并记录检查结果。\n货物安全检查相关资料应当至少保存6个月。\n铁路运输企业不得运输托运人拒绝安全检查的货物和不符合安全规定、可能危害铁路运输安全的货物。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "c720fc0f2cf88638",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "dcade1b9bdd90252",
+      "content": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十二条｜铁路运输企业应当按照法律、行政法规和国家有关规定，正确计算、核收运输费用，不得违规收取费用\n证据定位： DOC0019-K22；S0022，第三章  托运与承运，第二十二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照法律、行政法规和国家有关规定，正确计算、核收运输费用，不得违规收取费用。\n鼓励对大宗货物及中长距离货物运输实施运输费用优惠。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十二条｜铁路运输企业应当按照法律、行政法规和国家有关规定，正确计算、核收运输费用，不得违规收取费用\n证据定位： DOC0019-K22；S0022，第三章  托运与承运，第二十二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照法律、行政法规和国家有关规定，正确计算、核收运输费用，不得违规收取费用。\n鼓励对大宗货物及中长距离货物运输实施运输费用优惠。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "dcade1b9bdd90252",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "bdc2b705d9aeedac",
+      "content": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十三条｜铁路运输企业应当在约定期限或者合理期限内将货物运输到约定地点\n证据定位： DOC0019-K23；S0022，第三章  托运与承运，第二十三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当在约定期限或者合理期限内将货物运输到约定地点。合理期限可以按照下列规定计算：\n（一）货物发送、到达期间：各为1日；\n（二）货物运输期间：每300运价公里或者其未满为1日。\n铁路运输企业应当不断优化运输组织，提升运送效率。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十三条｜铁路运输企业应当在约定期限或者合理期限内将货物运输到约定地点\n证据定位： DOC0019-K23；S0022，第三章  托运与承运，第二十三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当在约定期限或者合理期限内将货物运输到约定地点。合理期限可以按照下列规定计算：\n（一）货物发送、到达期间：各为1日；\n（二）货物运输期间：每300运价公里或者其未满为1日。\n铁路运输企业应当不断优化运输组织，提升运送效率。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "bdc2b705d9aeedac",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3e611ec5bb764696",
+      "content": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十四条｜除法律、行政法规另有规定或者当事人另有约定的外，货物运输时间可以按照下列规定计算\n证据定位： DOC0019-K24；S0022，第三章  托运与承运，第二十四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n除法律、行政法规另有规定或者当事人另有约定的外，货物运输时间可以按照下列规定计算：\n（一）起算时间。一般从铁路运输企业承运货物的当日起算；18点以后承运的，自次日起算。\n（二）终止时间。至铁路运输企业通知收货人领货时止。\n（三）扣除时间。货物运输过程中由于下列原因造成的滞留时间，应当从实际运到日数中扣除，铁路运输企业需记明滞留时间和原因：\n1.因不可抗力引起的；\n2.托运人责任致使货物在途中换装、整理所产生的；\n3.托运人要求运输变更所产生的；\n4.其他需要扣除时间的。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十四条｜除法律、行政法规另有规定或者当事人另有约定的外，货物运输时间可以按照下列规定计算\n证据定位： DOC0019-K24；S0022，第三章  托运与承运，第二十四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n除法律、行政法规另有规定或者当事人另有约定的外，货物运输时间可以按照下列规定计算：\n（一）起算时间。一般从铁路运输企业承运货物的当日起算；18点以后承运的，自次日起算。\n（二）终止时间。至铁路运输企业通知收货人领货时止。\n（三）扣除时间。货物运输过程中由于下列原因造成的滞留时间，应当从实际运到日数中扣除，铁路运输企业需记明滞留时间和原因：\n1.因不可抗力引起的；\n2.托运人责任致使货物在途中换装、整理所产生的；\n3.托运人要求运输变更所产生的；\n4.其他需要扣除时间的。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "3e611ec5bb764696",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "21608b055a9ad7ec",
+      "content": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十五条｜托运人根据自愿，可以选择办理保价运输或者货物运输保险，也可以均不选择\n证据定位： DOC0019-K25；S0022，第三章  托运与承运，第二十五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n托运人根据自愿，可以选择办理保价运输或者货物运输保险，也可以均不选择。铁路运输企业不得以任何方式强迫办理保价运输或者货物运输保险。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第三章  托运与承运\n### 第二十五条｜托运人根据自愿，可以选择办理保价运输或者货物运输保险，也可以均不选择\n证据定位： DOC0019-K25；S0022，第三章  托运与承运，第二十五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n托运人根据自愿，可以选择办理保价运输或者货物运输保险，也可以均不选择。铁路运输企业不得以任何方式强迫办理保价运输或者货物运输保险。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "21608b055a9ad7ec",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "f195c9a12e74c043",
+      "content": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第二十六条｜铁路运输企业应当与托运人或者收货人约定货物装卸责任\n证据定位： DOC0019-K26；S0022，第四章  装卸与装载，第二十六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当与托运人或者收货人约定货物装卸责任。\n装卸作业应当符合铁路货物装卸安全有关技术要求，保证装卸作业质量和货物运输安全。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第二十六条｜铁路运输企业应当与托运人或者收货人约定货物装卸责任\n证据定位： DOC0019-K26；S0022，第四章  装卸与装载，第二十六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当与托运人或者收货人约定货物装卸责任。\n装卸作业应当符合铁路货物装卸安全有关技术要求，保证装卸作业质量和货物运输安全。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "f195c9a12e74c043",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "de61fd9b1fc9ded4",
+      "content": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第二十七条｜煤炭及其他散装货物在运输、装卸过程中可能产生扬尘的\n证据定位： DOC0019-K27；S0022，第四章  装卸与装载，第二十七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n煤炭及其他散装货物在运输、装卸过程中可能产生扬尘的，装卸车单位应当采取抑尘措施，抑尘设备、抑尘剂及工艺等应当符合国家标准、行业标准和技术规范。鼓励铁路运输企业推进散装货物集装化运输。\n运输外在水分超过4%的煤炭及其他散装易冻货物，装卸车站点和运输过程中最低环境温度低于–5℃时，装车单位应当采取防冻车措施，防冻设备、防冻剂及工艺等应当符合国家标准、行业标准和技术规范。\n运输油品的铁路罐车，在运输和装卸过程中的油气排放应当符合大气污染物排放相关强制性标准。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第二十七条｜煤炭及其他散装货物在运输、装卸过程中可能产生扬尘的\n证据定位： DOC0019-K27；S0022，第四章  装卸与装载，第二十七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n煤炭及其他散装货物在运输、装卸过程中可能产生扬尘的，装卸车单位应当采取抑尘措施，抑尘设备、抑尘剂及工艺等应当符合国家标准、行业标准和技术规范。鼓励铁路运输企业推进散装货物集装化运输。\n运输外在水分超过4%的煤炭及其他散装易冻货物，装卸车站点和运输过程中最低环境温度低于–5℃时，装车单位应当采取防冻车措施，防冻设备、防冻剂及工艺等应当符合国家标准、行业标准和技术规范。\n运输油品的铁路罐车，在运输和装卸过程中的油气排放应当符合大气污染物排放相关强制性标准。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "de61fd9b1fc9ded4",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "49cb0d4ec43d5a8f",
+      "content": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第二十八条｜托运人可以使用铁路运输企业的货车和集装箱、篷布等用具\n证据定位： DOC0019-K28；S0022，第四章  装卸与装载，第二十八条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n托运人可以使用铁路运输企业的货车和集装箱、篷布等用具，也可以使用托运人、收货人的货车和集装箱、篷布等用具，并按照与铁路运输企业的约定办理运输。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第二十八条｜托运人可以使用铁路运输企业的货车和集装箱、篷布等用具\n证据定位： DOC0019-K28；S0022，第四章  装卸与装载，第二十八条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n托运人可以使用铁路运输企业的货车和集装箱、篷布等用具，也可以使用托运人、收货人的货车和集装箱、篷布等用具，并按照与铁路运输企业的约定办理运输。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "49cb0d4ec43d5a8f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "2b8f56f198c91583",
+      "content": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第二十九条｜货车装载的货物重量一般不得超过其标记载重，集装箱的箱货总重不得超过其标记总重\n证据定位： DOC0019-K29；S0022，第四章  装卸与装载，第二十九条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n货车装载的货物重量一般不得超过其标记载重，集装箱的箱货总重不得超过其标记总重。罐车、罐式集装箱货物装载容积应当符合规定。\n货车装载的货物重量确有必要超过货车标记载重时，铁路运输企业应当在保证安全的条件下，根据货车技术条件等确定合理的装载重量并组织论证，明确相关要求。\n用于铁路货物运输的集装化用具、篷布、装载加固材料和装置，应当符合国家标准、行业标准和技术规范。\n货物装载加固应当符合有关技术要求。装车、装箱单位应当保证货物装载加固质量和安全。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第二十九条｜货车装载的货物重量一般不得超过其标记载重，集装箱的箱货总重不得超过其标记总重\n证据定位： DOC0019-K29；S0022，第四章  装卸与装载，第二十九条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n货车装载的货物重量一般不得超过其标记载重，集装箱的箱货总重不得超过其标记总重。罐车、罐式集装箱货物装载容积应当符合规定。\n货车装载的货物重量确有必要超过货车标记载重时，铁路运输企业应当在保证安全的条件下，根据货车技术条件等确定合理的装载重量并组织论证，明确相关要求。\n用于铁路货物运输的集装化用具、篷布、装载加固材料和装置，应当符合国家标准、行业标准和技术规范。\n货物装载加固应当符合有关技术要求。装车、装箱单位应当保证货物装载加固质量和安全。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "2b8f56f198c91583",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "0ef0a8444186d1bc",
+      "content": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第三十条｜装车使用篷布的，装车单位应当对篷布及绳索的完整状态进行检查，保证篷布良好\n证据定位： DOC0019-K30；S0022，第四章  装卸与装载，第三十条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n装车使用篷布的，装车单位应当对篷布及绳索的完整状态进行检查，保证篷布良好。苫盖易于损坏篷布的货物时，装车单位应当采取防护措施。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第三十条｜装车使用篷布的，装车单位应当对篷布及绳索的完整状态进行检查，保证篷布良好\n证据定位： DOC0019-K30；S0022，第四章  装卸与装载，第三十条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n装车使用篷布的，装车单位应当对篷布及绳索的完整状态进行检查，保证篷布良好。苫盖易于损坏篷布的货物时，装车单位应当采取防护措施。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "0ef0a8444186d1bc",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "6de16c9b75a5288c",
+      "content": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第三十一条｜使用棚车、冷藏车、罐车、集装箱运输的货物，由装车（箱）单位负责在货车或者集装箱上施封\n证据定位： DOC0019-K31；S0022，第四章  装卸与装载，第三十一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n使用棚车、冷藏车、罐车、集装箱运输的货物，由装车（箱）单位负责在货车或者集装箱上施封。派有押运人的货物、需要通风运输的货物、结构上无法施封的集装箱货物等可以不施封。\n施封的货车或者集装箱，应当在货物运单等运输单证上记明施封号码。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第三十一条｜使用棚车、冷藏车、罐车、集装箱运输的货物，由装车（箱）单位负责在货车或者集装箱上施封\n证据定位： DOC0019-K31；S0022，第四章  装卸与装载，第三十一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n使用棚车、冷藏车、罐车、集装箱运输的货物，由装车（箱）单位负责在货车或者集装箱上施封。派有押运人的货物、需要通风运输的货物、结构上无法施封的集装箱货物等可以不施封。\n施封的货车或者集装箱，应当在货物运单等运输单证上记明施封号码。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "6de16c9b75a5288c",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "42068ef5fbc2bc25",
+      "content": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第三十二条｜运输可能易于污染货车的货物时，铁路运输企业应当与托运人约定洗刷消毒事项\n证据定位： DOC0019-K32；S0022，第四章  装卸与装载，第三十二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运输可能易于污染货车的货物时，铁路运输企业应当与托运人约定洗刷消毒事项。洗刷消毒应当符合有关技术条件和安全、环保等要求，确保不会对其他货物和作业人员造成污染、损害。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第三十二条｜运输可能易于污染货车的货物时，铁路运输企业应当与托运人约定洗刷消毒事项\n证据定位： DOC0019-K32；S0022，第四章  装卸与装载，第三十二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运输可能易于污染货车的货物时，铁路运输企业应当与托运人约定洗刷消毒事项。洗刷消毒应当符合有关技术条件和安全、环保等要求，确保不会对其他货物和作业人员造成污染、损害。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "42068ef5fbc2bc25",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7684b7dd1b5e686b",
+      "content": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第三十三条｜贮存、运输和装卸食品的容器、工具和设备应当安全、无害，保持清洁，标有清洗合格标识\n证据定位： DOC0019-K33；S0022，第四章  装卸与装载，第三十三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n贮存、运输和装卸食品的容器、工具和设备应当安全、无害，保持清洁，标有清洗合格标识。禁止食品与有毒有害物品混运。\n运输食用植物油等散装食品应当按照有关国家标准使用专用容器或者车辆，容器或者车辆应当使用符合食品卫生标准和食品卫生有关规定的材料制成，并定期对运输容器或者车辆进行清洁。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第四章  装卸与装载\n### 第三十三条｜贮存、运输和装卸食品的容器、工具和设备应当安全、无害，保持清洁，标有清洗合格标识\n证据定位： DOC0019-K33；S0022，第四章  装卸与装载，第三十三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n贮存、运输和装卸食品的容器、工具和设备应当安全、无害，保持清洁，标有清洗合格标识。禁止食品与有毒有害物品混运。\n运输食用植物油等散装食品应当按照有关国家标准使用专用容器或者车辆，容器或者车辆应当使用符合食品卫生标准和食品卫生有关规定的材料制成，并定期对运输容器或者车辆进行清洁。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "7684b7dd1b5e686b",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b025aec1870de13f",
+      "content": "# 铁路货物运输规则\n## 第五章  途中运输\n### 第三十四条｜根据法律、行政法规规定或者铁路运输企业与托运人双方约定需派人押运的货物，托运人应当派人押运\n证据定位： DOC0019-K34；S0022，第五章  途中运输，第三十四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n根据法律、行政法规规定或者铁路运输企业与托运人双方约定需派人押运的货物，托运人应当派人押运。\n铁路运输企业应当告知押运人安全注意事项并经押运人签认，根据需要提供必要的押运条件。\n押运人应当遵守有关铁路货物运输的规定，熟悉所押货物特性，加强所押货物运输途中安全防护，发现异常情况及时处理并告知铁路运输企业。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第五章  途中运输\n### 第三十四条｜根据法律、行政法规规定或者铁路运输企业与托运人双方约定需派人押运的货物，托运人应当派人押运\n证据定位： DOC0019-K34；S0022，第五章  途中运输，第三十四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n根据法律、行政法规规定或者铁路运输企业与托运人双方约定需派人押运的货物，托运人应当派人押运。\n铁路运输企业应当告知押运人安全注意事项并经押运人签认，根据需要提供必要的押运条件。\n押运人应当遵守有关铁路货物运输的规定，熟悉所押货物特性，加强所押货物运输途中安全防护，发现异常情况及时处理并告知铁路运输企业。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "b025aec1870de13f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ef83856c2cc773bd",
+      "content": "# 铁路货物运输规则\n## 第五章  途中运输\n### 第三十五条｜铁路货物运输过程中，铁路运输企业发现违反法律、行政法规或者危及运输安全的情况，按照下列规定处理\n证据定位： DOC0019-K35；S0022，第五章  途中运输，第三十五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运输过程中，铁路运输企业发现违反法律、行政法规或者危及运输安全的情况，按照下列规定处理：\n（一）货物实际名称与货物运单记载不符的：需凭证明文件运输的货物，应当依法立即报告相关主管部门，按照其指示办理；危险货物以其他品名托运的，应当中止运输，按照铁路危险货物运输有关规定处置，并报告当地铁路监管部门。\n（二）货物包装或者装载加固有异状危及运输安全的，进行整理或者换装。\n（三）运输的动物染疫或者疑似染疫的，根据《中华人民共和国动物防疫法》等法律、行政法规规定立即向所在地农业农村主管部门或者动物疫病预防控制机构报告，并迅速采取隔离等控制措施，防止动物疫情扩散。\n（四）遇到无法处理的意外情况时，及时通知托运人或者收货人，必要时依法报告相关主管部门。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第五章  途中运输\n### 第三十五条｜铁路货物运输过程中，铁路运输企业发现违反法律、行政法规或者危及运输安全的情况，按照下列规定处理\n证据定位： DOC0019-K35；S0022，第五章  途中运输，第三十五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运输过程中，铁路运输企业发现违反法律、行政法规或者危及运输安全的情况，按照下列规定处理：\n（一）货物实际名称与货物运单记载不符的：需凭证明文件运输的货物，应当依法立即报告相关主管部门，按照其指示办理；危险货物以其他品名托运的，应当中止运输，按照铁路危险货物运输有关规定处置，并报告当地铁路监管部门。\n（二）货物包装或者装载加固有异状危及运输安全的，进行整理或者换装。\n（三）运输的动物染疫或者疑似染疫的，根据《中华人民共和国动物防疫法》等法律、行政法规规定立即向所在地农业农村主管部门或者动物疫病预防控制机构报告，并迅速采取隔离等控制措施，防止动物疫情扩散。\n（四）遇到无法处理的意外情况时，及时通知托运人或者收货人，必要时依法报告相关主管部门。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "ef83856c2cc773bd",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3bae5ee9cfbecae1",
+      "content": "# 铁路货物运输规则\n## 第五章  途中运输\n### 第三十六条｜货物在运输过程中，国家有关部门依法要求扣押货物时，铁路运输企业应当及时通知托运人或者收货人\n证据定位： DOC0019-K36；S0022，第五章  途中运输，第三十六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n货物在运输过程中，国家有关部门依法要求扣押货物时，铁路运输企业应当及时通知托运人或者收货人。鲜活、危险货物等性质特殊的，铁路运输企业应当向国家有关部门说明。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第五章  途中运输\n### 第三十六条｜货物在运输过程中，国家有关部门依法要求扣押货物时，铁路运输企业应当及时通知托运人或者收货人\n证据定位： DOC0019-K36；S0022，第五章  途中运输，第三十六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n货物在运输过程中，国家有关部门依法要求扣押货物时，铁路运输企业应当及时通知托运人或者收货人。鲜活、危险货物等性质特殊的，铁路运输企业应当向国家有关部门说明。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "3bae5ee9cfbecae1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "5edc051cf61cd631",
+      "content": "# 铁路货物运输规则\n## 第五章  途中运输\n### 第三十七条｜因不可抗力造成铁路货物运输阻碍，可能造成货物损失时，铁路运输企业应当通知托运人并约定处置方式\n证据定位： DOC0019-K37；S0022，第五章  途中运输，第三十七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n因不可抗力造成铁路货物运输阻碍，可能造成货物损失时，铁路运输企业应当通知托运人并约定处置方式。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第五章  途中运输\n### 第三十七条｜因不可抗力造成铁路货物运输阻碍，可能造成货物损失时，铁路运输企业应当通知托运人并约定处置方式\n证据定位： DOC0019-K37；S0022，第五章  途中运输，第三十七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n因不可抗力造成铁路货物运输阻碍，可能造成货物损失时，铁路运输企业应当通知托运人并约定处置方式。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "5edc051cf61cd631",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "a81ae7e32ffb7b34",
+      "content": "# 铁路货物运输规则\n## 第六章  交接与交付\n### 第三十八条｜货物交接可以按照下列规定办理\n证据定位： DOC0019-K38；S0022，第六章  交接与交付，第三十八条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n货物交接可以按照下列规定办理：\n（一）施封的货车（罐车除外）：凭封印交接。\n（二）未施封的货车（罐车除外）：\n1.棚车、冷藏车凭货车门窗关闭状态交接；\n2.敞车、平车等不苫盖篷布的凭货物装载加固状态交接，苫盖篷布的凭篷布现状交接。\n（三）罐车：凭人孔盖关闭状态交接。\n（四）集装箱：施封的凭箱号、封印和箱体外状交接，不施封的凭箱号和箱体外状交接。\n铁路运输企业与托运人、收货人另有约定的，按照其约定。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第六章  交接与交付\n### 第三十八条｜货物交接可以按照下列规定办理\n证据定位： DOC0019-K38；S0022，第六章  交接与交付，第三十八条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n货物交接可以按照下列规定办理：\n（一）施封的货车（罐车除外）：凭封印交接。\n（二）未施封的货车（罐车除外）：\n1.棚车、冷藏车凭货车门窗关闭状态交接；\n2.敞车、平车等不苫盖篷布的凭货物装载加固状态交接，苫盖篷布的凭篷布现状交接。\n（三）罐车：凭人孔盖关闭状态交接。\n（四）集装箱：施封的凭箱号、封印和箱体外状交接，不施封的凭箱号和箱体外状交接。\n铁路运输企业与托运人、收货人另有约定的，按照其约定。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "a81ae7e32ffb7b34",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "c723a11419de68de",
+      "content": "# 铁路货物运输规则\n## 第六章  交接与交付\n### 第三十九条｜对准备接收的托运人装车货物，铁路运输企业发现有下列情形之一时，应当由托运人改善后接收\n证据定位： DOC0019-K39；S0022，第六章  交接与交付，第三十九条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n对准备接收的托运人装车货物，铁路运输企业发现有下列情形之一时，应当由托运人改善后接收：\n（一）凭封印交接的货物，发现封印脱落、损坏、不符、印文不清等无效施封；\n（二）凭现状交接的货物，发现装载加固状态有异状或者有毁损、灭失痕迹；\n（三）未按规定苫盖篷布，或者篷布苫盖不严、破损、绳索捆绑不牢；\n（四）车门、车窗未关严（需要通风运输的货物除外），车门插销未插牢固，人孔盖未关闭；\n（五）违反铁路货物装载加固有关要求；\n（六）其他影响铁路运输安全的情形。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第六章  交接与交付\n### 第三十九条｜对准备接收的托运人装车货物，铁路运输企业发现有下列情形之一时，应当由托运人改善后接收\n证据定位： DOC0019-K39；S0022，第六章  交接与交付，第三十九条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n对准备接收的托运人装车货物，铁路运输企业发现有下列情形之一时，应当由托运人改善后接收：\n（一）凭封印交接的货物，发现封印脱落、损坏、不符、印文不清等无效施封；\n（二）凭现状交接的货物，发现装载加固状态有异状或者有毁损、灭失痕迹；\n（三）未按规定苫盖篷布，或者篷布苫盖不严、破损、绳索捆绑不牢；\n（四）车门、车窗未关严（需要通风运输的货物除外），车门插销未插牢固，人孔盖未关闭；\n（五）违反铁路货物装载加固有关要求；\n（六）其他影响铁路运输安全的情形。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "c723a11419de68de",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "af3932872fdde0c1",
+      "content": "# 铁路货物运输规则\n## 第六章  交接与交付\n### 第四十条｜铁路运输企业卸车的货物，应当及时通知收货人领取货物，并告知货物免费保管期限\n证据定位： DOC0019-K40；S0022，第六章  交接与交付，第四十条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业卸车的货物，应当及时通知收货人领取货物，并告知货物免费保管期限。收货人领取货物时，应当提供相应凭证。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第六章  交接与交付\n### 第四十条｜铁路运输企业卸车的货物，应当及时通知收货人领取货物，并告知货物免费保管期限\n证据定位： DOC0019-K40；S0022，第六章  交接与交付，第四十条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业卸车的货物，应当及时通知收货人领取货物，并告知货物免费保管期限。收货人领取货物时，应当提供相应凭证。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "af3932872fdde0c1",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4e8f75d904947cbd",
+      "content": "# 铁路货物运输规则\n## 第六章  交接与交付\n### 第四十一条｜铁路运输企业在收货人办完领取手续后，应当将货物交给收货人\n证据定位： DOC0019-K41；S0022，第六章  交接与交付，第四十一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业在收货人办完领取手续后，应当将货物交给收货人。收货人验货时，发现货物有异状或者与货物运单记载不符的，可以向铁路运输企业提出异议，铁路运输企业应当及时处理。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第六章  交接与交付\n### 第四十一条｜铁路运输企业在收货人办完领取手续后，应当将货物交给收货人\n证据定位： DOC0019-K41；S0022，第六章  交接与交付，第四十一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业在收货人办完领取手续后，应当将货物交给收货人。收货人验货时，发现货物有异状或者与货物运单记载不符的，可以向铁路运输企业提出异议，铁路运输企业应当及时处理。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "4e8f75d904947cbd",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b27df3c3c28a2dc4",
+      "content": "# 铁路货物运输规则\n## 第六章  交接与交付\n### 第四十二条｜自铁路运输企业发出领取货物通知之日起满30日仍无人领取的货物\n证据定位： DOC0019-K42；S0022，第六章  交接与交付，第四十二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n自铁路运输企业发出领取货物通知之日起满30日仍无人领取的货物，或者收货人书面通知铁路运输企业拒绝领取的货物，按照有关法律的规定办理。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第六章  交接与交付\n### 第四十二条｜自铁路运输企业发出领取货物通知之日起满30日仍无人领取的货物\n证据定位： DOC0019-K42；S0022，第六章  交接与交付，第四十二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n自铁路运输企业发出领取货物通知之日起满30日仍无人领取的货物，或者收货人书面通知铁路运输企业拒绝领取的货物，按照有关法律的规定办理。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "b27df3c3c28a2dc4",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "3dd10ee5e0b1bde2",
+      "content": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十三条｜铁路运输企业应当在保障安全、公平互利的基础上开放铁路线路，开展铁路运输企业间的过轨运输\n证据定位： DOC0019-K43；S0022，第七章  联合运输，第四十三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当在保障安全、公平互利的基础上开放铁路线路，开展铁路运输企业间的过轨运输。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十三条｜铁路运输企业应当在保障安全、公平互利的基础上开放铁路线路，开展铁路运输企业间的过轨运输\n证据定位： DOC0019-K43；S0022，第七章  联合运输，第四十三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当在保障安全、公平互利的基础上开放铁路线路，开展铁路运输企业间的过轨运输。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "3dd10ee5e0b1bde2",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "165082358457521d",
+      "content": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十四条｜鼓励铁路运输企业间开展联合运输，优先发展铁路运输企业间共用一份货物运单、约定承担责任的货物直通运输\n证据定位： DOC0019-K44；S0022，第七章  联合运输，第四十四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励铁路运输企业间开展联合运输，优先发展铁路运输企业间共用一份货物运单、约定承担责任的货物直通运输。在具备相同的运输种类和相符的货物品名办理条件时，铁路运输企业间应当办理直通运输。暂不具备共用一份货物运单的直通运输条件的，应当办理货物接续运输。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十四条｜鼓励铁路运输企业间开展联合运输，优先发展铁路运输企业间共用一份货物运单、约定承担责任的货物直通运输\n证据定位： DOC0019-K44；S0022，第七章  联合运输，第四十四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励铁路运输企业间开展联合运输，优先发展铁路运输企业间共用一份货物运单、约定承担责任的货物直通运输。在具备相同的运输种类和相符的货物品名办理条件时，铁路运输企业间应当办理直通运输。暂不具备共用一份货物运单的直通运输条件的，应当办理货物接续运输。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "165082358457521d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "83005c565bce449c",
+      "content": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十五条｜铁路运输企业间应当在明确责任、确保安全畅通的原则下，约定货物以及篷布、货车用具的交接办法\n证据定位： DOC0019-K45；S0022，第七章  联合运输，第四十五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业间应当在明确责任、确保安全畅通的原则下，约定货物以及篷布、货车用具的交接办法。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十五条｜铁路运输企业间应当在明确责任、确保安全畅通的原则下，约定货物以及篷布、货车用具的交接办法\n证据定位： DOC0019-K45；S0022，第七章  联合运输，第四十五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业间应当在明确责任、确保安全畅通的原则下，约定货物以及篷布、货车用具的交接办法。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "83005c565bce449c",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "dee00783cf125f12",
+      "content": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十六条｜货物运输变更收货人、到站、卸车地点的，由托运人向签订运输合同的铁路运输企业提出\n证据定位： DOC0019-K46；S0022，第七章  联合运输，第四十六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n货物运输变更收货人、到站、卸车地点的，由托运人向签订运输合同的铁路运输企业提出。货物运输变更的条件，由托运人与铁路运输企业约定。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十六条｜货物运输变更收货人、到站、卸车地点的，由托运人向签订运输合同的铁路运输企业提出\n证据定位： DOC0019-K46；S0022，第七章  联合运输，第四十六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n货物运输变更收货人、到站、卸车地点的，由托运人向签订运输合同的铁路运输企业提出。货物运输变更的条件，由托运人与铁路运输企业约定。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "dee00783cf125f12",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8e8d19774301e068",
+      "content": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十七条｜直通运输中运输区段需停运或者禁运时\n证据定位： DOC0019-K47；S0022，第七章  联合运输，第四十七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n直通运输中运输区段需停运或者禁运时，该区段的铁路运输企业应当提前发布停运或者禁运通知，并告知办理直通运输的相关运输企业；因不可抗力需停运或者禁运时，该区段的铁路运输企业应当立即通知办理直通运输的相关运输企业。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十七条｜直通运输中运输区段需停运或者禁运时\n证据定位： DOC0019-K47；S0022，第七章  联合运输，第四十七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n直通运输中运输区段需停运或者禁运时，该区段的铁路运输企业应当提前发布停运或者禁运通知，并告知办理直通运输的相关运输企业；因不可抗力需停运或者禁运时，该区段的铁路运输企业应当立即通知办理直通运输的相关运输企业。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "8e8d19774301e068",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "e13d3054596989da",
+      "content": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十八条｜铁路运输企业间应当落实清算相关标准和制度，建立公平合理的费用清算机制，及时办理清算业务\n证据定位： DOC0019-K48；S0022，第七章  联合运输，第四十八条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业间应当落实清算相关标准和制度，建立公平合理的费用清算机制，及时办理清算业务。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十八条｜铁路运输企业间应当落实清算相关标准和制度，建立公平合理的费用清算机制，及时办理清算业务\n证据定位： DOC0019-K48；S0022，第七章  联合运输，第四十八条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业间应当落实清算相关标准和制度，建立公平合理的费用清算机制，及时办理清算业务。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "e13d3054596989da",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b2dcb4d932ee5225",
+      "content": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十九条｜鼓励铁路运输企业积极开展多式联运\n证据定位： DOC0019-K49；S0022，第七章  联合运输，第四十九条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励铁路运输企业积极开展多式联运，强化铁路运输和其他运输方式的衔接，按照货物品类、安全检查等多式联运标准要求，提供全程综合物流服务。针对铁水、公铁联运等不同场景，优先推广应用符合多式联运要求的集装化运输设备。\n铁路运输企业参与集装箱多式联运的，对到达集装箱实行交接检查。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第四十九条｜鼓励铁路运输企业积极开展多式联运\n证据定位： DOC0019-K49；S0022，第七章  联合运输，第四十九条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励铁路运输企业积极开展多式联运，强化铁路运输和其他运输方式的衔接，按照货物品类、安全检查等多式联运标准要求，提供全程综合物流服务。针对铁水、公铁联运等不同场景，优先推广应用符合多式联运要求的集装化运输设备。\n铁路运输企业参与集装箱多式联运的，对到达集装箱实行交接检查。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "b2dcb4d932ee5225",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "7e37b9a70eaca973",
+      "content": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第五十条｜鼓励具备条件的铁路运输企业之间以及与其他运输方式的信息系统进行对接和数据共享\n证据定位： DOC0019-K50；S0022，第七章  联合运输，第五十条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励具备条件的铁路运输企业之间以及与其他运输方式的信息系统进行对接和数据共享，鼓励有关铁路运输企业开放列车到发时刻以及货物品类、数量（重量）、在途、装卸等信息，积极参与物流公共数据共享开放。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第七章  联合运输\n### 第五十条｜鼓励具备条件的铁路运输企业之间以及与其他运输方式的信息系统进行对接和数据共享\n证据定位： DOC0019-K50；S0022，第七章  联合运输，第五十条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n鼓励具备条件的铁路运输企业之间以及与其他运输方式的信息系统进行对接和数据共享，鼓励有关铁路运输企业开放列车到发时刻以及货物品类、数量（重量）、在途、装卸等信息，积极参与物流公共数据共享开放。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "7e37b9a70eaca973",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "ef8d53e87d51c228",
+      "content": "# 铁路货物运输规则\n## 第八章  争议和投诉处理\n### 第五十一条｜铁路货物运输过程中发生争议的，双方可以通过协商解决\n证据定位： DOC0019-K51；S0022，第八章  争议和投诉处理，第五十一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运输过程中发生争议的，双方可以通过协商解决。协商不成，可以依法通过调解、仲裁、诉讼等途径解决。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第八章  争议和投诉处理\n### 第五十一条｜铁路货物运输过程中发生争议的，双方可以通过协商解决\n证据定位： DOC0019-K51；S0022，第八章  争议和投诉处理，第五十一条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路货物运输过程中发生争议的，双方可以通过协商解决。协商不成，可以依法通过调解、仲裁、诉讼等途径解决。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "ef8d53e87d51c228",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "b50c989ef15f803f",
+      "content": "# 铁路货物运输规则\n## 第八章  争议和投诉处理\n### 第五十二条｜托运人、收货人有权就铁路货物运输服务质量问题向铁路运输企业、铁路监管部门投诉\n证据定位： DOC0019-K52；S0022，第八章  争议和投诉处理，第五十二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n托运人、收货人有权就铁路货物运输服务质量问题向铁路运输企业、铁路监管部门投诉。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第八章  争议和投诉处理\n### 第五十二条｜托运人、收货人有权就铁路货物运输服务质量问题向铁路运输企业、铁路监管部门投诉\n证据定位： DOC0019-K52；S0022，第八章  争议和投诉处理，第五十二条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n托运人、收货人有权就铁路货物运输服务质量问题向铁路运输企业、铁路监管部门投诉。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "b50c989ef15f803f",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "bb74b415a4cdd4ca",
+      "content": "# 铁路货物运输规则\n## 第八章  争议和投诉处理\n### 第五十三条｜铁路运输企业应当建立货物运输投诉处理机制\n证据定位： DOC0019-K53；S0022，第八章  争议和投诉处理，第五十三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当建立货物运输投诉处理机制，设立电话、网络、信件等投诉渠道并对外公布，配备必要的投诉处理人员并保证投诉渠道畅通，运行良好。\n铁路运输企业应当在收到投诉后3个工作日内答复受理情况，10个工作日内告知实质性处理结果；不予受理的，应当说明理由。\n铁路运输企业应当记录投诉情况及处理结果，投诉记录至少保存3年。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第八章  争议和投诉处理\n### 第五十三条｜铁路运输企业应当建立货物运输投诉处理机制\n证据定位： DOC0019-K53；S0022，第八章  争议和投诉处理，第五十三条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当建立货物运输投诉处理机制，设立电话、网络、信件等投诉渠道并对外公布，配备必要的投诉处理人员并保证投诉渠道畅通，运行良好。\n铁路运输企业应当在收到投诉后3个工作日内答复受理情况，10个工作日内告知实质性处理结果；不予受理的，应当说明理由。\n铁路运输企业应当记录投诉情况及处理结果，投诉记录至少保存3年。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "bb74b415a4cdd4ca",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "4ccfbd37b9387929",
+      "content": "# 铁路货物运输规则\n## 第八章  争议和投诉处理\n### 第五十四条｜铁路监管部门应当建立货物运输服务质量投诉处理机制\n证据定位： DOC0019-K54；S0022，第八章  争议和投诉处理，第五十四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门应当建立货物运输服务质量投诉处理机制，设立政府监管投诉渠道并对外公布，并做好投诉受理、处理工作。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第八章  争议和投诉处理\n### 第五十四条｜铁路监管部门应当建立货物运输服务质量投诉处理机制\n证据定位： DOC0019-K54；S0022，第八章  争议和投诉处理，第五十四条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路监管部门应当建立货物运输服务质量投诉处理机制，设立政府监管投诉渠道并对外公布，并做好投诉受理、处理工作。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "4ccfbd37b9387929",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "96d6c0ef78364b2d",
+      "content": "# 铁路货物运输规则\n## 第九章  附    则\n### 第五十五条｜本规则规定日期除特别规定外，均为自然日\n证据定位： DOC0019-K55；S0022，第九章  附    则，第五十五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本规则规定日期除特别规定外，均为自然日。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第九章  附    则\n### 第五十五条｜本规则规定日期除特别规定外，均为自然日\n证据定位： DOC0019-K55；S0022，第九章  附    则，第五十五条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本规则规定日期除特别规定外，均为自然日。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "96d6c0ef78364b2d",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "688695f88128b016",
+      "content": "# 铁路货物运输规则\n## 第九章  附    则\n### 第五十六条｜铁路运输企业可以根据法律、行政法规和本规则制定货物运输相关规定，实施前应当向社会公布\n证据定位： DOC0019-K56；S0022，第九章  附    则，第五十六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业可以根据法律、行政法规和本规则制定货物运输相关规定，实施前应当向社会公布。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第九章  附    则\n### 第五十六条｜铁路运输企业可以根据法律、行政法规和本规则制定货物运输相关规定，实施前应当向社会公布\n证据定位： DOC0019-K56；S0022，第九章  附    则，第五十六条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业可以根据法律、行政法规和本规则制定货物运输相关规定，实施前应当向社会公布。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "688695f88128b016",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": true,
+      "chunk_id": "8857c6c0d2a79388",
+      "content": "# 铁路货物运输规则\n## 第九章  附    则\n### 第五十七条｜本规则自2026年5月1日起施行\n证据定位： DOC0019-K57；S0022，第九章  附    则，第五十七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本规则自2026年5月1日起施行。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 第九章  附    则\n### 第五十七条｜本规则自2026年5月1日起施行\n证据定位： DOC0019-K57；S0022，第九章  附    则，第五十七条。\n来源版本与范围： 2026-02-03公布，2026-05-01施行；原件正文未载令号；中华人民共和国境内铁路货物运输。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n本规则自2026年5月1日起施行。\n必要依赖（第五十五条原文）： 本规则规定日期除特别规定外，均为自然日。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "8857c6c0d2a79388",
+      "important_keywords": [],
+      "questions": []
+    },
+    {
+      "_index": "ragflow_f8123cce6b744a88bde9137a8fab0ed1",
+      "available": false,
+      "chunk_id": "b77db25871fa7dea",
+      "content": "# 铁路货物运输规则\n## 来源与整理记录\n### 文档版本与原件索引\n文档 ID：DOC0019\n主领域：YS\n来源 ID：S0022\n资料性质：官方原文结构整理；检索小标题为编辑辅助文字。\n来源版本：2026-02-03公布，2026-05-01施行；原件正文未载令号\n适用范围：中华人民共和国境内铁路货物运输。\n效力核验：按存档原件整理；尚不能证明不存在后续修订。使用时须核验适用版本。\n原件：01-originals/web/S0022.txt\n正文核对底本：01-originals/web/S0022.txt\n官方来源：https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202602/t20260226_350797.shtml\n整理日期：2026-11-16\n本节仅供追溯；不作为业务问答证据。\n",
+      "content_with_weight": "# 铁路货物运输规则\n## 来源与整理记录\n### 文档版本与原件索引\n文档 ID：DOC0019\n主领域：YS\n来源 ID：S0022\n资料性质：官方原文结构整理；检索小标题为编辑辅助文字。\n来源版本：2026-02-03公布，2026-05-01施行；原件正文未载令号\n适用范围：中华人民共和国境内铁路货物运输。\n效力核验：按存档原件整理；尚不能证明不存在后续修订。使用时须核验适用版本。\n原件：01-originals/web/S0022.txt\n正文核对底本：01-originals/web/S0022.txt\n官方来源：https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202602/t20260226_350797.shtml\n整理日期：2026-11-16\n本节仅供追溯；不作为业务问答证据。\n",
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "doc_type_kwd": "text",
+      "docnm_kwd": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+      "document_id": "5ba978b4f8764cf6b77979d6e66d10a9",
+      "id": "b77db25871fa7dea",
+      "important_keywords": [],
+      "questions": []
+    }
+  ],
+  "validation_scope": "全量正文和知识点边界自动比对；不冒充全量人工语义核验。模型token预算另行验证。"
+}

@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-11-16T06:02:53.808Z",
+  "sources": [
+    {
+      "source_id": "S0030",
+      "doc_id": "DOC0022",
+      "previous_source_id": "S0025",
+      "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202206/t20220624_327466.shtml",
+      "title": "交通运输部关于修改《铁路机车车辆设计制造维修进口许可办法》的决定及重新公布全文",
+      "expected": [
+        "交通运输部令2019年第3号",
+        "2019年3月5日",
+        "5年、8年、10年"
+      ],
+      "version": "交通运输部令2019年第3号；2019-02-03公布，2019-03-05施行",
+      "checked_at": "2026-11-16T06:02:53.359Z",
+      "original_path": "01-originals/web/S0030.txt",
+      "sha256": "28c5fda800cfa251c516e8bc6e6a7653521be6b4648f74f84b2191aa2bcbe753",
+      "previous_sha256": "36f57776681bdb0cb33775bd610614d2a930ad6f3e807c6a1d5629cae0ff1c0a",
+      "original_preserved": true,
+      "latest_effectiveness_verified": false,
+      "remote_mutation": false
+    },
+    {
+      "source_id": "S0031",
+      "doc_id": "DOC0023",
+      "previous_source_id": "S0026",
+      "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202206/t20220624_327465.shtml",
+      "title": "交通运输部关于修改《铁路专用设备缺陷产品召回管理办法》的决定及重新公布全文",
+      "attachment_url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202206/P020220624365785849781.pdf",
+      "checked_at": "2026-11-16T06:02:53.463Z",
+      "original_path": "01-originals/web/S0031.txt",
+      "sha256": "bc60f2cb868cbcff896d491557788f6207f21de17056eaa6e808e113c6a9d18f",
+      "previous_sha256": "e5e307c4dee39f2b141f72f9ffbdbdf4e2b24c09cb5de088ed9a34bc7486339c",
+      "original_preserved": true,
+      "latest_effectiveness_verified": false,
+      "remote_mutation": false,
+      "attachment_path": "01-originals/attachments/S0031-1.pdf",
+      "attachment_sha256": "6d496b8fb670adf3a2041292f210e3a70d3923bc468702050a8d147d9bab5650"
+    }
+  ],
+  "status": "官方修正来源已取得；全文、现行汇编及候选切片逐条核对后才可交付入库",
+  "remote_mutation": false,
+  "original_sources_preserved": true
+}

@@ -1,0 +1,137 @@
+{
+  "decided_at": "2026-11-17T04:19:38.498Z",
+  "doc_id": "DOC0023",
+  "knowledge_point_id": "DOC0023-K06",
+  "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第六条",
+  "source_body": "铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业。从中国境外进口产品到境内销售的企业视为生产企业。",
+  "source_body_sha256": "52f257539d3bae16dc771922e32af7683eb6e71ff21b1592bdaba2eae10e100e",
+  "before": {
+    "doc_id": "DOC0023",
+    "knowledge_point_id": "DOC0023-K06",
+    "domain_code": "CL",
+    "article": "第六条",
+    "heading_path": [
+      "铁路专用设备缺陷产品召回管理办法",
+      "第一章　总则",
+      "第六条｜铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业"
+    ],
+    "source_ids": [
+      "S0038"
+    ],
+    "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第六条",
+    "source_version": "原交通运输部令2015年第23号；按2018年第18号决定修正，2018-08-31公布，2018-10-01施行",
+    "source_path": "02-normalized/reviewed/DOC0023-v5.txt",
+    "question": "铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业的规定、条件与例外是什么？",
+    "object_and_conditions": "铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业。从中国境外进口产品到境内销售的企业视为生产企业。",
+    "source_body": "铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业。从中国境外进口产品到境内销售的企业视为生产企业。",
+    "source_body_sha256": "52f257539d3bae16dc771922e32af7683eb6e71ff21b1592bdaba2eae10e100e",
+    "body": "铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业。从中国境外进口产品到境内销售的企业视为生产企业。\n\n**必要依赖（第二条原文）：** 国家铁路局依法实行行政许可管理的铁路专用设备产品的召回及其监督管理适用本办法。\n\n其他直接影响铁路运输安全的铁路专用设备产品确需召回的，由国家铁路局和国务院有关部门按照职责分工进行监督管理。\n\n**必要依赖（第三条原文）：** 铁路专用设备产品缺陷是指由于设计、制造、标识等原因导致同一批次、型号或者类别的铁路专用设备普遍存在不符合保障人身、财产安全的国家标准、行业标准的情形或者其他危及人身、财产安全的不合理危险。",
+    "text": "**证据定位：** DOC0023-K06；S0038，交通运输部官方合并全文，第一章 总  则，第六条。\n\n**来源版本与范围：** 原交通运输部令2015年第23号；按2018年第18号决定修正，2018-08-31公布，2018-10-01施行；依法实行行政许可的铁路专用设备缺陷产品召回及监督管理；其他直接影响运输安全产品依第二条处理。\n\n**效力核验边界：** 2026-11-16已在交通运输部现行有效规章目录定位同名同链接条目，核对所链官方合并全文及PDF；这是记录时点的官方目录证据，未穷尽所有后续公告。\n\n铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业。从中国境外进口产品到境内销售的企业视为生产企业。\n\n**必要依赖（第二条原文）：** 国家铁路局依法实行行政许可管理的铁路专用设备产品的召回及其监督管理适用本办法。\n\n其他直接影响铁路运输安全的铁路专用设备产品确需召回的，由国家铁路局和国务院有关部门按照职责分工进行监督管理。\n\n**必要依赖（第三条原文）：** 铁路专用设备产品缺陷是指由于设计、制造、标识等原因导致同一批次、型号或者类别的铁路专用设备普遍存在不符合保障人身、财产安全的国家标准、行业标准的情形或者其他危及人身、财产安全的不合理危险。",
+    "expected_sha256": "3359d902bb3116e1828edcd991294a7206968908100719931f9aa5f3a021817f",
+    "dependencies": [
+      {
+        "article": "第二条",
+        "local": true,
+        "inline": true
+      },
+      {
+        "article": "第三条",
+        "local": true,
+        "inline": true
+      }
+    ],
+    "treatment": "官方合并全文与PDF对照；保留稳定ID、完整条款及必要内联依赖；新增小标题属于整理标题",
+    "source_body_retained": true
+  },
+  "after": {
+    "doc_id": "DOC0023",
+    "knowledge_point_id": "DOC0023-K06",
+    "domain_code": "CL",
+    "article": "第六条",
+    "heading_path": [
+      "铁路专用设备缺陷产品召回管理办法",
+      "第一章　总则",
+      "第六条｜铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业"
+    ],
+    "source_ids": [
+      "S0038"
+    ],
+    "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第六条",
+    "source_version": "原交通运输部令2015年第23号；按2018年第18号决定修正，2018-08-31公布，2018-10-01施行",
+    "source_path": "02-normalized/reviewed/DOC0023-v5.txt",
+    "question": "铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业的规定、条件与例外是什么？",
+    "object_and_conditions": "铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业。从中国境外进口产品到境内销售的企业视为生产企业。",
+    "source_body": "铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业。从中国境外进口产品到境内销售的企业视为生产企业。",
+    "source_body_sha256": "52f257539d3bae16dc771922e32af7683eb6e71ff21b1592bdaba2eae10e100e",
+    "body": "铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业。从中国境外进口产品到境内销售的企业视为生产企业。",
+    "text": "**证据定位：** DOC0023-K06；S0038，交通运输部官方合并全文，第一章 总  则，第六条。\n\n**来源版本与范围：** 原交通运输部令2015年第23号；按2018年第18号决定修正，2018-08-31公布，2018-10-01施行；依法实行行政许可的铁路专用设备缺陷产品召回及监督管理；其他直接影响运输安全产品依第二条处理。\n\n**效力核验边界：** 2026-11-16已在交通运输部现行有效规章目录定位同名同链接条目，核对所链官方合并全文及PDF；这是记录时点的官方目录证据，未穷尽所有后续公告。\n\n铁路专用设备生产企业，是指在中国境内依法设立的产品制造企业。从中国境外进口产品到境内销售的企业视为生产企业。",
+    "expected_sha256": "d4160dfadbdb2e22c2ea08866c2057d9c03231fe13e3af177e8aa5c3cbb5ec40",
+    "dependencies": [],
+    "treatment": "第六条两句完整保留；范围前缀保留。第二、三条各有独立知识点，不作为生产企业定义的必要条件。",
+    "source_body_retained": true
+  },
+  "decision": "REPAIR_UNNECESSARY_CONTEXT",
+  "rationale": "第六条自行定义境内制造企业及进口销售企业，第二条适用范围已在前缀说明；第三条定义缺陷，不是企业定义的成立条件。移除内联重复可避免把缺陷判断误读为企业资格条件，第二、三条原文仍分别完整保存在K02、K03。",
+  "source_unchanged": true,
+  "other_knowledge_points_unchanged": true,
+  "snapshots": [
+    {
+      "path": "03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+      "history_path": "05-review/history/pre-context-repair-v5/03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+      "sha256": "741c54bb4f62853b13fa1ee9941a4ce0a0a05e602a6e301d0fe89c59dd5f06d3"
+    },
+    {
+      "path": "04-chunks/expected/DOC0023-v5.json",
+      "history_path": "05-review/history/pre-context-repair-v5/04-chunks/expected/DOC0023-v5.json",
+      "sha256": "9e868b602ad106ea530682d7d4e44fd598fe4d8ce05e14b2c8d1213e91ec532e"
+    },
+    {
+      "path": "00-control/document-register.json",
+      "history_path": "05-review/history/pre-context-repair-v5/00-control/document-register.json",
+      "sha256": "37f4a366c3e50b28f4859108c26c04ab6f5197e0f948aa82704e085ca2933c55"
+    },
+    {
+      "path": "00-control/structure-register.json",
+      "history_path": "05-review/history/pre-context-repair-v5/00-control/structure-register.json",
+      "sha256": "822c3bd2edbac1e967b53b779bf5aed0e4ca20614a09e2a727e0872d471685d3"
+    },
+    {
+      "path": "00-control/document-register-full.json",
+      "history_path": "05-review/history/pre-context-repair-v5/00-control/document-register-full.json",
+      "sha256": "46628c4685326c1e123a700cd9637cd2d1440331b03577c150b0817eaa742378"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+      "sha256": "69ede999c3545fa5a2f8044ab61dbe15e77faf359f8627a3a5cba35c5b2beed6"
+    },
+    {
+      "path": "04-chunks/expected/DOC0023-v5.json",
+      "sha256": "b2e06bad3a6700e7f9429ca569ada60def61262b5761307be07fcef99d4cfef6"
+    },
+    {
+      "path": "00-control/document-register.json",
+      "sha256": "e0a53e98a6439909da1cd4d54b370cf035b1c761fd135e8cddb0a10620d5d23d"
+    },
+    {
+      "path": "00-control/structure-register.json",
+      "sha256": "d75d5737c6718c30fb595c888094d9712bf8925d35c7986c2b1fefc55ea61c4a"
+    },
+    {
+      "path": "00-control/document-register-full.json",
+      "sha256": "4fb99adabca813c6aad44dc1b507dae5f0402fe32b7269f8c9bc3ab4bf01166d"
+    }
+  ],
+  "affected_semantic_batch_points": [
+    "DOC0023-K01",
+    "DOC0023-K02",
+    "DOC0023-K03",
+    "DOC0023-K04",
+    "DOC0023-K05",
+    "DOC0023-K06",
+    "DOC0023-K07",
+    "DOC0023-K08"
+  ],
+  "remote_mutation": false
+}

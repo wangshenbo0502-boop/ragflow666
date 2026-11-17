@@ -1,0 +1,305 @@
+{
+  "checked_at": "2026-11-16T13:44:40.254Z",
+  "documents": [
+    {
+      "doc_id": "DOC0025",
+      "master_path": "03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "before_master_sha256": "ff4d5f02088bb5a02459269daa51638309a2ca8c878b6ca8b5ae313b272ef216",
+      "after_master_sha256": "35b6c9a6178816897a73076d4cf913d0c8eacd169d5f369331c30dbab639e4c2",
+      "expected_path": "04-chunks/expected/DOC0025-successor-v3.json",
+      "expected_sha256": "ee5f7704b75491c2f554469e241d54d2c7967e401e84f5097bb77f1fbe247d7b",
+      "native_path": "05-review/successor-structure/S0033-native-tables-v2.json",
+      "native_sha256": "3e170fcd477db3149c8b0cd7e1d5bb922989f2d392e82b2dce57edc51d547749",
+      "original_sha256": "e330a2ac525225eeb4e8fb71c5697cdb43ebeeb74311a71903425e53a00f894e",
+      "points": [
+        {
+          "knowledge_point_id": "DOC0025-K036",
+          "native_table_id": "S0033-T09",
+          "candidate_text_sha256": "cec809bec657b1e34075d979fe4de29ee2433a75cc5735eaa9a595b7bfef24ee",
+          "before_section_sha256": "ccab2f2de40ca2cf17fc679c15986b7a480cc180e84bd667881a6418197859d1",
+          "after_section_sha256": "8c9132a1a08e75ef4a7113d6869c501862a328babb22ae56f375bffaa117c0ff",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2320,
+            2322,
+            2379,
+            2380
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0025-K037",
+          "native_table_id": "S0033-T10",
+          "candidate_text_sha256": "94675288fc64e3305183a8c814aaec7533ec14b56f4a83c82f107f6dbc846bf3",
+          "before_section_sha256": "4ccb195d9356cf09b1d4fcd7c20cbe3a230a66911bbcfcbb75c435a8f43aa480",
+          "after_section_sha256": "1c6f987e78ef62ecc967a41fe85869fb8e1dc21b0be0c492383e5c14bea65896",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2382,
+            2384
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0025-K038",
+          "native_table_id": "S0033-T11",
+          "candidate_text_sha256": "0567ca12ae5911b681a98a7f2711c088d290921b24cf1605bd34063261aeb0a1",
+          "before_section_sha256": "568a07138f2bdd8aa6fef0f0eeb55fb8f3b6e91d8e002244b6e0b1f74bcd2777",
+          "after_section_sha256": "c2a718b2d31ff994282ad0717c057ec81abb3674dc17e0df3fe75dfa21511560",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2408,
+            2409
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0025-K039",
+          "native_table_id": "S0033-T12",
+          "candidate_text_sha256": "b725c4d987a53432261aa28da7c9d16917bd53b6ba284755c1e0fe0a0fac8d13",
+          "before_section_sha256": "fca367711406b1007270cb86ef84aa65ee7adad87e37496f30cc6909461de95c",
+          "after_section_sha256": "a400af9a0f8ce760ce244b84da0eef8af79f916b202d3983f701cd3275258d61",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2441,
+            2443
+          ]
+        }
+      ],
+      "all_expected_candidate_texts_unchanged": true,
+      "semantic_cache_reuse_scope": "Previously reviewed expected texts and their source/context inputs are unchanged. Master-section placement repaired; not new semantic approval.",
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import": false
+    },
+    {
+      "doc_id": "DOC0026",
+      "master_path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "before_master_sha256": "32aea92c16c702730bb247963f85182fcf911d9a075241771f00d2166574300c",
+      "after_master_sha256": "41b9e9d81b67088ecf79bba8b1658a25ad30e1e12dc10810d9bfa21f57fe780c",
+      "expected_path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "expected_sha256": "1f0751a442be89cd1ec901d37ee8b940c4901b2cb1d442a70dd7eef58fd29fa2",
+      "native_path": "05-review/successor-structure/S0034-native-tables-v2.json",
+      "native_sha256": "cadc3ea5476ce3ef5cc0161aa2971eafbc1646671f2bc42cdaa1e4cd64d02fa9",
+      "original_sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+      "points": [
+        {
+          "knowledge_point_id": "DOC0026-K034",
+          "native_table_id": "S0034-T07",
+          "candidate_text_sha256": "a580dafce837038a6a402b423e300ac5b7de15e1c09c250db85efb0da83cd627",
+          "before_section_sha256": "552cd2977d9b40a4984830a9ddeb1449269af4bf671a9afb138f4dfdc5e456e4",
+          "after_section_sha256": "42cebe274f4f06eeef0d8e2876b68a6e5ef64f1e42d5331512cbb6a2688ffe1d",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2733,
+            2735,
+            2792,
+            2793
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0026-K035",
+          "native_table_id": "S0034-T08",
+          "candidate_text_sha256": "fb0f511fa258e87b63ae94b08b69ab0eaed7d0e0ecca21b7a2319409503493cd",
+          "before_section_sha256": "33e1290b8d11dbb251b3f95cd81886ce6e3b5489ee3d650ce4d42dd1387595a2",
+          "after_section_sha256": "9bd7d97e4a1b86b2a9605cdd65fc15fc87a4f554d1d4d80495c2567a0d5f3ab5",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2795,
+            2797
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0026-K036",
+          "native_table_id": "S0034-T09",
+          "candidate_text_sha256": "6f69bef903712f7557a87c2173fb939c5cdd0d0b1f25306878e1f64ba1fa48ab",
+          "before_section_sha256": "26864f441ebd23e16403e698a6ad529880ce74720420c997336efb281cc95a44",
+          "after_section_sha256": "0e1fc08f3571978c14981762aa8a50498fc9e02ed6f05426de27e6899e469837",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2821,
+            2822
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0026-K037",
+          "native_table_id": "S0034-T10",
+          "candidate_text_sha256": "bbeb640d69647472903d0f208d4612044592f179fb5b06426c212e8be1d96d6c",
+          "before_section_sha256": "25b5d13dd7c77c18a27233a7e269c1166b266e927ff1365bf22238b414c85786",
+          "after_section_sha256": "29c86da8d2632dc43525242dbd5c34c5a964c57f4b7a74f3620fceb2a6b68ba9",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2851,
+            2853
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0026-K038",
+          "native_table_id": "S0034-T11",
+          "candidate_text_sha256": "5348cfc9c7a114043785c3989506413f906f037f15159976a18a71363be3c236",
+          "before_section_sha256": "aa3a83850a7632fe817bf551856dfa8f83db2b871457d0fa06137c577dae9f10",
+          "after_section_sha256": "0f1ce15570ecf84aa95f38a709ecd15115caa562b5d0c49a8f4cf90617c1b0a9",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2851,
+            2853
+          ]
+        }
+      ],
+      "all_expected_candidate_texts_unchanged": true,
+      "semantic_cache_reuse_scope": "Previously reviewed expected texts and their source/context inputs are unchanged. Master-section placement repaired; not new semantic approval.",
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import": false
+    },
+    {
+      "doc_id": "DOC0027",
+      "master_path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "before_master_sha256": "a549bee56944f22d3fcc68eed33adb87e73c0f8b1ac84aabb28943207b0a989c",
+      "after_master_sha256": "c00a5743ba54ca5afd90c6b41ddaaa3afd11225c9936c6be4328e2701664ebcc",
+      "expected_path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "expected_sha256": "ed8a9240c065db7cfd20562ca9a94764166c33ea0c6e0bcfd7468767aa995a7d",
+      "native_path": "05-review/successor-structure/S0035-native-tables-v2.json",
+      "native_sha256": "57d16066cb527945b1216ec5a90dcb52b3ffbc6787352713b9a21a13dee97b11",
+      "original_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+      "points": [
+        {
+          "knowledge_point_id": "DOC0027-K031",
+          "native_table_id": "S0035-T04",
+          "candidate_text_sha256": "2cffcd84a976e13acec5da42a0c4a19082b3963bca797166e331fb5275492856",
+          "before_section_sha256": "047debae86781996943706a124dc78ea76de6b495fdc5b65d5cd80f93f027f01",
+          "after_section_sha256": "f69d401ec2863c76617751c23ffe7f467e9a26a2016fc47ea7c7641bb6e6096a",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            1344,
+            1346,
+            1403,
+            1404
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0027-K032",
+          "native_table_id": "S0035-T05",
+          "candidate_text_sha256": "142c91ff9fea44da84967e67fa5c5d32ecde2d232e8c61befb0aa8a73bafdd27",
+          "before_section_sha256": "61f0110667bdff1c322d21e823ca3de7a512a282d7da47fb8ee685dce5e0b149",
+          "after_section_sha256": "67ae9db810f93d546b8b144615029e050ad1734feaabd692f712dc8b33f3344d",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            1406,
+            1408
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0027-K033",
+          "native_table_id": "S0035-T06",
+          "candidate_text_sha256": "c474cde7557c975ef2d7d68632cf1367c88634ea774a8b3be73d09b92ba69710",
+          "before_section_sha256": "5c1a78418497348dba18d8c55ede2e17d3baca407df0730bf45666d4e396dd36",
+          "after_section_sha256": "3435f126815b81de3b75b439629fcd75656dc4f04c7ae2249093efb0a3ba03d5",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            1432,
+            1433
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0027-K034",
+          "native_table_id": "S0035-T07",
+          "candidate_text_sha256": "3cde3c0421dd236ec2b12b40b76d7f36c2cdb161a872f9ff979208e226228109",
+          "before_section_sha256": "8c63223cd2d838cbd21792314cf0cf8ff7235f2b8c958f54f75f11d47d1da5cd",
+          "after_section_sha256": "9b3ffacac4f3ffa60fd86d05d0a7a39c959a5e6bc81c8d066a9b7e1b606244ed",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            1462,
+            1464
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0027-K035",
+          "native_table_id": "S0035-T08",
+          "candidate_text_sha256": "aea56c2c81e80893047da70ece9ccce2decca6c5343f37b2def9e87b3524a9d7",
+          "before_section_sha256": "45b44e17d0238c6780ba50c2e0028ad1f231078d441a2d28e79825ac2b7d5a4b",
+          "after_section_sha256": "5c36ad7f7b3b2849278e8766118fb831dea68ecfcb35ff367a60022e97157c0b",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            1462,
+            1464
+          ]
+        }
+      ],
+      "all_expected_candidate_texts_unchanged": true,
+      "semantic_cache_reuse_scope": "Previously reviewed expected texts and their source/context inputs are unchanged. Master-section placement repaired; not new semantic approval.",
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import": false
+    },
+    {
+      "doc_id": "DOC0028",
+      "master_path": "03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "before_master_sha256": "09309e6c31e157546b684bd4282e7e5d41217c79b466d036627fe03296a5af8f",
+      "after_master_sha256": "bab2b6523eae4a3fc5c55f73872bf2d6b1f8b3947d8df534a3aa27f8684225bc",
+      "expected_path": "04-chunks/expected/DOC0028-successor-v3.json",
+      "expected_sha256": "ce3ef8f683e0266dc1bd4526473d761a783a5f50dda8cd6b8999ade10d48d0b7",
+      "native_path": "05-review/successor-structure/S0036-native-tables-v2.json",
+      "native_sha256": "ff1b1fffbf0ebcc30b9a819a3404217b347ae87418a50ca210e64b7606c3131a",
+      "original_sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+      "points": [
+        {
+          "knowledge_point_id": "DOC0028-K035",
+          "native_table_id": "S0036-T08",
+          "candidate_text_sha256": "fbc147a0da39315f12077283f9a3370479810ee01a6d1a5130e957f1ca046605",
+          "before_section_sha256": "54fcc5637246f3af37b5aae9072818f2a4d54280901dd688be3875c9200f8cb6",
+          "after_section_sha256": "7486a0de56d4504ea4359d70b5caef790f31d84fd5c8e403223d53f1173319f9",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2523,
+            2525,
+            2582,
+            2583
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0028-K036",
+          "native_table_id": "S0036-T09",
+          "candidate_text_sha256": "9ebaad3d32564643d3cf8d60e77f353e8d7385f2b06056e85190efab8d4e401d",
+          "before_section_sha256": "4c399ad7212657634d7112d7916f1af48bee68ddb95a3c29c17938580743b604",
+          "after_section_sha256": "a6b475e25119fce959413e1ee9948258819084842565115645f45d7abcadb045",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2585,
+            2587
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0028-K037",
+          "native_table_id": "S0036-T10",
+          "candidate_text_sha256": "59dd2a5b9f709310d64cabe9081d7f28552a413777744875313d76b84ba696bf",
+          "before_section_sha256": "86d080a04e9143c3a13aacdc41b3d57d4f0d82299e98826512442b9abf4e5817",
+          "after_section_sha256": "996d38fdafad1cff878132a27173affca0ebc1b543399d64f7ed9075452a000b",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2611,
+            2612
+          ]
+        },
+        {
+          "knowledge_point_id": "DOC0028-K038",
+          "native_table_id": "S0036-T11",
+          "candidate_text_sha256": "4d68edb7989e9312738bab001947f0f12c62483759860c578c12920783c312de",
+          "before_section_sha256": "0fdfbbd94b8e3f127a1c4b8f7e494ea29b61951c4b6ccc6f506098b0949645a9",
+          "after_section_sha256": "a1609e04ed33973d6a98f60958a4f2bf673fce1dd655bb4dcd8a7482538f1082",
+          "native_grid_unchanged": true,
+          "shared_context_paragraphs": [
+            2645,
+            2647
+          ]
+        }
+      ],
+      "all_expected_candidate_texts_unchanged": true,
+      "semantic_cache_reuse_scope": "Previously reviewed expected texts and their source/context inputs are unchanged. Master-section placement repaired; not new semantic approval.",
+      "structure_accepted": false,
+      "trial_executed": false,
+      "formal_import": false
+    }
+  ],
+  "original_files_unchanged": true,
+  "new_model_requests": 0,
+  "remote_writes": 0,
+  "structure_accepted": false
+}

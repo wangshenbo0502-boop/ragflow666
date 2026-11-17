@@ -1,0 +1,578 @@
+{
+  "checked_at": "2026-11-17T05:34:07.382Z",
+  "record": {
+    "doc_id": "DOC0027",
+    "source_id": "S0035",
+    "domain": "XH",
+    "phase": "trial",
+    "dataset_id": "8f7cbc152fc64d7b8d39da97028e5abe",
+    "document_id": "8896cd1f6eda42a8ad98bbac1cfeef3d",
+    "filename": "DOC0027_铁路通信设备生产企业审批实施细则_复核稿_保真入库副本_da4500791353.md",
+    "sha256": "e1079ba502a1c8231ebd9c8f6439d97e2b938dd394f533c2d96354f64ef4650f",
+    "input_sha256": "da4500791353035c581a7a1fbe50d0007814950b7b226c208b96230864eb1eac",
+    "input_manifest_path": "04-chunks/inputs/DOC0027-literal-da4500791353/manifest.json",
+    "input_manifest_sha256": "9ee72b45bd5b6fd02b655861fe888e373c2db0d603f5fe49bbfeea215aaac63c",
+    "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+    "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+    "structure_evidence": "05-review/DOC0027-structure-decision-2026-11-16.json",
+    "status": "parse-requested",
+    "uploaded_at": "2026-11-17T05:28:23.488Z"
+  },
+  "remote": {
+    "chunk_count": 205,
+    "chunk_method": "general",
+    "create_date": "2026-11-17 13:28:24",
+    "create_time": 1794893304230,
+    "created_by": "f8123cce6b744a88bde9137a8fab0ed1",
+    "dataset_id": "8f7cbc152fc64d7b8d39da97028e5abe",
+    "id": "8896cd1f6eda42a8ad98bbac1cfeef3d",
+    "ingestion_status": "COMPLETED",
+    "latest_ingestion_event": {
+      "id": 2629,
+      "ts": "2026-11-17T13:33:50+08:00",
+      "event_type": 2,
+      "component": "",
+      "phase": 0,
+      "message": "Task completed."
+    },
+    "location": "DOC0027_铁路通信设备生产企业审批实施细则_复核稿_保真入库副本_da4500791353.md",
+    "meta_fields": {},
+    "name": "DOC0027_铁路通信设备生产企业审批实施细则_复核稿_保真入库副本_da4500791353.md",
+    "nickname": "test",
+    "parser_config": {
+      "Extractor:AutoExtractDefault": {
+        "keywords": {
+          "top_n": 0
+        },
+        "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+        "metadata": {
+          "built_in_metadata": [],
+          "enabled": false,
+          "metadata": []
+        },
+        "questions": {
+          "top_n": 0
+        },
+        "summary": {
+          "enabled": false
+        },
+        "tags": {
+          "tag_file_id": "",
+          "top_n": 0
+        }
+      },
+      "File": {},
+      "Parser:HipSignsRhyme": {
+        "enable_vision_enhancement": false,
+        "pdf": {
+          "enable_multi_column": true,
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "TitleChunker:SparklySchoolsTravel": {
+        "chunk_token_cap": 0,
+        "groupRules": [
+          {
+            "levels": [
+              {
+                "expression": "^#[^#]"
+              },
+              {
+                "expression": "^##[^#]"
+              },
+              {
+                "expression": "^###[^#]"
+              },
+              {
+                "expression": "^####[^#]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+条"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[0-9]+章"
+              },
+              {
+                "expression": "第[0-9]+节"
+              },
+              {
+                "expression": "[0-9]{1,2}[\\. 、]"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "[零一二三四五六七八九十百]+[ 、]"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              },
+              {
+                "expression": "[\\(（][0-9]{,2}[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+              },
+              {
+                "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+              },
+              {
+                "expression": "Section [0-9]+"
+              },
+              {
+                "expression": "Article [0-9]+"
+              }
+            ]
+          }
+        ],
+        "hierarchy": 3,
+        "hierarchyGroup": "0",
+        "hierarchyHierarchy": "3",
+        "hierarchyRules": [
+          {
+            "levels": [
+              {
+                "expression": "^#[^#]"
+              },
+              {
+                "expression": "^##[^#]"
+              },
+              {
+                "expression": "^###[^#]"
+              },
+              {
+                "expression": "^####[^#]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+条"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[0-9]+章"
+              },
+              {
+                "expression": "第[0-9]+节"
+              },
+              {
+                "expression": "[0-9]{1,2}[\\. 、]"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "[零一二三四五六七八九十百]+[ 、]"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              },
+              {
+                "expression": "[\\(（][0-9]{,2}[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+              },
+              {
+                "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+              },
+              {
+                "expression": "Section [0-9]+"
+              },
+              {
+                "expression": "Article [0-9]+"
+              }
+            ]
+          }
+        ],
+        "include_heading_content": false,
+        "levels": [
+          [
+            "^#[^#]",
+            "^##[^#]",
+            "^###[^#]"
+          ]
+        ],
+        "method": "hierarchy"
+      },
+      "Tokenizer:GreatCarsWash": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+    "pipeline_name": "铁路知识库-条文层级试切",
+    "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+    "process_begin_at": "2026-11-17 13:28:24",
+    "process_duration": 326.438457567,
+    "progress": 1,
+    "progress_msg": "",
+    "size": 385989,
+    "status": "1",
+    "suffix": "md",
+    "thumbnail": "",
+    "token_count": 167815,
+    "type": "doc",
+    "update_date": "2026-11-17 13:33:50",
+    "update_time": 1794893630942
+  },
+  "dataset": {
+    "chunk_count": 1053,
+    "connectors": [],
+    "create_time": 1794754309514,
+    "created_by": "f8123cce6b744a88bde9137a8fab0ed1",
+    "description": "铁路知识库阶段试切，来源 S0011；通信信号与列车控制。",
+    "document_count": 10,
+    "embedding_model": "f899ff565c8e4fb29cdfc5d4edc1f00a",
+    "id": "8f7cbc152fc64d7b8d39da97028e5abe",
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "name": "铁路资料优化试验-XH-通信信号与列车控制",
+    "operator_permission": 8,
+    "pagerank": 0,
+    "parser_config": {
+      "Extractor:AutoExtractDefault": {
+        "keywords": {
+          "top_n": 0
+        },
+        "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+        "metadata": {
+          "built_in_metadata": [],
+          "enabled": false,
+          "metadata": []
+        },
+        "questions": {
+          "top_n": 0
+        },
+        "summary": {
+          "enabled": false
+        },
+        "tags": {
+          "tag_file_id": "",
+          "top_n": 0
+        }
+      },
+      "File": {},
+      "Parser:HipSignsRhyme": {
+        "enable_vision_enhancement": false,
+        "pdf": {
+          "enable_multi_column": true,
+          "flatten_media_to_text": false,
+          "parse_method": "DeepDOC",
+          "preprocess": [
+            "main_content"
+          ],
+          "suffix": [
+            "pdf"
+          ],
+          "vlm": {}
+        },
+        "vlm": {
+          "llm_id": ""
+        }
+      },
+      "TitleChunker:SparklySchoolsTravel": {
+        "chunk_token_cap": 0,
+        "groupRules": [
+          {
+            "levels": [
+              {
+                "expression": "^#[^#]"
+              },
+              {
+                "expression": "^##[^#]"
+              },
+              {
+                "expression": "^###[^#]"
+              },
+              {
+                "expression": "^####[^#]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+条"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[0-9]+章"
+              },
+              {
+                "expression": "第[0-9]+节"
+              },
+              {
+                "expression": "[0-9]{1,2}[\\. 、]"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "[零一二三四五六七八九十百]+[ 、]"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              },
+              {
+                "expression": "[\\(（][0-9]{,2}[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+              },
+              {
+                "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+              },
+              {
+                "expression": "Section [0-9]+"
+              },
+              {
+                "expression": "Article [0-9]+"
+              }
+            ]
+          }
+        ],
+        "hierarchy": 3,
+        "hierarchyGroup": "0",
+        "hierarchyHierarchy": "3",
+        "hierarchyRules": [
+          {
+            "levels": [
+              {
+                "expression": "^#[^#]"
+              },
+              {
+                "expression": "^##[^#]"
+              },
+              {
+                "expression": "^###[^#]"
+              },
+              {
+                "expression": "^####[^#]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+(分?编|部分)"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+条"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[0-9]+章"
+              },
+              {
+                "expression": "第[0-9]+节"
+              },
+              {
+                "expression": "[0-9]{1,2}[\\. 、]"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}($|[^a-zA-Z/%~.-])"
+              },
+              {
+                "expression": "[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]{1,2}"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+章"
+              },
+              {
+                "expression": "第[零一二三四五六七八九十百0-9]+节"
+              },
+              {
+                "expression": "[零一二三四五六七八九十百]+[ 、]"
+              },
+              {
+                "expression": "[\\(（][零一二三四五六七八九十百]+[\\)）]"
+              },
+              {
+                "expression": "[\\(（][0-9]{,2}[\\)）]"
+              }
+            ]
+          },
+          {
+            "levels": [
+              {
+                "expression": "PART (ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)"
+              },
+              {
+                "expression": "Chapter (I+V?|VI*|XI|IX|X)"
+              },
+              {
+                "expression": "Section [0-9]+"
+              },
+              {
+                "expression": "Article [0-9]+"
+              }
+            ]
+          }
+        ],
+        "include_heading_content": false,
+        "levels": [
+          [
+            "^#[^#]",
+            "^##[^#]",
+            "^###[^#]"
+          ]
+        ],
+        "method": "hierarchy"
+      },
+      "Tokenizer:GreatCarsWash": {
+        "fields": "text",
+        "filename_embd_weight": 0.1,
+        "search_method": [
+          "embedding",
+          "full_text"
+        ]
+      }
+    },
+    "parser_id": "general",
+    "permission": "me",
+    "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+    "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f",
+    "pipeline_version_outdated": false,
+    "similarity_threshold": 0.2,
+    "size": 950814,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "token_num": 338370,
+    "update_time": 1794893630944
+  }
+}

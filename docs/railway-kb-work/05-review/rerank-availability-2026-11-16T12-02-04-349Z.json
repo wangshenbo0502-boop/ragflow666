@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-16T12:02:04.349Z",
+  "checked_at_shanghai": "2026-11-16 20:02:04 +08:00",
+  "scope": "Current real HTTP requests only. Configuration IDs are historical and could not be revalidated because Docker authentication dependency is unavailable. No services, settings or remote data modified.",
+  "historical_config": {
+    "app_id": "3b0470c7c4fb414dab6d32c19dfee8da",
+    "dataset_id": "66ff4d9d5ff748af8e83080bd7482f04",
+    "rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+    "model": "bge-reranker-v2-m3",
+    "endpoint": "http://host.docker.internal:8082/v1"
+  },
+  "authenticated_system_retrieval": {
+    "succeeded": false,
+    "request_sent": false,
+    "blocked_by": "Existing api helper failed before sending the request because dockerDesktopLinuxEngine named pipe was not found while obtaining the existing session."
+  },
+  "checks": [
+    {
+      "name": "direct_rerank",
+      "url": "http://127.0.0.1:8082/v1/rerank",
+      "body": {
+        "model": "bge-reranker-v2-m3",
+        "query": "铁路道岔设备生产企业的审批条件是什么？",
+        "documents": [
+          "铁路道岔设备生产企业审批实施细则规定生产企业审批要求。",
+          "旅客车票退票业务办理时间。"
+        ],
+        "top_n": 2
+      },
+      "succeeded": false,
+      "elapsed_ms": 31,
+      "error": "fetch failed",
+      "cause": {
+        "code": "ECONNREFUSED",
+        "message": "connect ECONNREFUSED 127.0.0.1:8082",
+        "address": "127.0.0.1",
+        "port": 8082
+      }
+    },
+    {
+      "name": "system_retrieval_endpoint",
+      "url": "http://127.0.0.1:9380/api/v1/datasets/search",
+      "body": {
+        "dataset_ids": [
+          "66ff4d9d5ff748af8e83080bd7482f04"
+        ],
+        "question": "铁路建设工程的竣工验收和运营安全评估是否为同一环节？",
+        "page_size": 5,
+        "knn_top_k": 128,
+        "knn_num_candidates": 256,
+        "use_kg": false,
+        "similarity_threshold": 0.1,
+        "vector_similarity_weight": 0.5,
+        "rerank_id": "54b3e07f096e4b008cd789a563fd06ec"
+      },
+      "succeeded": false,
+      "elapsed_ms": 1,
+      "error": "fetch failed",
+      "cause": {
+        "code": "ECONNREFUSED",
+        "message": "connect ECONNREFUSED 127.0.0.1:9380",
+        "address": "127.0.0.1",
+        "port": 9380
+      }
+    }
+  ]
+}

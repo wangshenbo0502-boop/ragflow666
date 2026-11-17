@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { RailScrollHeading } from '@/components/rail-scroll-heading';
 import { RailScrollDiagram } from '@/components/rail-scroll-diagram';
+import { RailArchiveDiagram } from '@/components/rail-archive-diagram';
 import { IngestionTaskStatus } from '@/constants/knowledge';
 import { useRailMotion } from '@/hooks/use-rail-motion';
 import type { RailwayScene } from '@/interfaces/database/railway';
@@ -19,8 +20,8 @@ import {
   Ticket,
   Wrench,
 } from 'lucide-react';
-import { useRef } from 'react';
-import { Link } from 'react-router';
+import { useCallback, useEffect, useRef } from 'react';
+import { Link, useLocation } from 'react-router';
 import { EquipmentIntake } from './equipment-intake';
 import { useRailwayWorkbench } from './use-railway-workbench';
 
@@ -86,24 +87,54 @@ const DocumentStatuses: Record<string, string> = {
 };
 
 export default function Home() {
+  const { hash, key } = useLocation();
   const workbench = useRailwayWorkbench();
   const pageRef = useRef<HTMLElement>(null);
   useRailMotion(pageRef);
   const questionRef = useRef<HTMLTextAreaElement>(null);
+  const startingRef = useRef(false);
   const activeScene = Scenes.find((scene) => scene.value === workbench.scene)!;
+  const selectedDataset = workbench.datasets.data?.find(
+    (dataset) => dataset.id === workbench.selectedId,
+  );
   const documentCount = workbench.documents.data?.length || 0;
   const handleScene = (event: React.MouseEvent<HTMLButtonElement>) =>
     workbench.setScene(event.currentTarget.dataset.scene as RailwayScene);
   const handleDataset = (event: React.ChangeEvent<HTMLSelectElement>) =>
     workbench.setDatasetId(event.target.value);
   const handleImport = () => workbench.initialize.mutate();
-  const handleStart = () => workbench.start.mutate();
-  const handleFocusQuestion = () => {
-    document
-      .getElementById('rail-workspace')
-      ?.scrollIntoView({ block: 'start' });
-    questionRef.current?.focus({ preventScroll: true });
+  const handleStart = () => {
+    if (!workbench.canStart || workbench.start.isPending || startingRef.current)
+      return;
+
+    startingRef.current = true;
+    workbench.start.mutate(undefined, {
+      onSettled: () => {
+        startingRef.current = false;
+      },
+    });
   };
+  const handleFocusQuestion = useCallback(() => {
+    const workspace = document.getElementById('rail-workspace');
+    const questionInput = questionRef.current;
+    const page = pageRef.current;
+    if (!workspace || !questionInput || !page) return;
+
+    const questionBottom =
+      questionInput.getBoundingClientRect().bottom -
+      workspace.getBoundingClientRect().top;
+    if (questionBottom > page.getBoundingClientRect().height) {
+      questionInput.scrollIntoView({ block: 'center' });
+    } else {
+      workspace.scrollIntoView({ block: 'start' });
+    }
+    questionInput.focus({ preventScroll: true });
+  }, []);
+  useEffect(() => {
+    if (hash !== '#rail-workspace') return;
+    const frame = requestAnimationFrame(handleFocusQuestion);
+    return () => cancelAnimationFrame(frame);
+  }, [hash, key, handleFocusQuestion]);
   const handleQuestion = (event: React.ChangeEvent<HTMLTextAreaElement>) =>
     workbench.setQuestion(event.target.value);
   const handleExample = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -117,7 +148,7 @@ export default function Home() {
       !event.nativeEvent.isComposing
     ) {
       event.preventDefault();
-      if (workbench.canStart && !workbench.start.isPending) handleStart();
+      handleStart();
     }
   };
   const error =
@@ -125,17 +156,43 @@ export default function Home() {
     workbench.start.error ||
     workbench.datasets.error ||
     workbench.documents.error;
-  const unavailableReason =
+  const readingSources =
     workbench.datasets.isPending ||
-    (workbench.selectedId && workbench.documents.isPending)
-      ? '正在读取知识库…'
-      : !workbench.models.llm_id
-        ? '请先配置对话模型'
-        : !workbench.selectedId
-          ? '请选择知识库，或导入官方资料'
-          : !workbench.canStart
-            ? '资料完成解析后即可开始对话'
-            : '';
+    (!!workbench.selectedId && workbench.documents.isPending);
+  const sourcesError =
+    workbench.datasets.isError || workbench.documents.isError;
+
+  let unavailableReason = '';
+  let preparationSummary = `${workbench.readyDocumentCount} 份资料已就绪`;
+  if (sourcesError) {
+    preparationSummary = '资料读取失败';
+  } else if (readingSources) {
+    preparationSummary = '正在读取资料…';
+    unavailableReason = '正在读取知识库…';
+  } else if (!workbench.selectedId) {
+    preparationSummary = '未选择知识库';
+  } else if (documentCount === 0) {
+    preparationSummary = '暂无资料';
+  } else if (
+    workbench.readyDocumentCount === 0 &&
+    workbench.documents.data?.some(
+      (doc) => doc.ingestion_status === IngestionTaskStatus.FAILED,
+    )
+  ) {
+    preparationSummary = '有资料解析失败';
+  }
+
+  if (!sourcesError && !readingSources && !workbench.canStart) {
+    if (!workbench.models.llm_id) {
+      unavailableReason = '请先配置对话模型';
+    } else if (!workbench.selectedId) {
+      unavailableReason = '请选择知识库，或导入官方资料';
+    } else if (documentCount === 0) {
+      unavailableReason = '当前知识库暂无资料，请先添加资料';
+    } else {
+      unavailableReason = '资料完成解析后即可开始对话';
+    }
+  }
 
   return (
     <article ref={pageRef} className="rail-page rail-workbench">
@@ -236,6 +293,7 @@ export default function Home() {
                     <BookOpen className="size-4 shrink-0" />
                     <select
                       aria-label="资料范围"
+                      title={selectedDataset?.name}
                       value={workbench.selectedId}
                       onChange={handleDataset}
                     >
@@ -293,8 +351,8 @@ export default function Home() {
                     知识与模型准备
                   </span>
                   <span>
-                    {workbench.readyDocumentCount} 份资料已就绪{' '}
-                    <ChevronDown className="size-3.5" />
+                    {preparationSummary}
+                    <ChevronDown className="size-3.5 shrink-0" />
                   </span>
                 </summary>
                 <div className="rail-preparation-body">
@@ -411,13 +469,19 @@ export default function Home() {
               <RailScrollDiagram variant="browser" />
             </div>
           </div>
-          <div id="rail-sources" className="rail-archive-list">
-            {workbench.sources.error && (
-              <p role="alert" className="rail-error">
-                {workbench.sources.error.message}
-              </p>
-            )}
+          <div
+            id="rail-sources"
+            className="rail-archive-list"
+            data-rail-diagram-stage
+            data-rail-diagram-entry
+          >
+            <RailArchiveDiagram />
             <div className="rail-source-grid">
+              {workbench.sources.error && (
+                <p role="alert" className="rail-error">
+                  {workbench.sources.error.message}
+                </p>
+              )}
               {workbench.sources.data?.map((source) => (
                 <a
                   key={source.id}

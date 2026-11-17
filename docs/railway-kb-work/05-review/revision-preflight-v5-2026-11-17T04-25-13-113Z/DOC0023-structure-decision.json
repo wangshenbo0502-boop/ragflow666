@@ -1,0 +1,576 @@
+{
+  "decided_at": "2026-11-17T04:25:13.113Z",
+  "doc_id": "DOC0023",
+  "decision": "STRUCTURE_ACCEPTED_FOR_FAITHFUL_SOURCE_TRIAL",
+  "structure_accepted": true,
+  "trial_accepted": false,
+  "formal_import": false,
+  "retrieval_accepted": false,
+  "bindings": {
+    "master": {
+      "path": "03-domains/CL/DOC0023_铁路专用设备缺陷产品召回管理办法.md",
+      "sha256": "69ede999c3545fa5a2f8044ab61dbe15e77faf359f8627a3a5cba35c5b2beed6"
+    },
+    "expected": {
+      "path": "04-chunks/expected/DOC0023-v5.json",
+      "sha256": "b2e06bad3a6700e7f9429ca569ada60def61262b5761307be07fcef99d4cfef6"
+    },
+    "original": {
+      "path": "01-originals/web/S0038.txt",
+      "sha256": "cecc8d65961b210b172639496dfbfc7a5fe2bc6d021f05c5684e8749115c45d2"
+    },
+    "normalized": {
+      "path": "02-normalized/reviewed/DOC0023-v5.txt",
+      "sha256": "73f886e5adad1c1bb063a4410c08892b1b8e12ef48f50a0b4784433a6d46d363"
+    },
+    "original_pdf": {
+      "path": "01-originals/attachments/S0038-1.pdf",
+      "sha256": "0a7ab0b7cc901b8be0630b7a4810701fdfe32a78e2f92672443b6fa7e2f75617"
+    }
+  },
+  "deterministic_checks": {
+    "unique_points": 35,
+    "complete_sections": true,
+    "headings_valid": true,
+    "source_bodies_retained": true,
+    "dependencies_complete": true
+  },
+  "semantic_review": {
+    "pass": 35,
+    "new_requests": 0,
+    "reused_batches": 5,
+    "model": "102e9861e4e24a73abb7cff80df6c52e",
+    "rules_sha256": "2576b753feed31276f1c4949ffb78ab23602e3adcb2a0d043078bda92c0e84d3",
+    "prompt_sha256": "54553a4ff3c08413b4357d8dba4ed4e4316af12ce793893e5968332f71c663a8"
+  },
+  "visual_review": {
+    "evidence": "05-review/revision-visual-v5.json",
+    "pages_viewed": 10,
+    "limitation": "完整页面视觉查看与条款转录核对；不是法律意见或所有后续公告穷尽核查"
+  },
+  "source_version": {
+    "evidence": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/evidence.json",
+    "current_catalog_verified": true,
+    "legal_currency_scope": "Listed in the official current-effective regulation catalog at the recorded access time",
+    "exhaustive_later_notice_search": false,
+    "formal_source_gate": "Official current-effective catalog explicitly lists this consolidated version; faithful-source ingestion permitted with recorded version and bounded currency statement."
+  },
+  "budgets": {
+    "tokenizer_sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+    "embedding_runtime_limit": 4096,
+    "embedding_declared_limit": 8192,
+    "maximum_prefixed_tokens": 373,
+    "longest_id": "DOC0023-K07",
+    "truncate": false,
+    "actual_evaluated_tokens": 373,
+    "vector_dimensions": 1024,
+    "vector_sha256": "059b4b358c00f51b1a10f0655044cd6a60afe311409adbfae7050245715b0f76",
+    "runtime_model": {
+      "name": "bge-m3:latest",
+      "model": "bge-m3:latest",
+      "size": 1218969598,
+      "digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "bert",
+        "families": [
+          "bert"
+        ],
+        "parameter_size": "566.70M",
+        "quantization_level": "F16"
+      },
+      "expires_at": "2026-11-17T04:30:18.768966709Z",
+      "size_vram": 0,
+      "context_length": 4096
+    },
+    "reranker_model": "bge-reranker-v2-m3",
+    "reranker_context_limit": 8192,
+    "maximum_reranker_document_tokens": 371,
+    "query": "铁路专用设备缺陷召回的责任主体、计划报告期限和处罚条件是什么？",
+    "query_tokens": 19,
+    "reserved_pair_special_tokens": 8,
+    "reranker_probe": {
+      "model": "bge-reranker-v2-m3",
+      "object": "list",
+      "usage": {
+        "prompt_tokens": 393,
+        "total_tokens": 393
+      },
+      "results": [
+        {
+          "index": 0,
+          "relevance_score": 4.586501121520996
+        }
+      ]
+    }
+  },
+  "points": [
+    {
+      "knowledge_point_id": "DOC0023-K01",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第一条",
+      "candidate_sha256": "ee9f308cd6cc5b124bae4bce8290f9581a18b8ddf9efc376d3e385d8f853c390",
+      "complete_input_sha256": "2aca420f8ed5febc398e5044287e56883bed57598acb7261391cfedb78b63494",
+      "embedding_tokens": 249,
+      "reranker_tokens": 247,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第一条立法目的与依据：为规范铁路专用设备缺陷产品召回管理，保障人身、财产安全，根据《产品质量法》《铁路安全管理条例》等制定本办法；对象、目的、依据均与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K02",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第二条",
+      "candidate_sha256": "09d3b1ba7baf16f4320d2ff60981037fc62c2a05427fd7b06275c8e5a5cca952",
+      "complete_input_sha256": "f9f4c14387964b099e9daa6121e013a4be4aa2506795fc42378ba4c8b14bfc96",
+      "embedding_tokens": 276,
+      "reranker_tokens": 274,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第二条两款：第一款明确适用范围为国家铁路局依法实行行政许可管理的铁路专用设备产品的召回及监督管理；第二款明确其他直接影响铁路运输安全的铁路专用设备产品确需召回的，由国家铁路局和国务院有关部门按职责分工监督管理。条件、主体、并列关系均忠实。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K03",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第三条",
+      "candidate_sha256": "b23dd1f51f61030135c2a86048072d3504cbc7438e631b3f5115d703bf15169e",
+      "complete_input_sha256": "6a70664146ef61393317df2d558339ecc76c9c2d597a4a6935e23b6c9f48698d",
+      "embedding_tokens": 319,
+      "reranker_tokens": 317,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留缺陷定义：因设计、制造、标识等原因导致同一批次、型号或类别普遍存在不符合保障人身、财产安全的国家标准、行业标准的情形或其他不合理危险；原因、普遍性、标准类型、兜底情形均一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K04",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第四条",
+      "candidate_sha256": "9000e6f3421e1f83385a10385c1a6cb099d422f3f792b5857bf7033580ec7b54",
+      "complete_input_sha256": "8aaa9d7733c4be7c1ac547989a74c0a6c01aad2a02f944c057a2cac36c8c996c",
+      "embedding_tokens": 248,
+      "reranker_tokens": 246,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留召回定义：生产企业对其已销售的产品采取措施消除缺陷的活动；主体、对象、行为均一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K05",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第五条",
+      "candidate_sha256": "bd42a9b04b38f2e1e27db2f7da9124608a479827760ff23a6bf9cf57ce457b86",
+      "complete_input_sha256": "748ef0f9464e9f90c0429cdadd868ac8a9c8f948d826cd4be2daeb362194c86c",
+      "embedding_tokens": 274,
+      "reranker_tokens": 272,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留两款：国家铁路局实施监督管理，地区铁路监督管理局按国家铁路局规定参与；并保留“铁路监管部门”统称定义。主体与参与条件均一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K06",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第六条",
+      "candidate_sha256": "d4160dfadbdb2e22c2ea08866c2057d9c03231fe13e3af177e8aa5c3cbb5ec40",
+      "complete_input_sha256": "c9965f1adc409f23c309bb5bd6adefac635038da50390229c505ff793d286444",
+      "embedding_tokens": 247,
+      "reranker_tokens": 245,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留生产企业定义：中国境内依法设立的产品制造企业；境外进口到境内销售的企业视为生产企业。拟制规定保留完整。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K07",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第七条",
+      "candidate_sha256": "ea4e97f51f31aecdb1fa188e0416367ef0308e738514a7b01f6d4f9f43b25669",
+      "complete_input_sha256": "c3742069f1df3dbd4e6d795ec20ec6d0aa49ec49820aa90211341f8e39fe462c",
+      "embedding_tokens": 373,
+      "reranker_tokens": 371,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第七条两款：生产企业为召回实施主体及档案、制度、访问分析、召回义务与费用等义务；铁路机车车辆经监造符合要求方可投入使用；并保留“监造”定义（主体、依据、合同约定、程序范围、监督检查与符合性判断）。条件与定义均完整。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K08",
+      "source_location": "S0038，交通运输部官方合并全文，第一章 总  则，第八条",
+      "candidate_sha256": "145e6b5ed68c1616bc7ba7a81f85e144ab70674f49a0489dcb97f0915c858c49",
+      "complete_input_sha256": "eacd9a07d34ed20ac8d909bfe1522e86066f511845ca82f7d07ee187964d5e93",
+      "embedding_tokens": 267,
+      "reranker_tokens": 265,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留使用企业及设备相关单位的配合义务：配合缺陷调查、提供使用维修操作检测等信息记录、协助召回、采取有效措施维护运输秩序确保安全；义务主体与内容一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K09",
+      "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第九条",
+      "candidate_sha256": "413e6a7bcde88bebd3ce83ac1d1338fd5f8f6e415f759f6a5a39291b6c661bc4",
+      "complete_input_sha256": "163bebfbf0d16d0062f0ace2fab148230d2d4fedf048fa7b56ad70d1dddf5b7b",
+      "embedding_tokens": 279,
+      "reranker_tokens": 277,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业；条件为获知其产品可能存在缺陷；义务为立即组织开展缺陷调查并确认是否存在缺陷；对正在使用的产品，还应立即通知使用企业、与使用企业协商并采取安全保障措施确保运输安全。候选正文与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K10",
+      "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十条",
+      "candidate_sha256": "d5135d99dda7ffce42fae30b15bcf810f206cac292ede7ca5652b3d15f325e9b",
+      "complete_input_sha256": "38bb04baedb32db79402fccb0d323a7b013206e45fa72f4f905206c0454fd3ce",
+      "embedding_tokens": 254,
+      "reranker_tokens": 252,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业；条件为经调查确认产品存在缺陷；义务为立即将调查结果通知使用企业并报国家铁路局。候选正文与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K11",
+      "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十一条",
+      "candidate_sha256": "e86fefa4ad28e3aedc4245a9766bc8c3eee7eef72244ba7d6ee7cc7c0b4acdbe",
+      "complete_input_sha256": "4cecbb7dd1d508a877dd18045e7458910b5acd4ccb40cb384f29034547722921",
+      "embedding_tokens": 288,
+      "reranker_tokens": 286,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为使用企业；条件为获知产品可能存在缺陷；义务为及时采取有效措施确保运输安全并向生产企业通报；并规定生产企业应及时开展缺陷调查，未及时开展的，使用企业可向国家铁路局反映。候选正文与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K12",
+      "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十二条",
+      "candidate_sha256": "dd0d3f4603393eb7eab58165c9ccc1b04883242861c4c2df66fee71a69e794f9",
+      "complete_input_sha256": "827811350133d03f5471e407a11c278153c3ff9eb4ace3dd4fe1ad1e4b54d6b4",
+      "embedding_tokens": 284,
+      "reranker_tokens": 282,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为国家铁路局；条件为获知产品可能存在缺陷；义务为立即通知生产企业开展缺陷调查；生产企业拒绝的，国家铁路局可直接组织调查或委托与生产企业无利害关系的专业技术机构调查，并将结果通知生产企业和使用企业。候选正文与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K13",
+      "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十三条",
+      "candidate_sha256": "455187b4b03656f3ba4c4e8c68d532621b84dbc204c054b1c0f890fd2d9bae81",
+      "complete_input_sha256": "2f2759395c8453919d3bd0b6d5c72947f04566dbe06e6d5630e47cafb14ac2b0",
+      "embedding_tokens": 299,
+      "reranker_tokens": 297,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "规定产品缺陷调查应当包括的四项内容：设计制造标识等原因、不符合保障人身财产安全的国家标准或行业标准、是否已造成人身财产损害、虽未造成损害但经检验检测试验论证存在不合理危险。候选完整保留四项并列内容，与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K14",
+      "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十四条",
+      "candidate_sha256": "88b6e4c4a1a8be176fbe165fec91e98427bd5067b2ad585ef3a452e28ff076f2",
+      "complete_input_sha256": "4a855c4035711e2c1519c9a73de9fc77458ac071503698abc7d5c404e145a5d2",
+      "embedding_tokens": 280,
+      "reranker_tokens": 278,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "规定缺陷调查过程中可以采取的四项措施：现场调查、查阅复制资料档案记录、向相关单位和个人了解情况并公开征求信息、依法可以采取的其他措施。候选完整保留四项并列内容，与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K15",
+      "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十五条",
+      "candidate_sha256": "00cc5a430c91dfcfb60256ac4681cb40f51046ab954e494932eba9fcc67f56d7",
+      "complete_input_sha256": "7b2aa151ab874d06fd3d803639818c5689a319b453b520c84bbebaf0c6226ed8",
+      "embedding_tokens": 239,
+      "reranker_tokens": 237,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业；义务为配合缺陷调查，提供调查需要的有关资料、产品和设备。候选正文与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K16",
+      "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十六条",
+      "candidate_sha256": "fff9c67e3affbfda78083152ee81bb0dcae35c90d8af53e971a55e5b25efd9c6",
+      "complete_input_sha256": "0e3cfc6acf0507057268ae4145fdf0d16332fea7d250002a87b8099010a5587e",
+      "embedding_tokens": 360,
+      "reranker_tokens": 358,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "规定产品缺陷调查报告应当包括的八项内容，并规定受委托的专业技术机构应按规定提交报告并对真实性、准确性负责。候选完整保留八项并列内容及末款责任规定，与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K17",
+      "source_location": "S0038，交通运输部官方合并全文，第二章 产品缺陷调查，第十七条",
+      "candidate_sha256": "e79e4a55ca6f2c2b7fbee60012d9df21cd77165abb0bedb5fdd55ad7d671ff47",
+      "complete_input_sha256": "bdb68916a67f155518c8d1a39f9828603ad86b59a703b7619fb306a89ad64511",
+      "embedding_tokens": 295,
+      "reranker_tokens": 293,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业或使用企业；条件为对产品缺陷调查结果有异议；期限起点为自收到缺陷调查结果之日起15个工作日内；结论为可向国家铁路局反映并提供证明材料；国家铁路局可组织无利害关系专业技术机构或专家论证，必要时组织技术检验、检测、试验，并将结果通知相关企业。候选正文与官方原文一致，未增删条件或数值。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K18",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第十八条",
+      "candidate_sha256": "b41dd6e1675e5681374abf4bf4d68849c4579340eabf762968eaa431c6781752",
+      "complete_input_sha256": "8c6ca533581c5ea4ee6db6f983f0797a126e26e24be871ea1d279344a07acdbf",
+      "embedding_tokens": 274,
+      "reranker_tokens": 272,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业；条件为确认产品存在缺陷；结论为立即停止生产、销售、进口并通知使用企业；例外情形为立即停止使用可能对铁路运输秩序造成较大影响的，生产企业应当与使用企业协商共同采取应急措施，确保运输安全。候选完整保留两款，条件与结论一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K19",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第十九条",
+      "candidate_sha256": "74754d3dd0d41392ab95a8049b38565747f3f92433601e59000d91e51acacdc0",
+      "complete_input_sha256": "41f94a61417a7203eb6a8062e27d86a9c589b809a798e3cec1a8bd4280c39f5a",
+      "embedding_tokens": 356,
+      "reranker_tokens": 354,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业；义务为与使用企业协商制定召回计划并组织实施；召回计划九项内容与官方原文逐项一致，并列关系完整保留。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K20",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十条",
+      "candidate_sha256": "1110967ee42200de2563cdef3833ce7ba35a5e4e7c5ab4b877fc26a274a5e2d8",
+      "complete_input_sha256": "a0212812ad821fad428556b2c2c59aea98242d90d6e72f70137d9be433ea6d2c",
+      "embedding_tokens": 241,
+      "reranker_tokens": 239,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业；义务为将召回计划报备国家铁路局；已备案的召回计划调整时应当重新报备。候选与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K21",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十一条",
+      "candidate_sha256": "12f30f7f1bf27e65010694a946be3acc9aa8d05f09d871df2b74f5b1b081e345",
+      "complete_input_sha256": "d4bd3645d292605b0166feb8e49a46342de5cd810723f592dd7b8ee521cbc37e",
+      "embedding_tokens": 345,
+      "reranker_tokens": 343,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "条件为经专业技术机构调查确认产品存在缺陷、生产企业未在规定期限内对调查结果提出异议、并且未按规定实施召回；结论为国家铁路局应当责令生产企业召回。候选已内联第十七条原文，补足了“规定期限”的15个工作日及异议程序依赖，单独检索可理解成立条件。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K22",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十二条",
+      "candidate_sha256": "be3d8d7e67a8b6eb1ddf440b5dc8b543218c751afa66becdd798b63783dfdbdf",
+      "complete_input_sha256": "1abf3c559c213f11b305727671a7bea91a3cdef5e3877af5599c5328b4355559",
+      "embedding_tokens": 268,
+      "reranker_tokens": 266,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业；对象范围为确定召回的缺陷产品；义务为及时采取修正或者补充标识、修理、更换、退货等措施消除缺陷，并承担消除缺陷的费用。选择关系与费用承担均与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K23",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十三条",
+      "candidate_sha256": "3f5a57422b01352731c90f95b29d5c58f505fa1932732c49ab8b506c38f4b41e",
+      "complete_input_sha256": "93a919edb1a79110848ce3b730a41cf647b13719c93f9ccd638125f49cc37d74",
+      "embedding_tokens": 252,
+      "reranker_tokens": 250,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业；义务为填写缺陷产品召回记录单；记录单由生产企业、使用企业、国家铁路局各保存一份；保存期不得少于5年。数值、单位、并列主体均与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K24",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十四条",
+      "candidate_sha256": "3a428f34cf9d03d2c3e810db8557cd7dab9b6e785e7ce1083981264644b8ee27",
+      "complete_input_sha256": "38f6c904ef331995c40a63d941a50d35e8f779d976f85a7d6a0c7a70b4a7438d",
+      "embedding_tokens": 267,
+      "reranker_tokens": 265,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业；条件为在实施召回的过程中；义务为向国家铁路局提交阶段性报告和总结报告；国家铁路局根据召回实际效果决定是否要求采取更有效召回措施。候选与官方原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K25",
+      "source_location": "S0038，交通运输部官方合并全文，第三章 召回实施，第二十五条",
+      "candidate_sha256": "5b43ecad570736c055a418d1f239513e0ab979a75ad4db4a47b80d23ad0cac6c",
+      "complete_input_sha256": "6c1c45f1f9a5d09e98ef5252c6f1d1de0e8ae217d57ca0372a60774daee48682",
+      "embedding_tokens": 243,
+      "reranker_tokens": 241,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业完成召回计划后的情形；结论为国家铁路局应当组织与生产企业无利害关系的专业技术机构或专家对消除缺陷的效果进行评估。候选正文与官方原文一致，未增删条件或结论。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K26",
+      "source_location": "S0038，交通运输部官方合并全文，第四章 监督检查，第二十六条",
+      "candidate_sha256": "ac12f2d579be798e63df0bf83130d75a78bd7913be3f9678b5a2eb7c35063679",
+      "complete_input_sha256": "b6c00200b81a9c615f3289cc1f1301df18656bb8f443f604030ca18fcf938790",
+      "embedding_tokens": 261,
+      "reranker_tokens": 259,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为国家铁路局；义务包括对缺陷产品召回实施情况进行监督、依法发布召回相关信息、公布投诉受理电话/电子邮箱/通信地址、加强与国务院有关部门信息沟通和信息共享。候选与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K27",
+      "source_location": "S0038，交通运输部官方合并全文，第四章 监督检查，第二十七条",
+      "candidate_sha256": "17554612c7b830d287e53f6d4da9d47410fc358145a5bda4ee4b795c1f8c8234",
+      "complete_input_sha256": "a698ed866c5ff12fdccc60381322f201882347d4119a63ea414ce548b27101d7",
+      "embedding_tokens": 246,
+      "reranker_tokens": 244,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为从事缺陷调查的工作人员；要求遵守相关法律法规，禁止妨碍企业正常生产经营活动，禁止收受、索取财物、牟取私利。候选与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K28",
+      "source_location": "S0038，交通运输部官方合并全文，第四章 监督检查，第二十八条",
+      "candidate_sha256": "cf3a46e00c24c32a8b9327adc833ef7c071e352abca05a69ea6a933b46fcc8ff",
+      "complete_input_sha256": "749b353486469ef982bfd867aecae5f6bbd4b2b390a3b23510799dbd87a55a31",
+      "embedding_tokens": 255,
+      "reranker_tokens": 253,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为缺陷产品召回过程中的相关工作人员；要求遵守公平、公正、客观、合法原则，依法保守商业秘密和技术秘密。候选与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K29",
+      "source_location": "S0038，交通运输部官方合并全文，第四章 监督检查，第二十九条",
+      "candidate_sha256": "17f98e6efef3a5a726dbbe43e3f622fb83b0aef762147aaa2a6201a5198f973e",
+      "complete_input_sha256": "002f7598a6ed646a6d9eb53b4568a856dedc2bff1a78dc4de9f04369de70fc93",
+      "embedding_tokens": 255,
+      "reranker_tokens": 253,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "任何单位和个人有权向铁路监管部门投诉铁路专用设备可能存在的缺陷；任何单位和个人不得阻挠和干涉产品缺陷投诉和缺陷调查。候选完整保留两项规则，与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K30",
+      "source_location": "S0038，交通运输部官方合并全文，第五章 法律责任，第三十条",
+      "candidate_sha256": "1ff4818fee0e200add41eac71245b5b631858fda7a2a92f833e64db8b73b4932",
+      "complete_input_sha256": "e1917d38b66a4facd60be88ac09e6388511d2e6090dc9b94d4d4143e64022abb",
+      "embedding_tokens": 340,
+      "reranker_tokens": 338,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为生产企业；条件为违反本办法规定且具有所列六种情形之一；结论为由国家铁路局责令限期改正。六项情形与原文逐项一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K31",
+      "source_location": "S0038，交通运输部官方合并全文，第五章 法律责任，第三十一条",
+      "candidate_sha256": "e7fab25704bc4460a9c5811e06c5b21efc4319ea7a354b4c0fa9983f5f698d9a",
+      "complete_input_sha256": "e229dc31dd9b6439182724a1b5a8be5dfd6af9281ca9709e678c31278e713ee6",
+      "embedding_tokens": 352,
+      "reranker_tokens": 350,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为未按规定召回缺陷产品、未采取措施消除缺陷的生产企业；先责令改正，拒不改正的按情节轻重分三档罚款（货值金额1%～5%、5%～8%、8%～10%），情节严重并吊销相应行政许可证件；构成犯罪的追究刑事责任。候选与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K32",
+      "source_location": "S0038，交通运输部官方合并全文，第五章 法律责任，第三十二条",
+      "candidate_sha256": "a31d7c4eaa593922b31e05ce976bab068e04c2c75cdef1ec4cd4bd034b2b9887",
+      "complete_input_sha256": "be6f692b9fcc741d47a48957d21e10448650c1fefc451fa7acc8cf6bd21dff4a",
+      "embedding_tokens": 321,
+      "reranker_tokens": 319,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "对象为从事缺陷产品召回监督管理工作的人员；条件为违反本办法规定且有所列三种行为之一；结论为依法给予行政处分，涉嫌犯罪的移交司法机关处理。三项行为与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K33",
+      "source_location": "S0038，交通运输部官方合并全文，第五章 法律责任，第三十三条",
+      "candidate_sha256": "634aa1062ad8129b77e1ff2aa098a95cf58e1c6d26dbaf39ee7be89082e4ee11",
+      "complete_input_sha256": "880e72bbeb61f07d23b77e5877a153872e9f8250da18ca62a9a83e26100a2aa7",
+      "embedding_tokens": 278,
+      "reranker_tokens": 276,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第三十三条两款：第一款明确生产企业依照本办法召回缺陷产品不免除其依法应承担的其他法律责任；第二款明确缺陷以外质量问题，使用企业有权依法律法规及合同约定要求生产企业承担相应法律责任。对象、条件、结论与原文一致，未增删限定。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/5958810455ffd12f19f3d570793ae503bc219a6000fc6ff81563258ee0250776.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K34",
+      "source_location": "S0038，交通运输部官方合并全文，第六章 附则，第三十四条",
+      "candidate_sha256": "6151c9c52a3ae995029087a2d1186ca051fd9abc0adb54437792c56eaa925fa1",
+      "complete_input_sha256": "86f4280c9a02f7f1ecb2f2ffabcee7cf1c962ff8d48685e5191430ffdd05dc68",
+      "embedding_tokens": 244,
+      "reranker_tokens": 242,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第三十四条：国家铁路局应当根据本办法制定铁路专用设备缺陷产品召回管理实施细则。义务主体、依据和事项均与原文一致。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/5958810455ffd12f19f3d570793ae503bc219a6000fc6ff81563258ee0250776.json"
+    },
+    {
+      "knowledge_point_id": "DOC0023-K35",
+      "source_location": "S0038，交通运输部官方合并全文，第六章 附则，第三十五条",
+      "candidate_sha256": "68d1575f773c1863038fbbe0f4526cac126b52a7993d0d6e3b331079bb854111",
+      "complete_input_sha256": "51d16b37eba12dcc76088cec2355f1868d23daedd66be99278100ff9ec2872d9",
+      "embedding_tokens": 223,
+      "reranker_tokens": 221,
+      "semantic_status": "PASS",
+      "boundary": "KEEP_COMPLETE",
+      "finding": "候选完整保留第三十五条施行日期：本办法自2016年1月1日起施行。日期与原文一致，未混淆2018年修正公布/施行信息。",
+      "semantic_evidence": "05-review/revision-semantic-v5/batches/5958810455ffd12f19f3d570793ae503bc219a6000fc6ff81563258ee0250776.json"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "05-review/revision-current-official-2026-11-17T04-25-02-988Z/evidence.json",
+      "sha256": "ffc8528c6feb80f9e6aea43f67d25f7d33a2236940917d4ecebf8ebeddf999d6"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/verification.json",
+      "sha256": "fe4a679f8093d1062f92b353179c18007591a5710b844d103aac3fffe310dfe1"
+    },
+    {
+      "path": "05-review/revision-visual-v5.json",
+      "sha256": "25ce9038934b4e6b2ff7da066193b96210684ca44bbc8ee4b912743dd20ea832"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/batches/d150ccc4f82c482a2ff3936a9e639fcb50743f31ec10eee77e7eddb20b7387db.json",
+      "sha256": "72f3ff97624c6e7ba859a42ef3aa563378723974d5d02e3f1a1cfe00b290b02d"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/batches/dc9cbb1790400a0ac1422a766bf43880799a9a823c8047115578deb2787a1d67.json",
+      "sha256": "26bedfcdb61f0b150236e408d5da2247a261da6b88b3d8a6ed9e54cf7e0d19a1"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/batches/d378c921a5678f64fedcf781e0418e4cf0ac366d4655a36e408e70029d4989ea.json",
+      "sha256": "615daa3d448d8d1af0386adbee477b28f212ad247bbe8712dbf3526113e84b9e"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/batches/83478cc5b447876236b193efa1edddea5410419c14407c98cb9352e112b3a9c6.json",
+      "sha256": "0b62d3d198b89b96f80ab954084499ada4bfb62cf91db18be5bb34657f8dbaa3"
+    },
+    {
+      "path": "05-review/revision-semantic-v5/batches/5958810455ffd12f19f3d570793ae503bc219a6000fc6ff81563258ee0250776.json",
+      "sha256": "1199b4f564d1057e0a86bd64cc1219c6cc13c09d1b4f974388e6ff11a6f59a0d"
+    },
+    {
+      "path": "05-review/revision-context-adjudication-v5.json",
+      "sha256": "44c2d7f6678104f4273affd92b09a65ec2868603740b9f5549079e1a03ad57c9"
+    }
+  ],
+  "cost": {
+    "semantic_requests": 0,
+    "embedding_requests": 1,
+    "rerank_requests": 1,
+    "tokenization_requests": 36,
+    "provider_cost": null
+  },
+  "limitation": "Structure and current official catalog eligibility only; actual chunks, formal ingestion, retrieval, citations and no-evidence answers require independent acceptance."
+}

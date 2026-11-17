@@ -53,10 +53,7 @@ func recordUsage(ctx context.Context, model string, usage *TokenUsage) {
 	tokenizer.RecordRunTokenUsageFor(ctx, model, usage.PromptTokens, usage.CompletionTokens, usage.TotalTokens)
 }
 
-const (
-	defaultMaxRetries = 3
-	defaultMaxRounds  = 5
-)
+const defaultMaxRounds = 5
 
 // ChatWithTools runs the non-streaming tool-calling loop.
 func (cm *ChatModel) ChatWithTools(ctx context.Context, system string, history []Message, chatCfg *ChatConfig) (string, int, error) {
@@ -74,34 +71,14 @@ func (cm *ChatModel) ChatWithTools(ctx context.Context, system string, history [
 	if maxRounds <= 0 {
 		maxRounds = defaultMaxRounds
 	}
-	maxRetries := tc.MaxRetries
-	if maxRetries <= 0 {
-		maxRetries = defaultMaxRetries
-	}
 
 	if system != "" && len(history) > 0 && history[0].Role != "system" {
 		history = append([]Message{{Role: "system", Content: system}}, history...)
 	}
 
-	baseHistory := make([]Message, len(history))
-	copy(baseHistory, history)
-
-	for attempt := 0; attempt < maxRetries; attempt++ {
-		select {
-		case <-ctx.Done():
-			return "", 0, ctx.Err()
-		default:
-		}
-
-		h := make([]Message, len(baseHistory))
-		copy(h, baseHistory)
-
-		answer, tokens, err := runToolLoop(ctx, cm, h, toolsList, chatCfg, maxRounds)
-		if err == nil {
-			return answer, tokens, nil
-		}
-	}
-	return "", 0, fmt.Errorf("ChatWithTools failed after %d retries", maxRetries)
+	// A tool may already have changed external state. Only individual model
+	// requests may retry; replaying the entire loop would execute tools twice.
+	return runToolLoop(ctx, cm, append([]Message(nil), history...), toolsList, chatCfg, maxRounds)
 }
 
 func runToolLoop(ctx context.Context, cm *ChatModel, history []Message, toolsList interface{}, chatCfg *ChatConfig, maxRounds int) (string, int, error) {
@@ -137,7 +114,7 @@ func runToolLoop(ctx context.Context, cm *ChatModel, history []Message, toolsLis
 		tcChoice := "auto"
 		cfg.ToolChoice = &tcChoice
 
-		resp, err := cm.ModelDriver.ChatWithMessages(ctx, *cm.ModelName, history, cm.APIConfig, &cfg, nil)
+		resp, err := cm.ChatWithMessages(ctx, history, &cfg, nil)
 		if err != nil {
 			return "", totalTokens, fmt.Errorf("round %d: %w", round, err)
 		}
@@ -187,7 +164,7 @@ func runToolLoop(ctx context.Context, cm *ChatModel, history []Message, toolsLis
 		Content: fmt.Sprintf("Exceed max rounds: %d", maxRounds),
 	})
 	cfg := *chatCfg
-	resp, err := cm.ModelDriver.ChatWithMessages(ctx, *cm.ModelName, history, cm.APIConfig, &cfg, nil)
+	resp, err := cm.ChatWithMessages(ctx, history, &cfg, nil)
 	if err != nil {
 		return "", totalTokens, fmt.Errorf("final call: %w", err)
 	}
@@ -226,34 +203,12 @@ func (cm *ChatModel) ChatStreamlyWithTools(ctx context.Context, system string, h
 	if maxRounds <= 0 {
 		maxRounds = defaultMaxRounds
 	}
-	maxRetries := tc.MaxRetries
-	if maxRetries <= 0 {
-		maxRetries = defaultMaxRetries
-	}
 
 	if system != "" && len(history) > 0 && history[0].Role != "system" {
 		history = append([]Message{{Role: "system", Content: system}}, history...)
 	}
 
-	baseHistory := make([]Message, len(history))
-	copy(baseHistory, history)
-
-	for attempt := 0; attempt < maxRetries; attempt++ {
-		select {
-		case <-ctx.Done():
-			return 0, ctx.Err()
-		default:
-		}
-
-		h := make([]Message, len(baseHistory))
-		copy(h, baseHistory)
-
-		totalTokens, err := runStreamToolLoop(ctx, cm, h, toolsList, chatCfg, maxRounds, sender)
-		if err == nil {
-			return totalTokens, nil
-		}
-	}
-	return 0, fmt.Errorf("ChatStreamlyWithTools failed after %d retries", maxRetries)
+	return runStreamToolLoop(ctx, cm, append([]Message(nil), history...), toolsList, chatCfg, maxRounds, sender)
 }
 
 func runStreamToolLoop(ctx context.Context, cm *ChatModel, history []Message, toolsList interface{}, chatCfg *ChatConfig, maxRounds int, sender func(*string, *string) error) (int, error) {
@@ -305,7 +260,7 @@ func runStreamToolLoop(ctx context.Context, cm *ChatModel, history []Message, to
 		var pendingThinkClose bool
 		var roundTokens int
 
-		err := cm.ModelDriver.ChatStreamlyWithSender(ctx, *cm.ModelName, history, cm.APIConfig, &cfg, nil, func(delta *string, reason *string) error {
+		err := cm.ChatStreamlyWithSender(ctx, history, &cfg, nil, func(delta *string, reason *string) error {
 			if reason != nil && *reason != "" {
 				if !reasoningStarted {
 					reasoningStarted = true
@@ -395,7 +350,7 @@ func runStreamToolLoop(ctx context.Context, cm *ChatModel, history []Message, to
 	var exceedUsage TokenUsage
 	cfg.UsageResult = &exceedUsage
 	var exceedTokens int
-	err := cm.ModelDriver.ChatStreamlyWithSender(ctx, *cm.ModelName, history, cm.APIConfig, &cfg, nil, func(delta *string, reason *string) error {
+	err := cm.ChatStreamlyWithSender(ctx, history, &cfg, nil, func(delta *string, reason *string) error {
 		if delta != nil && *delta != "" && *delta != "[DONE]" {
 			exceedTokens += tokenizer.NumTokensFromString(*delta)
 		}

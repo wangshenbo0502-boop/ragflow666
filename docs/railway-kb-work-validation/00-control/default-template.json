@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "model_provider": "DeepSeek",
+      "model_instance": "deepseek_local",
+      "model_name": "deepseek-flash",
+      "model_id": "102e9861e4e24a73abb7cff80df6c52e",
+      "model_type": "chat",
+      "enable": true
+    },
+    {
+      "model_provider": "Ollama",
+      "model_instance": "ollama_local",
+      "model_name": "bge-m3",
+      "model_id": "f899ff565c8e4fb29cdfc5d4edc1f00a",
+      "model_type": "embedding",
+      "enable": true
+    },
+    {
+      "model_provider": "OpenAI-API-Compatible",
+      "model_instance": "local-qwen3-tts",
+      "model_name": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "model_id": "15d059933bb741a9a6ae964298f5bed1",
+      "model_type": "tts",
+      "enable": true
+    }
+  ]
+}

@@ -49,7 +49,9 @@ function setup() {
     defaultOptions: { queries: { retry: false } },
   });
   function Wrapper({ children }: { children?: any }) {
-    return <QueryClientProvider client={client}>{children}</QueryClientProvider>;
+    return (
+      <QueryClientProvider client={client}>{children}</QueryClientProvider>
+    );
   }
   return renderHook(useRailwayWorkbench, { wrapper: Wrapper });
 }
@@ -104,9 +106,7 @@ test('retains an unparsed personal railway dataset after a page refresh', async 
   ]);
   MockDocuments.mockResolvedValue([]);
   const { result } = setup();
-  await waitFor(() =>
-    expect(result.current.selectedId).toBe('kb-railway'),
-  );
+  await waitFor(() => expect(result.current.selectedId).toBe('kb-railway'));
   expect(result.current.canStart).toBe(false);
   expect(MockDocuments).toHaveBeenCalledWith('kb-railway');
 });
@@ -139,10 +139,60 @@ test('passes the equipment record and question into the new railway conversation
   await act(async () => {
     await result.current.start.mutateAsync();
   });
-  expect(MockCreate).toHaveBeenCalledWith('kb-railway', 'chat-model', 'equipment');
+  expect(MockCreate).toHaveBeenCalledWith(
+    'kb-railway',
+    'chat-model',
+    'equipment',
+  );
   expect(MockNavigate).toHaveBeenCalledWith('/chat/chat-1', {
     state: {
       railwayQuestion: expect.stringContaining('报警代码或提示：E01'),
     },
+  });
+});
+
+test('retains all input after a failed creation and retries with the same configuration', async () => {
+  MockCreate.mockRejectedValueOnce(new Error('资料权限已改变'));
+  const { result } = setup();
+  await waitFor(() => expect(result.current.canStart).toBe(true));
+  const equipment = {
+    model: '示例型号',
+    alarm: 'E01',
+    location: '教学场景',
+    occurredAt: '',
+  };
+  act(() => {
+    result.current.setScene('equipment');
+    result.current.setQuestion('设备报警');
+    result.current.setEquipment(equipment);
+  });
+  await act(async () => {
+    await expect(result.current.start.mutateAsync()).rejects.toThrow(
+      '资料权限已改变',
+    );
+  });
+  expect(MockNavigate).not.toHaveBeenCalled();
+  expect(result.current.question).toBe('设备报警');
+  expect(result.current.equipment).toEqual(equipment);
+  expect(result.current.selectedId).toBe('kb-railway');
+  expect(result.current.scene).toBe('equipment');
+  await act(async () => {
+    await result.current.start.mutateAsync();
+  });
+  expect(MockCreate).toHaveBeenCalledTimes(2);
+  expect(MockNavigate).toHaveBeenCalledTimes(1);
+  expect(MockNavigate).toHaveBeenCalledWith('/chat/chat-1', {
+    state: { railwayQuestion: expect.stringContaining('设备报警') },
+  });
+});
+
+test('a blank question creates an assistant without inventing a first message', async () => {
+  const { result } = setup();
+  await waitFor(() => expect(result.current.canStart).toBe(true));
+  await act(async () => {
+    await result.current.start.mutateAsync();
+  });
+  expect(MockNavigate).toHaveBeenCalledWith('/chat/chat-1', {
+    state: { railwayQuestion: '' },
   });
 });

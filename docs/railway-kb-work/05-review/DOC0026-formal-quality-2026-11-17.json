@@ -1,0 +1,2955 @@
+{
+  "checked_at": "2026-11-17T11:23:01.079Z",
+  "doc_id": "DOC0026",
+  "phase": "formal",
+  "dataset_id": "09f44dca26524a8790913faca5b8265e",
+  "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+  "bindings": {
+    "original": {
+      "path": "01-originals/attachments/S0034-1.docx",
+      "sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80"
+    },
+    "master": {
+      "path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "sha256": "75476103b646acef6139e8f2ca025ba1f402a85c123328ecdca3cdc15bdf7022"
+    },
+    "expected": {
+      "path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "sha256": "1f0751a442be89cd1ec901d37ee8b940c4901b2cb1d442a70dd7eef58fd29fa2"
+    },
+    "input_manifest": {
+      "path": "04-chunks/inputs/DOC0026-literal-1e53deb5b6e2/manifest.json",
+      "sha256": "ee1b0ebc1c1a765316e439c93b91b7fe7c72f781b2635fb63e9b176c0de2d6df"
+    },
+    "actual": {
+      "path": "04-chunks/actual/DOC0026-successor-formal.json",
+      "sha256": "2cc1080e854ab1e06c82e06e9e6b65ca0b510f0ebded3690ddab9da279d3e317"
+    },
+    "pipeline_id": "0a707ed3e4144548a49bc7ee2cc83e31",
+    "pipeline_version_id": "8965e46a33454571a7ac918fbcb5bc7f"
+  },
+  "ingestion_status": "COMPLETED",
+  "exported_chunks": 395,
+  "expected_business_points": 390,
+  "complete_business_points": 390,
+  "point_checks": [
+    {
+      "knowledge_point_id": "DOC0026-NOTICE",
+      "chunk_id": "09ad120246bb0564",
+      "source_location": "S0034原文段落1-14",
+      "candidate_sha256": "89fe025523d3db69e3c6012ec9243122bbbe40fc79f1f7d74badc7a4c0ec412e",
+      "remote_text_sha256": "87fd34770940768f6795c634a22f779ca41c1fe4e8ecbe8f38d92c4c16d2d7cf"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K001",
+      "chunk_id": "fac6172cd88970a3",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第一条",
+      "candidate_sha256": "9d4a371d60c6b08a77a9af0064fd3302923ce253b69f13abccfaf6379918c8a8",
+      "remote_text_sha256": "6a7b331422cc58b18c3248d6218fcb5415b9055fb24029835e91a12e5933abd4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K002",
+      "chunk_id": "1e88e5d602c1ece5",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第二条",
+      "candidate_sha256": "3898c5d21d774423dde96f41191ebfcd8891ec8db49053f270e1c5a1d5b1fc34",
+      "remote_text_sha256": "58e5ad38263d0fee6f96d693433a4bf3d27d3189bfb10977bcc727629b22620c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K003",
+      "chunk_id": "5a6153b38f951aca",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第三条",
+      "candidate_sha256": "08b78352397b96a0732156aaeabe0a3e9c4c431eedd5b7c5b76dee3c011f82fd",
+      "remote_text_sha256": "c53a6dd8ef512138f867e4029fd0cec90890983992dd30d0d12286525b42c221"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K004",
+      "chunk_id": "88a9744a80edf75f",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第四条 申请企业应当符合下列条",
+      "candidate_sha256": "d634d439323a6bf8c905eb767a7550c524741cdc39401a882d73db8e00bf9cf2",
+      "remote_text_sha256": "d60affbf580d33c2c3df4f6631d822a94f180fdf03e95085891c2b7098c73ddb"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K005",
+      "chunk_id": "5bef5fe05ecba75a",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第五条",
+      "candidate_sha256": "166d2c56e2b1ffbc5c5d151a5f08d2fc04701b15bb90acf361fd87a5ed0a568f",
+      "remote_text_sha256": "33358e0d2d31664aa9b6e91d07220adf9503ed603b0e7519acf4cc6c55330bba"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K006",
+      "chunk_id": "fb94149874d39f52",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第六条 申请延续许可或者因生产条",
+      "candidate_sha256": "acb1d9e97519f1a0f525dcff39800ac0883ccc822cf8a2e3da1dfc87db0b23b3",
+      "remote_text_sha256": "1e776a14aef6122d7bfd28e2c9fdd58819a7cafee20c54f45690714af0a13fd8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K007",
+      "chunk_id": "199e409dbc734e97",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第七条 申请企业提交的材料（A4纸规格）应当按第五条、第六条",
+      "candidate_sha256": "d9d422fb405b49b22c5fd22e1e71f689c5724a47aff93e4eae517881bc136f22",
+      "remote_text_sha256": "b6fb7b0487c62e428c7f3ba55464ffca2722d04489f836a9d9700fcb6319ca82"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K008",
+      "chunk_id": "5ac5312fa0f92a3c",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第八条",
+      "candidate_sha256": "db5fb1265aaaa77f45c180aec331f58572df29c4681fcaffbe54176d14d0ee53",
+      "remote_text_sha256": "ddea5730e2ff193a3861c732545a9c0b5476c398aa84d530c4b4b8cbaa023194"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K009",
+      "chunk_id": "7e4657ff877a550c",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第九条",
+      "candidate_sha256": "b1dbebfe8238fdec6fba2af321a8f865b14e1338281e05f3ba740b1adda45353",
+      "remote_text_sha256": "db2dd63ff2b6e5c98d9f19c0192f251101c86533477f95dca2d777cf09863f60"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K010",
+      "chunk_id": "b70ac3aeee9b5c83",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第十条",
+      "candidate_sha256": "390c9027054b056d1971cb4b2cd6a9367b6b584f5108e458630a8a4489ee4379",
+      "remote_text_sha256": "cb0f0e938fd04f9312b70c0a0a64af6d21afaf3084cbfe14f9a3d91be229b8dc"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K011",
+      "chunk_id": "3d6e5fa3ff3cd361",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第十一条 检验、检测应当委托符合国家规定条",
+      "candidate_sha256": "6c81619f426a88b08fdfeb39a772f553674407706b881b562a5050372ef05f65",
+      "remote_text_sha256": "ad9743d8fce3ad4adeffd321ba999a94881b74ce99fdf03d1f9412e9876c583a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K012",
+      "chunk_id": "8736af01647cff8b",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第十二条",
+      "candidate_sha256": "b33aa0f8b9be8d583d8f9b3d2b11dbedbf4c70431fd3133eab13ef7b67b4dcd5",
+      "remote_text_sha256": "86069884295feb22e1486970a33bed8de882b4d9ffd1658a08bfad3cb00bf8c9"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K013",
+      "chunk_id": "de4da316f23edd24",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第十三条",
+      "candidate_sha256": "d54c68dba843333a061d7b15ba95542daaf5998613e061736b29f595d60acd70",
+      "remote_text_sha256": "da7c3e4c92a2c4c8a089d740b53f87557a185560064cfe409d5bdd2eb8948f5b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K014",
+      "chunk_id": "9d166ba681b2534b",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第十四条",
+      "candidate_sha256": "b1ee64bb6ce0d13d22bdbed335a8ef824e09805153ade6a37756da1439154337",
+      "remote_text_sha256": "2a0e6d2b2fa5d46c2bee808d0ab753403716813d93a68bc89bdce1b109f5c830"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K015",
+      "chunk_id": "41120d6fd0d46361",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第十五条",
+      "candidate_sha256": "33e892fa978ab829e7abd9110c9844a62e9da64ecbb6421dd1400f6da8318d71",
+      "remote_text_sha256": "63976b503f31dfbc06a10f265f404006bb0341a9a7242758994086337d369c5c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K016",
+      "chunk_id": "eedcbd0711aeb66a",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第十六条 被许可企业生产条",
+      "candidate_sha256": "772ddc5f1e8f8c4c51a914b6c573fabfe001deb25cdcc8d909369105cb082bcb",
+      "remote_text_sha256": "405f56cbe1720ffe293f2189279c82cbc658f57e1b15520e61389ee2b9739540"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K017",
+      "chunk_id": "1f1ae28647857bdf",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第十七条",
+      "candidate_sha256": "f1936cb837d58ddfc3c6523122e560c1cc7a7cb80e327d661feb3ceac8b41cde",
+      "remote_text_sha256": "22fae39ffe52dd52cbaf1234d534d8d1a29ecefdbf3abad82cf305012a7b3b85"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K018",
+      "chunk_id": "f5594fc2a4e00758",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第十八条",
+      "candidate_sha256": "5b519279f983c7b66b322fc1f29d1d5854c2243a2db89f52522cd27b729ad585",
+      "remote_text_sha256": "d2657d78cb99024486ed7f394b4b85bec06fd638f173bce05644898da5514e09"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K019",
+      "chunk_id": "d54bb258fd4bc2ee",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第十九条",
+      "candidate_sha256": "a59c7150c69c5e8d5709c42607d34ba5335fb1b2c7344d250754ed5a269525b8",
+      "remote_text_sha256": "09627a8ceee203766a7a276883327e75c9c2d848ce37e240b6fab1d8cad1fd3e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K020",
+      "chunk_id": "da29180f93068e4a",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第二十条",
+      "candidate_sha256": "38ec707d45aae20a9da8a95c0259ae0bd726de50224f00cac88074d13bd6ef29",
+      "remote_text_sha256": "bc9a7fef9af824458e0b1f60d38d7c725bf1049a64c47654c6b0ac4892214ea0"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K021",
+      "chunk_id": "c85b4a087c1b0978",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第二十一条",
+      "candidate_sha256": "c678c0cc0d6df3a8a76e54a512b4499db8b952d0f37c9d93af7e2ad266f5ef2f",
+      "remote_text_sha256": "f6152e6cfe70b85e2ca01a05da927ce485b1000be5141296206aaa282f983bce"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K022",
+      "chunk_id": "b1d7b42a50212493",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第二十二条",
+      "candidate_sha256": "97607b5f58905b8d4ecaf9045f4a4c73a5d2fc2c5160a3a72fcd89dcc468b41f",
+      "remote_text_sha256": "37c288e770621dfaf96e42e645fb87751b8362d85568e72b13aa1bab96184df8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K023",
+      "chunk_id": "f6d60e7fb032d002",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第二十三条",
+      "candidate_sha256": "90b38d3f8e04f25dcddf77d9735f0bb5167d0bc162f08dcac7205a12b504d1f4",
+      "remote_text_sha256": "f27d86d9161cdfb0cdb228531656c0464da77f49f7a9db1aaba224f6f9d2e207"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K024",
+      "chunk_id": "73cf415cd713a440",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第二十四条",
+      "candidate_sha256": "68aa54940ea32bde906a0249f7d4009a43d802912676f6c80ec2903980521947",
+      "remote_text_sha256": "04906d52f9a18af60cb7c5626449fcb0f4a614973137738ce0d0cc5930d6cd57"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K025",
+      "chunk_id": "e2d7373079dd3950",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第二十五条",
+      "candidate_sha256": "262586d0f5235f859f4e55184403ccdbe5115d1a44d59604c92bf2e864f0f035",
+      "remote_text_sha256": "24c7b08526fadea42a91d8c40f59dd2edfd22b48fa3b07a9eeb8ba36bea33a52"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K026",
+      "chunk_id": "efa0c9c5a9d5e727",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第二十六条",
+      "candidate_sha256": "48c402a85ae49e6908f20cb06763456219a8f4c32ce0bb393cef854ee5da545a",
+      "remote_text_sha256": "0f73c494b8a9b30b216ef1be51dd0a08e5d75b719878e7604a554ce1a0ae06c3"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K027",
+      "chunk_id": "e62d09911d100458",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，第二十七条",
+      "candidate_sha256": "dbfc87b3e46061b12facfab4f60396743a3e39bc4c4c9bac8a9abcaeae20d071",
+      "remote_text_sha256": "9d4c47cc46f60492b0b9e7ea15f136453d555996aefbee09eb981cde16ea025d"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T01-G002-002",
+      "chunk_id": "c5aa23306dfcb5d9",
+      "source_location": "S0034-T01，原生数据行2-2",
+      "candidate_sha256": "a4f2d8f4ad4465f2ead95450fc3f287f3cc28b928e8fb6e438bebaeb86f97609",
+      "remote_text_sha256": "39d435d450cff2113caf01d63d21f65a208dbc77ea1b864cc46305eeabbacef7"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T01-G003-003",
+      "chunk_id": "3123062495374574",
+      "source_location": "S0034-T01，原生数据行3-3",
+      "candidate_sha256": "59b7184e2a17b85beede1f25a521a88354f8aa3073e46d9210d130faf222d358",
+      "remote_text_sha256": "9a5649e261a1163160266420ba9ac671850d44343ffc8500d5d1fcd3fd0266b6"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T01-G004-004",
+      "chunk_id": "cca11cc4de9503f7",
+      "source_location": "S0034-T01，原生数据行4-4",
+      "candidate_sha256": "7e27ccdfc16590bd39b97ee951ce8e14944f4dfb8174ccc4520eaae000d15fd6",
+      "remote_text_sha256": "b1d291b8bd3bb6525b7cad76153286641d5d53ac7bbae441f478a5cde981de5b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G002-002",
+      "chunk_id": "98751f389d69f4fb",
+      "source_location": "S0034-T02，原生数据行2-2",
+      "candidate_sha256": "f8e2c93ba07a73d522d69a7f966c59236ef28713ab54b1130dcb3593e0d59a1f",
+      "remote_text_sha256": "53a893c7cd6fd97e7ed9c49cb94cc37be83eb8ae2aecebab874bf13ed214c732"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G003-003",
+      "chunk_id": "7cd7777ea9ab64c1",
+      "source_location": "S0034-T02，原生数据行3-3",
+      "candidate_sha256": "41a50e1715c0af3c9c3cceb212d8116b2c64bd5d0f33026be56e6dc564a9712a",
+      "remote_text_sha256": "7ed69a13904223d8a9c0c36523edfb8c3c93a3e7aed0da3baa7ef4472dfbe9c5"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G004-004",
+      "chunk_id": "2b80e857fae8ed08",
+      "source_location": "S0034-T02，原生数据行4-4",
+      "candidate_sha256": "8b9fa1b26babc990fdfa479f61208af685087bfd5563da44717a1a08ebcb5ee5",
+      "remote_text_sha256": "f4498c6fad4bb99288e1c98b867b00dde4f8744ad7e0db5b63ace991905c0d74"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G005-005",
+      "chunk_id": "6a47237d5e8edb13",
+      "source_location": "S0034-T02，原生数据行5-5",
+      "candidate_sha256": "5a9ff8e879053b9a19662b73239104d60d3e5016b6dcf543fc232f6cb7137651",
+      "remote_text_sha256": "9dba8fefb17442dec8efecd764b12bbf7cc0274345156e4b3efe67c2a6443099"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G006-006",
+      "chunk_id": "b2d5003fe5828ab7",
+      "source_location": "S0034-T02，原生数据行6-6",
+      "candidate_sha256": "3c8d2f43111aab1f0986d1d245de8def3e1bac79b266bc09add95a03219a5ee4",
+      "remote_text_sha256": "7d87bdbc2172e355a16f5b35acc4cf10a25deca8b6e239a48046046f032d5509"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G007-007",
+      "chunk_id": "5420ba53a7bcc148",
+      "source_location": "S0034-T02，原生数据行7-7",
+      "candidate_sha256": "bed9f43085415d1168721b2b6233eac284571a1b863c0c343179c4f1c07e348a",
+      "remote_text_sha256": "ae5e447661edab56ce972958e0af56c168b133d5ff0d56098ddd0ac3aee123f9"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G008-008",
+      "chunk_id": "e71b655997b506de",
+      "source_location": "S0034-T02，原生数据行8-8",
+      "candidate_sha256": "13903a7167e2d32c8611ac4ae28d4ae5446eaa7893749e1a1989ee666575471a",
+      "remote_text_sha256": "6a3a322faa7c9cf3695dcfe71dad9f5b00c32a42377ce12d118010cc63dce64f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G009-009",
+      "chunk_id": "9b3913ba3d9ab8e6",
+      "source_location": "S0034-T02，原生数据行9-9",
+      "candidate_sha256": "90c2f3565cf75e9928423840d270c81e4014c0a3966340f54d7778e758f3ca14",
+      "remote_text_sha256": "26465e484c5c4d50375faafbbf501683a6e5de3daf915200c63c56313006b7eb"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G010-010",
+      "chunk_id": "084f40446bb10d0e",
+      "source_location": "S0034-T02，原生数据行10-10",
+      "candidate_sha256": "fedae116f36b6f0c033e1f72b24e3929b09706b8c9f52b3ee0b4ae8ac59db90b",
+      "remote_text_sha256": "39eb73ee233a6ea6c15dd2a12521d0a138e10676a2c723c43623f8b542b63812"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G011-011",
+      "chunk_id": "9b1569548aafe4b8",
+      "source_location": "S0034-T02，原生数据行11-11",
+      "candidate_sha256": "63f1eef617250eb8a8211bdfd784d421641f5aaa2f9bf596f0bbd3bb9f144d50",
+      "remote_text_sha256": "760c7d1a5a901ce2b50a07185729c72a6a3cbfe7710432839e98839cfd4f7b58"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G012-012",
+      "chunk_id": "d03464f5526fa6e3",
+      "source_location": "S0034-T02，原生数据行12-12",
+      "candidate_sha256": "65e18dfe1b4e0d3eb3a6b68bd282a11eac849655279f67d269076609a382d516",
+      "remote_text_sha256": "6d9ce83781cce6a52c5fec6fdc00101b08d71db356ef4ddfca9d31b95980c072"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G013-013",
+      "chunk_id": "5940d21217325ebe",
+      "source_location": "S0034-T02，原生数据行13-13",
+      "candidate_sha256": "dc9843d6dcf863f0b84588be3d9f52f1b6cb25dfdeeda9ad6dc62ef4d60c8335",
+      "remote_text_sha256": "7998f5f97b2fe47f7487d4bb580f4f2cf83c22b025b3f0fd46363f532ed252b2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G014-014",
+      "chunk_id": "9a79f9b02e7e0406",
+      "source_location": "S0034-T02，原生数据行14-14",
+      "candidate_sha256": "36361c23dca4342ff4d7c60983c2c32a8c18992ead2ac475ebe2d5a7ff5628e8",
+      "remote_text_sha256": "f73dd70ebc887dce3f963084038c5597ee79c049e22e4e63ccf7db723a17063f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G015-015",
+      "chunk_id": "565f80b817dc0569",
+      "source_location": "S0034-T02，原生数据行15-15",
+      "candidate_sha256": "ada3be3ec1cc32f1664b0208991e9e8ab81f6d4b09f73098570c332959dfb989",
+      "remote_text_sha256": "1664b77659ae6469496a30ee9c53cb54fbdc3cb701547d03b33f76715260c672"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G016-016",
+      "chunk_id": "c802a4cc7439772f",
+      "source_location": "S0034-T02，原生数据行16-16",
+      "candidate_sha256": "c6b7bb20c4e2f513f5465a5eb97f7d1cc1cfe4a3ecfcc3dd1e75572ad090737c",
+      "remote_text_sha256": "983470993ad6579bdc6b62818bc769424a43b9e5842db226319c6d09a77404e7"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G017-017",
+      "chunk_id": "b0a6fa43b38d1683",
+      "source_location": "S0034-T02，原生数据行17-17",
+      "candidate_sha256": "48030cbaac30fd1068db74fa8ba0ab83330e9ff3da04592b6d96a811411eb86f",
+      "remote_text_sha256": "7cc084a80622432726446ac93d35cf7c0e10a83884bc618f68e3dbced7d7f777"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G018-018",
+      "chunk_id": "b28e1a9f7e90c74e",
+      "source_location": "S0034-T02，原生数据行18-18",
+      "candidate_sha256": "d9981d9695941e434878ce1e365524c3e3598e207766481b73a9211f0e0e54d1",
+      "remote_text_sha256": "5e9cc9916b8c534c0c9cf60e5f585b05ef82d48c70ff66c1477e075adba406a1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G019-019",
+      "chunk_id": "f04328a1c59e57f3",
+      "source_location": "S0034-T02，原生数据行19-19",
+      "candidate_sha256": "2965047b44c33518d9b15b4a5413ea576f8ecdfb4fd84aefc220fc6452024f48",
+      "remote_text_sha256": "93947ef293ca3264a685cc7272be243e7c45ecf5a02244a601e994f7a177f9a6"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G020-020",
+      "chunk_id": "307e7eb7e711b6e5",
+      "source_location": "S0034-T02，原生数据行20-20",
+      "candidate_sha256": "397ee3d58aa18c3d3ca8b99dbfa434f5777ff31879db67e3a64e2494cbb5f37b",
+      "remote_text_sha256": "051b686bff3c80d8cc6949618848894ff4e2aa874a5059693df9e2ad63964661"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G021-021",
+      "chunk_id": "f905be9970c7dc4b",
+      "source_location": "S0034-T02，原生数据行21-21",
+      "candidate_sha256": "b5c8f6c864133edf07810716b02b6c04446a6462520ff0a8b9e4619bc5bfa2ae",
+      "remote_text_sha256": "ea03602d54c77b88d94bcb3203b21021b843d95661bf2f60f4b0ee8de4c78de3"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G022-022",
+      "chunk_id": "79c361d34a9c7481",
+      "source_location": "S0034-T02，原生数据行22-22",
+      "candidate_sha256": "213223bd1fa59c7686f0b993093d91a7f83b5df7662bdc9f1b65ad933135d314",
+      "remote_text_sha256": "154a8bb9eba33e65f7b396372eba227ba22a58eff92803e20362cd2302274a31"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G023-023",
+      "chunk_id": "79d39a8ff9cbbead",
+      "source_location": "S0034-T02，原生数据行23-23",
+      "candidate_sha256": "009bdba799616337772b5e18567fff09cb6939be65122fca3c8a8ded1519f486",
+      "remote_text_sha256": "e1d7d2c492603f0c4e2be07e53f2cfbb19ec95459535ac429346f5bd91dc6fc0"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G024-024",
+      "chunk_id": "fbea3e805b77fa65",
+      "source_location": "S0034-T02，原生数据行24-24",
+      "candidate_sha256": "d4bb8cc7c2260a5b0f56d7a6a964224af22e60de7fb2c9446a2e29606efd2537",
+      "remote_text_sha256": "6a3bc42c3428e0fc8a194a7cd022320a0f5d8af16ed3c85594ae818184adadcb"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T02-G025-025",
+      "chunk_id": "a3fe5a1fd3eee56c",
+      "source_location": "S0034-T02，原生数据行25-25",
+      "candidate_sha256": "096fc8c8476dec2115b7dc10a99aa5b09833598e845c5423aad4466a3f8d7b55",
+      "remote_text_sha256": "b498d9850a20faa39d0cdbbd27498fda90cb7ac7f673ead04998f202e5edfb46"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G003-003",
+      "chunk_id": "53ab4f401c317f6e",
+      "source_location": "S0034-T03，原生数据行3-3",
+      "candidate_sha256": "bbb73734adc2c5a64182f9fe61b4177df55360deeb8c63fe3e125ff686fc4321",
+      "remote_text_sha256": "6ab5472658430c4648495661ade08d0c3982686c7eb94eaabc9311f44e0ab781"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G004-004",
+      "chunk_id": "8d607e9b0614fe7c",
+      "source_location": "S0034-T03，原生数据行4-4",
+      "candidate_sha256": "5d747210677780efe4181ef21bec87f8c8f597c3604b6ca1c315554b489f3ba5",
+      "remote_text_sha256": "cbdda6fa3a15b0e1e04e5a81dca924ab989ee8585ef4c0c6ab96e60bb2527120"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G005-005",
+      "chunk_id": "5346bc496a79c8c0",
+      "source_location": "S0034-T03，原生数据行5-5",
+      "candidate_sha256": "bc0b94e85eb1e4f304a04dcdb53dfbd7b01e00dabc6f406c9f729fa591720c19",
+      "remote_text_sha256": "6a98ad64f56448fa727e36b55cf31b3f9ce7ea9c7d091df77695760e3d4f271a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G008-008",
+      "chunk_id": "0af09442ad976a18",
+      "source_location": "S0034-T03，原生数据行8-8",
+      "candidate_sha256": "79f1722886c428911e477586197605db49714a417d9cae45dd656beba924a6b1",
+      "remote_text_sha256": "1c6988e65d80ce169f954ef454355507e75f0ae32eac848b2e6af23b8e636425"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G009-009",
+      "chunk_id": "43b8afc0d2bc3ef3",
+      "source_location": "S0034-T03，原生数据行9-9",
+      "candidate_sha256": "481acccbabfc96edf511a9b2a1904074263734812fc96398a1330fbe2cf70293",
+      "remote_text_sha256": "881a3854be82b4007ca9d519b545dc6af1dfe0fdfa4fac98887e1cfe8a6879c6"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G010-010",
+      "chunk_id": "0ace6af60ca31a35",
+      "source_location": "S0034-T03，原生数据行10-10",
+      "candidate_sha256": "5e408e6633e1f36b9bc0d5a7635a7cc99d5e565539251bbfedfddc5110b68d57",
+      "remote_text_sha256": "5b1968e73307a3bcf7e992f8625cab9cd30a50267fcde32e640b2075566cae98"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G011-011",
+      "chunk_id": "9e384fac68861012",
+      "source_location": "S0034-T03，原生数据行11-11",
+      "candidate_sha256": "cc3e338a2f0a432dfeae45f716f9eed7fe9531bee64e725a83f081e6cd061b82",
+      "remote_text_sha256": "7f8caeaa4ec3cef3ff69eaf81a812c5d62219ab6eeedad2dc04baf7e6a8397cc"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G012-012",
+      "chunk_id": "57adbe5045b132be",
+      "source_location": "S0034-T03，原生数据行12-12",
+      "candidate_sha256": "e742f8c44658f4473ffff9d554ebbab522981dd23c4752a21ed2e62ff2920d2f",
+      "remote_text_sha256": "2dcc00b4310ef6c7ddb3e86215edcbd3b2b187642232a0570cc002d7771fc369"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G013-013",
+      "chunk_id": "36912780b3cd9af3",
+      "source_location": "S0034-T03，原生数据行13-13",
+      "candidate_sha256": "046eea7c5f21fe4fe8bd9df53397036a01e93b640f13a9296f15ff291b1bf874",
+      "remote_text_sha256": "f8c4cc189f55d2eb27beabce22863fab2a0861fc60fc36f0813205ad1d09624a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G014-014",
+      "chunk_id": "ac088f055f90b91c",
+      "source_location": "S0034-T03，原生数据行14-14",
+      "candidate_sha256": "f85c90c1b76537235793badbb34c87e1cf6d1d2b6e49558640444aaa47b6d0f5",
+      "remote_text_sha256": "5a55e524c7e3f36aa4790d96c2bc1d11d3c3ab271f17c5695a8d64da2b5a2365"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G015-015",
+      "chunk_id": "b8abdb2f34bf1488",
+      "source_location": "S0034-T03，原生数据行15-15",
+      "candidate_sha256": "2623a2ebf8bf4505f5a505469a5453259d12b8efd81d9ac1a14e181790c741f8",
+      "remote_text_sha256": "c88cac989571aa3ba259318fb0b34768db1fdb08f4bfa0ff733d171b442f55c1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G016-016",
+      "chunk_id": "ee4e23ce22b3b8e5",
+      "source_location": "S0034-T03，原生数据行16-16",
+      "candidate_sha256": "a616a65288e64290186a73212a88daafe09ad042fd8ee35b46083561552e131a",
+      "remote_text_sha256": "1fffe792fbadcd64a5141cdfd5ac80cb07c6b114de2b5f8bdb5a3a2eeba1eaee"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G017-017",
+      "chunk_id": "4ecbf4a79a8618b4",
+      "source_location": "S0034-T03，原生数据行17-17",
+      "candidate_sha256": "a46908132a829c2db208ed8a5b66c478c9d3c32284d472d3793e5b82e5735fad",
+      "remote_text_sha256": "2b310ec36b4cf4c1320feddf029237fa8f8389b9d3b60c7b18d16b9fe218f30c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G018-018",
+      "chunk_id": "960c8433519cdb59",
+      "source_location": "S0034-T03，原生数据行18-18",
+      "candidate_sha256": "4a7e42e21bb66c6dd8b4b04049f7e9ec32800e9a9e4ad48b1279b36bdad42db2",
+      "remote_text_sha256": "9100ca235b1d71e41f686281575042c2d06741884f8600f373901f55c8e3f8a9"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G019-019",
+      "chunk_id": "8f33402d0bd00f2c",
+      "source_location": "S0034-T03，原生数据行19-19",
+      "candidate_sha256": "0b53dd3603a3f67be9731b0e0548ded6ec66b499f1f3b6039583956825c26b9f",
+      "remote_text_sha256": "2cc30e50e8e2b66f815e9f6bbbd4519394b1798e24d1593f4b89329f4dfb8c3f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G020-020",
+      "chunk_id": "a146350b079d9c23",
+      "source_location": "S0034-T03，原生数据行20-20",
+      "candidate_sha256": "3e44cf776b0fbf520d2b56a077e012f01139142a4f407a5fd411434cdc45cf56",
+      "remote_text_sha256": "27ccdfd6bf60be5529662b356b3738632683ebdde297a6b081e131c4f6565b9e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G021-021",
+      "chunk_id": "450dc9fb6477d82e",
+      "source_location": "S0034-T03，原生数据行21-21",
+      "candidate_sha256": "3ecba4787b1153c1d23f158f57608daa990209d8822a4bb1bcda6b7808728297",
+      "remote_text_sha256": "932b992b7a1a78b6ca6679a24c5d377ad6f61acc36f14968ee87b80d5638891a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G022-022",
+      "chunk_id": "a73953003d15a6fb",
+      "source_location": "S0034-T03，原生数据行22-22",
+      "candidate_sha256": "c1c06dce43f24eaf522887a37ae2fbc3cbd86485907d62cf6174f0144d48bd76",
+      "remote_text_sha256": "79526cfdacfcc2ff8af0118ca41d9de49a5b20c79a9ac8ce63cd2ff9425d98dd"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G023-023",
+      "chunk_id": "47880c77680fcbb5",
+      "source_location": "S0034-T03，原生数据行23-23",
+      "candidate_sha256": "48501445fb9fd5a342c89ac00f36088b11ce294e7ccde911e146c34c252322a2",
+      "remote_text_sha256": "84279b5f290487cd5beed10decdb2986d31e400ef408f0c5e921db9028095b43"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G024-024",
+      "chunk_id": "14b0b40de9f7a69c",
+      "source_location": "S0034-T03，原生数据行24-24",
+      "candidate_sha256": "2a125567274e1ca13fe567195b983fe2c55900bed88c94d95e7a6efe19ec000c",
+      "remote_text_sha256": "d583023c7fb2d548794e8306f1d7a0c44a218ff3daec0345399d8cca4858e6b4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G025-025",
+      "chunk_id": "66c87a90c29c4f92",
+      "source_location": "S0034-T03，原生数据行25-25",
+      "candidate_sha256": "63e6fd1fe759b20b823c1486874fa68fe89e0d627c0a5a44087c3eb21d94e3f3",
+      "remote_text_sha256": "f4ecb027786c7de16ed75f385a9502b8480d2eee25da677c66bc6d9fd6d01917"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G026-026",
+      "chunk_id": "041c33b2c23758f9",
+      "source_location": "S0034-T03，原生数据行26-26",
+      "candidate_sha256": "43c79f15aaf48f78513955f023d834a285129d9160f40eed8ddbe068007ec07c",
+      "remote_text_sha256": "2286113c370f84f2ee80a0b086899ae1304a4911aef45afdb6fdbff686063abf"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G027-027",
+      "chunk_id": "4f1b8099d47440ac",
+      "source_location": "S0034-T03，原生数据行27-27",
+      "candidate_sha256": "2ce57ff21ae010c3c59aad26d8d41f21b5b3ab1a989950e01e7fba4636ad7ff7",
+      "remote_text_sha256": "4ec369d25db57dabd128d1021edbcf23b439319b1a99adc4bd6180d5c1af74bf"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G028-028",
+      "chunk_id": "0f7605fd1dc7b2e5",
+      "source_location": "S0034-T03，原生数据行28-28",
+      "candidate_sha256": "f2a0205619082d682ae0decfca82df0badbaa917a536eb818ccaa547fa310ec4",
+      "remote_text_sha256": "991e547abce6d3fdf766cb4d63cd7f1dacad103b7cc13bfa76fa2cff13cb2284"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G029-029",
+      "chunk_id": "5c68bab905cf0e5d",
+      "source_location": "S0034-T03，原生数据行29-29",
+      "candidate_sha256": "483a68719e9c34559bf818d70a550db5b9c948b3f4148ec8edc5c99de5b4d238",
+      "remote_text_sha256": "58fbeb63e704f44ca63abaebb62dcd29a8f9c63bc193fc59715775296dc81ac8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G030-030",
+      "chunk_id": "d089c5df8d171ab6",
+      "source_location": "S0034-T03，原生数据行30-30",
+      "candidate_sha256": "108637870ec1c58566ab055321d7472a69e135a5a069774de3e600340ffac6d8",
+      "remote_text_sha256": "b33cf8c7483bcf9e1354208dcd61e442d9bd3de1691d929a7dfd17e0c606da82"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G031-031",
+      "chunk_id": "2ddcbc33bce4e367",
+      "source_location": "S0034-T03，原生数据行31-31",
+      "candidate_sha256": "0d69ff5de188c4e6f64b2ca2d9b478ec17f51d946807584d14a4c10f917f8feb",
+      "remote_text_sha256": "a9590d8e00be0473059da6b1b1a49773c595de716aba3c51151a68f2091c6452"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G032-032",
+      "chunk_id": "5dc8e9ee22ee969b",
+      "source_location": "S0034-T03，原生数据行32-32",
+      "candidate_sha256": "d35a389bc43d2622c4feb3e28ec0a086e3bf213d69a05e0d3906c2f6a0e3c608",
+      "remote_text_sha256": "6a663ba5068ee3116bc42778deec5117ad0fc0ef46c9c456567f194786bb651c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G033-033",
+      "chunk_id": "c45f3b2b260c96f0",
+      "source_location": "S0034-T03，原生数据行33-33",
+      "candidate_sha256": "7096872c703b6636d6589e6308af1b3ca79c5b837c231e1a986fb12b6042a5ad",
+      "remote_text_sha256": "e85249ca9a992eba067dcfe8d0c93d2478b6a910e66007cd1803827659f2e611"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G034-034",
+      "chunk_id": "0328caf58f46c2d2",
+      "source_location": "S0034-T03，原生数据行34-34",
+      "candidate_sha256": "267f2277c16c5fa7d938df278a1e36418bc4804b5a1940697a034b792333ae62",
+      "remote_text_sha256": "a3538ac5adfe6ad5814a4407d74b5b4bae3dfa44764375f875f7f99878856829"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G035-035",
+      "chunk_id": "dc7be6a8ea41a9db",
+      "source_location": "S0034-T03，原生数据行35-35",
+      "candidate_sha256": "804966acb2cc869ea29345927bff3e70407d3caae8f7f3c82ccd6e67cc3c8d6a",
+      "remote_text_sha256": "dc942997d02ffbb15d2817eab6b5b9c0c2fffee3ad49f676830435cf47ef8376"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G036-036",
+      "chunk_id": "29ad25dc33d6f071",
+      "source_location": "S0034-T03，原生数据行36-36",
+      "candidate_sha256": "8b3f07deec2053b3f4545d325038ba0ce8e4cbe1060997523d127a0ab8a79a2d",
+      "remote_text_sha256": "ebd4d4cb32247bf2f5a803393002710ad57260917ab6967049f263879a7aa62a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G037-037",
+      "chunk_id": "18c56cefe5f0fac4",
+      "source_location": "S0034-T03，原生数据行37-37",
+      "candidate_sha256": "c3830995515f626dda9db418c568a918812c7163433069dd15a7a30b7e91ba94",
+      "remote_text_sha256": "98c8cb741a437d63557405c5045fda79e3bfadb2f407541ac7c39b28ba9a6839"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G038-038",
+      "chunk_id": "b4ecf5bb92011faf",
+      "source_location": "S0034-T03，原生数据行38-38",
+      "candidate_sha256": "d63bebd5ad786c70235fad218583bc8b62abc06963e84a349206bf0744e2602b",
+      "remote_text_sha256": "71ba602b30ed016945df5f05e92715ee91e568c46e63cdd3c5b1fd60fe62ec79"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G039-039",
+      "chunk_id": "12704de9691ddf0c",
+      "source_location": "S0034-T03，原生数据行39-39",
+      "candidate_sha256": "5eddbe0b7c21da1d0b930dc88457c38ce9312bb0af4bcd3502c1a74573829efd",
+      "remote_text_sha256": "9a92cb84a9225a573d328f0ec0064f61218cce7daf49e8c6ca1790d24e78c9e3"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G040-040",
+      "chunk_id": "4782ac9ae59477e8",
+      "source_location": "S0034-T03，原生数据行40-40",
+      "candidate_sha256": "f6d1c5552b7b75531bdc01cb2226116ee05e312b61443237d8eaba9946c7d01a",
+      "remote_text_sha256": "8728aa9d515b4fde31f621f07e3c76b61cf9738927afbcd54aea27815f6835c8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G041-041",
+      "chunk_id": "d37f7bb5059c68d1",
+      "source_location": "S0034-T03，原生数据行41-41",
+      "candidate_sha256": "b8d90822985a534f47d58a855b3798ac64b2701cedbb0098ad46a840ad0c2877",
+      "remote_text_sha256": "3c89f4130e8b48c09b1cef396f243f23c34e39a734681917400c2cf2238bcd9c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G042-042",
+      "chunk_id": "619d392ae0d5e374",
+      "source_location": "S0034-T03，原生数据行42-42",
+      "candidate_sha256": "58c2e044c4e2ec88bcbcef5ce9a27c3f300c24c79fa8d5d30b3b013800943c49",
+      "remote_text_sha256": "137402b7d1e2a94c807a1ab3d9863665ed2641ba6905a4392287d36151439662"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G043-043",
+      "chunk_id": "5e5876b7f2b3860c",
+      "source_location": "S0034-T03，原生数据行43-43",
+      "candidate_sha256": "1c4f79c779cdab319d2aaf02320b2bd9b6c4a67879ceaf63814062f62ef4c320",
+      "remote_text_sha256": "1544b6a41e7b834aaa1c457e38ec2045f766095146b4dd0105829a24b8763ff1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G044-044",
+      "chunk_id": "84175fe3571a4bec",
+      "source_location": "S0034-T03，原生数据行44-44",
+      "candidate_sha256": "27b276a414d14f9c5e14674ff84771aee4657375beaa8198f09afdc59ccb2298",
+      "remote_text_sha256": "81dabdc571b3a510260881fd92e38ed767c789991e1cea3b3a2a45e5acf040b8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G047-047",
+      "chunk_id": "c59290aa44d43727",
+      "source_location": "S0034-T03，原生数据行47-47",
+      "candidate_sha256": "ca19d82303b5fcb71f16bbcbb491fc6ac151b89acef7edebc7f93cc5bc7b3203",
+      "remote_text_sha256": "57fff0fa7909270431bb0719a236908dee0213d736073f34a99f1e3368bd17a6"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G048-048",
+      "chunk_id": "2cc09b439541b475",
+      "source_location": "S0034-T03，原生数据行48-48",
+      "candidate_sha256": "8988d5f5078ba1c497257e169fc3d2a2473a3a8a27f5ffa82a5db6643b644760",
+      "remote_text_sha256": "93bd1d0bcbf06cbf1ea99fa9f7c9cca61fd1b92b0f0fdce65e450fdbb450eb51"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G049-049",
+      "chunk_id": "eed26c7c63804248",
+      "source_location": "S0034-T03，原生数据行49-49",
+      "candidate_sha256": "34970c8cb3cd9d1b4bfa01fb179d8f1d7694c5f7b05565912f17452d525faa37",
+      "remote_text_sha256": "849e27a018e5c66346be86bebf0b5c5d9a51a9af3be6eeb6e07f7184c8cc67be"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G050-050",
+      "chunk_id": "9d208fd34d22f974",
+      "source_location": "S0034-T03，原生数据行50-50",
+      "candidate_sha256": "4ce6245a1966fcedd63514ba5ad43be9564171c7898db762e39d18906f40e60c",
+      "remote_text_sha256": "e955e382516e14c4c8a5b5bc4a808f8e1051833ab5f42b8df1c482a45c08da7a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G051-051",
+      "chunk_id": "e78493c8308c89b3",
+      "source_location": "S0034-T03，原生数据行51-51",
+      "candidate_sha256": "5660bbaacae3953fe5abd79055f75644a251776a90d8ca95d1c3f2ab3a567036",
+      "remote_text_sha256": "30d57e70f0d9c57790ec18ab71829fbc166826a5e2dfe1280501ed05d0222657"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G052-052",
+      "chunk_id": "40c95b7fce356382",
+      "source_location": "S0034-T03，原生数据行52-52",
+      "candidate_sha256": "91811e9615bc322ecf9369e24bb9ad5adc3fc41ff46f698700484d33dccaea69",
+      "remote_text_sha256": "e7c82d720d0ce611f9d47295da129d0954d16f6d06ea09ac11fcdfc1836000ea"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G053-053",
+      "chunk_id": "dce448f1472670ba",
+      "source_location": "S0034-T03，原生数据行53-53",
+      "candidate_sha256": "da17a6daf805efa64913f764f9ee976f2740c6b669040b5a127a2e7b3f1fc001",
+      "remote_text_sha256": "386ea7eb82d99d7d8371116d5c1b9a771d1d2f5c00960c723e29540648fdb349"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G054-054",
+      "chunk_id": "8f1fcd2046237814",
+      "source_location": "S0034-T03，原生数据行54-54",
+      "candidate_sha256": "ce45de40a11eb01cf1a626d58fc5943b5c1faa04e3ec6463d3c1bd613e63dada",
+      "remote_text_sha256": "652c3e3b5ed228da7daa3498f0cae67248c6bfe753d653abbd41f10f224c7630"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G055-055",
+      "chunk_id": "77ffbe579621e059",
+      "source_location": "S0034-T03，原生数据行55-55",
+      "candidate_sha256": "fc978262d5e063460b987a05ab082702eb80f3ed937c1d82e6c952d3eb9fce18",
+      "remote_text_sha256": "ff5c9552b6c79d5e41dfda1e0e5185fc766b51a32f5d15dd3c156ce268fb8ad6"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G056-056",
+      "chunk_id": "5d53afeb5785e1ec",
+      "source_location": "S0034-T03，原生数据行56-56",
+      "candidate_sha256": "660c6903631994660797d0d9bc2ca549ebf18ff7b7380e2323a876135e95f8dd",
+      "remote_text_sha256": "d079758df88ba8b30b02ef9e8893460b2f656c2dfbba5af8cc04e1b57673781d"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G057-057",
+      "chunk_id": "6bddb30d277b4560",
+      "source_location": "S0034-T03，原生数据行57-57",
+      "candidate_sha256": "a674862daed6f1ba15ec6caa20b9cd40b6529a73b3c646c49c18e87ab94bba02",
+      "remote_text_sha256": "2a6bed3111055989965c9bd1ceb720f3b8f0e104cb3b3066592823c3bad719f1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G058-058",
+      "chunk_id": "b6a4504e066fab0f",
+      "source_location": "S0034-T03，原生数据行58-58",
+      "candidate_sha256": "8107e6295f99f4aa6b4112fec10c163a477d462703f2cc1ff95ae185f7b0ffd0",
+      "remote_text_sha256": "081c3d421120fc376712c8c28cd6e37b9faffd497ded28a4fe373d0029393114"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G059-059",
+      "chunk_id": "77b99ee62689b33c",
+      "source_location": "S0034-T03，原生数据行59-59",
+      "candidate_sha256": "c46e9fcdfe77d1a7de7270797c5e3c4c554d3e9a4be11bbbe1b279451733b21d",
+      "remote_text_sha256": "28b34dc6c43ba3f862a59cbc2962ce02b50d5f3bf9931f1e8690dcd32d36ccb2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G060-060",
+      "chunk_id": "44d904cfe1742d8f",
+      "source_location": "S0034-T03，原生数据行60-60",
+      "candidate_sha256": "b5edf57249e1e42e48d0c178bc2e7fcf1ffe10b1139040b0df921e8f2e894e65",
+      "remote_text_sha256": "0b89e39e92eefbedd867fd9124f7657311802261a5112de5c69163af463e8449"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G061-061",
+      "chunk_id": "5b0b05826b1465b2",
+      "source_location": "S0034-T03，原生数据行61-61",
+      "candidate_sha256": "1c2c857252d21065fe5c87e19516cf7fb83ec07e9d068a9fb3b345a6fa82a550",
+      "remote_text_sha256": "f472f93ee370ecd0ae8c80c6e7e4d03c586ad80aef2873d99052a354909d8f88"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G062-062",
+      "chunk_id": "119d916fde7dc398",
+      "source_location": "S0034-T03，原生数据行62-62",
+      "candidate_sha256": "343f585399225a89e57ff0d8ddb7b38152cdb48e24e603eb8b53c5d11117c11a",
+      "remote_text_sha256": "6c13fd2e99f4ec741c90dfa0440e16f8c83350e1adc8e06e57ccd41b434db682"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G063-063",
+      "chunk_id": "ebeaf8602a91a558",
+      "source_location": "S0034-T03，原生数据行63-63",
+      "candidate_sha256": "4adfd9e8eff0dd32fd9795e35d5e35249326992f7b540087a2db31bee12b2dad",
+      "remote_text_sha256": "9b338689ebf46f60c1b6f2a1d2f5aed6f7c5afc1595030c24d794113ef7cad80"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G064-064",
+      "chunk_id": "a12ee33b83a16f4c",
+      "source_location": "S0034-T03，原生数据行64-64",
+      "candidate_sha256": "7330726280eca0d244b784b13b50adc5b5d468160a1785dd74a3f18477b9abbf",
+      "remote_text_sha256": "d639a992f8aee1757f35fa047a9058a289a5d84412f2456d798a9f24e6bfc2b2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G065-065",
+      "chunk_id": "8da960877fd706b6",
+      "source_location": "S0034-T03，原生数据行65-65",
+      "candidate_sha256": "271f356ce76064d697a19ec981f07f6cae45a7ef159acb16f9346b3118b38b67",
+      "remote_text_sha256": "c7e57c60499d98dd478ed20b6c317a687d75a139ebd20e23b6060442cfca1afc"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G066-066",
+      "chunk_id": "511391b91d66fbe2",
+      "source_location": "S0034-T03，原生数据行66-66",
+      "candidate_sha256": "24739ff3146a4f30c780152f460f6468bd8c0617fcde5ba905a6af6bf6a984ee",
+      "remote_text_sha256": "39d4563e6ded70130565f9ca890d4b97c77bc2515497037ce12f8265c1404b47"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G067-067",
+      "chunk_id": "e5e688e28865bb4a",
+      "source_location": "S0034-T03，原生数据行67-67",
+      "candidate_sha256": "68a83df75821f0acfbb46b3aac5e170655502f9138c0eae10dec41fd1692c818",
+      "remote_text_sha256": "e232cb21757cd66af2ab7b9f6f11f831d89e4e88c9166dbe3e3ce708b1aa247d"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G068-068",
+      "chunk_id": "b0d7a8b2ada44606",
+      "source_location": "S0034-T03，原生数据行68-68",
+      "candidate_sha256": "a5c024f2a6e3a47f8478383f43f533b977c4039835e2645d1e3ddc97c0566153",
+      "remote_text_sha256": "3e924e6ede3c04ed0b72e5c7516b21eccdd796baaf5124c6413a56d0f948b874"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G069-069",
+      "chunk_id": "9db99d137783d2b2",
+      "source_location": "S0034-T03，原生数据行69-69",
+      "candidate_sha256": "c81f6eb9416a08dc552e29c254d6bc9010fb01f17c7a90aed4eaad5796ce94e2",
+      "remote_text_sha256": "6983e897dad234eb0ab3e7112afecdbd653fc5d2c541dd9d99dabde56d950b21"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G070-070",
+      "chunk_id": "4f63b4e8e8b52136",
+      "source_location": "S0034-T03，原生数据行70-70",
+      "candidate_sha256": "222acc919398a302e8516092bf131a57bb0b7cc3c7279c0ad07e10acd65cf91c",
+      "remote_text_sha256": "d26cbef49b7280090deba14806f18f34de7ee7867d89a8a5ee7c72358e709e89"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G071-071",
+      "chunk_id": "91022daa950d5a80",
+      "source_location": "S0034-T03，原生数据行71-71",
+      "candidate_sha256": "2521756983f4b1c0c35988e293fb49381d7ea86cd84af9a6e4d2422be24c272c",
+      "remote_text_sha256": "bd4c534740e7eacf124908e7ebf98ec2a182a808cd13c23a1474d715628f87ec"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G072-072",
+      "chunk_id": "957a362f7abd3d62",
+      "source_location": "S0034-T03，原生数据行72-72",
+      "candidate_sha256": "90e3c44cf3a9ad3ba07129caba702c5da1f653fb3e8d2674f08e81768f0acada",
+      "remote_text_sha256": "41d27ff6776f5f63284ccc8aed794afac430dbc97a888c7257ab49239ec5018b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G073-073",
+      "chunk_id": "9a0a758eda2cbec0",
+      "source_location": "S0034-T03，原生数据行73-73",
+      "candidate_sha256": "4d953067b707cdb85e812b80f676d50afaba5e52e7707fb933f5ae1c8d33fa05",
+      "remote_text_sha256": "8123328bf72cb6a0d917d3083cebe6f9d7eb40ca161faf3ded90114751b74f63"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G074-074",
+      "chunk_id": "508b618e9cf2239d",
+      "source_location": "S0034-T03，原生数据行74-74",
+      "candidate_sha256": "e5180cad3bb6651cf6b7bae26f20f9fca881304424ef7d4da3163f568be16cfa",
+      "remote_text_sha256": "3d9cded562f17f3d8da1b8baf73893da78d0d37f150548f116fabfc0486eab7e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G075-075",
+      "chunk_id": "1068449975b5cd61",
+      "source_location": "S0034-T03，原生数据行75-75",
+      "candidate_sha256": "8a787ea35b6b1a8b64642e3e45ab9e78feac88930341857e917dc650c3f86cf8",
+      "remote_text_sha256": "99305b9414a26c3fbd2e51fc638ce5b646d5fd16088eed154f213d1143dcb9c2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G076-076",
+      "chunk_id": "9e9b81f0f8fac419",
+      "source_location": "S0034-T03，原生数据行76-76",
+      "candidate_sha256": "710799c01f1eb35426c2539a0bace4d95f9a7ea8798b1d1b4d8e3e5ffd400c52",
+      "remote_text_sha256": "3afb3a2dbb956ec6e104eca36f98105fa0bdbd32be3ce0682a195ac5dcacea68"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G077-077",
+      "chunk_id": "96004202c7fd7c70",
+      "source_location": "S0034-T03，原生数据行77-77",
+      "candidate_sha256": "1d4607f6f65183773f046d54361db91a482997f0662a6aed5fb1c664150bd473",
+      "remote_text_sha256": "170238dedfb8fded62ba447b953d29b50977075d093e5b31b15eefa02e3192ab"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G078-078",
+      "chunk_id": "ecb2b4ebf161d7e1",
+      "source_location": "S0034-T03，原生数据行78-78",
+      "candidate_sha256": "2eff840ca76af559acbf986853f666fbb59316982c5a07ce8cfa0ffd4772aefd",
+      "remote_text_sha256": "8fc1a1078c70a0a49e691bbe59d5f9d923911a5e2bcba9e0b6627d6f0ae918ae"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G079-079",
+      "chunk_id": "b37ef998cb0309ac",
+      "source_location": "S0034-T03，原生数据行79-79",
+      "candidate_sha256": "16b95650981434fb68b8405cc5f17518727aa599f02b95d4287b3d3fca1ec1fb",
+      "remote_text_sha256": "d83d2f7b478eb2ac0ce11d881f9909eb8a5e8429c2086f46a8ca99f31e39d55a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G080-080",
+      "chunk_id": "922e9a12583087a3",
+      "source_location": "S0034-T03，原生数据行80-80",
+      "candidate_sha256": "ff686662e8dc2e53c0daa6d9edf0ac24ad83c18323ea72f229aa80801125707d",
+      "remote_text_sha256": "af46d0e7bf69eba19437d7615b6f0a57db1666977cf07d581c7cd6a12a9c6aa4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G081-081",
+      "chunk_id": "f8d4e4e34b7b657e",
+      "source_location": "S0034-T03，原生数据行81-81",
+      "candidate_sha256": "a864f9fe608e57b5e2db069bd1b828549f87be018cab406a91baaa00e0b6a960",
+      "remote_text_sha256": "06ef9599dccc5becc2f4a0e5b6c1bdf8fb4e4140afc662f7a07e9ccf04efed0b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G082-082",
+      "chunk_id": "f0944d340dfa5ddd",
+      "source_location": "S0034-T03，原生数据行82-82",
+      "candidate_sha256": "9a71d9a9b077a7247fc8aea66c42694108968b8d4595e4f7198f9444315faf8a",
+      "remote_text_sha256": "49a829698d85dc0279bfb95395d4f647b691bf773b17600985f8f8dd826a49bd"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G083-083",
+      "chunk_id": "e3b1b979191f24e7",
+      "source_location": "S0034-T03，原生数据行83-83",
+      "candidate_sha256": "95af2a46c72c708d48215ba0fe8283e84a38e0aa3112797544b05100a7d7c255",
+      "remote_text_sha256": "cf21dc81236644eb82a305c1f62826737c3e50f02daf7271961adb4f16b99caa"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G084-084",
+      "chunk_id": "3377abc6eb6ce310",
+      "source_location": "S0034-T03，原生数据行84-84",
+      "candidate_sha256": "b5a09f24bb09a578e405d6bbe686b334d0e0dcd24c16c1429ff98018644e009f",
+      "remote_text_sha256": "fdac1f61d80ce0ee65229ccb937937b75cff9b28459efc82f12d80edab01a19b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G085-085",
+      "chunk_id": "f7e921245dba3340",
+      "source_location": "S0034-T03，原生数据行85-85",
+      "candidate_sha256": "95f39c6c22243397f746bc149e0c48543fb9770b40ca5e2fd7ba9190e305f024",
+      "remote_text_sha256": "fc667ba79df88e0b3d5eee9f445694a71a726b77912a7e427cbd440413e09dee"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G086-086",
+      "chunk_id": "a5ffbabed9394ba1",
+      "source_location": "S0034-T03，原生数据行86-86",
+      "candidate_sha256": "1b7a30ae34a016d33352ff2b62a28beace4457eaed9b6df30e569979a2b178d3",
+      "remote_text_sha256": "ecfb93bd4eeb48dd8c3ec89934ee8b1854facea1b2243e2923f44ecb782ca1c2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G087-087",
+      "chunk_id": "dd7e2844874a0d65",
+      "source_location": "S0034-T03，原生数据行87-87",
+      "candidate_sha256": "9a47c364c3c3695a9be5a7dd101550fdd433bfdad2c78318758ba536206ac9fa",
+      "remote_text_sha256": "dce3aaa6b64358cb3e6d5cb6a696b936b654cb55ff72eb06866977de1644f771"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G088-088",
+      "chunk_id": "e6dfe068d664502f",
+      "source_location": "S0034-T03，原生数据行88-88",
+      "candidate_sha256": "adea088d00604b5d4c0fdbbda66aec8d9115e69a317e5fb0ef484ea0bb014dc8",
+      "remote_text_sha256": "f0f800e95959caafd6e0e423c8b72d78e14ce2fdbfbc992a31cabc28f6e12990"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G089-089",
+      "chunk_id": "71a81c24993b0baf",
+      "source_location": "S0034-T03，原生数据行89-89",
+      "candidate_sha256": "187a84756bc2295b0025746cd3314229b5168ab7a8d6668239f2c360f8d63d5a",
+      "remote_text_sha256": "aefe7140f24c4dda17d2cf933d484e37f21f607ffc894d89590a3b5ee5b5fd09"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G092-092",
+      "chunk_id": "5951b9ed781a42f1",
+      "source_location": "S0034-T03，原生数据行92-92",
+      "candidate_sha256": "25db353d21cde73407a8c1e6afbc5fb2c32ee88c4c2be25aa785a800df687e17",
+      "remote_text_sha256": "030e473c41b07e9410b02206df81521dad679ceae4c5bf07ae93c4eb3f758d1b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G093-093",
+      "chunk_id": "e1bf9b39082153f7",
+      "source_location": "S0034-T03，原生数据行93-93",
+      "candidate_sha256": "c59b0f832a370254da43e689dc5ab5bb5aee11d74b4869ef546ada4e3efec1a6",
+      "remote_text_sha256": "26c925a5e5ba293a0145e208f1a8f35939a524f572b423de7d08e464850d5c32"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G094-094",
+      "chunk_id": "c565bf416c68150e",
+      "source_location": "S0034-T03，原生数据行94-94",
+      "candidate_sha256": "fbfab9cbf758f769cb5ca5c9aa51acb0b60ab97891fed23bc6f68a11bf190e62",
+      "remote_text_sha256": "e60c6a7f353dcb04f93a67c018a34aa2e2433c22f01fb6b9f120f2a246fead2c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G095-095",
+      "chunk_id": "8840f7515d4e7ed1",
+      "source_location": "S0034-T03，原生数据行95-95",
+      "candidate_sha256": "68a2e83e0ccd06d1b5e2990bc96896968aa6d35404f824d2c0d575f36143e281",
+      "remote_text_sha256": "366ed555586e9639f37deab3b67220407ebabd10c0e45464ca683cfb9c7709d4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G096-096",
+      "chunk_id": "8d021180e32afd45",
+      "source_location": "S0034-T03，原生数据行96-96",
+      "candidate_sha256": "af6502d71c0a731a33b8ffbae5f15af783fa041eb038fc6cc896adb365f50e33",
+      "remote_text_sha256": "e3c7589dda263269f3ae3341eb5acef91c9ca8777505c65e67a8f25dea203e40"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G097-097",
+      "chunk_id": "aafdc7cf59a4145c",
+      "source_location": "S0034-T03，原生数据行97-97",
+      "candidate_sha256": "1aa178612c2dc3d1f9e24eb52409ec5f908b2781c42490f45e10dbe7b5f29732",
+      "remote_text_sha256": "bba9aec70e013b0d7c40ab054a3f2a68b22fe9c4dd0de602400c97f95a4ee904"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G099-099",
+      "chunk_id": "5ac43cdbfccdda52",
+      "source_location": "S0034-T03，原生数据行99-99",
+      "candidate_sha256": "83a1cf91c650736bc35ecb89a3ea74f6cde5233371639e48b14d8314092da50b",
+      "remote_text_sha256": "f474776050d69a575694674059dd1460b18df010bf4ad20ad71833c181d762be"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G100-100",
+      "chunk_id": "a75b8d246d50dbe0",
+      "source_location": "S0034-T03，原生数据行100-100",
+      "candidate_sha256": "a98044790c0e9d33089a4560a9b121116a464375d775468876488a3a36f19fd7",
+      "remote_text_sha256": "10d1621ba3faa6d19c9381f514d82f1b3ebbaad8f2e97ea84e5d62569399793b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G101-101",
+      "chunk_id": "1a610f3920cf7f4d",
+      "source_location": "S0034-T03，原生数据行101-101",
+      "candidate_sha256": "fb48bbeeb239aa4e4bd2fc6de3a6afe5e1578f958d7e3eca195b51a60658c3bd",
+      "remote_text_sha256": "9849d4d398ccdd29cbffc494adf5b6fa31d3c12bace8bf6eb5fb4bc25cea11c0"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G102-102",
+      "chunk_id": "46946917fbb57bc0",
+      "source_location": "S0034-T03，原生数据行102-102",
+      "candidate_sha256": "177b4863aedbb7825734d3da46abc4ddb2a39121e31230b129176a7f186e9d68",
+      "remote_text_sha256": "30226bc1215d4a82077f0436a28989234395a5b49e88942d68a9aced8d718187"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G103-103",
+      "chunk_id": "1b4124316a11769f",
+      "source_location": "S0034-T03，原生数据行103-103",
+      "candidate_sha256": "6563a3d9274f7785dd5cc274ad8a486d9c7e28d4e4cb54f2d79cfb856dacda32",
+      "remote_text_sha256": "65b55dc91cebad9fc049b990826f772f6a4978b7f972824002fc32c506293d5c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G104-104",
+      "chunk_id": "2e91f44b3b5dc484",
+      "source_location": "S0034-T03，原生数据行104-104",
+      "candidate_sha256": "e396e4d2084b93d6d9db41f0fcc3433e18c847866cd508c575a6e092955adafb",
+      "remote_text_sha256": "dcd2e1c57a485066dc4ce789c0eab2942f0d04956fdbab150b0e0f81d401ff3a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G105-105",
+      "chunk_id": "a11e141426c0950e",
+      "source_location": "S0034-T03，原生数据行105-105",
+      "candidate_sha256": "71523a4df4d5d4a7b1e0a01fa8d7b54478af8270f23d8bf92e5718a4d18db64a",
+      "remote_text_sha256": "b241cecae90add7477495b9d5f08dd3bf73e064e46fa97203654efae29672cc8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G106-106",
+      "chunk_id": "76e064c403408370",
+      "source_location": "S0034-T03，原生数据行106-106",
+      "candidate_sha256": "c58cca9dae0dd1b5513bcbe03f69a27482daa8a8c4b34dac70d017df446f1a4c",
+      "remote_text_sha256": "53810e265ad503aa2eb80fa17e81ef616d6efc62a83f2960f7c3d2f100f8d326"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G107-107",
+      "chunk_id": "c1f86040079f2162",
+      "source_location": "S0034-T03，原生数据行107-107",
+      "candidate_sha256": "149d56403d07de2b282659cdfd3fe73561b1c76b90695a69ecff7c80e2315956",
+      "remote_text_sha256": "9a5b77db4ee05d06b9e689f72ac0ef9e6fce9a79240a9e523f056fc0ba56d178"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G108-108",
+      "chunk_id": "e27cd65606ec82b5",
+      "source_location": "S0034-T03，原生数据行108-108",
+      "candidate_sha256": "d329fce4ec5091613fe6d01a30cbea7a49e64d037dd6e0efea6a4e29e7407ce9",
+      "remote_text_sha256": "470797c26c23fa512a07b771f8c52acbea0ce91b110ba2924d73f54d04a401f2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G109-109",
+      "chunk_id": "1a2aae066547a234",
+      "source_location": "S0034-T03，原生数据行109-109",
+      "candidate_sha256": "b9dc44b2ff68d33ff4747e4703f20aec34cc9a2a07d1398d3c938a62d80a9ea6",
+      "remote_text_sha256": "4840b2df16edf10ce7bcd4b9cb59995487fd54571e2471596c05ddc96a3909f1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G110-110",
+      "chunk_id": "e95b814d886973cb",
+      "source_location": "S0034-T03，原生数据行110-110",
+      "candidate_sha256": "aaa9cd13ff901371b16a325eaf9996fe94b295bc013282891500b04db33ffa58",
+      "remote_text_sha256": "a1b20a465414029fc1862b055aed8aa9388c76fed42527642dff02802f78aac8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G111-111",
+      "chunk_id": "dea80257c200fbba",
+      "source_location": "S0034-T03，原生数据行111-111",
+      "candidate_sha256": "9a2898ed8e8fe268235c2fc2fa8f6f84464a77346052512adde134fa903932da",
+      "remote_text_sha256": "9b8800dda76b60020f76cd7798c12e2d4e99879b5de0c4b593054a943328f28f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G112-112",
+      "chunk_id": "d8bb60e536e4531e",
+      "source_location": "S0034-T03，原生数据行112-112",
+      "candidate_sha256": "604cfcc6dc5652f0f435cfd9cb4dacfac836ff9122c92e881f6f3d58f64bbaa4",
+      "remote_text_sha256": "b6df8b7cfb4085c85ccd96b67600cb869d7aa476eb21865b1dd3d544d243576a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G113-113",
+      "chunk_id": "818ccd417897397c",
+      "source_location": "S0034-T03，原生数据行113-113",
+      "candidate_sha256": "2359a65c8ac06906b97922cc4bebbec5d7859850514384ff046082484b7d2d66",
+      "remote_text_sha256": "fcb74876f10405611aeea8acb4fba92a6a7505bb082e8632eeee4d4784787618"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G114-114",
+      "chunk_id": "4ca5c13877728fd9",
+      "source_location": "S0034-T03，原生数据行114-114",
+      "candidate_sha256": "436ea899a3332152424598338995dc3d030ae5b1232203abe8ded520621b65e4",
+      "remote_text_sha256": "0cb92a745abb3d38d4713e741eafc15c81ee5ece0654918fbbf8b43e3073bbb3"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G115-115",
+      "chunk_id": "106317c3f81716d1",
+      "source_location": "S0034-T03，原生数据行115-115",
+      "candidate_sha256": "e12cd913edba6e8b05bc78716f89f70e0886ec0ddc5e2191e4057e4954229ebc",
+      "remote_text_sha256": "f0c7094e070efd910e30bf70a33c34a4b1a34ce601a88d311eec4b0fdce02c34"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G118-118",
+      "chunk_id": "3f32a1bad12e5e0e",
+      "source_location": "S0034-T03，原生数据行118-118",
+      "candidate_sha256": "a327a8d7c1e740bbecfb819732897501fd13a2a5f369d3c4df5b5cf929fc260d",
+      "remote_text_sha256": "90c53a4ad3cc60941c4fbe3512fe6f33da76644b1f7a0308402685494d8ad40d"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G119-119",
+      "chunk_id": "768ec3e7ae75ba84",
+      "source_location": "S0034-T03，原生数据行119-119",
+      "candidate_sha256": "faeb48786db442d6d24a7a43267d7c4fb2d7462d076d3982862a7fc4c7039467",
+      "remote_text_sha256": "bc56f27db4511b74b820876e742cb6f2597686e186347beae49b87d5c8e19071"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G120-120",
+      "chunk_id": "5729c3953672f9d2",
+      "source_location": "S0034-T03，原生数据行120-120",
+      "candidate_sha256": "7c7a426c8525d7c95a3d43d5e2e2465384362bf628c9fb10c10f91b57bc58b48",
+      "remote_text_sha256": "75d3fe758ea3854bca17f4115f585daebc631c1866d2d9b887f8b31b170620d1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G121-121",
+      "chunk_id": "b1de3e5613f9ef41",
+      "source_location": "S0034-T03，原生数据行121-121",
+      "candidate_sha256": "b1c52bb61dffba0f4d955a973d0bc366147c2bb501d1f7d26a29593e6236918b",
+      "remote_text_sha256": "8e6f5c44e0280791de7219e42624adbd14c7a602da5123d483c3ec70f8897001"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G122-122",
+      "chunk_id": "10e415c8d68fc639",
+      "source_location": "S0034-T03，原生数据行122-122",
+      "candidate_sha256": "f7d214e0e7c063733b0f5a03295bd70e980b361a9fe14934c0a90a21677ca9aa",
+      "remote_text_sha256": "6694c56302b1090ace69a82a73f15a9208ccb00a067ee310f5772ca1a623cb44"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G123-123",
+      "chunk_id": "6803a8dff1b8287c",
+      "source_location": "S0034-T03，原生数据行123-123",
+      "candidate_sha256": "f6a526119ed3f54b5878f7bb096534faa36a86545beae47e0f2ce7e6a9a436ea",
+      "remote_text_sha256": "bdf6d969e9e11cb18bf499f3c0d16d664cb3ff7f43744bb9d6400a35be324cc1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G124-124",
+      "chunk_id": "1b0a9eeedfa9b61e",
+      "source_location": "S0034-T03，原生数据行124-124",
+      "candidate_sha256": "c3a455f02a7c5b9f75484e597da6baa454e0d1f61ad42d837d4fcc25583ac993",
+      "remote_text_sha256": "3e7ed81f8a4246c9c36d84fa2b1acc7cb1e764e8771e1478b59dd25363c8194a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G125-125",
+      "chunk_id": "3f1bd2d599323d1b",
+      "source_location": "S0034-T03，原生数据行125-125",
+      "candidate_sha256": "29b5eab825777f4309126fc9287e3b7b41a3b65702e2b8075978e35da063cc52",
+      "remote_text_sha256": "e485c90c1a03494859fba4590e9dfbba987bc7f4fd29cad47bd299e7d2af5478"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G126-126",
+      "chunk_id": "43d32b99794d6365",
+      "source_location": "S0034-T03，原生数据行126-126",
+      "candidate_sha256": "d75b2b95138037bcd67295e493c7cc59a4b2a24c1e388ec549aabe0d905aee88",
+      "remote_text_sha256": "2c00f4e61caa7065ecfddb79caac4740c210e57393cfb567f2124adf67ab5351"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G127-127",
+      "chunk_id": "cdd78ef0e7c4bdd4",
+      "source_location": "S0034-T03，原生数据行127-127",
+      "candidate_sha256": "daf5a582df4a26757e88bcdc96e3098b5248a583cfcbe34c362f89f486f5d0d8",
+      "remote_text_sha256": "bf269fe294670372578e8c4ef607b7d0f6eada478c424c95969f81e2eaf8a3ee"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G128-128",
+      "chunk_id": "ef33f7be901ed9f2",
+      "source_location": "S0034-T03，原生数据行128-128",
+      "candidate_sha256": "46b5dbe60c169a0d2ac08024f929f288efb52dda6ebdfc43cac21519d9095962",
+      "remote_text_sha256": "e51bcf5eab34d5645504ddb470855293beed74fbd68ae1b265864d2efc8edf1e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G129-129",
+      "chunk_id": "1cbc168976b0065d",
+      "source_location": "S0034-T03，原生数据行129-129",
+      "candidate_sha256": "6ce5163c026202ee92b968e72bf9fa1cecbdd11b398f10025c3b6388a6d2f722",
+      "remote_text_sha256": "7241d17420c20497436df5d1bc7fdc950682f4cce3ab098c3d08ad84ebcfc90f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G130-130",
+      "chunk_id": "dd92b969daa09f15",
+      "source_location": "S0034-T03，原生数据行130-130",
+      "candidate_sha256": "54319818364e7fc0966f3fd3985bd5539c2621c76374e4a5e4e5facfff1edf50",
+      "remote_text_sha256": "861b7c615c8fc55053e94d2b3a26ab2de639607251675d485d439fc52c4d169b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G131-131",
+      "chunk_id": "70af42c7073c6eaa",
+      "source_location": "S0034-T03，原生数据行131-131",
+      "candidate_sha256": "ea3c5001a020173ae2a5013cd7b8af538e04d2700d4c1983e9b5a6d962343bb4",
+      "remote_text_sha256": "702aedfdf44c94bf9f6e1724b4d59d713076319edb0524ad98863cb354bcd71f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G132-132",
+      "chunk_id": "a474d9b4ebfee14f",
+      "source_location": "S0034-T03，原生数据行132-132",
+      "candidate_sha256": "8016e8b33fa2000ac4d5df784dcd60ee7b2dc5591f8f1f9257d962f46e1977b4",
+      "remote_text_sha256": "817216c1dd9a4a3c879ea6e943c30023f10634b755c0b3b74caadf065f3bf4cd"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G133-133",
+      "chunk_id": "53d5c133f234ee3e",
+      "source_location": "S0034-T03，原生数据行133-133",
+      "candidate_sha256": "c760197ec452913e31ba4c7a9bbe1d882592613e291af97c6de3b9b207afc512",
+      "remote_text_sha256": "ab1c81dd02578d1d40b250e456910a2d5ebe236980103520ae9a811645c7fa24"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G134-134",
+      "chunk_id": "fe2b0bf16433423b",
+      "source_location": "S0034-T03，原生数据行134-134",
+      "candidate_sha256": "81a9aedb593e8f69d021ad130ba1ac3750138dce5902dda56abbeb28f14dcbd2",
+      "remote_text_sha256": "c42a95b79f9c363d947f0bd4aae6001a5b5d12e0a0c9a785a4184b6e4c4ac5d4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G135-135",
+      "chunk_id": "12e2296ac8d85997",
+      "source_location": "S0034-T03，原生数据行135-135",
+      "candidate_sha256": "4ec62e73b34e91560df49ee613eba22c15c7cbac94abcfd1ebab1dbaf360d224",
+      "remote_text_sha256": "07821a2d4b24ed8b9a200adb1315309fa55cd8c03998daeec415d2ef9c034bcb"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G136-136",
+      "chunk_id": "58571c806daa13fb",
+      "source_location": "S0034-T03，原生数据行136-136",
+      "candidate_sha256": "b4152f0ef42ec6fec846faeba74d89e6ad1d2a638e058cea3814c4e8f7516c37",
+      "remote_text_sha256": "81bf8581e358d05dfdcf7d25b1c7ee466ab5ddf31b78f485ba84af446d62cb90"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G137-137",
+      "chunk_id": "a53e8c2fd9bfd7a7",
+      "source_location": "S0034-T03，原生数据行137-137",
+      "candidate_sha256": "5956e010c719d6ce255f57049862ef5a46fbebbb3bce4e82dc10ab0424c7c397",
+      "remote_text_sha256": "45162c651da714d49f3e5b8e5db3ec2b68b60d39f068cfc928e992166118eb0b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G138-138",
+      "chunk_id": "04f1115d9e469f13",
+      "source_location": "S0034-T03，原生数据行138-138",
+      "candidate_sha256": "088b740f141a8b664297178802fa4af9b6010f3ea3bea6930fb139668cfdf503",
+      "remote_text_sha256": "c2b89309e90f78a08fc10c4416f8d3fa149ef431c8a2dc6ab832953605c6e03e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G139-139",
+      "chunk_id": "78d9f628de102083",
+      "source_location": "S0034-T03，原生数据行139-139",
+      "candidate_sha256": "23d039bb3d70e3e019a96fde55a75a515dd2f9df780a60b06030d3db2a01dabc",
+      "remote_text_sha256": "4306642bc3377a5bf906785ad55a0bfa93247e5b439428ed47e16eaacc6665e1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G140-140",
+      "chunk_id": "4107c3a18b7453bc",
+      "source_location": "S0034-T03，原生数据行140-140",
+      "candidate_sha256": "7ba05794bcf942d8c90a14730c8f1155f4485f7959daf1d3310e621dd1e7fec0",
+      "remote_text_sha256": "99165248a61905955e59c385e65b7df559003d52fb9234fc36c357451388bf57"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G142-142",
+      "chunk_id": "d5281357e0405ee5",
+      "source_location": "S0034-T03，原生数据行142-142",
+      "candidate_sha256": "de2db3d213b115cf7581fd72c88a8929b5bba2e939a54400efce0e12d2cb77fe",
+      "remote_text_sha256": "c3d82d9bae73894664246dc64fe4d833cf82aef2d9610e601b32574d218d947e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G143-143",
+      "chunk_id": "42c7163473c8eff4",
+      "source_location": "S0034-T03，原生数据行143-143",
+      "candidate_sha256": "620e9cdf527d54c586b789160098aa2681c87889b48307af519308692ac56783",
+      "remote_text_sha256": "ebbf2deeea7b87ea3d9a6cd84d24409964032afdd839b6fb18f77e83167df8ce"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G144-144",
+      "chunk_id": "25966468844e948d",
+      "source_location": "S0034-T03，原生数据行144-144",
+      "candidate_sha256": "9ded5d291aea83f86a8a53f1004aea36574bd40e4da91c4481426977e0b475ca",
+      "remote_text_sha256": "7b0306201521f701f9846e6ad830a7137a17522c4f17cd8f12f0a2bc07197edb"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G145-145",
+      "chunk_id": "568310f4175e4bb1",
+      "source_location": "S0034-T03，原生数据行145-145",
+      "candidate_sha256": "5e0cadd14511cad405be4d68c89e42e63594ed7e21fa1882a6ed426050e72a00",
+      "remote_text_sha256": "66e1ce9bb81be603818f4d047a0d5bd7587ec80a21facc9bfce319f5cc409210"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G146-146",
+      "chunk_id": "e69b79b619d4e7a1",
+      "source_location": "S0034-T03，原生数据行146-146",
+      "candidate_sha256": "ae0f52b4ab6aa1eca2a9e8599a7f463309df807303417413c040e35e17a00e91",
+      "remote_text_sha256": "252a0d4fef56fd3c98247d694257cd7974ddaf4bbab4295db16681ea20ea87f3"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G147-147",
+      "chunk_id": "7f54cafe38c53fe4",
+      "source_location": "S0034-T03，原生数据行147-147",
+      "candidate_sha256": "0e72a5c0bdfe1c5776db8f8e6e1d5f32f1a1b87595da9b5dcc1d163d08866d58",
+      "remote_text_sha256": "eb86b9b97f77a5b7fc35070694a52a96942ffca21a99d959eb54d5de65090366"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G148-148",
+      "chunk_id": "8e7d6d21071121b2",
+      "source_location": "S0034-T03，原生数据行148-148",
+      "candidate_sha256": "ff0987eff2ad745b2068d4578ee4f119c21390f083adba210b24e3e2bb38518e",
+      "remote_text_sha256": "4e73ed8dcdc7cbb2c33b98bc398cc31f92ec52d0978efffe162ce5b8841f7266"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G149-149",
+      "chunk_id": "eea9518be839616a",
+      "source_location": "S0034-T03，原生数据行149-149",
+      "candidate_sha256": "9f8ed868cc4da35ed2c1d9722985b384ab4e53bf05b9a73ca7f9fe00c2d9fa22",
+      "remote_text_sha256": "c0c96f75994e29fecb8ee05a4797dc569e2ecac7f10473240b3fbf3bdd7c793c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G150-150",
+      "chunk_id": "40bea217fd325adf",
+      "source_location": "S0034-T03，原生数据行150-150",
+      "candidate_sha256": "ddc6a7bead618c3cf353fdc1581a50c1d3252017e5b7e1de4eb3e7761ad6ee69",
+      "remote_text_sha256": "661f0704aacc5b04901e023e247d54d4f8ab26ee0f45dbf999c1ed1113895753"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G151-151",
+      "chunk_id": "ceb5687c74cc1ed3",
+      "source_location": "S0034-T03，原生数据行151-151",
+      "candidate_sha256": "8c6ad7594dcd10834d04e68c7f1099b8c0d75c68abdbf453254f461f39199fb0",
+      "remote_text_sha256": "edc477201b30a7ef498113dfb02dc0d72949519b5233805e1df3cff3477b9c9f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G152-152",
+      "chunk_id": "0083838250d55472",
+      "source_location": "S0034-T03，原生数据行152-152",
+      "candidate_sha256": "3f6b5942825cf34ec50020cc157e99d25273247b28c671cf41d498796fd68558",
+      "remote_text_sha256": "736a6fd903d323072d27bcd9c48191b1bb7b98cd202254521afafe49be928974"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G155-155",
+      "chunk_id": "ce59c13618fa7707",
+      "source_location": "S0034-T03，原生数据行155-155",
+      "candidate_sha256": "61021eeedfbfa389238be649d2961af3c6f81b895bdd64ac7901527a419b1c2d",
+      "remote_text_sha256": "03a679c14ffa5e7850f18ef352fbb86bc9a450d546dc973ce57b2e45450405bb"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G156-156",
+      "chunk_id": "b1cdb08167e3e4f6",
+      "source_location": "S0034-T03，原生数据行156-156",
+      "candidate_sha256": "072a60f445e67ca644597048da5ee5207b25fa54a74879a8c8e78cdea7c868cd",
+      "remote_text_sha256": "2f02e5af1d5947cdf271d86c76f2d6568fef0f407a49d3f3e0c770e7246a404a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G157-157",
+      "chunk_id": "1f86f6cb3be2d8c2",
+      "source_location": "S0034-T03，原生数据行157-157",
+      "candidate_sha256": "0be37fe9d033ca3790009a4403a4b2e3d0522b92b6e417ba654a214f9be221a0",
+      "remote_text_sha256": "4f9a8a14535289f2d86f0783edf8afcd7b1717b1045120b97e7568bb0a837ef4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G158-158",
+      "chunk_id": "4a0afab02a9f7b6c",
+      "source_location": "S0034-T03，原生数据行158-158",
+      "candidate_sha256": "eb6c95eb03f47821aaf0076453f24542b8b8a944fc532bcfa3251bef9eb807c0",
+      "remote_text_sha256": "0d14cc99a8536796d7a90f09ff12485be3dbe209073073f97e0cc392a2ae1c63"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G159-159",
+      "chunk_id": "6eba7b9e1ab5fe61",
+      "source_location": "S0034-T03，原生数据行159-159",
+      "candidate_sha256": "892828a1945ced77eb637935e555760752b1d5593b890e71ac8d408002c6636f",
+      "remote_text_sha256": "b21ca7b56547ba6c5061c21eb755f6b38e3dde32c19f66ed77335fda2e5b229d"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G160-160",
+      "chunk_id": "b402a31dedfe561b",
+      "source_location": "S0034-T03，原生数据行160-160",
+      "candidate_sha256": "1736a281569affcef065422a56d5396d2e0b2f4dd61bbdf680785156a314d5d7",
+      "remote_text_sha256": "f9b236d870595897b5c4cd0194f4984188b3df4bcc019c35c84633bf5b1fec01"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G161-161",
+      "chunk_id": "3e6d8f1c3ac16d0c",
+      "source_location": "S0034-T03，原生数据行161-161",
+      "candidate_sha256": "c3c46195a10717a028adeec48c2c467280fd3e5167afc2f913b76ff02d82a3e2",
+      "remote_text_sha256": "19034030d7bfa6bf7028ff23ffb09faa97b29b72b6662ddc3f94f1be9aaacb16"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G162-162",
+      "chunk_id": "9612dc692812e8e4",
+      "source_location": "S0034-T03，原生数据行162-162",
+      "candidate_sha256": "4cc458896727470b5af7f10c8afc5190013581be597441be730ad45a58712992",
+      "remote_text_sha256": "eab3e5f741128e4c801e0f1351f655f4fc51ed2654c7cdd96599c2b35f655284"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G163-163",
+      "chunk_id": "ce91da6efea87d59",
+      "source_location": "S0034-T03，原生数据行163-163",
+      "candidate_sha256": "55900353699d28a42c6b312934d2137a7c6cb05c23611721df55673df08ff3c2",
+      "remote_text_sha256": "905ed8059ed378df9bed77dcd6e8cd9d7c5798b636ee47a0916fc8f50a8ebe97"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G164-164",
+      "chunk_id": "65b6fba1b8264d99",
+      "source_location": "S0034-T03，原生数据行164-164",
+      "candidate_sha256": "21c14dbef8eeccdf4908a93f2a709652001ac01830342b180b2c3b708aea1b84",
+      "remote_text_sha256": "8f2511ec4a7c5063d9de5c8b6a99c34432a7a25a57b97cf27afcea970ca4ca05"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G165-165",
+      "chunk_id": "4d419522197c9d4a",
+      "source_location": "S0034-T03，原生数据行165-165",
+      "candidate_sha256": "7c79849669c6affa1b996fc16a7c05c5d338cdafefd670d97c99ea8602c3a745",
+      "remote_text_sha256": "cc34cd03594d6afa12f473710283a66bcae0f4ec1a5348cdc9292f1551b6e53a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G166-166",
+      "chunk_id": "42e44950bc17c73c",
+      "source_location": "S0034-T03，原生数据行166-166",
+      "candidate_sha256": "b11f6bed7ab180e6f2b3add12f0651b4a5e5dbf30dc3a563619b244b8ce8a13c",
+      "remote_text_sha256": "54d9bdb8c9e9df80452e08a014b2083d2b2eaf8b68308ee23b8a3b1f044863d9"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T03-G167-167",
+      "chunk_id": "7a19a6cef094579b",
+      "source_location": "S0034-T03，原生数据行167-167",
+      "candidate_sha256": "9c471f8deceffe33f23ea3657337630d4bc5e57bc6035451cb47d5db5f7df9c3",
+      "remote_text_sha256": "e708f48b8173068ba3c39af0ab6bf488f2cde82cb90484e151abd54ce3b1b81a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T04-G003-003",
+      "chunk_id": "ca67125de8017183",
+      "source_location": "S0034-T04，原生数据行3-3",
+      "candidate_sha256": "160491fd2358bb74bd67a40a89aee1ec495d7ce353cd45f6a651a603c112c90a",
+      "remote_text_sha256": "056f3e6f2d676ab7b605fb16ac4b3144b8e446dedf49299c3282472476e71ca1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T04-G004-004",
+      "chunk_id": "ebc422173e58157f",
+      "source_location": "S0034-T04，原生数据行4-4",
+      "candidate_sha256": "226cd7c660d2bbb26f7085fd8de59e260ab150a1f1865fea519896a89b85b721",
+      "remote_text_sha256": "d447b47e4ac852f13c09822493d578bd86c83d3e06ca9588411d673d2997a7b7"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T04-G005-005",
+      "chunk_id": "babafbe824fd7b9c",
+      "source_location": "S0034-T04，原生数据行5-5",
+      "candidate_sha256": "dafd1bc82029d4c1cceba729f7a42ff42ba840d527d7874449929981cd6f5a4a",
+      "remote_text_sha256": "aadb89e2d0c95688846619fb89ba901a7511a60c3c144421da4b29a1906ca48e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T04-G006-006",
+      "chunk_id": "1eaaa133038422fa",
+      "source_location": "S0034-T04，原生数据行6-6",
+      "candidate_sha256": "5f40e8ce9c98a4b683b24df83a889a4fdcb62e4cb5827799689d9f0c6d1ffb58",
+      "remote_text_sha256": "0350c38dc3effe6d23b2d89f134b19dcb016e60a56d102aca24db117993b9182"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T04-G007-007",
+      "chunk_id": "55b73515af606402",
+      "source_location": "S0034-T04，原生数据行7-7",
+      "candidate_sha256": "9612ddf0e23e82667024e0b66238713ee0a6f833c1ca910c953d4a4441be5ed9",
+      "remote_text_sha256": "4902ccac2d3468adb43143a4441de4e734f07f85f9f7b6c4350100a955d528da"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G003-003",
+      "chunk_id": "6854eb2a7d8ad0d1",
+      "source_location": "S0034-T05，原生数据行3-3",
+      "candidate_sha256": "09f822914d54eed6797f832bf438c0251cfc8fcf0c4856d31f951f11a974b8c8",
+      "remote_text_sha256": "9c9a8c971a4c9ddc99f95ffe52ec1ffbcecc5b240fc73fcd58d6b2a4f0da27b0"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G004-004",
+      "chunk_id": "6d5192007fdd9f6a",
+      "source_location": "S0034-T05，原生数据行4-4",
+      "candidate_sha256": "85619def463b2e9382681bda577e5676fa2cd54c5ccadcb38aa73f8b0fc881bb",
+      "remote_text_sha256": "3efc5f17bf6a518aee5809f702d1f5f998f21868c0c1f1e5e88561199a996c32"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G005-005",
+      "chunk_id": "d78894f9a2cadf49",
+      "source_location": "S0034-T05，原生数据行5-5",
+      "candidate_sha256": "e46ae5f6a2ea21c8acd46447ff7e7c40530f90c207e119e343a1951817a58daa",
+      "remote_text_sha256": "66c09f8e1a5f93ce0ab7411657ff5f035d8141ef12a0a427bfecae912f55b187"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G006-006",
+      "chunk_id": "447907ce0e980826",
+      "source_location": "S0034-T05，原生数据行6-6",
+      "candidate_sha256": "a045f502fb7f74ed9b4ac8681ba8e0938354a7c4c9d5678a0cce247f2d9e0c19",
+      "remote_text_sha256": "6f8d7d267e9d9ab27b181304c6e61dbe9292c61700d937626adb19a84741c441"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G007-007",
+      "chunk_id": "ec53feb5e19d2932",
+      "source_location": "S0034-T05，原生数据行7-7",
+      "candidate_sha256": "b8180e6d011aef3079afb22c3c90786d0a6c6334dce57075bef7cd361dcd0390",
+      "remote_text_sha256": "c63e72c9dc78d833fc423378632c77044421f3848dea7f5d84591915d9b1cb52"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G008-008",
+      "chunk_id": "dbc1c03cedec12c9",
+      "source_location": "S0034-T05，原生数据行8-8",
+      "candidate_sha256": "49ce1d614ef9870625ea6cdd4213103e8a5dd129c8aef7ef4c09894ce660e093",
+      "remote_text_sha256": "8a0614570c823937b1ff66b5a2a561fd556a2a98a33523e292580bae735c4513"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G009-009",
+      "chunk_id": "47623e747fa489b4",
+      "source_location": "S0034-T05，原生数据行9-9",
+      "candidate_sha256": "88389abf03ab7bf7b9d3cd30ebcc96c6fe8a65d03c0cb9041e00f0e9635f0323",
+      "remote_text_sha256": "aee1c5607e6417ec0f2a0912d1b5204bc7ea23fb7bf7268d9b45d2448874f931"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G010-010",
+      "chunk_id": "7e909443d70f03e1",
+      "source_location": "S0034-T05，原生数据行10-10",
+      "candidate_sha256": "66b55b64d7c366501e6e504525470c880dec619cef9618104f86d350d14b8e98",
+      "remote_text_sha256": "9b3a3b9269958fb9bb3abf0520155c26af356351db291c1e461ec6f2c5caa987"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G011-011",
+      "chunk_id": "a247db1a19a1a089",
+      "source_location": "S0034-T05，原生数据行11-11",
+      "candidate_sha256": "bbb1a92c498407d2765a19552973068a55442a6a5fb373b10cea9eddff1d98bb",
+      "remote_text_sha256": "24798222bc378d66a596376c7e14e95926f01330ee272154f9ed5f03a7274605"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G012-012",
+      "chunk_id": "4289ad4bfebbc824",
+      "source_location": "S0034-T05，原生数据行12-12",
+      "candidate_sha256": "660e917aaf340bc7982d96da7eab95ee1c53a00c41c77ebf667fab082159438d",
+      "remote_text_sha256": "e49da1b781414b24c01cc6cd15f7ccadbf68366489d36865750dde69d4b3db93"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G013-013",
+      "chunk_id": "15e2bc47823079e1",
+      "source_location": "S0034-T05，原生数据行13-13",
+      "candidate_sha256": "9a8efad6c5f6c88839f783374549d6d951af4c17226698296e26e9adb459578e",
+      "remote_text_sha256": "78525abf8aea55d928cd5c0c7d9fddfd8a9f41f54dc1bdea51efb2317a3045b4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G014-014",
+      "chunk_id": "9c904a485b9b9163",
+      "source_location": "S0034-T05，原生数据行14-14",
+      "candidate_sha256": "1e0364d2dcbb33f2a44ce64aca9b57bed6169c290fe89cb667d003d2666e9198",
+      "remote_text_sha256": "92fde237f3f3dd1a144d411f42099aba94f94ab89818d6e04de1579fa69a14aa"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G015-015",
+      "chunk_id": "5d26ee92760a97eb",
+      "source_location": "S0034-T05，原生数据行15-15",
+      "candidate_sha256": "e50c2d3b1c70b9ac164b8058a346ce59d448a1ef180905d38abfb96f56316002",
+      "remote_text_sha256": "733e653da42548eddb8f62b2a6ec39fe7e32501d2b5f9291ba8ab692a4d8349f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G016-016",
+      "chunk_id": "ef8be890045c1152",
+      "source_location": "S0034-T05，原生数据行16-16",
+      "candidate_sha256": "1ea59f87614136bec75103ec56a4a0076030ae0485344c1e2c9bff456b35fb4c",
+      "remote_text_sha256": "da426eed86570faca05be1bb7a06143830c964667bee78063b809f29b671e669"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G017-017",
+      "chunk_id": "8274941e613f42d3",
+      "source_location": "S0034-T05，原生数据行17-17",
+      "candidate_sha256": "252d8ef2f78a94172c6616a5c20f11239e49c0ddb925f42e7c802ff78165336c",
+      "remote_text_sha256": "6def2e5afd04e149b8140179da993aec7c3c50ef04a31533301cbf1e594fdb77"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G018-018",
+      "chunk_id": "0584b49cb2f60c4f",
+      "source_location": "S0034-T05，原生数据行18-18",
+      "candidate_sha256": "0ed3f9244edef172eed30a9b22e58edc8ddac30cfaace13be76f0634cb01137f",
+      "remote_text_sha256": "19dfeed7e5012bb47043f728df573a6ecaa5042cbc5a8f181d0ac6733a75ffc0"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G019-019",
+      "chunk_id": "8caacd8f23600045",
+      "source_location": "S0034-T05，原生数据行19-19",
+      "candidate_sha256": "002640dc463c1459ffadaac5b3127c93435af0ede32186f460393720e094e066",
+      "remote_text_sha256": "d45b7be3f8a750d8b641024f04a9a7822f0747eca86c6179ecc78ad60c2a9c20"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G020-020",
+      "chunk_id": "c4238e68ac65ce23",
+      "source_location": "S0034-T05，原生数据行20-20",
+      "candidate_sha256": "2b416cbeb8b72fddca6723b843305c22008fc0f33b37b12bba20373b01635216",
+      "remote_text_sha256": "e0b2e8a51c69bef2263a58c1ae927bde27343af506868ebc3da577aa61695d1c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G021-021",
+      "chunk_id": "82f79a5209b97263",
+      "source_location": "S0034-T05，原生数据行21-21",
+      "candidate_sha256": "4c9b3f6f068a90507f868f12ca881c71e8311736364856bad93fd247cb62b9f1",
+      "remote_text_sha256": "07b38f3ec67a47aba5fb6dee3283ab41bd843f1767137b433791aa167afaf46c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G023-023",
+      "chunk_id": "a26c129b3e6ff525",
+      "source_location": "S0034-T05，原生数据行23-23",
+      "candidate_sha256": "58c870c36334301dc9ebb532a9c717403d3af4596ad222ee98f475ecb383b4fc",
+      "remote_text_sha256": "d9962f16f584087d976c779d0ae49b6e8baafcb485f5b7b29121f1ba00db2f64"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G024-024",
+      "chunk_id": "aeff513249862117",
+      "source_location": "S0034-T05，原生数据行24-24",
+      "candidate_sha256": "d26bed593c1f4589220a44a2f3258ed5efabb89e930dbc0d9620199a4e839471",
+      "remote_text_sha256": "55def04e1c0d3536260459d07cd379a364bee975fafa8393d7fd072d2583decd"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G025-025",
+      "chunk_id": "72720b67f3756338",
+      "source_location": "S0034-T05，原生数据行25-25",
+      "candidate_sha256": "1c87933ac4fcd1acfb6edb727e42e9f47980e0c878cc2f7e92b0a138fc4a2974",
+      "remote_text_sha256": "7a3d17916303ee920a79658c78fbc37ab4685809ccb9a19b81817eac763f1bb9"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G026-026",
+      "chunk_id": "57b4815b63b47122",
+      "source_location": "S0034-T05，原生数据行26-26",
+      "candidate_sha256": "c8c88a2dea0a5b9ec1ebcf8de40ebf0080ff61879150585d6f8edefa3564963c",
+      "remote_text_sha256": "9c5cf012affca90cca16636d71050c230567743657a1b73a530a926d277d76e4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G027-027",
+      "chunk_id": "735164e601017f79",
+      "source_location": "S0034-T05，原生数据行27-27",
+      "candidate_sha256": "0b7ce126d17752029bbd67616c95da15b04446a75e4a8227ba2bd84b9d651b49",
+      "remote_text_sha256": "2ea27483fdc2194c82de6e0128fbb4105f6b194b50bbbec5b921f09e6677ae55"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G028-028",
+      "chunk_id": "416e628bdf953353",
+      "source_location": "S0034-T05，原生数据行28-28",
+      "candidate_sha256": "be9e23f12000c0205cf8b4e3c5f709a3357b0601d49d4ff5d80116b2307723f5",
+      "remote_text_sha256": "203aafca0e45a7ae7e88606e880ffb878452ced452200c62335a66a18761cbf4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G029-029",
+      "chunk_id": "528f0addf9c331d3",
+      "source_location": "S0034-T05，原生数据行29-29",
+      "candidate_sha256": "d58c8a06f726ad2de7cb460e66f63f7e42ed6999cdff294482a3cd57843cd229",
+      "remote_text_sha256": "f713d534cb832971f65f7dcbb3883b96108ad194ca537628a79580469a874806"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G030-030",
+      "chunk_id": "bb71095e4f1e03be",
+      "source_location": "S0034-T05，原生数据行30-30",
+      "candidate_sha256": "fe08c6d3168bf86acf40288b20b9eb8ccc2382859761ffb4a70cf2285decac9e",
+      "remote_text_sha256": "ca3f1d103d92c39dd6078a29aa87a9653d6d11dadcd4c03ba43df2729bea83cc"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G031-031",
+      "chunk_id": "0a1bd338a576ed6b",
+      "source_location": "S0034-T05，原生数据行31-31",
+      "candidate_sha256": "e4106cefc2e861c03c71d063c77f10293ca2eb9470be99ce709d64c2947e3c06",
+      "remote_text_sha256": "d2ad826bb9d024372ab0ec3ba7a18487243a9656e26b0c2dceafc38ba740b81b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G032-032",
+      "chunk_id": "ff87dda854ba9d1c",
+      "source_location": "S0034-T05，原生数据行32-32",
+      "candidate_sha256": "4d542c6cc477195951eac8ac669a581b056544ee32bf80a30fd54bfafb5d9f49",
+      "remote_text_sha256": "01b4d3fc7316a68a0206e95b7e74d4412636ae25007f9e9ab5cba2957d957013"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G033-033",
+      "chunk_id": "f7bc9cc7494dd5b3",
+      "source_location": "S0034-T05，原生数据行33-33",
+      "candidate_sha256": "944621c9fb4ec8b8a02cc5397ace9c26e484ca4e7af57a15aa6ba0e0b310faa8",
+      "remote_text_sha256": "dd3960f5b71d4bec14b64e48ff78fa03677a986569c86e3bfffac0a414491978"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G034-034",
+      "chunk_id": "bb7e60bb71a77bf0",
+      "source_location": "S0034-T05，原生数据行34-34",
+      "candidate_sha256": "65644f42473b5a9138a0a8a6d4b9e47580451897b92a47a9db441baa88ceec50",
+      "remote_text_sha256": "c570802cf9df83a1d3ead82eaf55c3bc725128aac6c54a77c3e145d07e6cf1ed"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G036-036",
+      "chunk_id": "35db13bebdb1a94e",
+      "source_location": "S0034-T05，原生数据行36-36",
+      "candidate_sha256": "a0173f7ba93e273841a01107912b58f099c1071032d82265f22fc46e9341feb2",
+      "remote_text_sha256": "7c3dd7ff6bee48e7902c2f93284053eb75749c4ae06e303cd967ba1cff2cb2ca"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G037-037",
+      "chunk_id": "bcee5a2ae0417376",
+      "source_location": "S0034-T05，原生数据行37-37",
+      "candidate_sha256": "20acf1555455c8f46b1254300540d00f4af553c4a36c7a87bb9ce36e8e164e80",
+      "remote_text_sha256": "535229e713b6be3eabe408ae402037872adc68ec6cad6d55bf64691b5034663e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G038-038",
+      "chunk_id": "f58f2c3108a8e6ed",
+      "source_location": "S0034-T05，原生数据行38-38",
+      "candidate_sha256": "ca8b973cf6c18a70ab0c1e7c655c008df50e21046cb6fb9c772f1a08fd417bf0",
+      "remote_text_sha256": "bb09134dcb0d76576cb8dcd2018fcf7d44130bc32bbbe60cdbc1406a68b1a2ef"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G039-039",
+      "chunk_id": "e439260e0b3c0667",
+      "source_location": "S0034-T05，原生数据行39-39",
+      "candidate_sha256": "7c5e6157b2605132b85d5e72d73aa094238231a78ec0957d5d0f1e455dc3005d",
+      "remote_text_sha256": "e2348fab20cc302f7193720a4df04963bf543298cd9927248d2ad700ffd92407"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G040-040",
+      "chunk_id": "6c933be67e6578c9",
+      "source_location": "S0034-T05，原生数据行40-40",
+      "candidate_sha256": "bbf9bc63a9a2cb2e4a8781c0355f49e94964f77eab360bdefa4a201b5df56c17",
+      "remote_text_sha256": "8638ee6a70561f5f751058cfb92c3555fd70a9bde20182e8e6456383c7e9eee5"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G041-041",
+      "chunk_id": "9347d7eba28b252f",
+      "source_location": "S0034-T05，原生数据行41-41",
+      "candidate_sha256": "54680b15c2a0954878780ba0bb8a96fdcb03cf67d4ea8528379e62849f17c550",
+      "remote_text_sha256": "70875613e7dd18f888a4903482d6a43f75bd67d0c0f92628def31d8212f3db19"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G042-042",
+      "chunk_id": "260d59e56821b79b",
+      "source_location": "S0034-T05，原生数据行42-42",
+      "candidate_sha256": "07603ae9d5b918e08bc928f9ee052bdaafa8beeb6a92b9fd501f59bc2b0587ea",
+      "remote_text_sha256": "8db8c7bc793247a7a81ea06741f0cef137edb5a50a5d3f337c10abd50de78dce"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G043-043",
+      "chunk_id": "64d1c747fe5f1ad1",
+      "source_location": "S0034-T05，原生数据行43-43",
+      "candidate_sha256": "6bea2e7aab4ac3f1a79b2b10e9adb864e7d38cee2645cee3545a2fac14232d66",
+      "remote_text_sha256": "7277dd9af2a3145b5a25e99efe497295b1924c4e400a9accead260afc1b1645a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G044-044",
+      "chunk_id": "547892fc8137156c",
+      "source_location": "S0034-T05，原生数据行44-44",
+      "candidate_sha256": "e0cf8944c4990c1162ba0f7230d04e73f8fc897ab87f05838c3c9e6f0c399d17",
+      "remote_text_sha256": "1491ab76f72f7ed2544c0fd0db745cacd46aa6af716bea9199a6513cd74791a6"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G045-045",
+      "chunk_id": "2b71247f2e7703cb",
+      "source_location": "S0034-T05，原生数据行45-45",
+      "candidate_sha256": "a93ee64ab3fa90d7bdd75aad4a1a52692e23be28f18c7590e54a577734660efe",
+      "remote_text_sha256": "fd33817675edae3aabd37e5f1edea5e795dcdeb4b72bd65f8660ca43f135676b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G046-046",
+      "chunk_id": "8b43163f698e149a",
+      "source_location": "S0034-T05，原生数据行46-46",
+      "candidate_sha256": "a36dc0e815b8d31f0bef983184b4942801fc53fa7cdc269a6ab0708e527a654d",
+      "remote_text_sha256": "c872d1dd2afb002da274f7e4c3f2f6b9c05c87f0e9a11e3ef81f1ab9032903f8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G048-048",
+      "chunk_id": "7f6c1eafeef27d20",
+      "source_location": "S0034-T05，原生数据行48-48",
+      "candidate_sha256": "225ce1920c445457447483c435825f0c388b66d149b24e61878f2d85f5ff5288",
+      "remote_text_sha256": "1edc6b6afc05588a71e4b519f921cfeaf01151bb29e32bc5b328a59313f7f250"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G049-049",
+      "chunk_id": "d1a72a53e6a4d471",
+      "source_location": "S0034-T05，原生数据行49-49",
+      "candidate_sha256": "89b2e83c8bbcc8d763ebacf21e846b0beb4f46fe3f1dbfbe02f282527cfdc948",
+      "remote_text_sha256": "ea9423d2d0a6347e1a5b286a7af9e031face57d3cc95b316e66dda02be3c0ca0"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G050-050",
+      "chunk_id": "e1e377fa2a3594f0",
+      "source_location": "S0034-T05，原生数据行50-50",
+      "candidate_sha256": "5b8302b3751bfd9f1a6f1a96a6a4bc370ba08de63b1541d47c05fd1a05cb8c31",
+      "remote_text_sha256": "65b633d4b13cff00c37ec80cae7d40d97cfa7913dd16beeb80d9a29ecd5e7d9e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G051-051",
+      "chunk_id": "15744d1cd6dfae5f",
+      "source_location": "S0034-T05，原生数据行51-51",
+      "candidate_sha256": "4e7a5167ed242ed6f843c86dfd28d3c2fe6a6ed5f95c29c89e720e2f1f8247cd",
+      "remote_text_sha256": "b40b477acac85d1b6f5b40a3664b851bc54b95430abb7fe5f8d67650878238ed"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G052-052",
+      "chunk_id": "2ae2adc039b487fc",
+      "source_location": "S0034-T05，原生数据行52-52",
+      "candidate_sha256": "a71d3a70bee00b5547662bec285fa207f299884f5b281a6819b8b3ce5e7e7b25",
+      "remote_text_sha256": "6299bf42c18b49c20af0c22e7e8357c8a34b9e1442925dc0c625f4df7026073e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G053-053",
+      "chunk_id": "5e41216447e4c62d",
+      "source_location": "S0034-T05，原生数据行53-53",
+      "candidate_sha256": "85d560561c3e15d909e46b3dd81da98755b47f13357253179e23b782c66e2440",
+      "remote_text_sha256": "ce00790809b2b52f9b3b09d6c9d3c408bcd66dc1603eb6c05e13aff2085e80e9"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G054-054",
+      "chunk_id": "d67111c24037afd8",
+      "source_location": "S0034-T05，原生数据行54-54",
+      "candidate_sha256": "3a22162c6935adb157ba5e8529ee47c6e96ad37c389a15ca9e8f8de0934f5a1f",
+      "remote_text_sha256": "de42894bd988d0402f46f3cbb2faec8ce7f86e66cfa781d29108256485ab7adc"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G056-056",
+      "chunk_id": "b410319c53b37e1d",
+      "source_location": "S0034-T05，原生数据行56-56",
+      "candidate_sha256": "5de1228df214c4227738b8f969fef12284005835c42871fac9fcd2c5dd2bb3af",
+      "remote_text_sha256": "1a965af053759f6f0fc2631c34b105d137e9fdfde057853e8a3be1ea6d196a81"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G057-057",
+      "chunk_id": "189a9ae6eaac1695",
+      "source_location": "S0034-T05，原生数据行57-57",
+      "candidate_sha256": "fd72a38ddb9abd9b55e9a7fa7b437c7cb574b0e097dd32c61cca07567adacc0c",
+      "remote_text_sha256": "5cf1857c701fae17ff918ad6314d4cf97f40ff193aa32f16ff376afa742ea413"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G058-058",
+      "chunk_id": "e6fdeec0db6b9262",
+      "source_location": "S0034-T05，原生数据行58-58",
+      "candidate_sha256": "5ef4d7e9e9b4fd4022397cb0fb928eec20efbed2ea0b97d2f8f976eed64041ea",
+      "remote_text_sha256": "9fc05f8ae117cc65fb6e78cd97afe29b682f60d9095c298378920f8cde5f7280"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G059-059",
+      "chunk_id": "a30f859b008374f8",
+      "source_location": "S0034-T05，原生数据行59-59",
+      "candidate_sha256": "35206211ce734135c5a17fc1b9a67eb967049b9326baee9d9a347ba3375fd5a2",
+      "remote_text_sha256": "fa7d7e68e0fd601455e751bc2c5a11d3f38c4c5002c0d9e71927fa28b4853767"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G060-060",
+      "chunk_id": "07d7073926f07efb",
+      "source_location": "S0034-T05，原生数据行60-60",
+      "candidate_sha256": "79ed37ea2516411cce6a7657e6f3e8e0b57c4d8e187169d06f38bb6a97445987",
+      "remote_text_sha256": "c74cdb5c5f611d17afe15e449c182fc2f1ba07c944e31102c1365f70b250a9da"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G061-061",
+      "chunk_id": "4a0bdd4d2c4600ba",
+      "source_location": "S0034-T05，原生数据行61-61",
+      "candidate_sha256": "c848223e3686198a70fb173ed80a714c66e88db681826ad15866a13c2bba5f9d",
+      "remote_text_sha256": "122e388c882e8ab8af0c4c01d1c6b2fd21795eff407787f7df7350257c206ede"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G062-062",
+      "chunk_id": "8624a13529c1187f",
+      "source_location": "S0034-T05，原生数据行62-62",
+      "candidate_sha256": "749a6a99f83e0763601cfe1941234197e564deff94803aa2cc16fbbad3753b3a",
+      "remote_text_sha256": "d149e677b801b012bd621c3b8d5d9c80d3dbdcbe7555c821ce0e38b7953d58ab"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G063-063",
+      "chunk_id": "6b9e3b4bb2ab82e1",
+      "source_location": "S0034-T05，原生数据行63-63",
+      "candidate_sha256": "5a86dc041142ad0c7a9aaae852fe609ce9d5cd650019790f24bee8d76b5bec61",
+      "remote_text_sha256": "f834a0198de0df33118fa7d0611ee413875b3d1b478a5618310f9da9cb071fcc"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G064-064",
+      "chunk_id": "0e9fabeb05fa56ae",
+      "source_location": "S0034-T05，原生数据行64-64",
+      "candidate_sha256": "d36a09327ba6baab4811757ee4c7da87b5f1b9e2934bc85d7c7181f25ce19aef",
+      "remote_text_sha256": "917eb3a3633762d401c58bc2e563216e8fe9b2ac52bd28a06b909c5ded83ff61"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G065-065",
+      "chunk_id": "908efcd7e2528829",
+      "source_location": "S0034-T05，原生数据行65-65",
+      "candidate_sha256": "fac6d58fa89f7ccfb198c0c784e21a2947c69c2d4e157f5167c4e3e7011a00e0",
+      "remote_text_sha256": "f2ea7b590cd44dc3332c952482fc578734fb051af715c4b08fc75c0bb362cb48"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G066-066",
+      "chunk_id": "e0cc8fc80649285c",
+      "source_location": "S0034-T05，原生数据行66-66",
+      "candidate_sha256": "120667bfb128c1eeb49d255fc0f603c7b2be836a5ec9e2b41a9a012aa7760407",
+      "remote_text_sha256": "5b36318b1bdb617fd6f03490fafdd6cb813f83e16ca10e4b4b38de7b24a5f3b9"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G067-067",
+      "chunk_id": "3066a7f4d3d1b002",
+      "source_location": "S0034-T05，原生数据行67-67",
+      "candidate_sha256": "15b3882bcecd68b76f5338b48e950bebffe8aeb33b168b09d6f13e34f21bd07f",
+      "remote_text_sha256": "365df8f6c67f8bf5d393b2854ca7214990cf58ec4f818011f7e3a231514041ef"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G068-068",
+      "chunk_id": "73053e6a818bd0ee",
+      "source_location": "S0034-T05，原生数据行68-68",
+      "candidate_sha256": "a1ce4592d24cffdf5aa99fd406d7d2ea1f7b3d0017c7800bdc3a5bf41dc20d4f",
+      "remote_text_sha256": "38dec61d02ff3acc33c1cb22a8fb7e50ab9706f98fdeaa30c8517cd4b317e602"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G069-069",
+      "chunk_id": "a1862e700cc34b7c",
+      "source_location": "S0034-T05，原生数据行69-69",
+      "candidate_sha256": "d79187e460c388398c4c04a29153ef18fbeafc6e733d7630eb6a2c7af1c38aab",
+      "remote_text_sha256": "5acf7108c8c2eb14f32052915a29ceba6c06d5fb9b953a46b24799ffde239d67"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G070-070",
+      "chunk_id": "c2e7c114dbc6ea2f",
+      "source_location": "S0034-T05，原生数据行70-70",
+      "candidate_sha256": "b5476ac09c4313d6511e3c5417eb16d92d8e05bf6ed905e67a155b03d92e8c78",
+      "remote_text_sha256": "2c4a24030c3a1e439cb7174b74b1e0800d4fb91c05b4ca457452d7fd4528c9ec"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G071-071",
+      "chunk_id": "fb3541546821b2e4",
+      "source_location": "S0034-T05，原生数据行71-71",
+      "candidate_sha256": "4517dc7c1d7f522732b9f5096d96e8d6236a720bad17207fb8154baf1847d9a3",
+      "remote_text_sha256": "c5f54bcd04bdd168a6d7ad695d1596d51705ea2ed6af524d17f995371e2982e3"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G072-072",
+      "chunk_id": "263bef8b194a41f6",
+      "source_location": "S0034-T05，原生数据行72-72",
+      "candidate_sha256": "e9ea447af6c37d1d7ce1c33490b771d71c7a3847daddb3f76d72548a3e5b0f2f",
+      "remote_text_sha256": "3889fd45cd49e2a06fc7eedd009002df6d18e3df6f3c9dcb663da33c11d1bcae"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G073-073",
+      "chunk_id": "9e84886dfb88025f",
+      "source_location": "S0034-T05，原生数据行73-73",
+      "candidate_sha256": "45d972169c1c9239190edb62f784661bed59ab34bb33967edf7f24416b693ea2",
+      "remote_text_sha256": "493440fe4e902aaab8cb7025a8884b9862ad85707ee725cd1d2d32b2c958ffa0"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G074-074",
+      "chunk_id": "09c140c79a5e7a58",
+      "source_location": "S0034-T05，原生数据行74-74",
+      "candidate_sha256": "dbe518273727e3961680ead41f3652a614e25fc5dfecdddfdab84e4a326b3a09",
+      "remote_text_sha256": "864dfbc412dc00da5254975ed399a3883bdce2242bcc9e18598cf57c8eaf9cfd"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G075-075",
+      "chunk_id": "4edc52b354694c16",
+      "source_location": "S0034-T05，原生数据行75-75",
+      "candidate_sha256": "598ee7e08c099856989286d6fef99af236dd4366d03ba770b6d93a05ac18a2d6",
+      "remote_text_sha256": "670adace393c1f438e785fe3f0473c8d3e368acac72a92086e49a108de9dd714"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G076-076",
+      "chunk_id": "6f59a736d6eed1cd",
+      "source_location": "S0034-T05，原生数据行76-76",
+      "candidate_sha256": "25b6ba679cbcf62ffa8f3bace984829974c1bf41a2036bfa0b10c1b6c1c95338",
+      "remote_text_sha256": "d02c4215b8a15174392e9d629511b6e0c012309052be23defda75e595b5ba740"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G077-077",
+      "chunk_id": "f3ae893d3c13f6bf",
+      "source_location": "S0034-T05，原生数据行77-77",
+      "candidate_sha256": "bad8750a858a32d2b0843e2e9e06ab5c2293ef3c6057be640edfd0883c48c55d",
+      "remote_text_sha256": "4dc87d7a80567471e4d4f508bbd9407364a1178716f363cbeb2de78f246bafaf"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G078-078",
+      "chunk_id": "477cff5d9374f704",
+      "source_location": "S0034-T05，原生数据行78-78",
+      "candidate_sha256": "ac4fbd6ef70fcfe470844ff15693aebbdece5554c082ccd5abff25b8551ef621",
+      "remote_text_sha256": "5ba2258906f7b4aa543170fb3509ad354e52960b8494e77a6c75f99be0d7170f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G080-080",
+      "chunk_id": "2f1179327f16ebed",
+      "source_location": "S0034-T05，原生数据行80-80",
+      "candidate_sha256": "de8a68f4e0b8e21c6d7220e94257ad6e84bcb5630632b1db7adbaaa523b8a150",
+      "remote_text_sha256": "37a067c6d3a20033db00caa7cf978b852ec830479995ec2b4f3361a526d91829"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G081-081",
+      "chunk_id": "aedc0bea96b8a439",
+      "source_location": "S0034-T05，原生数据行81-81",
+      "candidate_sha256": "e6bb64132abe5707d006efa09acd4106f4d57e737e7bc5cda6a3887676e0ab72",
+      "remote_text_sha256": "5198944a164bdb0825c645a9ffc11070d74c467e6ca832c0864f53c24c3eb3f2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G082-082",
+      "chunk_id": "58e54291c329083e",
+      "source_location": "S0034-T05，原生数据行82-82",
+      "candidate_sha256": "9f13b8b2dd66a442103bce42efc5982340eaae66e8b53ca63f1a5d02e80d81eb",
+      "remote_text_sha256": "9dfbb99cc50fdbceea4d5435abb3c0f8ac3774a7b9f0a88f9a2404327a10aa4b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G083-083",
+      "chunk_id": "2ea908e1c41a4154",
+      "source_location": "S0034-T05，原生数据行83-83",
+      "candidate_sha256": "d42d53ebb811d8b799724143a63f8c8cb2235f7b0fb22d579c039fc93eb2163a",
+      "remote_text_sha256": "cc07986ae9502f789f9dd4862f2643225310c5f70dc38f57769b16dd54a27d1e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G084-084",
+      "chunk_id": "e22f5a4e9d5ed528",
+      "source_location": "S0034-T05，原生数据行84-84",
+      "candidate_sha256": "69f1bfb2a91a4db8aecda14be1e585d8087f54661cd98e5c487f4818b4981b56",
+      "remote_text_sha256": "f9a19e62acffe62d7e7d2a15b695250dab65becedc3b24a07788322c22ba54be"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G085-085",
+      "chunk_id": "14a209b370756d3f",
+      "source_location": "S0034-T05，原生数据行85-85",
+      "candidate_sha256": "c84b9e0cb179dc286c067938e482a9fd5017f629a48446c957299b0eee1168b7",
+      "remote_text_sha256": "879dfe0f2ecb352b253eb4b287c0665a1df31f818770238950050882c682ac0c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G086-086",
+      "chunk_id": "dfa66f18e2d610b3",
+      "source_location": "S0034-T05，原生数据行86-86",
+      "candidate_sha256": "92e990f8fec73a9a839ca772c3aea628dcf2ef9c7e8f3eb5b42a45fa92bb801c",
+      "remote_text_sha256": "b0cd35cbf0dbf88c2b36e4612894a4d56b90a2d946be375cca7384da07b960ee"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G087-087",
+      "chunk_id": "f501a90a8de8e481",
+      "source_location": "S0034-T05，原生数据行87-87",
+      "candidate_sha256": "1cf5d816c9601c48b5e63a1a789fc0864b06262b1f19239d1ed1582b188d67e9",
+      "remote_text_sha256": "12e99f088d4e1af473e89ea0e557bc26347bc6a58032eb74765f36201aa1ca4a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G089-089",
+      "chunk_id": "167e66bebd01eb4d",
+      "source_location": "S0034-T05，原生数据行89-89",
+      "candidate_sha256": "cc39ba29a6bc773568d842e3c2b54683c611ad9cad72105151fdd61e00bd756c",
+      "remote_text_sha256": "8f377ca0869948593077b71ddb8fedb0b4f667d755f8da71ecc8b3041c88d355"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G090-090",
+      "chunk_id": "9d8496a418eb456e",
+      "source_location": "S0034-T05，原生数据行90-90",
+      "candidate_sha256": "85c266ce490302753ae1b8e615d01f5a0d05eaf7d4f91b49509bb6dd4c64a944",
+      "remote_text_sha256": "0250cb12d8687a6e0dcd57866e233d95317bcd21b333a545bca3f11e05784975"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G091-091",
+      "chunk_id": "ca8f245ce3f0ba4f",
+      "source_location": "S0034-T05，原生数据行91-91",
+      "candidate_sha256": "33c3c7fc63e4fea1c0a6dc4e39f5a5eb42c3b35291b1fdf788df58ab35639068",
+      "remote_text_sha256": "e39546d97f6a37bea9745791a070508b2058595403ebc8e67120a95b3653be8c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G092-092",
+      "chunk_id": "bb1916a2c118617a",
+      "source_location": "S0034-T05，原生数据行92-92",
+      "candidate_sha256": "8ee596637dfdaa348d0ac9de62f8e53a7eefd125ddb90b3152704e7199026bc3",
+      "remote_text_sha256": "fa8a6e3c56ba071238594db08716bab0825d2db4b01c50116f295b4508210153"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G093-093",
+      "chunk_id": "472012bfaae60499",
+      "source_location": "S0034-T05，原生数据行93-93",
+      "candidate_sha256": "c0a99f5f50891ed5e67fdc760cd26a97a7ec3d8b90ccfb5817f3a0ce002f6049",
+      "remote_text_sha256": "dd821a3a1350113537dc61e3279d9cf0c49bbd5a37977b78ccd51021fa6f3330"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G094-094",
+      "chunk_id": "bbf364afa32bbda7",
+      "source_location": "S0034-T05，原生数据行94-94",
+      "candidate_sha256": "0cb28c9fce57fb236dd1c58d0c2bec43405b24dd494ed107108d2f307dfb5ffa",
+      "remote_text_sha256": "f4dbb1cff84b8a112fe597493eefe37175fee0426be38f51dcca820f0b9f59ac"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G095-095",
+      "chunk_id": "5f7abb60769eed2b",
+      "source_location": "S0034-T05，原生数据行95-95",
+      "candidate_sha256": "b67a72704c5758baf4838200030531095f2782b70a3edf5186db55a920cdb5ea",
+      "remote_text_sha256": "b149ebd4bdb9fbb2b51c6ae52babb952c84372c1c907e209e9792500ea7cea86"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G096-096",
+      "chunk_id": "32b3df69bb3a6ce7",
+      "source_location": "S0034-T05，原生数据行96-96",
+      "candidate_sha256": "235db521c38933a1674d15858dcf6ac3ee4cd9374d56d80099f0477220f2e092",
+      "remote_text_sha256": "8a32bb85214c625a0d4a3b9ec40bafc25af6f5308f1a23fa5f4c3852f5fa63a2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G097-097",
+      "chunk_id": "09d020669ec481a2",
+      "source_location": "S0034-T05，原生数据行97-97",
+      "candidate_sha256": "89ff140a3838311c8ed7dd91d4f146eee64b3920e2a873cab29e51b50b302286",
+      "remote_text_sha256": "f9323e8340b94bf925fe32b10c626f735e43609a2a906811fe985b2edf1c58aa"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G098-098",
+      "chunk_id": "c4c158714b927a48",
+      "source_location": "S0034-T05，原生数据行98-98",
+      "candidate_sha256": "ce76088b46d170cf3f5c344c463bb6f74d12e5b3a3b41ac9078c3eec1d4dc223",
+      "remote_text_sha256": "9525711ddfd522bde469b8fa914a359c62de6a97634ba35cf9c3e2baa4057092"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G099-099",
+      "chunk_id": "5f8efea2e0188503",
+      "source_location": "S0034-T05，原生数据行99-99",
+      "candidate_sha256": "ffcbfdcc2a4b6ea1d4f98896eac9267698785d915f52bc29c735c6036ac0f755",
+      "remote_text_sha256": "76582970cec11c4e62a47fc8114a18a22d325dda475d3dc4b140ee42a6485c04"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G100-100",
+      "chunk_id": "0f58abc592faaa0f",
+      "source_location": "S0034-T05，原生数据行100-100",
+      "candidate_sha256": "0640db0844505937e560d6e1083ccf48d497a6f4f363d60d9cc0601e1791679b",
+      "remote_text_sha256": "f78b0279c979d3b4d4897311f3a240b2d1090ed8717d840eee1f4830e3ffd222"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G101-101",
+      "chunk_id": "649e4afa7503db05",
+      "source_location": "S0034-T05，原生数据行101-101",
+      "candidate_sha256": "a4f5dafaa660f33a1b0d96898f79e7c1c623bccf450649955b6d3f661c4d8548",
+      "remote_text_sha256": "3a6602f2e2cc3b287500de65ece2d16a77fb4ccb77ed3dc9d7fc2c64417a3564"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T05-G102-102",
+      "chunk_id": "8fc34bb4898d9368",
+      "source_location": "S0034-T05，原生数据行102-102",
+      "candidate_sha256": "2c88226b6191f8796333a246a547166c08c737c20b3a70f338718e4592f9b497",
+      "remote_text_sha256": "9c26fdff6279dc50bdc45f28cc80ee3c2e30a1b67368857669e556e32824e96f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G003-003",
+      "chunk_id": "a3eebb2bc181b4cd",
+      "source_location": "S0034-T06，原生数据行3-3",
+      "candidate_sha256": "43d55873c9a05dbf5e4268f4a86c4b02d0f791a550c26265b1ca54d987f8239f",
+      "remote_text_sha256": "25dd5b46ba8a54fb1fbdbebfc8288becd91e8674b51990755035edd04c2c10b5"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G004-004",
+      "chunk_id": "d45011f7183aef08",
+      "source_location": "S0034-T06，原生数据行4-4",
+      "candidate_sha256": "1d8eb9e9b1701519500516e59ccf4de290332a2e65708bd0908a5e2b675a663e",
+      "remote_text_sha256": "f1d8eadf2f2886e06f7b7722d025371de3213efd282a6d4772800367aceada69"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G005-005",
+      "chunk_id": "68a348784319b378",
+      "source_location": "S0034-T06，原生数据行5-5",
+      "candidate_sha256": "4d3db97e7fe8fcbb1d37eeca9d1499876c19405746e68955200ad4a74f98d0ca",
+      "remote_text_sha256": "78bdb11f5606581aa411da3001246a7846d98897cd52a72ccea2ceb94e576ffb"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G006-006",
+      "chunk_id": "7caf0ddd05f90c89",
+      "source_location": "S0034-T06，原生数据行6-6",
+      "candidate_sha256": "1604c60aa522e3906e59cb5909adbe6d83d254e2e15b5b701e9171a7e751a2a5",
+      "remote_text_sha256": "309f8fecbbbf97aac7aded63d9dfbb4db063c54c6c7332d3cabc6afd44fdffa8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G007-007",
+      "chunk_id": "bc862ff27672bab5",
+      "source_location": "S0034-T06，原生数据行7-7",
+      "candidate_sha256": "afe0e53b6e406cbb3495fa8aae2dd15784b3e034ee5f4d796253b682178f0085",
+      "remote_text_sha256": "924b99e2f0efddd8920397ea273e3082a6d1a01754e7e2fd70546b942cd98e8c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G008-008",
+      "chunk_id": "375ec9656eab74d0",
+      "source_location": "S0034-T06，原生数据行8-8",
+      "candidate_sha256": "5e89c7438656d92cd5390c69bdd65f35f9622d4175c30b5936d1affcbe77e1a1",
+      "remote_text_sha256": "1f10ebc325112bdbfa04d15b3fb078bdaf731f1c225f74589dc8037cd67b11f4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G009-009",
+      "chunk_id": "41f333b0a46e62c9",
+      "source_location": "S0034-T06，原生数据行9-9",
+      "candidate_sha256": "9deecd50e3c9bbee9061c09f4118eea224769b6681a24959da16bd5a34223dca",
+      "remote_text_sha256": "781f51f17e089a40cac101d569626a2e83da9a2f9af31a339e8fba865484e0c9"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G010-010",
+      "chunk_id": "b261c36dadc8cf96",
+      "source_location": "S0034-T06，原生数据行10-10",
+      "candidate_sha256": "080e14b62cb80abdcf529ffdb6b89982bfb222c9cdec11159af1aeb6a2adc036",
+      "remote_text_sha256": "35b49bf07d1b19a71a92c78921d69a7b715524a96c745a56c48b5fa5009ec792"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G011-011",
+      "chunk_id": "7634a0c31d8e7524",
+      "source_location": "S0034-T06，原生数据行11-11",
+      "candidate_sha256": "3653a1fca1596198129e385e362d908f76a2ebb4605d1c787de80e28b039a905",
+      "remote_text_sha256": "a6639a5dcd8ea63f27de722f7df426caae4801b859a5c5eacd5dea5ae4baf7fe"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G012-012",
+      "chunk_id": "dfbe37fd442a53f1",
+      "source_location": "S0034-T06，原生数据行12-12",
+      "candidate_sha256": "cdabaad67c2d47ba32254ffe304a59f3152afb9ffd4a0e3938a25ea601e98053",
+      "remote_text_sha256": "737230b8666199f4ecef68ff1995511ded8c88b4098a0d18833c69da1672f2e9"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G013-013",
+      "chunk_id": "edb4ce7bba8006e7",
+      "source_location": "S0034-T06，原生数据行13-13",
+      "candidate_sha256": "a0480568709a5a20f9c1522fb1db6d1475e6e58c63ab666412cbccb317f17ce6",
+      "remote_text_sha256": "9058ef79d3d3a76e29780d45006abd57b996761bac9086aecedb9a812f018283"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G014-014",
+      "chunk_id": "1799db9f620488f1",
+      "source_location": "S0034-T06，原生数据行14-14",
+      "candidate_sha256": "2d27e85102202de0650bda4728e93f5c98a8c37fcf9693c0808f53d2866ca10d",
+      "remote_text_sha256": "eba3e59154247dff67fb5e41e24715e056bea1d60069d95e957ab90d0e4987d8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G015-015",
+      "chunk_id": "a3ec013068cd1832",
+      "source_location": "S0034-T06，原生数据行15-15",
+      "candidate_sha256": "a1f88567f3eb72c7fe892dc2dc178f928ae55147bc9d98975036fd11f4d14c12",
+      "remote_text_sha256": "71c22c6c7fdc6f0a347d050d2c2eae1a63853e305a8b7f71bcd91a60c32564b2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G016-016",
+      "chunk_id": "9eaf61615484684c",
+      "source_location": "S0034-T06，原生数据行16-16",
+      "candidate_sha256": "c5a1402dbac2bf9d211d00aaee41d1ba582d93fcfd834f63387bcae4d9d1c1a5",
+      "remote_text_sha256": "54e0f2a5fb5cb09fd528633ae1953aa9d2649bd6e14f79881c604e7e1a5b3dfb"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G017-017",
+      "chunk_id": "23d66c512f12ab06",
+      "source_location": "S0034-T06，原生数据行17-17",
+      "candidate_sha256": "f67c072133fd345e101020c8f40d447aa9e275b0ca85a23fb9d60d02c07c0790",
+      "remote_text_sha256": "0af62d85a66609ab23fd9ebd345dfefff22a8954e63c618cbaf26ea06f07b746"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G018-018",
+      "chunk_id": "0af6225479a74b20",
+      "source_location": "S0034-T06，原生数据行18-18",
+      "candidate_sha256": "9ff2e735c4c7fc3e955ab2324ac012dd58861862f610dcf8d88333fc099d46c1",
+      "remote_text_sha256": "19059c8aec9c175c628bac0501c180fe555cabf1b56ab4d8da46e0a26e0f4994"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G019-019",
+      "chunk_id": "59658b727c775f92",
+      "source_location": "S0034-T06，原生数据行19-19",
+      "candidate_sha256": "0a4b3e3d83842ae0018b6dcbde0fc1e7b0e35b4c783d543b6208e22b608632fa",
+      "remote_text_sha256": "ed286843f400acc835bc03623a8282771254870680afebe06708f82b2725f26e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G020-020",
+      "chunk_id": "61be28d7e8bc3167",
+      "source_location": "S0034-T06，原生数据行20-20",
+      "candidate_sha256": "fcea4f39c5bd2e8dab9de99d228d488edd7f440840fb1e5bcc4ff8c68125c781",
+      "remote_text_sha256": "9263a813028a414bc8192d455ead1ddf3f5f4ee93b58838a55261f7f2bbc99cf"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G022-022",
+      "chunk_id": "35e1c15a9db83b2b",
+      "source_location": "S0034-T06，原生数据行22-22",
+      "candidate_sha256": "11c4257337b75c7c6aac9dd93cb276037de17e352bd89699c73bce4d9c20f14c",
+      "remote_text_sha256": "ba21a7dbb3d447a36cc97b477e7ccfd2258e8c27be7e757067ee1aa558feddce"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G023-023",
+      "chunk_id": "d60d7fd2573fb279",
+      "source_location": "S0034-T06，原生数据行23-23",
+      "candidate_sha256": "a91aa7a081beb83a8533499a185c9ee2a07d43fe57fe070eb71289fa53ab2ca0",
+      "remote_text_sha256": "6bf310d4a7098405636db10c4ffd742c81e101182eedc44bb987ced40f4ac1ea"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G024-024",
+      "chunk_id": "8a5c383cfade6609",
+      "source_location": "S0034-T06，原生数据行24-24",
+      "candidate_sha256": "5883a80f086842afc98d9ea720bb5400197ad54a2487467a728791dea28ff593",
+      "remote_text_sha256": "7db0f3f10a4150269194bf8d9f031113e7255b6e6ce9fc6d6c134b3e90212bc8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G025-025",
+      "chunk_id": "6ce1c591a265f2bf",
+      "source_location": "S0034-T06，原生数据行25-25",
+      "candidate_sha256": "f03af2f952664b39c2cad652613c01a8c8ab7f337ccf60608645590427881e03",
+      "remote_text_sha256": "5b03326a27ec286c6f256772911ffa9b773322f677046acfa81209b4e18518c8"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G026-026",
+      "chunk_id": "40858163c9c137ea",
+      "source_location": "S0034-T06，原生数据行26-26",
+      "candidate_sha256": "d6aa9d641fd7311555d5544b33477cd89efb4cdd89c1a125e1536d88aca72ae3",
+      "remote_text_sha256": "6c9b1dabb1cbc8c4685b016af6340ae3dab841d9d554454f86eeff24cfd647de"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G027-027",
+      "chunk_id": "34247211a4066067",
+      "source_location": "S0034-T06，原生数据行27-27",
+      "candidate_sha256": "4c405ecbf23ca4c624a57fc505f202fd4e87ebec81bf1817dc56d4d29ea34657",
+      "remote_text_sha256": "7bf5fa0e17c840c52cd00ce7e94e9d5899a42fe84bf1963240dd959df9d4bc24"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G028-028",
+      "chunk_id": "9525fb40a884a615",
+      "source_location": "S0034-T06，原生数据行28-28",
+      "candidate_sha256": "13eb7bcd30ee2d583998cd9f7e9cf74b061a4242150536d57f7af99662b90fc2",
+      "remote_text_sha256": "12f740bca4b291db8ecb52746ce5411cb62417b6921ca4798288f7a814b5cd4a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G029-029",
+      "chunk_id": "c8558ae2fcb89446",
+      "source_location": "S0034-T06，原生数据行29-29",
+      "candidate_sha256": "9d77b63a836ae987422fed6993b964e49d53e1a6a73298b35d0df9e4cdd2dac4",
+      "remote_text_sha256": "5bf58bfb11a2e556317dec6330f4d126491ffc72cda168c6043d1ea836064dc2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G030-030",
+      "chunk_id": "facf3629b2e0bf0f",
+      "source_location": "S0034-T06，原生数据行30-30",
+      "candidate_sha256": "df3e89ef96feaf6e7644718c93b3e6191fb3ffaa891030eb82cb04e2b907a73f",
+      "remote_text_sha256": "c9189c554371fe086e8593d0aa697b64c2cb0608816a31af3bd4207dccead976"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G031-031",
+      "chunk_id": "b14db354e9bce0c0",
+      "source_location": "S0034-T06，原生数据行31-31",
+      "candidate_sha256": "73ef2eae8dccc3aab4a92b8fd67befa1251cc2e25169a4e1aba8a56f3d27b1c1",
+      "remote_text_sha256": "b94948c31292415dbe44ff32b6bfd3db29bedddd2c45aefc3b6fa99adc39854b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G033-033",
+      "chunk_id": "6458a9e80d7eba2d",
+      "source_location": "S0034-T06，原生数据行33-33",
+      "candidate_sha256": "35c6c28b14e5e5a383fdb1b11f7d94f8f8459dfcd156eee968a975b63e5759bf",
+      "remote_text_sha256": "d3428a1ac672cdddad26866ac3f4da24279bbdd901d4b7106c3d66169b835df1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G034-034",
+      "chunk_id": "58c012c606e727e2",
+      "source_location": "S0034-T06，原生数据行34-34",
+      "candidate_sha256": "ca381d77bce799968c9f0c721f886321376c6ccff26690f431dc3e303cd74749",
+      "remote_text_sha256": "2bd7b74497a1ba0de92b0bfc8417d1c8c44ca3ea327476000f3fd0b182b1257e"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G035-035",
+      "chunk_id": "bec9978bf5a6a77c",
+      "source_location": "S0034-T06，原生数据行35-35",
+      "candidate_sha256": "49c0f142a398cd2133419c4035573196618f952d73a3a650a273f2b06208dacf",
+      "remote_text_sha256": "281f82e3dc347f5efc7bec4c0eac7ed14ce4884d6c78e0515254789ee6ff59d2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G036-036",
+      "chunk_id": "059c752f6244fe4e",
+      "source_location": "S0034-T06，原生数据行36-36",
+      "candidate_sha256": "7b78928549cc97139689099520fbe3dfcc0431b9053483499b61c58c796380b8",
+      "remote_text_sha256": "3cc6dce3b4bc7b314a0504c48e10bef1f8d9110022abd1f156df585f4607e833"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G037-037",
+      "chunk_id": "3497340e46311244",
+      "source_location": "S0034-T06，原生数据行37-37",
+      "candidate_sha256": "fd26f0d53fefcb01837811fe6b1f138ad3b2332d2eda60f8ff0e25f126927131",
+      "remote_text_sha256": "2efb6f19bc40c15f168a92ad306075eabedf6b4a8396f3ebf7d06c617db96b44"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G038-038",
+      "chunk_id": "88e43b471b0b0322",
+      "source_location": "S0034-T06，原生数据行38-38",
+      "candidate_sha256": "428336b6e5faed8187ca8a9fb5010c8daae9db2f1b39765814ef8062a765e597",
+      "remote_text_sha256": "675c376b8dfb54f2bb3dfc664be6180c8659714c7d2b5336b214f5ee5199ffcb"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G039-039",
+      "chunk_id": "3ddebb01123efe73",
+      "source_location": "S0034-T06，原生数据行39-39",
+      "candidate_sha256": "713ffecfe3f43b7373c6d5887fd9d069a371f55d9cd2e441a09a08feee908874",
+      "remote_text_sha256": "ac1b6d58de25a9f928e79aa17b2d2c97685de691b490b4b2059716061711a2d0"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G040-040",
+      "chunk_id": "3f5cabbf086db6e2",
+      "source_location": "S0034-T06，原生数据行40-40",
+      "candidate_sha256": "f1581ab13741a4f26748959ea858828a6aafbe59de2e2198fa4492cecd76bcb7",
+      "remote_text_sha256": "e4da71486099692d110629a6536e237950120d66cc0bc12f6fb8fe3d4d1f3da2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G041-041",
+      "chunk_id": "2a46f0a067ac2b83",
+      "source_location": "S0034-T06，原生数据行41-41",
+      "candidate_sha256": "e654ea65c6ac874275a75933b1653bfd497aff059e95689f3f006845da2e30fc",
+      "remote_text_sha256": "51b294425cfc9fe5e204cfe5323a8edb96d0f8796a25f6a328f7862b77146cad"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G042-042",
+      "chunk_id": "d10a3c6606c34a86",
+      "source_location": "S0034-T06，原生数据行42-42",
+      "candidate_sha256": "40d7ef1ccf5c967830282f1b8771fe7aad7cbb0286513284e2af6623a06a73b7",
+      "remote_text_sha256": "da5e8b017405772a02b87f0673024c31d12ad403bc3545b05b2d20dbb55eb86f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G044-044",
+      "chunk_id": "cfa204578d2adb80",
+      "source_location": "S0034-T06，原生数据行44-44",
+      "candidate_sha256": "a3f3dddfe9fa02e92d9d79f532068d0a079aeae57bba117b9cefea5bf83cf5ae",
+      "remote_text_sha256": "7e8a0f2f8121ef5b1869f14b78deb06fd011bc363af222f1e4222a2a70eac862"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G045-045",
+      "chunk_id": "e71407375fd1d533",
+      "source_location": "S0034-T06，原生数据行45-45",
+      "candidate_sha256": "37a4c7af3a854d388979487f1011fa2d390b0d02410eb7e711b70c7cd9e259ed",
+      "remote_text_sha256": "73bae37153c021f32d162b89d9ce3b8c85218433a27dc1f8440a46f4e37edde2"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G046-046",
+      "chunk_id": "56bfc3723c26a0a1",
+      "source_location": "S0034-T06，原生数据行46-46",
+      "candidate_sha256": "c3d3d61bfd7fa88f9c8ecf89fbabb20d3cb18b5339c26a768d2c753caffae797",
+      "remote_text_sha256": "0a670c60abf82c216f67b82aedeeeafbf5fe553f188ad8e85373ae434fddba72"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G047-047",
+      "chunk_id": "4cc91c87b03e314b",
+      "source_location": "S0034-T06，原生数据行47-47",
+      "candidate_sha256": "27eb251dfb2152102d91d62ed5db6e3b2ae3f9c4d0227c655c9c27f61ede7d8e",
+      "remote_text_sha256": "b7195ebf8b25706316721dc227f3b8d544f06d248d6c35dc429df394f2436d38"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G048-048",
+      "chunk_id": "7a1b43953f089610",
+      "source_location": "S0034-T06，原生数据行48-48",
+      "candidate_sha256": "1ba54de61e6e080831c97e01d26d915fb8b1c4bc9a91663a9692bae3c846f7fa",
+      "remote_text_sha256": "09a6f8c397d0bcf49bddc91810241ed25d5eb17ffab985f2529d18e7cfb66e92"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G049-049",
+      "chunk_id": "22d32f483bcfea69",
+      "source_location": "S0034-T06，原生数据行49-49",
+      "candidate_sha256": "7da69d62b5b0cf713a02b12c08f6a706f4765ba2ef4fe80bb481a2c4493a2a28",
+      "remote_text_sha256": "3b32a345d47493b5adcaee3dac9fb1d147c9a238a3a93488e55fbf000a6277e3"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G050-050",
+      "chunk_id": "550a4a08e1c94e25",
+      "source_location": "S0034-T06，原生数据行50-50",
+      "candidate_sha256": "fbdcd63af0a1bfb4dc119867efba9e67581444bad91774eab5cf9cd255bf0198",
+      "remote_text_sha256": "4f967fb70aafbe8f5ff603e6e4177c02b20efa9208d42817eebe211a3c718375"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G052-052",
+      "chunk_id": "6fb7e95134803b90",
+      "source_location": "S0034-T06，原生数据行52-52",
+      "candidate_sha256": "d495b8c4c1fda6b52d04cd54910fd942a6dc24ff4de21277ae22d700b4448621",
+      "remote_text_sha256": "3a06bd50fdd126615506423345ec61aaa3c4a452bb1eb07c99edf5febf4a8b65"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G053-053",
+      "chunk_id": "9cd4ed331967c474",
+      "source_location": "S0034-T06，原生数据行53-53",
+      "candidate_sha256": "cbfcc23882760e84a4eef85468a99415ab8bbb3c380e84ae42377851fbad905e",
+      "remote_text_sha256": "a23395e5a0b72fa86cb9ae5e719cdfeb5ee8faa7c38e4d2074e027c4aadb9489"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G054-054",
+      "chunk_id": "b13ca8ce45d20870",
+      "source_location": "S0034-T06，原生数据行54-54",
+      "candidate_sha256": "d069e9e17445fd242f92d1615a0dec724a9a434572d6e76673f59abb6e4a7439",
+      "remote_text_sha256": "d46fd984b2163ebfbce4730cdfce4f0defa10e0c8ff300a6b911c8a1d0db7e8f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G055-055",
+      "chunk_id": "682162031551a758",
+      "source_location": "S0034-T06，原生数据行55-55",
+      "candidate_sha256": "3c3956335e3076738c1d74c206e71b05fa9b73e911f7026920a955f2a7d279dc",
+      "remote_text_sha256": "672deb6a088b8d77ef07ef8c46dfc644d28db7d417b17c49e02d349fa6fa5954"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G056-056",
+      "chunk_id": "9e4760726b218802",
+      "source_location": "S0034-T06，原生数据行56-56",
+      "candidate_sha256": "100b12179ac105763e8f5597ffd50b86ba69b683eaa45bfa1d0d9887a1ad7df8",
+      "remote_text_sha256": "a5d6e096a6d257a692e52c6d396b1d46d6a19319490329073fe16e1315cc257b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G057-057",
+      "chunk_id": "8508f82ab0d98507",
+      "source_location": "S0034-T06，原生数据行57-57",
+      "candidate_sha256": "785c3742d3864f3ed8013be3b18d53a575d16a29c362710712f7d48ca3614782",
+      "remote_text_sha256": "76bf758eee0321c0dc86eb1ce4b208b2f7c8e21fd84550b9125a47393a545b53"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G058-058",
+      "chunk_id": "c40b52ec39417e3e",
+      "source_location": "S0034-T06，原生数据行58-58",
+      "candidate_sha256": "0c3102c0154b23994ef21620c1c86accb2b81de1750c4d3a43a25bc8d2355c5f",
+      "remote_text_sha256": "1b7d43482833bef7898ecb47b58da16759c8766d730baf4f65032886b324d15b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G059-059",
+      "chunk_id": "516361304c78befb",
+      "source_location": "S0034-T06，原生数据行59-59",
+      "candidate_sha256": "15c14c73582bf55e60954e7e16d76a9179d90ac582a599e08d5fdf57f019873c",
+      "remote_text_sha256": "7ea65c06414b30973271e2aa222282d28f2c60d3a7e0956c6113e438b118df4b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G060-060",
+      "chunk_id": "1e187c52f4267500",
+      "source_location": "S0034-T06，原生数据行60-60",
+      "candidate_sha256": "b9330838fa311fcc8e76aaf51d6e6092a839348e6597d06178098c312696d5b3",
+      "remote_text_sha256": "1f599059e383d8319d557d0496713aba67a1a578deb10478991ac58c2ea36fbb"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G061-061",
+      "chunk_id": "8b359e423c53703c",
+      "source_location": "S0034-T06，原生数据行61-61",
+      "candidate_sha256": "e42f6908ec5cc96333f192bd2ac5645c18fafcf14905a29b1d918ce1086b54bf",
+      "remote_text_sha256": "374c7d3f0463443962ce3e9efb096fd332144962b3c295aef648f37e7f4b31ee"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G062-062",
+      "chunk_id": "a99ea0e66eeb917f",
+      "source_location": "S0034-T06，原生数据行62-62",
+      "candidate_sha256": "671b86f493498bb93a3c1581287884316498b386d2312592af678415c872f72a",
+      "remote_text_sha256": "7c5fe1d7d10e6bc9c04d32b9ebfc5eeb42de85810ee3edb9fa432da7344a2aea"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G063-063",
+      "chunk_id": "36927425f31a49bb",
+      "source_location": "S0034-T06，原生数据行63-63",
+      "candidate_sha256": "5932e0cc0a208b4ff96afb449ab94192dca8b49d0c7e59c58ca2cd19d832e98f",
+      "remote_text_sha256": "70b6a6d8182f6440438bc0d1da86a801d3fe5d4a1fdb70f58e62c8ff8333291d"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G065-065",
+      "chunk_id": "6488353954c0d81f",
+      "source_location": "S0034-T06，原生数据行65-65",
+      "candidate_sha256": "6a52147b44ddbd217fdc493ad3dbee9964ba6502be8ba6e3d8611fcb646f08d1",
+      "remote_text_sha256": "5c380d44a4515a9909a5e831b796da6a16d3d594483b2efba483478676399b76"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G066-066",
+      "chunk_id": "f321901969dc5ac2",
+      "source_location": "S0034-T06，原生数据行66-66",
+      "candidate_sha256": "a1597f4e69a6fa438f196724bf86c39e85d4b016cac08af8c9d4c05be74138dd",
+      "remote_text_sha256": "3c0feeaef530450fb7b2b9fe60b317f3531ec43250edef286d8e5ae9beb9729a"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G067-067",
+      "chunk_id": "b9e3986d8e69277c",
+      "source_location": "S0034-T06，原生数据行67-67",
+      "candidate_sha256": "d7ee1d5a861e16d78efd10111c0072990c3db24001c8ff452a45a94e43a3cdfa",
+      "remote_text_sha256": "d41974c6325235767c59d32184f4a99450c863e2fd35fc709f088d83e1114c8b"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G068-068",
+      "chunk_id": "d1bb1f2f6fb69ba5",
+      "source_location": "S0034-T06，原生数据行68-68",
+      "candidate_sha256": "4c37bd1eba968225ac550edcee1caa8ba61d91aab30d3b9a1216e804ee6b4d82",
+      "remote_text_sha256": "bb4286f0339dc5afc0adc7cfdf751d8107f785114af38b1c80f305bf8aae9903"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G069-069",
+      "chunk_id": "9640d686e1448de7",
+      "source_location": "S0034-T06，原生数据行69-69",
+      "candidate_sha256": "377ef2bce90512c5844205d0203fa7304a9470e6bd162553cdd927d166ed8d81",
+      "remote_text_sha256": "98bdd54d91a5eddd0f40a0bb203d1279db8d30c5eb1e66ba4a074f1a83e8c0a1"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G070-070",
+      "chunk_id": "fd8d011c73f23a3f",
+      "source_location": "S0034-T06，原生数据行70-70",
+      "candidate_sha256": "0a4d66bb6af000612e2f6db51d736853055521a34ccb3b9c2e2fda0152f95653",
+      "remote_text_sha256": "d5e058f20deea0021435267d6a28bb5e19b11c64932243996c1fc12cc7e7b223"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G071-071",
+      "chunk_id": "d582459fdd26d732",
+      "source_location": "S0034-T06，原生数据行71-71",
+      "candidate_sha256": "b498417a4adfbfd2d852cc893cd2a896f715674ba1c7471da6adea89d6e25ad9",
+      "remote_text_sha256": "0562e2f9b2b09083853b01ffa9304d530bf86f04cd839f9d4c367318a2c5b071"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G073-073",
+      "chunk_id": "3d935ba09c576fc1",
+      "source_location": "S0034-T06，原生数据行73-73",
+      "candidate_sha256": "df997d50a038cbbdff43a6667cdb04c27bcbdae9cfb35a398353e5f7f7087b98",
+      "remote_text_sha256": "8d19402e14ca0b2fbecc513fd56f97a02610c225ad966cc7c0cf31810c4a2d49"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G074-074",
+      "chunk_id": "97be101995f7c44b",
+      "source_location": "S0034-T06，原生数据行74-74",
+      "candidate_sha256": "a150b63949eba54a7110075dcd7feb234b9435d148672ff83bfcab537e6399af",
+      "remote_text_sha256": "bd5b7da649653344ae189e95ad6228c79b0d532a3b3cbebb0c5288c243d97975"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G075-075",
+      "chunk_id": "0b48e374293dc3c1",
+      "source_location": "S0034-T06，原生数据行75-75",
+      "candidate_sha256": "7b978cd3abbfe67b3d80817b6f80b91112582e7e04df38f124d90eae940a3250",
+      "remote_text_sha256": "27cc60b2b2d362b1ed85dba02a175c188f6ec7c8f8bdd1cd1c3b04908a3ec777"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G076-076",
+      "chunk_id": "76661d441d4cc5eb",
+      "source_location": "S0034-T06，原生数据行76-76",
+      "candidate_sha256": "fe023b251fc20b94a8a0940c6e33d3f1a1c25f7412fae05f0d58c19cb8d81a13",
+      "remote_text_sha256": "86b763a4d21327cffe0d7f5aa81cebb16c362a0e9ca6cbe09d346cdc6df5cac4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G077-077",
+      "chunk_id": "d741c2e7225a6398",
+      "source_location": "S0034-T06，原生数据行77-77",
+      "candidate_sha256": "b0a1ba42f832b8264a948dae1e341edb85642c2571357acf890a4ec725ef5194",
+      "remote_text_sha256": "87560ea089d9bf329ab3d8e6f8713ddbbd1d7d8defca48cbf4fbfe55199a7041"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G078-078",
+      "chunk_id": "231cfac96d21de53",
+      "source_location": "S0034-T06，原生数据行78-78",
+      "candidate_sha256": "c2f0428bd6bbfbc2aeeef6dc322fe8680c19470854ff815c5a7a35e6e3911d58",
+      "remote_text_sha256": "c7bf08d7fefe2a392b28dece2af31582996b62c126dff08595a8157e3e7c5427"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G079-079",
+      "chunk_id": "f5e874b0edbc44e9",
+      "source_location": "S0034-T06，原生数据行79-79",
+      "candidate_sha256": "00b59aeb915b56b21f29e8dc4cfb2fc7745182f907f703c97384a241a565cb5c",
+      "remote_text_sha256": "698701426d77405236043c6e1e4203011ec32e7bfa4ec9f50656c8d644e02a90"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G080-080",
+      "chunk_id": "1e45229452960179",
+      "source_location": "S0034-T06，原生数据行80-80",
+      "candidate_sha256": "9b4275bf7d058350211cb730ce745869d90fa09556f4c1f4f3b094622a339701",
+      "remote_text_sha256": "17f5094b6de25aa4d6fa8a7813662e2f19fe439e4aae752939bc9422113bb758"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G081-081",
+      "chunk_id": "ae7fe3e62cd35b68",
+      "source_location": "S0034-T06，原生数据行81-81",
+      "candidate_sha256": "2f4245211564d16c726f38387a335af582ea6bf4a2a15a9e84fdf4131cc2bb8d",
+      "remote_text_sha256": "a4d3af557038da835382505e0836d9f2fd70e5bc8199ace739a540e898f3b20f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G082-082",
+      "chunk_id": "fb791a26af5624d0",
+      "source_location": "S0034-T06，原生数据行82-82",
+      "candidate_sha256": "3b8f7d54ebdea0b7e07fa2f8d1a9c7d76d0a2d44f6bd4e250931d182737d1204",
+      "remote_text_sha256": "96535120a86cf28418e3e7516f393883cc092f9a1b86adde2ec2353a0e6ec81f"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G083-083",
+      "chunk_id": "f74eb37de95b4c7a",
+      "source_location": "S0034-T06，原生数据行83-83",
+      "candidate_sha256": "85a32800c6f857cec25da796c17f192e2934e9f21a686cc46f338c2e63dea66b",
+      "remote_text_sha256": "ac4fe04d11e5b5bfcc91ddaa3025a2193586accb4c3fc6f1448c9d3f3b150343"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G084-084",
+      "chunk_id": "185d9307b58aba81",
+      "source_location": "S0034-T06，原生数据行84-84",
+      "candidate_sha256": "dab37d850d9104395564dd63280c08d79e17608d6bbffe56b22f056c8c779f86",
+      "remote_text_sha256": "70b64451af2fe4688bf509fd829bcffbe1f83876d7f88d55026e3c1b4217bd82"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G085-085",
+      "chunk_id": "af83b14eedf93cf7",
+      "source_location": "S0034-T06，原生数据行85-85",
+      "candidate_sha256": "cec5d4e1816ae24f166d83e5fa98f1a96d0d93a8bcdff29fddc49f145bf753c6",
+      "remote_text_sha256": "8f03cfddc4587ed4446bbc7eb0c036900971228d7a6e7e6720868c12d807ab9c"
+    },
+    {
+      "knowledge_point_id": "DOC0026-S0034-T06-G086-086",
+      "chunk_id": "9138a330d5a34011",
+      "source_location": "S0034-T06，原生数据行86-86",
+      "candidate_sha256": "8d60c3a04b35b7c92b2b464974fbe538c981a83cab2da2433468662927eb117c",
+      "remote_text_sha256": "5a40fe36ad99799f86ba3bf2b7ca23ce45be9bcdb8efea67332ee5fc0b2043c4"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K034",
+      "chunk_id": "2912257eecd43372",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，S0034-T07，原附件表格顺序 7",
+      "candidate_sha256": "a580dafce837038a6a402b423e300ac5b7de15e1c09c250db85efb0da83cd627",
+      "remote_text_sha256": "6c6eeb39fac06e73f28060c495c0cbe3653d2e238831a769c834dc359889eb00"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K035",
+      "chunk_id": "4afd511a59aafd5b",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，S0034-T08，原附件表格顺序 8",
+      "candidate_sha256": "fb0f511fa258e87b63ae94b08b69ab0eaed7d0e0ecca21b7a2319409503493cd",
+      "remote_text_sha256": "10d612a88114cfeb298ae99bfe6eef9a015f2259fd40edce411dc8224ca3e5ef"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K036",
+      "chunk_id": "a53708312c28a533",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，S0034-T09，原附件表格顺序 9",
+      "candidate_sha256": "6f69bef903712f7557a87c2173fb939c5cdd0d0b1f25306878e1f64ba1fa48ab",
+      "remote_text_sha256": "d87ff26f447212ac6d3754370ce0d3cc27ec45537269f1a9395c98838acebffe"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K037",
+      "chunk_id": "f5973dc023fe7d01",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，S0034-T10，原附件表格顺序 10",
+      "candidate_sha256": "bbeb640d69647472903d0f208d4612044592f179fb5b06426c212e8be1d96d6c",
+      "remote_text_sha256": "bbf0ea26164ee03935d6d8e9da7b8b3122b4fd7e0a5b7b37b910f0ec1f95f854"
+    },
+    {
+      "knowledge_point_id": "DOC0026-K038",
+      "chunk_id": "a02a7e95f71cf193",
+      "source_location": "国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行，S0034-T11，原附件表格顺序 11",
+      "candidate_sha256": "5348cfc9c7a114043785c3989506413f906f037f15159976a18a71363be3c236",
+      "remote_text_sha256": "0daf25e4717bb82b38edda178d4c9122515516db4491cedcf76dc9aa4fe73e63"
+    }
+  ],
+  "nonbusiness_chunks": [
+    {
+      "chunk_id": "ed93f58e3ffbe3e7",
+      "heading": "阅读范围",
+      "available": false,
+      "text_sha256": "49e2305cc8b2f6f137262d82f07726287e3f21adfbc1634b5aa0d0c9fddda471"
+    },
+    {
+      "chunk_id": "af97f4f6ef1b6115",
+      "heading": "原文附件目录",
+      "available": false,
+      "text_sha256": "7371e6c5f18383a2904be372ee76bb3f151275de895e7075ea53c5b28c54a20a"
+    },
+    {
+      "chunk_id": "2dcb3b6a868aea91",
+      "heading": "附件5",
+      "available": false,
+      "text_sha256": "02e3a3e84664c42fd677ab68b8d2a2b62b3ed08d2879598608e579df4c86bc77"
+    },
+    {
+      "chunk_id": "95b5a2eb1dc93790",
+      "heading": "核验边界与后续验收",
+      "available": false,
+      "text_sha256": "b62cdd464817cbae0160fc5da070de8849114771c6e52faf89cc819cda46508e"
+    },
+    {
+      "chunk_id": "906a2d26489df418",
+      "heading": "来源清单",
+      "available": false,
+      "text_sha256": "e484eb0ec3b8429d459d0bbc426314fd3dc5c8f3e05c060047403682c610c177"
+    }
+  ],
+  "table_blank_preservation": {
+    "knowledge_point_id": "DOC0026-S0034-T03-G167-167",
+    "source_location": "S0034-T03，原生数据行167-167",
+    "source_markers": [
+      "内径百分表",
+      "〔原表空白〕"
+    ],
+    "interpretation": "The original leaves the equipment requirement blank. Do not infer a value, applicability, or compliance."
+  },
+  "retrieval": [
+    {
+      "id": "DOC0026-K005",
+      "question": "铁路信号设备生产企业申请许可证应提交哪些材料？",
+      "top5": [
+        {
+          "rank": 1,
+          "chunk_id": "5bef5fe05ecba75a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.5783925827555283,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 第二章 条件与程序\n### DOC0026-K005 第五条 申请企业应当提交下列材料：\n（一）行政许可申请书（附件5），一式两份，装订一份；\n\n（二）企业法人营业执照副本复印件，一式两份，装订一份；\n\n（三）铁路信号设备生产企业审查表(附件６)；\n\n（四）专业生产设备明细表（附件7）；\n\n（五）专业技术人员明细表（附件8）；\n\n（六）证明产品质量保证体系有效运转、产品运用质量符合安全要求、产品质量符合标准要求的相关材料；\n\n申请企业有关生产过程可以委托其他企业完成（可以外委的生产过程见附件2）,外委企业应当具备相应的生产条件和能力;申请信号软件和系统集成生产许可证的企业，还应提交其硬件生产企业名录材料；\n\n（七）安全管理制度目录、拟生产的产品目录、设计图纸目录、工艺文件目录，所依据的国家标准、行业标准、企业标准目录；\n\n（八）新研发产品试用考核材料；\n\n（九）新研发产品技术评审（鉴定）证书或者审查意见；（十）企业简介（含企业资产、股份构成及比例、资质情况、生产经营基本状况、产品主要运用业绩等内容）。\n"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "f5594fc2a4e00758",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.5584086047242293,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 第三章 证书管理\n### DOC0026-K018 第十八条 生产许可证在有效期内遗失或者损坏的，被许可企业应当向国家铁路局申请办理生产许可证补办手续。\n申请补办的企业应当提交的材料包括：国家铁路局行政许可申请书，补办说明，企业法人营业执照副本复印件。所提交的材料及复印件应加盖企业公章。\n\n补发的生产许可证有效期不变。\n"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fb94149874d39f52",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.5307600674863586,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 第二章 条件与程序\n### DOC0026-K006 第六条 申请延续许可或者因生产条件发生较大变化重新申请许可的企业，应当提交本细则第五条除（八）、（九）外的材料，并提供近5年产品主要运用情况（含因产品质量造成责任事故的整改情况）、许可条件变化情况（含人员、设备等变化内容并明确说明是否持续满足许可条件）。\n"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "199e409dbc734e97",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.5168071258342755,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 第二章 条件与程序\n### DOC0026-K007 第七条 申请企业提交的材料（A4纸规格）应当按第五条、第六条规定的顺序统一标注页码，无线胶订成册，加盖骑缝章，并附电子版。相关说明材料应当加盖企业公章。\n"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "5d53afeb5785e1ec",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.5167333580238833,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 附件2\n专业生产设备要求\n### DOC0026-S0034-T03-G056-056 三、信号继电器 / 软磁材料磁性处理 / 真空炉\n文档：铁路信号设备生产企业审批实施细则（DOC0026）；版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行；来源：S0034。\n表格：S0034-T03；完整语义分组：三、信号继电器 / 软磁材料磁性处理 / 真空炉；数据原行：56。\nS0034原文段落344：附件2\nS0034原文段落346：专业生产设备要求\n表头、速度档、人员资格、备注及原行位置保留；空白不推定为零或不适用；横向覆盖与纵向续格均为原生合并关系。\n| 原行 | 原列1 | 原列2 | 原列3 | 原列4 | 原列5 |\n| --- | --- | --- | --- | --- | --- |\n| 45 | 三、信号继电器 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 |\n| 46 | 序号 | 工艺类别 | 设备名称 | 设备要求 | 备注 |\n| 56 | 10 | 软磁材料磁性处理 | 真空炉 | 〔原表空白〕 | 〔原表空白〕 |\n来源定位：S0034-T03；数据第56-56行；父表知识点：DOC0026-K030。\n"
+        }
+      ],
+      "target_chunk_id": "5bef5fe05ecba75a",
+      "decision": "RELEVANT_SOURCE_CHUNK_IN_TOP5"
+    },
+    {
+      "id": "DOC0026-K016",
+      "question": "铁路信号设备生产企业哪些生产条件发生变化需要重新申请许可？",
+      "top5": [
+        {
+          "rank": 1,
+          "chunk_id": "eedcbd0711aeb66a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.5380267734152975,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 第三章 证书管理\n### DOC0026-K016 第十六条 被许可企业生产条件发生较大变化的（生产地址变化、生产线重大技术改造、外委加工企业变更等），应当向国家铁路局重新申请许可。\n"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fb94149874d39f52",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.5313139044152975,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 第二章 条件与程序\n### DOC0026-K006 第六条 申请延续许可或者因生产条件发生较大变化重新申请许可的企业，应当提交本细则第五条除（八）、（九）外的材料，并提供近5年产品主要运用情况（含因产品质量造成责任事故的整改情况）、许可条件变化情况（含人员、设备等变化内容并明确说明是否持续满足许可条件）。\n"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "2b80e857fae8ed08",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.5117200787269585,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 附件1\n铁路信号设备目录\n\n一、铁路道岔转辙设备\n### DOC0026-S0034-T02-G004-004 二、铁路信号控制软件和控制设备（除高压脉冲轨道电路设备、信号继电器外，含软件、硬件和系统集成） / 无线调车机车信号和监控系统设备（STP）\n文档：铁路信号设备生产企业审批实施细则（DOC0026）；版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行；来源：S0034。\n表格：S0034-T02；完整语义分组：二、铁路信号控制软件和控制设备（除高压脉冲轨道电路设备、信号继电器外，含软件、硬件和系统集成） / 无线调车机车信号和监控系统设备（STP）；数据原行：4。\nS0034原文段落126：附件1\nS0034原文段落128：铁路信号设备目录\nS0034原文段落164：二、铁路信号控制软件和控制设备（除高压脉冲轨道电路设备、信号继电器外，含软件、硬件和系统集成）\nS0034原文段落342：备注：标准更新时，按最新标准执行。\n表头、速度档、人员资格、备注及原行位置保留；空白不推定为零或不适用；横向覆盖与纵向续格均为原生合并关系。\n| 原行 | 原列1 | 原列2 | 原列3 | 原列4 | 原列5 |\n| --- | --- | --- | --- | --- | --- |\n| 1 | 序号 | 产品编号 | 设备名称 | 适用范围 | 执行标准 |\n| 4 | 3 | 2003 | 无线调车机车信号和监控系统设备（STP） | 〔原表空白〕 | 《无线调车机车信号和监控系统技术条件》（TB/T 3505-2018） |\n来源定位：S0034-T02；数据第4-4行；父表知识点：DOC0026-K029。\n"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "084f40446bb10d0e",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.5116613387269584,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 附件1\n铁路信号设备目录\n\n一、铁路道岔转辙设备\n### DOC0026-S0034-T02-G010-010 二、铁路信号控制软件和控制设备（除高压脉冲轨道电路设备、信号继电器外，含软件、硬件和系统集成） / 车站列控中心设备\n文档：铁路信号设备生产企业审批实施细则（DOC0026）；版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行；来源：S0034。\n表格：S0034-T02；完整语义分组：二、铁路信号控制软件和控制设备（除高压脉冲轨道电路设备、信号继电器外，含软件、硬件和系统集成） / 车站列控中心设备；数据原行：10。\nS0034原文段落126：附件1\nS0034原文段落128：铁路信号设备目录\nS0034原文段落164：二、铁路信号控制软件和控制设备（除高压脉冲轨道电路设备、信号继电器外，含软件、硬件和系统集成）\nS0034原文段落342：备注：标准更新时，按最新标准执行。\n表头、速度档、人员资格、备注及原行位置保留；空白不推定为零或不适用；横向覆盖与纵向续格均为原生合并关系。\n| 原行 | 原列1 | 原列2 | 原列3 | 原列4 | 原列5 |\n| --- | --- | --- | --- | --- | --- |\n| 1 | 序号 | 产品编号 | 设备名称 | 适用范围 | 执行标准 |\n| 10 | 9 | 2009 | 车站列控中心设备 | 〔原表空白〕 | 《列控中心技术条件》<br>（TB/T 3439-2016）；<br>《列控中心测试规范》（TB/T 3536-2018） |\n来源定位：S0034-T02；数据第10-10行；父表知识点：DOC0026-K029。\n"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "b0a6fa43b38d1683",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.5115229787269584,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 附件1\n铁路信号设备目录\n\n一、铁路道岔转辙设备\n### DOC0026-S0034-T02-G017-017 二、铁路信号控制软件和控制设备（除高压脉冲轨道电路设备、信号继电器外，含软件、硬件和系统集成） / 车站电码化设备\n文档：铁路信号设备生产企业审批实施细则（DOC0026）；版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行；来源：S0034。\n表格：S0034-T02；完整语义分组：二、铁路信号控制软件和控制设备（除高压脉冲轨道电路设备、信号继电器外，含软件、硬件和系统集成） / 车站电码化设备；数据原行：17。\nS0034原文段落126：附件1\nS0034原文段落128：铁路信号设备目录\nS0034原文段落164：二、铁路信号控制软件和控制设备（除高压脉冲轨道电路设备、信号继电器外，含软件、硬件和系统集成）\nS0034原文段落342：备注：标准更新时，按最新标准执行。\n表头、速度档、人员资格、备注及原行位置保留；空白不推定为零或不适用；横向覆盖与纵向续格均为原生合并关系。\n| 原行 | 原列1 | 原列2 | 原列3 | 原列4 | 原列5 |\n| --- | --- | --- | --- | --- | --- |\n| 1 | 序号 | 产品编号 | 设备名称 | 适用范围 | 执行标准 |\n| 17 | 16 | 2016 | 车站电码化设备 | 发送、检测设备 | 《铁路车站电码化设备 第1部分：通用技术要求》（TB/T 3112.1-2017）；《铁路车站电码化设备 第2部分：发码、检测、调整器》<br>（TB/T 3112.2-2017）；<br>《铁路车站电码化设备 第5部分：设备柜》（TB/T 3112.5-2017）；<br>《铁路车站电码化技术条件》<br>（TB/T 2465-2010） |\n来源定位：S0034-T02；数据第17-17行；父表知识点：DOC0026-K029。\n"
+        }
+      ],
+      "target_chunk_id": "eedcbd0711aeb66a",
+      "decision": "RELEVANT_SOURCE_CHUNK_IN_TOP5"
+    },
+    {
+      "id": "DOC0026-S0034-T03-G167-167",
+      "question": "道岔外锁闭装置检验过程的内径百分表，原文规定的设备要求是什么？",
+      "top5": [
+        {
+          "rank": 1,
+          "chunk_id": "7a19a6cef094579b",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.49495723066661673,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 附件2\n专业生产设备要求\n### DOC0026-S0034-T03-G167-167 八、道岔外锁闭装置 / 检验过程 / 内径百分表\n文档：铁路信号设备生产企业审批实施细则（DOC0026）；版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行；来源：S0034。\n表格：S0034-T03；完整语义分组：八、道岔外锁闭装置 / 检验过程 / 内径百分表；数据原行：167。\nS0034原文段落344：附件2\nS0034原文段落346：专业生产设备要求\n表头、速度档、人员资格、备注及原行位置保留；空白不推定为零或不适用；横向覆盖与纵向续格均为原生合并关系。\n| 原行 | 原列1 | 原列2 | 原列3 | 原列4 | 原列5 |\n| --- | --- | --- | --- | --- | --- |\n| 153 | 八、道岔外锁闭装置 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 |\n| 154 | 序号 | 工艺类别 | 设备名称 | 设备要求 | 备注 |\n| 167 | 13 | 检验过程 | 内径百分表 | 〔原表空白〕 | 〔原表空白〕 |\n来源定位：S0034-T03；数据第167-167行；父表知识点：DOC0026-K030。\n"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4d419522197c9d4a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.43325228609570543,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 附件2\n专业生产设备要求\n### DOC0026-S0034-T03-G165-165 八、道岔外锁闭装置 / 检验过程 / 三爪内径尺\n文档：铁路信号设备生产企业审批实施细则（DOC0026）；版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行；来源：S0034。\n表格：S0034-T03；完整语义分组：八、道岔外锁闭装置 / 检验过程 / 三爪内径尺；数据原行：165。\nS0034原文段落344：附件2\nS0034原文段落346：专业生产设备要求\n表头、速度档、人员资格、备注及原行位置保留；空白不推定为零或不适用；横向覆盖与纵向续格均为原生合并关系。\n| 原行 | 原列1 | 原列2 | 原列3 | 原列4 | 原列5 |\n| --- | --- | --- | --- | --- | --- |\n| 153 | 八、道岔外锁闭装置 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 |\n| 154 | 序号 | 工艺类别 | 设备名称 | 设备要求 | 备注 |\n| 165 | 11 | 检验过程 | 三爪内径尺 | 〔原表空白〕 | 〔原表空白〕 |\n来源定位：S0034-T03；数据第165-165行；父表知识点：DOC0026-K030。\n"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4a0afab02a9f7b6c",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.41551131687822396,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 附件2\n专业生产设备要求\n### DOC0026-S0034-T03-G158-158 八、道岔外锁闭装置 / 生产过程 / 加工中心\n文档：铁路信号设备生产企业审批实施细则（DOC0026）；版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行；来源：S0034。\n表格：S0034-T03；完整语义分组：八、道岔外锁闭装置 / 生产过程 / 加工中心；数据原行：158。\nS0034原文段落344：附件2\nS0034原文段落346：专业生产设备要求\n表头、速度档、人员资格、备注及原行位置保留；空白不推定为零或不适用；横向覆盖与纵向续格均为原生合并关系。\n| 原行 | 原列1 | 原列2 | 原列3 | 原列4 | 原列5 |\n| --- | --- | --- | --- | --- | --- |\n| 153 | 八、道岔外锁闭装置 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 |\n| 154 | 序号 | 工艺类别 | 设备名称 | 设备要求 | 备注 |\n| 158 | 4 | 生产过程 | 加工中心 | 〔原表空白〕 | 〔原表空白〕 |\n来源定位：S0034-T03；数据第158-158行；父表知识点：DOC0026-K030。\n"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "9612dc692812e8e4",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.41547408687822396,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 附件2\n专业生产设备要求\n### DOC0026-S0034-T03-G162-162 八、道岔外锁闭装置 / 生产过程 / 热处理设备\n文档：铁路信号设备生产企业审批实施细则（DOC0026）；版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行；来源：S0034。\n表格：S0034-T03；完整语义分组：八、道岔外锁闭装置 / 生产过程 / 热处理设备；数据原行：162。\nS0034原文段落344：附件2\nS0034原文段落346：专业生产设备要求\n表头、速度档、人员资格、备注及原行位置保留；空白不推定为零或不适用；横向覆盖与纵向续格均为原生合并关系。\n| 原行 | 原列1 | 原列2 | 原列3 | 原列4 | 原列5 |\n| --- | --- | --- | --- | --- | --- |\n| 153 | 八、道岔外锁闭装置 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 |\n| 154 | 序号 | 工艺类别 | 设备名称 | 设备要求 | 备注 |\n| 162 | 8 | 生产过程 | 热处理设备 | 〔原表空白〕 | 外委时除外 |\n来源定位：S0034-T03；数据第162-162行；父表知识点：DOC0026-K030。\n"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "3e6d8f1c3ac16d0c",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "similarity": 0.41531669787822395,
+          "text": "# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 附件2\n专业生产设备要求\n### DOC0026-S0034-T03-G161-161 八、道岔外锁闭装置 / 生产过程 / 铣床\n文档：铁路信号设备生产企业审批实施细则（DOC0026）；版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行；来源：S0034。\n表格：S0034-T03；完整语义分组：八、道岔外锁闭装置 / 生产过程 / 铣床；数据原行：161。\nS0034原文段落344：附件2\nS0034原文段落346：专业生产设备要求\n表头、速度档、人员资格、备注及原行位置保留；空白不推定为零或不适用；横向覆盖与纵向续格均为原生合并关系。\n| 原行 | 原列1 | 原列2 | 原列3 | 原列4 | 原列5 |\n| --- | --- | --- | --- | --- | --- |\n| 153 | 八、道岔外锁闭装置 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 | 〔横向合并覆盖，详见原格〕 |\n| 154 | 序号 | 工艺类别 | 设备名称 | 设备要求 | 备注 |\n| 161 | 7 | 生产过程 | 铣床 | 〔原表空白〕 | 〔原表空白〕 |\n来源定位：S0034-T03；数据第161-161行；父表知识点：DOC0026-K030。\n"
+        }
+      ],
+      "target_chunk_id": "7a19a6cef094579b",
+      "decision": "RETRIEVED_SOURCE_BLANK; no numeric inference permitted"
+    }
+  ],
+  "quality_accepted": true,
+  "formal_import": true,
+  "retrieval_accepted": false,
+  "scope": "Formal XH dataset chunk fidelity and three live retrieval diagnostics. This is not final document acceptance.",
+  "remote_mutations": {
+    "uploads": 0,
+    "reparses": 0,
+    "metadata_chunks_disabled": [
+      "ed93f58e3ffbe3e7",
+      "af97f4f6ef1b6115",
+      "2dcb3b6a868aea91",
+      "95b5a2eb1dc93790",
+      "906a2d26489df418"
+    ]
+  },
+  "new_semantic_requests": 0
+}

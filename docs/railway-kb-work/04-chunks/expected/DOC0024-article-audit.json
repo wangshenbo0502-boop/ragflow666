@@ -1,0 +1,395 @@
+{
+  "doc_id": "DOC0024",
+  "source_id": "S0027",
+  "source_path": "01-originals/web/S0027.txt",
+  "output_path": "03-domains/GW/DOC0024_高速铁路安全防护管理办法.md",
+  "expected_article_count": 48,
+  "extracted_article_count": 48,
+  "output_sha256": "47dde3feb879e118ce73ba51c697b076bcfb09c04e623c630e8680cd5e136655",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章 总则",
+      "source_sha256": "9ca22f15f52c9a7050cc756a6988e477eb067ee194320225744abf87d83d03c1",
+      "output_sha256": "9ca22f15f52c9a7050cc756a6988e477eb067ee194320225744abf87d83d03c1",
+      "source_characters": 113,
+      "output_characters": 113
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章 总则",
+      "source_sha256": "3ba62385a6b5cb970a2b4cbb4a1d91756c5e2ca104ddd3b9e4172059a0760ad1",
+      "output_sha256": "3ba62385a6b5cb970a2b4cbb4a1d91756c5e2ca104ddd3b9e4172059a0760ad1",
+      "source_characters": 59,
+      "output_characters": 59
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章 总则",
+      "source_sha256": "7dc19c69d24d2d5aa17c5b8b9a607fddd8b30455a051b636225b7e52200d84c3",
+      "output_sha256": "7dc19c69d24d2d5aa17c5b8b9a607fddd8b30455a051b636225b7e52200d84c3",
+      "source_characters": 83,
+      "output_characters": 83
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章 总则",
+      "source_sha256": "289e09b0cf1d992a19cd51c349442e46c4f9d5b2d40dfe39d0d59d3dcff1d2a5",
+      "output_sha256": "289e09b0cf1d992a19cd51c349442e46c4f9d5b2d40dfe39d0d59d3dcff1d2a5",
+      "source_characters": 132,
+      "output_characters": 132
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章 总则",
+      "source_sha256": "cf245e3f6066cd48bb75846b988709588cf99c190d81621f7d71d6980c990761",
+      "output_sha256": "cf245e3f6066cd48bb75846b988709588cf99c190d81621f7d71d6980c990761",
+      "source_characters": 116,
+      "output_characters": 116
+    },
+    {
+      "article": "第六条",
+      "chapter": "第一章 总则",
+      "source_sha256": "7d15fea9d584569cdbe4f96e5d17865c4b6a8dd89a2b50203dfc1a0bde1a8200",
+      "output_sha256": "7d15fea9d584569cdbe4f96e5d17865c4b6a8dd89a2b50203dfc1a0bde1a8200",
+      "source_characters": 142,
+      "output_characters": 142
+    },
+    {
+      "article": "第七条",
+      "chapter": "第一章 总则",
+      "source_sha256": "0d6ffe259c186ed740639290cfc61ea4108e738246212352acc04336d4cca3b4",
+      "output_sha256": "0d6ffe259c186ed740639290cfc61ea4108e738246212352acc04336d4cca3b4",
+      "source_characters": 113,
+      "output_characters": 113
+    },
+    {
+      "article": "第八条",
+      "chapter": "第一章 总则",
+      "source_sha256": "ee4e32d80737004eda8ac1681fd4e8312dd4d536a1532ab8c2bf538fe3557a0a",
+      "output_sha256": "ee4e32d80737004eda8ac1681fd4e8312dd4d536a1532ab8c2bf538fe3557a0a",
+      "source_characters": 96,
+      "output_characters": 96
+    },
+    {
+      "article": "第九条",
+      "chapter": "第一章 总则",
+      "source_sha256": "f95c1b7ba2765f6b028e23fa6eb1f794dda880e0c348ba8255897f58f35c8c94",
+      "output_sha256": "f95c1b7ba2765f6b028e23fa6eb1f794dda880e0c348ba8255897f58f35c8c94",
+      "source_characters": 117,
+      "output_characters": 117
+    },
+    {
+      "article": "第十条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "817e4e5dac316e1453f5ce5e0c20a6e9c76536d2b263055dd9aa2199a0690ad8",
+      "output_sha256": "817e4e5dac316e1453f5ce5e0c20a6e9c76536d2b263055dd9aa2199a0690ad8",
+      "source_characters": 67,
+      "output_characters": 67
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "cffa0b884c6e53157a1a4a33d8e0deceeb012a8e1bce2718dfcdaa4ebe730ee4",
+      "output_sha256": "cffa0b884c6e53157a1a4a33d8e0deceeb012a8e1bce2718dfcdaa4ebe730ee4",
+      "source_characters": 87,
+      "output_characters": 87
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "6eafc655ec5de3c9042de53a7b6217b455f84d0f584971e2ba15e94c128d08e2",
+      "output_sha256": "6eafc655ec5de3c9042de53a7b6217b455f84d0f584971e2ba15e94c128d08e2",
+      "source_characters": 429,
+      "output_characters": 429
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "e0c5618ace2ba44eac91c6c914a153a8632a2fddf7817350b8ffe362643885be",
+      "output_sha256": "e0c5618ace2ba44eac91c6c914a153a8632a2fddf7817350b8ffe362643885be",
+      "source_characters": 252,
+      "output_characters": 252
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "e8e7b1291a43396d4ca1cb56db116be743248d076c4457e7fbf9ba6f1af14fd9",
+      "output_sha256": "e8e7b1291a43396d4ca1cb56db116be743248d076c4457e7fbf9ba6f1af14fd9",
+      "source_characters": 232,
+      "output_characters": 232
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "bfae04f679a0819e2aa401846682277d1c58e171284e91324b053a4324e0b076",
+      "output_sha256": "bfae04f679a0819e2aa401846682277d1c58e171284e91324b053a4324e0b076",
+      "source_characters": 156,
+      "output_characters": 156
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "c93a27d4067b2b1e638616a6187607c99ae998d6d9a44b6d83cdb76fe6921547",
+      "output_sha256": "c93a27d4067b2b1e638616a6187607c99ae998d6d9a44b6d83cdb76fe6921547",
+      "source_characters": 378,
+      "output_characters": 378
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "a588d50042a5974e04ca6afa270d2db05fc2ab16638d5c9ade6175522b35aaf7",
+      "output_sha256": "a588d50042a5974e04ca6afa270d2db05fc2ab16638d5c9ade6175522b35aaf7",
+      "source_characters": 74,
+      "output_characters": 74
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "bfd5359b53e8c64bbe44b0ec626398ed1eb0e2f9829df9d23f00260ba6dc6fdc",
+      "output_sha256": "bfd5359b53e8c64bbe44b0ec626398ed1eb0e2f9829df9d23f00260ba6dc6fdc",
+      "source_characters": 428,
+      "output_characters": 428
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "2cf0d73bc7dd54ea07216adc8ddc3eedef73803bea69c0e3c78467b819bd86a2",
+      "output_sha256": "2cf0d73bc7dd54ea07216adc8ddc3eedef73803bea69c0e3c78467b819bd86a2",
+      "source_characters": 264,
+      "output_characters": 264
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "f0e250e90da3e2a4fd8bdc828a5108cc5b27d3990b54d3a93bd608be3be08ff5",
+      "output_sha256": "f0e250e90da3e2a4fd8bdc828a5108cc5b27d3990b54d3a93bd608be3be08ff5",
+      "source_characters": 80,
+      "output_characters": 80
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "71327af9417f7d16ee887b73e31bf5ab2d85c3d1122aa78c90b0bef28faa986a",
+      "output_sha256": "71327af9417f7d16ee887b73e31bf5ab2d85c3d1122aa78c90b0bef28faa986a",
+      "source_characters": 78,
+      "output_characters": 78
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "a08d58eb2a9e929ff16fb16598acf3d72e655ed9915f3d222cc6d1f624ada951",
+      "output_sha256": "a08d58eb2a9e929ff16fb16598acf3d72e655ed9915f3d222cc6d1f624ada951",
+      "source_characters": 225,
+      "output_characters": 225
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "d5ce5fe923032737bf0004d01df99a005e31389c504cd6807907a0645296a7a0",
+      "output_sha256": "d5ce5fe923032737bf0004d01df99a005e31389c504cd6807907a0645296a7a0",
+      "source_characters": 283,
+      "output_characters": 283
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "11eac27e425881156cd1bd32c9dbc5b263b3c75c7a678041b7c1956ca67e2e8c",
+      "output_sha256": "11eac27e425881156cd1bd32c9dbc5b263b3c75c7a678041b7c1956ca67e2e8c",
+      "source_characters": 216,
+      "output_characters": 216
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第二章 线路安全防护",
+      "source_sha256": "29e5160d0bbe07989b324548e29746cb9b301ec3daff0e601a08d05bef3b2877",
+      "output_sha256": "29e5160d0bbe07989b324548e29746cb9b301ec3daff0e601a08d05bef3b2877",
+      "source_characters": 105,
+      "output_characters": 105
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第三章 安全防护设施及管理",
+      "source_sha256": "13989c46cb9dfbf303aa4e6a3aacb4232f406f85dfd35af90b8c624d6f600783",
+      "output_sha256": "13989c46cb9dfbf303aa4e6a3aacb4232f406f85dfd35af90b8c624d6f600783",
+      "source_characters": 276,
+      "output_characters": 276
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第三章 安全防护设施及管理",
+      "source_sha256": "2a27f0f1aa0821adc2f709ca8bbad5101dcf678ae9ae5bf376946d7d5ca01a72",
+      "output_sha256": "2a27f0f1aa0821adc2f709ca8bbad5101dcf678ae9ae5bf376946d7d5ca01a72",
+      "source_characters": 206,
+      "output_characters": 206
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第三章 安全防护设施及管理",
+      "source_sha256": "d7d2c04188d7481efd2db32a1665b8d6896cb288ec1aaef9b666eb84a751b372",
+      "output_sha256": "d7d2c04188d7481efd2db32a1665b8d6896cb288ec1aaef9b666eb84a751b372",
+      "source_characters": 173,
+      "output_characters": 173
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第三章 安全防护设施及管理",
+      "source_sha256": "a13b6ce7117c831fb07d95442bbf56d8c449df435a627733e03b4912890f35b3",
+      "output_sha256": "a13b6ce7117c831fb07d95442bbf56d8c449df435a627733e03b4912890f35b3",
+      "source_characters": 43,
+      "output_characters": 43
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第三章 安全防护设施及管理",
+      "source_sha256": "a94b10e786a86a2abec7f344f7424050d00997c8966a8eccbe1d29555c62bfac",
+      "output_sha256": "a94b10e786a86a2abec7f344f7424050d00997c8966a8eccbe1d29555c62bfac",
+      "source_characters": 97,
+      "output_characters": 97
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第三章 安全防护设施及管理",
+      "source_sha256": "203f33b53018b4ffabeecd2b1c50119da9a210362d7f8f6a4a92f639d23a9470",
+      "output_sha256": "203f33b53018b4ffabeecd2b1c50119da9a210362d7f8f6a4a92f639d23a9470",
+      "source_characters": 123,
+      "output_characters": 123
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第三章 安全防护设施及管理",
+      "source_sha256": "aae28b047fe2f7a0e0b7a9863bc0a532df603966fab8371d120fc6763898ed49",
+      "output_sha256": "aae28b047fe2f7a0e0b7a9863bc0a532df603966fab8371d120fc6763898ed49",
+      "source_characters": 163,
+      "output_characters": 163
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第三章 安全防护设施及管理",
+      "source_sha256": "c45f8a72c4b90ade6490457db2e6c66a2da6886752e4c112d31d5ad4cf1f2d41",
+      "output_sha256": "c45f8a72c4b90ade6490457db2e6c66a2da6886752e4c112d31d5ad4cf1f2d41",
+      "source_characters": 101,
+      "output_characters": 101
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第四章 运营安全防护",
+      "source_sha256": "05b987a3690c2206daa53eaa112f62ac1d29e6a2b280a9235756d73083e434a3",
+      "output_sha256": "05b987a3690c2206daa53eaa112f62ac1d29e6a2b280a9235756d73083e434a3",
+      "source_characters": 72,
+      "output_characters": 72
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第四章 运营安全防护",
+      "source_sha256": "ec60aba201d0241fe5a470d70f7a88eb3c14500bad1a0f53e0c629406adad557",
+      "output_sha256": "ec60aba201d0241fe5a470d70f7a88eb3c14500bad1a0f53e0c629406adad557",
+      "source_characters": 176,
+      "output_characters": 176
+    },
+    {
+      "article": "第三十六条",
+      "chapter": "第四章 运营安全防护",
+      "source_sha256": "d93ff193e0751cb0bb7a110836d650ecf228082eff99c8b18619e488776362ce",
+      "output_sha256": "d93ff193e0751cb0bb7a110836d650ecf228082eff99c8b18619e488776362ce",
+      "source_characters": 93,
+      "output_characters": 93
+    },
+    {
+      "article": "第三十七条",
+      "chapter": "第四章 运营安全防护",
+      "source_sha256": "001c8b1aa7ebc204b15a2678e86aaa767e700c2078e4c7ec7af701d561e384ff",
+      "output_sha256": "001c8b1aa7ebc204b15a2678e86aaa767e700c2078e4c7ec7af701d561e384ff",
+      "source_characters": 195,
+      "output_characters": 195
+    },
+    {
+      "article": "第三十八条",
+      "chapter": "第四章 运营安全防护",
+      "source_sha256": "a40e6358521c3106facbfc06a7b18913891c2dd568bb8396a5ef9acb4b4ed8d1",
+      "output_sha256": "a40e6358521c3106facbfc06a7b18913891c2dd568bb8396a5ef9acb4b4ed8d1",
+      "source_characters": 353,
+      "output_characters": 353
+    },
+    {
+      "article": "第三十九条",
+      "chapter": "第四章 运营安全防护",
+      "source_sha256": "206bd43a67adc666bc6c766f8190d892a2400ff6a7e9b5611b1cb3ba1c1fbee9",
+      "output_sha256": "206bd43a67adc666bc6c766f8190d892a2400ff6a7e9b5611b1cb3ba1c1fbee9",
+      "source_characters": 25,
+      "output_characters": 25
+    },
+    {
+      "article": "第四十条",
+      "chapter": "第四章 运营安全防护",
+      "source_sha256": "57d1a3c0df9dead7951b16c3219dbc101f9452d7c1a7d695897bf34595bfbd96",
+      "output_sha256": "57d1a3c0df9dead7951b16c3219dbc101f9452d7c1a7d695897bf34595bfbd96",
+      "source_characters": 389,
+      "output_characters": 389
+    },
+    {
+      "article": "第四十一条",
+      "chapter": "第四章 运营安全防护",
+      "source_sha256": "968383613cd62746d7b99d485904822a76a642b64cac23789bac3d803b10a970",
+      "output_sha256": "968383613cd62746d7b99d485904822a76a642b64cac23789bac3d803b10a970",
+      "source_characters": 102,
+      "output_characters": 102
+    },
+    {
+      "article": "第四十二条",
+      "chapter": "第四章 运营安全防护",
+      "source_sha256": "be1a5f129e4b4813c5eb5ac64a7a1dff374b0cfde4714cac6717d8a82542d6ec",
+      "output_sha256": "be1a5f129e4b4813c5eb5ac64a7a1dff374b0cfde4714cac6717d8a82542d6ec",
+      "source_characters": 139,
+      "output_characters": 139
+    },
+    {
+      "article": "第四十三条",
+      "chapter": "第五章 监督管理",
+      "source_sha256": "15a83b30106e8592381e350b12d0f00e48efa6001d5a7d0ccdb96c004d688e7d",
+      "output_sha256": "15a83b30106e8592381e350b12d0f00e48efa6001d5a7d0ccdb96c004d688e7d",
+      "source_characters": 176,
+      "output_characters": 176
+    },
+    {
+      "article": "第四十四条",
+      "chapter": "第五章 监督管理",
+      "source_sha256": "f20a9b1e636c6bd0052aab8ab492f223ce8a25477389a6bd62fd170a1d18d8d4",
+      "output_sha256": "f20a9b1e636c6bd0052aab8ab492f223ce8a25477389a6bd62fd170a1d18d8d4",
+      "source_characters": 283,
+      "output_characters": 283
+    },
+    {
+      "article": "第四十五条",
+      "chapter": "第五章 监督管理",
+      "source_sha256": "cfe1afa2117b8f84e1a363aecf9bb69999d45a2b054e021a053e536277db48e8",
+      "output_sha256": "cfe1afa2117b8f84e1a363aecf9bb69999d45a2b054e021a053e536277db48e8",
+      "source_characters": 43,
+      "output_characters": 43
+    },
+    {
+      "article": "第四十六条",
+      "chapter": "第五章 监督管理",
+      "source_sha256": "d0c7c9b16be782a37a07287988e4eb47c11ba56137c901eebfa7f30493f994c5",
+      "output_sha256": "d0c7c9b16be782a37a07287988e4eb47c11ba56137c901eebfa7f30493f994c5",
+      "source_characters": 99,
+      "output_characters": 99
+    },
+    {
+      "article": "第四十七条",
+      "chapter": "第五章 监督管理",
+      "source_sha256": "8f05918765f83182904bbf88eabca9808d22598394dd96e7cc83bfa1ebb2029c",
+      "output_sha256": "8f05918765f83182904bbf88eabca9808d22598394dd96e7cc83bfa1ebb2029c",
+      "source_characters": 83,
+      "output_characters": 83
+    },
+    {
+      "article": "第四十八条",
+      "chapter": "第六章 附则",
+      "source_sha256": "63da89020d43bda38bf4456f13ce419d6f888e7140641da7a23114e960c12de8",
+      "output_sha256": "63da89020d43bda38bf4456f13ce419d6f888e7140641da7a23114e960c12de8",
+      "source_characters": 17,
+      "output_characters": 17
+    }
+  ]
+}

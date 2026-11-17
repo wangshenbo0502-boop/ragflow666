@@ -1,0 +1,459 @@
+{
+  "doc_id": "DOC0009",
+  "source_id": "S0009",
+  "source_path": "01-originals/web/S0009.txt",
+  "output_path": "03-domains/GW/DOC0009_铁路建设工程勘察设计管理办法.md",
+  "expected_article_count": 56,
+  "extracted_article_count": 56,
+  "output_sha256": "8ed0e8562d584eb2bf4df0337bda240b239ff649bb18b0458dada8b0e9f147dc",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "853740995d6933821a5bc539ebd00055cf9dd6c714a45197c6d0c88768154dbe",
+      "output_sha256": "853740995d6933821a5bc539ebd00055cf9dd6c714a45197c6d0c88768154dbe",
+      "source_characters": 91,
+      "output_characters": 91
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "db8a2503f508359e93ed7f5fb9720d573c5996c8651e361e729274488459931d",
+      "output_sha256": "db8a2503f508359e93ed7f5fb9720d573c5996c8651e361e729274488459931d",
+      "source_characters": 40,
+      "output_characters": 40
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "549ef94057108c86d1fce7e410ef314f3ddfac51d022094e2621ee3c899b27b4",
+      "output_sha256": "549ef94057108c86d1fce7e410ef314f3ddfac51d022094e2621ee3c899b27b4",
+      "source_characters": 210,
+      "output_characters": 210
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "057a7bb57b8f43a1d81f6256eb55dcc459cf3d0c6bc19dc74708c8056c53499c",
+      "output_sha256": "057a7bb57b8f43a1d81f6256eb55dcc459cf3d0c6bc19dc74708c8056c53499c",
+      "source_characters": 111,
+      "output_characters": 111
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "6e2ad63f68eddbd83d2038684d0a1fd97acc85a7ecc7e87c9f9ce8d32b949026",
+      "output_sha256": "6e2ad63f68eddbd83d2038684d0a1fd97acc85a7ecc7e87c9f9ce8d32b949026",
+      "source_characters": 133,
+      "output_characters": 133
+    },
+    {
+      "article": "第六条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "badb8d1278ffa14f1b0f7749fb96c36724ad729f437443228cd44da8724020b8",
+      "output_sha256": "badb8d1278ffa14f1b0f7749fb96c36724ad729f437443228cd44da8724020b8",
+      "source_characters": 84,
+      "output_characters": 84
+    },
+    {
+      "article": "第七条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "5c2ac4b95a5e46f27050c3b8c8296508de59fa59d522a35ccfc0f96d88e33030",
+      "output_sha256": "5c2ac4b95a5e46f27050c3b8c8296508de59fa59d522a35ccfc0f96d88e33030",
+      "source_characters": 48,
+      "output_characters": 48
+    },
+    {
+      "article": "第八条",
+      "chapter": "第一章  总   则",
+      "source_sha256": "afb50f6b21e59fb37379878da13a75abaf539f784df1eba13e3acfce6f03c980",
+      "output_sha256": "afb50f6b21e59fb37379878da13a75abaf539f784df1eba13e3acfce6f03c980",
+      "source_characters": 80,
+      "output_characters": 80
+    },
+    {
+      "article": "第九条",
+      "chapter": "第二章  勘察设计程序",
+      "source_sha256": "ad73d3ff7d8f522a1a27cc2b4ad2c8ef5aed4466c3d78113dbe58662260a8fb4",
+      "output_sha256": "ad73d3ff7d8f522a1a27cc2b4ad2c8ef5aed4466c3d78113dbe58662260a8fb4",
+      "source_characters": 96,
+      "output_characters": 96
+    },
+    {
+      "article": "第十条",
+      "chapter": "第二章  勘察设计程序",
+      "source_sha256": "4104900b85051af916af59152f9cf36524610e1bc84115f748e34b420e8ab097",
+      "output_sha256": "4104900b85051af916af59152f9cf36524610e1bc84115f748e34b420e8ab097",
+      "source_characters": 253,
+      "output_characters": 253
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第二章  勘察设计程序",
+      "source_sha256": "9240d17d1c76817ffca6a249c0bc1db84b4c67414eb1c67a7038aae9e0d37011",
+      "output_sha256": "9240d17d1c76817ffca6a249c0bc1db84b4c67414eb1c67a7038aae9e0d37011",
+      "source_characters": 75,
+      "output_characters": 75
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第二章  勘察设计程序",
+      "source_sha256": "c43c6a2a0d11e038c4a550592802602c85b028aa69f4e243042c5f6497cf40a2",
+      "output_sha256": "c43c6a2a0d11e038c4a550592802602c85b028aa69f4e243042c5f6497cf40a2",
+      "source_characters": 243,
+      "output_characters": 243
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第二章  勘察设计程序",
+      "source_sha256": "74616b799662a81c01298d13d32af77fd07c6ccda72a064d10062a47de14cfb1",
+      "output_sha256": "74616b799662a81c01298d13d32af77fd07c6ccda72a064d10062a47de14cfb1",
+      "source_characters": 121,
+      "output_characters": 121
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第三章  资质资格与承发包管理",
+      "source_sha256": "f5179b32f3d696fccdb3934a4b86a03e1387e03208c1f75516fadcf4382bff97",
+      "output_sha256": "f5179b32f3d696fccdb3934a4b86a03e1387e03208c1f75516fadcf4382bff97",
+      "source_characters": 169,
+      "output_characters": 169
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第三章  资质资格与承发包管理",
+      "source_sha256": "eb851bf86f63459d7607e8a529d1777c1ba976adfde38500f468e96b1631e41e",
+      "output_sha256": "eb851bf86f63459d7607e8a529d1777c1ba976adfde38500f468e96b1631e41e",
+      "source_characters": 183,
+      "output_characters": 183
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第三章  资质资格与承发包管理",
+      "source_sha256": "33e2f073556c92a76713fb5615cb46fafc926bf25aa28b7f3c42b4f6f7429f93",
+      "output_sha256": "33e2f073556c92a76713fb5615cb46fafc926bf25aa28b7f3c42b4f6f7429f93",
+      "source_characters": 51,
+      "output_characters": 51
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第三章  资质资格与承发包管理",
+      "source_sha256": "7b3078cab066b612278bf5140d5744fe88fe737a27bd3d8e59fd693c84b935be",
+      "output_sha256": "7b3078cab066b612278bf5140d5744fe88fe737a27bd3d8e59fd693c84b935be",
+      "source_characters": 79,
+      "output_characters": 79
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第三章  资质资格与承发包管理",
+      "source_sha256": "4733d8334536cd080859af50bf0b3c1b285970f398cb7c088185b5fea77730f3",
+      "output_sha256": "4733d8334536cd080859af50bf0b3c1b285970f398cb7c088185b5fea77730f3",
+      "source_characters": 123,
+      "output_characters": 123
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第三章  资质资格与承发包管理",
+      "source_sha256": "f6e92190640c4989c00e569bcaf70de1ae740fb0220d90999784cdd28b75b1a6",
+      "output_sha256": "f6e92190640c4989c00e569bcaf70de1ae740fb0220d90999784cdd28b75b1a6",
+      "source_characters": 250,
+      "output_characters": 250
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第三章  资质资格与承发包管理",
+      "source_sha256": "80b63c26b999885f1205b7ef1e7bb5faf58c3f517fa786b58f9d0dce83c3459c",
+      "output_sha256": "80b63c26b999885f1205b7ef1e7bb5faf58c3f517fa786b58f9d0dce83c3459c",
+      "source_characters": 199,
+      "output_characters": 199
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第三章  资质资格与承发包管理",
+      "source_sha256": "bc124600b12acef0009646269d51220858f8031282b3cf89afec6130a81f6551",
+      "output_sha256": "bc124600b12acef0009646269d51220858f8031282b3cf89afec6130a81f6551",
+      "source_characters": 166,
+      "output_characters": 166
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第四章  工程勘察",
+      "source_sha256": "60f96a160f02c39d3743caf4fa60b0d45fd7e54a3bfa8d84a2ddd6e28b6ae02c",
+      "output_sha256": "60f96a160f02c39d3743caf4fa60b0d45fd7e54a3bfa8d84a2ddd6e28b6ae02c",
+      "source_characters": 84,
+      "output_characters": 84
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第四章  工程勘察",
+      "source_sha256": "547544f115eda21ebf5c6fba41ce9900b1ec7729ea79f5d97b7f6cc2f97bfd8f",
+      "output_sha256": "547544f115eda21ebf5c6fba41ce9900b1ec7729ea79f5d97b7f6cc2f97bfd8f",
+      "source_characters": 184,
+      "output_characters": 184
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第四章  工程勘察",
+      "source_sha256": "201e81e43dc71685c9eed53523694d02f4b811a2491f00548433df234326edfd",
+      "output_sha256": "201e81e43dc71685c9eed53523694d02f4b811a2491f00548433df234326edfd",
+      "source_characters": 74,
+      "output_characters": 74
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第四章  工程勘察",
+      "source_sha256": "0ecf91ea313bc605cccf1b9b5f545bf144d8340d68aec2c73087b8dc1530f551",
+      "output_sha256": "0ecf91ea313bc605cccf1b9b5f545bf144d8340d68aec2c73087b8dc1530f551",
+      "source_characters": 177,
+      "output_characters": 177
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第四章  工程勘察",
+      "source_sha256": "0df68cba0ba08947d9a616d455c271de197dc66216a0f7a9f35986b8db66892f",
+      "output_sha256": "0df68cba0ba08947d9a616d455c271de197dc66216a0f7a9f35986b8db66892f",
+      "source_characters": 143,
+      "output_characters": 143
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第四章  工程勘察",
+      "source_sha256": "54ce92b628261a72fef3655c87b8a99491c9fbf19eb8716fe18ca453ff601445",
+      "output_sha256": "54ce92b628261a72fef3655c87b8a99491c9fbf19eb8716fe18ca453ff601445",
+      "source_characters": 88,
+      "output_characters": 88
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第四章  工程勘察",
+      "source_sha256": "9cc337596304fd2b76df9f4ceb07d050789c3bf6355d90782b2395d301b225e3",
+      "output_sha256": "9cc337596304fd2b76df9f4ceb07d050789c3bf6355d90782b2395d301b225e3",
+      "source_characters": 89,
+      "output_characters": 89
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第五章  工程设计",
+      "source_sha256": "9c8289679bb2293e7d7ebf624a89b814f8df9b02ae196a5b56d919a676d942d3",
+      "output_sha256": "9c8289679bb2293e7d7ebf624a89b814f8df9b02ae196a5b56d919a676d942d3",
+      "source_characters": 204,
+      "output_characters": 204
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第五章  工程设计",
+      "source_sha256": "9855cbfa8e2061a1518daec44bf62dd43ddd957970b918a02c55408f0e9e119c",
+      "output_sha256": "9855cbfa8e2061a1518daec44bf62dd43ddd957970b918a02c55408f0e9e119c",
+      "source_characters": 169,
+      "output_characters": 169
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第五章  工程设计",
+      "source_sha256": "eab24232f1d4ed83d475c4fa08b1c56c75b1e55806e438e409f1a68cc6d1f023",
+      "output_sha256": "eab24232f1d4ed83d475c4fa08b1c56c75b1e55806e438e409f1a68cc6d1f023",
+      "source_characters": 123,
+      "output_characters": 123
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第五章  工程设计",
+      "source_sha256": "3699dcb9bed097889ecae33f2458d08b43c894d5fcb909c7567e46db9a7a9328",
+      "output_sha256": "3699dcb9bed097889ecae33f2458d08b43c894d5fcb909c7567e46db9a7a9328",
+      "source_characters": 183,
+      "output_characters": 183
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第五章  工程设计",
+      "source_sha256": "819a85d9ff5eb29884052169a186aee244d6226cb8d64e818f14947d8af74413",
+      "output_sha256": "819a85d9ff5eb29884052169a186aee244d6226cb8d64e818f14947d8af74413",
+      "source_characters": 101,
+      "output_characters": 101
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第五章  工程设计",
+      "source_sha256": "c82edc9eb0742322799a8347feb15cd2e28b394e7bae62718779383a209c4b9d",
+      "output_sha256": "c82edc9eb0742322799a8347feb15cd2e28b394e7bae62718779383a209c4b9d",
+      "source_characters": 151,
+      "output_characters": 151
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第五章  工程设计",
+      "source_sha256": "d8ea90a83a7686c91cf2dd0fcdda7abd18db1b5cb6d67e8a7488bd346f5a88c1",
+      "output_sha256": "d8ea90a83a7686c91cf2dd0fcdda7abd18db1b5cb6d67e8a7488bd346f5a88c1",
+      "source_characters": 133,
+      "output_characters": 133
+    },
+    {
+      "article": "第三十六条",
+      "chapter": "第六章  勘察、设计管理",
+      "source_sha256": "f21bf6c761dedb6c19f3a4b68ef765e6cc32008257cb5e485534d15de7d01bab",
+      "output_sha256": "f21bf6c761dedb6c19f3a4b68ef765e6cc32008257cb5e485534d15de7d01bab",
+      "source_characters": 257,
+      "output_characters": 257
+    },
+    {
+      "article": "第三十七条",
+      "chapter": "第六章  勘察、设计管理",
+      "source_sha256": "92c11d86523935ee67343c7b534ead9f72cde2ffa914fb78fc55d8e3c5bd4130",
+      "output_sha256": "92c11d86523935ee67343c7b534ead9f72cde2ffa914fb78fc55d8e3c5bd4130",
+      "source_characters": 115,
+      "output_characters": 115
+    },
+    {
+      "article": "第三十八条",
+      "chapter": "第六章  勘察、设计管理",
+      "source_sha256": "a3a2f05d770228affede85158ee81f30fdfc05b7a0f9193e4323020960cd514f",
+      "output_sha256": "a3a2f05d770228affede85158ee81f30fdfc05b7a0f9193e4323020960cd514f",
+      "source_characters": 212,
+      "output_characters": 212
+    },
+    {
+      "article": "第三十九条",
+      "chapter": "第六章  勘察、设计管理",
+      "source_sha256": "95af50c93064d0599678d251b55356bf1ae84761b25dcb083b7416693ae24246",
+      "output_sha256": "95af50c93064d0599678d251b55356bf1ae84761b25dcb083b7416693ae24246",
+      "source_characters": 264,
+      "output_characters": 264
+    },
+    {
+      "article": "第四十条",
+      "chapter": "第六章  勘察、设计管理",
+      "source_sha256": "c3b95cb433d46c54f3c179f08fd5af576151f45eb5017dde0406762122439ac4",
+      "output_sha256": "c3b95cb433d46c54f3c179f08fd5af576151f45eb5017dde0406762122439ac4",
+      "source_characters": 289,
+      "output_characters": 289
+    },
+    {
+      "article": "第四十一条",
+      "chapter": "第六章  勘察、设计管理",
+      "source_sha256": "222e6144cb1a01ba6ff6df49be6e172c1dfe3540e3472ebd306f1dee31ddb2d5",
+      "output_sha256": "222e6144cb1a01ba6ff6df49be6e172c1dfe3540e3472ebd306f1dee31ddb2d5",
+      "source_characters": 41,
+      "output_characters": 41
+    },
+    {
+      "article": "第四十二条",
+      "chapter": "第六章  勘察、设计管理",
+      "source_sha256": "4e37c24a59429a567f4ebd07c6aaba64244a618786ff84673c8e3c1a5f569154",
+      "output_sha256": "4e37c24a59429a567f4ebd07c6aaba64244a618786ff84673c8e3c1a5f569154",
+      "source_characters": 196,
+      "output_characters": 196
+    },
+    {
+      "article": "第四十三条",
+      "chapter": "第六章  勘察、设计管理",
+      "source_sha256": "d7d30bd3c5d7db717bbff1ad5c9911c7f5145a9db2fd98f108c50e43bc290d0a",
+      "output_sha256": "d7d30bd3c5d7db717bbff1ad5c9911c7f5145a9db2fd98f108c50e43bc290d0a",
+      "source_characters": 115,
+      "output_characters": 115
+    },
+    {
+      "article": "第四十四条",
+      "chapter": "第七章  变更设计",
+      "source_sha256": "5679d4de635acd12871b71568af0fe71b6b16b911c14c0fbb3d71e8f9a31c605",
+      "output_sha256": "5679d4de635acd12871b71568af0fe71b6b16b911c14c0fbb3d71e8f9a31c605",
+      "source_characters": 153,
+      "output_characters": 153
+    },
+    {
+      "article": "第四十五条",
+      "chapter": "第七章  变更设计",
+      "source_sha256": "70b93e2c409d58551109fc8aed7b16b2bbcc48223b692b362a596f61801cd510",
+      "output_sha256": "70b93e2c409d58551109fc8aed7b16b2bbcc48223b692b362a596f61801cd510",
+      "source_characters": 148,
+      "output_characters": 148
+    },
+    {
+      "article": "第四十六条",
+      "chapter": "第七章  变更设计",
+      "source_sha256": "401bf11ad1069dea05e5ee016ae5cb8a8ccf9705ac01c8814c6c7004f1d73f18",
+      "output_sha256": "401bf11ad1069dea05e5ee016ae5cb8a8ccf9705ac01c8814c6c7004f1d73f18",
+      "source_characters": 123,
+      "output_characters": 123
+    },
+    {
+      "article": "第四十七条",
+      "chapter": "第七章  变更设计",
+      "source_sha256": "18df8d1993894f065dadcca03b78ecd2b9fbea77cff4d9a8b4a248ffe3f7278f",
+      "output_sha256": "18df8d1993894f065dadcca03b78ecd2b9fbea77cff4d9a8b4a248ffe3f7278f",
+      "source_characters": 94,
+      "output_characters": 94
+    },
+    {
+      "article": "第四十八条",
+      "chapter": "第八章  监督管理",
+      "source_sha256": "5c88121638748a61a6357e0e78ba760f9e3487a4df2c55fbe209686e2b0971c1",
+      "output_sha256": "5c88121638748a61a6357e0e78ba760f9e3487a4df2c55fbe209686e2b0971c1",
+      "source_characters": 174,
+      "output_characters": 174
+    },
+    {
+      "article": "第四十九条",
+      "chapter": "第八章  监督管理",
+      "source_sha256": "ad8d4d243d5b755ecd68c7d5e49df1db88d7ab222ea4c83f5c674cfc97b3dedd",
+      "output_sha256": "ad8d4d243d5b755ecd68c7d5e49df1db88d7ab222ea4c83f5c674cfc97b3dedd",
+      "source_characters": 39,
+      "output_characters": 39
+    },
+    {
+      "article": "第五十条",
+      "chapter": "第九章  法律责任",
+      "source_sha256": "f7bd6de59e9e20d34368ee72054d879c94652ad8606df58e61c497a3b1c0c225",
+      "output_sha256": "f7bd6de59e9e20d34368ee72054d879c94652ad8606df58e61c497a3b1c0c225",
+      "source_characters": 70,
+      "output_characters": 70
+    },
+    {
+      "article": "第五十一条",
+      "chapter": "第九章  法律责任",
+      "source_sha256": "7924500361004ae33eb9fad35bb244bccd6a406999d72e9748418db3ed6e5eb8",
+      "output_sha256": "7924500361004ae33eb9fad35bb244bccd6a406999d72e9748418db3ed6e5eb8",
+      "source_characters": 93,
+      "output_characters": 93
+    },
+    {
+      "article": "第五十二条",
+      "chapter": "第九章  法律责任",
+      "source_sha256": "b7061b964788a4b8eb8b8691dfc3dc83b278d7710c4fd1f27cecf938a25faca5",
+      "output_sha256": "b7061b964788a4b8eb8b8691dfc3dc83b278d7710c4fd1f27cecf938a25faca5",
+      "source_characters": 243,
+      "output_characters": 243
+    },
+    {
+      "article": "第五十三条",
+      "chapter": "第九章  法律责任",
+      "source_sha256": "aa62c5dfcaec760455b96cc39409057abe6fbb01e74613d59fe309e6a5bb330e",
+      "output_sha256": "aa62c5dfcaec760455b96cc39409057abe6fbb01e74613d59fe309e6a5bb330e",
+      "source_characters": 59,
+      "output_characters": 59
+    },
+    {
+      "article": "第五十四条",
+      "chapter": "第九章  法律责任",
+      "source_sha256": "fc43089763d2fc68d474d960308c6065ca1e33718f310095b1bfe8dda66b8772",
+      "output_sha256": "fc43089763d2fc68d474d960308c6065ca1e33718f310095b1bfe8dda66b8772",
+      "source_characters": 70,
+      "output_characters": 70
+    },
+    {
+      "article": "第五十五条",
+      "chapter": "第十章  附   则",
+      "source_sha256": "661af6e7f38077603446c9866cfc6595ea96d2361dd9a79ffa2d30312912eca0",
+      "output_sha256": "661af6e7f38077603446c9866cfc6595ea96d2361dd9a79ffa2d30312912eca0",
+      "source_characters": 32,
+      "output_characters": 32
+    },
+    {
+      "article": "第五十六条",
+      "chapter": "第十章  附   则",
+      "source_sha256": "13809ea2187fe06b842dd886ab664f67e3ac475fb327b8ab41417a890908395c",
+      "output_sha256": "13809ea2187fe06b842dd886ab664f67e3ac475fb327b8ab41417a890908395c",
+      "source_characters": 65,
+      "output_characters": 65
+    }
+  ]
+}

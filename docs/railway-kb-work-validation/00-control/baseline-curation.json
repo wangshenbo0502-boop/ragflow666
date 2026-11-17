@@ -1,0 +1,156 @@
+{
+  "docs": [
+    {
+      "doc_id": "DOC0001",
+      "source_id": "S0001",
+      "title": "铁路设备质量安全监督管理办法",
+      "domain": "CL",
+      "count_as_valid": true,
+      "status": "待结构验收",
+      "original_path": "01-originals/baseline/01_equipment-quality.md",
+      "master_path": "03-domains/CL/DOC0001-铁路设备质量安全监督管理办法.md",
+      "source_url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202308/t20230828_342877.shtml",
+      "article_count": 37,
+      "sha256": "ce83b1f627a751eaf04f9f471ee4bed2df49e818a70dd27cfa3f92683a4e33fd",
+      "extraction_review_required": false,
+      "note": ""
+    },
+    {
+      "doc_id": "DOC0002",
+      "source_id": "S0002",
+      "title": "铁路旅客车票实名制管理办法",
+      "domain": "YS",
+      "count_as_valid": true,
+      "status": "待结构验收",
+      "original_path": "01-originals/baseline/02_real-name-tickets.md",
+      "master_path": "03-domains/YS/DOC0002-铁路旅客车票实名制管理办法.md",
+      "source_url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202211/t20221125_339122.shtml",
+      "article_count": 32,
+      "sha256": "6c7f13227c1bc3522791f9bb1696cecd57492cd7c703e16a654bf9c1ae973885",
+      "extraction_review_required": false,
+      "note": ""
+    },
+    {
+      "doc_id": "DOC0003",
+      "source_id": "S0003",
+      "title": "铁路旅客运输安全检查管理办法",
+      "domain": "YS",
+      "count_as_valid": true,
+      "status": "待结构验收",
+      "original_path": "01-originals/baseline/03_passenger-security.md",
+      "master_path": "03-domains/YS/DOC0003-铁路旅客运输安全检查管理办法.md",
+      "source_url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202401/t20240102_344299.shtml",
+      "article_count": 52,
+      "sha256": "c0caf61492d93d3740189b166756d1623abe45be4187484cb69eccdcb5b6f630",
+      "extraction_review_required": false,
+      "note": ""
+    },
+    {
+      "doc_id": "DOC0004",
+      "source_id": "S0004",
+      "title": "铁路旅客运输规程",
+      "domain": "YS",
+      "count_as_valid": true,
+      "status": "待结构验收",
+      "original_path": "01-originals/baseline/04_passenger-transport.md",
+      "master_path": "03-domains/YS/DOC0004-铁路旅客运输规程.md",
+      "source_url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202211/t20221117_338894.shtml",
+      "article_count": 52,
+      "sha256": "8e9a884dada657810577ce6254302bf71ba6cb33c12229cb23431872d131e39f",
+      "extraction_review_required": false,
+      "note": ""
+    },
+    {
+      "doc_id": "DOC0005",
+      "source_id": "S0005",
+      "title": "铁路交通事故应急救援和调查处理条例",
+      "domain": "YS",
+      "count_as_valid": true,
+      "status": "待结构验收",
+      "original_path": "01-originals/baseline/05_railway-emergency.md",
+      "master_path": "03-domains/YS/DOC0005-铁路交通事故应急救援和调查处理条例.md",
+      "source_url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/xzzf/202111/t20211111_261219.shtml",
+      "article_count": 40,
+      "sha256": "844535ff66635372625d948bcb386b73485fbedfb574d138a926866b36dc8147",
+      "extraction_review_required": false,
+      "note": "删除条款从检索稿隔离；原件保留"
+    },
+    {
+      "doc_id": "DOC0006",
+      "source_id": "S0006",
+      "title": "铁路安全管理条例",
+      "domain": "GW",
+      "count_as_valid": true,
+      "status": "待结构验收",
+      "original_path": "01-originals/baseline/06_railway-safety.md",
+      "master_path": "03-domains/GW/DOC0006-铁路安全管理条例.md",
+      "source_url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/xzzf/202111/t20211111_261218.shtml",
+      "article_count": 108,
+      "sha256": "a7ea1f982cf71fb65f6d0c3404b8f4c70407fd5de72a1f2dc5a5f021d09e76be",
+      "extraction_review_required": false,
+      "note": ""
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S0001",
+      "title": "铁路设备质量安全监督管理办法",
+      "publisher": "国家铁路局 / 原文所载发布机关",
+      "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202308/t20230828_342877.shtml",
+      "original_path": "01-originals/baseline/01_equipment-quality.md",
+      "access_date": "2026-11-15",
+      "status": "官方来源快照；效力逐项核验",
+      "domain": "CL"
+    },
+    {
+      "source_id": "S0002",
+      "title": "铁路旅客车票实名制管理办法",
+      "publisher": "国家铁路局 / 原文所载发布机关",
+      "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202211/t20221125_339122.shtml",
+      "original_path": "01-originals/baseline/02_real-name-tickets.md",
+      "access_date": "2026-11-15",
+      "status": "官方来源快照；效力逐项核验",
+      "domain": "YS"
+    },
+    {
+      "source_id": "S0003",
+      "title": "铁路旅客运输安全检查管理办法",
+      "publisher": "国家铁路局 / 原文所载发布机关",
+      "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202401/t20240102_344299.shtml",
+      "original_path": "01-originals/baseline/03_passenger-security.md",
+      "access_date": "2026-11-15",
+      "status": "官方来源快照；效力逐项核验",
+      "domain": "YS"
+    },
+    {
+      "source_id": "S0004",
+      "title": "铁路旅客运输规程",
+      "publisher": "国家铁路局 / 原文所载发布机关",
+      "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/bmgz/202211/t20221117_338894.shtml",
+      "original_path": "01-originals/baseline/04_passenger-transport.md",
+      "access_date": "2026-11-15",
+      "status": "官方来源快照；效力逐项核验",
+      "domain": "YS"
+    },
+    {
+      "source_id": "S0005",
+      "title": "铁路交通事故应急救援和调查处理条例",
+      "publisher": "国家铁路局 / 原文所载发布机关",
+      "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/xzzf/202111/t20211111_261219.shtml",
+      "original_path": "01-originals/baseline/05_railway-emergency.md",
+      "access_date": "2026-11-15",
+      "status": "官方来源快照；效力逐项核验",
+      "domain": "YS"
+    },
+    {
+      "source_id": "S0006",
+      "title": "铁路安全管理条例",
+      "publisher": "国家铁路局 / 原文所载发布机关",
+      "url": "https://www.nra.gov.cn/xxgk/gkml/ztjg/gfzd/xzzf/202111/t20211111_261218.shtml",
+      "original_path": "01-originals/baseline/06_railway-safety.md",
+      "access_date": "2026-11-15",
+      "status": "官方来源快照；效力逐项核验",
+      "domain": "GW"
+    }
+  ]
+}

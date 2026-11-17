@@ -1,0 +1,38 @@
+{
+  "doc_id": "DOC0010",
+  "checked_at": "2026-11-15T16:51:56.407Z",
+  "old_source_id": "S0010",
+  "current_source_id": "S0028",
+  "source_url": "https://xxgk.mot.gov.cn/2020/jigou/fgs/202006/t20200623_3308061.html",
+  "original_preserved": true,
+  "history_path": "05-review/history/pre-repair-DOC0010.md",
+  "official_articles": 37,
+  "normalized_sha256": "b81c6a04ce25242f3c3aab36a0ab166dba34098d48b847f53623ed6f778d736b",
+  "corrections": [
+    {
+      "article": "第十条",
+      "official_html": "GSMR",
+      "corrected": "GSM-R",
+      "evidence": "S0010-1.pdf，PDF页序5；原件图像已核对。"
+    }
+  ],
+  "scan_review": {
+    "pages": 10,
+    "missing_articles_restored": [
+      "第十一条",
+      "第十二条"
+    ],
+    "corrupted_numbers_fixed": [
+      "第二十条",
+      "第三十一条"
+    ],
+    "cross_page_articles": [
+      5,
+      8,
+      10,
+      12,
+      27,
+      33
+    ]
+  }
+}

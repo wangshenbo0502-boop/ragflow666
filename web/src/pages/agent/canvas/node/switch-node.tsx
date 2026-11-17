@@ -4,6 +4,7 @@ import { LogicalOperatorIcon } from '@/hooks/logic-hooks/use-build-operator-opti
 import { ISwitchCondition, ISwitchNode } from '@/interfaces/database/agent';
 import { NodeProps, Position } from '@xyflow/react';
 import { memo, useCallback } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useGetVariableLabelOrTypeByValue } from '../../hooks/use-get-begin-query';
 import { CommonHandle, LeftEndHandle } from './handle';
 import { RightHandleStyle } from './handle-icon';
@@ -14,12 +15,12 @@ import { useBuildSwitchHandlePositions } from './use-build-switch-handle-positio
 
 const getConditionKey = (idx: number, length: number) => {
   if (idx === 0 && length !== 1) {
-    return 'If';
+    return 'flow.conditionIf';
   } else if (idx === length - 1) {
-    return 'Else';
+    return 'flow.conditionElse';
   }
 
-  return 'ElseIf';
+  return 'flow.conditionElseIf';
 };
 
 const ConditionBlock = ({
@@ -62,6 +63,7 @@ const ConditionBlock = ({
 };
 
 function InnerSwitchNode({ id, data, selected }: NodeProps<ISwitchNode>) {
+  const { t } = useTranslation();
   const { positions } = useBuildSwitchHandlePositions({ data, id });
   return (
     <ToolBar selected={selected} id={id} label={data.label} showRun={false}>
@@ -74,14 +76,18 @@ function InnerSwitchNode({ id, data, selected }: NodeProps<ISwitchNode>) {
               <div key={idx}>
                 <section className="flex flex-col text-xs">
                   <div className="text-right">
-                    <span>{getConditionKey(idx, positions.length)}</span>
+                    <span>{t(getConditionKey(idx, positions.length))}</span>
                     <div className="text-text-secondary">
-                      {idx < positions.length - 1 && position.text}
+                      {idx < positions.length - 1 &&
+                        t('flow.conditionCase', { number: idx + 1 })}
                     </div>
                   </div>
                   <span className="text-accent-primary">
                     {idx < positions.length - 1 &&
-                      position.condition?.logical_operator?.toUpperCase()}
+                      position.condition?.logical_operator &&
+                      t(
+                        `flow.switchLogicOperatorOptions.${position.condition.logical_operator.toLowerCase()}`,
+                      )}
                   </span>
                   {position.condition && (
                     <ConditionBlock

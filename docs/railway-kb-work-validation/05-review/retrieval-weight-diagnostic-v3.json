@@ -1,0 +1,725 @@
+{
+  "scope": "已暴露回归题；仅诊断，不是独立验收",
+  "results": [
+    {
+      "id": "GW02",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0010-K22",
+        "DOC0010-K10",
+        "DOC0010-K12",
+        "DOC0010-K11",
+        "DOC0010-K05"
+      ]
+    },
+    {
+      "id": "GD01",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0014-K31",
+        "DOC0015-K02",
+        "DOC0014-K02",
+        "DOC0014-K29",
+        "DOC0015-K03"
+      ]
+    },
+    {
+      "id": "GD04",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0015-K06",
+        "DOC0015-K11",
+        "DOC0015-K17",
+        "DOC0015-K08",
+        "DOC0015-K10"
+      ]
+    },
+    {
+      "id": "CL06",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0006-K26",
+        "DOC0006-K86",
+        "DOC0023-K31",
+        "DOC0023-K04",
+        "DOC0023-K09"
+      ]
+    },
+    {
+      "id": "YS01",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0002-K17",
+        "DOC0002-K21",
+        "DOC0002-K22",
+        "DOC0002-K20",
+        "DOC0002-K18"
+      ]
+    },
+    {
+      "id": "C01",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0024-K16",
+        "DOC0006-K52",
+        "DOC0013-K48",
+        "DOC0006-K50",
+        "DOC0013-K50"
+      ]
+    },
+    {
+      "id": "C02",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0004-K43",
+        "DOC0004-K19",
+        "DOC0004-K26",
+        "DOC0003-K04",
+        "DOC0004-K42"
+      ]
+    },
+    {
+      "id": "C03",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0010-K10",
+        "DOC0010-K03",
+        "DOC0001-K36",
+        "DOC0015-K07",
+        "DOC0015-K04"
+      ]
+    },
+    {
+      "id": "C04",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0006-K15",
+        "DOC0022-K03",
+        "DOC0008-K05",
+        "DOC0007-K08",
+        "DOC0008-K18"
+      ]
+    },
+    {
+      "id": "C05",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0003-K09",
+        "DOC0024-K37",
+        "DOC0003-K41",
+        "DOC0013-K31",
+        "DOC0023-K08"
+      ]
+    },
+    {
+      "id": "C06",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0011-K04",
+        "DOC0011-K35",
+        "DOC0011-K34",
+        "DOC0011-K33",
+        "DOC0011-K31"
+      ]
+    },
+    {
+      "id": "C07",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0007-K64",
+        "DOC0021-K36",
+        "DOC0007-K63",
+        "DOC0005-K24",
+        "DOC0005-K14"
+      ]
+    },
+    {
+      "id": "C08",
+      "weight": 0,
+      "complete": true,
+      "points": [
+        "DOC0006-K50",
+        "DOC0006-K52",
+        "DOC0006-K53",
+        "DOC0024-K23",
+        "DOC0007-K15"
+      ]
+    },
+    {
+      "id": "C09",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0004-K43",
+        "DOC0004-K44",
+        "DOC0005-K11",
+        "DOC0005-K10",
+        "DOC0005-K07"
+      ]
+    },
+    {
+      "id": "C10",
+      "weight": 0,
+      "complete": false,
+      "points": [
+        "DOC0022-K03",
+        "DOC0022-K22",
+        "DOC0022-K19",
+        "DOC0022-K21",
+        "DOC0022-K08"
+      ]
+    },
+    {
+      "id": "GW02",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0010-K22",
+        "DOC0010-K10",
+        "DOC0010-K12",
+        "DOC0010-K11",
+        "DOC0010-K05"
+      ]
+    },
+    {
+      "id": "GD01",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0014-K31",
+        "DOC0015-K02",
+        "DOC0014-K02",
+        "DOC0014-K30",
+        "DOC0014-K29"
+      ]
+    },
+    {
+      "id": "GD04",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0015-K06",
+        "DOC0015-K11",
+        "DOC0015-K17",
+        "DOC0015-K08",
+        "DOC0015-K10"
+      ]
+    },
+    {
+      "id": "CL06",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0006-K26",
+        "DOC0006-K86",
+        "DOC0023-K31",
+        "DOC0023-K04",
+        "DOC0023-K09"
+      ]
+    },
+    {
+      "id": "YS01",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0002-K17",
+        "DOC0002-K21",
+        "DOC0002-K22",
+        "DOC0002-K20",
+        "DOC0002-K18"
+      ]
+    },
+    {
+      "id": "C01",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0024-K16",
+        "DOC0006-K52",
+        "DOC0013-K48",
+        "DOC0006-K50",
+        "DOC0013-K50"
+      ]
+    },
+    {
+      "id": "C02",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0004-K43",
+        "DOC0004-K19",
+        "DOC0004-K26",
+        "DOC0003-K04",
+        "DOC0004-K42"
+      ]
+    },
+    {
+      "id": "C03",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0010-K10",
+        "DOC0010-K03",
+        "DOC0001-K36",
+        "DOC0015-K07",
+        "DOC0015-K04"
+      ]
+    },
+    {
+      "id": "C04",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0006-K15",
+        "DOC0022-K03",
+        "DOC0008-K05",
+        "DOC0007-K08",
+        "DOC0008-K18"
+      ]
+    },
+    {
+      "id": "C05",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0003-K09",
+        "DOC0024-K37",
+        "DOC0003-K41",
+        "DOC0003-K08",
+        "DOC0003-K15"
+      ]
+    },
+    {
+      "id": "C06",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0011-K35",
+        "DOC0011-K34",
+        "DOC0011-K04",
+        "DOC0011-K33",
+        "DOC0011-K31"
+      ]
+    },
+    {
+      "id": "C07",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0007-K64",
+        "DOC0021-K36",
+        "DOC0007-K63",
+        "DOC0005-K24",
+        "DOC0005-K14"
+      ]
+    },
+    {
+      "id": "C08",
+      "weight": 0.2,
+      "complete": true,
+      "points": [
+        "DOC0006-K50",
+        "DOC0006-K52",
+        "DOC0024-K23",
+        "DOC0006-K53",
+        "DOC0007-K15"
+      ]
+    },
+    {
+      "id": "C09",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0004-K43",
+        "DOC0004-K44",
+        "DOC0005-K11",
+        "DOC0005-K10",
+        "DOC0005-K07"
+      ]
+    },
+    {
+      "id": "C10",
+      "weight": 0.2,
+      "complete": false,
+      "points": [
+        "DOC0022-K03",
+        "DOC0022-K22",
+        "DOC0022-K19",
+        "DOC0022-K21",
+        "DOC0022-K08"
+      ]
+    },
+    {
+      "id": "GW02",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0010-K09",
+        "DOC0010-K10",
+        "DOC0010-K02",
+        "DOC0010-K06",
+        "DOC0010-K12"
+      ]
+    },
+    {
+      "id": "GD01",
+      "weight": 0.8,
+      "complete": true,
+      "points": [
+        "DOC0014-K31",
+        "DOC0014-K32",
+        "DOC0015-K02",
+        "DOC0014-K30",
+        "DOC0014-K02"
+      ]
+    },
+    {
+      "id": "GD04",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0015-K08",
+        "DOC0015-K10",
+        "DOC0015-K06",
+        "DOC0015-K12",
+        "DOC0015-K14"
+      ]
+    },
+    {
+      "id": "CL06",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0006-K26",
+        "DOC0006-K86",
+        "DOC0023-K11",
+        "DOC0023-K09",
+        "DOC0023-K08"
+      ]
+    },
+    {
+      "id": "YS01",
+      "weight": 0.8,
+      "complete": true,
+      "points": [
+        "DOC0002-K17",
+        "DOC0002-K03",
+        "DOC0002-K21",
+        "DOC0002-K11",
+        "DOC0002-K22"
+      ]
+    },
+    {
+      "id": "C01",
+      "weight": 0.8,
+      "complete": true,
+      "points": [
+        "DOC0006-K52",
+        "DOC0013-K48",
+        "DOC0024-K16",
+        "DOC0006-K30",
+        "DOC0006-K45"
+      ]
+    },
+    {
+      "id": "C02",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0004-K43",
+        "DOC0004-K31",
+        "DOC0004-K42",
+        "DOC0004-K26",
+        "DOC0004-K19"
+      ]
+    },
+    {
+      "id": "C03",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0010-K10",
+        "DOC0010-K05",
+        "DOC0010-K22",
+        "DOC0010-K12",
+        "DOC0010-K34"
+      ]
+    },
+    {
+      "id": "C04",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0006-K15",
+        "DOC0008-K05",
+        "DOC0022-K03",
+        "DOC0014-K20",
+        "DOC0015-K14"
+      ]
+    },
+    {
+      "id": "C05",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0003-K09",
+        "DOC0003-K08",
+        "DOC0001-K36",
+        "DOC0024-K37",
+        "DOC0003-K11"
+      ]
+    },
+    {
+      "id": "C06",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0011-K35",
+        "DOC0011-K34",
+        "DOC0011-K04",
+        "DOC0011-K28",
+        "DOC0011-K33"
+      ]
+    },
+    {
+      "id": "C07",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0005-K24",
+        "DOC0005-K14",
+        "DOC0005-K16",
+        "DOC0007-K64",
+        "DOC0021-K36"
+      ]
+    },
+    {
+      "id": "C08",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0006-K52",
+        "DOC0006-K45",
+        "DOC0024-K23",
+        "DOC0006-K50",
+        "DOC0006-K35"
+      ]
+    },
+    {
+      "id": "C09",
+      "weight": 0.8,
+      "complete": true,
+      "points": [
+        "DOC0004-K43",
+        "DOC0004-K44",
+        "DOC0005-K19",
+        "DOC0005-K33",
+        "DOC0005-K11"
+      ]
+    },
+    {
+      "id": "C10",
+      "weight": 0.8,
+      "complete": false,
+      "points": [
+        "DOC0022-K03",
+        "DOC0022-K22",
+        "DOC0022-K19",
+        "DOC0022-K02",
+        "DOC0022-K21"
+      ]
+    },
+    {
+      "id": "GW02",
+      "weight": 1,
+      "complete": false,
+      "points": [
+        "DOC0010-K09",
+        "DOC0010-K10",
+        "DOC0010-K02",
+        "DOC0010-K06",
+        "DOC0010-K12"
+      ]
+    },
+    {
+      "id": "GD01",
+      "weight": 1,
+      "complete": true,
+      "points": [
+        "DOC0014-K32",
+        "DOC0014-K31",
+        "DOC0015-K02",
+        "DOC0001-K08",
+        "DOC0014-K30"
+      ]
+    },
+    {
+      "id": "GD04",
+      "weight": 1,
+      "complete": false,
+      "points": [
+        "DOC0015-K08",
+        "DOC0015-K10",
+        "DOC0015-K04",
+        "DOC0015-K16",
+        "DOC0015-K07"
+      ]
+    },
+    {
+      "id": "CL06",
+      "weight": 1,
+      "complete": false,
+      "points": [
+        "DOC0023-K11",
+        "DOC0023-K09",
+        "DOC0023-K12",
+        "DOC0023-K08",
+        "DOC0023-K22"
+      ]
+    },
+    {
+      "id": "YS01",
+      "weight": 1,
+      "complete": true,
+      "points": [
+        "DOC0002-K03",
+        "DOC0002-K11",
+        "DOC0002-K17",
+        "DOC0002-K02",
+        "DOC0006-K64"
+      ]
+    },
+    {
+      "id": "C01",
+      "weight": 1,
+      "complete": true,
+      "points": [
+        "DOC0006-K52",
+        "DOC0013-K48",
+        "DOC0006-K45",
+        "DOC0006-K30",
+        "DOC0007-K15"
+      ]
+    },
+    {
+      "id": "C02",
+      "weight": 1,
+      "complete": true,
+      "points": [
+        "DOC0004-K43",
+        "DOC0004-K31",
+        "DOC0006-K75",
+        "DOC0004-K42",
+        "DOC0004-K44"
+      ]
+    },
+    {
+      "id": "C03",
+      "weight": 1,
+      "complete": false,
+      "points": [
+        "DOC0010-K05",
+        "DOC0010-K10",
+        "DOC0010-K12",
+        "DOC0010-K34",
+        "DOC0010-K21"
+      ]
+    },
+    {
+      "id": "C04",
+      "weight": 1,
+      "complete": false,
+      "points": [
+        "DOC0008-K05",
+        "DOC0006-K15",
+        "DOC0014-K20",
+        "DOC0001-K18",
+        "DOC0015-K14"
+      ]
+    },
+    {
+      "id": "C05",
+      "weight": 1,
+      "complete": false,
+      "points": [
+        "DOC0003-K11",
+        "DOC0001-K18",
+        "DOC0003-K09",
+        "DOC0001-K23",
+        "DOC0006-K60"
+      ]
+    },
+    {
+      "id": "C06",
+      "weight": 1,
+      "complete": false,
+      "points": [
+        "DOC0011-K35",
+        "DOC0011-K28",
+        "DOC0011-K34",
+        "DOC0011-K29",
+        "DOC0006-K74"
+      ]
+    },
+    {
+      "id": "C07",
+      "weight": 1,
+      "complete": false,
+      "points": [
+        "DOC0005-K24",
+        "DOC0005-K16",
+        "DOC0005-K31",
+        "DOC0005-K14",
+        "DOC0005-K21"
+      ]
+    },
+    {
+      "id": "C08",
+      "weight": 1,
+      "complete": false,
+      "points": [
+        "DOC0006-K45",
+        "DOC0006-K52",
+        "DOC0024-K23",
+        "DOC0006-K35",
+        "DOC0024-K24"
+      ]
+    },
+    {
+      "id": "C09",
+      "weight": 1,
+      "complete": true,
+      "points": [
+        "DOC0004-K43",
+        "DOC0005-K19",
+        "DOC0005-K33",
+        "DOC0004-K44",
+        "DOC0004-K42"
+      ]
+    },
+    {
+      "id": "C10",
+      "weight": 1,
+      "complete": false,
+      "points": [
+        "DOC0017-K05",
+        "DOC0022-K04",
+        "DOC0022-K22",
+        "DOC0022-K19",
+        "DOC0022-K05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-11-16T09:57:03.305Z",
+  "scope": "Current configured real request; no config or dataset writes",
+  "rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+  "retrieval": {
+    "succeeded": false,
+    "error": "POST /datasets/search: 200 102 retrieval search failed: failed to send request: Post \"http://host.docker.internal:8082/v1/rerank\": dial tcp 192.168.65.254:8082: connect: connection refused"
+  },
+  "app_unchanged": true
+}

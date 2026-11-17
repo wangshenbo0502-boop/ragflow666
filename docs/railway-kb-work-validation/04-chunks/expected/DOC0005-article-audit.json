@@ -1,0 +1,339 @@
+{
+  "doc_id": "DOC0005",
+  "source_id": "S0005",
+  "source_path": "01-originals/baseline/05_railway-emergency.md",
+  "output_path": "03-domains/YS/DOC0005_铁路交通事故应急救援和调查处理条例.md",
+  "expected_article_count": 41,
+  "extracted_article_count": 41,
+  "output_sha256": "28894f69d06d5f0ccb5897976c4f00b3ffe9f309221fde41d7fedcccf7ab0466",
+  "articles": [
+    {
+      "article": "第一条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "fb98ddb774ef0d7aa952f71e54f5aa2db0204eefedd0a59f3564414ee9561a7f",
+      "output_sha256": "fb98ddb774ef0d7aa952f71e54f5aa2db0204eefedd0a59f3564414ee9561a7f",
+      "source_characters": 86,
+      "output_characters": 86
+    },
+    {
+      "article": "第二条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "451d674614b1419deec7160fb922971196e6dba22b1ab34c26bf652abd683196",
+      "output_sha256": "451d674614b1419deec7160fb922971196e6dba22b1ab34c26bf652abd683196",
+      "source_characters": 98,
+      "output_characters": 98
+    },
+    {
+      "article": "第三条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "9d4bf0d9930d1ac8b23d91def71ca6066853a511818973fc26910d767e23bee6",
+      "output_sha256": "9d4bf0d9930d1ac8b23d91def71ca6066853a511818973fc26910d767e23bee6",
+      "source_characters": 83,
+      "output_characters": 83
+    },
+    {
+      "article": "第四条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "a0d1ecee77c74945b0e809582b8fe5f3dcf2c13f1242d8170e2d0e46f428483d",
+      "output_sha256": "a0d1ecee77c74945b0e809582b8fe5f3dcf2c13f1242d8170e2d0e46f428483d",
+      "source_characters": 87,
+      "output_characters": 87
+    },
+    {
+      "article": "第五条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "84da01580fcdb7d2e8e334965c33916c5811fd7decc4599f2ebbe933086524e0",
+      "output_sha256": "84da01580fcdb7d2e8e334965c33916c5811fd7decc4599f2ebbe933086524e0",
+      "source_characters": 51,
+      "output_characters": 51
+    },
+    {
+      "article": "第六条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "3000cd4ef2e0624f14595c2af84362737ce824366152da8c0a1794fcb4e0e196",
+      "output_sha256": "3000cd4ef2e0624f14595c2af84362737ce824366152da8c0a1794fcb4e0e196",
+      "source_characters": 115,
+      "output_characters": 115
+    },
+    {
+      "article": "第七条",
+      "chapter": "第一章　总　　则",
+      "source_sha256": "3424ad073f4a4f990e1fa62f86f52a11122e7f697053ee7a2c9a9724b551fc1c",
+      "output_sha256": "3424ad073f4a4f990e1fa62f86f52a11122e7f697053ee7a2c9a9724b551fc1c",
+      "source_characters": 40,
+      "output_characters": 40
+    },
+    {
+      "article": "第八条",
+      "chapter": "第二章　事故等级",
+      "source_sha256": "cad991cfebb1e75115d55e77332335cb897463325e25e60f9dbfc9d4edecef93",
+      "output_sha256": "cad991cfebb1e75115d55e77332335cb897463325e25e60f9dbfc9d4edecef93",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第九条",
+      "chapter": "第二章　事故等级",
+      "source_sha256": "9146f7a463f3251b38fbb5cf7020e844b3c5a0ab0d05b4ff2346b11e3e7bac2f",
+      "output_sha256": "80f50b682cc3de2cb2124bfa1a7b94b3a3d8492b88843d27277db7ba1f8e6cfa",
+      "source_characters": 141,
+      "output_characters": 200
+    },
+    {
+      "article": "第十条",
+      "chapter": "第二章　事故等级",
+      "source_sha256": "e8aa89c50c59e919d38d4d3133f92a23f2c30c8ad3ed766db39f79e383fc8aa7",
+      "output_sha256": "540c177759718b7fe16da362dd543f6506a7979c4e434ad150190b4441b33486",
+      "source_characters": 226,
+      "output_characters": 285
+    },
+    {
+      "article": "第十一条",
+      "chapter": "第二章　事故等级",
+      "source_sha256": "3f2332bbdfa8188107e2f1f277e146e9c215d837e3875ff2e12de9df2c178c74",
+      "output_sha256": "bc555045fa2b9c3334debebd36f9a95d0a0c5dee0bb0491aecd609fb47291626",
+      "source_characters": 164,
+      "output_characters": 223
+    },
+    {
+      "article": "第十二条",
+      "chapter": "第二章　事故等级",
+      "source_sha256": "ec5c635b7ef82d9c1f1615629c678dd00e21917110c3e15a220f3a1210552809",
+      "output_sha256": "35a96a29108e500bed036d7c47be3e1a9cffbe064e199bc92a9e086fc76cd291",
+      "source_characters": 80,
+      "output_characters": 139
+    },
+    {
+      "article": "第十三条",
+      "chapter": "第二章　事故等级",
+      "source_sha256": "7bc32501fdfe3c920317173615267e01c8f1823e439135b8f0c37df498874876",
+      "output_sha256": "7bc32501fdfe3c920317173615267e01c8f1823e439135b8f0c37df498874876",
+      "source_characters": 27,
+      "output_characters": 27
+    },
+    {
+      "article": "第十四条",
+      "chapter": "第三章　事故报告",
+      "source_sha256": "b38af6c65ccea083cb1f3203d6074343aa18d2609f941689c028cef37f5c5d65",
+      "output_sha256": "b38af6c65ccea083cb1f3203d6074343aa18d2609f941689c028cef37f5c5d65",
+      "source_characters": 88,
+      "output_characters": 88
+    },
+    {
+      "article": "第十五条",
+      "chapter": "第三章　事故报告",
+      "source_sha256": "24a521f32e55aac9672b3ad9aaf49ff0ef49aff9fa35515fe1c1d4cd926f64e1",
+      "output_sha256": "24a521f32e55aac9672b3ad9aaf49ff0ef49aff9fa35515fe1c1d4cd926f64e1",
+      "source_characters": 161,
+      "output_characters": 161
+    },
+    {
+      "article": "第十六条",
+      "chapter": "第三章　事故报告",
+      "source_sha256": "3556429877f1b454781bdce70504685572880043d0a1d1ea5a0625d68f55a5a0",
+      "output_sha256": "3556429877f1b454781bdce70504685572880043d0a1d1ea5a0625d68f55a5a0",
+      "source_characters": 225,
+      "output_characters": 225
+    },
+    {
+      "article": "第十七条",
+      "chapter": "第三章　事故报告",
+      "source_sha256": "bd6e8473ac24b19dea8816920dd16ffb03834797ee0e8c995f343f8a483a7a28",
+      "output_sha256": "bd6e8473ac24b19dea8816920dd16ffb03834797ee0e8c995f343f8a483a7a28",
+      "source_characters": 49,
+      "output_characters": 49
+    },
+    {
+      "article": "第十八条",
+      "chapter": "第四章　事故应急救援",
+      "source_sha256": "729f6e13c660a3eed722d87332445645ba676cf5dc313d2306eb6eb4d03b5198",
+      "output_sha256": "729f6e13c660a3eed722d87332445645ba676cf5dc313d2306eb6eb4d03b5198",
+      "source_characters": 157,
+      "output_characters": 157
+    },
+    {
+      "article": "第十九条",
+      "chapter": "第四章　事故应急救援",
+      "source_sha256": "9a7798f3bbb1b4cc1526500bba643720cfe3792337e9295a70d6ef3c815eb3b7",
+      "output_sha256": "9a7798f3bbb1b4cc1526500bba643720cfe3792337e9295a70d6ef3c815eb3b7",
+      "source_characters": 68,
+      "output_characters": 68
+    },
+    {
+      "article": "第二十条",
+      "chapter": "第四章　事故应急救援",
+      "source_sha256": "e56e654430a3cbd61708a9d0e06c1e47316dda987eeae759765eefe38f936201",
+      "output_sha256": "e56e654430a3cbd61708a9d0e06c1e47316dda987eeae759765eefe38f936201",
+      "source_characters": 79,
+      "output_characters": 79
+    },
+    {
+      "article": "第二十一条",
+      "chapter": "第四章　事故应急救援",
+      "source_sha256": "deb3ea2516bb9e1ca60e8b35de6183a20ee0b7bbb868e84412a0c3755e60db72",
+      "output_sha256": "deb3ea2516bb9e1ca60e8b35de6183a20ee0b7bbb868e84412a0c3755e60db72",
+      "source_characters": 104,
+      "output_characters": 104
+    },
+    {
+      "article": "第二十二条",
+      "chapter": "第四章　事故应急救援",
+      "source_sha256": "4e31f778fa747fd5a34a3297cba369a84e741b608a2019dee2ddf6cf3197a9b9",
+      "output_sha256": "4e31f778fa747fd5a34a3297cba369a84e741b608a2019dee2ddf6cf3197a9b9",
+      "source_characters": 66,
+      "output_characters": 66
+    },
+    {
+      "article": "第二十三条",
+      "chapter": "第四章　事故应急救援",
+      "source_sha256": "5897cd7064ddf15c97141737eb5e74ea8ed0a540cd6604a6ef9468da1fac9ee4",
+      "output_sha256": "5897cd7064ddf15c97141737eb5e74ea8ed0a540cd6604a6ef9468da1fac9ee4",
+      "source_characters": 67,
+      "output_characters": 67
+    },
+    {
+      "article": "第二十四条",
+      "chapter": "第四章　事故应急救援",
+      "source_sha256": "544ad420d2d6187705ac50172ce4025133ac4ccecf3b3716a4efc9f13e89773f",
+      "output_sha256": "544ad420d2d6187705ac50172ce4025133ac4ccecf3b3716a4efc9f13e89773f",
+      "source_characters": 139,
+      "output_characters": 139
+    },
+    {
+      "article": "第二十五条",
+      "chapter": "第四章　事故应急救援",
+      "source_sha256": "9d4eba176997a6d59a4ab95287250716537ad7d7b0d8a56e412e3f3ff39ddffc",
+      "output_sha256": "9d4eba176997a6d59a4ab95287250716537ad7d7b0d8a56e412e3f3ff39ddffc",
+      "source_characters": 53,
+      "output_characters": 53
+    },
+    {
+      "article": "第二十六条",
+      "chapter": "第五章　事故调查处理",
+      "source_sha256": "45383ba6298a2a363089200f045a6b50c7a3443c7d1237bcbefe34bdef6e3f96",
+      "output_sha256": "45383ba6298a2a363089200f045a6b50c7a3443c7d1237bcbefe34bdef6e3f96",
+      "source_characters": 228,
+      "output_characters": 228
+    },
+    {
+      "article": "第二十七条",
+      "chapter": "第五章　事故调查处理",
+      "source_sha256": "7aaf639949b18a9b33c3acc3c4d91925ba15820ae2c4ff6c115feeb69f0f7e5e",
+      "output_sha256": "7aaf639949b18a9b33c3acc3c4d91925ba15820ae2c4ff6c115feeb69f0f7e5e",
+      "source_characters": 156,
+      "output_characters": 156
+    },
+    {
+      "article": "第二十八条",
+      "chapter": "第五章　事故调查处理",
+      "source_sha256": "aab8053a039ba36c2329f5cca22c2cac02a4b1c36929354f5645303a80e74f84",
+      "output_sha256": "aab8053a039ba36c2329f5cca22c2cac02a4b1c36929354f5645303a80e74f84",
+      "source_characters": 116,
+      "output_characters": 116
+    },
+    {
+      "article": "第二十九条",
+      "chapter": "第五章　事故调查处理",
+      "source_sha256": "a63bf2321da82b7b473eb8f239414dfff5b553117823eb8d6cea31d6d52322de",
+      "output_sha256": "a63bf2321da82b7b473eb8f239414dfff5b553117823eb8d6cea31d6d52322de",
+      "source_characters": 129,
+      "output_characters": 129
+    },
+    {
+      "article": "第三十条",
+      "chapter": "第五章　事故调查处理",
+      "source_sha256": "4be7d3fe8db103be17f5db914538f008b8dbefc5e8a62b6919e4ccd2f4cc5bc7",
+      "output_sha256": "4be7d3fe8db103be17f5db914538f008b8dbefc5e8a62b6919e4ccd2f4cc5bc7",
+      "source_characters": 102,
+      "output_characters": 102
+    },
+    {
+      "article": "第三十一条",
+      "chapter": "第五章　事故调查处理",
+      "source_sha256": "053196a8754aa731a75ae8b255bf355d3c4385c82ccad1bc51f3284cd6df53b7",
+      "output_sha256": "053196a8754aa731a75ae8b255bf355d3c4385c82ccad1bc51f3284cd6df53b7",
+      "source_characters": 45,
+      "output_characters": 45
+    },
+    {
+      "article": "第三十二条",
+      "chapter": "第六章　事故赔偿",
+      "source_sha256": "752e8e8f46471f2d249007b8482019878ca564c37f1ddc22071eba322daa3219",
+      "output_sha256": "752e8e8f46471f2d249007b8482019878ca564c37f1ddc22071eba322daa3219",
+      "source_characters": 119,
+      "output_characters": 119
+    },
+    {
+      "article": "第三十三条",
+      "chapter": "第六章　事故赔偿",
+      "source_sha256": "265a0d0288e0e712d538918c6c9b42f9ed6faac025f82dfea77aaafb1c5df349",
+      "output_sha256": "ef7b4a2258461317398a79ff13dbd8cc55397fb137b44786439cf217be7f77a2",
+      "source_characters": 131,
+      "output_characters": 160
+    },
+    {
+      "article": "第三十四条",
+      "chapter": "第六章　事故赔偿",
+      "source_sha256": "b09cac117562a64147f66f176c1ff1402b08f79bb4702ae3350b6b4708474846",
+      "output_sha256": "b09cac117562a64147f66f176c1ff1402b08f79bb4702ae3350b6b4708474846",
+      "source_characters": 57,
+      "output_characters": 57
+    },
+    {
+      "article": "第三十五条",
+      "chapter": "第六章　事故赔偿",
+      "source_sha256": "f27a71b7440c4018c3b3509f1456d41f0bd40e7b88c85cac95461f3e4a088070",
+      "output_sha256": "f27a71b7440c4018c3b3509f1456d41f0bd40e7b88c85cac95461f3e4a088070",
+      "source_characters": 57,
+      "output_characters": 57
+    },
+    {
+      "article": "第三十六条",
+      "chapter": "第六章　事故赔偿",
+      "source_sha256": "34ae8540743d1bb28900afe7ce550717afc5897de3b0decf8f02f9041afdc526",
+      "output_sha256": "34ae8540743d1bb28900afe7ce550717afc5897de3b0decf8f02f9041afdc526",
+      "source_characters": 70,
+      "output_characters": 70
+    },
+    {
+      "article": "第三十七条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "897ae886cb7f5c50d52a2c6c998961a1fbfb7a2e98af773d5fd9eea5232764ef",
+      "output_sha256": "897ae886cb7f5c50d52a2c6c998961a1fbfb7a2e98af773d5fd9eea5232764ef",
+      "source_characters": 56,
+      "output_characters": 56
+    },
+    {
+      "article": "第三十八条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "b8bc39ffa7967f247f6b12b541538ffe97596521adc1e3aa0f0ce89570b18887",
+      "output_sha256": "b8bc39ffa7967f247f6b12b541538ffe97596521adc1e3aa0f0ce89570b18887",
+      "source_characters": 154,
+      "output_characters": 154
+    },
+    {
+      "article": "第三十九条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "c5395e2dc6fe3a9f70e8a20cca17b94f98311a3be4d6e9152bff6b44b119eea6",
+      "output_sha256": "c5395e2dc6fe3a9f70e8a20cca17b94f98311a3be4d6e9152bff6b44b119eea6",
+      "source_characters": 101,
+      "output_characters": 101
+    },
+    {
+      "article": "第四十条",
+      "chapter": "第七章　法律责任",
+      "source_sha256": "b952dad45bb09278cc235fd3491a93289f3fec5f7bcf85a096548d68ff104346",
+      "output_sha256": "b952dad45bb09278cc235fd3491a93289f3fec5f7bcf85a096548d68ff104346",
+      "source_characters": 259,
+      "output_characters": 259
+    },
+    {
+      "article": "第四十一条",
+      "chapter": "第八章　附　　则",
+      "source_sha256": "b0ac12ef1fe832e71b2dd3fb21c9bfe11108ca2643284362b9fd1285d4fa16c3",
+      "output_sha256": "b0ac12ef1fe832e71b2dd3fb21c9bfe11108ca2643284362b9fd1285d4fa16c3",
+      "source_characters": 101,
+      "output_characters": 101
+    }
+  ]
+}

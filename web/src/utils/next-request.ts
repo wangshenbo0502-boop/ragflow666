@@ -16,16 +16,15 @@
 
 import message from '@/components/ui/message';
 import { Authorization } from '@/constants/authorization';
+import { handleEnterpriseResponseError } from '@/ee/utils/response-private';
 import i18n from '@/locales/config';
-import authorizationUtil, {
-  getAuthorization,
-  redirectToLogin,
-} from '@/utils/authorization-util';
+import { getAuthorization } from '@/utils/authorization-util';
 import notification from '@/utils/notification';
 import axios from 'axios';
 import { convertTheKeysOfTheObjectToSnake, isFormData } from './common-util';
 import { setCachedLlmList } from './llm-cache';
 import { addTenantParams } from './llm-util';
+import { handleRejectedSession } from './request-auth';
 
 const FAILED_TO_FETCH = 'Failed to fetch';
 
@@ -86,11 +85,8 @@ const errorHandler = (error: {
       });
     }
   }
-  return response ?? { data: { code: 1999 } };
+  return response ?? ({ data: { code: 1999 } } as unknown as Response);
 };
-
-// avoid duplicate 401 redirects
-let isRedirecting = false;
 
 const request = axios.create({
   //   errorHandler,
@@ -146,22 +142,15 @@ request.interceptors.response.use(
     if (data?.code === 100 && !skipErrorNotification) {
       message.error(data?.message);
     } else if (data?.code === 401) {
-      if (!isRedirecting) {
-        isRedirecting = true;
+      handleRejectedSession(response.config.headers.get(Authorization));
+    } else if (data?.code !== 0 && !skipErrorNotification) {
+      if (!(await handleEnterpriseResponseError(data, response.config))) {
         notification.error({
-          message: data?.message,
+          message: `${i18n.t('message.hint')} : ${data?.code}`,
           description: data?.message,
           duration: 3,
         });
-        authorizationUtil.removeAll();
-        redirectToLogin();
       }
-    } else if (data?.code !== 0 && !skipErrorNotification) {
-      notification.error({
-        message: `${i18n.t('message.hint')} : ${data?.code}`,
-        description: data?.message,
-        duration: 3,
-      });
     }
     return response;
   },
@@ -169,19 +158,7 @@ request.interceptors.response.use(
     // Handle HTTP 401 (token expired / invalid)
     const status = error?.response?.status;
     if (status === 401) {
-      if (!isRedirecting) {
-        isRedirecting = true;
-        const messageText =
-          error?.response?.data?.message || RetcodeMessage[401];
-        notification.error({
-          message: messageText,
-          description: messageText,
-          duration: 3,
-        });
-        authorizationUtil.removeAll();
-        redirectToLogin();
-      }
-
+      handleRejectedSession(error.config?.headers?.get(Authorization));
       return Promise.reject(error);
     }
 

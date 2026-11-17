@@ -48,12 +48,12 @@ export function SideBar({ dataset: data }: PropType) {
       },
       {
         icon: <LucideSettings className="size-[1em]" />,
-        label: t(`knowledgeDetails.configuration`),
+        label: t('railway.chunkSettings'),
         key: Routes.DataSetSetting,
       },
       {
         icon: <LucideBookText className="size-[1em]" />,
-        label: 'Artifacts',
+        label: t('knowledgeCompilation.artifacts'),
         key: Routes.Compilation,
       },
     ];

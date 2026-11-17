@@ -1,0 +1,466 @@
+{
+  "components": {
+    "Extractor:AutoExtractDefault": {
+      "downstream": [
+        "Tokenizer:LegalReadersDecide"
+      ],
+      "obj": {
+        "component_name": "Extractor",
+        "params": {
+          "keywords": {
+            "top_n": 0
+          },
+          "llm_id": "",
+          "metadata": {
+            "built_in_metadata": [],
+            "enabled": false,
+            "metadata": []
+          },
+          "questions": {
+            "top_n": 0
+          },
+          "summary": {
+            "enabled": false
+          },
+          "tags": {
+            "tag_file_id": "",
+            "top_n": 0
+          }
+        }
+      },
+      "upstream": [
+        "GeneralChunker:SixApplesFall"
+      ]
+    },
+    "File": {
+      "downstream": [
+        "Parser:HipSignsRhyme"
+      ],
+      "obj": {
+        "component_name": "File",
+        "params": {}
+      },
+      "upstream": []
+    },
+    "GeneralChunker:SixApplesFall": {
+      "downstream": [
+        "Extractor:AutoExtractDefault"
+      ],
+      "obj": {
+        "component_name": "GeneralChunker",
+        "params": {
+          "children_delimiters": [],
+          "chunk_token_size": 420,
+          "delimiters": [
+            "\n",
+            "!",
+            "?",
+            ";",
+            "。",
+            "；",
+            "！",
+            "？"
+          ],
+          "image_context_size": 0,
+          "outputs": {
+            "chunks": {
+              "type": "Array<Object>",
+              "value": []
+            }
+          },
+          "overlapped_percent": 12,
+          "table_context_size": 64
+        }
+      },
+      "upstream": [
+        "Parser:HipSignsRhyme"
+      ]
+    },
+    "Parser:HipSignsRhyme": {
+      "downstream": [
+        "GeneralChunker:SixApplesFall"
+      ],
+      "obj": {
+        "component_name": "Parser",
+        "params": {
+          "doc": {
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "doc"
+            ]
+          },
+          "docx": {
+            "flatten_media_to_text": false,
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "docx"
+            ],
+            "vlm": {}
+          },
+          "enable_vision_enhancement": false,
+          "html": {
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "htm",
+              "html"
+            ]
+          },
+          "markdown": {
+            "flatten_media_to_text": false,
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "md",
+              "markdown",
+              "mdx"
+            ],
+            "vlm": {}
+          },
+          "pdf": {
+            "flatten_media_to_text": false,
+            "pages": [
+              [
+                1,
+                100000
+              ]
+            ],
+            "parse_method": "Plain Text",
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "pdf"
+            ],
+            "vlm": {}
+          },
+          "spreadsheet": {
+            "flatten_media_to_text": false,
+            "parse_method": "DeepDOC",
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "xls",
+              "xlsx",
+              "csv"
+            ],
+            "vlm": {}
+          },
+          "text&code": {
+            "preprocess": [
+              "main_content"
+            ],
+            "suffix": [
+              "txt",
+              "py",
+              "js",
+              "java",
+              "c",
+              "cpp",
+              "h",
+              "php",
+              "go",
+              "ts",
+              "sh",
+              "cs",
+              "kt",
+              "sql"
+            ]
+          },
+          "vlm": {
+            "llm_id": ""
+          }
+        }
+      },
+      "upstream": [
+        "File"
+      ]
+    },
+    "Tokenizer:LegalReadersDecide": {
+      "downstream": [],
+      "obj": {
+        "component_name": "Tokenizer",
+        "params": {
+          "fields": "text",
+          "filename_embd_weight": 0.1,
+          "outputs": {},
+          "search_method": [
+            "embedding",
+            "full_text"
+          ]
+        }
+      },
+      "upstream": [
+        "Extractor:AutoExtractDefault"
+      ]
+    }
+  },
+  "globals": {
+    "sys.history": []
+  },
+  "graph": {
+    "edges": [
+      {
+        "id": "xy-edge__Filestart-Parser:HipSignsRhymeend",
+        "source": "File",
+        "sourceHandle": "start",
+        "target": "Parser:HipSignsRhyme",
+        "targetHandle": "end"
+      },
+      {
+        "id": "xy-edge__Parser:HipSignsRhymestart-GeneralChunker:SixApplesFallend",
+        "source": "Parser:HipSignsRhyme",
+        "sourceHandle": "start",
+        "target": "GeneralChunker:SixApplesFall",
+        "targetHandle": "end"
+      },
+      {
+        "id": "xy-edge__GeneralChunker:SixApplesFallstart-Extractor:AutoExtractDefaultend",
+        "source": "GeneralChunker:SixApplesFall",
+        "sourceHandle": "start",
+        "target": "Extractor:AutoExtractDefault",
+        "targetHandle": "end"
+      },
+      {
+        "id": "xy-edge__Extractor:AutoExtractDefaultstart-Tokenizer:LegalReadersDecideend",
+        "source": "Extractor:AutoExtractDefault",
+        "sourceHandle": "start",
+        "target": "Tokenizer:LegalReadersDecide",
+        "targetHandle": "end"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "label": "File",
+          "name": "File"
+        },
+        "id": "File",
+        "measured": {
+          "height": 49,
+          "width": 200
+        },
+        "position": {
+          "x": 50,
+          "y": 200
+        },
+        "sourcePosition": "left",
+        "targetPosition": "right",
+        "type": "beginNode"
+      },
+      {
+        "data": {
+          "form": {
+            "doc": {
+              "preprocess": [
+                "main_content"
+              ],
+              "suffix": [
+                "doc"
+              ]
+            },
+            "docx": {
+              "flatten_media_to_text": false,
+              "preprocess": [
+                "main_content"
+              ],
+              "suffix": [
+                "docx"
+              ],
+              "vlm": {}
+            },
+            "enable_vision_enhancement": false,
+            "html": {
+              "preprocess": [
+                "main_content"
+              ],
+              "suffix": [
+                "htm",
+                "html"
+              ]
+            },
+            "markdown": {
+              "flatten_media_to_text": false,
+              "preprocess": [
+                "main_content"
+              ],
+              "suffix": [
+                "md",
+                "markdown",
+                "mdx"
+              ],
+              "vlm": {}
+            },
+            "pdf": {
+              "flatten_media_to_text": false,
+              "pages": [
+                [
+                  1,
+                  100000
+                ]
+              ],
+              "parse_method": "Plain Text",
+              "preprocess": [
+                "main_content"
+              ],
+              "suffix": [
+                "pdf"
+              ],
+              "vlm": {}
+            },
+            "spreadsheet": {
+              "flatten_media_to_text": false,
+              "parse_method": "DeepDOC",
+              "preprocess": [
+                "main_content"
+              ],
+              "suffix": [
+                "xls",
+                "xlsx",
+                "csv"
+              ],
+              "vlm": {}
+            },
+            "text&code": {
+              "preprocess": [
+                "main_content"
+              ],
+              "suffix": [
+                "txt",
+                "py",
+                "js",
+                "java",
+                "c",
+                "cpp",
+                "h",
+                "php",
+                "go",
+                "ts",
+                "sh",
+                "cs",
+                "kt",
+                "sql"
+              ]
+            },
+            "vlm": {
+              "llm_id": ""
+            }
+          },
+          "label": "Parser",
+          "name": "Parser"
+        },
+        "dragging": false,
+        "id": "Parser:HipSignsRhyme",
+        "measured": {
+          "height": 121,
+          "width": 200
+        },
+        "position": {
+          "x": 316.99524094206413,
+          "y": 164
+        },
+        "selected": true,
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "type": "parserNode"
+      },
+      {
+        "data": {
+          "form": {
+            "children_delimiters": [],
+            "chunk_token_size": 420,
+            "delimiters": [
+              "\n",
+              "!",
+              "?",
+              ";",
+              "。",
+              "；",
+              "！",
+              "？"
+            ],
+            "image_context_size": 0,
+            "outputs": {
+              "chunks": {
+                "type": "Array<Object>",
+                "value": []
+              }
+            },
+            "overlapped_percent": 12,
+            "table_context_size": 64
+          },
+          "label": "GeneralChunker",
+          "name": "General Chunker"
+        },
+        "id": "GeneralChunker:SixApplesFall",
+        "measured": {
+          "height": 73,
+          "width": 200
+        },
+        "position": {
+          "x": 616.9952409420641,
+          "y": 188
+        },
+        "selected": false,
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "type": "chunkerNode"
+      },
+      {
+        "data": {
+          "form": {
+            "fields": "text",
+            "filename_embd_weight": 0.1,
+            "outputs": {},
+            "search_method": [
+              "embedding",
+              "full_text"
+            ]
+          },
+          "label": "Tokenizer",
+          "name": "Indexer"
+        },
+        "id": "Tokenizer:LegalReadersDecide",
+        "measured": {
+          "height": 113,
+          "width": 200
+        },
+        "position": {
+          "x": 1216.9952409420641,
+          "y": 168
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "type": "tokenizerNode"
+      },
+      {
+        "data": {
+          "label": "Extractor",
+          "name": "Extractor"
+        },
+        "id": "Extractor:AutoExtractDefault",
+        "measured": {
+          "height": 59,
+          "width": 200
+        },
+        "position": {
+          "x": 916.9952409420641,
+          "y": 195
+        },
+        "type": "contextNode"
+      }
+    ]
+  },
+  "history": [],
+  "messages": [],
+  "path": [],
+  "retrieval": [],
+  "variables": []
+}

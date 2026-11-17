@@ -4,10 +4,14 @@
  * away mid-answer and back shows the stream still in progress.
  */
 import { IMessage, Variable } from '@/interfaces/database/chat';
+import { ChatTask } from '@/interfaces/database/chat-task';
+import {
+  fetchChatTask,
+  isChatTaskTerminal,
+} from '@/services/chat-task-service';
 import {
   CompletionChunk,
   parseCompletionEventStream,
-  readJsonSafely,
   requestChatCompletionStream,
 } from '@/services/chat-completion-stream';
 import { mergeAnswerChunk } from '@/utils/chat';
@@ -15,32 +19,48 @@ import { AnswerFlushIntervalMs } from './constants';
 import { useChatStreamStore } from './store';
 
 export type RunChatCompletionStreamParams = {
+  messageId?: string;
   conversationId: string;
   chatId?: string;
-  messages: IMessage[];
+  question: string;
+  files?: IMessage['files'];
   enableThinking?: string;
   enableInternet?: boolean;
   llmSetting?: Variable;
+  mode?: string;
+  routePolicy?: string;
+  editAssetId?: string;
+  onTaskUpdate?: (task: ChatTask) => void;
 };
 
 export type RunChatCompletionStreamResult = {
+  /** The ordinary stream or the authoritative durable task completed successfully. */
   ok: boolean;
+  /** Observation was stopped locally; an accepted server task is not cancelled. */
   aborted: boolean;
+  /** A durable task ID was acknowledged, independently of its final outcome. */
+  accepted: boolean;
 };
 
 export async function runChatCompletionStream({
+  messageId,
   conversationId,
   chatId,
-  messages,
+  question,
+  files,
   enableThinking,
   enableInternet,
   llmSetting,
+  mode,
+  routePolicy,
+  editAssetId,
+  onTaskUpdate,
 }: RunChatCompletionStreamParams): Promise<RunChatCompletionStreamResult> {
   const { beginStream, applyAnswer, endStream } = useChatStreamStore.getState();
 
   const controller = new AbortController();
   if (!beginStream(conversationId, controller)) {
-    return { ok: false, aborted: false };
+    return { ok: false, aborted: false, accepted: false };
   }
 
   // Kept local rather than read back from the store: it must stay immune to
@@ -49,7 +69,8 @@ export async function runChatCompletionStream({
   // rather than on the rendered message content.
   let accumulatedAnswer = '';
   let aborted = false;
-  let ok = true;
+  let ok = false;
+  let acceptedTask: ChatTask | undefined;
 
   // Chunks arrive faster than the UI can use them, so they're coalesced into a
   // single store write per AnswerFlushIntervalMs. Fields are merged rather than
@@ -73,23 +94,53 @@ export async function runChatCompletionStream({
   try {
     const response = await requestChatCompletionStream(
       {
+        messageId,
         chatId,
         sessionId: conversationId,
-        messages,
+        question,
+        files,
         enableThinking,
         enableInternet,
         llmSetting,
+        mode,
+        routePolicy,
+        editAssetId,
       },
       controller.signal,
     );
 
-    // Clone before the body is consumed: an error response carries a JSON
-    // body, which is how a failed completion is detected. On a successful SSE
-    // response this parse simply fails and yields undefined.
-    const errorBodyPromise = readJsonSafely(response.clone());
+    const contentType =
+      response.headers.get('content-type')?.toLowerCase() ?? '';
+    if (
+      !response.ok ||
+      contentType.split(';', 1)[0].trim() !== 'text/event-stream'
+    ) {
+      let message = `Chat request failed (${response.status})`;
+      try {
+        const body = await response.json();
+        if (typeof body?.message === 'string' && body.message) {
+          message = body.message;
+        }
+      } catch {
+        // Keep the status-based message when the error response is not JSON.
+      }
+      throw new Error(message);
+    }
 
+    let receivedTerminal = false;
     try {
       for await (const chunk of parseCompletionEventStream(response)) {
+        if ('streamTerminal' in chunk) {
+          receivedTerminal = true;
+          continue;
+        }
+        if (chunk.task?.id) {
+          if (!acceptedTask || chunk.task.revision > acceptedTask.revision) {
+            acceptedTask = chunk.task as ChatTask;
+            onTaskUpdate?.(acceptedTask);
+          }
+          continue;
+        }
         accumulatedAnswer = mergeAnswerChunk(accumulatedAnswer, chunk);
         pendingChunk = pendingChunk ? { ...pendingChunk, ...chunk } : chunk;
 
@@ -106,18 +157,10 @@ export async function runChatCompletionStream({
         throw error;
       }
     }
-
-    // A healthy stream body isn't valid JSON, so errorBody stays undefined and
-    // the request counts as successful. A parseable body means the endpoint
-    // answered with an error envelope instead of a stream.
-    const errorBody = await errorBodyPromise;
-    if (
+    ok =
+      receivedTerminal &&
       !aborted &&
-      errorBody !== undefined &&
-      (response.status !== 200 || errorBody.code !== 0)
-    ) {
-      ok = false;
-    }
+      (!acceptedTask || acceptedTask.state === 'succeeded');
   } catch (error) {
     if (error instanceof DOMException && error.name === 'AbortError') {
       aborted = true;
@@ -128,8 +171,24 @@ export async function runChatCompletionStream({
     // Whatever was buffered must land, including on abort: a stopped answer
     // keeps the text produced up to that point.
     flushAnswer();
-    endStream(conversationId);
+    endStream(conversationId, !ok && !acceptedTask);
   }
 
-  return { ok, aborted };
+  if (acceptedTask && !aborted && !isChatTaskTerminal(acceptedTask)) {
+    // Observing a committed task never repeats the generation POST.
+    try {
+      const current = await fetchChatTask(acceptedTask.id);
+      if (current.task.revision > acceptedTask.revision) {
+        acceptedTask = current.task;
+        onTaskUpdate?.(acceptedTask);
+      }
+      ok = acceptedTask.state === 'succeeded';
+    } catch {
+      // The task center keeps observing independently of this HTTP stream.
+    }
+  }
+  if (acceptedTask && !aborted && isChatTaskTerminal(acceptedTask)) {
+    ok = acceptedTask.state === 'succeeded';
+  }
+  return { ok, aborted, accepted: Boolean(acceptedTask) };
 }

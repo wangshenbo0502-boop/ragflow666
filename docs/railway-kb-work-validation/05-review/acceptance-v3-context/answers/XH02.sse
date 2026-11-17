@@ -1,0 +1,150 @@
+data: {"code":0,"message":"success","data":{"answer":"根据《铁路关键信息基础设施","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"安全保护管理办法》（交通运输部","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"令2023年第20号，2023-12-17公布","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，2024-02-01施行），运营者承担","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"的主要保护责任可归纳如下：\n\n","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"## 一、总体责任定位\n铁路关键","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"信息基础设施安全保护坚持**","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"强化和落实运营者主体责任**","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，同时加强和规范保护工作部门","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"监督管理，发挥社会各方面作用","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"（第四条）。\n\n## 二、制度与组织","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"保障\n- 应当建立健全网络安全","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"保护制度和责任制，保障人力、","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"财力、物力投入（第十一条）。\n-","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":" **主要负责人**对所运营的铁路","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"关键信息基础设施安全保护**负","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"总责**，领导安全保护和重大网络安全","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"事件处置工作，组织研究解决","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"重大网络安全问题（第十一条）。\n- 应当","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"为每个铁路关键信息基础设施**","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"明确安全管理责任人**（第十一条）。\n","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"- 专门安全管理机构具体负责本单位","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"安全保护工作，职责包括：建立健全","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"网络安全管理、评价考核制度，拟订","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"保护计划；组织推动防护","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"能力建设，开展监测、检测和风险评估","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"；制定应急预案并定期演练、","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"处置事件；认定网络安全关键岗位并组织","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"考核；组织安全教育、培训","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"；履行个人信息和数据安全保护责任","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"；对设计、建设、运行、维护等服务","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"实施安全管理；按规定报告网络安全事件","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"和重要事项（第十三条）。\n\n## 三、","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"保护等级与全生命周期管理\n- 网络安全","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"保护等级**应当不低于第三级**","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"（第九条）。\n- 应当依照法律","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"、行政法规及国家标准强制性要求","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，在国家网络安全等级保护制度基础上","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"突出保护重点、落实防护","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"措施、加强全生命周期管理，保障","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"安全稳定运行，维护数据的完整性","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"、保密性和可用性（第九条）。\n\n##","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":" 四、数据安全保护\n- 应当加强","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"数据安全保护，明确重要数据和个人信息的","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"保护措施，将在我国境内运营","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"中收集和产生的个人信息和重要数据**存储在","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"境内**；因业务需要确需向境外提供的","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，应当按照国家相关规定和标准进行","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"**安全评估**（第十五条）。\n\n## ","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"五、供应链安全\n- 应当加强供应链","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"安全保护，**优先采购安全可信","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"**的网络产品和服务；采购时应预判产品","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"和服务投入使用后对国家安全的影响，","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"可能影响国家安全的，应当按照国家","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"有关规定**申报网络安全审查**（第十四","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"条）。\n\n## 六、保密管理\n- 应当加强","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"全过程保密管理，采购网络产品和服务时按规定","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"与提供者**签订安全保密协议**","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，明确技术支持和安全保密义务与","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"责任，并监督履行情况（第十八","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"条）。\n\n## 七、事件报告与应急处置","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"\n- 发生**重大**网络安全事件或发现重大","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"网络安全威胁时，应当按照有关规定","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"向**国家铁路局、公安机关**报告","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"，并立即启动本单位应急预案（第二十条","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"）。\n- 发生**特别重大**网络安全事件或","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"发现特别重大网络安全威胁时，","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"国家铁路局应当在收到报告后及时","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"向国家网信部门、国务院公安部门报告","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"（第二十条）。\n\n\u003e 说明：以上内容依据","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"存档原文整理，尚未证明截至","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"2026年11月16日无后续修订，具体","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"适用时请核验适用版本。","reference":{},"final":false}}
+
+data: {"code":0,"message":"success","data":{"answer":"根据《铁路关键信息基础设施安全保护管理办法》（交通运输部令2023年第20号，2023-12-17公布，2024-02-01施行），运营者承担的主要保护责任可归纳如下：\n\n## 一、总体责任定位\n铁路关键信息基础设施安全保护坚持**强化和落实运营者主体责任**，同时加强和规范保护工作部门监督管理，发挥社会各方面作用（第四条）。\n\n## 二、制度与组织保障\n- 应当建立健全网络安全保护制度和责任制，保障人力、财力、物力投入（第十一条）。\n- **主要负责人**对所运营的铁路关键信息基础设施安全保护**负总责**，领导安全保护和重大网络安全事件处置工作，组织研究解决重大网络安全问题（第十一条）。\n- 应当为每个铁路关键信息基础设施**明确安全管理责任人**（第十一条）。\n- 专门安全管理机构具体负责本单位安全保护工作，职责包括：建立健全网络安全管理、评价考核制度，拟订保护计划；组织推动防护能力建设，开展监测、检测和风险评估；制定应急预案并定期演练、处置事件；认定网络安全关键岗位并组织考核；组织安全教育、培训；履行个人信息和数据安全保护责任；对设计、建设、运行、维护等服务实施安全管理；按规定报告网络安全事件和重要事项（第十三条）。\n\n## 三、保护等级与全生命周期管理\n- 网络安全保护等级**应当不低于第三级**（第九条）。\n- 应当依照法律、行政法规及国家标准强制性要求，在国家网络安全等级保护制度基础上突出保护重点、落实防护措施、加强全生命周期管理，保障安全稳定运行，维护数据的完整性、保密性和可用性（第九条）。\n\n## 四、数据安全保护\n- 应当加强数据安全保护，明确重要数据和个人信息的保护措施，将在我国境内运营中收集和产生的个人信息和重要数据**存储在境内**；因业务需要确需向境外提供的，应当按照国家相关规定和标准进行**安全评估**（第十五条）。\n\n## 五、供应链安全\n- 应当加强供应链安全保护，**优先采购安全可信**的网络产品和服务；采购时应预判产品和服务投入使用后对国家安全的影响，可能影响国家安全的，应当按照国家有关规定**申报网络安全审查**（第十四条）。\n\n## 六、保密管理\n- 应当加强全过程保密管理，采购网络产品和服务时按规定与提供者**签订安全保密协议**，明确技术支持和安全保密义务与责任，并监督履行情况（第十八条）。\n\n## 七、事件报告与应急处置\n- 发生**重大**网络安全事件或发现重大网络安全威胁时，应当按照有关规定向**国家铁路局、公安机关**报告，并立即启动本单位应急预案（第二十条）。\n- 发生**特别重大**网络安全事件或发现特别重大网络安全威胁时，国家铁路局应当在收到报告后及时向国家网信部门、国务院公安部门报告（第二十条）。\n\n\u003e 说明：以上内容依据存档原文整理，尚未证明截至2026年11月16日无后续修订，具体适用时请核验适用版本。","reference":{"chunks":[{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第十一条｜运营者应当建立健全网络安全保护制度和责任制，保障人力、财力、物力投入\n证据定位： DOC0012-K11；S0012，第三章 运营者责任和义务，第十一条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运营者应当建立健全网络安全保护制度和责任制，保障人力、财力、物力投入。\n运营者的主要负责人对所运营的铁路关键信息基础设施安全保护负总责，领导关键信息基础设施安全保护和重大网络安全事件处置工作，组织研究解决重大网络安全问题。\n运营者应当为每个铁路关键信息基础设施明确安全管理责任人。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"539d5186f8adddfa","image_id":"","positions":"","row_id":"539d5186f8adddfa","similarity":0.6490446833400452,"term_similarity":0.3827441666800903,"url":"","vector_similarity":0.9153452},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第九条｜铁路关键信息基础设施的网络安全保护等级应当不低于第三级\n证据定位： DOC0012-K09；S0012，第三章 运营者责任和义务，第九条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路关键信息基础设施的网络安全保护等级应当不低于第三级。\n运营者应当依照有关法律、行政法规的规定以及国家标准的强制性要求，在国家网络安全等级保护制度的基础上，突出保护重点，落实防护措施，加强全生命周期管理，保障铁路关键信息基础设施安全稳定运行，维护数据的完整性、保密性和可用性。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"924cfcc7f32c1346","image_id":"","positions":"","row_id":"924cfcc7f32c1346","similarity":0.6489170525417701,"term_similarity":0.39913553508354027,"url":"","vector_similarity":0.89869857},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第十五条｜运营者应当加强数据安全保护\n证据定位： DOC0012-K15；S0012，第三章 运营者责任和义务，第十五条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运营者应当加强数据安全保护，明确重要数据和个人信息的保护措施，将在我国境内运营中收集和产生的个人信息和重要数据存储在境内。因业务需要，确需向境外提供数据的，应当按照国家相关规定和标准进行安全评估。法律、行政法规另有规定的，依照其规定执行。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"a4498fceead09799","image_id":"","positions":"","row_id":"a4498fceead09799","similarity":0.6363142583400452,"term_similarity":0.3827441666800903,"url":"","vector_similarity":0.88988435},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第一章 总 则\n### 第四条｜铁路关键信息基础设施安全保护坚持强化和落实铁路关键信息基础设施运营者（以下简称运营者）主体责任\n证据定位： DOC0012-K04；S0012，第一章 总 则，第四条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路关键信息基础设施安全保护坚持强化和落实铁路关键信息基础设施运营者（以下简称运营者）主体责任，加强和规范保护工作部门监督管理，发挥社会各方面的作用，共同保护铁路关键信息基础设施安全。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"a8085a912edde019","image_id":"","positions":"","row_id":"a8085a912edde019","similarity":0.6354351328234474,"term_similarity":0.3643248656468949,"url":"","vector_similarity":0.9065454},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第十三条｜专门安全管理机构具体负责本单位的铁路关键信息基础设施安全保护工作，履行下列职责\n证据定位： DOC0012-K13；S0012，第三章 运营者责任和义务，第十三条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n专门安全管理机构具体负责本单位的铁路关键信息基础设施安全保护工作，履行下列职责：\n（一）建立健全网络安全管理、评价考核制度，拟订铁路关键信息基础设施安全保护计划；\n（二）组织推动网络安全防护能力建设，开展网络安全监测、检测和风险评估；\n（三）按照国家及铁路行业要求，制定本单位网络安全事件应急预案，定期开展应急演练，处置网络安全事件；\n（四）认定网络安全关键岗位，组织开展网络安全工作考核，提出奖励和惩处建议；\n（五）组织网络安全教育、培训；\n（六）履行个人信息和数据安全保护责任，建立健全个人信息和数据安全保护制度；\n（七）对铁路关键信息基础设施设计、建设、运行、维护等服务实施安全管理；\n（八）按照规定报告网络安全事件和重要事项。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"d7898b2232a3bcd1","image_id":"","positions":"","row_id":"d7898b2232a3bcd1","similarity":0.6335513828234475,"term_similarity":0.3643248656468949,"url":"","vector_similarity":0.9027779},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第十四条｜运营者应当加强铁路关键信息基础设施供应链安全保护，优先采购安全可信的网络产品和服务\n证据定位： DOC0012-K14；S0012，第三章 运营者责任和义务，第十四条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运营者应当加强铁路关键信息基础设施供应链安全保护，优先采购安全可信的网络产品和服务。运营者采购网络产品和服务，应当预判该产品和服务投入使用后对国家安全的影响。可能影响国家安全的，应当按照国家有关规定申报网络安全审查。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"9ac678d9778e4b07","image_id":"","positions":"","row_id":"9ac678d9778e4b07","similarity":0.6325840328234474,"term_similarity":0.3643248656468949,"url":"","vector_similarity":0.9008432},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第二十条｜铁路关键信息基础设施发生重大网络安全事件或者发现重大网络安全威胁时\n证据定位： DOC0012-K20；S0012，第三章 运营者责任和义务，第二十条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路关键信息基础设施发生重大网络安全事件或者发现重大网络安全威胁时，运营者应当按照有关规定向国家铁路局、公安机关报告，并立即启动本单位网络安全事件应急预案。\n铁路关键信息基础设施发生特别重大网络安全事件或者发现特别重大网络安全威胁时，国家铁路局应当在收到报告后，及时向国家网信部门、国务院公安部门报告。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"cb3cb6603f80b932","image_id":"","positions":"","row_id":"cb3cb6603f80b932","similarity":0.6307518178234475,"term_similarity":0.3643248656468949,"url":"","vector_similarity":0.89717877},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第十八条｜运营者应当加强全过程保密管理\n证据定位： DOC0012-K18；S0012，第三章 运营者责任和义务，第十八条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运营者应当加强全过程保密管理，采购网络产品和服务，应当按照规定与提供者签订安全保密协议，明确提供者的技术支持和安全保密义务与责任，并对义务与责任履行情况进行监督。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"63e63bb694cc3b9a","image_id":"","positions":"","row_id":"63e63bb694cc3b9a","similarity":0.6278073478234474,"term_similarity":0.3643248656468949,"url":"","vector_similarity":0.89128983},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第十六条｜运营者应当自行或者委托网络安全服务机构对铁路关键信息基础设施每年至少进行一次网络安全检测和风险评估\n证据定位： DOC0012-K16；S0012，第三章 运营者责任和义务，第十六条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运营者应当自行或者委托网络安全服务机构对铁路关键信息基础设施每年至少进行一次网络安全检测和风险评估，对发现的安全问题及时整改，并按照国家铁路局要求报送情况。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"99a434062e0edba6","image_id":"","positions":"","row_id":"99a434062e0edba6","similarity":0.6266302178234475,"term_similarity":0.3643248656468949,"url":"","vector_similarity":0.88893557},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第十九条｜运营者应当制定本单位的监测预警和信息通报制度，加强对铁路关键信息基础设施监测，研判整体安全态势\n证据定位： DOC0012-K19；S0012，第三章 运营者责任和义务，第十九条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运营者应当制定本单位的监测预警和信息通报制度，加强对铁路关键信息基础设施监测，研判整体安全态势。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"fd07e7911fd30953","image_id":"","positions":"","row_id":"fd07e7911fd30953","similarity":0.6266074328234474,"term_similarity":0.3643248656468949,"url":"","vector_similarity":0.88889},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第十七条｜法律、行政法规和国家有关规定要求使用商用密码进行保护的铁路关键信息基础设施\n证据定位： DOC0012-K17；S0012，第三章 运营者责任和义务，第十七条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n法律、行政法规和国家有关规定要求使用商用密码进行保护的铁路关键信息基础设施，运营者应当使用商用密码进行保护，自行或者委托商用密码检测机构每年至少开展一次商用密码应用安全性评估。\n商用密码应用安全性评估应当与铁路关键信息基础设施安全检测和风险评估、网络安全等级测评制度相衔接，避免重复评估、测评。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"fb36cb19e411cb3e","image_id":"","positions":"","row_id":"fb36cb19e411cb3e","similarity":0.6238797828234475,"term_similarity":0.3643248656468949,"url":"","vector_similarity":0.8834347},{"content":"# 铁路关键信息基础设施安全保护管理办法\n## 第三章 运营者责任和义务\n### 第十二条｜运营者应当设置专门安全管理机构\n证据定位： DOC0012-K12；S0012，第三章 运营者责任和义务，第十二条。\n来源版本与范围： 交通运输部令2023年第20号；2023-12-17公布，2024-02-01施行；铁路关键信息基础设施安全保护和监督管理；定义见第二条。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n运营者应当设置专门安全管理机构，保障专门安全管理机构的运行经费、配备相应的人员，开展与网络安全和信息化有关的决策应当有专门安全管理机构人员参与。\n运营者应当对专门安全管理机构负责人和关键岗位人员进行安全背景审查。专门安全管理机构的负责人和关键岗位人员的身份、安全背景等发生变化或者必要时，运营者应当根据情况重新进行安全背景审查。\n","dataset_id":"66ff4d9d5ff748af8e83080bd7482f04","doc_type":"text","document_id":"bc0b8a1495d74658ac8fc8a1851faaef","document_metadata":null,"document_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md","id":"6c554c2eb1c0f77c","image_id":"","positions":"","row_id":"6c554c2eb1c0f77c","similarity":0.6232286828234475,"term_similarity":0.3643248656468949,"url":"","vector_similarity":0.8821325}],"doc_aggs":[{"count":30,"doc_id":"bc0b8a1495d74658ac8fc8a1851faaef","doc_name":"DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md"},{"count":28,"doc_id":"4ff3801c94384bdd958c6b68bb0f2289","doc_name":"DOC0006_铁路安全管理条例_精修_62effa50332b.md"},{"count":12,"doc_id":"7ba506b486d64965a6dec165157edaa4","doc_name":"DOC0024_高速铁路安全防护管理办法_精修_aacc2d4e372e.md"},{"count":6,"doc_id":"6554c41699074df3b30bde20dd7d84e6","doc_name":"DOC0013_铁路营业线施工安全管理办法_精修_a8a290fdcd9c.md"},{"count":6,"doc_id":"6c6f921506504ee0ac852df2883049ec","doc_name":"DOC0021_铁路危险货物运输安全监督管理规定_精修_7d7b9af33fbe.md"},{"count":5,"doc_id":"edae48b3f4cc4d0db06aa240af2757d5","doc_name":"DOC0001_铁路设备质量安全监督管理办法_精修_2eb51a1591c8.md"},{"count":4,"doc_id":"b733757e2b3a4971820b6adf41269377","doc_name":"DOC0007_铁路建设工程安全生产监督管理办法_精修_1e73bb253210.md"},{"count":3,"doc_id":"e391bf1661664df191a7216f1c6d522c","doc_name":"DOC0011_铁路无线电管理办法_精修_1aa4aec8bb5d.md"},{"count":2,"doc_id":"6fbc149a75714c5c994b710d84ae518a","doc_name":"DOC0010_高速铁路基础设施运用状态检测管理办法_精修_97bbb59187e8.md"},{"count":1,"doc_id":"7d9dea7bb3a144a2b275abdc78e25beb","doc_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md"},{"count":1,"doc_id":"8f75de8dc53f492abda6be6c6e1b76e0","doc_name":"DOC0014_铁路运输基础设备生产企业审批实施细则_精修_b2fece829b12.md"},{"count":1,"doc_id":"af24cb03034443d490c366625bb0bcbd","doc_name":"DOC0002_铁路旅客车票实名制管理办法_精修_5b68359deba9.md"},{"count":1,"doc_id":"6c53829ba0564c358507af7654f54c66","doc_name":"DOC0003_铁路旅客运输安全检查管理办法_精修_57c9de97763e.md"}]},"final":true}}
+
+data: {"code": 0, "message": "success", "data": true}
+

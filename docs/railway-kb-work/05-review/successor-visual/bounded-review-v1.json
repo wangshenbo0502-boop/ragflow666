@@ -1,0 +1,177 @@
+{
+  "recorded_at": "2026-11-16T13:14:18.451Z",
+  "scope": "Bounded observations of 16 pages viewed in this continuing task; not full-document visual acceptance.",
+  "manifest_path": "05-review/successor-visual/render-manifest.json",
+  "manifest_sha256": "ca13ab6e2291248e70602b04948a65f5adda9ce9e6b7b6aa4732e1a0cefc6a9f",
+  "documents": [
+    {
+      "doc_id": "DOC0025",
+      "source_id": "S0033",
+      "original_path": "01-originals/attachments/S0033-1.docx",
+      "original_sha256": "e330a2ac525225eeb4e8fb71c5697cdb43ebeeb74311a71903425e53a00f894e",
+      "master_path": "03-domains/GW/DOC0025_铁路道岔设备生产企业审批实施细则_复核稿.md",
+      "master_sha256": "ff4d5f02088bb5a02459269daa51638309a2ca8c878b6ca8b5ae313b272ef216",
+      "native_path": "05-review/successor-structure/S0033-native-tables-v2.json",
+      "native_sha256": "3e170fcd477db3149c8b0cd7e1d5bb922989f2d392e82b2dce57edc51d547749",
+      "expected_path": "04-chunks/expected/DOC0025-successor-v3.json",
+      "expected_sha256": "ee5f7704b75491c2f554469e241d54d2c7967e401e84f5097bb77f1fbe247d7b",
+      "pdf_path": "D:\\ragflow\\docs\\railway-kb-work\\05-review\\successor-visual\\S0033-original.pdf",
+      "pdf_sha256": "facaef6ccc430751b237ee475e67385184b9548f155688f469fa5056ec65bd4c",
+      "total_pages": 39,
+      "pages": [
+        {
+          "page": 12,
+          "image_path": "05-review/successor-visual/S0033-page-12.png",
+          "image_sha256": "e9de600b14313b56d27669e14e25c42e2d121791e7be2e6cea97a490d7b33442",
+          "observation": "T01 notes 1-3 are present in full; do not accept the former truncation claim."
+        },
+        {
+          "page": 15,
+          "image_path": "05-review/successor-visual/S0033-page-15.png",
+          "image_sha256": "847bb37bfc14bb68c58f588aef3db59b88d0e03e104934984caeb7a1969b489c",
+          "observation": "Equipment replacement remark has a named target; high-manganese frog section headers and values are visible."
+        },
+        {
+          "page": 34,
+          "image_path": "05-review/successor-visual/S0033-page-34.png",
+          "image_sha256": "a26752f98bacf2d2deb102cdd8c21860366f3d784f98f4102d83d87dd4dcc2be",
+          "observation": "Paragraph 2317 follows T08 and precedes the next annex. Position alone does not establish application to every assessment item."
+        }
+      ],
+      "full_visual_review_complete": false
+    },
+    {
+      "doc_id": "DOC0026",
+      "source_id": "S0034",
+      "original_path": "01-originals/attachments/S0034-1.docx",
+      "original_sha256": "846e6b9e498df94577a7d7aab1bbac6a254c2d3d41d205d51ae345f16f63fb80",
+      "master_path": "03-domains/XH/DOC0026_铁路信号设备生产企业审批实施细则_复核稿.md",
+      "master_sha256": "32aea92c16c702730bb247963f85182fcf911d9a075241771f00d2166574300c",
+      "native_path": "05-review/successor-structure/S0034-native-tables-v2.json",
+      "native_sha256": "cadc3ea5476ce3ef5cc0161aa2971eafbc1646671f2bc42cdaa1e4cd64d02fa9",
+      "expected_path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "expected_sha256": "1f0751a442be89cd1ec901d37ee8b940c4901b2cb1d442a70dd7eef58fd29fa2",
+      "pdf_path": "D:\\ragflow\\docs\\railway-kb-work\\05-review\\successor-visual\\S0034-original.pdf",
+      "pdf_sha256": "5326300d27e9b6068fef2b842041268498cb34052661d150efbd9a27b188dada",
+      "total_pages": 37,
+      "pages": [
+        {
+          "page": 16,
+          "image_path": "05-review/successor-visual/S0034-page-16.png",
+          "image_sha256": "f264bd693c7a81a508bd810d9b6de1133f8ce8ca6d8309df753a7dd5715bd74c",
+          "observation": "Equipment rows and merged remarks reviewed; the electric-switch-machine exception names sequence 6."
+        },
+        {
+          "page": 17,
+          "image_path": "05-review/successor-visual/S0034-page-17.png",
+          "image_sha256": "3f33fd694fceca30d50f9118813168982bb54c0b47df451afc09ecc19d4c1a4b",
+          "observation": "T03 row 167 (internal diameter dial gauge) requirement and remark cells are genuinely blank."
+        },
+        {
+          "page": 37,
+          "image_path": "05-review/successor-visual/S0034-page-37.png",
+          "image_sha256": "a8f9578e7e4784b236d73bd2b4622581416c7f57beb3b7e9e5e2659faaf98413",
+          "observation": "Personnel statistics form has unfilled data cells and a merged total column; no numerical counts or ratios may be invented."
+        }
+      ],
+      "full_visual_review_complete": false
+    },
+    {
+      "doc_id": "DOC0027",
+      "source_id": "S0035",
+      "original_path": "01-originals/attachments/S0035-1.docx",
+      "original_sha256": "bb11de3336cad42a06f38d8f9eafba1823e8f731a2f2e9d2c90d757d5ae17474",
+      "master_path": "03-domains/XH/DOC0027_铁路通信设备生产企业审批实施细则_复核稿.md",
+      "master_sha256": "a549bee56944f22d3fcc68eed33adb87e73c0f8b1ac84aabb28943207b0a989c",
+      "native_path": "05-review/successor-structure/S0035-native-tables-v2.json",
+      "native_sha256": "57d16066cb527945b1216ec5a90dcb52b3ffbc6787352713b9a21a13dee97b11",
+      "expected_path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "expected_sha256": "ed8a9240c065db7cfd20562ca9a94764166c33ea0c6e0bcfd7468767aa995a7d",
+      "pdf_path": "D:\\ragflow\\docs\\railway-kb-work\\05-review\\successor-visual\\S0035-original.pdf",
+      "pdf_sha256": "b057a00fe260845ffc5d70125a76d362fbeb97a9c5f543e5b22c879593f78ec4",
+      "total_pages": 32,
+      "pages": [
+        {
+          "page": 15,
+          "image_path": "05-review/successor-visual/S0035-page-15.png",
+          "image_sha256": "4fdbf962bc3c2a1a726e8222f43f050c69b79fbdd7f5cf367c4805f8b26a2d0c",
+          "observation": "T02 row 89 (LTE dedicated test software) has blank requirement and remark cells."
+        },
+        {
+          "page": 32,
+          "image_path": "05-review/successor-visual/S0035-page-32.png",
+          "image_sha256": "de30deb3d803353d26c17e08344f460fdfca07219cecbcb373a4c6112b3df661",
+          "observation": "Personnel statistics is an unfilled official form; blank cells and merged total column must remain unfilled."
+        }
+      ],
+      "full_visual_review_complete": false
+    },
+    {
+      "doc_id": "DOC0028",
+      "source_id": "S0036",
+      "original_path": "01-originals/attachments/S0036-1.doc",
+      "original_sha256": "af7cd50b1bd2b125143fff01ced06f40f0d37412fae0bb748ab4d4734a506d43",
+      "master_path": "03-domains/GD/DOC0028_铁路牵引供电设备生产企业审批实施细则_复核稿.md",
+      "master_sha256": "09309e6c31e157546b684bd4282e7e5d41217c79b466d036627fe03296a5af8f",
+      "native_path": "05-review/successor-structure/S0036-native-tables-v2.json",
+      "native_sha256": "ff1b1fffbf0ebcc30b9a819a3404217b347ae87418a50ca210e64b7606c3131a",
+      "expected_path": "04-chunks/expected/DOC0028-successor-v3.json",
+      "expected_sha256": "ce3ef8f683e0266dc1bd4526473d761a783a5f50dda8cd6b8999ade10d48d0b7",
+      "pdf_path": "D:\\ragflow\\docs\\railway-kb-work\\05-review\\successor-visual\\S0036-original.pdf",
+      "pdf_sha256": "0cb47245a5a7a2e155c964475256ebb1e297e01e4bf0269a37d0b5341a421b1c",
+      "total_pages": 33,
+      "pages": [
+        {
+          "page": 10,
+          "image_path": "05-review/successor-visual/S0036-page-10.png",
+          "image_sha256": "d3b5f8c3b9744862b7617db2b562e4a2ed6592e43b9f4f8f3942702d771fa1f4",
+          "observation": "Blank speed-class requirement cells are visible. Conditional casting/forging remarks must retain their wording; merging alone does not prove the condition is met."
+        },
+        {
+          "page": 11,
+          "image_path": "05-review/successor-visual/S0036-page-11.png",
+          "image_sha256": "6143b5d1aa4c2ab16a47c811f4290c487e45229038a50040a27db93aceffeffd",
+          "observation": "Row 64 has 12kg/50kg only in the 300-350km/h column; other speed columns are blank. Row 65 starts a blank product-name merge. Row 67 has 35/45/45mm by the three speed classes."
+        },
+        {
+          "page": 12,
+          "image_path": "05-review/successor-visual/S0036-page-12.png",
+          "image_sha256": "95852033c18a705d1b20ffaa99d2df98a8fe8b912362261916772b7b67fe2f76",
+          "observation": "Cross-page fatigue-test cell continues without a new independent rule; keep the complete original condition. Equipment blanks are genuine."
+        },
+        {
+          "page": 13,
+          "image_path": "05-review/successor-visual/S0036-page-13.png",
+          "image_sha256": "208cabbbcbbcaa89fcb458aad773344054220e0885ec7ba96520af54631b1748",
+          "observation": "Copper contact/catenary-wire and ceramic-insulator sections retain distinct headers, units and limits; empty cells remain empty."
+        },
+        {
+          "page": 14,
+          "image_path": "05-review/successor-visual/S0036-page-14.png",
+          "image_sha256": "b32d45ba3a50e5eda2c2cad28979a05e9fc1cb10d3bb5f5864143ad44d6dfacc",
+          "observation": "Ceramic/composite-insulator equipment headers and blank requirement cells reviewed; no default values are supplied."
+        },
+        {
+          "page": 15,
+          "image_path": "05-review/successor-visual/S0036-page-15.png",
+          "image_sha256": "6453bbd92f223218323c8ab75439fcb251d9e54424decca59bd7df40c9e691d2",
+          "observation": "Water diffusion test equipment row has blank requirements and remark."
+        },
+        {
+          "page": 16,
+          "image_path": "05-review/successor-visual/S0036-page-16.png",
+          "image_sha256": "84d682d4dbd9256d69e10d143f8764336ca994762e53047c149aa0c287305de5",
+          "observation": "Personnel qualifications and counts are visible. The electrical personnel remark appears blank in the rendering; native Word text nevertheless contains the anomalous phrase."
+        },
+        {
+          "page": 17,
+          "image_path": "05-review/successor-visual/S0036-page-17.png",
+          "image_sha256": "ef4e5bbcd055a7392c1c3fb08424f6aa08000fe9f15bf8426d9203a058fde3b5",
+          "observation": "Key-post rows literally say certificate OR training before taking the post; no certificate type or training authority is specified here."
+        }
+      ],
+      "full_visual_review_complete": false
+    }
+  ],
+  "full_visual_review_complete": false
+}

@@ -1,0 +1,49 @@
+{
+  "started_at": "2026-11-17T04:34:05.756Z",
+  "input_sha256": "0afe3f65b242195251cb0d3b945a9485c7e5148ffbaf7ff0200431ac78c1b813",
+  "user_app_before": {
+    "create_time": 1794666627121,
+    "created_by": "f8123cce6b744a88bde9137a8fab0ed1",
+    "description": null,
+    "id": "3b0470c7c4fb414dab6d32c19dfee8da",
+    "name": "6",
+    "search_config": {
+      "rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+      "use_rerank": true
+    },
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "update_time": 1794668238511
+  },
+  "retrieval_finished_at": "2026-11-17T04:39:14.738Z",
+  "user_app_unchanged": true,
+  "audit_search_id": "64f4c45fce964d198db542ed71c90c4b",
+  "audit_app": {
+    "create_time": 1794890112977,
+    "created_by": "f8123cce6b744a88bde9137a8fab0ed1",
+    "description": "DOC0022/23正式入库局部检索、引用和无证据回答诊断；不构成最终验收。",
+    "id": "64f4c45fce964d198db542ed71c90c4b",
+    "name": "铁路正式CL两篇v5诊断",
+    "search_config": {
+      "chat_id": "102e9861e4e24a73abb7cff80df6c52e",
+      "kb_ids": [
+        "08537d0556d5438d8afaf9641f212795"
+      ],
+      "keyword": false,
+      "keywords_similarity_weight": 0.5,
+      "llm_setting": {
+        "temperature": 0.1,
+        "temperature_enabled": true
+      },
+      "rerank_candidates_count": 64,
+      "rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+      "similarity_threshold": 0.1,
+      "top_k": 128,
+      "use_kg": false,
+      "use_rerank": true
+    },
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "update_time": 1794890370071
+  },
+  "answer_context_limit": 12,
+  "answers_finished_at": "2026-11-17T04:52:33.673Z"
+}

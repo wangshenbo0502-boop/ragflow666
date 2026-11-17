@@ -1,0 +1,26 @@
+{
+  "doc_id": "DOC0016",
+  "checked_at": "2026-11-15T16:51:56.977Z",
+  "old_source_id": "S0018",
+  "current_source_id": "S0029",
+  "source_url": "https://source.nra.gov.cn/jglz/sbjg/fgsb/202602/t20260224_350762.shtml",
+  "original_preserved": true,
+  "history_path": "05-review/history/pre-repair-DOC0016.md",
+  "official_articles": 55,
+  "normalized_sha256": "890c14dae4720b0d000df3a51e09e4c9d89527d5799cbe43f28d66fbb09ac9c1",
+  "corrections": [],
+  "scan_review": {
+    "historical_pdf_pages": 23,
+    "current_articles": 55,
+    "historical_articles": 59,
+    "historical_status": "2026-03-15起废止；国铁设备监规〔2023〕18号，2023-07-25印发",
+    "earlier_unverified_metadata_rejected": [
+      "2026年第2号",
+      "2026-01-26",
+      "2023年第14号",
+      "2023-07-04",
+      "新版第二十六条为5日异议期"
+    ],
+    "verified_deadlines": "2026版第三十二条：5日内送达检测报告；自收到检验结果通知单之日起15日内申请异议处理。"
+  }
+}
