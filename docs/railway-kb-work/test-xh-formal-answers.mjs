@@ -56,13 +56,28 @@ async function freeze() {
     const actual = JSON.parse(actualBytes);
     const expectedBytes = await readFile(path.join(root, definition.expected_path));
     const expected = JSON.parse(expectedBytes);
+    const formalImport = record.formal_import;
     assert.equal(quality.quality_accepted, true);
-    assert.equal(quality.formal_import, true);
+    assert.equal(quality.phase, 'formal');
     assert.equal(quality.document_id, definition.document_id);
+    assert.ok(formalImport, `${definition.doc_id} has no formal import binding`);
+    assert.equal(formalImport.document_id, definition.document_id);
     assert.equal(actual.phase, 'formal');
     assert.equal(actual.document_id, definition.document_id);
     const checks = quality.checks || quality.point_checks;
     assert.ok(Array.isArray(checks) && checks.length > 0);
+    const acceptedChunks = checks.map(check => {
+      const id = check.chunk_id || check.id;
+      const textHash = check.actual_text_sha256 || check.remote_text_sha256
+        || check.actual_sha256;
+      assert.ok(id, `${definition.doc_id} has a check without chunk ID`);
+      assert.ok(textHash, `${definition.doc_id}/${id} has no actual text hash`);
+      return {
+        id,
+        point_id: check.knowledge_point_id || check.point_id,
+        text_sha256: textHash,
+      };
+    });
     documents.push({
       doc_id: definition.doc_id,
       dataset_id: quality.dataset_id,
@@ -74,11 +89,7 @@ async function freeze() {
       actual_sha256: hash(actualBytes),
       expected_path: definition.expected_path,
       expected_sha256: hash(expectedBytes),
-      accepted_chunks: checks.map(check => ({
-        id: check.chunk_id,
-        point_id: check.knowledge_point_id,
-        text_sha256: check.actual_text_sha256 || check.actual_sha256,
-      })),
+      accepted_chunks: acceptedChunks,
     });
     points.push(...(expected.knowledge_points || expected.points));
   }
@@ -86,6 +97,7 @@ async function freeze() {
   const d27 = JSON.parse(await readFile(path.join(root, definitions[1].diagnostic_path), 'utf8'));
   const diagnosticQuestions = [
     ...d26.retrieval.map(item => ({
+      test_id: item.id,
       question: item.question,
       top5: item.top5,
       source_document: 'DOC0026',
@@ -109,10 +121,9 @@ async function freeze() {
       };
     });
     const diagnostic = required.length
-      ? diagnosticQuestions.find(item => item.question === question)
-        || diagnosticQuestions.find(item => item.source_document === (test_id.includes('26') ? 'DOC0026' : 'DOC0027')
-          && required.every(id => item.top5.some(chunk => (chunk.point_id || chunk.point_id) === id
-            || chunk.text?.includes(id))))
+      ? diagnosticQuestions.find(item => item.source_document === (test_id.includes('26') ? 'DOC0026' : 'DOC0027')
+        && required.every(id => item.top5.some(chunk => chunk.point_id === id
+          || chunk.text?.includes(id))))
       : null;
     if (required.length) assert.ok(diagnostic, `No current retrieval evidence for ${test_id}`);
     for (const item of expected) {
@@ -130,6 +141,7 @@ async function freeze() {
       question,
       answerable_from_library: required.length > 0,
       expected,
+      retrieval_test_id: diagnostic?.test_id || null,
       retrieval_evidence_path: diagnostic ? (test_id.includes('26')
         ? definitions[0].diagnostic_path : definitions[1].diagnostic_path) : null,
       retrieval_evidence_sha256: diagnostic ? hash(JSON.stringify(diagnostic)) : null,

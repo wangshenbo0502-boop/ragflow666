@@ -306,6 +306,93 @@ func TestChatWorkerRealCrashUnknown(t *testing.T) {
 	t.Logf("PASS actual isolated Worker SIGKILL/restart, natural lease expiry, saved text/citations, unknown outcome isolated, no replay/late publication; task=%s real TTS=1", taskID)
 }
 
+func (e *chatVoiceE2E) cancelInBrowser(chatID, sessionID, taskID, viewport string) {
+	e.t.Helper()
+	endpoint := os.Getenv("RAGFLOW_TEST_CHAT_CANCEL_BROWSER")
+	if endpoint != "http://host.docker.internal:19983/cancel-browser" {
+		e.t.Fatal("requires isolated cancellation browser callback")
+	}
+	raw, _ := json.Marshal(map[string]string{
+		"chat_id": chatID, "session_id": sessionID, "task_id": taskID, "viewport": viewport,
+	})
+	ctx, cancel := context.WithTimeout(e.t.Context(), 90*time.Second)
+	defer cancel()
+	req, err := http.NewRequestWithContext(ctx, http.MethodPost, endpoint, bytes.NewReader(raw))
+	if err != nil {
+		e.t.Fatal(err)
+	}
+	response, err := e.client.Do(req)
+	if err != nil {
+		e.t.Fatal("real cancellation browser callback failed")
+	}
+	response.Body.Close()
+	if response.StatusCode != http.StatusNoContent {
+		e.t.Fatal("real task-center cancellation failed; inspect browser diagnostics")
+	}
+}
+
+func TestChatTaskRealQueuedBrowserCancel(t *testing.T) {
+	if os.Getenv("RAGFLOW_TEST_CHAT_CANCEL_BROWSER") == "" {
+		t.Skip("requires isolated cancellation browser callback")
+	}
+	parent := chatMediaE2E(t)
+	db := chatFaultDatabase(t)
+	for _, viewport := range []string{"desktop", "mobile"} {
+		t.Run(viewport, func(t *testing.T) {
+			e := &chatVoiceE2E{t: t, origin: parent.origin, token: parent.token, client: parent.client}
+			chatID, sessionID := e.newMediaSession("Queued browser cancellation " + viewport)
+			var chat entity.Chat
+			if err := db.Take(&chat, "id = ?", chatID).Error; err != nil || chat.UserID == "" {
+				t.Fatal("cannot resolve test-owned chat")
+			}
+			release := holdChatUserCapacity(t, db, chat.UserID)
+			before := e.faultControl(nil)
+			if before["holding"] != 0 || before["hold_next"] != 0 || before["fail_next"] != 0 {
+				t.Fatal("another test owns TTS timing controls")
+			}
+			var admission struct {
+				TaskID string `json:"task_id"`
+			}
+			e.request(http.MethodPost, "/chat/completions", map[string]any{
+				"chat_id": chatID, "session_id": sessionID, "mode": "voice", "stream": false,
+				"question": "@语音 根据资料回答青禾项目的验收暗号和负责人。",
+			}, &admission)
+			waitChatDatabaseTask(t, db, admission.TaskID, func(task entity.ChatTask) bool {
+				return task.State == "running" && strings.HasSuffix(task.Stage, "_queued") &&
+					task.Calls == 0 && task.LeaseOwner == ""
+			})
+			e.cancelInBrowser(chatID, sessionID, admission.TaskID, viewport)
+			terminal := waitChatDatabaseTask(t, db, admission.TaskID, func(task entity.ChatTask) bool {
+				return task.State == "cancelled"
+			})
+			release()
+			details, err := dao.NewChatTaskDAO(db).Details(t.Context(), terminal.ID)
+			if err != nil {
+				t.Fatal(err)
+			}
+			after := e.faultControl(nil)
+			if terminal.Calls != 0 || len(details.Attempts) != 0 || len(terminal.Outputs) != 0 ||
+				after["forwarded"] != before["forwarded"] || after["rejected"] != before["rejected"] {
+				t.Fatal("queued cancellation reached model/TTS or published output")
+			}
+			var leases int64
+			if err := db.Model(&entity.ChatTaskResourceLease{}).Where("task_id = ?", terminal.ID).Count(&leases).Error; err != nil || leases != 0 {
+				t.Fatal("queued cancellation retained execution resources")
+			}
+			var controls struct {
+				CanCancel bool `json:"can_cancel"`
+				CanRetry  bool `json:"can_retry"`
+			}
+			e.request(http.MethodGet, "/chats/tasks/"+terminal.ID, nil, &controls)
+			if controls.CanCancel || controls.CanRetry {
+				t.Fatal("cancelled queued task still allows cancellation or generation retry")
+			}
+			assertChatFaultNoMedia(t, db, terminal.ID)
+			t.Logf("PASS real %s queued cancellation: calls=0 attempts=0 media=0 leases=0; task=%s", viewport, terminal.ID)
+		})
+	}
+}
+
 func TestChatCancelDeleteRealLateAudio(t *testing.T) {
 	e := chatMediaE2E(t)
 	db := chatFaultDatabase(t)
@@ -325,28 +412,7 @@ func TestChatCancelDeleteRealLateAudio(t *testing.T) {
 			chatID, sessionID, taskID := e.submitHeldVoice("Cancel with actual generated audio held")
 			e.waitRealAudioHeld(taskID, before)
 			if strings.HasPrefix(scenario, "browser_") {
-				endpoint := os.Getenv("RAGFLOW_TEST_CHAT_CANCEL_BROWSER")
-				if endpoint != "http://host.docker.internal:19983/cancel-browser" {
-					t.Fatal("requires isolated cancellation browser callback")
-				}
-				raw, _ := json.Marshal(map[string]string{
-					"chat_id": chatID, "session_id": sessionID, "task_id": taskID,
-					"viewport": strings.TrimPrefix(scenario, "browser_"),
-				})
-				ctx, cancel := context.WithTimeout(t.Context(), 90*time.Second)
-				defer cancel()
-				req, err := http.NewRequestWithContext(ctx, http.MethodPost, endpoint, bytes.NewReader(raw))
-				if err != nil {
-					t.Fatal(err)
-				}
-				response, err := e.client.Do(req)
-				if err != nil {
-					t.Fatal("real cancellation browser callback failed")
-				}
-				response.Body.Close()
-				if response.StatusCode != http.StatusNoContent {
-					t.Fatal("real task-center cancellation failed; inspect browser diagnostics")
-				}
+				e.cancelInBrowser(chatID, sessionID, taskID, strings.TrimPrefix(scenario, "browser_"))
 			} else if removeSession {
 				e.request(http.MethodDelete, "/chats/"+chatID+"/sessions", map[string]any{"ids": []string{sessionID}}, nil)
 			} else {
