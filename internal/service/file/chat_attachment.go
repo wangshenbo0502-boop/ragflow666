@@ -120,7 +120,8 @@ func (s *FileService) ResolveChatAttachments(ctx context.Context, descriptors []
 			case utility.IsVideoFilename(name) || strings.HasPrefix(mime, "video/") || strings.HasPrefix(mime, "audio/"):
 				code = "unsupported_format"
 			case strings.HasPrefix(mime, "image/") || utility.FilenameType(name) == utility.FileTypeVISUAL:
-				actual, imageErr := ValidateChatImage(data, mime)
+				// Upload metadata can describe the filename rather than the bytes.
+				actual, imageErr := ValidateChatImage(data, "")
 				if imageErr != nil {
 					code = imageErr.Error()
 				} else {

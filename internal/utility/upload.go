@@ -48,9 +48,22 @@ func FetchRemoteFileSafelyWithTimeout(ctx context.Context, rawURL string, maxSiz
 	if timeout <= 0 {
 		timeout = 10 * time.Second
 	}
+	return fetchRemoteFile(ctx, rawURL, maxSize, timeout, common.AssertURLSafeWithContext)
+}
+
+// FetchPublicFileSafely downloads an untrusted HTTPS result without credentials.
+func FetchPublicFileSafely(ctx context.Context, rawURL string, maxSize int64) ([]byte, error) {
+	const timeout = 30 * time.Second
+	ctx, cancel := context.WithTimeout(ctx, timeout)
+	defer cancel()
+	data, _, _, err := fetchRemoteFile(ctx, rawURL, maxSize, timeout, common.AssertPublicHTTPSURL)
+	return data, err
+}
+
+func fetchRemoteFile(ctx context.Context, rawURL string, maxSize int64, timeout time.Duration, validate func(context.Context, string) (string, string, error)) ([]byte, http.Header, string, error) {
 	currentURL := rawURL
 	for redirects := 0; redirects < 10; redirects++ {
-		hostname, resolvedIP, err := common.AssertURLSafeWithContext(ctx, currentURL)
+		hostname, resolvedIP, err := validate(ctx, currentURL)
 		if err != nil {
 			return nil, nil, "", err
 		}
@@ -65,6 +78,7 @@ func FetchRemoteFileSafelyWithTimeout(ctx context.Context, rawURL string, maxSiz
 			return nil, nil, "", fmt.Errorf("failed to create request: %w", err)
 		}
 		resp, err := client.Do(req) // `#nosec` G107
+		client.CloseIdleConnections()
 		if err != nil {
 			return nil, nil, "", fmt.Errorf("failed to fetch URL: %w", err)
 		}

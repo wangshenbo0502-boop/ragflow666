@@ -269,6 +269,11 @@ func (s *ChatPipelineService) AsyncChat(
 	}
 	chat = applyChatMediaDirective(ctx, chat)
 	kwargs = prepareRailwayOptions(chat, kwargs)
+	mediaDirective, _ := ctx.Value(chatMediaDirectiveKey{}).(string)
+	if isRailwayChat(chat) && !hasAttachments && mediaDirective == "" && isRailwaySmallTalk(lastMsg, kwargs) {
+		chat.PromptConfig["system"] = strings.Replace(stringValue(chat.PromptConfig["system"]), railwayKnowledgeSection, "", 1) + railwaySmallTalkDirective
+		return s.AsyncChatSolo(ctx, chat, messages[len(messages)-1:], stream, kwargs)
+	}
 	if response, unbound := railwayUnboundResponse(chat); unbound && !hasAttachments {
 		return response, nil
 	}

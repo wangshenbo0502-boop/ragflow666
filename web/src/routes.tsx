@@ -14,8 +14,14 @@
  *  limitations under the License.
  */
 
-import { lazy, memo, Suspense } from 'react';
-import { createBrowserRouter, Navigate, type RouteObject } from 'react-router';
+import { gsap } from 'gsap';
+import { lazy, memo, Suspense, useLayoutEffect, useRef } from 'react';
+import {
+  createBrowserRouter,
+  Navigate,
+  useLocation,
+  type RouteObject,
+} from 'react-router';
 import FallbackComponent from './components/fallback-component';
 import { IS_ENTERPRISE } from './pages/admin/utils';
 
@@ -100,11 +106,53 @@ type LazyRouteConfig = Omit<RouteObject, 'Component' | 'children'> & {
   children?: LazyRouteConfig[];
 };
 
+function RouteEntrance({ children }: React.PropsWithChildren) {
+  const host = useRef<HTMLDivElement>(null);
+  const { pathname } = useLocation();
+  useLayoutEffect(() => {
+    const element = host.current?.firstElementChild;
+    if (
+      !element ||
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    )
+      return;
+    const surface = element.matches('.railmind-shell')
+      ? element.querySelector('main')
+      : element;
+    if (!surface) return;
+    const tween = gsap.fromTo(
+      surface,
+      { opacity: 0.66 },
+      { opacity: 1, duration: 0.32, ease: 'power2.out', clearProps: 'opacity' },
+    );
+    return () => {
+      tween.revert();
+    };
+  }, [pathname]);
+  return (
+    <div ref={host} style={{ display: 'contents' }}>
+      {children}
+    </div>
+  );
+}
+
 const withLazyRoute = (
   importer: () => Promise<{ default: React.ComponentType<any> }>,
+  leaf: boolean,
   fallback: React.ReactNode = defaultRouteFallback,
 ) => {
-  const LazyComponent = lazy(importer);
+  const LazyComponent = lazy(async () => {
+    const module = await importer();
+    if (!leaf) return module;
+    const Page = module.default;
+    return {
+      default: (props: any) => (
+        <RouteEntrance>
+          <Page {...props} />
+        </RouteEntrance>
+      ),
+    };
+  });
   const Wrapped: React.FC<any> = (props) => (
     <Suspense fallback={fallback}>
       <LazyComponent {...props} />
@@ -370,7 +418,7 @@ const wrapRoutes = (routes: LazyRouteConfig[]): RouteObject[] =>
     const { Component, children, ...rest } = item;
     const next: RouteObject = { ...rest, errorElement: <FallbackComponent /> };
     if (Component) {
-      next.Component = withLazyRoute(Component);
+      next.Component = withLazyRoute(Component, !children);
     }
     if (children) {
       next.children = wrapRoutes(children);

@@ -88,6 +88,7 @@
     "embla-carousel-react": "^8.6.0",
     "epubjs": "^0.3.93",
     "eventsource-parser": "^1.1.2",
+    "gsap": "^3.15.1",
     "hast-util-sanitize": "^5.0.2",
     "human-id": "^4.1.1",
     "i18next": "^23.7.16",

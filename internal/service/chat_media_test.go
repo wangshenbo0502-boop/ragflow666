@@ -6,18 +6,22 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"errors"
+	"fmt"
 	"io"
+	"net"
 	"net/http"
 	"net/http/httptest"
 	"reflect"
 	"strings"
 	"testing"
+	"time"
 
 	"ragflow/internal/dao"
 	"ragflow/internal/entity"
 	"ragflow/internal/entity/models"
 	"ragflow/internal/permission"
 	"ragflow/internal/storage"
+	"ragflow/internal/utility"
 )
 
 func TestChatMediaCommands(t *testing.T) {
@@ -83,13 +87,101 @@ func TestChatMediaImageResponse(t *testing.T) {
 	if err != nil || mediaType != "image/jpeg" || !bytes.Equal(image, png) {
 		t.Fatalf("image type=%s err=%v", mediaType, err)
 	}
-	for _, body := range []string{
-		`{}`, `{"data":[]}`, `{"data":[{"url":"http://untrusted/image"}]}`,
-		`{"data":[{"b64_json":"!"}]}`, `{"data":[{"b64_json":"aGVsbG8="}]}`,
+	for _, test := range []struct{ body, cause string }{
+		{`not json`, "image_response_invalid_json"},
+		{`{}`, "image_response_missing_data"},
+		{`{"data":[]}`, "image_response_missing_data"},
+		{`{"data":[{"url":"https://127.0.0.1/image?secret=1"}]}`, "image_response_download_failed"},
+		{`{"data":[{"b64_json":"!"}]}`, "image_response_invalid_base64"},
+		{`{"data":[{"b64_json":"aGVsbG8="}]}`, "image_response_invalid_file"},
 	} {
-		if _, _, err := decodeChatImage([]byte(body)); err == nil {
-			t.Fatalf("accepted invalid image: %s", body)
+		_, _, err := decodeChatImage(t.Context(), []byte(test.body))
+		code, message := chatTaskError(err)
+		if cause := chatTaskDiagnosticCause(err); cause != test.cause || code != "invalid_image_response" || strings.Contains(message, "secret") {
+			t.Fatalf("image response cause=%s code=%s message=%q, want %s", cause, code, message, test.cause)
 		}
+	}
+}
+
+func TestChatMediaImageURLResponse(t *testing.T) {
+	image := chatJPEG(t)
+	requests := make(chan string, 12)
+	server := httptest.NewTLSServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		requests <- r.Method + " " + r.URL.Path
+		switch r.URL.Path {
+		case "/v1/images/generations":
+			if r.Header.Get("Authorization") != "Bearer test-key" {
+				t.Error("missing authorization on generation request")
+			}
+			_, _ = io.WriteString(w, `{"data":[{"url":"https://8.8.8.8/redirect?sig=fixture"}]}`)
+		case "/redirect", "/image", "/blocked", "/corrupt":
+			if r.Header.Get("Authorization") != "" || r.Header.Get("Referer") != "" {
+				t.Error("download received credentials or a referrer")
+			}
+			switch r.URL.Path {
+			case "/redirect":
+				http.Redirect(w, r, "https://1.1.1.1/image?sig=fixture", http.StatusFound)
+			case "/image":
+				if r.URL.Query().Get("sig") != "fixture" {
+					t.Error("download lost the signed query")
+				}
+				_, _ = w.Write(image)
+			case "/blocked":
+				http.Redirect(w, r, "https://127.0.0.1/image?sig=private", http.StatusFound)
+			case "/corrupt":
+				_, _ = io.WriteString(w, "not an image")
+			}
+		default:
+			t.Errorf("unexpected request path %s", r.URL.Path)
+		}
+	}))
+	t.Cleanup(server.Close)
+	transport := server.Client().Transport.(*http.Transport).Clone()
+	transport.TLSClientConfig.ServerName = "127.0.0.1"
+	// Route verified public destinations to a local fixture without overriding the URL guard.
+	transport.DialContext = func(ctx context.Context, network, _ string) (net.Conn, error) {
+		return (&net.Dialer{}).DialContext(ctx, network, server.Listener.Addr().String())
+	}
+	t.Cleanup(transport.CloseIdleConnections)
+	pinned := utility.PinnedHTTPClient
+	utility.PinnedHTTPClient = func(host, ip string, timeout time.Duration) *http.Client {
+		if host != ip || (ip != "8.8.8.8" && ip != "1.1.1.1") {
+			t.Errorf("unexpected validated destination %q %q", host, ip)
+		}
+		return &http.Client{Transport: transport, Timeout: timeout}
+	}
+	t.Cleanup(func() { utility.PinnedHTTPClient = pinned })
+	t.Setenv("RAGFLOW_IMAGE_API_KEY", "test-key")
+	t.Setenv("ALLOW_ANY_HOST", "true")
+
+	// The generation client uses the normal transport; only result downloads are pinned.
+	provider := httptest.NewServer(server.Config.Handler)
+	t.Cleanup(provider.Close)
+	t.Setenv("RAGFLOW_IMAGE_BASE_URL", provider.URL+"/v1")
+	data, mime, err := generateChatImage(t.Context(), "train", "2048x1152")
+	if err != nil || mime != "image/jpeg" || !bytes.Equal(data, image) {
+		t.Fatalf("image type=%s err=%v", mime, err)
+	}
+	for _, tt := range []struct{ link, cause string }{
+		{"https://8.8.8.8/blocked", "image_response_download_failed"},
+		{"http://8.8.8.8/image", "image_response_download_failed"},
+		{"https://user:secret@8.8.8.8/image", "image_response_download_failed"},
+		{"https://8.8.8.8/corrupt", "image_response_invalid_file"},
+	} {
+		body := fmt.Appendf(nil, `{"data":[{"url":%q}]}`, tt.link)
+		_, _, err = decodeChatImage(t.Context(), body)
+		if code, message := chatTaskError(err); code != "invalid_image_response" || strings.Contains(message, "secret") || strings.Contains(message, "private") || chatTaskDiagnosticCause(err) != tt.cause {
+			t.Fatalf("unexpected image error code=%s cause=%s message=%q", code, chatTaskDiagnosticCause(err), message)
+		}
+	}
+	close(requests)
+	var got []string
+	for req := range requests {
+		got = append(got, req)
+	}
+	want := []string{"POST /v1/images/generations", "GET /redirect", "GET /image", "GET /blocked", "GET /corrupt"}
+	if !reflect.DeepEqual(got, want) {
+		t.Fatalf("requests = %v, want %v", got, want)
 	}
 }
 
@@ -511,8 +603,8 @@ func TestChatMediaSpeechHistoryKeepsTextWithoutCommandsAndAudio(t *testing.T) {
 }
 
 func TestChatMediaRequestRejectsRedirectAndSanitizesErrors(t *testing.T) {
-	for _, status := range []int{http.StatusTemporaryRedirect, http.StatusUnauthorized, http.StatusBadGateway} {
-		t.Run(http.StatusText(status), func(t *testing.T) {
+	for _, status := range []int{http.StatusTemporaryRedirect, http.StatusUnauthorized, http.StatusBadGateway, 524} {
+		t.Run(fmt.Sprint(status), func(t *testing.T) {
 			server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 				w.Header().Set("Location", "http://must-not-follow.invalid")
 				w.WriteHeader(status)
@@ -520,8 +612,13 @@ func TestChatMediaRequestRejectsRedirectAndSanitizesErrors(t *testing.T) {
 			}))
 			defer server.Close()
 			_, err := requestChatMedia(t.Context(), server.URL, "test-key", nil)
-			if err == nil || strings.Contains(err.Error(), "credential") {
+			if err == nil || strings.Contains(err.Error(), "credential") || chatTaskFailureDiagnostics(err)["upstream_http_status"] != status {
 				t.Fatalf("unsanitized error: %v", err)
+			}
+			if status == 524 || status == http.StatusBadGateway {
+				if code, _ := chatTaskError(err); code != "upstream_result_unknown" {
+					t.Fatalf("gateway failure not marked unknown: %s", code)
+				}
 			}
 		})
 	}
@@ -529,5 +626,18 @@ func TestChatMediaRequestRejectsRedirectAndSanitizesErrors(t *testing.T) {
 	cancel()
 	if _, err := requestChatMedia(ctx, "http://127.0.0.1:1", "", nil); err != context.Canceled {
 		t.Fatalf("cancellation lost: %v", err)
+	}
+}
+
+func TestChatMediaRequestRetainsUnknownWhenResponseIsTruncated(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Length", "100")
+		_, _ = io.WriteString(w, `{"data":[`)
+	}))
+	defer server.Close()
+	_, err := requestChatMedia(t.Context(), server.URL, "test-key", nil)
+	code, _ := chatTaskError(err)
+	if code != "upstream_result_unknown" || chatTaskDiagnosticCause(err) != "upstream_response_read_failed" {
+		t.Fatalf("truncated response: code=%s err=%v", code, err)
 	}
 }

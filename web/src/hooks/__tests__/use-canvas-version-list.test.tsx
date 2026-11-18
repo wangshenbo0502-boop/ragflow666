@@ -63,12 +63,30 @@ describe('useFetchCanvasVersionList', () => {
     // here would mean "loaded and empty", i.e. the pipeline has no versions.
     expect(result.current.data).toBeUndefined();
 
-    resolveFetch({ data: { data: [{ id: 'version-1' }] } });
+    resolveFetch({ data: { code: 0, data: [{ id: 'version-1' }] } });
 
     await waitFor(() => {
       expect(result.current.data).toEqual([{ id: 'version-1' }]);
     });
     expect(result.current.data).toEqual([{ id: 'version-1' }]);
+  });
+
+  it('exposes unavailable document metadata locally without a global notification', async () => {
+    agentService.fetchVersionList.mockResolvedValue({
+      data: { code: 103, message: 'Pipeline unavailable' },
+    });
+
+    const { result } = renderHook(() => useFetchCanvasVersionList('canvas-1'), {
+      wrapper,
+    });
+
+    await waitFor(() => expect(result.current.isError).toBe(true));
+    expect(result.current.data).toBeUndefined();
+    expect(agentService.fetchVersionList).toHaveBeenCalledTimes(1);
+    expect(agentService.fetchVersionList).toHaveBeenCalledWith(
+      { canvasId: 'canvas-1', skipGlobalErrorNotification: true },
+      true,
+    );
   });
 
   it('stays disabled without a canvas id', () => {

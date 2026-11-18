@@ -14,7 +14,10 @@
  *  limitations under the License.
  */
 
-import { useIsDarkTheme, useTheme } from '@/components/theme-provider';
+import {
+  useIsDarkTheme,
+  useAnimatedThemeSwitch,
+} from '@/components/theme-provider';
 import { ThemeEnum } from '@/constants/common';
 import { cn } from '@/lib/utils';
 import { Root, Thumb } from '@radix-ui/react-switch';
@@ -25,7 +28,7 @@ const ThemeSwitch = forwardRef<
   React.ElementRef<typeof Root>,
   React.ComponentPropsWithoutRef<typeof Root>
 >(function ThemeSwitch({ className, ...props }, ref) {
-  const { setTheme } = useTheme();
+  const setTheme = useAnimatedThemeSwitch();
   const isDark = useIsDarkTheme();
 
   return (

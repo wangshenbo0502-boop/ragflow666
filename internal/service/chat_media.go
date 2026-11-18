@@ -33,8 +33,10 @@ import (
 	"ragflow/internal/common"
 	"ragflow/internal/dao"
 	"ragflow/internal/entity"
+	"ragflow/internal/entity/models"
 	"ragflow/internal/service/file"
 	"ragflow/internal/storage"
+	"ragflow/internal/utility"
 )
 
 const chatMediaBucket = "chat-media"
@@ -442,6 +444,7 @@ func (s *ChatSessionService) generateSpeechReply(ctx context.Context, dialog *en
 	routeKnowledge := len(chatDatasetIDs(dialog)) > 0 || isRailwayChat(dialog)
 	if routeKnowledge {
 		planningCtx = context.WithValue(ctx, chatSpeechPlanningKey{}, true)
+		directive = strings.Replace(directive, speechPlanExample, speechRoutingPlanExample, 1)
 		directive += speechRoutingDirective
 	}
 	for attempt := 0; attempt < 2; attempt++ {
@@ -495,7 +498,7 @@ func (s *ChatSessionService) generateSpeechReply(ctx context.Context, dialog *en
 			return reply, nil
 		}
 		if attempt == 1 || ctx.Err() != nil {
-			return nil, err
+			return nil, fmt.Errorf("invalid_plan: %w", err)
 		}
 		common.Warn("Retrying invalid speech plan", zap.Error(err))
 		directive += "\n上一次回答未通过格式校验：" + err.Error() + "。请重新完整回答当前用户的问题，严格返回上述 JSON 对象，完整闭合所有字段，使用整数 duration，将歌词和回答中的换行写为 \\n，不添加代码围栏或 JSON 以外的说明。"
@@ -733,35 +736,48 @@ func generateChatImage(ctx context.Context, prompt, size string, images ...strin
 	if err != nil {
 		return nil, "", fmt.Errorf("生图模型调用失败：%w", err)
 	}
-	data, mime, err = decodeChatImage(body)
-	if err != nil {
-		return nil, "", &chatUpstreamStoppedError{message: err.Error()}
-	}
-	return data, mime, nil
+	return decodeChatImage(ctx, body)
 }
 
-func decodeChatImage(body []byte) ([]byte, string, error) {
+func decodeChatImage(ctx context.Context, body []byte) ([]byte, string, error) {
 	var result struct {
 		Data []struct {
 			Base64 string `json:"b64_json"`
+			URL    string `json:"url"`
 		} `json:"data"`
 	}
-	if err := json.Unmarshal(body, &result); err != nil || len(result.Data) == 0 || result.Data[0].Base64 == "" {
-		return nil, "", errors.New("生图模型没有返回图片数据")
+	if err := json.Unmarshal(body, &result); err != nil {
+		return nil, "", &chatUpstreamStoppedError{cause: "image_response_invalid_json", message: "生图服务返回的不是有效图片响应"}
 	}
-	image, err := base64.StdEncoding.DecodeString(result.Data[0].Base64)
-	if err != nil || len(image) == 0 || len(image) > chatMediaMaxBytes {
-		return nil, "", errors.New("生图模型返回的图片数据无效或过大")
+	if len(result.Data) == 0 {
+		return nil, "", &chatUpstreamStoppedError{cause: "image_response_missing_data", message: "生图服务没有返回图片数据"}
+	}
+	entry := result.Data[0]
+	var image []byte
+	var err error
+	switch {
+	case entry.Base64 != "":
+		image, err = base64.StdEncoding.DecodeString(entry.Base64)
+		if err != nil || len(image) == 0 || len(image) > chatMediaMaxBytes {
+			return nil, "", &chatUpstreamStoppedError{cause: "image_response_invalid_base64", message: "生图服务返回的图片数据无效或过大"}
+		}
+	case entry.URL != "":
+		image, err = utility.FetchPublicFileSafely(ctx, entry.URL, chatMediaMaxBytes)
+		if err != nil {
+			return nil, "", &chatUpstreamStoppedError{cause: "image_response_download_failed", message: "生图服务已返回结果，但未能下载图片"}
+		}
+	default:
+		return nil, "", &chatUpstreamStoppedError{cause: "image_response_missing_data", message: "生图服务没有返回图片数据"}
 	}
 	mediaType, validationErr := file.ValidateChatImage(image, "")
 	if validationErr != nil {
-		return nil, "", errors.New("生图模型返回了损坏的图片")
+		return nil, "", &chatUpstreamStoppedError{cause: "image_response_invalid_file", message: "生图服务返回了损坏的图片"}
 	}
 	switch mediaType {
 	case "image/png", "image/jpeg", "image/webp":
 		return image, mediaType, nil
 	default:
-		return nil, "", errors.New("生图模型返回了不支持的图片格式")
+		return nil, "", &chatUpstreamStoppedError{cause: "image_response_invalid_file", message: "生图服务返回了不支持的图片格式"}
 	}
 }
 
@@ -799,31 +815,37 @@ func requestChatMediaBody(ctx context.Context, endpoint, apiKey string, body io.
 		var dialErr *net.OpError
 		if errors.As(err, &dialErr) && dialErr.Op == "dial" {
 			// No connection was established, so this request cannot still generate.
-			return nil, &chatUpstreamStoppedError{message: "模型连接失败，请检查模型服务是否已启动"}
+			return nil, &chatUpstreamStoppedError{cause: "upstream_connection_failed", message: "模型连接失败，请检查模型服务是否已启动"}
 		}
-		return nil, errors.New("模型连接失败或超时")
+		return nil, errChatMediaTransport
 	}
 	defer resp.Body.Close()
 	if resp.StatusCode != http.StatusOK {
 		// Upstream error bodies can contain credentials or internal URLs.
-		if chatHTTPResultUnknown(resp.StatusCode) {
-			return nil, fmt.Errorf("upstream_result_unknown: 模型服务返回 HTTP %d", resp.StatusCode)
-		}
-		return nil, &chatUpstreamStoppedError{message: fmt.Sprintf("模型服务返回 HTTP %d", resp.StatusCode), status: resp.StatusCode}
+		return nil, &models.APIStatusError{Status: resp.StatusCode}
 	}
 	response, err := io.ReadAll(io.LimitReader(resp.Body, 2*chatMediaMaxBytes+1))
-	if err != nil || len(response) > 2*chatMediaMaxBytes {
-		return nil, errors.New("模型响应读取失败或数据过大")
+	if err != nil {
+		return nil, errChatMediaResponseRead
+	}
+	if len(response) > 2*chatMediaMaxBytes {
+		return nil, errChatMediaResponseTooLarge
 	}
 	return response, nil
 }
 
 type chatUpstreamStoppedError struct {
 	message string
-	status  int
+	cause   string
 }
 
 func (e *chatUpstreamStoppedError) Error() string { return e.message }
+
+var (
+	errChatMediaTransport        = errors.New("模型连接中断或超时")
+	errChatMediaResponseRead     = errors.New("模型响应未能完整读取")
+	errChatMediaResponseTooLarge = errors.New("模型响应超过大小上限")
+)
 
 func (s *ChatSessionService) chatImageAsset(ctx context.Context, dialog *entity.Chat, session *entity.ChatSession, id string) (string, error) {
 	var asset entity.ChatMediaAsset

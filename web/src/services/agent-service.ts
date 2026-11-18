@@ -60,7 +60,7 @@ const methods = {
     method: 'post',
   },
   fetchVersionList: {
-    url: fetchVersionList,
+    url: ({ canvasId }: { canvasId: string }) => fetchVersionList(canvasId),
     method: 'get',
   },
   fetchVersion: {

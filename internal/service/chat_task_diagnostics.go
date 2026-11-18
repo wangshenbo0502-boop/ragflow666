@@ -233,11 +233,20 @@ func chatTaskDiagnosticCause(err error) string {
 	if errors.Is(err, errModelConfigUnavailable) {
 		return "model_configuration_unavailable"
 	}
-	var status *models.APIStatusError
-	if errors.As(err, &status) {
+	if chatUpstreamHTTPStatus(err) != 0 {
 		return "upstream_http_status"
 	}
+	var stopped *chatUpstreamStoppedError
+	if errors.As(err, &stopped) && stopped.cause != "" {
+		return stopped.cause
+	}
 	switch {
+	case errors.Is(err, errChatMediaTransport):
+		return "upstream_transport_failed"
+	case errors.Is(err, errChatMediaResponseRead):
+		return "upstream_response_read_failed"
+	case errors.Is(err, errChatMediaResponseTooLarge):
+		return "upstream_response_too_large"
 	case strings.Contains(err.Error(), "model health"):
 		return "model_health_persistence"
 	case strings.Contains(err.Error(), "route_no_eligible_candidate"):
@@ -257,10 +266,14 @@ func chatTaskFailureDiagnostics(err error) entity.JSONMap {
 	if err == nil {
 		return entity.JSONMap{}
 	}
-	return entity.JSONMap{
+	result := entity.JSONMap{
 		"diagnostic_cause": chatTaskDiagnosticCause(err),
 		"error_type":       fmt.Sprintf("%T", err),
 	}
+	if status := chatUpstreamHTTPStatus(err); status != 0 {
+		result["upstream_http_status"] = status
+	}
+	return result
 }
 
 func chatTaskStatisticsLogFields(stats *dao.ChatTaskStatistics) []zap.Field {

@@ -789,7 +789,10 @@ export const useFetchVersionList = () => {
     initialData: [],
     gcTime: 0,
     queryFn: async () => {
-      const { data } = await agentService.fetchVersionList(id);
+      const { data } = await agentService.fetchVersionList(
+        { canvasId: id },
+        true,
+      );
 
       return data?.data ?? [];
     },
@@ -815,9 +818,14 @@ export const canvasVersionListQuery = (canvasId?: string) =>
     queryKey: AgentKeys.canvasVersionList(canvasId),
     queryFn: async (): Promise<ICanvasVersionRow[]> => {
       if (!canvasId) return [];
-      const { data } = await agentService.fetchVersionList(canvasId);
+      const { data } = await agentService.fetchVersionList(
+        { canvasId, skipGlobalErrorNotification: true },
+        true,
+      );
+      if (data.code !== 0) throw new Error(data.message);
       return data?.data ?? [];
     },
+    retry: false,
   }) as const;
 
 // Lists versions for document status displays. Parser selection uses the

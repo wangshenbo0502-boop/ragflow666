@@ -3,6 +3,7 @@ package service
 import (
 	"context"
 	"errors"
+	"fmt"
 	"net/http"
 	"strings"
 
@@ -58,16 +59,14 @@ func chatTaskError(err error) (string, string) {
 		return "max_output_validation", "模型输出长度配置超过该模型支持范围"
 	case errors.Is(err, errModelConfigUnavailable), errors.Is(err, ErrNoDefaultModel):
 		return "unsupported_capability", "当前模型配置不可用"
+	case errors.Is(err, errChatMediaTransport), errors.Is(err, errChatMediaResponseRead), errors.Is(err, errChatMediaResponseTooLarge):
+		return "upstream_result_unknown", "上游结果尚未确认，暂不能重新生成"
 	}
 	var stopped *chatUpstreamStoppedError
-	var status *models.APIStatusError
-	httpStatus := 0
-	if errors.As(err, &stopped) {
-		httpStatus = stopped.status
+	if errors.As(err, &stopped) && strings.HasPrefix(stopped.cause, "image_response_") {
+		return "invalid_image_response", stopped.message + "。请先核对上游请求记录，再决定是否重试"
 	}
-	if errors.As(err, &status) {
-		httpStatus = status.Status
-	}
+	httpStatus := chatUpstreamHTTPStatus(err)
 	if chatHTTPResultUnknown(httpStatus) {
 		return "upstream_result_unknown", "上游结果尚未确认，暂不能重新生成"
 	}
@@ -78,11 +77,12 @@ func chatTaskError(err error) (string, string) {
 		return "upstream_auth_failed", "模型服务授权不可用"
 	}
 	if httpStatus != 0 {
-		return "upstream_unavailable", "模型服务未能完成请求"
+		return "upstream_unavailable", fmt.Sprintf("模型服务未能完成请求（HTTP %d）", httpStatus)
 	}
 	// Only protocol codes are exposed; upstream error bodies and URLs stay private.
 	messages := map[string]string{
 		"invalid_request":             "任务输入无效",
+		"invalid_plan":                "模型返回的语音计划格式不完整，未发起语音合成",
 		"attachment_unavailable":      "附件不可用",
 		"context_budget_exceeded":     "当前问题和附件超过模型上下文，请减少附件或选择更大上下文的模型",
 		"budget_exceeded":             "无法在当前费用预算内执行，请核对模型价格和预算",
@@ -108,4 +108,12 @@ func chatTaskError(err error) (string, string) {
 		}
 	}
 	return "upstream_unavailable", "生成未完成，已保存的结果仍然可用"
+}
+
+func chatUpstreamHTTPStatus(err error) int {
+	var status *models.APIStatusError
+	if errors.As(err, &status) {
+		return status.Status
+	}
+	return 0
 }

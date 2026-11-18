@@ -20,9 +20,11 @@ import React, {
   useCallback,
   useContext,
   useEffect,
+  useLayoutEffect,
   useRef,
   useState,
 } from 'react';
+import { flushSync } from 'react-dom';
 
 type ThemeProviderProps = {
   children: React.ReactNode;
@@ -58,7 +60,7 @@ export function ThemeProvider({
     setThemeState(nextTheme);
   }, []);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const root = window.document.documentElement;
     root.classList.remove(ThemeEnum.Light, ThemeEnum.Dark);
     if (persistRef.current) {
@@ -94,6 +96,25 @@ export const useIsDarkTheme = () => {
 
   return theme === ThemeEnum.Dark;
 };
+
+export function useAnimatedThemeSwitch() {
+  const { setTheme, theme } = useTheme();
+  return (next: ThemeEnum) => {
+    if (next === theme) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setTheme(next);
+      return;
+    }
+    if (typeof document.startViewTransition === 'function') {
+      document.startViewTransition(() => flushSync(() => setTheme(next)));
+    } else {
+      document.documentElement.animate([{ opacity: 0.82 }, { opacity: 1 }], {
+        duration: 240,
+      });
+      setTheme(next);
+    }
+  };
+}
 
 export function useSwitchToDarkThemeOnMount() {
   const { setTheme } = useTheme();

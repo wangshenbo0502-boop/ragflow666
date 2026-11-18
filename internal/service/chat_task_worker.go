@@ -306,10 +306,13 @@ func (w *ChatTaskWorker) execute(ctx context.Context, id string, msg jetstream.M
 		if current, readErr := w.dao.Get(finalCtx, id); readErr == nil {
 			common.Info("chat task finished", chatTaskLogFields(current)...)
 			if err != nil {
-				common.Warn("chat task execution failed",
-					append(chatTaskLogFields(current),
-						zap.String("error_type", fmt.Sprintf("%T", err)),
-						zap.String("cause", chatTaskDiagnosticCause(err)))...)
+				fields := append(chatTaskLogFields(current),
+					zap.String("error_type", fmt.Sprintf("%T", err)),
+					zap.String("cause", chatTaskDiagnosticCause(err)))
+				if status := chatUpstreamHTTPStatus(err); status != 0 {
+					fields = append(fields, zap.Int("upstream_http_status", status))
+				}
+				common.Warn("chat task execution failed", fields...)
 			}
 		}
 	}

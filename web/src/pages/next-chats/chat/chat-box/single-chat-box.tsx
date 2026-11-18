@@ -68,7 +68,7 @@ export function SingleChatBox({ conversation }: IProps) {
     saveSettings,
     saving,
   } = useComposerSettings();
-  const { conversationId } = useGetChatSearchParams();
+  const { conversationId, isNew } = useGetChatSearchParams();
   useEffect(() => {
     setEditAsset(undefined);
   }, [conversationId]);
@@ -107,7 +107,10 @@ export function SingleChatBox({ conversation }: IProps) {
     }),
     [messages, handleEditImage, handleViewImage],
   );
-  const recovery = useChatTaskRecovery(chatId, conversationId);
+  const recovery = useChatTaskRecovery(
+    chatId,
+    isNew === 'true' ? '' : conversationId,
+  );
   const disabled = useGetSendButtonDisabled();
   const sendDisabled = useSendButtonDisabled(value, hasAttachments);
   const { visible, hideModal, documentId, selectedChunk, clickDocumentButton } =

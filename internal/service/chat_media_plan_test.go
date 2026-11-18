@@ -128,6 +128,7 @@ func TestSpeechRoutingSeparatesCreativeRequestsFromKnowledgeAnswers(t *testing.T
 				t.Fatalf("wrong retrieval routing: %v", pipeline.planning)
 			}
 			if strings.Contains(pipeline.directives[0], "Evidence rules") ||
+				!strings.Contains(pipeline.directives[0], speechRoutingPlanExample) ||
 				!strings.Contains(pipeline.directives[0], speechRoutingDirective) {
 				t.Fatal("creative intent was constrained by the knowledge QA prompt")
 			}
@@ -161,8 +162,20 @@ func TestSpeechRoutingRetriesMissingKnowledgeDecision(t *testing.T) {
 	reply, err := service.generateSpeechReply(t.Context(), &entity.Chat{KBIDs: entity.JSONSlice{"selected-kb"}},
 		[]map[string]interface{}{{"role": "user", "content": "@语音 晚安"}}, nil)
 	if err != nil || reply["answer"] != "晚安" || !reflect.DeepEqual(pipeline.planning, []bool{true, true}) ||
-		!strings.Contains(pipeline.directives[1], "use_knowledge") {
+		!strings.Contains(pipeline.directives[0], speechRoutingPlanExample) ||
+		!strings.Contains(pipeline.directives[1], speechRoutingPlanExample) {
 		t.Fatalf("missing routing decision was not retried: reply=%+v err=%v", reply, err)
+	}
+}
+
+func TestSpeechRoutingRejectsMissingDecisionAfterRetry(t *testing.T) {
+	pipeline := &speechRoutingPipeline{results: []AsyncChatResult{{Answer: `{"answer":"晚安","mode":"speech"}`, Final: true}}}
+	service := &ChatSessionService{pipeline: pipeline}
+	reply, err := service.generateSpeechReply(t.Context(), &entity.Chat{KBIDs: entity.JSONSlice{"selected-kb"}},
+		[]map[string]interface{}{{"role": "user", "content": "@语音 晚安"}}, nil)
+	code, _ := chatTaskError(err)
+	if reply != nil || code != "invalid_plan" || !reflect.DeepEqual(pipeline.planning, []bool{true, true}) {
+		t.Fatalf("missing decision was not rejected: reply=%+v calls=%v err=%v", reply, pipeline.planning, err)
 	}
 }
 

@@ -12,6 +12,13 @@ import { SingleChatBox } from './single-chat-box';
 
 const mockHydrateFromServer = jest.fn();
 const mockUseGetChatSearchParams = jest.fn();
+const mockUseChatTaskRecovery = jest.fn<
+  { active: never[]; error: undefined },
+  [chatId: string, sessionId: string]
+>(() => ({
+  active: [],
+  error: undefined,
+}));
 
 jest.mock('@/components/message-input/next', () => ({
   NextMessageInput: ({
@@ -46,7 +53,8 @@ jest.mock('./chat-task-center', () => ({
   ChatTaskCenter: () => null,
 }));
 jest.mock('../../hooks/use-chat-task-recovery', () => ({
-  useChatTaskRecovery: () => ({ active: [], error: undefined }),
+  useChatTaskRecovery: (chatId: string, sessionId: string) =>
+    mockUseChatTaskRecovery(chatId, sessionId),
 }));
 jest.mock('./use-composer-settings', () => ({
   useComposerSettings: () => ({
@@ -138,6 +146,7 @@ describe('SingleChatBox conversation hydration', () => {
   beforeEach(() => {
     mockHydrateFromServer.mockClear();
     mockUseGetChatSearchParams.mockReset();
+    mockUseChatTaskRecovery.mockClear();
   });
 
   it('puts the model and knowledge base selectors in advanced options', () => {
@@ -177,6 +186,33 @@ describe('SingleChatBox conversation hydration', () => {
     );
 
     expect(mockHydrateFromServer).not.toHaveBeenCalled();
+  });
+
+  it('only starts task recovery after the draft gets a saved session ID', () => {
+    mockUseGetChatSearchParams.mockReturnValue({
+      conversationId: 'draft-conversation',
+      isNew: 'true',
+    });
+    const conversation = buildConversation('saved-conversation');
+    const { rerender } = render(<SingleChatBox conversation={conversation} />, {
+      wrapper: MemoryRouter,
+    });
+
+    expect(mockUseChatTaskRecovery).toHaveBeenLastCalledWith(
+      expect.any(String),
+      '',
+    );
+
+    mockUseGetChatSearchParams.mockReturnValue({
+      conversationId: conversation.id,
+      isNew: '',
+    });
+    rerender(<SingleChatBox conversation={conversation} />);
+
+    expect(mockUseChatTaskRecovery).toHaveBeenLastCalledWith(
+      expect.any(String),
+      conversation.id,
+    );
   });
 
   it('hydrates messages when the conversation matches the URL', async () => {

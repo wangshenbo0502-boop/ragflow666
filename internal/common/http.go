@@ -501,18 +501,26 @@ var AssertURLSchemeSafe = func(rawURL string) error {
 }
 
 var AssertURLSafe = func(rawURL string) (hostname, resolvedIP string, err error) {
-	return assertURLSafe(rawURL, LookupHost)
+	return assertURLSafe(rawURL, LookupHost, allowAnyHost())
 }
 
 // AssertURLSafeWithContext validates every resolved address while allowing
 // cancellation and deadlines to interrupt DNS resolution.
 var AssertURLSafeWithContext = func(ctx context.Context, rawURL string) (hostname, resolvedIP string, err error) {
-	return assertURLSafe(rawURL, func(host string) ([]string, error) {
-		return net.DefaultResolver.LookupHost(ctx, host)
-	})
+	return assertURLSafe(rawURL, func(host string) ([]string, error) { return net.DefaultResolver.LookupHost(ctx, host) }, allowAnyHost())
 }
 
-func assertURLSafe(rawURL string, lookup func(string) ([]string, error)) (hostname, resolvedIP string, err error) {
+// AssertPublicHTTPSURL validates an upstream-supplied download URL without
+// inheriting the private-host opt-in used for configured services.
+func AssertPublicHTTPSURL(ctx context.Context, rawURL string) (hostname, resolvedIP string, err error) {
+	parsed, err := url.Parse(rawURL)
+	if err != nil || parsed.Scheme != "https" || parsed.User != nil {
+		return "", "", fmt.Errorf("download requires an HTTPS URL without user information")
+	}
+	return assertURLSafe(rawURL, func(host string) ([]string, error) { return net.DefaultResolver.LookupHost(ctx, host) }, false)
+}
+
+func assertURLSafe(rawURL string, lookup func(string) ([]string, error), allowAny bool) (hostname, resolvedIP string, err error) {
 	parsed, err := url.Parse(strings.TrimSpace(rawURL))
 	if err != nil {
 		return "", "", fmt.Errorf("invalid url")
@@ -530,7 +538,6 @@ func assertURLSafe(rawURL string, lookup func(string) ([]string, error)) (hostna
 		return "", "", fmt.Errorf("URL is missing a host")
 	}
 
-	allowAny := allowAnyHost()
 	addresses, err := lookup(hostname)
 	if err != nil {
 		return "", "", fmt.Errorf("could not resolve hostname '%s': %w", hostname, err)

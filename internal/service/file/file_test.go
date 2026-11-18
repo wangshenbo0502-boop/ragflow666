@@ -6,6 +6,8 @@ import (
 	"encoding/base64"
 	"errors"
 	"image"
+	"image/color"
+	"image/gif"
 	"image/png"
 	"io"
 	"mime/multipart"
@@ -246,6 +248,46 @@ func TestFileService_GetFileContents_ImageAttachmentAsDataURI(t *testing.T) {
 	want := "data:image/png;base64," + base64.StdEncoding.EncodeToString(imageData)
 	if images[0] != want {
 		t.Fatalf("image = %q, want data URI %q", images[0], want)
+	}
+}
+
+func TestFileService_GetFileContents_MislabeledGIF(t *testing.T) {
+	memory := storage.NewMemoryStorage()
+	factory := storage.GetStorageFactory()
+	originalStorage := factory.GetStorage()
+	factory.SetStorage(memory)
+	t.Cleanup(func() { factory.SetStorage(originalStorage) })
+
+	var encoded bytes.Buffer
+	picture := image.NewPaletted(image.Rect(0, 0, 2, 2), color.Palette{color.Black, color.White})
+	if err := gif.Encode(&encoded, picture, nil); err != nil {
+		t.Fatal(err)
+	}
+	ctx := permission.WithIdentity(t.Context(), "user-1", "")
+	descriptors := []map[string]interface{}{{
+		"id": "img-1", "name": "photo.jpg", "mime_type": "image/jpeg", "created_by": "user-1",
+	}}
+	svc := testFileService()
+	if err := memory.Put(ctx, "user-1-downloads", "img-1", encoded.Bytes()); err != nil {
+		t.Fatal(err)
+	}
+	texts, images, err := svc.GetFileContents(ctx, descriptors)
+	want := "data:image/gif;base64," + base64.StdEncoding.EncodeToString(encoded.Bytes())
+	if err != nil || len(texts) != 0 || len(images) != 1 || images[0] != want {
+		t.Fatalf("expected GIF data URI with original bytes: %v", err)
+	}
+	if _, err := ValidateChatImage(encoded.Bytes(), "image/jpeg"); err == nil || err.Error() != "image_mime_mismatch" {
+		t.Fatalf("explicit MIME integrity check changed: %v", err)
+	}
+
+	if err := memory.Put(ctx, "user-1-downloads", "img-1", encoded.Bytes()[:13]); err != nil {
+		t.Fatal(err)
+	}
+	texts, images, err = svc.GetFileContents(ctx, descriptors)
+	var attachmentErr *ChatAttachmentError
+	if !errors.As(err, &attachmentErr) || len(attachmentErr.Results) != 1 ||
+		attachmentErr.Results[0].Code != "image_decode_failed" || len(texts) != 0 || len(images) != 0 {
+		t.Fatalf("corrupt image was not rejected: %v", err)
 	}
 }
 

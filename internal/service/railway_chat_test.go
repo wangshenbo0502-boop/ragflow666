@@ -76,6 +76,84 @@ func TestRailwayEmptyResponse(t *testing.T) {
 	}
 }
 
+func TestIsRailwaySmallTalk(t *testing.T) {
+	for _, tt := range []struct {
+		name    string
+		content interface{}
+		docIDs  interface{}
+		options map[string]interface{}
+		want    bool
+	}{
+		{name: "reported compliment", content: "夸我帅", want: true},
+		{name: "greeting", content: " 你好！ ", want: true},
+		{name: "thanks", content: "Thank you!", want: true},
+		{name: "creative small talk", content: "讲个笑话", want: true},
+		{name: "railway question", content: "列车信号故障怎么处理？"},
+		{name: "contextual follow-up", content: "那这个应该怎么处理？"},
+		{name: "greeting and railway question", content: "你好，进站信号故障怎么处理？"},
+		{name: "compliment and evidence", content: "夸我帅，顺便核实附件里的规章"},
+		{name: "selected document", content: "你好", docIDs: []string{"doc-1"}},
+		{name: "requested document", content: "你好", options: map[string]interface{}{"doc_ids": "doc-1"}},
+		{name: "non-string content", content: []interface{}{map[string]interface{}{"type": "text", "text": "你好"}}},
+	} {
+		t.Run(tt.name, func(t *testing.T) {
+			message := map[string]interface{}{"role": "user", "content": tt.content, "doc_ids": tt.docIDs}
+			if got := isRailwaySmallTalk(message, tt.options); got != tt.want {
+				t.Fatalf("isRailwaySmallTalk = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
+
+func TestAsyncChatRailwaySmallTalkRouting(t *testing.T) {
+	db := setupModelProviderServiceTestDB(t)
+	useModelProviderServiceTestDB(t, db)
+	ctx := serviceTestContext(t, "user-1", "user-1")
+	chat := &entity.Chat{
+		TenantID: "user-1",
+		LLMID:    "missing-test-model",
+		PromptConfig: entity.JSONMap{
+			"domain": "railway", "reasoning": reasoningLevelAgentic,
+		},
+	}
+	pipeline := &ChatPipelineService{ModelFactory: NewModelFactory()}
+	for _, tt := range []struct {
+		name, content string
+		wantModel     bool
+	}{
+		{"independent small talk", "夸我帅", true},
+		{"railway question", "列车信号故障怎么处理？", false},
+		{"railway follow-up", "那这个该怎么办？", false},
+		{"mixed intent", "夸我帅，再帮我核实进站信号的规章", false},
+	} {
+		t.Run(tt.name, func(t *testing.T) {
+			out, err := pipeline.AsyncChat(ctx, chat, []map[string]interface{}{
+				{"role": "user", "content": "进站信号故障应参考哪些规章？"},
+				{"role": "assistant", "content": "需要核对资料。"},
+				{"role": "user", "content": tt.content},
+			}, false, nil)
+			if err != nil {
+				t.Fatal(err)
+			}
+			result, ok := <-out
+			if !ok || !result.Final {
+				t.Fatal("expected a final result")
+			}
+			if tt.wantModel {
+				// No configured model: the solo path must attempt resolution, not return the evidence fallback.
+				if result.Error == nil || result.Answer != "" {
+					t.Fatalf("expected a model resolution error, got %+v", result)
+				}
+			} else if result.Error != nil || result.Answer != railwayEmptyResponse {
+				t.Fatalf("expected the evidence fallback, got %+v", result)
+			}
+		})
+	}
+	if _, exists := chat.PromptConfig["system"]; exists {
+		t.Fatal("request prompt must not mutate the chat configuration")
+	}
+}
+
 func TestRailwayUnboundResponse(t *testing.T) {
 	tests := []struct {
 		name string
