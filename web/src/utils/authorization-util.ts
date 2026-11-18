@@ -24,6 +24,7 @@ import {
   UserInfo,
 } from '@/constants/authorization';
 import { getSearchValue } from './common-util';
+import { clearLlmCache } from './llm-cache';
 
 type CredentialKeys = {
   authorization: string;
@@ -73,8 +74,18 @@ const createCredentialStorage = (keys: CredentialKeys) => ({
 
 export type CredentialStorage = ReturnType<typeof createCredentialStorage>;
 
+const userCredentials = createCredentialStorage(UserCredentialKeys);
+
 const storage = {
-  ...createCredentialStorage(UserCredentialKeys),
+  ...userCredentials,
+  saveLoginCredentials: (credentials: LoginCredentials) => {
+    clearLlmCache();
+    userCredentials.saveLoginCredentials(credentials);
+  },
+  removeAll: () => {
+    userCredentials.removeAll();
+    clearLlmCache();
+  },
   setLanguage: (lng: string) => {
     localStorage.setItem('lng', lng);
   },
@@ -104,8 +115,6 @@ export const getAuthorization = () => {
 
 export default storage;
 
-// Will not jump to the login page
 export function redirectToLogin() {
-  // const env = import.meta.env;
   window.location.href = location.origin + `/login`;
 }

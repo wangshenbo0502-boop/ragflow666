@@ -51,9 +51,6 @@ jest.mock('react-i18next', () => ({
 jest.mock('../home/use-railway-workbench', () => ({
   useRailwayWorkbench: jest.fn(),
 }));
-jest.mock('@/components/rail-scroll-heading', () => ({
-  RailScrollHeading: () => null,
-}));
 jest.mock('@/components/rail-scroll-diagram', () => ({
   RailScrollDiagram: () => null,
 }));
@@ -105,6 +102,15 @@ beforeEach(() => {
     initialize: {},
     start: { mutate: MockStart, isPending: false },
   } as unknown as ReturnType<typeof MockWorkbench>);
+});
+
+test('creation links keep their button styling on the clickable element', () => {
+  setup();
+  const [primary, secondary] = screen.getAllByRole('link', {
+    name: '新建铁路问答',
+  });
+  expect(primary).toHaveClass('rail-primary', 'inline-flex');
+  expect(secondary).toHaveClass('inline-flex');
 });
 
 test.each([0, 1])(

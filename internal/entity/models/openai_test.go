@@ -24,6 +24,28 @@ func newOpenAIForTest(baseURL string) *OpenAIModel {
 	)
 }
 
+func TestBuildOpenAIChatRequestForSol(t *testing.T) {
+	temperature, limit, noEffort, high := 0.2, 2048, "none", "high"
+	config := &ChatConfig{Temperature: &temperature, MaxTokens: &limit, Effort: &noEffort}
+	for _, stream := range []bool{false, true} {
+		body := buildOpenAIChatRequest(config, "gpt-6.2-sol", nil, stream)
+		if body["reasoning_effort"] != "low" || body["max_completion_tokens"] != limit || body["stream"] != stream {
+			t.Fatalf("unexpected Sol request: %+v", body)
+		}
+		if body["temperature"] != nil || body["max_tokens"] != nil {
+			t.Fatalf("unsupported fields in Sol request: %+v", body)
+		}
+	}
+	config.Effort = &high
+	if got := buildOpenAIChatRequest(config, "gpt-6.2-sol", nil, false)["reasoning_effort"]; got != "high" {
+		t.Fatalf("explicit effort = %v, want high", got)
+	}
+	body := buildOpenAIChatRequest(config, "other-model", nil, false)
+	if body["temperature"] != temperature || body["max_tokens"] != limit || body["reasoning_effort"] != nil {
+		t.Fatalf("other model request changed: %+v", body)
+	}
+}
+
 func TestOpenAIConfigAdvertisedAudioModelsHaveSuffixes(t *testing.T) {
 	raw, err := os.ReadFile("../../../conf/models/openai.json")
 	if err != nil {

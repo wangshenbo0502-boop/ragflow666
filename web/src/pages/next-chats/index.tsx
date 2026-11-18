@@ -1,25 +1,23 @@
 import ListFilterBar from '@/components/list-filter-bar';
+import { RailListState } from '@/components/rail-list-state';
+import { RailPageHeading } from '@/components/rail-page-heading';
 import { PrivilegeManagementDialog } from '@/ee/components/privilege-management/privilege-management-dialog';
 import { useShowPrivilegeDialog } from '@/ee/pages/next-chats/use-show-privilege-dialog';
 import { RenameDialog } from '@/components/rename-dialog';
 import { Button } from '@/components/ui/button';
 import { RAGFlowPagination } from '@/components/ui/ragflow-pagination';
-import { Spin } from '@/components/ui/spin';
 import { ListDeletionKey } from '@/constants/list-deletion';
-import { useRailMotion } from '@/hooks/use-rail-motion';
 import { useGoToPreviousPageOnEmpty } from '@/hooks/logic-hooks';
 import { useFetchChatList } from '@/hooks/use-chat-request';
 import { buildOwnersFilter } from '@/utils/list-filter-util';
 import { ArrowUpRight, BookOpen, MessagesSquare, Plus } from 'lucide-react';
-import { useCallback, useRef } from 'react';
+import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, Navigate, useSearchParams } from 'react-router';
 import { ChatCard } from './chat-card';
 import { useRenameChat } from './hooks/use-rename-chat';
 
 export default function ChatList() {
-  const pageRef = useRef<HTMLElement>(null);
-  useRailMotion(pageRef);
   const list = useFetchChatList();
   const {
     data,
@@ -52,27 +50,23 @@ export default function ChatList() {
   }
   return (
     <>
-      <article ref={pageRef} className="rail-page" data-testid="chats-list">
+      <article className="rail-page" data-testid="chats-list">
         <div className="rail-page-inner">
-          <header className="rail-page-heading">
-            <div>
-              <p className="rail-eyebrow">
-                专业问答 <span>/</span> ASSISTANTS
-              </p>
-              <h1>铁路问答。</h1>
-              <p>与知识，继续对话。</p>
-            </div>
+          <RailPageHeading
+            label="专业问答 / ASSISTANTS"
+            title="铁路问答"
+            description="查看铁路助手与已有会话。"
+          >
             <Button
               className="rail-primary gap-2"
               data-testid="create-chat"
-              asChild
+              asLink
+              to="/home#rail-workspace"
             >
-              <Link to="/home#rail-workspace">
-                <Plus className="size-4" />
-                新建铁路问答
-              </Link>
+              <Plus className="size-4" />
+              新建铁路问答
             </Button>
-          </header>
+          </RailPageHeading>
           <ListFilterBar
             className="rail-list-tools"
             title={`我的铁路助手 · ${data?.total || 0}`}
@@ -82,12 +76,17 @@ export default function ChatList() {
             value={filterValue}
             onChange={list.handleFilterSubmit}
           />
-          {loading && !data?.chats?.length ? (
-            <div className="rail-empty">
-              <Spin size="large" />
-            </div>
+          {list.isError ? (
+            <RailListState
+              error
+              label="无法读取铁路助手"
+              detail="请检查服务连接与账号权限。"
+              onRetry={list.refetch}
+            />
+          ) : loading && !data?.chats?.length ? (
+            <RailListState loading label="正在读取铁路助手" />
           ) : data?.chats?.length ? (
-            <div className="rail-chat-grid" data-rail-reveal>
+            <div className="rail-chat-grid">
               {data.chats.map((chat) => (
                 <ChatCard
                   key={chat.id}
@@ -98,22 +97,21 @@ export default function ChatList() {
               ))}
             </div>
           ) : (
-            <div className="rail-empty" data-testid="chats-empty-create">
-              <MessagesSquare className="size-9" />
-              <h2>
-                {searchString ||
+            <RailListState
+              testId="chats-empty-create"
+              icon={MessagesSquare}
+              label={
+                searchString ||
                 Object.values(filterValue).some((value) => value?.length)
                   ? '没有找到匹配的助手'
-                  : '开启第一次铁路问答'}
-              </h2>
-              <p>安全规章 · 学习培训 · 设备分析 · 客运服务</p>
-              <Button variant="outline" asChild>
-                <Link to="/home#rail-workspace">
-                  <Plus className="size-4" />
-                  新建铁路问答
-                </Link>
+                  : '开启第一次铁路问答'
+              }
+            >
+              <Button variant="outline" asLink to="/home#rail-workspace">
+                <Plus className="size-4" />
+                新建铁路问答
               </Button>
-            </div>
+            </RailListState>
           )}
           <footer className="rail-list-footer">
             <RAGFlowPagination

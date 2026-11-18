@@ -4,6 +4,9 @@ import { MemoryRouter, useLocation } from 'react-router';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { AgentCategory } from '@/constants/agent';
 import { AgentListItemType } from '@/interfaces/database/agent';
+import en from '@/locales/en';
+import { createInstance } from 'i18next';
+import { I18nextProvider } from 'react-i18next';
 import Agents from './index';
 
 // Fully isolate the agents list from the request/router/modal layers.
@@ -95,6 +98,12 @@ const catalog = [
 ];
 
 let currentSearch = '';
+const testI18n = createInstance();
+
+beforeAll(async () => {
+  await testI18n.init({ lng: 'en', resources: { en } });
+});
+
 function LocationProbe() {
   currentSearch = useLocation().search;
   return null;
@@ -105,7 +114,9 @@ function renderAgents(initialEntry = '/') {
     <MemoryRouter initialEntries={[initialEntry]}>
       <QueryClientProvider client={new QueryClient()}>
         <TooltipProvider>
-          <Agents />
+          <I18nextProvider i18n={testI18n}>
+            <Agents />
+          </I18nextProvider>
           <LocationProbe />
         </TooltipProvider>
       </QueryClientProvider>
@@ -116,6 +127,8 @@ function renderAgents(initialEntry = '/') {
 const defaultListPage = {
   data: [] as Array<Record<string, unknown>>,
   loading: false,
+  isError: false,
+  refetch: jest.fn(),
   pagination: { current: 1, pageSize: 10, total: 0 },
   setPagination: jest.fn(),
   searchString: '',
@@ -266,6 +279,16 @@ describe('Agents create actions per tab', () => {
 });
 
 describe('Agents empty-state (built-in pipeline regression)', () => {
+  it('distinguishes a failed list request from an empty list and allows retry', () => {
+    setListPage({ isError: true });
+    renderAgents();
+
+    expect(screen.getByRole('alert')).toHaveTextContent('无法读取智能应用');
+    expect(screen.queryByTestId('agents-empty-create')).not.toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: '重试' }));
+    expect(defaultListPage.refetch).toHaveBeenCalledTimes(1);
+  });
+
   it('shows the search-empty card on a zero-match search in the Pipeline tab', () => {
     // The bug: builtinVisible (category eligibility) kept the empty
     // CardContainer mounted instead of the search-empty card.

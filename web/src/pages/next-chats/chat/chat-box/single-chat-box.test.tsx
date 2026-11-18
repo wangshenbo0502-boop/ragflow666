@@ -1,4 +1,10 @@
-import { render, waitFor } from '@testing-library/react';
+import {
+  fireEvent,
+  render,
+  screen,
+  waitFor,
+  within,
+} from '@testing-library/react';
 import { MemoryRouter } from 'react-router';
 
 import { MessageType } from '@/constants/chat';
@@ -8,17 +14,32 @@ const mockHydrateFromServer = jest.fn();
 const mockUseGetChatSearchParams = jest.fn();
 
 jest.mock('@/components/message-input/next', () => ({
-  NextMessageInput: () => null,
+  NextMessageInput: ({
+    advancedActions,
+  }: {
+    advancedActions: React.ReactNode;
+  }) => {
+    const React = require('react');
+    const [open, setOpen] = React.useState(false);
+    function toggle() {
+      setOpen(!open);
+    }
+    return (
+      <>
+        <button onClick={toggle}>Advanced options</button>
+        {open && <div role="dialog">{advancedActions}</div>}
+      </>
+    );
+  },
 }));
 jest.mock('@/components/message-item', () => () => null);
 jest.mock('./composer-model-select', () => ({
-  ComposerModelSelect: () => null,
+  ComposerModelSelect: () => <button>Conversation model</button>,
 }));
 jest.mock('./composer-dataset-select', () => ({
-  ComposerDatasetSelect: () => null,
+  ComposerDatasetSelect: () => <button>Knowledge bases</button>,
 }));
-jest.mock('./chat-media-modes', () => ({
-  ChatMediaModes: () => null,
+jest.mock('./chat-route-policy', () => ({
   ChatRoutePolicy: () => null,
 }));
 jest.mock('./chat-task-center', () => ({
@@ -117,6 +138,32 @@ describe('SingleChatBox conversation hydration', () => {
   beforeEach(() => {
     mockHydrateFromServer.mockClear();
     mockUseGetChatSearchParams.mockReset();
+  });
+
+  it('puts the model and knowledge base selectors in advanced options', () => {
+    const conversation = buildConversation('current-conversation');
+    mockUseGetChatSearchParams.mockReturnValue({
+      conversationId: conversation.id,
+    });
+    render(<SingleChatBox conversation={conversation} />, {
+      wrapper: MemoryRouter,
+    });
+
+    expect(
+      screen.queryByRole('button', { name: 'Conversation model' }),
+    ).toBeNull();
+    expect(
+      screen.queryByRole('button', { name: 'Knowledge bases' }),
+    ).toBeNull();
+    fireEvent.click(screen.getByRole('button', { name: 'Advanced options' }));
+
+    const panel = within(screen.getByRole('dialog'));
+    expect(
+      panel.getByRole('button', { name: 'Conversation model' }),
+    ).toBeInTheDocument();
+    expect(
+      panel.getByRole('button', { name: 'Knowledge bases' }),
+    ).toBeInTheDocument();
   });
 
   it('ignores stale messages while the URL points to a new conversation', () => {

@@ -63,6 +63,25 @@ func (o *OpenAIModel) Name() string {
 	return "openai"
 }
 
+func buildOpenAIChatRequest(config *ChatConfig, modelName string, messages []Message, stream bool) map[string]any {
+	body := buildRequestBody(config, modelName, messages, stream)
+	if modelName != "gpt-6.2-sol" {
+		return body
+	}
+	if limit, ok := body["max_tokens"]; ok {
+		body["max_completion_tokens"] = limit
+	}
+	for _, key := range []string{"max_tokens", "temperature", "top_p", "frequency_penalty", "presence_penalty", "do_sample"} {
+		delete(body, key)
+	}
+	effort := "low"
+	if config != nil && config.Effort != nil && *config.Effort != "" && *config.Effort != "none" {
+		effort = *config.Effort
+	}
+	body["reasoning_effort"] = effort
+	return body
+}
+
 // ChatWithMessages sends multiple messages with roles and returns the response
 func (o *OpenAIModel) ChatWithMessages(ctx context.Context, modelName string, messages []Message, apiConfig *APIConfig, chatModelConfig *ChatConfig, modelUsage *common.ModelUsage) (*ChatResponse, error) {
 	if err := o.baseModel.APIConfigCheck(apiConfig); err != nil {
@@ -79,7 +98,7 @@ func (o *OpenAIModel) ChatWithMessages(ctx context.Context, modelName string, me
 	}
 
 	// Build request body
-	reqBody := buildRequestBody(chatModelConfig, modelName, messages, false)
+	reqBody := buildOpenAIChatRequest(chatModelConfig, modelName, messages, false)
 
 	if strings.Contains(strings.ToLower(modelName), "qwen3") {
 		if chatModelConfig != nil && chatModelConfig.Thinking != nil {
@@ -112,7 +131,7 @@ func (o *OpenAIModel) ChatStreamlyWithSender(ctx context.Context, modelName stri
 		return err
 	}
 
-	reqBody := buildRequestBody(chatModelConfig, modelName, messages, true)
+	reqBody := buildOpenAIChatRequest(chatModelConfig, modelName, messages, true)
 	reqBody["stream_options"] = map[string]interface{}{
 		"include_usage": true,
 	}

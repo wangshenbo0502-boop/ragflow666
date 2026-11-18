@@ -1,11 +1,9 @@
 import { CustomTimeline, TimelineNode } from '@/components/originui/timeline';
 import { useMemo } from 'react';
-import { IPipelineFileLogDetail } from '../../interface';
 
 export interface TimelineDataFlowProps {
   activeId: number | string;
-  activeFunc: (id: number | string, step: TimelineNode) => void;
-  data: IPipelineFileLogDetail;
+  activeFunc: (id: number | string) => void;
   timelineNodes: TimelineNode[];
 }
 const TimelineDataFlow = ({
@@ -13,24 +11,19 @@ const TimelineDataFlow = ({
   activeId,
   timelineNodes,
 }: TimelineDataFlowProps) => {
-  // const [timelineNodeArr,setTimelineNodeArr] = useState<ITimelineNodeObj & {id: number | string}>()
-
   const activeStep = useMemo(() => {
     const index = timelineNodes.findIndex((node) => node.id === activeId);
     return index > -1 ? index + 1 : 0;
   }, [activeId, timelineNodes]);
-  const handleStepChange = (step: number, id: string | number) => {
-    activeFunc?.(
-      id,
-      timelineNodes.find((node) => node.id === activeStep) as TimelineNode,
-    );
+  const handleStepChange = (_step: number, id: string | number) => {
+    activeFunc(id);
   };
 
   return (
     <div className="">
       <div>
         <CustomTimeline
-          nodes={timelineNodes as TimelineNode[]}
+          nodes={timelineNodes}
           activeStep={activeStep}
           onStepChange={handleStepChange}
           orientation="horizontal"

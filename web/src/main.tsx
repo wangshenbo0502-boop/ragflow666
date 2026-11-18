@@ -21,6 +21,7 @@ import '../tailwind.css';
 import App from './app';
 import './global.less';
 import './styles/levo-theme.css';
+import './layouts/railmind.css';
 import { initLanguage } from './locales/config';
 import { fetchBillingStatus } from '@/ee/services/billingStatus';
 

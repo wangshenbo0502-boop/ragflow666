@@ -23,6 +23,7 @@ import (
 	"errors"
 	"fmt"
 	"math"
+	"os"
 
 	"ragflow/internal/common"
 	"ragflow/internal/engine"
@@ -1194,7 +1195,9 @@ func (s *ChatSessionService) ChatCompletions(
 	}
 
 	// --- 5. LLM override ---
-	mediaKind, mediaPrompt, mediaRequested := parseChatMediaCommand(stringValue(requestMsg[len(requestMsg)-1]["content"]))
+	lastMessage := requestMsg[len(requestMsg)-1]
+	content := stringValue(lastMessage["content"])
+	mediaKind, mediaPrompt, mediaRequested := parseChatMediaCommand(content)
 	if genConfig == nil {
 		genConfig = map[string]interface{}{}
 	}
@@ -1204,14 +1207,14 @@ func (s *ChatSessionService) ChatCompletions(
 	for k, v := range genConfig {
 		kwargs[k] = v
 	}
-	// An explicit command takes priority over a mode left selected in the UI.
-	// Keep music for a voice command, which may deliberately request singing.
+	// Explicit commands supplied by API clients take priority over a mode.
 	if mediaRequested {
 		if mode := stringValue(kwargs["mode"]); mode != "" && mode != "chat" {
 			kwargs["mode"] = chatMediaCommandMode(mediaKind, mode)
 		}
 	}
-	if mode := stringValue(kwargs["mode"]); mode != "" && mode != "chat" {
+	autoMedia := stringValue(kwargs["mode"]) == "auto"
+	if mode := stringValue(kwargs["mode"]); mode != "" && mode != "chat" && !autoMedia {
 		switch mode {
 		case "image":
 			mediaKind = "生图"
@@ -1224,11 +1227,18 @@ func (s *ChatSessionService) ChatCompletions(
 		}
 		mediaRequested = true
 		if mediaPrompt == "" {
-			mediaPrompt = stringValue(requestMsg[len(requestMsg)-1]["content"])
+			mediaPrompt = content
 		}
 	}
-	if mediaRequested {
-		request, err := newChatTaskRequest(dialog, session, requestMsg[len(requestMsg)-1], messageID, mediaKind, mediaPrompt, llmID, kwargs)
+	mediaTenant := strings.TrimSpace(os.Getenv("RAGFLOW_MEDIA_TENANT_ID"))
+	classifyMedia := autoMedia && session != nil && mediaTenant != "" && mediaTenant == dialog.TenantID
+	if mediaRequested || autoMedia && session != nil {
+		requestKind, requestPrompt := mediaKind, mediaPrompt
+		if autoMedia {
+			// A replay must not call the classifier again, even if history has changed.
+			requestKind, requestPrompt = "auto", content
+		}
+		request, err := newChatTaskRequest(dialog, session, lastMessage, messageID, requestKind, requestPrompt, llmID, kwargs)
 		if err != nil {
 			return fail(err)
 		}
@@ -1277,6 +1287,22 @@ func (s *ChatSessionService) ChatCompletions(
 		}
 		for k, v := range genConfig {
 			dialog.LLMSetting[k] = v
+		}
+	}
+	if autoMedia {
+		mode := resolveChatMediaIntent(ctx, dialog, requestMsg, classifyMedia, stringValue(kwargs["edit_asset_id"]))
+		if ctx.Err() != nil {
+			return fail(ctx.Err())
+		}
+		kwargs["mode"] = mode
+		mediaPrompt, mediaRequested = content, mode != "chat"
+		switch mode {
+		case "image":
+			mediaKind = "生图"
+		case "voice", "music":
+			mediaKind = "语音"
+		case "image_voice":
+			mediaKind = mode
 		}
 	}
 

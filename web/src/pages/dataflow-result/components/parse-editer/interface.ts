@@ -1,19 +1,24 @@
 import { CheckedState } from '@radix-ui/react-checkbox';
 import { ChunkTextMode } from '../../constant';
-import { ComponentParams, IChunk } from '../../interface';
-import { parserKeyMap } from './json-parser';
+import { IChunk } from '../../interface';
+
+type ParserArrayValue = {
+  key: 'json' | 'chunks';
+  value: Record<string, unknown>[];
+  fieldName: string;
+};
+
+type ParserTextValue = {
+  key: 'text' | 'html' | 'markdown';
+  value: string;
+};
+
+export type ParserEditorValue = ParserArrayValue | ParserTextValue;
 
 export interface FormatPreserveEditorProps {
-  initialValue: {
-    key: keyof typeof parserKeyMap | 'text' | 'html';
-    type: string;
-    value: Array<{ [key: string]: string }>;
-    params: ComponentParams;
-  };
-  onSave: (value: any) => void;
+  initialValue: ParserEditorValue;
+  onSave: (value: ParserEditorValue) => void;
   className?: string;
-  isSelect?: boolean;
-  isDelete?: boolean;
   isChunck?: boolean;
   handleCheckboxClick?: (id: string | number, checked: boolean) => void;
   selectedChunkIds?: string[];
@@ -23,48 +28,16 @@ export interface FormatPreserveEditorProps {
   newChunkIndex?: number;
 }
 
-export type IJsonContainerProps = {
-  initialValue: {
-    key: keyof typeof parserKeyMap;
-    type: string;
-    value: {
-      [key: string]: string;
-    }[];
-    params: ComponentParams;
-  };
-  isChunck?: boolean;
+type ContainerProps = Omit<
+  FormatPreserveEditorProps,
+  'initialValue' | 'handleCheckboxClick'
+>;
+
+export type IJsonContainerProps = ContainerProps & {
+  initialValue: ParserArrayValue;
   handleCheck: (e: CheckedState, index: number) => void;
-  selectedChunkIds: string[] | undefined;
-  unescapeNewlines: (text: string) => string;
-  escapeNewlines: (text: string) => string;
-  onSave: (data: {
-    value: {
-      text: string;
-    }[];
-    key: string;
-    type: string;
-  }) => void;
-  className?: string;
-  textMode?: ChunkTextMode;
-  clickChunk: (chunk: IChunk) => void;
-  isReadonly: boolean;
-  newChunkIndex?: number;
 };
 
-export type IObjContainerProps = {
-  initialValue: {
-    key: string;
-    type: string;
-    value: string;
-    params: ComponentParams;
-  };
-  isChunck?: boolean;
-  handleCheck: (e: CheckedState, index: number) => void;
-  unescapeNewlines: (text: string) => string;
-  escapeNewlines: (text: string) => string;
-  onSave: (data: { value: string; key: string; type: string }) => void;
-  className?: string;
-  textMode?: ChunkTextMode;
-  clickChunk: (chunk: IChunk) => void;
-  isReadonly: boolean;
+export type IObjContainerProps = ContainerProps & {
+  initialValue: ParserTextValue;
 };

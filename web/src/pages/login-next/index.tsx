@@ -22,7 +22,8 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm, UseFormReturn } from 'react-hook-form';
 import { z } from 'zod';
 import { NICKNAME_PATTERN } from '../user-setting/profile/constants';
-import { ArrowUpRight, TrainFront } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
+import { RailBrand } from '@/components/rail-brand';
 
 type LoginFormContentProps = {
   title: string;
@@ -300,10 +301,7 @@ const Login = () => {
   return (
     <main className="rail-auth">
       <header className="rail-auth-nav">
-        <span className="rail-auth-brand">
-          <TrainFront className="size-5" />
-          轨知 <span>RailMind</span>
-        </span>
+        <RailBrand />
         <span className="rail-auth-nav-caption">铁路知识与故障分析辅助</span>
       </header>
       <div className="rail-auth-body">

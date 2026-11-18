@@ -35,8 +35,13 @@ export function AgentCreateMenu({
 }) {
   if (directOnClick) {
     return (
-      <Button data-testid="create-agent" onClick={directOnClick}>
+      <Button
+        className="rail-primary"
+        data-testid="create-agent"
+        onClick={directOnClick}
+      >
         <Plus className="size-[1em]" />
+        创建应用
       </Button>
     );
   }
@@ -44,8 +49,9 @@ export function AgentCreateMenu({
   return (
     <DropdownMenu>
       <DropdownMenuTrigger data-testid="create-agent" asChild>
-        <Button>
+        <Button className="rail-primary">
           <Plus className="size-[1em]" />
+          创建应用
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent data-testid="agent-create-menu">

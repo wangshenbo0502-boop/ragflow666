@@ -23,7 +23,6 @@ import { resolveResendOptions } from '../utils';
 import { useCreateConversationBeforeSendMessage } from './use-chat-url';
 import { useFindPrologueFromDialogList } from './use-select-conversation-list';
 import { useUploadFile } from './use-upload-file';
-import type { ChatMediaMode } from '../chat/chat-box/chat-media-modes';
 
 /**
  * Subscribes to the current conversation's entry in the chat stream store and
@@ -68,11 +67,7 @@ export const useCurrentChatSession = () => {
   };
 };
 
-export const useSendMessage = (
-  mode: ChatMediaMode = 'chat',
-  routePolicy = 'fixed',
-  editAssetId?: string,
-) => {
+export const useSendMessage = (routePolicy = 'fixed', editAssetId?: string) => {
   const { conversationId } = useGetChatSearchParams();
   const { t } = useTranslation();
   const { handleInputChange, value, setValue } = useHandleMessageInputChange();
@@ -130,9 +125,11 @@ export const useSendMessage = (
       currentConversationId,
       enableInternet,
       enableThinking,
+      editAssetId,
     }: {
       message: IMessage;
       currentConversationId?: string;
+      editAssetId?: string;
     } & NextMessageInputOnPressEnterParameter) => {
       const sessionId = currentConversationId ?? conversationId;
 
@@ -147,7 +144,7 @@ export const useSendMessage = (
         enableThinking,
         enableInternet,
         llmSetting: currentDialog?.llm_setting,
-        mode,
+        mode: 'auto',
         routePolicy,
         editAssetId,
         onTaskUpdate: refreshTasks,
@@ -171,9 +168,7 @@ export const useSendMessage = (
       failStream,
       t,
       currentDialog?.llm_setting,
-      mode,
       routePolicy,
-      editAssetId,
       refreshTasks,
     ],
   );
@@ -296,6 +291,7 @@ export const useSendMessage = (
         },
         enableInternet,
         enableThinking,
+        editAssetId,
       });
 
       if (sourceStillCurrent) clearFiles();
@@ -313,6 +309,7 @@ export const useSendMessage = (
       appendQuestion,
       hydrateFromServer,
       files,
+      editAssetId,
       clearFiles,
       setValue,
       sendMessage,

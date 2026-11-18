@@ -19,6 +19,7 @@ import { type KeyboardEvent, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useHandleClickConversationCard } from '../hooks/use-click-card';
 import { ChatSettings } from './app-settings/chat-settings';
+import { ChatTaskCenter } from './chat-box/chat-task-center';
 import { SingleChatBox } from './chat-box/single-chat-box';
 import { Sessions } from './sessions';
 
@@ -123,16 +124,18 @@ export default function Chat() {
                     </SheetContent>
                   </Sheet>
                 )}
-                <h1 className="min-w-0 truncate text-base font-medium">
+                <h1 className="min-w-0 flex-1 truncate text-base font-medium">
                   {currentConversationName}
                 </h1>
+                <div className="flex shrink-0 items-center gap-1">
+                  <ChatTaskCenter />
+                  <ChatSettings />
+                </div>
               </header>
               <div className="flex-1 min-h-0">
                 <SingleChatBox conversation={currentConversation} />
               </div>
             </div>
-
-            <ChatSettings hasSingleChatBox />
           </div>
         </article>
       </section>

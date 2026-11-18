@@ -29,7 +29,14 @@ import {
   type FileUploadProps,
 } from '@/components/file-upload';
 import { Button } from '@/components/ui/button';
+import {
+  Sheet,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet';
 import { Textarea } from '@/components/ui/textarea';
+import { cn } from '@/lib/utils';
 import {
   Tooltip,
   TooltipContent,
@@ -38,12 +45,11 @@ import {
 import {
   CircleStop,
   Globe,
-  ImagePlus,
   Paperclip,
   RotateCw,
   Send,
+  SlidersHorizontal,
   Upload,
-  Volume2,
   X,
 } from 'lucide-react';
 import * as React from 'react';
@@ -89,15 +95,8 @@ interface NextMessageInputProps {
   showReasoning?: boolean;
   showInternet?: boolean;
   resize?: 'none' | 'vertical' | 'horizontal' | 'both';
-  leadingActions?: React.ReactNode;
-  trailingActions?: React.ReactNode;
-  mediaCommands?: boolean;
+  advancedActions?: React.ReactNode;
 }
-
-const MediaCommands = [
-  { command: '@语音', icon: Volume2 },
-  { command: '@生图', icon: ImagePlus },
-];
 
 export function NextMessageInput({
   isUploading = false,
@@ -114,9 +113,7 @@ export function NextMessageInput({
   removeFile,
   showReasoning = false,
   showInternet = false,
-  leadingActions,
-  trailingActions,
-  mediaCommands = false,
+  advancedActions,
   conversationId,
 }: NextMessageInputProps) {
   const { t } = useTranslation();
@@ -204,67 +201,6 @@ export function NextMessageInput({
   const [enableInternet, setEnableInternet] = useState(false);
 
   const textareaRef = useRef<HTMLTextAreaElement>(null);
-  const commandListId = React.useId();
-  const [commandIndex, setCommandIndex] = useState(0);
-  const [dismissedCommand, setDismissedCommand] = useState<string>();
-  const commandQuery = value.trimStart();
-  const commands =
-    mediaCommands && /^@[^\s：:]*$/.test(commandQuery)
-      ? MediaCommands.filter(({ command }) =>
-          command.toLowerCase().startsWith(commandQuery.toLowerCase()),
-        )
-      : [];
-  const showCommands =
-    commands.length > 0 &&
-    dismissedCommand !== value &&
-    !disabled &&
-    !sendLoading;
-  const activeCommandIndex = Math.min(
-    commandIndex,
-    Math.max(0, commands.length - 1),
-  );
-
-  const chooseCommand = useCallback(
-    (command: string) => {
-      const textarea = textareaRef.current;
-      if (!textarea) return;
-      const nextValue = `${command} `;
-      onInputChange({
-        target: { ...textarea, value: nextValue },
-        currentTarget: { ...textarea, value: nextValue },
-      } as React.ChangeEvent<HTMLTextAreaElement>);
-      setCommandIndex(0);
-      requestAnimationFrame(() => {
-        textarea.focus();
-        textarea.setSelectionRange(nextValue.length, nextValue.length);
-      });
-    },
-    [onInputChange],
-  );
-
-  const handleCommandClick = useCallback(
-    (event: React.MouseEvent<HTMLButtonElement>) => {
-      const command = event.currentTarget.dataset.command;
-      if (command) chooseCommand(command);
-    },
-    [chooseCommand],
-  );
-
-  const handleCommandMouseDown = useCallback((event: React.MouseEvent) => {
-    event.preventDefault();
-  }, []);
-
-  const handleChange = useCallback(
-    (event: React.ChangeEvent<HTMLTextAreaElement>) => {
-      setCommandIndex(0);
-      setDismissedCommand(undefined);
-      onInputChange(event);
-    },
-    [onInputChange],
-  );
-
-  const handleBlur = useCallback(() => setDismissedCommand(value), [value]);
-  const handleFocus = useCallback(() => setDismissedCommand(undefined), []);
   const [isManualMode, setIsManualMode] = useState(false);
   const [isResizing, setIsResizing] = useState(false);
   const dragStartRef = useRef({ startY: 0, startHeight: 0 });
@@ -372,29 +308,7 @@ export function NextMessageInput({
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.nativeEvent.isComposing || e.keyCode === 229) return;
-    if (showCommands) {
-      if (e.key === 'Escape') {
-        e.preventDefault();
-        setDismissedCommand(value);
-        return;
-      }
-      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
-        e.preventDefault();
-        setCommandIndex(
-          (activeCommandIndex +
-            (e.key === 'ArrowDown' ? 1 : -1) +
-            commands.length) %
-            commands.length,
-        );
-        return;
-      }
-      if ((e.key === 'Enter' && !e.shiftKey) || e.key === 'Tab') {
-        e.preventDefault();
-        chooseCommand(commands[activeCommandIndex].command);
-        return;
-      }
-    }
-    if (e.key === 'Enter' && !e.shiftKey && !e.nativeEvent.isComposing) {
+    if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
       submit();
     }
@@ -413,6 +327,63 @@ export function NextMessageInput({
       removeFile?.(file);
     },
     [removeFile],
+  );
+
+  const settings = (
+    <>
+      {showReasoning && (
+        <div
+          className={cn(
+            advancedActions &&
+              'flex flex-wrap items-center justify-between gap-2 py-3',
+          )}
+        >
+          {advancedActions && <span>推理模式</span>}
+          <SelectWithSearch
+            value={enableThinking}
+            options={thinkingOptions}
+            onChange={handleThinkingChange}
+            triggerClassName="h-8 w-auto max-w-44 min-w-0 border-0 !bg-bg-card text-sm"
+            testId="chat-detail-thinking-toggle"
+          />
+        </div>
+      )}
+      {showInternet &&
+        (advancedActions ? (
+          <div className="flex flex-wrap items-center justify-between gap-2 py-3">
+            <span>{t('chat.webSearch')}</span>
+            <Button
+              type="button"
+              variant={enableInternet ? 'accent' : 'outline'}
+              size="sm"
+              aria-label={t('chat.webSearch')}
+              aria-pressed={enableInternet}
+              onClick={handleInternetToggle}
+              data-testid="chat-detail-internet-toggle"
+            >
+              <Globe /> {enableInternet ? '已开启' : '已关闭'}
+            </Button>
+          </div>
+        ) : (
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Button
+                type="button"
+                variant={enableInternet ? 'accent' : 'transparent'}
+                size="icon-sm"
+                className="border-0"
+                aria-pressed={enableInternet}
+                onClick={handleInternetToggle}
+                data-testid="chat-detail-internet-toggle"
+              >
+                <Globe />
+                <span className="sr-only">{t('chat.webSearch')}</span>
+              </Button>
+            </TooltipTrigger>
+            <TooltipContent>{t('chat.webSearch')}</TooltipContent>
+          </Tooltip>
+        ))}
+    </>
   );
 
   return (
@@ -447,32 +418,6 @@ export function NextMessageInput({
             <Upload className="size-5" />
             <span>{t('chat.dropAttachments')}</span>
           </div>
-          {showCommands && (
-            <div
-              id={commandListId}
-              role="listbox"
-              aria-label={t('chat.mediaCommands', { defaultValue: '模型工具' })}
-              className="absolute bottom-full left-0 z-20 mb-2 w-64 max-w-full rounded-md border border-border-default bg-bg-base p-1 shadow-lg"
-            >
-              {commands.map(({ command, icon: Icon }, index) => (
-                <Button
-                  key={command}
-                  id={`${commandListId}-${index}`}
-                  type="button"
-                  role="option"
-                  aria-selected={activeCommandIndex === index}
-                  variant="ghost"
-                  data-command={command}
-                  onMouseDown={handleCommandMouseDown}
-                  onClick={handleCommandClick}
-                  className={`h-10 w-full justify-start gap-2 ${activeCommandIndex === index ? 'bg-bg-card' : ''}`}
-                >
-                  <Icon className="size-4 shrink-0" />
-                  <span className="truncate">{command}</span>
-                </Button>
-              ))}
-            </div>
-          )}
           {resize === 'vertical' && (
             <button
               type="button"
@@ -529,16 +474,7 @@ export function NextMessageInput({
             ref={textareaRef}
             data-testid="chat-textarea"
             value={value}
-            onChange={handleChange}
-            onBlur={handleBlur}
-            onFocus={handleFocus}
-            aria-autocomplete={mediaCommands ? 'list' : undefined}
-            aria-controls={showCommands ? commandListId : undefined}
-            aria-activedescendant={
-              showCommands
-                ? `${commandListId}-${activeCommandIndex}`
-                : undefined
-            }
+            onChange={onInputChange}
             placeholder={t('chat.messagePlaceholder')}
             className="
             min-h-10 max-h-[400px] w-full p-0 overflow-auto
@@ -556,10 +492,11 @@ export function NextMessageInput({
                 <FileUploadTrigger asChild>
                   <Button
                     type="button"
-                    size="icon-xs"
+                    size={advancedActions ? 'icon-sm' : 'icon-xs'}
                     variant="transparent"
-                    className="rounded-sm border-0"
+                    className="shrink-0 rounded-sm border-0"
                     disabled={isUploading || sendLoading}
+                    title={t('chat.attachFiles')}
                     data-testid="chat-detail-attach"
                   >
                     <Paperclip className="size-3.5" />
@@ -568,53 +505,47 @@ export function NextMessageInput({
                 </FileUploadTrigger>
               )}
 
-              {leadingActions}
-
-              {showReasoning && (
-                <SelectWithSearch
-                  value={enableThinking}
-                  options={thinkingOptions}
-                  onChange={handleThinkingChange}
-                  triggerClassName="h-7 w-auto max-w-44 min-w-0 border-0 !bg-bg-card text-sm"
-                  testId="chat-detail-thinking-toggle"
-                />
-              )}
-
-              {showInternet && (
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <Button
-                      type="button"
-                      variant={enableInternet ? 'accent' : 'transparent'}
-                      size="icon-xs"
-                      className="border-0"
-                      onClick={handleInternetToggle}
-                      data-testid="chat-detail-internet-toggle"
-                    >
-                      <Globe />
-                      <span className="sr-only">{t('chat.webSearch')}</span>
-                    </Button>
-                  </TooltipTrigger>
-                  <TooltipContent>
-                    <p>{t('chat.webSearch')}</p>
-                  </TooltipContent>
-                </Tooltip>
-              )}
+              {!advancedActions && settings}
             </div>
 
-            <div className="ml-auto flex min-w-0 items-center gap-2">
-              {trailingActions}
+            <div className="ml-auto flex shrink-0 items-center gap-1">
+              {advancedActions && (
+                <Sheet>
+                  <SheetTrigger asChild>
+                    <Button
+                      type="button"
+                      variant="ghost"
+                      size="icon-sm"
+                      title="高级选项"
+                      aria-label="高级选项"
+                    >
+                      <SlidersHorizontal className="size-4" />
+                    </Button>
+                  </SheetTrigger>
+                  <SheetContent
+                    aria-describedby={undefined}
+                    className="w-[min(100%,22rem)] overflow-auto rounded-none p-5 motion-reduce:animate-none"
+                  >
+                    <SheetTitle className="mb-4 pr-8">高级选项</SheetTitle>
+                    <div className="divide-y divide-border-button border-y border-border-button text-sm">
+                      {settings}
+                      {advancedActions}
+                    </div>
+                  </SheetContent>
+                </Sheet>
+              )}
               {sendLoading ? (
                 <Button
+                  type="button"
                   data-testid="chat-stream-status"
                   onClick={stopOutputMessage}
-                  size="icon-xs"
+                  size={advancedActions ? 'icon-sm' : 'icon-xs'}
                 >
                   <CircleStop />
                 </Button>
               ) : (
                 <Button
-                  size="icon-xs"
+                  size={advancedActions ? 'icon-sm' : 'icon-xs'}
                   disabled={cannotSend}
                   data-testid="chat-detail-send"
                 >

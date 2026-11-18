@@ -1,9 +1,8 @@
 /**
  * FloatingSelectionToolbar — appears when text is selected,
- * provides formatting: heading, bold, italic, code, strikethrough, link, quote.
+ * provides formatting: heading, bold, italic, code, strikethrough, quote.
  */
 import { $createCodeNode, $isCodeNode } from '@lexical/code';
-import { TOGGLE_LINK_COMMAND } from '@lexical/link';
 import { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext';
 import type { HeadingTagType } from '@lexical/rich-text';
 import {
@@ -91,14 +90,6 @@ export default function FloatingSelectionToolbar() {
 
   const format = (type: 'bold' | 'italic' | 'strikethrough' | 'code') => {
     editor.dispatchCommand(FORMAT_TEXT_COMMAND, type);
-    setShow(false);
-  };
-
-  const toggleLink = () => {
-    const url = window.prompt('Enter URL:');
-    if (url) {
-      editor.dispatchCommand(TOGGLE_LINK_COMMAND, url);
-    }
     setShow(false);
   };
 
@@ -446,19 +437,6 @@ export default function FloatingSelectionToolbar() {
       >
         &lt;/&gt;
       </button>
-      {/* <div
-        style={{
-          width: 1,
-          height: 16,
-          background: 'var(--nim-border)',
-          margin: '0 3px',
-        }}
-      /> */}
-
-      {/* Link */}
-      {/* <button style={btnStyle} onClick={toggleLink} title="Link">
-        🔗
-      </button> */}
     </div>
   );
 }

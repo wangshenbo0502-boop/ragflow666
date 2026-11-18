@@ -1,20 +1,14 @@
 import { Checkbox } from '@/components/ui/checkbox';
 import { cn } from '@/lib/utils';
-import { isArray } from 'lodash';
-import { useCallback, useEffect, useMemo, useRef } from 'react';
+import { useCallback, useEffect, useRef, type FocusEvent } from 'react';
 import { ChunkTextMode } from '../../constant';
 import styles from '../../index.module.less';
 import { IChunk } from '../../interface';
 import { useParserInit } from './hook';
 import { IJsonContainerProps } from './interface';
-export const parserKeyMap = {
-  json: 'text',
-  chunks: 'text',
-} as const;
-
 export const ArrayContainer = (props: IJsonContainerProps) => {
   const {
-    initialValue,
+    initialValue: content,
     isChunck,
     handleCheck,
     selectedChunkIds,
@@ -26,44 +20,21 @@ export const ArrayContainer = (props: IJsonContainerProps) => {
     newChunkIndex,
   } = props;
 
-  const { content, activeEditIndex, setActiveEditIndex, editDivRef } =
-    useParserInit({ initialValue });
+  const { activeEditIndex, setActiveEditIndex, editDivRef } = useParserInit();
 
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
 
-  const parserKey = useMemo(() => {
-    const key =
-      content.key === 'chunks' && content.params.field_name
-        ? content.params.field_name
-        : parserKeyMap[content.key as keyof typeof parserKeyMap];
-    return key;
-  }, [content]);
-
-  const handleEdit = useCallback(
-    (e?: any, index?: number) => {
-      setActiveEditIndex(index);
-    },
-    [setActiveEditIndex],
-  );
+  const parserKey = content.fieldName;
 
   const handleSave = useCallback(
-    (e: any) => {
-      if (Array.isArray(content.value)) {
-        const saveData = {
-          ...content,
-          value: content.value?.map((item, index) => {
-            if (index === activeEditIndex) {
-              return {
-                ...item,
-                [parserKey]: e.target.textContent || '',
-              };
-            } else {
-              return item;
-            }
-          }),
-        };
-        onSave(saveData as any);
-      }
+    (e: FocusEvent<HTMLDivElement>) => {
+      const text = e.currentTarget.textContent ?? '';
+      onSave({
+        ...content,
+        value: content.value.map((item, index) =>
+          index === activeEditIndex ? { ...item, [parserKey]: text } : item,
+        ),
+      });
       setActiveEditIndex(undefined);
     },
     [content, onSave, activeEditIndex, parserKey, setActiveEditIndex],
@@ -72,10 +43,8 @@ export const ArrayContainer = (props: IJsonContainerProps) => {
   useEffect(() => {
     if (activeEditIndex !== undefined && editDivRef.current) {
       editDivRef.current.focus();
-      if (typeof content.value !== 'string') {
-        editDivRef.current.textContent =
-          content.value[activeEditIndex][parserKey];
-      }
+      const value = content.value[activeEditIndex]?.[parserKey];
+      editDivRef.current.textContent = typeof value === 'string' ? value : '';
     }
   }, [editDivRef, activeEditIndex, content, parserKey]);
 
@@ -107,77 +76,72 @@ export const ArrayContainer = (props: IJsonContainerProps) => {
 
   return (
     <>
-      {isArray(content.value) &&
-        content.value?.map((item, index) => {
-          if (
-            item[parserKeyMap[content.key as keyof typeof parserKeyMap]] ===
-              '' ||
-            !item[parserKey]
-          ) {
-            return null;
-          }
-          return (
-            <section
-              key={index}
-              ref={(el) => {
-                sectionRefs.current[index] = el;
-              }}
-              className={cn(
-                isChunck
-                  ? 'bg-bg-card my-2 p-2 rounded-lg flex gap-1 items-start transition-shadow duration-300'
-                  : '',
-                activeEditIndex === index && isChunck ? 'bg-bg-title' : '',
-                newChunkIndex === index && isChunck
-                  ? 'ring-2 ring-accent-primary'
-                  : '',
-              )}
-            >
-              {isChunck && !isReadonly && (
-                <Checkbox
-                  onCheckedChange={(e) => {
-                    handleCheck(e, index);
-                  }}
-                  checked={selectedChunkIds?.some(
-                    (id) => id.toString() === index.toString(),
-                  )}
-                ></Checkbox>
-              )}
-              {activeEditIndex === index && (
-                <div
-                  ref={editDivRef}
-                  contentEditable={!isReadonly}
-                  onBlur={handleSave}
-                  className={cn(
-                    'w-full bg-transparent text-text-secondary border-none focus-visible:border-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:outline-none p-0',
+      {content.value.map((item, index) => {
+        const text = item[parserKey];
+        if (item.text === '' || typeof text !== 'string' || !text) {
+          return null;
+        }
+        return (
+          <section
+            key={index}
+            ref={(el) => {
+              sectionRefs.current[index] = el;
+            }}
+            className={cn(
+              isChunck
+                ? 'bg-bg-card my-2 p-2 rounded-lg flex gap-1 items-start transition-shadow duration-300'
+                : '',
+              activeEditIndex === index && isChunck ? 'bg-bg-title' : '',
+              newChunkIndex === index && isChunck
+                ? 'ring-2 ring-accent-primary'
+                : '',
+            )}
+          >
+            {isChunck && !isReadonly && (
+              <Checkbox
+                onCheckedChange={(e) => {
+                  handleCheck(e, index);
+                }}
+                checked={selectedChunkIds?.some(
+                  (id) => id.toString() === index.toString(),
+                )}
+              ></Checkbox>
+            )}
+            {activeEditIndex === index && (
+              <div
+                ref={editDivRef}
+                contentEditable={!isReadonly}
+                onBlur={handleSave}
+                className={cn(
+                  'w-full bg-transparent text-text-secondary border-none focus-visible:border-none focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:outline-none p-0',
 
-                    className,
-                  )}
-                ></div>
-              )}
-              {activeEditIndex !== index && (
-                <div
-                  className={cn(
-                    'text-text-secondary overflow-auto scrollbar-auto w-full min-h-3',
-                    {
-                      [styles.contentEllipsis]:
-                        textMode === ChunkTextMode.Ellipse,
-                    },
-                  )}
-                  key={index}
-                  onClick={(e) => {
-                    clickChunk(item as unknown as IChunk);
-                    console.log('clickChunk', item, index);
-                    if (!isReadonly) {
-                      handleEdit(e, index);
-                    }
-                  }}
-                >
-                  {item[parserKey]}
-                </div>
-              )}
-            </section>
-          );
-        })}
+                  className,
+                )}
+              ></div>
+            )}
+            {activeEditIndex !== index && (
+              <div
+                className={cn(
+                  'text-text-secondary overflow-auto scrollbar-auto w-full min-h-3',
+                  {
+                    [styles.contentEllipsis]:
+                      textMode === ChunkTextMode.Ellipse,
+                  },
+                )}
+                key={index}
+                onClick={() => {
+                  clickChunk(item as unknown as IChunk);
+                  if (!isReadonly) {
+                    setActiveEditIndex(index);
+                  }
+                }}
+              >
+                {text}
+              </div>
+            )}
+          </section>
+        );
+      })}
     </>
   );
 };

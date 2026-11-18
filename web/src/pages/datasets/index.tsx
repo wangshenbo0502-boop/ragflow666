@@ -1,4 +1,6 @@
 import ListFilterBar from '@/components/list-filter-bar';
+import { RailListState } from '@/components/rail-list-state';
+import { RailPageHeading } from '@/components/rail-page-heading';
 import DuplicateDialog from '@/ee/components/duplicate-dialog';
 import { PrivilegeManagementDialog } from '@/ee/components/privilege-management/privilege-management-dialog';
 import useDuplicateDataset from '@/ee/pages/datasets/use-duplicate-dataset';
@@ -6,13 +8,11 @@ import { useShowPrivilegeDialog } from '@/ee/pages/datasets/use-show-privilege-d
 import { RenameDialog } from '@/components/rename-dialog';
 import { Button } from '@/components/ui/button';
 import { RAGFlowPagination } from '@/components/ui/ragflow-pagination';
-import { Spin } from '@/components/ui/spin';
 import { ListDeletionKey } from '@/constants/list-deletion';
-import { useRailMotion } from '@/hooks/use-rail-motion';
 import { useGoToPreviousPageOnEmpty } from '@/hooks/logic-hooks';
 import { useFetchNextKnowledgeListByPage } from '@/hooks/use-knowledge-request';
-import { FolderOpen, Plus } from 'lucide-react';
-import { useCallback, useEffect, useRef } from 'react';
+import { Plus } from 'lucide-react';
+import { useCallback, useEffect } from 'react';
 import { useSearchParams } from 'react-router';
 import { DatasetCard } from './dataset-card';
 import { DatasetCreatingDialog } from './dataset-creating-dialog';
@@ -21,8 +21,6 @@ import { useRenameDataset } from './use-rename-dataset';
 import { useSelectOwners } from './use-select-owners';
 
 export default function Datasets() {
-  const pageRef = useRef<HTMLElement>(null);
-  useRailMotion(pageRef);
   const {
     visible,
     hideModal,
@@ -69,27 +67,20 @@ export default function Datasets() {
   }, [searchParams, setSearchParams, showModal]);
   return (
     <>
-      <article ref={pageRef} className="rail-page" data-testid="datasets-list">
+      <article className="rail-page" data-testid="datasets-list">
         <div className="rail-page-inner">
-          <header className="rail-page-heading">
-            <div>
-              <p className="rail-eyebrow">
-                知识管理 <span>/</span> KNOWLEDGE
-              </p>
-              <h1>铁路知识库。</h1>
-              <p>每一份知识，都有来处。</p>
-            </div>
+          <RailPageHeading
+            label="知识管理 / KNOWLEDGE"
+            title="铁路知识库"
+            description="管理铁路资料、解析状态与知识片段。"
+          >
             <Button className="rail-primary gap-2" onClick={showModal}>
               <Plus className="size-4" />
               创建知识库
             </Button>
-          </header>
+          </RailPageHeading>
           <div>
-            <section
-              className="min-w-0"
-              aria-label="知识库目录"
-              data-rail-reveal
-            >
+            <section className="min-w-0" aria-label="知识库目录">
               <ListFilterBar
                 className="rail-list-tools"
                 title={`全部知识库 · ${total_datasets || 0}`}
@@ -99,10 +90,15 @@ export default function Datasets() {
                 filters={owners}
                 onChange={list.handleFilterSubmit}
               />
-              {loading && !datasets.length ? (
-                <div className="rail-empty">
-                  <Spin size="large" />
-                </div>
+              {list.isError ? (
+                <RailListState
+                  error
+                  label="无法读取知识库"
+                  detail="请检查服务连接与账号权限。"
+                  onRetry={list.refetch}
+                />
+              ) : loading && !datasets.length ? (
+                <RailListState loading label="正在读取知识库" />
               ) : datasets.length ? (
                 <>
                   <div className="rail-dataset-columns" aria-hidden>
@@ -127,20 +123,19 @@ export default function Datasets() {
                   </div>
                 </>
               ) : (
-                <div className="rail-empty">
-                  <FolderOpen className="size-9" />
-                  <h2>
-                    {searchString ||
+                <RailListState
+                  label={
+                    searchString ||
                     Object.values(filterValue).some((value) => value?.length)
                       ? '没有找到匹配的知识库'
-                      : '还没有知识库'}
-                  </h2>
-                  <p>添加铁路资料，建立你的知识目录。</p>
+                      : '还没有知识库'
+                  }
+                >
                   <Button variant="outline" onClick={showModal}>
                     <Plus className="size-4" />
                     创建知识库
                   </Button>
-                </div>
+                </RailListState>
               )}
               <footer className="rail-list-footer">
                 <RAGFlowPagination

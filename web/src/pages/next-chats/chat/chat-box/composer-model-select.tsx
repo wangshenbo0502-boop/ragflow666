@@ -17,7 +17,7 @@ import {
 import { IDialog } from '@/interfaces/database/chat';
 import { IAddedModel } from '@/interfaces/database/llm';
 import { buildModelValue, getRealModelName } from '@/utils/llm-util';
-import { Check, ChevronDown, Loader2 } from 'lucide-react';
+import { Check, ChevronDown, Cpu, Loader2 } from 'lucide-react';
 import { useCallback, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useComposerSettings } from './use-composer-settings';
@@ -145,9 +145,13 @@ export function ComposerModelSelect({
           aria-label={t('chat.chooseModel')}
           aria-expanded={open}
           data-testid="chat-composer-model"
-          className="min-w-0 max-w-44 shrink gap-1.5"
+          className="h-8 w-full min-w-0 justify-start gap-1 px-1.5"
         >
-          {saving && <Loader2 className="size-3.5 animate-spin" />}
+          {saving ? (
+            <Loader2 className="size-3.5 shrink-0 motion-safe:animate-spin" />
+          ) : (
+            <Cpu className="size-3.5 shrink-0" />
+          )}
           <TruncatedText
             as="span"
             className="min-w-0 truncate"
@@ -155,7 +159,7 @@ export function ComposerModelSelect({
           >
             {selectedName}
           </TruncatedText>
-          <ChevronDown className="size-3.5 shrink-0" />
+          <ChevronDown className="ml-auto size-3.5 shrink-0 max-[380px]:hidden" />
         </Button>
       </PopoverTrigger>
       <PopoverContent

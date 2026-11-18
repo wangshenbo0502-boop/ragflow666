@@ -1,28 +1,12 @@
-import { useEffect, useRef, useState } from 'react';
-import { IJsonContainerProps, IObjContainerProps } from './interface';
+import { useRef, useState } from 'react';
 
-export const useParserInit = ({
-  initialValue,
-}: {
-  initialValue:
-    | IJsonContainerProps['initialValue']
-    | IObjContainerProps['initialValue'];
-}) => {
-  const [content, setContent] = useState(initialValue);
-
-  useEffect(() => {
-    setContent(initialValue);
-    console.log('initialValue json parse', initialValue);
-  }, [initialValue]);
-
+export const useParserInit = () => {
   const [activeEditIndex, setActiveEditIndex] = useState<number | undefined>(
     undefined,
   );
   const editDivRef = useRef<HTMLDivElement>(null);
 
   return {
-    content,
-    setContent,
     activeEditIndex,
     setActiveEditIndex,
     editDivRef,

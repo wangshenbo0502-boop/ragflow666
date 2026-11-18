@@ -110,13 +110,18 @@ export const useLogout = () => {
   } = useMutation({
     mutationKey: ['logout'],
     mutationFn: async () => {
-      const { data = {} } = await userService.logout();
-      if (data.code === 0) {
-        message.success(t('message.logout'));
+      try {
+        const { data = {} } = await userService.logout();
+        if (data.code === 0) {
+          message.success(t('message.logout'));
+        }
+        return data.code;
+      } catch {
+        return 1999;
+      } finally {
         authorizationUtil.removeAll();
         redirectToLogin();
       }
-      return data.code;
     },
   });
 

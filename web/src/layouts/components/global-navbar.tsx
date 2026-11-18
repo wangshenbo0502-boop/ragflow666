@@ -8,6 +8,7 @@ import {
   MessagesSquare,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { RailBrand } from '@/components/rail-brand';
 import {
   Sheet,
   SheetContent,
@@ -93,7 +94,9 @@ export function MobileNavbar({
         side="left"
         className="flex w-[min(85vw,18rem)] flex-col gap-0 p-0"
       >
-        <SheetTitle className="px-6 py-7 text-lg">轨知 RailMind</SheetTitle>
+        <SheetTitle className="px-6 py-5">
+          <RailBrand />
+        </SheetTitle>
         <nav className="flex-1">
           {MenuItems.map(({ path, name, icon: Icon, testId }) => (
             <Link

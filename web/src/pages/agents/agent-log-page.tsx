@@ -67,31 +67,31 @@ const AgentLogPage: React.FC = () => {
   };
   const [searchParams, setSearchParams] = useState(init);
 
-  const columns = [
+  const columns: {
+    title: string;
+    key: string;
+    sortable?: boolean;
+    render: (record: IAgentLogResponse) => React.ReactNode;
+  }[] = [
     {
       title: t('flow.id'),
-      dataIndex: 'id',
       key: 'id',
+      render: (record) => record.id,
     },
     {
       title: t('flow.userId'),
-      dataIndex: 'user_id',
       key: 'user_id',
-      render: (text: string) => <span>{text}</span>,
+      render: (record) => <span>{record.user_id}</span>,
     },
     {
       title: t('flow.logTitle'),
-      dataIndex: 'title',
       key: 'title',
-      render: (_text: string, record: IAgentLogResponse) => (
-        <span>{record.name}</span>
-      ),
+      render: (record) => <span>{record.name}</span>,
     },
     {
       title: t('flow.state'),
-      dataIndex: 'state',
       key: 'state',
-      render: (_text: string, record: IAgentLogResponse) => (
+      render: (record) => (
         <div
           className="size-2 rounded-full"
           style={{ backgroundColor: record.errors ? 'red' : 'green' }}
@@ -100,31 +100,25 @@ const AgentLogPage: React.FC = () => {
     },
     {
       title: t('flow.number'),
-      dataIndex: 'round',
       key: 'round',
+      render: (record) => record.round,
     },
     {
       title: t('flow.latestDate'),
-      dataIndex: 'update_date',
       key: 'update_date',
       sortable: true,
-      render(text: string) {
-        return formatDate(text);
-      },
+      render: (record) => formatDate(record.update_date),
     },
     {
       title: t('flow.createDate'),
-      dataIndex: 'create_date',
       key: 'create_date',
       sortable: true,
-      render(text: string) {
-        return formatDate(text);
-      },
+      render: (record) => formatDate(record.create_date),
     },
     {
       title: t('flow.version.version'),
-      dataIndex: 'version_title',
       key: 'version_title',
+      render: (record) => record.version_title,
     },
   ];
 
@@ -325,11 +319,9 @@ const AgentLogPage: React.FC = () => {
               <TableRow>
                 {columns.map((column) => (
                   <TableHead
-                    key={column.dataIndex}
+                    key={column.key}
                     onClick={
-                      column.sortable
-                        ? () => handleSort(column.dataIndex)
-                        : undefined
+                      column.sortable ? () => handleSort(column.key) : undefined
                     }
                     className={
                       column.sortable ? 'cursor-pointer hover:bg-muted/50' : ''
@@ -338,7 +330,7 @@ const AgentLogPage: React.FC = () => {
                     <div className="flex items-center">
                       {column.title}
                       {column.sortable &&
-                        sortConfig?.orderby === column.dataIndex && (
+                        sortConfig?.orderby === column.key && (
                           <span className="ml-1">
                             {sortConfig.desc ? '↓' : '↑'}
                           </span>
@@ -370,15 +362,8 @@ const AgentLogPage: React.FC = () => {
                     }}
                   >
                     {columns.map((column) => (
-                      <TableCell key={column.dataIndex}>
-                        {column.render
-                          ? column.render(
-                              item[column.dataIndex as keyof IAgentLogResponse],
-                              item,
-                            )
-                          : (item[
-                              column.dataIndex as keyof typeof item
-                            ] as string)}
+                      <TableCell key={column.key}>
+                        {column.render(item)}
                       </TableCell>
                     ))}
                   </TableRow>

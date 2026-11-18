@@ -1,8 +1,14 @@
 import { Button } from '@/components/ui/button';
 import { Form } from '@/components/ui/form';
 import { ScrollArea } from '@/components/ui/scroll-area';
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet';
 import { DatasetMetadata } from '@/constants/chat';
-import { useSetModalState } from '@/hooks/common-hooks';
 import {
   AgenticRagKeys,
   useFetchChat,
@@ -14,7 +20,6 @@ import {
   useStaleDatasetFormSchema,
 } from '@/hooks/use-stale-dataset-validation';
 import { IAgenticRagSettings } from '@/interfaces/database/chat';
-import { cn } from '@/lib/utils';
 import {
   deriveModelPreset,
   removeUselessFieldsFromValues,
@@ -23,7 +28,7 @@ import {
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useQueryClient } from '@tanstack/react-query';
 import { isEmpty, omit } from 'lodash';
-import { LucidePanelRightClose, LucideSettings } from 'lucide-react';
+import { Settings, X } from 'lucide-react';
 import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
@@ -37,9 +42,7 @@ import { useChatSettingSchema } from './use-chat-setting-schema';
 import { useRevealSubmitErrors } from './use-reveal-submit-errors';
 import { getWebSearchProvider } from '../web-search-api-key';
 
-type ChatSettingsProps = { hasSingleChatBox: boolean };
-
-export function ChatSettings({ hasSingleChatBox }: ChatSettingsProps) {
+export function ChatSettings() {
   const { data } = useFetchChat();
 
   const chatSettingSchema = useChatSettingSchema();
@@ -52,9 +55,6 @@ export function ChatSettings({ hasSingleChatBox }: ChatSettingsProps) {
   const queryClient = useQueryClient();
   const { id } = useParams();
   const { t } = useTranslation();
-
-  const { visible: settingVisible, switchVisible: switchSettingVisible } =
-    useSetModalState(false);
 
   const {
     formContainerRef,
@@ -195,85 +195,80 @@ export function ChatSettings({ hasSingleChatBox }: ChatSettingsProps) {
   useRevalidateStaleDatasetIds(form, datasetsFetched);
 
   return (
-    <>
-      {settingVisible || (
-        <div className="p-5">
-          <Button
-            onClick={switchSettingVisible}
-            disabled={!hasSingleChatBox}
-            variant={'ghost'}
-            size="icon-sm"
-            data-testid="chat-settings"
-          >
-            <LucideSettings />
-          </Button>
-        </div>
-      )}
-
-      <section
+    <Sheet>
+      <SheetTrigger asChild>
+        <Button
+          variant="ghost"
+          size="icon-sm"
+          aria-label={t('chat.chatSetting')}
+          title={t('chat.chatSetting')}
+          data-testid="chat-settings"
+        >
+          <Settings />
+        </Button>
+      </SheetTrigger>
+      <SheetContent
         data-testid="chat-detail-settings"
-        className={cn(
-          'transition-[width] ease-out duration-300 flex-shrink-0 flex flex-col overflow-hidden',
-          settingVisible ? 'w-[440px]' : 'w-0',
-        )}
+        aria-describedby={undefined}
+        closeIcon={false}
+        className="flex w-[min(100%,27.5rem)] flex-col gap-0 overflow-hidden rounded-none p-0 motion-reduce:animate-none"
       >
-        {settingVisible && (
-          <>
-            <div className="p-5 pb-2 flex justify-between items-center text-base">
-              {t('chat.chatSetting')}
+        <div className="flex items-center justify-between gap-3 p-5 pb-2">
+          <SheetTitle>{t('chat.chatSetting')}</SheetTitle>
 
-              <Button
-                variant="transparent"
-                size="icon-sm"
-                className="border-0"
-                onClick={switchSettingVisible}
-                data-testid="chat-detail-settings-close"
-              >
-                <LucidePanelRightClose
-                  className="size-4 cursor-pointer"
-                  onClick={switchSettingVisible}
-                />
-              </Button>
+          <SheetClose asChild>
+            <Button
+              variant="ghost"
+              size="icon-sm"
+              aria-label={t('common.close', { defaultValue: '关闭' })}
+              data-testid="chat-detail-settings-close"
+            >
+              <X className="size-4" />
+            </Button>
+          </SheetClose>
+        </div>
+
+        <Form {...form}>
+          <form
+            ref={formContainerRef}
+            onSubmit={form.handleSubmit(onSubmit, handleInvalidSubmit)}
+            className="flex-1 flex flex-col min-h-0"
+          >
+            <ScrollArea
+              className="min-h-0 flex-1"
+              viewportClassName="[&>div]:!block"
+            >
+              <section className="p-5 space-y-6 overflow-auto flex-1 min-h-0">
+                <ChatBasicSetting
+                  collapseOpen={modelSettingOpen}
+                  onCollapseOpenChange={onModelSettingOpenChange}
+                ></ChatBasicSetting>
+                <ChatPromptEngine
+                  advancedSettingOpen={advancedSettingOpen}
+                  onAdvancedSettingOpenChange={onAdvancedSettingOpenChange}
+                  naiveSettingOpen={naiveSettingOpen}
+                  onNaiveSettingOpenChange={onNaiveSettingOpenChange}
+                  agenticSettingOpen={agenticSettingOpen}
+                  onAgenticSettingOpenChange={onAgenticSettingOpenChange}
+                ></ChatPromptEngine>
+              </section>
+            </ScrollArea>
+
+            <div className="p-5 pt-4 space-x-5 text-right">
+              <SheetClose asChild>
+                <Button
+                  type="button"
+                  variant="outline"
+                  data-testid="chat-detail-settings-cancel"
+                >
+                  {t('chat.cancel')}
+                </Button>
+              </SheetClose>
+              <SavingButton loading={loading}></SavingButton>
             </div>
-
-            <Form {...form}>
-              <form
-                ref={formContainerRef}
-                onSubmit={form.handleSubmit(onSubmit, handleInvalidSubmit)}
-                className="flex-1 flex flex-col min-h-0"
-              >
-                <ScrollArea viewportClassName="[&>div]:!block">
-                  <section className="p-5 space-y-6 overflow-auto flex-1 min-h-0">
-                    <ChatBasicSetting
-                      collapseOpen={modelSettingOpen}
-                      onCollapseOpenChange={onModelSettingOpenChange}
-                    ></ChatBasicSetting>
-                    <ChatPromptEngine
-                      advancedSettingOpen={advancedSettingOpen}
-                      onAdvancedSettingOpenChange={onAdvancedSettingOpenChange}
-                      naiveSettingOpen={naiveSettingOpen}
-                      onNaiveSettingOpenChange={onNaiveSettingOpenChange}
-                      agenticSettingOpen={agenticSettingOpen}
-                      onAgenticSettingOpenChange={onAgenticSettingOpenChange}
-                    ></ChatPromptEngine>
-                  </section>
-                </ScrollArea>
-
-                <div className="p-5 pt-4 space-x-5 text-right">
-                  <Button
-                    variant={'outline'}
-                    onClick={switchSettingVisible}
-                    data-testid="chat-detail-settings-cancel"
-                  >
-                    {t('chat.cancel')}
-                  </Button>
-                  <SavingButton loading={loading}></SavingButton>
-                </div>
-              </form>
-            </Form>
-          </>
-        )}
-      </section>
-    </>
+          </form>
+        </Form>
+      </SheetContent>
+    </Sheet>
   );
 }

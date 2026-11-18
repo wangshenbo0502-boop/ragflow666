@@ -1,4 +1,5 @@
 import { RAGFlowAvatar } from '@/components/ragflow-avatar';
+import { RailBrand } from '@/components/rail-brand';
 import {
   useFetchUserInfo,
   useListTenant,
@@ -6,7 +7,6 @@ import {
 import { cn } from '@/lib/utils';
 import { TenantRole } from '@/pages/user-setting/constants';
 import { Routes } from '@/routes';
-import { TrainFront } from 'lucide-react';
 import React, { useMemo } from 'react';
 import { Link, useLocation } from 'react-router';
 import { BellButton } from './bell-button';
@@ -61,12 +61,7 @@ export function Header({
               aria-current={pathname === Routes.Root ? 'page' : undefined}
               className="flex shrink-0 items-center gap-2"
             >
-              <span className="rail-logo">
-                <TrainFront className="size-5" />
-              </span>
-              <span className="rail-wordmark">
-                轨知 <span>RailMind</span>
-              </span>
+              <RailBrand />
             </Link>
           </div>
         </div>

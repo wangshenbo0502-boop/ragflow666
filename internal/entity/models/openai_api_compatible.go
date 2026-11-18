@@ -95,7 +95,7 @@ func (m *OpenAIAPICompatibleModel) ChatWithMessages(ctx context.Context, modelNa
 	}
 
 	// Build request body
-	reqBody := buildRequestBody(chatModelConfig, modelName, messages, false)
+	reqBody := buildOpenAIChatRequest(chatModelConfig, modelName, messages, false)
 	applyVllmCompatibleThinking(reqBody, modelName, chatModelConfig)
 
 	body, err := m.baseModel.doRequest(ctx, url, apiConfig, reqBody, nonStreamCallTimeout)
@@ -125,7 +125,7 @@ func (m *OpenAIAPICompatibleModel) ChatStreamlyWithSender(ctx context.Context, m
 	}
 
 	// Build request body with streaming enabled
-	reqBody := buildRequestBody(chatModelConfig, modelName, messages, true)
+	reqBody := buildOpenAIChatRequest(chatModelConfig, modelName, messages, true)
 	reqBody["stream_options"] = map[string]interface{}{
 		"include_usage": true,
 	}

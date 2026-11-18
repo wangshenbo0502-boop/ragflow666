@@ -174,7 +174,7 @@ function ListOperationsForm({ node }: INextOperatorForm) {
         <QueryVariable
           name="query"
           className="flex-1"
-          types={ArrayFields as any[]}
+          types={ArrayFields}
         ></QueryVariable>
         <Separator />
         <RAGFlowFormItem name="operations" label={t('flow.operations')}>

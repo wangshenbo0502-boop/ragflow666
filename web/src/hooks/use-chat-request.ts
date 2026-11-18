@@ -105,6 +105,7 @@ export const useFetchChatList = () => {
     data,
     isFetching: loading,
     refetch,
+    isError,
   } = useQuery<{ chats: IDialog[]; total: number }>({
     queryKey: [
       ChatApiAction.FetchChatList,
@@ -132,6 +133,8 @@ export const useFetchChatList = () => {
         true,
       );
 
+      if (data?.code !== 0)
+        throw new Error(data?.message || 'Chat list unavailable');
       return data?.data ?? { chats: [], total: 0 };
     },
   });
@@ -147,6 +150,7 @@ export const useFetchChatList = () => {
     data,
     loading,
     refetch,
+    isError,
     searchString,
     setSearchString,
     handleInputChange: onInputChange,

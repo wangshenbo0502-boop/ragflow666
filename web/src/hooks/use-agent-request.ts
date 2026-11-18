@@ -219,7 +219,12 @@ export const useFetchAgentListByPage = (canvasCategory?: string) => {
     tags,
   });
 
-  const { data, isFetching: loading } = useQuery<{
+  const {
+    data,
+    isFetching: loading,
+    isError,
+    refetch,
+  } = useQuery<{
     canvas: AgentListItem[];
     total: number;
   }>({
@@ -244,7 +249,9 @@ export const useFetchAgentListByPage = (canvasCategory?: string) => {
         true,
       );
 
-      return data?.data;
+      if (data?.code !== 0)
+        throw new Error(data?.message || 'Application list unavailable');
+      return data.data;
     },
   });
 
@@ -258,6 +265,8 @@ export const useFetchAgentListByPage = (canvasCategory?: string) => {
 
   return {
     data: data?.canvas ?? [],
+    isError,
+    refetch,
     loading,
     searchString,
     debouncedSearchString,

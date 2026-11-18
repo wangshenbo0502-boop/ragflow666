@@ -213,7 +213,12 @@ export const useFetchNextKnowledgeListByPage = () => {
   const { filterValue, setFilterValue, handleFilterSubmit } =
     useHandleFilterSubmit();
 
-  const { data, isFetching: loading } = useQuery<IDatasetListResult>({
+  const {
+    data,
+    isFetching: loading,
+    isError,
+    refetch,
+  } = useQuery<IDatasetListResult>({
     queryKey: [
       KnowledgeApiAction.FetchKnowledgeListByPage,
       {
@@ -233,6 +238,8 @@ export const useFetchNextKnowledgeListByPage = () => {
         owner_ids: filterValue.owner as string[],
       });
 
+      if (data?.code !== 0)
+        throw new Error(data?.message || 'Knowledge list unavailable');
       return { kbs: data?.data, total_datasets: data?.total_datasets };
     },
   });
@@ -247,6 +254,8 @@ export const useFetchNextKnowledgeListByPage = () => {
 
   return {
     ...data,
+    isError,
+    refetch,
     searchString,
     setSearchString,
     handleInputChange: onInputChange,

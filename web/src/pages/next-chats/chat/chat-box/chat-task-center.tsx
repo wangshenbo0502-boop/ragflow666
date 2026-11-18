@@ -290,15 +290,18 @@ export function ChatTaskCenter() {
       <Tooltip>
         <TooltipTrigger asChild>
           <SheetTrigger asChild>
-            <Button variant="ghost" size="icon" aria-label="任务中心">
+            <Button variant="ghost" size="icon-sm" aria-label="任务中心">
               <ListTodo size={18} />
             </Button>
           </SheetTrigger>
         </TooltipTrigger>
         <TooltipContent>任务中心</TooltipContent>
       </Tooltip>
-      <SheetContent className="flex w-full max-w-[560px] flex-col gap-4 sm:w-[560px]">
-        <SheetTitle>任务中心</SheetTitle>
+      <SheetContent
+        aria-describedby={undefined}
+        className="flex w-[min(100%,35rem)] flex-col gap-4 rounded-none p-5 motion-reduce:animate-none"
+      >
+        <SheetTitle className="pr-8">任务中心</SheetTitle>
         {open && <TaskList onJump={closeAfterJump} />}
       </SheetContent>
     </Sheet>

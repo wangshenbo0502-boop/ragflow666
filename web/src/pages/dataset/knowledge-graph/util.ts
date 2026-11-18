@@ -6,10 +6,9 @@ class KeyGenerator {
   idx = 0;
   chars: string[] = [];
   constructor() {
-    const chars = Array(26)
-      .fill(1)
-      .map((x, idx) => String.fromCharCode(97 + idx)); // 26 char
-    this.chars = chars;
+    this.chars = Array.from({ length: 26 }, (_, idx) =>
+      String.fromCharCode(97 + idx),
+    );
   }
   generateKey() {
     const key = this.chars[this.idx];

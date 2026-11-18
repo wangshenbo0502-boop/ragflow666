@@ -1,13 +1,12 @@
 import { cn } from '@/lib/utils';
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, type FocusEvent } from 'react';
 import { ChunkTextMode } from '../../constant';
 import styles from '../../index.module.less';
-import { IChunk } from '../../interface';
 import { useParserInit } from './hook';
 import { IObjContainerProps } from './interface';
 export const ObjectContainer = (props: IObjContainerProps) => {
   const {
-    initialValue,
+    initialValue: content,
     isChunck,
     onSave,
     className,
@@ -16,27 +15,17 @@ export const ObjectContainer = (props: IObjContainerProps) => {
     isReadonly,
   } = props;
 
-  const {
-    content,
-    // setContent,
-    activeEditIndex,
-    setActiveEditIndex,
-    editDivRef,
-  } = useParserInit({ initialValue });
+  const { activeEditIndex, setActiveEditIndex, editDivRef } = useParserInit();
 
   const handleEdit = useCallback(() => {
-    // setContent((pre) => ({
-    //   ...pre,
-    //   value: escapeNewlines(e.target.innerText),
-    // }));
     setActiveEditIndex(1);
   }, [setActiveEditIndex]);
 
   const handleSave = useCallback(
-    (e: any) => {
+    (e: FocusEvent<HTMLDivElement>) => {
       const saveData = {
         ...content,
-        value: e.target.textContent,
+        value: e.currentTarget.textContent ?? '',
       };
       onSave(saveData);
       setActiveEditIndex(undefined);
@@ -47,7 +36,7 @@ export const ObjectContainer = (props: IObjContainerProps) => {
   useEffect(() => {
     if (activeEditIndex !== undefined && editDivRef.current) {
       editDivRef.current.focus();
-      editDivRef.current.textContent = content.value as string;
+      editDivRef.current.textContent = content.value;
       editDivRef.current.style.whiteSpace = 'pre-wrap';
     }
   }, [activeEditIndex, content, editDivRef]);
@@ -81,13 +70,13 @@ export const ObjectContainer = (props: IObjContainerProps) => {
               },
             )}
             onClick={() => {
-              clickChunk(content as unknown as IChunk);
+              clickChunk({ text: content.value, positions: [] });
               if (!isReadonly) {
                 handleEdit();
               }
             }}
           >
-            {content.value as string}
+            {content.value}
           </div>
         )}
       </section>

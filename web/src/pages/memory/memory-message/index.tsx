@@ -6,14 +6,12 @@ import { MemoryTable } from './message-table';
 export default function MemoryMessage() {
   const {
     searchString,
-    // documents,
     data,
     pagination,
     handleInputChange,
     setPagination,
     filterValue,
     handleFilterSubmit,
-    loading,
   } = useFetchMemoryMessageList();
   const { filters } = useSelectFilters();
   return (
@@ -44,9 +42,6 @@ export default function MemoryMessage() {
         pagination={pagination}
         setPagination={setPagination}
         total={data?.messages?.total_count ?? 0}
-        // rowSelection={rowSelection}
-        // setRowSelection={setRowSelection}
-        // loading={loading}
       ></MemoryTable>
     </div>
   );

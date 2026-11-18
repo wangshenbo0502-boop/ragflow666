@@ -1,19 +1,18 @@
 import { CardContainer } from '@/components/card-container';
-import BackButton from '@/components/back-button';
-import { EmptyCardType } from '@/components/empty/constant';
-import { EmptyAppCard } from '@/components/empty/empty';
 import ListFilterBar from '@/components/list-filter-bar';
+import { RailListState } from '@/components/rail-list-state';
+import { RailPageHeading } from '@/components/rail-page-heading';
 import { PrivilegeManagementDialog } from '@/ee/components/privilege-management/privilege-management-dialog';
 import { RenameDialog } from '@/components/rename-dialog';
 import { RAGFlowPagination } from '@/components/ui/ragflow-pagination';
 import { ListDeletionKey } from '@/constants/list-deletion';
 import { useGoToPreviousPageOnEmpty } from '@/hooks/logic-hooks';
 import { useNavigatePage } from '@/hooks/logic-hooks/navigate-hooks';
-import { Routes } from '@/routes';
 import { useFetchAgentListByPage } from '@/hooks/use-agent-request';
 import { useDeleteCompilationTemplateGroup } from '@/hooks/use-compilation-template-group-request';
 import { AgentListItemType } from '@/interfaces/database/agent';
 import { pick } from 'lodash';
+import { Workflow } from 'lucide-react';
 import { useCallback, useEffect, useState } from 'react';
 import { AgentCard } from './agent-card';
 import {
@@ -51,6 +50,8 @@ export default function Agents() {
   const {
     data,
     loading: listLoading,
+    isError,
+    refetch,
     pagination,
     setPagination,
     searchString,
@@ -189,19 +190,24 @@ export default function Agents() {
           onReport={setBuiltinState}
         />
       )}
-      <article
-        className="rail-agents size-full min-w-0 flex flex-col"
-        data-testid="agents-list"
-      >
-        <header className="mb-8 min-w-0">
-          <BackButton
-            to={Routes.Root}
-            className="mb-5 border-border-default bg-transparent"
+      <article className="rail-page rail-agents" data-testid="agents-list">
+        <div className="rail-page-inner">
+          <RailPageHeading
+            label="自动化 / AUTOMATION"
+            title="智能应用"
+            description="管理工作流、摄取管道与编译算子。"
           >
-            返回工作台
-          </BackButton>
-          <p className="rail-eyebrow mb-5">轨知 / 自动化</p>
+            <AgentCreateMenu
+              actions={createActions}
+              directOnClick={
+                activeType === FlowType.Compiler
+                  ? handleCreateCompilation
+                  : undefined
+              }
+            />
+          </RailPageHeading>
           <ListFilterBar
+            className="rail-list-tools rail-agent-tools"
             searchString={searchString}
             onSearchChange={handleInputChange}
             filters={filters}
@@ -213,83 +219,71 @@ export default function Agents() {
                 onTabChange={handleTabChange}
               />
             }
-          >
-            <AgentCreateMenu
-              actions={createActions}
-              directOnClick={
-                activeType === FlowType.Compiler
-                  ? handleCreateCompilation
-                  : undefined
-              }
+          />
+
+          {isError && (
+            <RailListState
+              error
+              label="无法读取智能应用"
+              detail="请检查服务连接与账号权限。"
+              onRetry={refetch}
             />
-          </ListFilterBar>
-        </header>
+          )}
+          {emptyState === 'content' ? (
+            <>
+              <CardContainer className="rail-agent-list">
+                {data.map((x) =>
+                  x.type === AgentListItemType.CompilationTemplateGroup ? (
+                    <CompilationTemplateCard
+                      key={x.id}
+                      data={x}
+                      onClick={handleEditCompilation(x.id)}
+                      onDelete={handleDeleteCompilation}
+                    />
+                  ) : (
+                    <AgentCard
+                      key={x.id}
+                      data={x}
+                      showAgentRenameModal={showAgentRenameModal}
+                      showPrivilegeModal={handShowPrivilegeModal(x)}
+                    />
+                  ),
+                )}
 
-        {emptyState === 'content' ? (
-          <>
-            <CardContainer className="flex-1 overflow-auto px-5">
-              {data.map((x) =>
-                x.type === AgentListItemType.CompilationTemplateGroup ? (
-                  <CompilationTemplateCard
-                    key={x.id}
-                    data={x}
-                    onClick={handleEditCompilation(x.id)}
-                    onDelete={handleDeleteCompilation}
+                {builtinVisible && (
+                  <BuiltinPipelineSection
+                    canvasCategory={activeCategory}
+                    searchString={debouncedSearchString}
+                    showDivider={data.length > 0}
                   />
-                ) : (
-                  <AgentCard
-                    key={x.id}
-                    data={x}
-                    showAgentRenameModal={showAgentRenameModal}
-                    showPrivilegeModal={handShowPrivilegeModal(x)}
+                )}
+              </CardContainer>
+
+              {data.length > 0 && (
+                <footer className="rail-list-footer">
+                  <RAGFlowPagination
+                    {...pick(pagination, 'current', 'pageSize')}
+                    total={pagination.total}
+                    onChange={handlePageChange}
                   />
-                ),
+                </footer>
               )}
-
-              {builtinVisible && (
-                <BuiltinPipelineSection
-                  canvasCategory={activeCategory}
-                  searchString={debouncedSearchString}
-                  showDivider={data.length > 0}
-                />
-              )}
-            </CardContainer>
-
-            {data.length > 0 && (
-              <footer className="mt-4 px-5 pb-5">
-                <RAGFlowPagination
-                  {...pick(pagination, 'current', 'pageSize')}
-                  total={pagination.total}
-                  onChange={handlePageChange}
-                />
-              </footer>
-            )}
-          </>
-        ) : emptyState === 'search-empty' ? (
-          <div className="flex-1 flex items-center justify-center">
-            <EmptyAppCard
-              showIcon
-              size="large"
-              className="w-[480px] p-14"
-              isSearch
+            </>
+          ) : isError ? null : emptyState === 'loading' ? (
+            <RailListState loading label="正在读取智能应用" />
+          ) : emptyState === 'search-empty' ||
+            Object.values(filterValue ?? {}).some((value) => value?.length) ? (
+            <RailListState
               testId="agents-search-empty"
-              type={EmptyCardType.Agent}
-              onClick={showCreatingModal}
+              icon={Workflow}
+              label="没有找到匹配的应用"
             />
-          </div>
-        ) : emptyState === 'loading' ? null : (
-          <div className="flex-1 flex items-center justify-center">
-            <EmptyAppCard
-              showIcon
-              size="large"
-              className="w-[480px] p-14 !cursor-default"
-              type={EmptyCardType.Agent}
-              tabIndex={-1}
-            >
+          ) : (
+            <RailListState icon={Workflow} label="还没有智能应用">
               <AgentsEmptyStateActions actions={createActions} />
-            </EmptyAppCard>
-          </div>
-        )}
+            </RailListState>
+          )}
+        </div>
       </article>
 
       {agentRenameVisible && (

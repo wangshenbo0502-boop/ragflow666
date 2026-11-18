@@ -1,4 +1,7 @@
-import { NextMessageInput } from '@/components/message-input/next';
+import {
+  NextMessageInput,
+  NextMessageInputOnPressEnterParameter,
+} from '@/components/message-input/next';
 import MessageItem from '@/components/message-item';
 import PdfSheet from '@/components/pdf-drawer';
 import { useClickDrawer } from '@/components/pdf-drawer/hooks';
@@ -15,6 +18,7 @@ import { ChatMediaContext } from '@/components/chat-media-image';
 import { Button } from '@/components/ui/button';
 import { X } from 'lucide-react';
 import { useParams, useSearchParams } from 'react-router';
+import { useTranslation } from 'react-i18next';
 import {
   useGetSendButtonDisabled,
   useSendButtonDisabled,
@@ -26,12 +30,7 @@ import { useShowInternet } from '../use-show-internet';
 import { ComposerDatasetSelect } from './composer-dataset-select';
 import { ComposerModelSelect } from './composer-model-select';
 import { useComposerSettings } from './use-composer-settings';
-import {
-  ChatMediaMode,
-  ChatMediaModes,
-  ChatRoutePolicy,
-} from './chat-media-modes';
-import { ChatTaskCenter } from './chat-task-center';
+import { ChatRoutePolicy } from './chat-route-policy';
 import { useChatTaskRecovery } from '../../hooks/use-chat-task-recovery';
 import { ChatTaskStages, ChatTaskStates } from '../../constant/chat-tasks';
 
@@ -40,7 +39,7 @@ interface IProps {
 }
 
 export function SingleChatBox({ conversation }: IProps) {
-  const [mode, setMode] = useState<ChatMediaMode>('chat');
+  const { t } = useTranslation();
   const [routePolicy, setRoutePolicy] = useState('fixed');
   const [editAsset, setEditAsset] = useState<ChatMediaAsset>();
   const { id: chatId = '' } = useParams();
@@ -61,7 +60,7 @@ export function SingleChatBox({ conversation }: IProps) {
     removeFile,
     hydrateFromServer,
     stopOutputMessage,
-  } = useSendMessage(mode, routePolicy, editAsset?.id);
+  } = useSendMessage(routePolicy, editAsset?.id);
   const { data: userInfo } = useFetchUserInfo();
   const {
     dialog: currentDialog,
@@ -74,12 +73,23 @@ export function SingleChatBox({ conversation }: IProps) {
     setEditAsset(undefined);
   }, [conversationId]);
   const handleEditImage = useCallback((asset: ChatMediaAsset) => {
-    setMode('image');
     setEditAsset(asset);
   }, []);
   const handleClearEdit = useCallback(() => {
     setEditAsset(undefined);
   }, []);
+  const handleSend = useCallback(
+    async (options: NextMessageInputOnPressEnterParameter) => {
+      const sent = await handlePressEnter(options);
+      if (sent && editAsset) {
+        setEditAsset((current) =>
+          current === editAsset ? undefined : current,
+        );
+      }
+      return sent;
+    },
+    [editAsset, handlePressEnter],
+  );
   const handleViewImage = useCallback(
     (asset: ChatMediaAsset) => {
       const index = messages.findIndex((message) =>
@@ -171,22 +181,7 @@ export function SingleChatBox({ conversation }: IProps) {
         </ChatMediaContext.Provider>
       </div>
 
-      <div className="p-5 pt-0">
-        <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
-          <ChatMediaModes
-            mode={mode}
-            onModeChange={setMode}
-            disabled={sendLoading}
-          />
-          <div className="flex items-center gap-2">
-            <ChatRoutePolicy
-              value={routePolicy}
-              onChange={setRoutePolicy}
-              disabled={sendLoading}
-            />
-            <ChatTaskCenter />
-          </div>
-        </div>
+      <div className="rail-message-composer min-w-0 px-3 pb-3 md:px-5 md:pb-5">
         {recovery.active.map((task) => (
           <p
             key={task.id}
@@ -220,14 +215,13 @@ export function SingleChatBox({ conversation }: IProps) {
           </div>
         )}
         <NextMessageInput
-          mediaCommands
           disabled={disabled || saving}
           sendDisabled={sendDisabled || saving}
           sendLoading={sendLoading}
           value={value}
           resize="vertical"
           onInputChange={handleInputChange}
-          onPressEnter={handlePressEnter}
+          onPressEnter={handleSend}
           conversationId={conversationId}
           stopOutputMessage={stopOutputMessage}
           onUpload={handleUploadFile}
@@ -235,21 +229,35 @@ export function SingleChatBox({ conversation }: IProps) {
           removeFile={removeFile}
           showReasoning
           showInternet={showInternet}
-          leadingActions={
-            <ComposerDatasetSelect
-              dialog={currentDialog}
-              saving={saving}
-              disabled={disabled || sendLoading || !canEdit}
-              saveSettings={saveSettings}
-            />
-          }
-          trailingActions={
-            <ComposerModelSelect
-              dialog={currentDialog}
-              saving={saving}
-              disabled={disabled || sendLoading || !canEdit}
-              saveSettings={saveSettings}
-            />
+          advancedActions={
+            <>
+              <div className="grid min-w-0 grid-cols-[auto_minmax(0,1fr)] items-center gap-3 py-3">
+                <span>{t('chat.knowledgeBases')}</span>
+                <ComposerDatasetSelect
+                  dialog={currentDialog}
+                  saving={saving}
+                  disabled={disabled || sendLoading || !canEdit}
+                  saveSettings={saveSettings}
+                />
+              </div>
+              <div className="grid min-w-0 grid-cols-[auto_minmax(0,1fr)] items-center gap-3 py-3">
+                <span>{t('chat.chooseModel')}</span>
+                <ComposerModelSelect
+                  dialog={currentDialog}
+                  saving={saving}
+                  disabled={disabled || sendLoading || !canEdit}
+                  saveSettings={saveSettings}
+                />
+              </div>
+              <div className="flex flex-wrap items-center justify-between gap-2 py-3">
+                <span>模型路由</span>
+                <ChatRoutePolicy
+                  value={routePolicy}
+                  onChange={setRoutePolicy}
+                  disabled={sendLoading}
+                />
+              </div>
+            </>
           }
         />
         {visible && (

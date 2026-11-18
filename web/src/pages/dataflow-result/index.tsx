@@ -145,7 +145,6 @@ const DataflowResult = () => {
           <TimelineDataFlow
             activeFunc={handleStepChange}
             activeId={activeStepId}
-            data={dataset}
             timelineNodes={timelineNodes}
           />
         </div>

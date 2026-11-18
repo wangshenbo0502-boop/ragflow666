@@ -5,6 +5,8 @@ import classNames from 'classnames';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import FormatPreserEditor from './components/parse-editer';
+import { getParserEditorValue } from './components/parse-editer/editor-value';
+import type { ParserEditorValue } from './components/parse-editer/interface';
 import { TimelineNodeType } from './constant';
 import { useChangeChunkTextMode } from './hooks';
 import { IChunk, IDslComponent } from './interface';
@@ -21,38 +23,17 @@ const ParserContainer = (props: IProps) => {
   const [selectedChunkIds, setSelectedChunkIds] = useState<string[]>([]);
   const [newChunkIndex, setNewChunkIndex] = useState<number | undefined>();
   const { textMode } = useChangeChunkTextMode();
-  const initialValue = useMemo(() => {
-    const outputs = data?.value?.obj?.params?.outputs;
-    const key = outputs?.output_format?.value;
-    if (!outputs || !key)
-      return {
-        key: '' as 'text' | 'html' | 'json' | 'chunks',
-        type: '',
-        value: [],
-      };
-    const value = outputs[key as keyof typeof outputs]?.value;
-    const type = outputs[key as keyof typeof outputs]?.type;
-    console.log('outputs-->', outputs, data, key, value);
-    return {
-      key: key as 'text' | 'html' | 'json' | 'chunks',
-      type,
-      value,
-      params: data?.value?.obj?.params,
-    };
-  }, [data]);
+  const params = data?.value?.obj?.params;
+  const initialValue = useMemo(() => getParserEditorValue(params), [params]);
 
   const [initialText, setInitialText] = useState(initialValue);
 
   useEffect(() => {
     setInitialText(initialValue);
   }, [initialValue]);
-  const handleSave = (newContent: any) => {
-    console.log('newContent-change-->', newContent, initialValue);
-    if (JSON.stringify(newContent) !== JSON.stringify(initialValue)) {
-      setInitialText(newContent);
-    }
-    // Here, the API is called to send newContent to the backend
-  };
+  const handleSave = useCallback((newContent: ParserEditorValue) => {
+    setInitialText(newContent);
+  }, []);
 
   const handleCheckboxClick = useCallback(
     (id: string | number, checked: boolean) => {
@@ -119,10 +100,6 @@ const ParserContainer = (props: IProps) => {
               isReadonly={isReadonly}
               isChunck={isChunck}
               textMode={textMode}
-              isDelete={
-                step?.type === TimelineNodeType.tokenChunker ||
-                step?.type === TimelineNodeType.titleChunker
-              }
               clickChunk={clickChunk}
               handleCheckboxClick={handleCheckboxClick}
               selectedChunkIds={selectedChunkIds}

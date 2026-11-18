@@ -22632,6 +22632,18 @@
       "max_output": 128000
     },
     {
+      "name": "openai/gpt-6.2-sol",
+      "alias": [
+        "gpt-6.2-sol"
+      ],
+      "model_types": [
+        "chat",
+        "vision"
+      ],
+      "context_length": 1050000,
+      "max_output": 128000
+    },
+    {
       "name": "openai/gpt-5.6-sol",
       "alias": [
         "gpt-5.6-sol"

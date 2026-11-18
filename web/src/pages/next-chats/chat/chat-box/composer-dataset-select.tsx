@@ -204,13 +204,13 @@ export function ComposerDatasetSelect({
           aria-label={t('chat.knowledgeBases')}
           aria-expanded={open}
           data-testid="chat-composer-datasets"
-          className="min-w-0 max-w-44 shrink gap-1.5"
+          className="h-8 w-full min-w-0 justify-start gap-1 px-1.5"
         >
           <BookOpen className="size-3.5 shrink-0" />
           <TruncatedText as="span" className="min-w-0 truncate" tooltip={label}>
             {label}
           </TruncatedText>
-          <ChevronDown className="size-3.5 shrink-0" />
+          <ChevronDown className="ml-auto size-3.5 shrink-0 max-[380px]:hidden" />
         </Button>
       </PopoverTrigger>
       <PopoverContent

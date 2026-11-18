@@ -1,6 +1,5 @@
 import { Outlet } from 'react-router';
 import { Header } from './components/header';
-import './railmind.css';
 
 export function RootLayoutContainer({ children }: React.PropsWithChildren) {
   return (

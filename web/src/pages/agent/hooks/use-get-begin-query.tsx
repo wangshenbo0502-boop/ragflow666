@@ -12,14 +12,20 @@ import { t } from 'i18next';
 import { flatten, isEmpty, toLower } from 'lodash';
 import get from 'lodash/get';
 import { MessageSquareCode } from 'lucide-react';
-import { ReactNode, useCallback, useContext, useEffect, useMemo, useState } from 'react';
+import {
+  ReactNode,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from 'react';
 import {
   AgentDialogueMode,
   AgentVariableType,
   BeginId,
   BeginQueryType,
   BeginQueryTypeMap,
-  JsonSchemaDataType,
   Operator,
   VariableType,
 } from '../constant';

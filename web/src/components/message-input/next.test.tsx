@@ -42,13 +42,12 @@ jest.mock('react-i18next', () => ({
 }));
 
 const Send = jest.fn();
-function Composer({ initial = '@' }: { initial?: string }) {
+function Composer({ initial }: { initial: string }) {
   const [value, setValue] = useState(initial);
   const handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>) =>
     setValue(event.target.value);
   return (
     <NextMessageInput
-      mediaCommands
       value={value}
       onInputChange={handleChange}
       disabled={false}
@@ -63,36 +62,28 @@ function Composer({ initial = '@' }: { initial?: string }) {
 
 beforeEach(() => jest.clearAllMocks());
 
-it('selects a tool with arrows and Enter without sending', async () => {
-  render(<Composer />);
-  const input = screen.getByTestId('chat-textarea');
-  expect(screen.getAllByRole('option')).toHaveLength(2);
-  fireEvent.keyDown(input, { key: 'ArrowDown' });
-  await act(async () => fireEvent.keyDown(input, { key: 'Enter' }));
-  expect(input).toHaveValue('@生图 ');
-  expect(Send).not.toHaveBeenCalled();
-  fireEvent.change(input, { target: { value: '@生图 一列高铁' } });
-  await act(async () => fireEvent.keyDown(input, { key: 'Enter' }));
-  expect(Send).toHaveBeenCalledTimes(1);
+it.each(['帮我生成一张高铁海报', '请用语音回复'])(
+  'sends %s directly',
+  async (initial) => {
+    render(<Composer initial={initial} />);
+    const input = screen.getByTestId('chat-textarea');
+    expect(input).toHaveValue(initial);
+    await act(async () => fireEvent.keyDown(input, { key: 'Enter' }));
+    expect(Send).toHaveBeenCalledTimes(1);
+  },
+);
+
+it('does not offer media commands when typing @', () => {
+  render(<Composer initial="@" />);
+  expect(screen.queryByRole('listbox')).not.toBeInTheDocument();
 });
 
-it('filters and selects speech by click', () => {
-  render(<Composer initial="@语" />);
-  fireEvent.click(screen.getByRole('option', { name: '@语音' }));
-  expect(screen.getByTestId('chat-textarea')).toHaveValue('@语音 ');
-  expect(Send).not.toHaveBeenCalled();
-});
-
-it('does not intercept IME confirmation or ordinary mentions', () => {
-  const { unmount } = render(<Composer />);
+it('does not send while confirming Chinese text with an IME', () => {
+  render(<Composer initial="帮我生成一张" />);
   fireEvent.keyDown(screen.getByTestId('chat-textarea'), {
     key: 'Enter',
     keyCode: 229,
     isComposing: true,
   });
   expect(Send).not.toHaveBeenCalled();
-  expect(screen.getAllByRole('option')).toHaveLength(2);
-  unmount();
-  render(<Composer initial="解释 @生图" />);
-  expect(screen.queryByRole('listbox')).not.toBeInTheDocument();
 });

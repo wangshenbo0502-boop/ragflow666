@@ -15,21 +15,13 @@ const FormatPreserveEditor = ({
   isReadonly,
   newChunkIndex,
 }: FormatPreserveEditorProps) => {
-  console.log('initialValue', initialValue);
-
-  const escapeNewlines = (text: string) => {
-    return text.replace(/\n/g, '\\n');
-  };
-  const unescapeNewlines = (text: string) => {
-    return text.replace(/\\n/g, '\n');
-  };
   const handleCheck = (e: CheckedState, id: string | number) => {
     handleCheckboxClick?.(id, e === 'indeterminate' ? false : e);
   };
 
   return (
     <div className="editor-container">
-      {['json', 'chunks'].includes(initialValue.key) && (
+      {'fieldName' in initialValue ? (
         <ArrayContainer
           isReadonly={isReadonly}
           className={className}
@@ -37,25 +29,17 @@ const FormatPreserveEditor = ({
           handleCheck={handleCheck}
           selectedChunkIds={selectedChunkIds}
           onSave={onSave}
-          escapeNewlines={escapeNewlines}
-          unescapeNewlines={unescapeNewlines}
           textMode={textMode}
           isChunck={isChunck}
           clickChunk={clickChunk}
           newChunkIndex={newChunkIndex}
         />
-      )}
-
-      {['text', 'html', 'markdown'].includes(initialValue.key) && (
+      ) : (
         <ObjectContainer
           isReadonly={isReadonly}
           className={className}
           initialValue={initialValue}
-          handleCheck={handleCheck}
-          selectedChunkIds={selectedChunkIds}
           onSave={onSave}
-          escapeNewlines={escapeNewlines}
-          unescapeNewlines={unescapeNewlines}
           textMode={textMode}
           isChunck={isChunck}
           clickChunk={clickChunk}
