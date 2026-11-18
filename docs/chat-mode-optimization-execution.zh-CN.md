@@ -431,3 +431,19 @@ R10、R18已有对应退出条件证据；R20关键用户路径已有新证据�
 - 用户另行授权提交到本地 main 并清理无用构建缓存。提交范围限于 V1.2 指导书、V1.1 存档、交付说明、执行台账和 E83 已有测试改动；私有配置、`.run` 资料及其他项目未提交改动不纳入。原 main 是工作分支祖先，落后1152个已有提交，采用保留旧 main 备份后快进的方式承接现有实现，不改写提交历史；本次不推送远程。
 - `docker builder prune --all --force` 后 Build Cache 为0（原16.86GB包含镜像共享层，不能等同实际独占回收空间）。确认 builder 无活动编译、缓存位于容器内部且非工作区挂载后，通过 `GOCACHE=/home/alice/.cache/go-build go clean -cache` 清理约27GiB可再生缓存。容器可写层合计从33.52GB降为4.917GB，builder从30.2GB降为1.58GB；后续首次编译需重建缓存。
 - 未删除容器、镜像、卷、模型、原生依赖、备份或 unknown 记录。正式容器仍为E84同一ID，StartedAt为UTC11:27:00，RestartCount为0；API健康检查数据库、缓存、检索、存储和消息队列均为ok。本次无业务源码变更或模型调用，复用E83编译和E86浏览器证据，不重复构建及付费验收。Docker内部空间已释放，不等同Windows虚拟磁盘文件已离线压缩。
+
+## E88：附件、视觉路由及媒体指令修复上线
+
+2026-11-17，北京时间23:09核对。用户反馈正常文件/图片问答及`@语音`、`@生图`故障；E86当时结论不能覆盖本批故障。遵循V1.2，不新增付费或费用未知的模型请求。
+
+- **首次失败条件**：正式语音任务`9bdbfd4d5f77432781dbec1c9804e178`终态failed/planning、calls=0、attempts为空、upstream=not_started。冻结历史含两张已上传图片，选定模型已配置chat|vision；factory输出`vision`，路由兼容检查却只认`image2text`，在驱动调用前拒绝该模型。`chat_route.go`改用统一模型能力解析，固定及自动候选均支持两种标签，纯文本候选仍被拒绝。此根因仅解释本例，不替代E66资源配置不一致结论，也不证明供应商实际视觉能力。
+- **普通使用修复**：`chat_session.go`保留数据库历史但不将无回答失败轮次带入新请求，明确`@`指令优先于残留模式；`chat_media.go`统一媒体指令解析。`chat_attachment.go`以真实解析结果标记附件，删除调用方伪造标记；`chat_pipeline.go`有附件时不再被铁路知识库空结果固定答复吞掉，并保留知识证据边界。视觉配置报错不再声称模型本体只支持文字。前端`run-stream.ts`和发送hook保留并展示失败详情。7个用户声明有视觉的现有wanzhao模型登记为chat|vision；DeepSeek未改，未新增供应商。
+- **验证**：经`build.sh`执行service/file定向单测通过；视觉真实factory候选及回调回归通过（`.run/chat-repair-unit-20261117.log`、`.run/chat-repair-final-unit-20261117.log`、`.run/chat-route-vision-final-20261117.log`）。integration标签`TestChatAttachmentSavedTaskPreflight`使用真实MySQL只读事务和MinIO读取原失败任务两张图，完成路由、附件解析和模型消息准备，0模型请求，PASS（`.run/chat-attachment-preflight-real-20261117.log`）。前端3套22项测试、涉及文件格式/lint及生产构建通过；不声称全仓类型检查通过。
+- **正式部署及启动异常**：`build.sh --go`产物四模式help检查通过，LLD20.1.8已核对。最初覆盖旧单文件挂载源后，正式启动迁移进程segfault；恢复旧文件仍失败，按原配置重建仍失败，新旧程序独立路径help均正常。最终将既有私有启动override中的程序挂载改为独立新路径`.run/ragflow_server-attachment-repair-20261117`后重建正式app，启动恢复。现象指向旧路径挂载/文件状态问题，未取得底层原因的独立证明，不归因为数据库或供应商故障。重建前对比现有compose与inspect：环境值无差异，镜像/入口/命令/挂载目标/网络/端口一致。仅重建正式app，不动其他服务和数据；无全库回退。
+- **运行证据**：正式容器`ca958e25319d62ed6fa647f9c24d6f491cb91a45349c54301a01d5a0d47c6b3b`，API/ingestor/admin/syncer程序SHA256均为`22d352f5bdefc3600215d6f8990655de28e3e85bb2a00594b4324917217704cf`；Worker创建环境开关true、有效心跳1，能力接口可用。新前端972文件与构建产物逐字节一致，最后检查running/RestartCount=0，活动聊天/资源租约/unknown均0。见`.run/chat-production-deployed-attachment-repair-20261117.json`、`.run/chat-attachment-repair-final-20261117.json`。
+- **真实重排**：从当前正式容器请求8082得到3项有效排序，北京答案首位；再经系统启用重排的真实知识检索返回5片段，重排服务日志新增16次候选推理。`.run/reranker-current-real-20261117.json`时间UTC15:06:24；未关闭重排或静默降级。
+- **真实浏览器**：原E50/E58演示dialog当前status=0，任务读取正确返回404；不恢复或绕过权限。改用有效会话`2941e6b2458d48258ea2a27a18990ea1/f9bc5eab850147879ed7e14bef35d896`已有真实语音`1a95cb0221e14667a2f943f23b746010`及图片`7df62b9af19b4174aafd369eea100de0`。1440和390宽度均刷新、播放/暂停、音频/原图下载哈希一致、任务中心读取通过，无页面异常/溢出；PNG2048×2048。`.run/chat-media-repair-browser.json`时间UTC15:08:48，资源来源`.run/chat-media-repair-current-state.json`。没有用历史成果冒充新生成。
+
+**验收边界**：修复源码、正式部署、真实附件只读预检、重排及现有媒体浏览器检查通过；本轮新识图回答、文档回答及新语音/图片生成尚未真实调用复验，不能宣布用户反馈全部闭环。当前附件保护为每次10份、单份32MiB、合计64MiB、图片2400万像素、解析文本合计256000字符、解析45秒；音视频附件和无法解析的二进制仍明确拒绝。不得把视觉能力解释成任意文件格式支持，亦不为“无限制”删除权限、预算、大小及unknown重复生成保护。原高级延期项保持原状态。
+
+恢复资料`.run/chat-attachment-repair-backup-20261117/`保留旧程序和页面；新启动挂载已写入现有私有override。成本：本批新增模型生成请求0；真实本机重排及已有资源读取已执行，无新增购买，不估算未知账单。

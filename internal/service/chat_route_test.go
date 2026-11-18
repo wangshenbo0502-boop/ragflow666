@@ -45,6 +45,57 @@ func TestChatRouteCommunityTenantScope(t *testing.T) {
 	}
 }
 
+func TestChatRouteEnrolledVisionModelReachesCall(t *testing.T) {
+	db := setupModelProviderServiceTestDB(t)
+	useModelProviderServiceTestDB(t, db)
+	seedModelProviderServiceScope(t, db)
+	if err := db.AutoMigrate(&entity.ChatModelHealth{}); err != nil {
+		t.Fatal(err)
+	}
+	if err := db.Model(&entity.TenantModel{}).Where("id = ?", "model-1").
+		Update("model_type", int(entity.ModelTypeChat|entity.ModelTypeImage2Text)).Error; err != nil {
+		t.Fatal(err)
+	}
+	ctx := serviceTestContext(t, "user-1", "user-1")
+	preferred, err := NewModelFactory().NewChatModel(ctx, "model-1")
+	if err != nil {
+		t.Fatal(err)
+	}
+	t.Setenv("RAGFLOW_CHAT_ROUTE_CONFIG", "")
+	chat := &entity.Chat{TenantID: "user-1", LLMID: "model-1"}
+	_, selected, err := (&ChatPipelineService{}).prepareChatRoute(ctx, chat, []map[string]interface{}{
+		{"role": "user", "content": "describe", "files": []map[string]interface{}{{"mime_type": "image/png"}}},
+	}, map[string]interface{}{"route_policy": "auto"})
+	if err != nil || selected != chat {
+		t.Fatalf("automatic route rejected its selected vision model: %v", err)
+	}
+	config, err := LoadChatTaskConfig()
+	if err != nil {
+		t.Fatal(err)
+	}
+	route := &chatRouteState{config: config, deadline: time.Now().Add(time.Minute), policy: "fixed", vision: true}
+	calls := 0
+	if err := route.invoke(ctx, preferred, func(_ context.Context, model *models.ChatModel) error {
+		calls++
+		if model.Info().ID != "model-1" {
+			t.Fatal("fixed route changed the selected vision model")
+		}
+		return nil
+	}); err != nil || calls != 1 {
+		t.Fatalf("enrolled vision model rejected before call: calls=%d err=%v", calls, err)
+	}
+	for _, modelTypes := range [][]string{{"chat", "vision"}, {"chat", "image2text"}} {
+		info := &models.ModelInfo{ModelTypes: modelTypes}
+		if !chatRouteCompatible(info, info, true) {
+			t.Fatalf("vision capability rejected: %v", modelTypes)
+		}
+	}
+	text := &models.ModelInfo{ModelTypes: []string{"chat"}}
+	if chatRouteCompatible(text, text, true) {
+		t.Fatal("text-only model accepted for image input")
+	}
+}
+
 func TestChatRoutePoliciesAndSharedBudget(t *testing.T) {
 	db := setupModelProviderServiceTestDB(t)
 	useModelProviderServiceTestDB(t, db)

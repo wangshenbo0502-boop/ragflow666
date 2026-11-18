@@ -87,6 +87,7 @@ func chatTaskError(err error) (string, string) {
 		"context_budget_exceeded":     "当前问题和附件超过模型上下文，请减少附件或选择更大上下文的模型",
 		"budget_exceeded":             "无法在当前费用预算内执行，请核对模型价格和预算",
 		"unsupported_capability":      "没有符合要求的模型能力",
+		"vision_model_required":       "当前模型配置未启用图片理解，请核对模型的视觉能力配置；这不代表模型本身不支持识图",
 		"route_no_eligible_candidate": "当前没有可执行的模型候选，请稍后重试",
 		"provider_identity_changed":   "提交后模型服务身份已变化，请重新提交任务",
 		"forbidden":                   "执行权限已失效",

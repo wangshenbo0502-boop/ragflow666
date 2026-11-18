@@ -1,0 +1,65 @@
+{
+  "create_date": "2026-10-14T08:23:20+08:00",
+  "create_time": 1791937400911,
+  "dataset_ids": [
+    "dac0aeb13d4d4e4f967a689c4c55af69",
+    "8f7cbc152fc64d7b8d39da97028e5abe",
+    "6b3ebc8cdb424cc4b489f80a4bf8718c",
+    "0fb4da10e6ad4dd0bc7071b4407fe038",
+    "6276358588ab4dbb8c17baf7600b95c4"
+  ],
+  "decision_id": null,
+  "description": "A helpful Assistant",
+  "do_refer": "1",
+  "icon": "",
+  "id": "afa46b4fc3af497f9effbaad9f72154a",
+  "kb_names": [
+    "铁路资料优化试验-GW-工务与基础设施",
+    "铁路资料优化试验-XH-通信信号与列车控制",
+    "铁路资料优化试验-GD-牵引供电与电气设备",
+    "铁路资料优化试验-CL-机车车辆与运用检修",
+    "铁路资料优化试验-YS-运输组织与安全管理"
+  ],
+  "keywords_similarity_weight": 0.7,
+  "language": "Chinese",
+  "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+  "llm_setting": {
+    "temperature": 0.2
+  },
+  "meta_data_filter": {},
+  "name": "轨知 · 安全规章",
+  "prompt_config": {
+    "domain": "railway",
+    "empty_response": "当前知识库没有足够依据回答这个问题。请补充适用文献或问题背景。",
+    "parameters": [
+      {
+        "key": "knowledge",
+        "optional": false
+      }
+    ],
+    "prologue": "你好，我是轨知。请描述你的铁路问题；我会结合资料给出依据，并说明需要核实的信息。",
+    "quote": true,
+    "railway_scene": "safety",
+    "reasoning": false,
+    "reference_metadata": {
+      "fields": [],
+      "include": false
+    },
+    "refine_multiturn": true,
+    "system": "你是铁路知识学习助手。只根据本次检索到且适用的文献回答，保留必要的主体、条件、例外、数值和单位。对关键结论使用系统真实提供的引用标识，让用户能定位原文，不编造文献、条号、链接或引用ID。资料之间存在版本或适用范围差异时明确说明，不能自行裁定现行效力。\n\n如果证据不足，直接说明“当前知识库没有足够依据回答这个问题”，简短指出缺少什么资料，然后结束。不要用常识猜测数值、资格、认证结果或操作步骤，不在拒答后附加无来源的建议。原文留白不等于零或无限制。对只覆盖部分内容的文献，只回答已覆盖部分，不声称全文或当前全部规定均已核实。\n\n检索资料：\n{knowledge}",
+    "tts": false
+  },
+  "prompt_type": "simple",
+  "rerank_candidates_count": 64,
+  "rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+  "similarity_threshold": 0.2,
+  "status": "1",
+  "tenant_decision_id": null,
+  "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+  "tenant_llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+  "tenant_rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+  "top_k": 1024,
+  "top_n": 8,
+  "update_date": "2026-11-18T00:15:23+08:00",
+  "update_time": 1794932123704
+}

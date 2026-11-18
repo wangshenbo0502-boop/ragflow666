@@ -1,0 +1,1044 @@
+{
+  "reviewed_at": "2026-11-17T12:01:16.157Z",
+  "scope": "Local formal-answer/citation boundary audit for the two already-imported XH documents; not final 70-question regression or independent holdout.",
+  "input_sha256": "f47f667c13dd322476666fad90ba022fb93732161a8843061ec7c0bf16a9d24f",
+  "audit_search_id": "cd61c7fa244c4fdfb5ffa95e8174fd3e",
+  "document_bindings": [
+    {
+      "doc_id": "DOC0026",
+      "dataset_id": "09f44dca26524a8790913faca5b8265e",
+      "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+      "master_sha256": "75476103b646acef6139e8f2ca025ba1f402a85c123328ecdca3cdc15bdf7022",
+      "quality_path": "05-review/DOC0026-formal-quality-2026-11-17.json",
+      "quality_sha256": "c60cd988d783a473f9231967e20b5aaeb89fca3270be255df017ff0a93a58f1b",
+      "actual_path": "04-chunks/actual/DOC0026-successor-formal.json",
+      "actual_sha256": "2cc1080e854ab1e06c82e06e9e6b65ca0b510f0ebded3690ddab9da279d3e317",
+      "expected_path": "04-chunks/expected/DOC0026-successor-v3.json",
+      "expected_sha256": "1f0751a442be89cd1ec901d37ee8b940c4901b2cb1d442a70dd7eef58fd29fa2"
+    },
+    {
+      "doc_id": "DOC0027",
+      "dataset_id": "09f44dca26524a8790913faca5b8265e",
+      "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+      "master_sha256": "e1079ba502a1c8231ebd9c8f6439d97e2b938dd394f533c2d96354f64ef4650f",
+      "quality_path": "05-review/DOC0027-formal-quality-2026-11-17.json",
+      "quality_sha256": "98a0b7a781a8491cd3c0373d4bf73bc93ce24172af1360900838659b87607fff",
+      "actual_path": "04-chunks/actual/DOC0027-successor-formal.json",
+      "actual_sha256": "6c3ae4408f592282e3117e358dcc9cbb23439a088a372116786fe5f4a24a0474",
+      "expected_path": "04-chunks/expected/DOC0027-successor-v3.json",
+      "expected_sha256": "ed8a9240c065db7cfd20562ca9a94764166c33ea0c6e0bcfd7468767aa995a7d"
+    }
+  ],
+  "rerank_enabled": true,
+  "parameters": {
+    "top_k": 128,
+    "rerank_candidates_count": 64,
+    "rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+    "use_rerank": true,
+    "use_kg": false,
+    "keyword": false,
+    "similarity_threshold": 0.1,
+    "keywords_similarity_weight": 0.5,
+    "temperature": 0.1
+  },
+  "counts": {
+    "questions": 10,
+    "generated": 10,
+    "answerable": 8,
+    "no_evidence": 2,
+    "all_references_are_accepted_formal_chunks": true,
+    "semantic_acceptance": false,
+    "final_regression": false,
+    "independent_holdout": false
+  },
+  "outcomes": [
+    {
+      "test_id": "XH26-D01",
+      "question": "铁路信号设备生产企业申请许可证应提交哪些材料？",
+      "answerable_from_library": true,
+      "answer_sha256": "ac18cfa3d3741f155d3b3fd0a42d15255b89ce8cd6c458d2eccb4766722f5005",
+      "answer": "根据《铁路信号设备生产企业审批实施细则》（国铁设备监规〔2026〕5号）第五条，申请企业应当提交下列材料：\n\n1. **行政许可申请书**（附件5），一式两份，装订一份；\n2. **企业法人营业执照副本复印件**，一式两份，装订一份；\n3. **铁路信号设备生产企业审查表**（附件6）；\n4. **专业生产设备明细表**（附件7）；\n5. **专业技术人员明细表**（附件8）；\n6. **证明产品质量保证体系有效运转、产品运用质量符合安全要求、产品质量符合标准要求的相关材料**；\n   - 申请企业有关生产过程可以委托其他企业完成（可外委的生产过程见附件2），外委企业应当具备相应的生产条件和能力；\n   - 申请信号软件和系统集成生产许可证的企业，还应提交其硬件生产企业名录材料；\n7. **安全管理制度目录、拟生产的产品目录、设计图纸目录、工艺文件目录，所依据的国家标准、行业标准、企业标准目录**；\n8. **新研发产品试用考核材料**；\n9. **新研发产品技术评审（鉴定）证书或者审查意见**；\n10. **企业简介**（含企业资产、股份构成及比例、资质情况、生产经营基本状况、产品主要运用业绩等内容）。\n\n此外，材料提交还需注意：\n- 材料应为 **A4纸规格**，按第五条、第六条规定的顺序统一标注页码，**无线胶订成册，加盖骑缝章，并附电子版**；相关说明材料应当加盖企业公章（第七条）。\n- 申请**延续许可**或因生产条件发生较大变化**重新申请许可**的企业，应提交第五条除第（八）、（九）项外的材料，并提供近5年产品主要运用情况（含因产品质量造成责任事故的整改情况）、许可条件变化情况（含人员、设备等变化内容并明确说明是否持续满足许可条件）（第六条）。",
+      "raw_sse_path": "05-review/xh-formal-answer-audit/answers/XH26-D01.sse",
+      "raw_sse_sha256": "6c7753781025a449352dda0cb60dda2489302d660b653e89b12febc4c29ad3aa",
+      "reference_sha256": "a725a790458256d1667d1ddb3971fa946189263d4dfd9cba40315c4e1c28bdb0",
+      "context_checks": [
+        {
+          "chunk_id": "5bef5fe05ecba75a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "33358e0d2d31664aa9b6e91d07220adf9503ed603b0e7519acf4cc6c55330bba",
+          "matched_expected_points": [
+            "DOC0026-K005"
+          ]
+        },
+        {
+          "chunk_id": "f5594fc2a4e00758",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d2657d78cb99024486ed7f394b4b85bec06fd638f173bce05644898da5514e09",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "fb94149874d39f52",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "1e776a14aef6122d7bfd28e2c9fdd58819a7cafee20c54f45690714af0a13fd8",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "199e409dbc734e97",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "b6fb7b0487c62e428c7f3ba55464ffca2722d04489f836a9d9700fcb6319ca82",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "88a9744a80edf75f",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d60affbf580d33c2c3df4f6631d822a94f180fdf03e95085891c2b7098c73ddb",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "5a6153b38f951aca",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "c53a6dd8ef512138f867e4029fd0cec90890983992dd30d0d12286525b42c221",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "9d166ba681b2534b",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "2a0e6d2b2fa5d46c2bee808d0ab753403716813d93a68bc89bdce1b109f5c830",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "7e4657ff877a550c",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "db2dd63ff2b6e5c98d9f19c0192f251101c86533477f95dca2d777cf09863f60",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "eedcbd0711aeb66a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "405f56cbe1720ffe293f2189279c82cbc658f57e1b15520e61389ee2b9739540",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "8736af01647cff8b",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "86069884295feb22e1486970a33bed8de882b4d9ffd1658a08bfad3cb00bf8c9",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "36912780b3cd9af3",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "f8c4cc189f55d2eb27beabce22863fab2a0861fc60fc36f0813205ad1d09624a",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "b6a4504e066fab0f",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "081c3d421120fc376712c8c28cd6e37b9faffd497ded28a4fe373d0029393114",
+          "matched_expected_points": []
+        }
+      ],
+      "semantic_decision": "PENDING_MANUAL_FULL_ANSWER_REVIEW"
+    },
+    {
+      "test_id": "XH26-D02",
+      "question": "铁路信号设备生产企业哪些生产条件发生变化需要重新申请许可？",
+      "answerable_from_library": true,
+      "answer_sha256": "e2ab4fc444e9d4895ec38cf95e381063a7fdaaf1a79fafe63624e4d93bf7d36b",
+      "answer": "根据《铁路信号设备生产企业审批实施细则》（国铁设备监规〔2026〕5号，2026-04-01施行）第十六条，被许可企业生产条件发生**较大变化**的，应当向国家铁路局**重新申请许可**，具体包括：\n\n- 生产地址变化；\n- 生产线重大技术改造；\n- 外委加工企业变更等。\n\n此外，该细则第六条还规定：因生产条件发生较大变化重新申请许可的企业，应当提交第五条除（八）、（九）外的材料，并提供：\n- 近5年产品主要运用情况（含因产品质量造成责任事故的整改情况）；\n- 许可条件变化情况（含人员、设备等变化内容，并明确说明是否持续满足许可条件）。\n\n> 说明：以上内容来自铁路信号设备生产企业审批实施细则；铁路通信设备生产企业审批实施细则中有相同条款，但如您问的是通信设备，请另行确认。",
+      "raw_sse_path": "05-review/xh-formal-answer-audit/answers/XH26-D02.sse",
+      "raw_sse_sha256": "c3e252438b73be092f7f3937afdefbffa725a5c180684bb91ac383d19429ec01",
+      "reference_sha256": "8119cb127b1bbe6e546cd1705abbb535b5a95410d9a6f188144d26d7b6770cd7",
+      "context_checks": [
+        {
+          "chunk_id": "eedcbd0711aeb66a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "405f56cbe1720ffe293f2189279c82cbc658f57e1b15520e61389ee2b9739540",
+          "matched_expected_points": [
+            "DOC0026-K016"
+          ]
+        },
+        {
+          "chunk_id": "2770f3bf48a3e602",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "e1bfbe259607bb6fcf9474dbf8ee99dec08609930cd4d12dd64e5338fb6f1365",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "fb94149874d39f52",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "1e776a14aef6122d7bfd28e2c9fdd58819a7cafee20c54f45690714af0a13fd8",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "589eca7f33a6c906",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "dfaf6211139c969a74124e4ae6ab24eef6d9820a9b5c41b028caf1f0d4542f10",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "1f1ae28647857bdf",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "22fae39ffe52dd52cbaf1234d534d8d1a29ecefdbf3abad82cf305012a7b3b85",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "41120d6fd0d46361",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "63976b503f31dfbc06a10f265f404006bb0341a9a7242758994086337d369c5c",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "5bef5fe05ecba75a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "33358e0d2d31664aa9b6e91d07220adf9503ed603b0e7519acf4cc6c55330bba",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "88a9744a80edf75f",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d60affbf580d33c2c3df4f6631d822a94f180fdf03e95085891c2b7098c73ddb",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "c45f3b2b260c96f0",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "e85249ca9a992eba067dcfe8d0c93d2478b6a910e66007cd1803827659f2e611",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "dc7be6a8ea41a9db",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "dc942997d02ffbb15d2817eab6b5b9c0c2fffee3ad49f676830435cf47ef8376",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "b1d7b42a50212493",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "37c288e770621dfaf96e42e645fb87751b8362d85568e72b13aa1bab96184df8",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "f5594fc2a4e00758",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d2657d78cb99024486ed7f394b4b85bec06fd638f173bce05644898da5514e09",
+          "matched_expected_points": []
+        }
+      ],
+      "semantic_decision": "PENDING_MANUAL_FULL_ANSWER_REVIEW"
+    },
+    {
+      "test_id": "XH26-D03",
+      "question": "内径百分表的设备要求和数值是多少？",
+      "answerable_from_library": true,
+      "answer_sha256": "c1c4aadeae63e05c59ebd41c6ca73152d2009f4de26b125892eaaed9f655c9f0",
+      "answer": "根据知识库中《铁路信号设备生产企业审批实施细则》（国铁设备监规〔2026〕5号，2026-04-01施行）附件2“专业生产设备要求”表（S0034-T03）的记载：\n\n- **所属分组**：八、道岔外锁闭装置\n- **工艺类别**：检验过程\n- **设备名称**：内径百分表（序号13，数据原行167）\n- **设备要求**：原表空白\n- **备注**：原表空白\n\n即：该表中“内径百分表”对应的“设备要求”栏和“备注”栏均为空白，知识库中**没有记载具体的设备要求内容或数值**。按照整理说明，空白不推定为零或不适用，因此无法给出具体数值。\n\n如果您想了解的是同类检验器具，表中另列有“三爪内径尺”（序号11，检验过程），其设备要求栏同样为空白。",
+      "raw_sse_path": "05-review/xh-formal-answer-audit/answers/XH26-D03.sse",
+      "raw_sse_sha256": "4d3ac619b7750bdc71a045a5706433663e619fe85d51659bee8ac5bb9d35b58d",
+      "reference_sha256": "79cf1d7cbdd7a1a0a4a3b8a8aacc9ea5efac6cfbdae4763fb65d2b5971fd4399",
+      "context_checks": [
+        {
+          "chunk_id": "7a19a6cef094579b",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "e708f48b8173068ba3c39af0ab6bf488f2cde82cb90484e151abd54ce3b1b81a",
+          "matched_expected_points": [
+            "DOC0026-S0034-T03-G167-167"
+          ]
+        },
+        {
+          "chunk_id": "4d419522197c9d4a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "cc34cd03594d6afa12f473710283a66bcae0f4ec1a5348cdc9292f1551b6e53a",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "6eba7b9e1ab5fe61",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "b21ca7b56547ba6c5061c21eb755f6b38e3dde32c19f66ed77335fda2e5b229d",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "b402a31dedfe561b",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "f9b236d870595897b5c4cd0194f4984188b3df4bcc019c35c84633bf5b1fec01",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "44d904cfe1742d8f",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "0b89e39e92eefbedd867fd9124f7657311802261a5112de5c69163af463e8449",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "42e44950bc17c73c",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "54d9bdb8c9e9df80452e08a014b2083d2b2eaf8b68308ee23b8a3b1f044863d9",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "65b6fba1b8264d99",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "8f2511ec4a7c5063d9de5c8b6a99c34432a7a25a57b97cf27afcea970ca4ca05",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "3e6d8f1c3ac16d0c",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "19034030d7bfa6bf7028ff23ffb09faa97b29b72b6662ddc3f94f1be9aaacb16",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "4a0afab02a9f7b6c",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "0d14cc99a8536796d7a90f09ff12485be3dbe209073073f97e0cc392a2ae1c63",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "04f1115d9e469f13",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "c2b89309e90f78a08fc10c4416f8d3fa149ef431c8a2dc6ab832953605c6e03e",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "32ba55581c2bf86d",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "79624d730457a84182f24df1c8a9817dddc22db793f178942219ef53697d7944",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "922e9a12583087a3",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "af46d0e7bf69eba19437d7615b6f0a57db1666977cf07d581c7cd6a12a9c6aa4",
+          "matched_expected_points": []
+        }
+      ],
+      "semantic_decision": "PENDING_MANUAL_FULL_ANSWER_REVIEW"
+    },
+    {
+      "test_id": "XH27-D01",
+      "question": "铁路通信设备生产企业申请许可必须符合哪些条件？",
+      "answerable_from_library": true,
+      "answer_sha256": "b28fea57a94e934c9dd9ce73198fd23fe4c82a85a342cb0673b5640cfd699efb",
+      "answer": "根据《铁路通信设备生产企业审批实施细则》（国铁设备监规〔2026〕6号，2026-04-01施行）第四条规定，申请企业应当符合下列条件：\n\n1. **专业生产设备**：有按照国家标准、行业标准检测、检验合格的专业生产设备（具体要求详见附件2）；\n2. **专业技术人员**：有相应的专业技术人员（具体要求详见附件3）；\n3. **质量保证体系与安全管理制度**：有完善的产品质量保证体系和安全管理制度（具体要求详见附件4）；\n4. **其他法定条件**：法律、行政法规规定的其他条件。\n\n> 说明：以上内容来自铁路通信设备生产企业审批实施细则（DOC0027）。知识库中另有《铁路信号设备生产企业审批实施细则》（DOC0026），其第四条条件表述与上述内容一致，但适用对象为铁路信号设备生产企业，请注意区分。",
+      "raw_sse_path": "05-review/xh-formal-answer-audit/answers/XH27-D01.sse",
+      "raw_sse_sha256": "a4d52bf8af6737b700840955ec9ac5044b8913c74c59221a908991518f2d48f9",
+      "reference_sha256": "88b1efc0f557e6f770b3db34f52846749531b1ed0618606b28dacb9f401b6bbe",
+      "context_checks": [
+        {
+          "chunk_id": "ac8fb4e764853b21",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5e72450c927ef1c34f705aa1650f8e9131ad30d854252fa8d1a74ea5d5929c19",
+          "matched_expected_points": [
+            "DOC0027-K004"
+          ]
+        },
+        {
+          "chunk_id": "eeebdcbad9365623",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5bd96b2d9c9b08a2d7a2a4c8f52fd90f4acb997fe18dc89d9ab69b95948de6d4",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "589eca7f33a6c906",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "dfaf6211139c969a74124e4ae6ab24eef6d9820a9b5c41b028caf1f0d4542f10",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "88a9744a80edf75f",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d60affbf580d33c2c3df4f6631d822a94f180fdf03e95085891c2b7098c73ddb",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "5bef5fe05ecba75a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "33358e0d2d31664aa9b6e91d07220adf9503ed603b0e7519acf4cc6c55330bba",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "1441cb6b77e6283a",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "93322cdd126e8652be90906fbbf29ccea45c99fe7bc78e410a686e8ef4ed3d2c",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "a3682f9660c72eeb",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "8f7f2773f369bbcc0c04589c4a8b19a164d029ccd719f7893883aa340b764525",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "ce3db2967e09f2f2",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "7a54bcd1564f8f74e771a2c2d5bbeb1892eccf412a7c7d95de437f5c6becb2b2",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "3f88855f15a358f2",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "8fa2e74c4e6b97321cfcd0ffc92cbcc29aa6829960d56f2104d3396d852b4dba",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "397aa1e7c072987b",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "cdaba72b9f4da773e18f7bec8f29c0b543a7eea8252ab274f151466108db7c69",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "2770f3bf48a3e602",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "e1bfbe259607bb6fcf9474dbf8ee99dec08609930cd4d12dd64e5338fb6f1365",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "8736af01647cff8b",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "86069884295feb22e1486970a33bed8de882b4d9ffd1658a08bfad3cb00bf8c9",
+          "matched_expected_points": []
+        }
+      ],
+      "semantic_decision": "PENDING_MANUAL_FULL_ANSWER_REVIEW"
+    },
+    {
+      "test_id": "XH27-D02",
+      "question": "申请铁路通信设备生产企业许可证要交哪些材料？外委加工有什么条件？",
+      "answerable_from_library": true,
+      "answer_sha256": "c7aff6de770ba515397974ee3ec7971bd8d9137be8bc01c1a4cd7fb5d496370e",
+      "answer": "根据知识库中《铁路通信设备生产企业审批实施细则》（国铁设备监规〔2026〕6号，2026-04-01施行）的相关规定，整理如下：\n\n## 一、申请许可应提交的材料（第五条）\n\n1. **行政许可申请书**（附件5），一式两份，装订一份；\n2. **企业法人营业执照副本复印件**，一式两份，装订一份；\n3. **铁路通信设备生产企业审查表**（附件6）；\n4. **专业生产设备明细表**（附件7）；\n5. **专业技术人员明细表**（附件8）；\n6. **证明产品质量保证体系有效运转、产品运用质量符合安全要求、产品质量符合标准要求的相关材料**；\n7. **安全管理制度目录、拟生产的产品目录、设计图纸目录、工艺文件目录，以及所依据的国家标准、行业标准、企业标准目录**；\n8. **新研发产品试用考核材料**；\n9. **新研发产品技术评审（鉴定）证书或者审查意见**；\n10. **企业简介**（含企业资产、股份构成及比例、资质情况、生产经营基本状况、产品主要运用业绩等内容）。\n\n## 二、外委加工的条件\n\n- 申请企业有关**生产过程可以委托其他企业完成**，可外委的生产过程范围见附件2；\n- **外委企业应当具备相应的生产条件和能力**。\n\n## 三、补充提示（材料形式与变更要求）\n\n- **材料形式**（第七条）：材料应为A4纸规格，按第五条、第六条规定的顺序统一标注页码，无线胶订成册，加盖骑缝章，并附电子版；相关说明材料应加盖企业公章。\n- **延续或重新申请**（第六条）：申请延续许可，或因生产条件发生较大变化重新申请许可的企业，应提交第五条除（八）、（九）外的材料，并提供近5年产品主要运用情况（含因产品质量造成责任事故的整改情况）、许可条件变化情况（含人员、设备等变化内容并明确说明是否持续满足许可条件）。\n- **生产条件较大变化需重新申请**（第十六条）：生产地址变化、生产线重大技术改造、外委加工企业变更等情形，应向国家铁路局重新申请许可。\n\n> 说明：以上内容来自铁路通信设备生产企业的审批细则；若您实际需要的是**铁路信号设备**生产企业许可，其材料要求基本一致，但信号软件和系统集成生产许可证申请企业还需额外提交硬件生产企业名录材料，请注意区分。",
+      "raw_sse_path": "05-review/xh-formal-answer-audit/answers/XH27-D02.sse",
+      "raw_sse_sha256": "41ca6dd751e9ff4ce36554e450069e906f5160d7bb4259e539025f04820e36ce",
+      "reference_sha256": "af663f481903ab4dc4524f5caeee4cfa32eb5c69326c5a692376c7b470d79383",
+      "context_checks": [
+        {
+          "chunk_id": "eeebdcbad9365623",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5bd96b2d9c9b08a2d7a2a4c8f52fd90f4acb997fe18dc89d9ab69b95948de6d4",
+          "matched_expected_points": [
+            "DOC0027-K005"
+          ]
+        },
+        {
+          "chunk_id": "5bef5fe05ecba75a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "33358e0d2d31664aa9b6e91d07220adf9503ed603b0e7519acf4cc6c55330bba",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "589eca7f33a6c906",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "dfaf6211139c969a74124e4ae6ab24eef6d9820a9b5c41b028caf1f0d4542f10",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "a3682f9660c72eeb",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "8f7f2773f369bbcc0c04589c4a8b19a164d029ccd719f7893883aa340b764525",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "ac8fb4e764853b21",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5e72450c927ef1c34f705aa1650f8e9131ad30d854252fa8d1a74ea5d5929c19",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "2770f3bf48a3e602",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "e1bfbe259607bb6fcf9474dbf8ee99dec08609930cd4d12dd64e5338fb6f1365",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "6f5abc535e2df102",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5f3e1559b7716d7e1945be2756f93f8b1dd13425be4d7f8b7d7e218151035890",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "ce3db2967e09f2f2",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "7a54bcd1564f8f74e771a2c2d5bbeb1892eccf412a7c7d95de437f5c6becb2b2",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "88a9744a80edf75f",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d60affbf580d33c2c3df4f6631d822a94f180fdf03e95085891c2b7098c73ddb",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "c846c4f563b18c67",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d278ea26eec553edd76ba47169b7bbf235fac53bae94e1337a2a1f6ade30255b",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "333e191f5a665311",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "1184db45c48377a3af87c14ac2dc9247d78865b02a63b12682dfade4712a6c21",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "1a1584dbbdf56c69",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "e0e08100466d4840b9f4d521526cee2470f44537d62c678a668d8e8d7b51c759",
+          "matched_expected_points": []
+        }
+      ],
+      "semantic_decision": "PENDING_MANUAL_FULL_ANSWER_REVIEW"
+    },
+    {
+      "test_id": "XH27-D03",
+      "question": "许可决定期限、延长及不计入期限的时间分别如何规定？",
+      "answerable_from_library": true,
+      "answer_sha256": "5ff2d51b879da13a0b159b3be6d1790f8193dfa4bc3ada37747f72512940392c",
+      "answer": "根据知识库中《铁路通信设备生产企业审批实施细则》（DOC0027）和《铁路信号设备生产企业审批实施细则》（DOC0026）第十三条，规定如下：\n\n- **许可决定期限**：国家铁路局应当自受理申请之日起 **20个工作日** 内作出行政许可决定。\n- **延长**：20个工作日内不能作出决定的，经国家铁路局负责人批准，可以延长 **10个工作日**，并将延长期限的理由告知申请企业。\n- **不计入期限的时间**：**检验、检测和专家评审时间**不计算在上述期限内，并将所需时间书面告知申请企业。\n\n以上内容来自铁路通信设备、铁路信号设备两项审批实施细则中相同表述的第十三条。",
+      "raw_sse_path": "05-review/xh-formal-answer-audit/answers/XH27-D03.sse",
+      "raw_sse_sha256": "50e448392a71fd814e375563fa81f1c41ed6bd278e0cdcb3ba268b4ea3269101",
+      "reference_sha256": "b2b9cb3f345b4722d4f0952a7eacbe4211cb433e594d7c831a6314cf884c669b",
+      "context_checks": [
+        {
+          "chunk_id": "2db9d6ee7ffda672",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "584287451420084b2330e2f514027367413345618992ad4a993655eecb4a10a6",
+          "matched_expected_points": [
+            "DOC0027-K013"
+          ]
+        },
+        {
+          "chunk_id": "de4da316f23edd24",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "da7c3e4c92a2c4c8a089d740b53f87557a185560064cfe409d5bdd2eb8948f5b",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "ca67125de8017183",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "056f3e6f2d676ab7b605fb16ac4b3144b8e446dedf49299c3282472476e71ca1",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "b54de8fb67692742",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "ec50a0b4127618114250abf631d08799722fbb81737e1290544dcd333d427581",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "4afd511a59aafd5b",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "10d612a88114cfeb298ae99bfe6eef9a015f2259fd40edce411dc8224ca3e5ef",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "4b2781e3c6f5e557",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5e57441ddbbacab9517e47426748148692cb0d07b40530a901bc4bdfe06ea6b5",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "eaef7a059105919e",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "4641c2722d03c2db898c3f22b772e726547e78de2fd096977686e39151279591",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "c1f8241bb68b9f57",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "c9dccb27233716c163e3cbf021f98c43f8d15cbec1fa21c45383e893c97886b9",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "78cca176567bec08",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "557854a03f864e3c160b02fa2b332f4b30138978d3bc24e3b1707e8b23c6ecea",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "b6406b52b16434a3",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "089d7c58e701562e0b05b5e8c3093f99f862f3941ac6f8d67122c9b1bcb5a55f",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "dddabada22ef1875",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "f4baf02b779d2df26a8b36cfdbb47026bf99899b71b700b0704d61b5213ccc74",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "6d8587cb6b12046a",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "b1227294b2aa02a542d85b98658770b27ecf07b03530fb9a46a639cba5489656",
+          "matched_expected_points": []
+        }
+      ],
+      "semantic_decision": "PENDING_MANUAL_FULL_ANSWER_REVIEW"
+    },
+    {
+      "test_id": "XH27-D04",
+      "question": "许可证有效期、延续申请期限和生产地址变化应如何处理？",
+      "answerable_from_library": true,
+      "answer_sha256": "a5b8af4204d075273cb277e6250c7960e42559a2deafe7f8c853369b6d9bf986",
+      "answer": "根据知识库中《铁路通信设备生产企业审批实施细则》（DOC0027）和《铁路信号设备生产企业审批实施细则》（DOC0026）的规定，相关内容如下：\n\n## 一、生产许可证有效期\n生产许可证有效期为 **5年**。（DOC0027-K015、DOC0026-K015 第十五条）\n\n## 二、延续申请期限\n被许可企业需要延续已取得的生产许可证有效期的，应当在**有效期届满60个工作日前**向国家铁路局提出申请。（DOC0027-K015、DOC0026-K015 第十五条）\n\n此外，申请延续许可的企业还应提交细则第五条除（八）、（九）外的材料，并提供：\n- 近5年产品主要运用情况（含因产品质量造成责任事故的整改情况）；\n- 许可条件变化情况（含人员、设备等变化内容，并明确说明是否持续满足许可条件）。（DOC0027-K006、DOC0026-K006 第六条）\n\n## 三、生产地址变化的处理\n生产地址变化属于**生产条件发生较大变化**的情形之一（还包括生产线重大技术改造、外委加工企业变更等），被许可企业应当**向国家铁路局重新申请许可**。（DOC0027-K016、DOC0026-K016 第十六条）\n\n需注意区分两种情形：\n- **生产地址名称发生变化**（仅名称变更）：应申请办理生产许可证**变更手续**，换发生产许可证时**有效期不变**。申请变更需提交：国家铁路局行政许可申请书、变更事项说明、合法的批准文件及市场监督管理部门核发的新营业执照副本复印件，材料及复印件应加盖企业公章。（DOC0027-K015、K017；DOC0026-K015、K017）\n- **生产地址实际变化**（生产条件较大变化）：应**重新申请许可**，并按第六条提交相关材料。（DOC0027-K016、K006；DOC0026-K016、K006）\n\n> 说明：以上内容同时见于铁路通信设备（国铁设备监规〔2026〕6号）和铁路信号设备（国铁设备监规〔2026〕5号）两份实施细则，两者相关条款表述一致。",
+      "raw_sse_path": "05-review/xh-formal-answer-audit/answers/XH27-D04.sse",
+      "raw_sse_sha256": "05cd39faef2bd773018cb05f3e01cd18731512573bebf19ced7e7d5ed6141d1f",
+      "reference_sha256": "f46096588b4bdb4f4badab4f699426a6bb7072e79cc95de1de6a69d23fee746c",
+      "context_checks": [
+        {
+          "chunk_id": "ceda87be06cd72ba",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "b8d02006d869cfe69d50e971b2074f178a17c64e1540bd45bd0d24929d23926f",
+          "matched_expected_points": [
+            "DOC0027-K015"
+          ]
+        },
+        {
+          "chunk_id": "41120d6fd0d46361",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "63976b503f31dfbc06a10f265f404006bb0341a9a7242758994086337d369c5c",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "2770f3bf48a3e602",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "e1bfbe259607bb6fcf9474dbf8ee99dec08609930cd4d12dd64e5338fb6f1365",
+          "matched_expected_points": [
+            "DOC0027-K016"
+          ]
+        },
+        {
+          "chunk_id": "eedcbd0711aeb66a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "405f56cbe1720ffe293f2189279c82cbc658f57e1b15520e61389ee2b9739540",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "3780d331c8688931",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "f2761dc6cc6247fb03f917bc258460e54033c3ac1f7995ac67e382cb4322d837",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "1f1ae28647857bdf",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "22fae39ffe52dd52cbaf1234d534d8d1a29ecefdbf3abad82cf305012a7b3b85",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "589eca7f33a6c906",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "dfaf6211139c969a74124e4ae6ab24eef6d9820a9b5c41b028caf1f0d4542f10",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "fb94149874d39f52",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "1e776a14aef6122d7bfd28e2c9fdd58819a7cafee20c54f45690714af0a13fd8",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "f68c97876f068e5d",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "46b910bfbbd04f82592eade79b08b6f45ac01caf637e62c7ff7ef11336f3a27f",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "fe9021b7f13c2591",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "f825fd6cadf477f41fbe00054424bc97d8b01d1c5dca1ce91b6b597a12292d4e",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "f5594fc2a4e00758",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d2657d78cb99024486ed7f394b4b85bec06fd638f173bce05644898da5514e09",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "da29180f93068e4a",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "bc9a7fef9af824458e0b1f60d38d7c725bf1049a64c47654c6b0ac4892214ea0",
+          "matched_expected_points": []
+        }
+      ],
+      "semantic_decision": "PENDING_MANUAL_FULL_ANSWER_REVIEW"
+    },
+    {
+      "test_id": "XH27-D05",
+      "question": "附件2对LTE检验过程专用测试软件要求了什么数值？",
+      "answerable_from_library": true,
+      "answer_sha256": "abcfc6de7cf81b4a84f024323889a86b4b96881c1bf98be332ab4be1b7818e58",
+      "answer": "根据知识库中《铁路通信设备生产企业审批实施细则》（DOC0027，国铁设备监规〔2026〕6号）附件2“专业生产设备要求”的内容：\n\n- 在“四、铁路LTE移动通信系统（基站、车载电台、车载接入设备（TAU））”的“检验过程”中，列有“专用测试软件”（序号18，数据原行89）。\n- 但该行“设备要求”和“备注”两列在原表中均为**空白**，知识库明确注明“空白不推定为零或不适用”。\n\n因此，知识库中**没有记载该专用测试软件的任何具体数值要求**，无法给出数值。",
+      "raw_sse_path": "05-review/xh-formal-answer-audit/answers/XH27-D05.sse",
+      "raw_sse_sha256": "4e34877815e1e985d982ed9e012563b47c6a4bee149f76c90c0d43aaeef85e2a",
+      "reference_sha256": "9027d1b52a3ae086f56129562dd97a1d6ee416ffdb1fd439a8f7b82d7044092a",
+      "context_checks": [
+        {
+          "chunk_id": "c56054fbd133be6e",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "f3e17cb10bac1dbd1bc63199e16ea0de59476f8f073162f59390646cf631c061",
+          "matched_expected_points": [
+            "DOC0027-S0035-T02-G089-089"
+          ]
+        },
+        {
+          "chunk_id": "49934a70b326003f",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "f4fcbc5cf7abc2221d39dddfdaefc206d8e324cdfd7c76a7577dac2d0e4adc66",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "d289a73cda6c32ff",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "60ba617489d2e91d6505d06f82b9b445d477fb7a836244c3cd28f0800d07cf2d",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "e4fdbace29bd9d1d",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "05de4f5ce208a64c839e78a1ff852263df412ae40eb4f803627005fe5dd443c5",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "4f96845ed709b69d",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "bbd527b87476e939617e4fafe59acce6caf1a3231a93164a46a92d0574603432",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "6aaef29bf532a391",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "4b47b0f1ce7b802a50c2373c7752264fb320ad511521c65103f9b13e4adfa0ce",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "eee64ebd1aa3a292",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "f87bc79cba11f2ee4fe4f4b9ea113c04162671557186fb22258b9f80867f1ac4",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "39491897cfaa3b31",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5135e126a575e6fd1859fd214ea9e1d41f5e47e0ae833985ddfe06680bce1e07",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "48b78d7a97528521",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5bb6141111166ced2e478272c1532fb585790955ecfa3330c3e9be8c49622553",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "36b5ec1c84538434",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "11d571309ac536ed3ef4514016039002ed6f31ee387d2e33306441a0715a948f",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "85ec90389afafe02",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "c64d2da1ac0bc5fcb8971b8218eecbe15da49f4a3d714e36704be74b52629cc4",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "5fbc696ac74cefb4",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "41990c472964c3113236a48e55df606a4700a4f7707db874b604fbd6f016c9f5",
+          "matched_expected_points": []
+        }
+      ],
+      "semantic_decision": "PENDING_MANUAL_FULL_ANSWER_REVIEW"
+    },
+    {
+      "test_id": "XH26-N01",
+      "question": "请列出某型号信号设备现场校准的具体步骤和阈值。",
+      "answerable_from_library": false,
+      "answer_sha256": "11f50ff7c7eb6d847f0ad2f072527d91f80c5f5ad7c26e53731275036789acbc",
+      "answer": "知识库中没有找到“某型号信号设备现场校准的具体步骤和阈值”的相关信息。\n\n现有资料为《铁路信号设备生产企业审批实施细则》（国铁设备监规〔2026〕5号）附件2“专业生产设备要求”，仅涉及生产企业应配备的测试/检验设备，例如：\n\n- **整机测试台及相关测试设备**（产品测试类）：要求“满足出厂检验要求并能模拟现场运用环境”，备注“相关产品需要”。\n- **单板测试台**（检验过程类）：要求“测试采集系统的CPU板和采样板”，备注“相关产品需要”。\n\n上述内容属于**生产环节的测试设备配置要求**，并非现场校准的操作步骤或阈值规定，与您所问的“现场校准步骤和阈值”不匹配。建议查阅具体的设备维护规程或校准规范类文件。",
+      "raw_sse_path": "05-review/xh-formal-answer-audit/answers/XH26-N01.sse",
+      "raw_sse_sha256": "2cfe7e54ac2613a905dc49505a393567c3f76a495082f65400a8b7f2eb64c40d",
+      "reference_sha256": "26c06bd06cfe3fc7e39bfdbb8a5d2b21f5a1db9004da0bc2c9148ee048772055",
+      "context_checks": [
+        {
+          "chunk_id": "c45f3b2b260c96f0",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "e85249ca9a992eba067dcfe8d0c93d2478b6a910e66007cd1803827659f2e611",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "0328caf58f46c2d2",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "a3538ac5adfe6ad5814a4407d74b5b4bae3dfa44764375f875f7f99878856829",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "f501a90a8de8e481",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "12e99f088d4e1af473e89ea0e557bc26347bc6a58032eb74765f36201aa1ca4a",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "ca67125de8017183",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "056f3e6f2d676ab7b605fb16ac4b3144b8e446dedf49299c3282472476e71ca1",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "fb3541546821b2e4",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "c5f54bcd04bdd168a6d7ad695d1596d51705ea2ed6af524d17f995371e2982e3",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "263bef8b194a41f6",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "3889fd45cd49e2a06fc7eedd009002df6d18e3df6f3c9dcb663da33c11d1bcae",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "c2e7c114dbc6ea2f",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "2c4a24030c3a1e439cb7174b74b1e0800d4fb91c05b4ca457452d7fd4528c9ec",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "6f59a736d6eed1cd",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d02c4215b8a15174392e9d629511b6e0c012309052be23defda75e595b5ba740",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "07d7073926f07efb",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "c74cdb5c5f611d17afe15e449c182fc2f1ba07c944e31102c1365f70b250a9da",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "bb71095e4f1e03be",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "ca3f1d103d92c39dd6078a29aa87a9653d6d11dadcd4c03ba43df2729bea83cc",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "8624a13529c1187f",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d149e677b801b012bd621c3b8d5d9c80d3dbdcbe7555c821ce0e38b7953d58ab",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "8caacd8f23600045",
+          "document_id": "458d60ee69b142e3bfe61701f7f41f68",
+          "accepted_formal_chunk": true,
+          "content_sha256": "d45b7be3f8a750d8b641024f04a9a7822f0747eca86c6179ecc78ad60c2a9c20",
+          "matched_expected_points": []
+        }
+      ],
+      "semantic_decision": "PENDING_MANUAL_FULL_ANSWER_REVIEW"
+    },
+    {
+      "test_id": "XH27-N01",
+      "question": "请确认某厂家LTE设备所有软件版本均通过了安全认证。",
+      "answerable_from_library": false,
+      "answer_sha256": "d0ad0110937f5ecf40f8cda1b9cf2203fe37e1646506805d1b7558804f4fee34",
+      "answer": "根据知识库检索结果，**未找到任何关于“某厂家LTE设备软件版本通过安全认证”的信息**，因此无法确认该事项。\n\n需要说明的是，知识库中确实包含与铁路LTE移动通信设备相关的内容，但均属于《铁路通信设备生产企业审批实施细则》（国铁设备监规〔2026〕6号，2026-04-01施行）中的设备目录与生产设备要求，与“软件版本安全认证”并非同一事项，简要梳理如下供参考：\n\n**1. 铁路通信设备目录（附件1）中的LTE设备**\n- 铁路LTE移动通信系统（产品编号3005），适用范围包括：LTE基站、车载电台、车载接入单元（TAU）\n- 执行标准：《铁路LTE移动通信系统总体技术条件》（TB/T 3599-2024）\n- 备注：标准更新时，按最新标准执行\n\n**2. 专业生产设备要求（附件2）中与LTE相关的条目**\n- 生产过程：LTE系统调试设备，要求“满足系统调试需要”\n- 检验过程：LTE测试仪（设备要求栏原表空白）\n- 检验过程：专用测试软件（设备要求栏原表空白）\n\n以上内容仅涉及生产与检验环节的设备配置要求，**不涉及软件版本的安全认证结论**。如需确认该厂家的认证情况，建议查阅相应的安全认证证书或认证机构公告。",
+      "raw_sse_path": "05-review/xh-formal-answer-audit/answers/XH27-N01.sse",
+      "raw_sse_sha256": "3d2d286e2e588448013f7fb1ab36c10822fbf1274188a201601c1c657f34d111",
+      "reference_sha256": "02368bc738dc2e45cf836768a31f57ff882a7830c21e873d356ca743cf07e103",
+      "context_checks": [
+        {
+          "chunk_id": "c56054fbd133be6e",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "f3e17cb10bac1dbd1bc63199e16ea0de59476f8f073162f59390646cf631c061",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "e29f72ab78bf933a",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "34dad0cc671a43cd3cbd98bd3498baea02f79b8ed48de853c0b9c82d7b918fe6",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "0378f584cf35150c",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "154727ec9cfac28b77c126d02716ee7ba96922fa1e3e0f87a23477978d01249c",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "e4fdbace29bd9d1d",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "05de4f5ce208a64c839e78a1ff852263df412ae40eb4f803627005fe5dd443c5",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "48b78d7a97528521",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5bb6141111166ced2e478272c1532fb585790955ecfa3330c3e9be8c49622553",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "39491897cfaa3b31",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5135e126a575e6fd1859fd214ea9e1d41f5e47e0ae833985ddfe06680bce1e07",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "49934a70b326003f",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "f4fcbc5cf7abc2221d39dddfdaefc206d8e324cdfd7c76a7577dac2d0e4adc66",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "5a98ae1da1b583a2",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "735b0f853c38d327b43bed05143238370912f994eb2adf4ce454e9ac07f8de9a",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "168822ba31f037e1",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "5dcbf7b4a3f2a33db8d242f17a66d27b0a7842f7c8f9c24aaea369600a230476",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "1a1584dbbdf56c69",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "e0e08100466d4840b9f4d521526cee2470f44537d62c678a668d8e8d7b51c759",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "85100dc4ccf9bf53",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "70cd276f1ea8e08e85d794213ca53de8651294c13f24e662fc5b7bb853788026",
+          "matched_expected_points": []
+        },
+        {
+          "chunk_id": "95359d9a0574ef46",
+          "document_id": "33ea398a0b4b4bfa8bc96a4278b3bd0a",
+          "accepted_formal_chunk": true,
+          "content_sha256": "813518c35a79718e0667225b9f2118a884c07a23e449687489398408a4bcd54d",
+          "matched_expected_points": []
+        }
+      ],
+      "semantic_decision": "PENDING_MANUAL_FULL_ANSWER_REVIEW"
+    }
+  ]
+}

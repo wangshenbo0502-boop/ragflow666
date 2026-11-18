@@ -40,6 +40,7 @@ export type RunChatCompletionStreamResult = {
   aborted: boolean;
   /** A durable task ID was acknowledged, independently of its final outcome. */
   accepted: boolean;
+  error?: string;
 };
 
 export async function runChatCompletionStream({
@@ -71,6 +72,7 @@ export async function runChatCompletionStream({
   let aborted = false;
   let ok = false;
   let acceptedTask: ChatTask | undefined;
+  let errorMessage: string | undefined;
 
   // Chunks arrive faster than the UI can use them, so they're coalesced into a
   // single store write per AnswerFlushIntervalMs. Fields are merged rather than
@@ -166,6 +168,7 @@ export async function runChatCompletionStream({
       aborted = true;
     } else {
       ok = false;
+      if (error instanceof Error) errorMessage = error.message;
     }
   } finally {
     // Whatever was buffered must land, including on abort: a stopped answer
@@ -190,5 +193,12 @@ export async function runChatCompletionStream({
   if (acceptedTask && !aborted && isChatTaskTerminal(acceptedTask)) {
     ok = acceptedTask.state === 'succeeded';
   }
-  return { ok, aborted, accepted: Boolean(acceptedTask) };
+  return {
+    ok,
+    aborted,
+    accepted: Boolean(acceptedTask),
+    ...(!ok && !aborted && !acceptedTask && errorMessage
+      ? { error: errorMessage }
+      : {}),
+  };
 }

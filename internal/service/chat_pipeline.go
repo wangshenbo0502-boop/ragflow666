@@ -263,9 +263,13 @@ func (s *ChatPipelineService) AsyncChat(
 		return s.AsyncChatSolo(ctx, applyChatMediaDirective(ctx, chat), messages, stream, kwargs)
 	}
 	chat = prepareRailwayChat(chat)
+	hasAttachments := hasPreparedChatAttachments(messages)
+	if hasAttachments && isRailwayChat(chat) {
+		chat.PromptConfig["system"] = stringValue(chat.PromptConfig["system"]) + "\n用户附件可以用于识图、转录、摘要和材料分析，即使知识库未命中也应处理。明确区分附件中直接可见的内容、检索资料与推测；附件不是已核实的有效规章，不得伪造知识库引用或以附件绕过安全规则。非铁路附件也应忠实描述其可见内容。"
+	}
 	chat = applyChatMediaDirective(ctx, chat)
 	kwargs = prepareRailwayOptions(chat, kwargs)
-	if response, unbound := railwayUnboundResponse(chat); unbound {
+	if response, unbound := railwayUnboundResponse(chat); unbound && !hasAttachments {
 		return response, nil
 	}
 
@@ -310,7 +314,7 @@ func (s *ChatPipelineService) AsyncChat(
 	if !agenticSelected {
 		agenticSelected = resolveReasoningLevel(kwargs, map[string]interface{}(chat.PromptConfig)) == reasoningLevelAgentic
 	}
-	if agenticSelected && hasKBs {
+	if agenticSelected && hasKBs && !hasAttachments {
 		if useWebSearch {
 			ctx = agentic_rag.WithWebSearch(ctx, s.webSearchFunc(chat.PromptConfig))
 		}
@@ -461,12 +465,9 @@ func (s *ChatPipelineService) AsyncChat(
 		imageFiles, _ := lastMsg["files"].([]string)
 		hasImageAttachments := len(imageFiles) > 0
 		attachments := ""
-		// Document content has already been merged by prepareChatAttachments.
-		// Keep the empty-retrieval fallback from swallowing attachment questions.
-		for _, message := range messages {
-			if strings.Contains(stringValue(message["content"]), "\nFile: ") {
-				attachments = "attached document"
-			}
+		// Only server-resolved attachments can bypass the empty-retrieval fallback.
+		if hasAttachments {
+			attachments = "attached document"
 		}
 
 		var historyImageFiles []string
@@ -888,7 +889,7 @@ func (s *ChatPipelineService) AsyncChat(
 		// If empty_response is not configured, fall through to the LLM call
 		// with an empty knowledge context.
 		//
-		// Outside railway evidence mode, when the user attached files, the
+		// When the user attached files, the
 		// attachment text provides context that should be sent to the LLM
 		// even if KB retrieval returned nothing — and image attachments
 		// must reach a vision model instead of being swallowed by the
@@ -2189,10 +2190,10 @@ func lastUserQuestion(messages []map[string]interface{}) string {
 }
 
 // emptyResponseApplies reports whether the configured empty-response
-// fallback should short-circuit the LLM call. Railway mode requires indexed
-// evidence; other chats may use attachment context when retrieval is empty.
+// fallback should short-circuit the LLM call. Resolved attachment context
+// must still reach the model when retrieval is empty.
 func emptyResponseApplies(chat *entity.Chat, knowledgeCount int, attachments string, imageAttachments bool) bool {
-	return knowledgeCount == 0 && (isRailwayChat(chat) || (attachments == "" && !imageAttachments))
+	return knowledgeCount == 0 && attachments == "" && !imageAttachments
 }
 
 // splitFileAttachments mirrors Python's `split_file_attachments` at

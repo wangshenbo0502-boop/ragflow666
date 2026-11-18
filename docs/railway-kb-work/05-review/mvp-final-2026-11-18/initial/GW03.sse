@@ -1,0 +1,76 @@
+data: {"code":0,"data":{"answer":"**问题判断**：这属于铁路建设工程","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"竣工验收的行政监管与法律责任","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"问题，依据《铁路建设工程竣工验收","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"管理办法》处理。\n\n**资料依据**\n\n1.","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":" **备案义务与时限**：建设单位应当自","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"初步验收合格之日起15日内，将初步","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"验收报告向负责项目监督管理的部门","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"备案；鼓励通过铁路工程监督管理","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"信息系统进行备案[ID:2]。\n\n2. **违法","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"处理**：建设单位未按照规定将初步验收","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"报告报送备案的，依照《建设工程","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"质量管理条例》第五十六条规定，","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"责令改正，并按逾期天数分档处以","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"罚款[ID:0]：\n   - 报送备案逾期","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"30天（含）以内的，处20万元以上30万元以下的","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"罚款[ID:0]；\n   - 报送备案逾期","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"超过30天的，处30万元以上50万元以下的罚款","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"[ID:0]。\n\n3. **关联义务**：初步","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"验收结束后，建设工程质量监督机构","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"应当将建设单位组织验收情况纳入","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"工程质量监督报告，按规定提交委托","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"部门[ID:5]。\n\n**待确认信息**：具体逾期","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"天数、项目是否已进入初步验收阶段、","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"是否已收到监管部门责令改正通知等","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"，需结合实际情况核实。\n\n**建议","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"与安全边界**：建议建设单位在初步","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"验收合格后15日内完成备案，避免","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"逾期产生罚款风险；如已逾期","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"，应主动配合监管部门责令改正。","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"本资料版本为2026-06-22公布、2026","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"-09-01施行，尚未证明截至","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"2026年11月16日无后续修订，具体","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"适用须核验现行有效版本[ID:0][ID","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":":2]。以上为规章参考，不构成正式","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"法律意见或行政处罚决定。","audio_binary":null,"id":null,"reference":{},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"","audio_binary":null,"final":true,"id":null,"reference":{"chunks":[{"content":"# 铁路建设工程竣工验收管理办法\n## 第四章  法律责任\n### 第三十条｜建设单位未按照规定将初步验收报告报送备案的\n证据定位： DOC0008-K30；S0008，第四章  法律责任，第三十条。\n来源版本与范围： 2026-06-22公布，2026-09-01施行；原件正文未载令号；境内新建、改建、扩建铁路建设工程竣工验收及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n建设单位未按照规定将初步验收报告报送备案的，依照《建设工程质量管理条例》第五十六条规定，责令改正，按照以下标准处以罚款：\n（一）报送备案逾期30天（含）以内的，处20万元以上30万元以下的罚款；\n（二）报送备案逾期超过30天的，处30万元以上50万元以下的罚款。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"1be08ad11398457f92c8e3f506884727","document_metadata":null,"document_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_e14a050d52cc.md","id":"ce3682f2d3bbead1","image_id":"","positions":[],"row_id":null,"similarity":0.47863189944280926,"term_similarity":0.2551884277754419,"url":null,"vector_similarity":1},{"content":"# 铁路建设工程竣工验收管理办法\n## 第四章  法律责任\n### 第二十九条｜建设单位未按照规定报送竣工验收时间、地点、验收机构、验收程序等的，责令改正\n证据定位： DOC0008-K29；S0008，第四章  法律责任，第二十九条。\n来源版本与范围： 2026-06-22公布，2026-09-01施行；原件正文未载令号；境内新建、改建、扩建铁路建设工程竣工验收及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n建设单位未按照规定报送竣工验收时间、地点、验收机构、验收程序等的，责令改正；拒不改正的，处5万元以上10万元以下的罚款。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"1be08ad11398457f92c8e3f506884727","document_metadata":null,"document_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_e14a050d52cc.md","id":"311e473a5df9eb54","image_id":"","positions":[],"row_id":null,"similarity":0.35025623199800743,"term_similarity":0.2106860298144502,"url":null,"vector_similarity":0.6759200370929743},{"content":"# 铁路建设工程竣工验收管理办法\n## 第三章  监督管理\n### 第二十七条｜建设单位应当自初步验收合格之日起15日内，将初步验收报告向负责项目监督管理的部门备案\n证据定位： DOC0008-K27；S0008，第三章  监督管理，第二十七条。\n来源版本与范围： 2026-06-22公布，2026-09-01施行；原件正文未载令号；境内新建、改建、扩建铁路建设工程竣工验收及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n建设单位应当自初步验收合格之日起15日内，将初步验收报告向负责项目监督管理的部门备案。\n鼓励建设单位通过铁路工程监督管理信息系统进行竣工验收备案。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"1be08ad11398457f92c8e3f506884727","document_metadata":null,"document_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_e14a050d52cc.md","id":"ba25b9334ba2be94","image_id":"","positions":[],"row_id":null,"similarity":0.3273313716909433,"term_similarity":0.20303627767536073,"url":null,"vector_similarity":0.6173532577273027},{"content":"# 铁路建设工程竣工验收管理办法\n## 第三章  监督管理\n### 第二十五条｜建设单位应当在竣工验收开始5日前\n证据定位： DOC0008-K25；S0008，第三章  监督管理，第二十五条。\n来源版本与范围： 2026-06-22公布，2026-09-01施行；原件正文未载令号；境内新建、改建、扩建铁路建设工程竣工验收及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n建设单位应当在竣工验收开始5日前，将铁路建设工程竣工验收各阶段时间、地点、验收机构、验收程序等有关内容书面报送负责项目监督管理的部门；上述内容发生变化的，应当及时报告。\n负责项目监督管理的部门或者其委托的建设工程质量监督机构采取专项监督检查、查看验收资料、监督验收会议、验收备案等方式，加强对铁路建设工程竣工验收的监管，重点监督抽查竣工验收条件、程序是否符合规定，资料是否齐全，工程质量是否存在严重缺陷等。\n负责项目监督管理的部门发现竣工验收过程中有违反国家有关建设工程质量管理规定行为的，责令改正，重新组织竣工验收。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"1be08ad11398457f92c8e3f506884727","document_metadata":null,"document_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_e14a050d52cc.md","id":"5b0dffb6eb079307","image_id":"","positions":[],"row_id":null,"similarity":0.2653295420417396,"term_similarity":0.19384977167273534,"url":null,"vector_similarity":0.4321156729027495},{"content":"# 铁路建设工程竣工验收管理办法\n## 第二章  竣工验收组织\n### 第十九条｜初步验收按照下列程序进行\n证据定位： DOC0008-K19；S0008，第二章  竣工验收组织，第十九条。\n来源版本与范围： 2026-06-22公布，2026-09-01施行；原件正文未载令号；境内新建、改建、扩建铁路建设工程竣工验收及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n初步验收按照下列程序进行：\n（一）成立初步验收机构；\n（二）按照竣工验收方案，组织检查资料和现场确认；\n（三）召开初步验收会议，编制初步验收报告，明确验收结论，完成初步验收。\n初步验收报告包括建设依据、项目概况、验收范围、建设经过、静态验收情况、动态验收情况、工程概算及建设投资简况、初步验收经过、遗留工程完成计划、初步验收结论、对开通运营的建议等内容（附件2）。\n必要依赖（第十八条原文）： 初步验收应当具备下列条件：\n（一）静态验收、动态验收按照要求完成且验收结论合格，影响运营安全和基本服务水平的遗留问题整改完毕，其他问题具有明确的整改完成计划；\n（二）遗留工程不影响运营安全和基本服务水平，并有明确的工程范围和完成计划，需移交的公跨铁立交桥等设备设施移交完成，铁路线路安全保护区标桩设立完毕；\n（三）环境保护、水土保持、安全、职业病防护设施等辅助设施竣工验收合格，并按照相关规定完成信息公开或者备案等；\n（四）已经消防验收合格或者已办理消防验收备案；\n（五）特种设备已办理使用登记；\n（六）主体工程档案完整、准确、系统、规范和安全情况达到验收标准；\n（七）明确了铁路建设工程竣工验收合格后质量保修范围、保修期限和保修责任等。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"1be08ad11398457f92c8e3f506884727","document_metadata":null,"document_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_e14a050d52cc.md","id":"744d0c8f2c4cf22a","image_id":"","positions":[],"row_id":null,"similarity":0.2614979789650741,"term_similarity":0.20303627767536073,"url":null,"vector_similarity":0.39790861530773874},{"content":"# 铁路建设工程竣工验收管理办法\n## 第三章  监督管理\n### 第二十六条｜建设工程质量监督机构在初步验收结束后\n证据定位： DOC0008-K26；S0008，第三章  监督管理，第二十六条。\n来源版本与范围： 2026-06-22公布，2026-09-01施行；原件正文未载令号；境内新建、改建、扩建铁路建设工程竣工验收及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n建设工程质量监督机构在初步验收结束后，应当将建设单位组织验收情况纳入工程质量监督报告，按照规定提交委托部门。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"1be08ad11398457f92c8e3f506884727","document_metadata":null,"document_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_e14a050d52cc.md","id":"3231dccbf3f40c1a","image_id":"","positions":[],"row_id":null,"similarity":0.23915176431029733,"term_similarity":0.1806161904781441,"url":null,"vector_similarity":0.37573476991865495},{"content":"# 铁路建设工程竣工验收管理办法\n## 第二章  竣工验收组织\n### 第十三条｜静态验收按照下列程序进行\n证据定位： DOC0008-K13；S0008，第二章  竣工验收组织，第十三条。\n来源版本与范围： 2026-06-22公布，2026-09-01施行；原件正文未载令号；境内新建、改建、扩建铁路建设工程竣工验收及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n静态验收按照下列程序进行：\n（一）成立静态验收机构；\n（二）按照竣工验收方案，对验收内容进行检查；\n（三）对发现问题的整改情况进行检查，合格后填写静态验收记录表；\n（四）组织编制静态验收报告，完成静态验收。\n除前款规定外，高速铁路和技术复杂的其他项目还应当成立验收专家组对验收情况及静态验收报告进行审查，对是否进行下一步工作提出意见。\n静态验收报告包括项目建设概况、工程建设完成情况、消防查验情况、主要技术标准、验收依据、验收机构组成及人员、专业（项）验收过程范围内容方法、存在问题及整改复验结论、遗留工程、验收结论及相关验收记录等内容。\n必要依赖（第十二条原文）： 静态验收应当具备下列条件：\n（一）主体工程、影响运营安全的配套工程、辅助工程及环境保护、水土保持等设施，已按照设计文件和合同约定等要求建成，轨道控制网（CPIII）复测已完成；\n（二）施工单位按照相关标准、技术规范对工程质量和系统功能自检合格；\n（三）监理单位对工程质量验收合格；\n（四）建设单位对单位工程质量验收合格；\n（五）项目文件收集基本齐全，基本完成项目档案的分类组卷、编目等整理工作；\n（六）法律、法规、规章和强制性标准规定的其他条件。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"1be08ad11398457f92c8e3f506884727","document_metadata":null,"document_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_e14a050d52cc.md","id":"a28539a4ced5a788","image_id":"","positions":[],"row_id":null,"similarity":0.2315507652961632,"term_similarity":0.23146274133673017,"url":null,"vector_similarity":0.23175615453484033},{"content":"# 铁路建设工程竣工验收管理办法\n## 第二章  竣工验收组织\n### 第二十三条｜铁路建设工程竣工验收各阶段均应当有明确的验收结论\n证据定位： DOC0008-K23；S0008，第二章  竣工验收组织，第二十三条。\n来源版本与范围： 2026-06-22公布，2026-09-01施行；原件正文未载令号；境内新建、改建、扩建铁路建设工程竣工验收及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程竣工验收各阶段均应当有明确的验收结论。\n分期、分段验收的，按照要求出具相关验收报告。\n验收不合格的，整改完成后重新验收。\n初步验收完成后，建设单位应当及时移交竣工文件资料。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"1be08ad11398457f92c8e3f506884727","document_metadata":null,"document_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_e14a050d52cc.md","id":"b44431e410d77a02","image_id":"","positions":[],"row_id":null,"similarity":0.21830258579716438,"term_similarity":0.20303627767536073,"url":null,"vector_similarity":0.2539239714147062}],"doc_aggs":[{"count":8,"doc_id":"1be08ad11398457f92c8e3f506884727","doc_name":"DOC0008_铁路建设工程竣工验收管理办法_精修_e14a050d52cc.md"}],"total":8},"session_id":"b91b949ff891450fbd3f19d18fd54a60"},"message":"success"}
+
+data: {"code":0,"message":"success","data":true}
+
+data: [DONE]
+

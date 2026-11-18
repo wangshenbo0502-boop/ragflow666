@@ -45,7 +45,7 @@ for (const docID of docIDs) {
   const dataset = await api(`/datasets/${target.id}`);
   assert.equal(dataset.pipeline_id, pipeline.pipeline_id);
   assert.equal(dataset.pipeline_version_id, pipeline.pipeline_version_id);
-  const documents = rows(await api(`/datasets/${target.id}/documents?page=1&page_size=100`));
+  let documents = rows(await api(`/datasets/${target.id}/documents?page=1&page_size=100`));
   const existing = ledger.documents.find(item => item.doc_id === docID
     && item.sha256 === doc.sha256 && item.dataset_id === target.id);
   const matches = documents.filter(item => item.name
@@ -75,6 +75,7 @@ for (const docID of docIDs) {
     assert.equal(matches[0]?.id, record.document_id);
   }
 
+  documents = rows(await api(`/datasets/${target.id}/documents?page=1&page_size=100`));
   const remoteBytes = Buffer.from(await (await api(
     `/datasets/${target.id}/documents/${record.document_id}`, 'GET', undefined, true
   )).arrayBuffer());

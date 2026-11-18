@@ -1,0 +1,74 @@
+data: {"code":0,"data":{"answer":"**问题判断**：不能。本库现有资料不包含","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"任何具体隧道的允许沉降","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"值，也无法据此推导。\n\n**资料依据","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"**：\n- 本库中与隧道相关的条文仅","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"将“隧道结构状态”列为高速铁路","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"工务设备运用状态的检测项目之一，并未","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"给出任何沉降限值或允许值","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"[ID:0]。\n- 该办法要求铁路","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"运输企业按检测项目配置轨道测量","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"仪、轨道检查仪、钢轨探","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"伤仪等检测设备[ID:0]，属于","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"检测手段要求，不涉及具体数值","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"标准。\n- 本库另收录勘察","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"设计程序类条文，规定勘察应在设计之前","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"开展、复杂地质地段应深化地质","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"工作或开展专项勘察[ID:4]，","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"但同样不含沉降控制指标。\n\n**","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"待确认信息**（如需进一步查找，最多三项","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"）：\n1. 该隧道的设计速度等级与","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"轨道结构类型（有砟/无砟","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"）；\n2. 拟查询的是施工期控制","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"值还是运营期监测控制值；\n3","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":". 是否有设计文件、专用技术条件或企业监测","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"标准可供核对。\n\n**建议与安全边界","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"**：允许沉降值属于设计文件","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"或专用技术标准确定的控制指标","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"，须以该隧道设计文件、相关技术标准","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"及运营单位监测规定为准，本库","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"无法提供，也不以模型记忆补充","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"。若现场出现沉降异常或结构变形","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"迹象，请远离危险区域并","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"联系现场工作人员或值班负责人，","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"按现场应急预案处置，不要靠近","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"设备自行核查。","audio_binary":null,"id":null,"reference":{},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"","audio_binary":null,"final":true,"id":null,"reference":{"chunks":[{"content":"# 高速铁路基础设施运用状态检测管理办法\n## 第三章 检测内容及检测设备\n### 第九条｜高速铁路线路、桥隧等工务设备运用状态检测的主要项目包括\n证据定位： DOC0010-K09；S0028，第三章 检测内容及检测设备，第九条。\n来源版本与范围： 交通运输部令2018年第19号；2018-08-31公布，2018-10-01施行；设计开行时速250公里以上（含预留）、初期运营时速200公里以上的客运列车专线铁路基础设施运用状态检测。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n高速铁路线路、桥隧等工务设备运用状态检测的主要项目包括：\n（一）轨道几何状态；\n（二）轨道结构状态；\n（三）钢轨伤损；\n（四）路基沉降及结构状态；\n（五）防护栅栏、挡风墙和声屏障状态；\n（六）桥涵结构状态；\n（七）隧道结构状态;\n（八）铁路监管部门、铁路运输企业规定的其它检测项目。\n铁路运输企业应当根据检测项目的需要，配置轨道测量仪、轨道检查仪、双轨式钢轨超声波探伤仪、钢轨探伤仪、焊缝探伤仪等静态检测设备和钢轨探伤车、线路检查仪、巡检设备等动态检测设备。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"e37cfbbea77042798a8bbe2ede05fd4d","document_metadata":null,"document_name":"DOC0010_高速铁路基础设施运用状态检测管理办法_精修_97bbb59187e8.md","id":"7b1e21992bd8ed96","image_id":"","positions":[],"row_id":null,"similarity":0.38312062383148093,"term_similarity":0.11874374833068703,"url":null,"vector_similarity":1},{"content":"# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 附件4\n产品质量保证体系和安全管理制度要求\n\n生产企业应当建立完善的产品质量保证体系和安全管理制度。信号控制软件生产企业的产品质量保证体系和安全管理制度应当达到《产品质量保证体系和安全管理制度项目及审查表-1》的要求，其他信号设备生产企业的产品质量保证体系和安全管理制度应当达到《产品质量保证体系和安全管理制度项目及审查表-2》的要求。\n\n审查说明：\n\n1.对产品质量保证体系和安全管理制度进行现场审查时，有关生产线或生产设备无正当理由应当正常运行，否则将判定产品质量保证体系和安全管理制度不完善。\n\n2. 本表中标注▲的内容为审查的关键项。\n\n3．本审查表按质量管理、生产资源、技术文件、采购控制、过程控制、质量检验、安全文明生产等7个部分进行审查，7个部分中的每一个审查内容按合格、一般不合格、严重不合格进行评价。严重不合格是指造成区域性、系统性、后果严重的不合格，一般不合格是指个别的、偶然的、孤立的不合格。\n\n4．关键项不能出现严重不合格，关键项一般不合格不能超过2个；普通项严重不合格不能超过2个，普通项一般不合格不能超过10个；总的不合格项不能超过10个。满足前述要求，判定合格，否则判为不合格。\n\n产品质量保证体系和安全管理制度项目及审查表-1\n### DOC0026-S0034-T05-G069-069 产品质量保证体系和安全管理制度项目及审查表-1 / 五 过程控制 / 5.3 工程及维护 / ▲检查项1\n文档：铁路信号设备生产企业审批实施细则（DOC0026）；版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行；来源：S0034。\n表格：S0034-T05；完整语义分组：产品质量保证体系和安全管理制度项目及审查表-1 / 五 过程控制 / 5.3 工程及维护 / ▲检查项1；数据原行：69。\nS0034原文段落1201：附件4\nS0034原文段落1203：产品质量保证体系和安全管理制度要求\nS0034原文段落1205：生产企业应当建立完善的产品质量保证体系和安全管理制度。信号控制软件生产企业的产品质量保证体系和安全管理制度应当达到《产品质量保证体系和安全管理制度项目及审查表-1》的要求，其他信号设备生产企业的产品质量保证体系和安全管理制度应当达到《产品质量保证体系和安全管理制度项目及审查表-2》的要求。\nS0034原文段落1206：审查说明：\nS0034原文段落1207：1.对产品质量保证体系和安全管理制度进行现场审查时，有关生产线或生产设备无正当理由应当正常运行，否则将判定产品质量保证体系和安全管理制度不完善。\nS0034原文段落1208：2. 本表中标注▲的内容为审查的关键项。\nS0034原文段落1209：3．本审查表按质量管理、生产资源、技术文件、采购控制、过程控制、质量检验、安全文明生产等7个部分进行审查，7个部分中的每一个审查内容按合格、一般不合格、严重不合格进行评价。严重不合格是指造成区域性、系统性、后果严重的不合格，一般不合格是指个别的、偶然的、孤立的不合格。\nS0034原文段落1210：4．关键项不能出现严重不合格，关键项一般不合格不能超过2个；普通项严重不合格不能超过2个，普通项一般不合格不能超过10个；总的不合格项不能超过10个。满足前述要求，判定合格，否则判为不合格。\nS0034原文段落1212：产品质量保证体系和安全管理制度项目及审查表-1\n表头、速度档、人员资格、备注及原行位置保留；空白不推定为零或不适用；横向覆盖与纵向续格均为原生合并关系。\n| 原行 | 原列1 | 原列2 | 原列3 | 原列4 | 原列5 | 原列6 | 原列7 | 原列8 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 1 | 序号 | 项目 | 内容 | 审查\u003cbr\u003e记录 | 合格 | 一般\u003cbr\u003e不合格 | 严重\u003cbr\u003e不合格 | 备注 |\n| 55 | 五 | 过程控制 | 23项 | 〔原表空白〕 | 〔原表空白〕 | 〔原表空白〕 | 〔原表空白〕 | 〔原表空白〕 |\n| 69 | 5.3 | 工程及维护 | ▲1．依据设计文件及工程说明书内容编制工程项目数据 | 〔原表空白〕 | 〔原表空白〕 | 〔原表空白〕 | 〔原表空白〕 | 〔原表空白〕 |\n来源定位：S0034-T05；数据第69-69行；父表知识点：DOC0026-K032。\n","dataset_id":"8f7cbc152fc64d7b8d39da97028e5abe","doc_type":"text","document_id":"ce2c934bcf4a42d78f83e88982bf4331","document_metadata":null,"document_name":"DOC0026_铁路信号设备生产企业审批实施细则_复核稿_保真入库副本_1e53deb5b6e2.md","id":"2a218eabfe739b1a","image_id":"","positions":[],"row_id":null,"similarity":0.3021990047092093,"term_similarity":0.11615541583090454,"url":null,"vector_similarity":0.7363007120919204},{"content":"# 铁路建设工程勘察设计管理办法\n## 第六章  勘察、设计管理\n### 第三十六条｜铁路建设工程建设单位应当为勘察、设计工作提供必要的现场工作条件\n证据定位： DOC0009-K36；S0009，第六章  勘察、设计管理，第三十六条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程建设单位应当为勘察、设计工作提供必要的现场工作条件，保证合理的勘察、设计工期，提供真实、可靠的原始资料。\n铁路建设工程建设单位应当加强履约管理，强化对勘察、设计单位的安全生产履约管理的检查，按照《保障中小企业款项支付条例》《保障农民工工资支付条例》等国家有关规定，及时足额支付勘察、设计费用。\n铁路建设工程建设单位不得对勘察、设计、工程地质勘察监理等单位提出不符合法律、行政法规和国家强制性标准规定的要求，不得擅自压缩合同约定的工期。不得利用市场优势地位迫使勘察、设计单位以低于成本的价格承揽任务。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"5ecc4806bcb64618b4d9f06cbf3dd96a","document_metadata":null,"document_name":"DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md","id":"99ab497239e69bb8","image_id":"","positions":[],"row_id":null,"similarity":0.2694236220024479,"term_similarity":0.11530406549370033,"url":null,"vector_similarity":0.629035920522859},{"content":"# 高速铁路基础设施运用状态检测管理办法\n## 第五章 监督检查\n### 第三十二条｜铁路运输企业应当配合铁路监管部门开展监督检查工作，及时提供真实、准确、完整的资料和技术数据\n证据定位： DOC0010-K32；S0028，第五章 监督检查，第三十二条。\n来源版本与范围： 交通运输部令2018年第19号；2018-08-31公布，2018-10-01施行；设计开行时速250公里以上（含预留）、初期运营时速200公里以上的客运列车专线铁路基础设施运用状态检测。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n铁路运输企业应当配合铁路监管部门开展监督检查工作，及时提供真实、准确、完整的资料和技术数据。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"e37cfbbea77042798a8bbe2ede05fd4d","document_metadata":null,"document_name":"DOC0010_高速铁路基础设施运用状态检测管理办法_精修_97bbb59187e8.md","id":"07abd5564dc63913","image_id":"","positions":[],"row_id":null,"similarity":0.22821926759715322,"term_similarity":0.11530406549370033,"url":null,"vector_similarity":0.49168807250521007},{"content":"# 铁路建设工程勘察设计管理办法\n## 第二章  勘察设计程序\n### 第十条｜铁路建设工程勘察应当在设计工作之前开展\n证据定位： DOC0009-K10；S0009，第二章  勘察设计程序，第十条。\n来源版本与范围： 2025-06-03公布，2025-09-01施行；原件正文未载令号；境内铁路建设工程勘察、设计活动及其监督管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路建设工程勘察应当在设计工作之前开展，工程地质条件复杂的地段和工点，应当在相应阶段深化地质工作或者开展专项勘察。\n初测主要是初步查明线路可能通过地区的地形、地貌、地物、工程地质和水文地质条件，为工程设计提供基本的工程地质资料。\n定测主要是核实采用建设方案通过地区的地形、地貌、地物，详细查明线路的工程地质和水文地质条件，为设计各类构筑物提供详实、准确的工程地质资料。\n补充定测主要是在定测基础上，根据施工图设计的需要，对部分重要工点、地质复杂工点及存在遗留问题的工点进行补充勘察，完善有关地质资料。\n","dataset_id":"dac0aeb13d4d4e4f967a689c4c55af69","doc_type":"text","document_id":"5ecc4806bcb64618b4d9f06cbf3dd96a","document_metadata":null,"document_name":"DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md","id":"c6a7902bfef8d13f","image_id":"","positions":[],"row_id":null,"similarity":0.222193456733219,"term_similarity":0.11530406549370033,"url":null,"vector_similarity":0.4716020362920959}],"doc_aggs":[{"count":2,"doc_id":"e37cfbbea77042798a8bbe2ede05fd4d","doc_name":"DOC0010_高速铁路基础设施运用状态检测管理办法_精修_97bbb59187e8.md"},{"count":2,"doc_id":"5ecc4806bcb64618b4d9f06cbf3dd96a","doc_name":"DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md"}],"total":5},"session_id":"5c08b8db4f9144308b2e807aec56cf16"},"message":"success"}
+
+data: {"code":0,"message":"success","data":true}
+
+data: [DONE]
+

@@ -4,16 +4,16 @@ This repository adapts RAGFlow into a railway knowledge assistant for safety reg
 
 See the [project guide](docs/railway-agent.md) for the implementation, six official railway source archives, setup, and validation limits. The upstream documentation and attribution follow below.
 
-## November 15, 2026 Backup
+## November 18, 2026 Source Update
 
-This development snapshot records the current source before the chat-mode optimization work. It includes the Go backend, React frontend, railway documents and demo configurations, local startup scripts, and existing image and speech integration.
+This development snapshot includes the Go backend, React frontend, railway documents and demo configurations, local startup scripts, and the chat task, model routing, attachment, image, and speech changes. See the [chat optimization progress](docs/chat-mode-optimization-progress-report.zh-CN.md) for implementation and validation details.
 
 - Saved conversations support `@生图` for image generation and follow-up editing, and `@语音` for spoken answers or explicit short singing requests. Replies retain generated media in the conversation.
 - Image generation uses `gpt-image-2.5-sunburst`; local speech uses Qwen3-TTS with Serena, and singing uses ACE-Step with a synthesized Serena reference.
 - The composer supports multiple attachments, pasted screenshots, dropped images, and failed-upload retry. Image understanding requires a vision-capable chat model.
-- The [chat-mode optimization proposal](docs/chat-mode-optimization-proposal.zh-CN.md) describes upcoming reliability, task scheduling, model routing, and asset-management work. Those planned changes are not part of this backup.
+- The railway demo corpus contains 18 selected documents across five domains. The [acceptance report](docs/railway-kb-work/00-control/final-acceptance.md) records the completed ingestion work and the remaining answer-quality and request failures.
 
-This is a source backup, not a release or a fresh acceptance result. The local checkout has an unfinished upstream merge; the backup captures the files currently on disk without resolving that merge. The November 14 checks below describe earlier validation and have not been rerun for this snapshot.
+The November 14 checks below are historical results. Current validation and its limits are recorded in the linked progress and acceptance reports.
 
 For the existing Windows setup, start and stop the project from the repository root:
 

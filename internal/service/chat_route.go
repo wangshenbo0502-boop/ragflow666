@@ -207,7 +207,7 @@ func (s *ChatPipelineService) prepareChatRoute(ctx context.Context, chat *entity
 		if err != nil {
 			return ctx, chat, err
 		}
-		if !slices.Contains(info.ModelTypes, entity.ModelTypeImage2Text.String()) {
+		if !entity.ModelTypeFromStrings(info.ModelTypes).Has(entity.ModelTypeImage2Text) {
 			var selected *models.ModelInfo
 			for _, candidate := range candidates {
 				target, err := factory.ResolveInfo(ctx, entity.ModelTypeChat, candidate.ID)
@@ -233,7 +233,7 @@ func chatRouteCompatible(preferred, candidate *models.ModelInfo, vision bool) bo
 	if preferred == nil || candidate == nil {
 		return false
 	}
-	return (!vision || slices.Contains(candidate.ModelTypes, entity.ModelTypeImage2Text.String())) &&
+	return (!vision || entity.ModelTypeFromStrings(candidate.ModelTypes).Has(entity.ModelTypeImage2Text)) &&
 		(!preferred.SupportsTools || candidate.SupportsTools) &&
 		candidate.ContextLength >= preferred.ContextLength && candidate.MaxOutput >= preferred.MaxOutput &&
 		(preferred.ModelClass == "" || candidate.ModelClass == preferred.ModelClass)

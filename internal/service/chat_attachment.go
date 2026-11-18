@@ -46,6 +46,7 @@ func (s *ChatPipelineService) prepareChatAttachments(ctx context.Context, chat *
 		for key, value := range original {
 			message[key] = value
 		}
+		delete(message, "prepared_attachment")
 		out[i] = message
 		if message["role"] != "user" || message["files"] == nil {
 			continue
@@ -94,6 +95,7 @@ func (s *ChatPipelineService) prepareChatAttachments(ctx context.Context, chat *
 				}
 			}
 		}
+		message["prepared_attachment"] = len(texts)+len(images) > 0
 		if len(images) > 0 && ctx.Value(chatImagePlanningKey{}) == true {
 			// The image adapter receives the original bytes; a text planner
 			// describes their intended use without claiming to inspect them.
@@ -113,7 +115,7 @@ func (s *ChatPipelineService) prepareChatAttachments(ctx context.Context, chat *
 				modelType, _ = config["model_type"].(string)
 			}
 			if modelType != "image2text" {
-				return nil, fmt.Errorf("unsupported_capability: model %s cannot read images; select a vision model or an authorized automatic routing policy", chat.LLMID)
+				return nil, errors.New("vision_model_required: selected model is not configured for images")
 			}
 		}
 		if len(texts) > 0 {
@@ -128,6 +130,15 @@ func (s *ChatPipelineService) prepareChatAttachments(ctx context.Context, chat *
 		message["files"] = images
 	}
 	return out, nil
+}
+
+func hasPreparedChatAttachments(messages []map[string]interface{}) bool {
+	for _, message := range messages {
+		if message["role"] == "user" && message["prepared_attachment"] == true {
+			return true
+		}
+	}
+	return false
 }
 
 func classifyChatAttachment(value string, texts, images *[]string) {

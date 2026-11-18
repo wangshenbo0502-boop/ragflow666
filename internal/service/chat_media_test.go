@@ -43,6 +43,21 @@ func TestChatMediaCommands(t *testing.T) {
 	}
 }
 
+func TestChatMediaCommandMode(t *testing.T) {
+	for _, scenario := range []struct{ kind, mode, want string }{
+		{"生图", "music", "image"},
+		{"生图", "voice", "image"},
+		{"生图", "image_voice", "image"},
+		{"语音", "image", "voice"},
+		{"qwen3-tts", "image_voice", "voice"},
+		{"语音", "music", "music"},
+	} {
+		if got := chatMediaCommandMode(scenario.kind, scenario.mode); got != scenario.want {
+			t.Errorf("command %q mode %q: got %q, want %q", scenario.kind, scenario.mode, got, scenario.want)
+		}
+	}
+}
+
 func TestChatMediaImageResponse(t *testing.T) {
 	png := chatJPEG(t)
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
@@ -171,7 +186,7 @@ func TestChatImagePlannerReferencesDoNotRequireVision(t *testing.T) {
 	if len(prepared[0]["files"].([]string)) != 0 || !reflect.DeepEqual(messages[0]["files"], []interface{}{chatImageFileDict, chatImageFileDict}) {
 		t.Fatal("planner received image bytes or mutated the original attachments")
 	}
-	if _, err := pipeline.prepareChatAttachments(ctx, chat, messages); err == nil || !strings.Contains(err.Error(), "unsupported_capability") {
+	if _, err := pipeline.prepareChatAttachments(ctx, chat, messages); err == nil || !strings.Contains(err.Error(), "vision_model_required") {
 		t.Fatalf("ordinary text chat accepted images: %v", err)
 	}
 	for _, descriptor := range []map[string]interface{}{

@@ -1,0 +1,46 @@
+data: {"code":0,"data":{"answer":"**问题判断**：不能。本库是铁路规章","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"与知识资料库，不含实时票务数据接口","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"。\n\n**资料依据**：现有资料仅涉及","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"运输规则层面，例如车票作为运输合同","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"凭证应载明发站、到站、车次、席","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"别、票价、开车时间等信息[ID:0]，以及","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"铁路运输企业应按有效车票记载的时间","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"、车次、席别和席位号运输旅客","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"[ID:3]。这些是规则性规定，不构成","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"对某一具体车次今日余票或票价的","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"实时查询结果。\n\n**待确认信息**：如需进一步","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"核对规则适用（如退票、改签条件），","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"可告知具体情形；但实时余票、票价","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"、时刻、停运及退改签结果均需以","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"官方渠道为准。\n\n**建议与安全","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"边界**：请通过铁路12306官方平台","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"或车站窗口、客服核实当日余票与","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"票价。本库不提供也不推测实时票","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"务数据，不索取身份证完整号码、支付信息","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"等个人信息。","audio_binary":null,"id":null,"reference":{},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"","audio_binary":null,"final":true,"id":null,"reference":{"chunks":[{"content":"# 铁路旅客运输规程\n## 第二章 一般规定\n### 第四条｜车票是铁路旅客运输合同的凭证\n证据定位： DOC0004-K04；S0004，第二章 一般规定，第四条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n车票是铁路旅客运输合同的凭证，可以采用纸质形式或者电子数据形式，一般应当载明发站、到站、车次、车厢号、席别、席位号、票价、开车时间等主要信息。铁路运输企业与旅客另有约定的，按照其约定。\n","dataset_id":"6276358588ab4dbb8c17baf7600b95c4","doc_type":"text","document_id":"3188d438193b4d4db5f1c68615259531","document_metadata":null,"document_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md","id":"63d778ae735335c4","image_id":"","positions":[],"row_id":null,"similarity":0.48968603263664345,"term_similarity":0.27098004662377645,"url":null,"vector_similarity":0.9999999999999999},{"content":"# 铁路旅客运输规程\n## 第七章 应急处置\n### 第四十三条｜线路中断、列车不能继续运行时\n证据定位： DOC0004-K43；S0004，第七章 应急处置，第四十三条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n线路中断、列车不能继续运行时，铁路运输企业应当妥善安排受阻旅客，并及时公告铁路旅客运输相关业务停办、恢复等信息。\n因线路中断影响旅行，旅客要求出具证明的，铁路运输企业应当及时提供。\n必要依赖（第三十一条原文）： 因铁路运输企业原因或者自然灾害等其他不能正常运输情形导致旅客不能按车票记载的时间、车次、车厢号、席别和席位号乘车时，铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客。重新安排的席位票价高于原票价时，超过部分不予补收；低于原票价时，应当退还票价差额。\n对前款规定的情形，铁路运输企业不得收取退票费。\n","dataset_id":"6276358588ab4dbb8c17baf7600b95c4","doc_type":"text","document_id":"3188d438193b4d4db5f1c68615259531","document_metadata":null,"document_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md","id":"971bac6a26b6182b","image_id":"","positions":[],"row_id":null,"similarity":0.3552211357231252,"term_similarity":0.18897003674561108,"url":null,"vector_similarity":0.7431403666706583},{"content":"# 铁路旅客运输规程\n## 第五章 车票改签与退票\n### 第三十一条｜铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客\n证据定位： DOC0004-K31；S0004，第五章 车票改签与退票，第三十一条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n因铁路运输企业原因或者自然灾害等其他不能正常运输情形导致旅客不能按车票记载的时间、车次、车厢号、席别和席位号乘车时，铁路运输企业应当按照旅客的要求办理退票或者改由其他车次或者席位运送旅客。重新安排的席位票价高于原票价时，超过部分不予补收；低于原票价时，应当退还票价差额。\n对前款规定的情形，铁路运输企业不得收取退票费。\n","dataset_id":"6276358588ab4dbb8c17baf7600b95c4","doc_type":"text","document_id":"3188d438193b4d4db5f1c68615259531","document_metadata":null,"document_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md","id":"cc89b44efe3cb1d1","image_id":"","positions":[],"row_id":null,"similarity":0.2680630237599324,"term_similarity":0.282217061078606,"url":null,"vector_similarity":0.2350369366830275},{"content":"# 铁路旅客运输规程\n## 第四章 乘车\n### 第二十条｜铁路运输企业应当按照有效车票记载的时间、车次、车厢号、席别和席位号运输旅客\n证据定位： DOC0004-K20；S0004，第四章 乘车，第二十条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客运输活动；具体运输服务规则需结合相应规定核验。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业应当按照有效车票记载的时间、车次、车厢号、席别和席位号运输旅客；旅客应当按照有效车票载明的时间、车次、车厢号、席别和席位号乘车。\n","dataset_id":"6276358588ab4dbb8c17baf7600b95c4","doc_type":"text","document_id":"3188d438193b4d4db5f1c68615259531","document_metadata":null,"document_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md","id":"f779eb025779bf30","image_id":"","positions":[],"row_id":null,"similarity":0.2310424920160014,"term_similarity":0.13008977855155746,"url":null,"vector_similarity":0.4665988234330373}],"doc_aggs":[{"count":4,"doc_id":"3188d438193b4d4db5f1c68615259531","doc_name":"DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md"}],"total":4},"session_id":"8688912eb38943639b7cde962fe9df60"},"message":"success"}
+
+data: {"code":0,"message":"success","data":true}
+
+data: [DONE]
+

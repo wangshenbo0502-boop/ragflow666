@@ -1204,6 +1204,13 @@ func (s *ChatSessionService) ChatCompletions(
 	for k, v := range genConfig {
 		kwargs[k] = v
 	}
+	// An explicit command takes priority over a mode left selected in the UI.
+	// Keep music for a voice command, which may deliberately request singing.
+	if mediaRequested {
+		if mode := stringValue(kwargs["mode"]); mode != "" && mode != "chat" {
+			kwargs["mode"] = chatMediaCommandMode(mediaKind, mode)
+		}
+	}
 	if mode := stringValue(kwargs["mode"]); mode != "" && mode != "chat" {
 		switch mode {
 		case "image":
@@ -1766,14 +1773,31 @@ func (s *ChatSessionService) appendSessionMessage(session *entity.ChatSession, r
 	return session
 }
 
-// filterSystemAndLeadingAssistant filters system messages and leading assistant messages from session history.
+// filterSystemAndLeadingAssistant keeps answered history and the current question.
 func (s *ChatSessionService) filterSystemAndLeadingAssistant(session *entity.ChatSession) []map[string]interface{} {
 	messages := parseMessages(session.Message)
 	var result []map[string]interface{}
-	for _, msg := range messages {
+	for i, msg := range messages {
 		role, _ := msg["role"].(string)
 		if role == "system" {
 			continue
+		}
+		if role == "user" && i < len(messages)-1 {
+			answered := false
+			for _, next := range messages[i+1:] {
+				if next["role"] == "user" {
+					break
+				}
+				if next["role"] == "assistant" && strings.TrimSpace(stringValue(next["content"])) != "" {
+					answered = true
+					break
+				}
+			}
+			// Failed or still pending turns remain stored, but their attachments
+			// must not prevent an independent new question from running.
+			if !answered {
+				continue
+			}
 		}
 		if role == "assistant" && len(result) == 0 {
 			continue

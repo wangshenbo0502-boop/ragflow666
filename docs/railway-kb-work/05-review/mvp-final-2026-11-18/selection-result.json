@@ -1,0 +1,661 @@
+{
+  "at": "2026-11-17T16:15:23.732Z",
+  "plan": [
+    {
+      "dataset_id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "keep": [
+        "fde0ef42db5a430c9db85cc05b1afab8",
+        "c8304232d8504995ba40243134f0eca6",
+        "1be08ad11398457f92c8e3f506884727",
+        "5ecc4806bcb64618b4d9f06cbf3dd96a",
+        "e37cfbbea77042798a8bbe2ede05fd4d"
+      ],
+      "disable": [
+        "492d0f1ad8954cfb880454e649a4a932",
+        "a20c425fe0c04f128b0ff9c9b7d11ca7",
+        "ee9848afc3a1420a9af9bff21f63b0ba",
+        "d688e6cf875344c88d75647a98022010",
+        "319fef7cd0bf4e28aefdf2a12080dbba",
+        "e5e3088ca4dd474f8b8e6aa5627aa35b",
+        "034a69b7942c42db84536abb6acff256",
+        "431a1a7b643a406f87001a9b700ce210",
+        "c768f102b6a44aa5beef9a1b2cac3ad6",
+        "d050be9b38734c369cd70b24c6de83ea",
+        "02370965d2c2437489cfc5ff2f3b47a7",
+        "ece56621d3264242b2f387ae2bad01c1",
+        "5a5afb88990f4f61a28cacc7978ded04",
+        "aabc33af385a4ddc8ff58d9f2d2de1aa",
+        "bb210f55a97b46f7bd0b3d3b4268d733",
+        "929940d0660a4436ac8abc3386a36479"
+      ],
+      "after": [
+        {
+          "id": "492d0f1ad8954cfb880454e649a4a932",
+          "name": "DOC0024_高速铁路安全防护管理办法_精修_aacc2d4e372e.md",
+          "status": "0"
+        },
+        {
+          "id": "e37cfbbea77042798a8bbe2ede05fd4d",
+          "name": "DOC0010_高速铁路基础设施运用状态检测管理办法_精修_97bbb59187e8.md",
+          "status": "1"
+        },
+        {
+          "id": "5ecc4806bcb64618b4d9f06cbf3dd96a",
+          "name": "DOC0009_铁路建设工程勘察设计管理办法_精修_a824bce5ac30.md",
+          "status": "1"
+        },
+        {
+          "id": "1be08ad11398457f92c8e3f506884727",
+          "name": "DOC0008_铁路建设工程竣工验收管理办法_精修_e14a050d52cc.md",
+          "status": "1"
+        },
+        {
+          "id": "c8304232d8504995ba40243134f0eca6",
+          "name": "DOC0007_铁路建设工程安全生产监督管理办法_精修_1e73bb253210.md",
+          "status": "1"
+        },
+        {
+          "id": "fde0ef42db5a430c9db85cc05b1afab8",
+          "name": "DOC0006_铁路安全管理条例_精修_62effa50332b.md",
+          "status": "1"
+        },
+        {
+          "id": "a20c425fe0c04f128b0ff9c9b7d11ca7",
+          "name": "DOC0024_高速铁路安全防护管理办法_精修_b227b4dda23b.md",
+          "status": "0"
+        },
+        {
+          "id": "ee9848afc3a1420a9af9bff21f63b0ba",
+          "name": "DOC0009_铁路建设工程勘察设计管理办法_精修_1a9bc45fa506.md",
+          "status": "0"
+        },
+        {
+          "id": "d688e6cf875344c88d75647a98022010",
+          "name": "DOC0008_铁路建设工程竣工验收管理办法_精修_796ca4c20367.md",
+          "status": "0"
+        },
+        {
+          "id": "319fef7cd0bf4e28aefdf2a12080dbba",
+          "name": "DOC0009_铁路建设工程勘察设计管理办法_精修_07413eade1cd.md",
+          "status": "0"
+        },
+        {
+          "id": "e5e3088ca4dd474f8b8e6aa5627aa35b",
+          "name": "DOC0008_铁路建设工程竣工验收管理办法_精修_564e33ff67af.md",
+          "status": "0"
+        },
+        {
+          "id": "034a69b7942c42db84536abb6acff256",
+          "name": "DOC0007_铁路建设工程安全生产监督管理办法_精修_279bba6a0bf4.md",
+          "status": "0"
+        },
+        {
+          "id": "431a1a7b643a406f87001a9b700ce210",
+          "name": "DOC0006_铁路安全管理条例_精修_0e2016b4e6cf.md",
+          "status": "0"
+        },
+        {
+          "id": "c768f102b6a44aa5beef9a1b2cac3ad6",
+          "name": "DOC0010_高速铁路基础设施运用状态检测管理办法_精修_9f86c0a68cb8.md",
+          "status": "0"
+        },
+        {
+          "id": "d050be9b38734c369cd70b24c6de83ea",
+          "name": "DOC0024_高速铁路安全防护管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "02370965d2c2437489cfc5ff2f3b47a7",
+          "name": "DOC0009_铁路建设工程勘察设计管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "ece56621d3264242b2f387ae2bad01c1",
+          "name": "DOC0008_铁路建设工程竣工验收管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "5a5afb88990f4f61a28cacc7978ded04",
+          "name": "DOC0007_铁路建设工程安全生产监督管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "aabc33af385a4ddc8ff58d9f2d2de1aa",
+          "name": "DOC0006_铁路安全管理条例_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "bb210f55a97b46f7bd0b3d3b4268d733",
+          "name": "DOC0007_铁路建设工程安全生产监督管理办法.md",
+          "status": "0"
+        },
+        {
+          "id": "929940d0660a4436ac8abc3386a36479",
+          "name": "S0007-铁路建设工程安全生产监督管理办法.md",
+          "status": "0"
+        }
+      ]
+    },
+    {
+      "dataset_id": "8f7cbc152fc64d7b8d39da97028e5abe",
+      "keep": [
+        "2addd897d5bd49e38047826606744cfd",
+        "ce2c934bcf4a42d78f83e88982bf4331",
+        "8896cd1f6eda42a8ad98bbac1cfeef3d"
+      ],
+      "disable": [
+        "47b972521e2346668848f6e0575c0d54",
+        "29364f2bd4154148adbe45ad6055cf8d",
+        "7dac5d927d1f43129b745446c21d53d0",
+        "6af934c2aff8413dac0fa2dc4748d1e5",
+        "69d1022948a2450d9d7272a4945d7578",
+        "1f5cd4276d414c1c8c8dcf4fff3d1266",
+        "0abfdfdecdc945138028189e25ee0957",
+        "29022b4362f649d3b5a28684e316591f"
+      ],
+      "after": [
+        {
+          "id": "ce2c934bcf4a42d78f83e88982bf4331",
+          "name": "DOC0026_铁路信号设备生产企业审批实施细则_复核稿_保真入库副本_1e53deb5b6e2.md",
+          "status": "1"
+        },
+        {
+          "id": "8896cd1f6eda42a8ad98bbac1cfeef3d",
+          "name": "DOC0027_铁路通信设备生产企业审批实施细则_复核稿_保真入库副本_da4500791353.md",
+          "status": "1"
+        },
+        {
+          "id": "47b972521e2346668848f6e0575c0d54",
+          "name": "DOC0027_铁路通信设备生产企业审批实施细则_复核稿_结构通过_e1079ba502a1.md",
+          "status": "0"
+        },
+        {
+          "id": "29364f2bd4154148adbe45ad6055cf8d",
+          "name": "DOC0012_铁路关键信息基础设施安全保护管理办法_精修_b0d1bfc3efb5.md",
+          "status": "0"
+        },
+        {
+          "id": "2addd897d5bd49e38047826606744cfd",
+          "name": "DOC0011_铁路无线电管理办法_精修_1aa4aec8bb5d.md",
+          "status": "1"
+        },
+        {
+          "id": "7dac5d927d1f43129b745446c21d53d0",
+          "name": "DOC0012_铁路关键信息基础设施安全保护管理办法_精修_daf4e94c9627.md",
+          "status": "0"
+        },
+        {
+          "id": "6af934c2aff8413dac0fa2dc4748d1e5",
+          "name": "DOC0011_铁路无线电管理办法_精修_a3f6bb811610.md",
+          "status": "0"
+        },
+        {
+          "id": "69d1022948a2450d9d7272a4945d7578",
+          "name": "DOC0012_铁路关键信息基础设施安全保护管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "1f5cd4276d414c1c8c8dcf4fff3d1266",
+          "name": "DOC0011_铁路无线电管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "0abfdfdecdc945138028189e25ee0957",
+          "name": "DOC0011_铁路无线电管理办法.md",
+          "status": "0"
+        },
+        {
+          "id": "29022b4362f649d3b5a28684e316591f",
+          "name": "S0011-铁路无线电管理办法.md",
+          "status": "0"
+        }
+      ]
+    },
+    {
+      "dataset_id": "6b3ebc8cdb424cc4b489f80a4bf8718c",
+      "keep": [
+        "943a746278da4435b9420912a8ffc6a3",
+        "7b57192f256443039e388f2f48ce57fb"
+      ],
+      "disable": [
+        "08a190a67d8a46d7bad337e362687820",
+        "15cc55207ed04b1c89236153908c0417",
+        "5bb3a0847a9a4bd8976ba1cda08cbe50",
+        "020c3850affd45ccb667a07230af13f9",
+        "9c81d1d46ac54961853e061c5eae78f9",
+        "cbaeb128a8664d09b3fca7780951f7f0",
+        "debf52da824c4fa29244e7830425229c",
+        "64267cc5a6c74a9983a86fe803c9c0ba",
+        "b9537b6750984800b364094e134b9703"
+      ],
+      "after": [
+        {
+          "id": "7b57192f256443039e388f2f48ce57fb",
+          "name": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md",
+          "status": "1"
+        },
+        {
+          "id": "943a746278da4435b9420912a8ffc6a3",
+          "name": "DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md",
+          "status": "1"
+        },
+        {
+          "id": "08a190a67d8a46d7bad337e362687820",
+          "name": "DOC0014_铁路运输基础设备生产企业审批实施细则_精修_b2fece829b12.md",
+          "status": "0"
+        },
+        {
+          "id": "15cc55207ed04b1c89236153908c0417",
+          "name": "DOC0014_铁路运输基础设备生产企业审批实施细则_精修_44c663cf24db.md",
+          "status": "0"
+        },
+        {
+          "id": "5bb3a0847a9a4bd8976ba1cda08cbe50",
+          "name": "DOC0014_铁路运输基础设备生产企业审批实施细则_精修_3e68702f417f.md",
+          "status": "0"
+        },
+        {
+          "id": "020c3850affd45ccb667a07230af13f9",
+          "name": "DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_fccbc38feba3.md",
+          "status": "0"
+        },
+        {
+          "id": "9c81d1d46ac54961853e061c5eae78f9",
+          "name": "DOC0016_铁路专用产品质量监督抽查管理办法_精修_06923619ea19.md",
+          "status": "0"
+        },
+        {
+          "id": "cbaeb128a8664d09b3fca7780951f7f0",
+          "name": "DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "debf52da824c4fa29244e7830425229c",
+          "name": "DOC0014_铁路运输基础设备生产企业审批实施细则_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "64267cc5a6c74a9983a86fe803c9c0ba",
+          "name": "DOC0014_铁路运输基础设备生产企业审批实施细则.md",
+          "status": "0"
+        },
+        {
+          "id": "b9537b6750984800b364094e134b9703",
+          "name": "S0016-铁路运输基础设备生产企业审批实施细则.md",
+          "status": "0"
+        }
+      ]
+    },
+    {
+      "dataset_id": "0fb4da10e6ad4dd0bc7071b4407fe038",
+      "keep": [
+        "d413be72f59341d48c88c19e06b03e2e",
+        "1c5235520bfa43f5bb2adbc49135a76d",
+        "2ed3606d190d401b86ccaef1a88e1877"
+      ],
+      "disable": [
+        "09c031de678b4515937d37e133bcdce6",
+        "98ab6f431ca546b6ae0dc7d68a9f9b35",
+        "20eff7c05f234670b8ff4d2f994807d7",
+        "4ec0313975ca42a2a5dbc4c845653cee",
+        "703809589bdb4005b24c198c6154674f",
+        "7536c8161510427886ebabc31b28a502",
+        "bf3cac48af1e4e48af081cd0f8aa383d",
+        "c494012717d346d2945ecd831b240827",
+        "f60a4828558648fb87e672332cd2afcc",
+        "1a43fe5995b749c892fcc9230595e0bc",
+        "6cef80c032b34151ae71f897b18285cd",
+        "6a1d370a0bd446d798c1e0c2b89633aa",
+        "7cd6fbc7a91042d98b5852661adcbb53",
+        "15fcbc43ef3848dc8217a13d7cb0459b",
+        "6c0bdd1f0b48410e90a0c64f2cfa0da2",
+        "6bc724a5f157418ea013689ad2a2f3dd",
+        "07f3d70b512a45dc815bc3bf78ecb153",
+        "f05b1b24443544a999415c2da674fb16",
+        "6e9577b9faad465391d563835acc49e3"
+      ],
+      "after": [
+        {
+          "id": "2ed3606d190d401b86ccaef1a88e1877",
+          "name": "DOC0023_铁路专用设备缺陷产品召回管理办法_结构通过_69ede999c354.md",
+          "status": "1"
+        },
+        {
+          "id": "1c5235520bfa43f5bb2adbc49135a76d",
+          "name": "DOC0022_铁路机车车辆设计制造维修进口许可办法_结构通过_684ca577a353.md",
+          "status": "1"
+        },
+        {
+          "id": "09c031de678b4515937d37e133bcdce6",
+          "name": "DOC0023_railway-v4-9bf32f445d.md",
+          "status": "0"
+        },
+        {
+          "id": "98ab6f431ca546b6ae0dc7d68a9f9b35",
+          "name": "DOC0022_railway-v4-a626bb84fc.md",
+          "status": "0"
+        },
+        {
+          "id": "20eff7c05f234670b8ff4d2f994807d7",
+          "name": "DOC0022_铁路机车车辆设计制造维修进口许可办法_rebuild(1).md",
+          "status": "0"
+        },
+        {
+          "id": "4ec0313975ca42a2a5dbc4c845653cee",
+          "name": "DOC0023_铁路专用设备缺陷产品召回管理办法_精修_00a3a1075dee.md",
+          "status": "0"
+        },
+        {
+          "id": "703809589bdb4005b24c198c6154674f",
+          "name": "DOC0022_铁路机车车辆设计制造维修进口许可办法_精修_8c4fb5ed8638.md",
+          "status": "0"
+        },
+        {
+          "id": "7536c8161510427886ebabc31b28a502",
+          "name": "DOC0018_铁路机车车辆驾驶人员资格考试管理办法_精修_171224c1f847.md",
+          "status": "0"
+        },
+        {
+          "id": "bf3cac48af1e4e48af081cd0f8aa383d",
+          "name": "DOC0017_铁路机车车辆驾驶人员资格许可办法_精修_3caccf17fd56.md",
+          "status": "0"
+        },
+        {
+          "id": "d413be72f59341d48c88c19e06b03e2e",
+          "name": "DOC0001_铁路设备质量安全监督管理办法_精修_2eb51a1591c8.md",
+          "status": "1"
+        },
+        {
+          "id": "c494012717d346d2945ecd831b240827",
+          "name": "DOC0023_铁路专用设备缺陷产品召回管理办法_精修_4c54cc836fcf.md",
+          "status": "0"
+        },
+        {
+          "id": "f60a4828558648fb87e672332cd2afcc",
+          "name": "DOC0022_铁路机车车辆设计制造维修进口许可办法_精修_1025b74e494b.md",
+          "status": "0"
+        },
+        {
+          "id": "1a43fe5995b749c892fcc9230595e0bc",
+          "name": "DOC0018_铁路机车车辆驾驶人员资格考试管理办法_精修_640b9bb39a51.md",
+          "status": "0"
+        },
+        {
+          "id": "6cef80c032b34151ae71f897b18285cd",
+          "name": "DOC0017_铁路机车车辆驾驶人员资格许可办法_精修_7ed1c1d64e0e.md",
+          "status": "0"
+        },
+        {
+          "id": "6a1d370a0bd446d798c1e0c2b89633aa",
+          "name": "DOC0001_铁路设备质量安全监督管理办法_精修_fdd8372b6cee.md",
+          "status": "0"
+        },
+        {
+          "id": "7cd6fbc7a91042d98b5852661adcbb53",
+          "name": "DOC0023_铁路专用设备缺陷产品召回管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "15fcbc43ef3848dc8217a13d7cb0459b",
+          "name": "DOC0022_铁路机车车辆设计制造维修进口许可办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "6c0bdd1f0b48410e90a0c64f2cfa0da2",
+          "name": "DOC0018_铁路机车车辆驾驶人员资格考试管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "6bc724a5f157418ea013689ad2a2f3dd",
+          "name": "DOC0017_铁路机车车辆驾驶人员资格许可办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "07f3d70b512a45dc815bc3bf78ecb153",
+          "name": "DOC0001_铁路设备质量安全监督管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "f05b1b24443544a999415c2da674fb16",
+          "name": "DOC0017_铁路机车车辆驾驶人员资格许可办法.md",
+          "status": "0"
+        },
+        {
+          "id": "6e9577b9faad465391d563835acc49e3",
+          "name": "S0020-铁路机车车辆驾驶人员资格许可办法.md",
+          "status": "0"
+        }
+      ]
+    },
+    {
+      "dataset_id": "6276358588ab4dbb8c17baf7600b95c4",
+      "keep": [
+        "9d5b22f8a4ea406ea9d5939d667e5f0c",
+        "11d1bc5e9387437fb0f9e6fe667f07c1",
+        "3188d438193b4d4db5f1c68615259531",
+        "527bf5d2b579450c9f6d00aa89add447",
+        "5ba978b4f8764cf6b77979d6e66d10a9"
+      ],
+      "disable": [
+        "7cf738d9a4b545ea841454d632f27213",
+        "0ed0c5851d4a4cc19a07d8437f812628",
+        "d3ae575f50fa43c6b0e656d95009f992",
+        "524625097d4842d2b31b7dfbfbea1d90",
+        "b7e5b41b890c48588639ef7fce0d0614",
+        "2e5e0d2028c94380ad1a79975530fbbe",
+        "168bf533fa364599a065070bdae1ad73",
+        "8ac7abb431f84c82aad351b6d2599d3f",
+        "c1506dd19585489a89704fce2629568c",
+        "834ee7eb0dfe469fa67e3093a3fbc923",
+        "18bbe2a60ebe4c5fb64b7c40cb61da4f",
+        "5921c35a2f9649239c6607766bad56e0",
+        "2669c49e861048ea9e9c6d54c32b2930",
+        "ccd2c394e63244ecbe9937f7566badb9",
+        "833b0735110e41cc866a3aaf27a6058b",
+        "41baa88d14d54ffdb2c397ae8460886e",
+        "6ec08a897c774d0ebea32f78dafee02b",
+        "834946d880744ef4b6cc85865578dee9",
+        "509fcedce0a7498ea012eeea62179fe9",
+        "57a30902d65f439890988c1b306a4a2a",
+        "03b5ce8a737e4e948076b2b712502c6a"
+      ],
+      "after": [
+        {
+          "id": "7cf738d9a4b545ea841454d632f27213",
+          "name": "DOC0021_铁路危险货物运输安全监督管理规定_精修_7d7b9af33fbe.md",
+          "status": "0"
+        },
+        {
+          "id": "0ed0c5851d4a4cc19a07d8437f812628",
+          "name": "DOC0020_铁路运输服务质量监督管理办法_精修_38644e8c848f.md",
+          "status": "0"
+        },
+        {
+          "id": "5ba978b4f8764cf6b77979d6e66d10a9",
+          "name": "DOC0019_铁路货物运输规则_精修_9a2de29b6e7d.md",
+          "status": "1"
+        },
+        {
+          "id": "d3ae575f50fa43c6b0e656d95009f992",
+          "name": "DOC0013_铁路营业线施工安全管理办法_精修_a8a290fdcd9c.md",
+          "status": "0"
+        },
+        {
+          "id": "527bf5d2b579450c9f6d00aa89add447",
+          "name": "DOC0005_铁路交通事故应急救援和调查处理条例_精修_eef2ca59e822.md",
+          "status": "1"
+        },
+        {
+          "id": "3188d438193b4d4db5f1c68615259531",
+          "name": "DOC0004_铁路旅客运输规程_精修_3e15e12fbf85.md",
+          "status": "1"
+        },
+        {
+          "id": "11d1bc5e9387437fb0f9e6fe667f07c1",
+          "name": "DOC0003_铁路旅客运输安全检查管理办法_精修_57c9de97763e.md",
+          "status": "1"
+        },
+        {
+          "id": "9d5b22f8a4ea406ea9d5939d667e5f0c",
+          "name": "DOC0002_铁路旅客车票实名制管理办法_精修_5b68359deba9.md",
+          "status": "1"
+        },
+        {
+          "id": "524625097d4842d2b31b7dfbfbea1d90",
+          "name": "DOC0021_铁路危险货物运输安全监督管理规定_精修_ef83cd662f0a.md",
+          "status": "0"
+        },
+        {
+          "id": "b7e5b41b890c48588639ef7fce0d0614",
+          "name": "DOC0020_铁路运输服务质量监督管理办法_精修_9b366704aaad.md",
+          "status": "0"
+        },
+        {
+          "id": "2e5e0d2028c94380ad1a79975530fbbe",
+          "name": "DOC0019_铁路货物运输规则_精修_66a65717963e.md",
+          "status": "0"
+        },
+        {
+          "id": "168bf533fa364599a065070bdae1ad73",
+          "name": "DOC0013_铁路营业线施工安全管理办法_精修_981730ca3a85.md",
+          "status": "0"
+        },
+        {
+          "id": "8ac7abb431f84c82aad351b6d2599d3f",
+          "name": "DOC0005_铁路交通事故应急救援和调查处理条例_精修_5fbbfc10c960.md",
+          "status": "0"
+        },
+        {
+          "id": "c1506dd19585489a89704fce2629568c",
+          "name": "DOC0004_铁路旅客运输规程_精修_f39c45626ac8.md",
+          "status": "0"
+        },
+        {
+          "id": "834ee7eb0dfe469fa67e3093a3fbc923",
+          "name": "DOC0002_铁路旅客车票实名制管理办法_精修_e48481e5528b.md",
+          "status": "0"
+        },
+        {
+          "id": "18bbe2a60ebe4c5fb64b7c40cb61da4f",
+          "name": "DOC0003_铁路旅客运输安全检查管理办法_精修_2a149c37bf4c.md",
+          "status": "0"
+        },
+        {
+          "id": "5921c35a2f9649239c6607766bad56e0",
+          "name": "DOC0021_铁路危险货物运输安全监督管理规定_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "2669c49e861048ea9e9c6d54c32b2930",
+          "name": "DOC0020_铁路运输服务质量监督管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "ccd2c394e63244ecbe9937f7566badb9",
+          "name": "DOC0019_铁路货物运输规则_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "833b0735110e41cc866a3aaf27a6058b",
+          "name": "DOC0013_铁路营业线施工安全管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "41baa88d14d54ffdb2c397ae8460886e",
+          "name": "DOC0005_铁路交通事故应急救援和调查处理条例_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "6ec08a897c774d0ebea32f78dafee02b",
+          "name": "DOC0004_铁路旅客运输规程_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "834946d880744ef4b6cc85865578dee9",
+          "name": "DOC0003_铁路旅客运输安全检查管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "509fcedce0a7498ea012eeea62179fe9",
+          "name": "DOC0002_铁路旅客车票实名制管理办法_rebuild.md",
+          "status": "0"
+        },
+        {
+          "id": "57a30902d65f439890988c1b306a4a2a",
+          "name": "DOC0019_铁路货物运输规则.md",
+          "status": "0"
+        },
+        {
+          "id": "03b5ce8a737e4e948076b2b712502c6a",
+          "name": "S0022-铁路货物运输规则.md",
+          "status": "0"
+        }
+      ]
+    }
+  ],
+  "entry": {
+    "create_date": "2026-10-14T08:23:20+08:00",
+    "create_time": 1791937400911,
+    "dataset_ids": [
+      "dac0aeb13d4d4e4f967a689c4c55af69",
+      "8f7cbc152fc64d7b8d39da97028e5abe",
+      "6b3ebc8cdb424cc4b489f80a4bf8718c",
+      "0fb4da10e6ad4dd0bc7071b4407fe038",
+      "6276358588ab4dbb8c17baf7600b95c4"
+    ],
+    "decision_id": null,
+    "description": "A helpful Assistant",
+    "do_refer": "1",
+    "icon": "",
+    "id": "afa46b4fc3af497f9effbaad9f72154a",
+    "kb_names": [
+      "铁路资料优化试验-GW-工务与基础设施",
+      "铁路资料优化试验-XH-通信信号与列车控制",
+      "铁路资料优化试验-GD-牵引供电与电气设备",
+      "铁路资料优化试验-CL-机车车辆与运用检修",
+      "铁路资料优化试验-YS-运输组织与安全管理"
+    ],
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+    "llm_setting": {
+      "temperature": 0.2
+    },
+    "meta_data_filter": {},
+    "name": "轨知 · 安全规章",
+    "prompt_config": {
+      "domain": "railway",
+      "empty_response": "当前知识库没有足够依据回答这个问题。请补充适用文献或问题背景。",
+      "parameters": [
+        {
+          "key": "knowledge",
+          "optional": false
+        }
+      ],
+      "prologue": "你好，我是轨知。请描述你的铁路问题；我会结合资料给出依据，并说明需要核实的信息。",
+      "quote": true,
+      "railway_scene": "safety",
+      "reasoning": false,
+      "reference_metadata": {
+        "fields": [],
+        "include": false
+      },
+      "refine_multiturn": true,
+      "system": "你是铁路知识学习助手。只根据本次检索到且适用的文献回答，保留必要的主体、条件、例外、数值和单位。对关键结论使用系统真实提供的引用标识，让用户能定位原文，不编造文献、条号、链接或引用ID。资料之间存在版本或适用范围差异时明确说明，不能自行裁定现行效力。\n\n如果证据不足，直接说明“当前知识库没有足够依据回答这个问题”，简短指出缺少什么资料，然后结束。不要用常识猜测数值、资格、认证结果或操作步骤，不在拒答后附加无来源的建议。原文留白不等于零或无限制。对只覆盖部分内容的文献，只回答已覆盖部分，不声称全文或当前全部规定均已核实。\n\n检索资料：\n{knowledge}",
+      "tts": false
+    },
+    "prompt_type": "simple",
+    "rerank_candidates_count": 64,
+    "rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+    "similarity_threshold": 0.2,
+    "status": "1",
+    "tenant_decision_id": null,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "tenant_llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+    "tenant_rerank_id": "54b3e07f096e4b008cd789a563fd06ec",
+    "top_k": 1024,
+    "top_n": 8,
+    "update_date": "2026-11-18T00:15:23+08:00",
+    "update_time": 1794932123704
+  }
+}

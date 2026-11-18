@@ -59,6 +59,16 @@ func parseChatMediaCommand(content string) (string, string, bool) {
 	return strings.ToLower(match[1]), strings.TrimSpace(match[2]), true
 }
 
+func chatMediaCommandMode(kind, mode string) string {
+	if kind == "生图" {
+		return "image"
+	}
+	if mode == "music" {
+		return mode
+	}
+	return "voice"
+}
+
 // completeMedia is executed under the durable worker's lease.
 func (s *ChatSessionService) completeMedia(ctx context.Context, dialog *entity.Chat, session *entity.ChatSession, messages []map[string]interface{}, messageID, kind, prompt string, kwargs map[string]interface{}) (map[string]interface{}, error) {
 	if prompt == "" {

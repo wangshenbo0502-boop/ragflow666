@@ -40,13 +40,13 @@ function auth() {
   authorization = payload + '.' + createHmac('sha256', secret).update(payload).digest('base64url');
   return authorization;
 }
-export async function api(route, method = 'GET', body, raw = false) {
+export async function api(route, method = 'GET', body, raw = false, timeoutMS = 180000) {
   const headers = { Authorization: auth() };
   if (body !== undefined && !(body instanceof FormData)) headers['Content-Type'] = 'application/json';
   const response = await fetch('http://127.0.0.1:9380/api/v1' + route, {
     method, headers,
     body: body instanceof FormData ? body : body === undefined ? undefined : JSON.stringify(body),
-    signal: AbortSignal.timeout(180000),
+    signal: AbortSignal.timeout(timeoutMS),
   });
   if (raw) {
     if (!response.ok) throw Error(`${method} ${route}: HTTP ${response.status}`);

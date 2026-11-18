@@ -65,8 +65,11 @@ func TestPrepareRailwayOptions(t *testing.T) {
 
 func TestRailwayEmptyResponse(t *testing.T) {
 	chat := &entity.Chat{PromptConfig: entity.JSONMap{"domain": "railway"}}
-	if !emptyResponseApplies(chat, 0, "unindexed attachment", true) {
-		t.Fatal("attachments cannot replace indexed railway evidence")
+	if emptyResponseApplies(chat, 0, "resolved attachment", true) {
+		t.Fatal("attachment understanding must not require indexed railway evidence")
+	}
+	if !emptyResponseApplies(chat, 0, "", false) {
+		t.Fatal("railway questions without evidence must retain the fallback")
 	}
 	if emptyResponseApplies(chat, 1, "", false) {
 		t.Fatal("retrieved evidence must permit generation")

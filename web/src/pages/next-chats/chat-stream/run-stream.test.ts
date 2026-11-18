@@ -111,7 +111,12 @@ it('treats an SSE business error as a failed response', async () => {
       conversationId: 'session',
       question: 'question',
     }),
-  ).resolves.toEqual({ ok: false, aborted: false, accepted: false });
+  ).resolves.toEqual({
+    ok: false,
+    aborted: false,
+    accepted: false,
+    error: 'upstream unavailable',
+  });
 });
 
 it('reads a JSON error response once without starting the SSE parser', async () => {
@@ -128,7 +133,12 @@ it('reads a JSON error response once without starting the SSE parser', async () 
       conversationId: 'session',
       question: 'question',
     }),
-  ).resolves.toEqual({ ok: false, aborted: false, accepted: false });
+  ).resolves.toEqual({
+    ok: false,
+    aborted: false,
+    accepted: false,
+    error: 'request rejected',
+  });
   expect(parseStream).not.toHaveBeenCalled();
 });
 

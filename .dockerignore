@@ -67,6 +67,10 @@ web/.env.*.local
 # ── Local build artifacts / caches (never needed inside the container) ──
 .run/
 .cache/
+/tmp/
+/docs/railway-kb-work-validation/
+/docs/railway-kb-stage-*-generator/
+/docs/railway-generator-validation-*/
 # Go build output (binaries are compiled fresh inside the go-builder stage).
 /bin/
 # Local Go module cache (go mod download runs inside the container via cache mount).

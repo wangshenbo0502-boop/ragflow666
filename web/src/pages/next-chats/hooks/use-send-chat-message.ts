@@ -138,7 +138,7 @@ export const useSendMessage = (
 
       lastSendOptionsRef.current = { enableInternet, enableThinking };
 
-      const { ok, aborted, accepted } = await runChatCompletionStream({
+      const { ok, aborted, accepted, error } = await runChatCompletionStream({
         messageId: message.id,
         conversationId: sessionId,
         chatId,
@@ -159,7 +159,10 @@ export const useSendMessage = (
         // text on the failing session instead, and tell the user something went
         // wrong wherever they currently are.
         failStream(sessionId, message.content);
-        notification.error({ message: t('message.requestError') });
+        notification.error({
+          message: t('message.requestError'),
+          description: error,
+        });
       }
     },
     [

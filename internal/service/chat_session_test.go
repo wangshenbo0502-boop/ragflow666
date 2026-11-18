@@ -330,6 +330,32 @@ func makeResultChan(results ...AsyncChatResult) <-chan AsyncChatResult {
 	return ch
 }
 
+func TestChatSessionHistoryExcludesUnansweredTurns(t *testing.T) {
+	session := &entity.ChatSession{
+		Message: json.RawMessage(`[
+			{"role":"assistant","content":"Welcome"},
+			{"role":"user","content":"failed image","files":["old-image"]},
+			{"role":"user","content":"answered document","files":["document"]},
+			{"role":"assistant","content":"document answer"},
+			{"role":"user","content":"pending image","files":["pending-image"]},
+			{"role":"user","content":"@语音 read this","files":["current-document"]}
+		]`),
+	}
+	before := string(session.Message)
+	svc := &ChatSessionService{}
+	messages := svc.filterSystemAndLeadingAssistant(session)
+	if len(messages) != 3 || messages[0]["content"] != "answered document" ||
+		messages[1]["content"] != "document answer" || messages[2]["content"] != "@语音 read this" {
+		t.Fatalf("unexpected model history: %v", messages)
+	}
+	if messages[0]["files"] == nil || messages[2]["files"] == nil {
+		t.Fatal("answered and current attachments must remain available")
+	}
+	if string(session.Message) != before {
+		t.Fatal("stored transcript was modified")
+	}
+}
+
 func TestChatCompletionsPersistsAnswerDetailsForHistory(t *testing.T) {
 	for _, mode := range []struct {
 		name    string

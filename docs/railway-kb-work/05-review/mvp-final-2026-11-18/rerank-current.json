@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-17T16:38:33.491Z",
+  "elapsed_ms": 90,
+  "status": 200,
+  "body": {
+    "model": "bge-reranker-v2-m3",
+    "object": "list",
+    "usage": {
+      "prompt_tokens": 28,
+      "total_tokens": 28
+    },
+    "results": [
+      {
+        "index": 0,
+        "relevance_score": 5.0794477462768555
+      },
+      {
+        "index": 1,
+        "relevance_score": -10.975174903869629
+      }
+    ]
+  }
+}

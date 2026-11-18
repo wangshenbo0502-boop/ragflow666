@@ -1,0 +1,66 @@
+{
+  "captured_at": "2026-11-17T14:35:14.398Z",
+  "entry": {
+    "id": "afa46b4fc3af497f9effbaad9f72154a",
+    "name": "轨知 · 安全规章"
+  },
+  "configuration": {
+    "create_date": "2026-10-14T08:23:20+08:00",
+    "create_time": 1791937400911,
+    "dataset_ids": [
+      "66ff4d9d5ff748af8e83080bd7482f04"
+    ],
+    "decision_id": null,
+    "description": "A helpful Assistant",
+    "do_refer": "1",
+    "icon": "",
+    "id": "afa46b4fc3af497f9effbaad9f72154a",
+    "kb_names": [
+      "轨知 · 铁路公开规章"
+    ],
+    "keywords_similarity_weight": 0.7,
+    "language": "Chinese",
+    "llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+    "llm_setting": {
+      "temperature": 0.2
+    },
+    "meta_data_filter": {},
+    "name": "轨知 · 安全规章",
+    "prompt_config": {
+      "domain": "railway",
+      "empty_response": "当前资料不足以支持可靠回答，请补充适用规程和问题背景。",
+      "parameters": [
+        {
+          "key": "knowledge",
+          "optional": false
+        }
+      ],
+      "prologue": "你好，我是轨知。请描述你的铁路问题；我会结合资料给出依据，并说明需要核实的信息。",
+      "quote": true,
+      "railway_scene": "safety",
+      "reasoning": false,
+      "reference_metadata": {
+        "fields": [],
+        "include": false
+      },
+      "refine_multiturn": true,
+      "system": "依据检索资料回答铁路问题：{knowledge}",
+      "tts": false
+    },
+    "prompt_type": "simple",
+    "rerank_candidates_count": 64,
+    "rerank_id": "",
+    "similarity_threshold": 0.2,
+    "status": "1",
+    "tenant_decision_id": null,
+    "tenant_id": "f8123cce6b744a88bde9137a8fab0ed1",
+    "tenant_llm_id": "102e9861e4e24a73abb7cff80df6c52e",
+    "tenant_rerank_id": null,
+    "top_k": 1024,
+    "top_n": 8,
+    "update_date": "2026-10-14T08:23:20+08:00",
+    "update_time": 1791937400911
+  },
+  "configuration_sha256": "0acea39e910e7467ace6ed3ab5e7553b4bbd62189a3df4bc43a9e6501895f328",
+  "note": "Complete original demo-entry config snapshot before authorized five-domain binding; retained old dataset unchanged."
+}

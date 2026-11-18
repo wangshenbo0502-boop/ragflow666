@@ -1,0 +1,60 @@
+data: {"code":0,"data":{"answer":"**问题判断**：您询问的是动车组闸","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"片最小厚度这一具体检修限度参数，","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"属于车辆检修作业参数类问题。\n\n**资料","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"依据**：现有检索资料为《铁路","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"设备质量安全监督管理办法》《","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"铁路专用产品质量监督抽查管理办法","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"》《铁路旅客车票实名制管理办法","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"》等规章文本，均不包含闸片磨","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"耗限度、最小厚度等检修作业参数","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"；其中《铁路专用产品质量监督抽查","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"管理办法》明确其适用范围不","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"提供特定型号检修参数[ID:1]。\n\n**待","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"确认信息**：如需进一步查找，请补充","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"：①动车组具体车型（如CRH某","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"系列、CR某系列）；②闸片类型","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"或制造厂家；③您所依据的检修","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"规程版本。\n\n**建议与安全边界**：闸","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"片最小厚度属于直接影响制动","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"安全的检修限度，必须以该车型现行","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"有效的检修规程（如相应车型的运用检修","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"规程、闸片磨耗到限标准","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"）和厂家技术资料为准，不能凭","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"通用经验或记忆推定。建议向所属","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"动车段技术部门或车辆检修主管","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"核实，并按现场规程执行更换标准。在","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"未确认到限标准前，不得以\"还能用","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"\"为由继续运行。","audio_binary":null,"id":null,"reference":{},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"","audio_binary":null,"final":true,"id":null,"reference":{"chunks":[{"content":"# 铁路设备质量安全监督管理办法\n## 第五章 法律责任\n### 第三十一条｜铁路设备生产企业违反本办法第十条规定，未提供相关技术资料的，由铁路监管部门责令改正\n证据定位： DOC0001-K31；S0001，第五章 法律责任，第三十一条。\n来源版本与范围： 交通运输部令2023年第7号；2023-07-26公布，2023-09-01施行；铁路设备质量安全监督管理；不包含设备检修作业规程。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路设备生产企业违反本办法第十条规定，未提供相关技术资料的，由铁路监管部门责令改正；拒不改正的，予以通报批评，并处2万元以上5万元以下的罚款，对其直接负责的主管人员和其他直接责任人员处1000元以下的罚款。\n","dataset_id":"0fb4da10e6ad4dd0bc7071b4407fe038","doc_type":"text","document_id":"d413be72f59341d48c88c19e06b03e2e","document_metadata":null,"document_name":"DOC0001_铁路设备质量安全监督管理办法_精修_2eb51a1591c8.md","id":"b9dac30c201910a8","image_id":"","positions":[],"row_id":null,"similarity":0.3389055693198729,"term_similarity":0.05557938474267567,"url":null,"vector_similarity":1},{"content":"# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十四条｜抽样人员应当向被抽样单位出示国家铁路局出具的监督抽查通知书和有效身份证件\n证据定位： DOC0016-K14；S0029，第四章 产品抽样，第十四条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n抽样人员应当向被抽样单位出示国家铁路局出具的监督抽查通知书和有效身份证件。\n抽样人员应当告知被抽样单位抽查产品范围、抽样方法等。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"7b57192f256443039e388f2f48ce57fb","document_metadata":null,"document_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md","id":"88b456e416d6a3a6","image_id":"","positions":[],"row_id":null,"similarity":0.31508289313172655,"term_similarity":0.02566196338471728,"url":null,"vector_similarity":0.9903983958747481},{"content":"# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第三十五条｜国家铁路局编制监督抽查公告并在国家铁路局政府网站发布\n证据定位： DOC0016-K35；S0029，第七章 结果处理，第三十五条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局编制监督抽查公告并在国家铁路局政府网站发布。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"7b57192f256443039e388f2f48ce57fb","document_metadata":null,"document_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md","id":"7dae11f4896352f4","image_id":"","positions":[],"row_id":null,"similarity":0.2964023112372298,"term_similarity":0.02566196338471728,"url":null,"vector_similarity":0.9281297895597592},{"content":"# 铁路专用产品质量监督抽查管理办法\n## 第七章 结果处理\n### 第四十三条｜因转产、停产原因致使无法抽样的生产企业，国家铁路局予以公告\n证据定位： DOC0016-K43；S0029，第七章 结果处理，第四十三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n因转产、停产原因致使无法抽样的生产企业，国家铁路局予以公告。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"7b57192f256443039e388f2f48ce57fb","document_metadata":null,"document_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md","id":"778d1ebeaae6a482","image_id":"","positions":[],"row_id":null,"similarity":0.2917697838291712,"term_similarity":0.02566196338471728,"url":null,"vector_similarity":0.9126880315328971},{"content":"# 铁路专用产品质量监督抽查管理办法\n## 第四章 产品抽样\n### 第十二条｜国家铁路局可自行抽样或者委托抽样机构抽样\n证据定位： DOC0016-K12；S0029，第四章 产品抽样，第十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局可自行抽样或者委托抽样机构抽样。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"7b57192f256443039e388f2f48ce57fb","document_metadata":null,"document_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md","id":"befe10222825a16d","image_id":"","positions":[],"row_id":null,"similarity":0.2868412720507293,"term_similarity":0.02566196338471728,"url":null,"vector_similarity":0.8962596589380908},{"content":"# 铁路专用产品质量监督抽查管理办法\n## 第九章 附则\n### 第五十二条｜国家铁路局应当妥善保存抽样文书等有关材料、证据，保存期限不得少于两年\n证据定位： DOC0016-K52；S0029，第九章 附则，第五十二条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n国家铁路局应当妥善保存抽样文书等有关材料、证据，保存期限不得少于两年。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"7b57192f256443039e388f2f48ce57fb","document_metadata":null,"document_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md","id":"5dee3c64d2b7c7d7","image_id":"","positions":[],"row_id":null,"similarity":0.28582063481630604,"term_similarity":0.02566196338471728,"url":null,"vector_similarity":0.8928575348233465},{"content":"# 铁路专用产品质量监督抽查管理办法\n## 第一章 总则\n### 第三条｜监督抽查工作应当坚持生命至上、安全第一，科学、公正、公平的基本原则，严格执行有关规定和相关工作程序\n证据定位： DOC0016-K03；S0029，第一章 总则，第三条。\n来源版本与范围： 国铁设备监规〔2026〕3号；2026-02-09印发，2026-03-15施行；境内生产、销售或使用的铁路专用产品质量监督抽查；不提供特定型号检修参数。\n效力核验边界： 已回读官方全文及施行条款；未发现该存档文本之外的适用结论，不将网站转载日期当公布日期。\n版本边界： 国铁设备监规〔2026〕3号，自2026年3月15日起施行，替代2023年版。\n监督抽查工作应当坚持生命至上、安全第一，科学、公正、公平的基本原则，严格执行有关规定和相关工作程序。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"7b57192f256443039e388f2f48ce57fb","document_metadata":null,"document_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md","id":"96f358d1fbd1cf91","image_id":"","positions":[],"row_id":null,"similarity":0.28139232892702093,"term_similarity":0.02566196338471728,"url":null,"vector_similarity":0.8780965151923962},{"content":"# 铁路旅客车票实名制管理办法\n## 第六章 法律责任\n### 第二十九条｜铁路运输企业未提供车票实名制管理必要的场地、作业条件\n证据定位： DOC0002-K29；S0002，第六章 法律责任，第二十九条。\n来源版本与范围： 原件末条载明自2023-01-01施行；原件未载公布令号；铁路旅客车票实名购买、查验及相关管理。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n铁路运输企业未提供车票实名制管理必要的场地、作业条件，以及车票查验和身份证件识读等设备的，由铁路监管部门责令改正；逾期未改正的，处1万元以下罚款。\n","dataset_id":"6276358588ab4dbb8c17baf7600b95c4","doc_type":"text","document_id":"9d5b22f8a4ea406ea9d5939d667e5f0c","document_metadata":null,"document_name":"DOC0002_铁路旅客车票实名制管理办法_精修_5b68359deba9.md","id":"f8c52add7f78c500","image_id":"","positions":[],"row_id":null,"similarity":0.2803577057566094,"term_similarity":0.05557938474267567,"url":null,"vector_similarity":0.8048404547891215}],"doc_aggs":[{"count":38,"doc_id":"7b57192f256443039e388f2f48ce57fb","doc_name":"DOC0016_铁路专用产品质量监督抽查管理办法_精修_e3aa43c8fc6f.md"}],"total":8},"session_id":"e6839fba027d4941bcff27a28d3dabef"},"message":"success"}
+
+data: {"code":0,"message":"success","data":true}
+
+data: [DONE]
+

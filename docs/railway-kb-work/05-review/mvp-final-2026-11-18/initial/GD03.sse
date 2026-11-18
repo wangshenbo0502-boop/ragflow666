@@ -1,0 +1,60 @@
+data: {"code":0,"data":{"answer":"**问题判断**：属于铁路规章查询，","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"依据库中《铁路运输基础设备","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"生产企业审批办法（2021修正）》","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"回答。\n\n**资料依据**：\n\n- 生产许可证","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"应当注明企业名称、生产地点、适用范围","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"和有效起止日期[ID:0]。\n- 生产许可证","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"有效期为5年[ID:0]。\n- 有效期届满","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"后需延续的，被许可企业应当在","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"有效期届满60个工作日前向国家铁路","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"局提出申请[ID:0]。\n\n**版本与效力","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"边界**：上述内容出自原交通运输部","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"令2013年第21号、按2021年第32号","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"决定修正的版本，修正决定于2021","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"-11-19公布并施行，适用于铁路","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"道岔及转辙、信号控制软件和控制","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"、通信、牵引供电设备生产企业审批","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"[ID:0]。库中资料尚未证明截至","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"2026年11月16日无后续修订，具体","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"办理前请核验现行适用版本[ID:0","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"]。\n\n**补充提示**：库中另有202","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"6年施行的铁路通信设备、信号","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"设备生产企业审批实施细则，","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"同样规定许可证有效期5年、届满","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"60个工作日前申请延续[ID:1","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"][ID:3]；如企业属于这两类设备","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"，建议以对应细则为准并核实最新","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"效力。","audio_binary":null,"id":null,"reference":{},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"data":{"answer":"","audio_binary":null,"final":true,"id":null,"reference":{"chunks":[{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第三章　证书管理\n### 第十一条｜生产许可证有效期、延续申请及许可决定期限\n证据定位： DOC0015-K11；S0017，第三章　证书管理，第十一条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n生产许可证应当注明企业名称、生产地点、适用范围和有效起止日期。生产许可证有效期为5年，有效期届满后，被许可企业需要延续已取得的生产许可证有效期的，应当在有效期届满60个工作日前向国家铁路局提出申请。\n必要依赖（第九条原文）： 国家铁路局应当自受理申请之日起20个工作日内作出行政许可决定。20个工作日内不能作出决定的，经国家铁路局负责人批准，可以延长10个工作日，并将延长期限的理由告知申请企业。\n检验、检测和专家评审时间不计算在上述期限内。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"943a746278da4435b9420912a8ffc6a3","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"d5d41bcb1e72f55c","image_id":"","positions":[],"row_id":null,"similarity":0.5409557360987838,"term_similarity":0.3442224801411197,"url":null,"vector_similarity":1},{"content":"# 铁路通信设备生产企业审批实施细则\n文档 ID：DOC0027\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0035\n来源版本：国铁设备监规〔2026〕6号；2026-02-28印发，2026-04-01施行\n适用范围：铁路通信设备生产企业审批实施细则\n效力状态：已核对官方原件、2026-04-01施行日期及联合公告的旧细则废止关系；后续修订核查范围限于本次获取的国家铁路局行政许可目录，不据此断言不存在其他修订\n整理日期：2026-11-16\n## 第三章 证书管理\n### DOC0027-K015 第十五条 生产许可证有效期为5年。被许可企业需要延续已取得的生产许可证有效期的，应当在有效期届满60个工作日前向国家铁路局提出申请。\n被许可企业名称、生产地址名称发生变化，换发生产许可证时有效期不变。\n","dataset_id":"8f7cbc152fc64d7b8d39da97028e5abe","doc_type":"text","document_id":"8896cd1f6eda42a8ad98bbac1cfeef3d","document_metadata":null,"document_name":"DOC0027_铁路通信设备生产企业审批实施细则_复核稿_保真入库副本_da4500791353.md","id":"af47a054ee586803","image_id":"","positions":[],"row_id":null,"similarity":0.3860134091887947,"term_similarity":0.21323824903164582,"url":null,"vector_similarity":0.7891554495554755},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第二章　条件与程序\n### 第九条｜国家铁路局应当自受理申请之日起20个工作日内作出行政许可决定\n证据定位： DOC0015-K09；S0017，第二章　条件与程序，第九条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n国家铁路局应当自受理申请之日起20个工作日内作出行政许可决定。20个工作日内不能作出决定的，经国家铁路局负责人批准，可以延长10个工作日，并将延长期限的理由告知申请企业。\n检验、检测和专家评审时间不计算在上述期限内。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"943a746278da4435b9420912a8ffc6a3","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"54f1eab9c88d1650","image_id":"","positions":[],"row_id":null,"similarity":0.36545805931459385,"term_similarity":0.2562578851682249,"url":null,"vector_similarity":0.6202584656561215},{"content":"# 铁路信号设备生产企业审批实施细则\n文档 ID：DOC0026\n资料性质：官方行政规范性文件原件结构整理稿\n主领域：XH\n来源 ID：S0034\n来源版本：国铁设备监规〔2026〕5号；2026-02-28印发，2026-04-01施行\n适用范围：铁路信号设备生产企业审批实施细则\n效力状态：发布页、附件字节、施行日期及联合公告替代关系已核对；后续修订核查限于已获取官方目录，不作全局现行效力或许可适用保证\n整理日期：2026-11-17\n## 第三章 证书管理\n### DOC0026-K015 第十五条 生产许可证有效期为5年。被许可企业需要延续已取得的生产许可证有效期的，应当在有效期届满60个工作日前向国家铁路局提出申请。\n被许可企业名称、生产地址名称发生变化，换发生产许可证时有效期不变。\n","dataset_id":"8f7cbc152fc64d7b8d39da97028e5abe","doc_type":"text","document_id":"ce2c934bcf4a42d78f83e88982bf4331","document_metadata":null,"document_name":"DOC0026_铁路信号设备生产企业审批实施细则_复核稿_保真入库副本_1e53deb5b6e2.md","id":"70a39702b9a06803","image_id":"","positions":[],"row_id":null,"similarity":0.36515317720702223,"term_similarity":0.190815228391644,"url":null,"vector_similarity":0.7719417244429049},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第三章　证书管理\n### 第十二条｜被许可企业生产条件发生较大变化（包括生产地址变化、生产线重大技术改造、委外加工企业变更等）时\n证据定位： DOC0015-K12；S0017，第三章　证书管理，第十二条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n被许可企业生产条件发生较大变化（包括生产地址变化、生产线重大技术改造、委外加工企业变更等）时，应当向国家铁路局重新申请许可。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"943a746278da4435b9420912a8ffc6a3","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"d13c87e3fbb70de2","image_id":"","positions":[],"row_id":null,"similarity":0.3596373476036233,"term_similarity":0.2678995755280305,"url":null,"vector_similarity":0.5736921491133399},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第四章　监督管理\n### 第十五条｜监督检查的主要内容包括\n证据定位： DOC0015-K15；S0017，第四章　监督管理，第十五条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n监督检查的主要内容包括：\n（一）取得生产许可证应当具备条件的保持情况；\n（二）生产许可证使用情况。\n监督检查不合格的企业，应当进行整改，并在60个工作日内向国家铁路局提出复查申请。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"943a746278da4435b9420912a8ffc6a3","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"87c90c978ffe1899","image_id":"","positions":[],"row_id":null,"similarity":0.35908086089752655,"term_similarity":0.29011748740319443,"url":null,"vector_similarity":0.5199953990509683},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第二章　条件与程序\n### 第十条｜国家铁路局作出准予行政许可决定的，应当自作出许可决定之日起10个工作日内向申请企业颁发、送达许可证件\n证据定位： DOC0015-K10；S0017，第二章　条件与程序，第十条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n国家铁路局作出准予行政许可决定的，应当自作出许可决定之日起10个工作日内向申请企业颁发、送达许可证件。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"943a746278da4435b9420912a8ffc6a3","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"e30ffdc73c77e041","image_id":"","positions":[],"row_id":null,"similarity":0.3422058909963686,"term_similarity":0.27975752666513154,"url":null,"vector_similarity":0.48791874110258854},{"content":"# 铁路运输基础设备生产企业审批办法（2021修正）\n## 第一章　总　　则\n### 第三条｜境内铁路运输基础设备生产企业的取证义务\n证据定位： DOC0015-K03；S0017，第一章　总　　则，第三条。\n来源版本与范围： 原交通运输部令2013年第21号，按2021年第32号决定修正；修正决定2021-11-19公布并施行；铁路道岔及转辙、信号控制软件和控制、通信、牵引供电设备生产企业审批；目录由国家铁路局制定调整公布。\n效力核验边界： 依存档原文整理，尚未证明截至2026年11月16日无后续修订；具体使用须核验适用版本。\n在中华人民共和国境内生产铁路运输基础设备的企业，应当向国家铁路局提出申请，经审查合格取得铁路运输基础设备生产企业许可证（以下简称生产许可证）。\n必要依赖（第二条原文）： 本办法所称铁路运输基础设备是指铁路道岔及其转辙设备、铁路信号控制软件和控制设备、铁路通信设备、铁路牵引供电设备。铁路运输基础设备目录由国家铁路局制定、调整并公布。\n","dataset_id":"6b3ebc8cdb424cc4b489f80a4bf8718c","doc_type":"text","document_id":"943a746278da4435b9420912a8ffc6a3","document_metadata":null,"document_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md","id":"e9dd157574dbe25d","image_id":"","positions":[],"row_id":null,"similarity":0.33487146047506733,"term_similarity":0.25668991865584045,"url":null,"vector_similarity":0.5172950580532635}],"doc_aggs":[{"count":8,"doc_id":"8896cd1f6eda42a8ad98bbac1cfeef3d","doc_name":"DOC0027_铁路通信设备生产企业审批实施细则_复核稿_保真入库副本_da4500791353.md"},{"count":7,"doc_id":"943a746278da4435b9420912a8ffc6a3","doc_name":"DOC0015_铁路运输基础设备生产企业审批办法（2021修正）_精修_f4ce77f9398a.md"},{"count":6,"doc_id":"ce2c934bcf4a42d78f83e88982bf4331","doc_name":"DOC0026_铁路信号设备生产企业审批实施细则_复核稿_保真入库副本_1e53deb5b6e2.md"}],"total":8},"session_id":"b2fb50915d354b92ad632dd04bb86422"},"message":"success"}
+
+data: {"code":0,"message":"success","data":true}
+
+data: [DONE]
+

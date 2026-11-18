@@ -47,6 +47,7 @@ func TestChatTaskErrorClassification(t *testing.T) {
 		{errors.New("context_budget_exceeded: secret attachment"), "context_budget_exceeded"},
 		{errors.New("route_no_eligible_candidate: secret model"), "route_no_eligible_candidate"},
 		{errors.New("budget_exceeded: secret candidate"), "budget_exceeded"},
+		{errors.New("vision_model_required: secret model"), "vision_model_required"},
 	} {
 		code, message := chatTaskError(scenario.err)
 		if code != scenario.code || strings.Contains(message, "secret") {

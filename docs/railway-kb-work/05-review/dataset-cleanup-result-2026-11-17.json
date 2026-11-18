@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-11-17T15:07:46.242Z",
+  "operation": "DELETE /api/v1/datasets with explicit ids",
+  "before": [
+    {
+      "id": "aa5368d09aed40fb83938a217ad16baa",
+      "name": "铁路运输组织与安全管理",
+      "document_count": 5,
+      "chunk_count": 239
+    },
+    {
+      "id": "08537d0556d5438d8afaf9641f212795",
+      "name": "铁路机车车辆与运用检修",
+      "document_count": 3,
+      "chunk_count": 103
+    },
+    {
+      "id": "2c54b151d3c94e86be1fbbc5cc7896ac",
+      "name": "铁路牵引供电与电气设备",
+      "document_count": 2,
+      "chunk_count": 77
+    },
+    {
+      "id": "09f44dca26524a8790913faca5b8265e",
+      "name": "铁路通信信号与列车控制",
+      "document_count": 3,
+      "chunk_count": 642
+    },
+    {
+      "id": "bfdad58d08714665b9f911bbb975cc92",
+      "name": "铁路工务与基础设施",
+      "document_count": 5,
+      "chunk_count": 316
+    },
+    {
+      "id": "6276358588ab4dbb8c17baf7600b95c4",
+      "name": "铁路资料优化试验-YS-运输组织与安全管理",
+      "document_count": 26,
+      "chunk_count": 1291
+    },
+    {
+      "id": "0fb4da10e6ad4dd0bc7071b4407fe038",
+      "name": "铁路资料优化试验-CL-机车车辆与运用检修",
+      "document_count": 22,
+      "chunk_count": 843
+    },
+    {
+      "id": "6b3ebc8cdb424cc4b489f80a4bf8718c",
+      "name": "铁路资料优化试验-GD-牵引供电与电气设备",
+      "document_count": 11,
+      "chunk_count": 412
+    },
+    {
+      "id": "8f7cbc152fc64d7b8d39da97028e5abe",
+      "name": "铁路资料优化试验-XH-通信信号与列车控制",
+      "document_count": 11,
+      "chunk_count": 1448
+    },
+    {
+      "id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "name": "铁路资料优化试验-GW-工务与基础设施",
+      "document_count": 21,
+      "chunk_count": 1305
+    },
+    {
+      "id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "name": "轨知 · 铁路公开规章",
+      "document_count": 75,
+      "chunk_count": 3411
+    }
+  ],
+  "requested_delete_ids": [
+    "bfdad58d08714665b9f911bbb975cc92",
+    "09f44dca26524a8790913faca5b8265e",
+    "2c54b151d3c94e86be1fbbc5cc7896ac",
+    "08537d0556d5438d8afaf9641f212795",
+    "aa5368d09aed40fb83938a217ad16baa"
+  ],
+  "api_result": {
+    "errors": [],
+    "success_count": 5
+  },
+  "after": [
+    {
+      "id": "6276358588ab4dbb8c17baf7600b95c4",
+      "name": "铁路资料优化试验-YS-运输组织与安全管理",
+      "document_count": 26,
+      "chunk_count": 1291
+    },
+    {
+      "id": "0fb4da10e6ad4dd0bc7071b4407fe038",
+      "name": "铁路资料优化试验-CL-机车车辆与运用检修",
+      "document_count": 22,
+      "chunk_count": 843
+    },
+    {
+      "id": "6b3ebc8cdb424cc4b489f80a4bf8718c",
+      "name": "铁路资料优化试验-GD-牵引供电与电气设备",
+      "document_count": 11,
+      "chunk_count": 412
+    },
+    {
+      "id": "8f7cbc152fc64d7b8d39da97028e5abe",
+      "name": "铁路资料优化试验-XH-通信信号与列车控制",
+      "document_count": 11,
+      "chunk_count": 1448
+    },
+    {
+      "id": "dac0aeb13d4d4e4f967a689c4c55af69",
+      "name": "铁路资料优化试验-GW-工务与基础设施",
+      "document_count": 21,
+      "chunk_count": 1305
+    },
+    {
+      "id": "66ff4d9d5ff748af8e83080bd7482f04",
+      "name": "轨知 · 铁路公开规章",
+      "document_count": 75,
+      "chunk_count": 3411
+    }
+  ],
+  "expected_retained_ids": [
+    "66ff4d9d5ff748af8e83080bd7482f04",
+    "dac0aeb13d4d4e4f967a689c4c55af69",
+    "8f7cbc152fc64d7b8d39da97028e5abe",
+    "6b3ebc8cdb424cc4b489f80a4bf8718c",
+    "0fb4da10e6ad4dd0bc7071b4407fe038",
+    "6276358588ab4dbb8c17baf7600b95c4"
+  ],
+  "verified_exactly_six": true
+}

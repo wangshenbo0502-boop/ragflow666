@@ -1,4 +1,9 @@
 {
+  "record_status": "HISTORICAL_SUPERSEDED_DO_NOT_USE_FOR_IMPORT",
+  "superseded_reason": "用户已授权仅保留原始库和五个既有领域库；本文件domains内的五个旧库已删除，仅保留历史配置，不能用于当前导入或检索。",
+  "current_mapping_path": "00-control/dataset-map.md",
+  "current_state_evidence_path": "05-review/mvp-acceptance-2026-11-18.json",
+  "deletion_evidence_path": "05-review/dataset-cleanup-result-2026-11-17.json",
   "checked_at": "2026-11-17T04:34:42.873Z",
   "evidence_path": "05-review/formal-domain-current-2026-11-17.json",
   "creation_evidence_path": "05-review/formal-domain-map-2026-11-16T13-08-09-744Z.json",

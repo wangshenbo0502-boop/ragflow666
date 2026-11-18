@@ -263,6 +263,13 @@ bin/*
 .claude/settings.local.json
 
 .run/
+
+# Local scratch files and generated knowledge-base validation copies.
+/tmp/
+/docs/railway-kb-work-validation/
+/docs/railway-kb-stage-*-generator/
+/docs/railway-generator-validation-*/
+
 # Local agent tooling state (per-developer; not for commit)
 .omc/
 .marscode/

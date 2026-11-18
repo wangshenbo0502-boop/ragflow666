@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-17T14:36:20.556Z",
+  "scope": "Live completion through the configured user-facing chat with stateless message payload; XH only, smoke test, not acceptance.",
+  "entry_id": "afa46b4fc3af497f9effbaad9f72154a",
+  "tests": [
+    {
+      "domain": "XH",
+      "doc_id": "DOC0027",
+      "question": "铁路通信设备生产企业申请许可必须符合哪些条件？请逐项说明适用条件并给出引用。",
+      "http_status": 200,
+      "elapsed_ms": 362,
+      "response": {
+        "code": 101,
+        "message": "messages[].content must be a string or an array of content parts."
+      },
+      "response_sha256": "5cb3c3eda9578c90713924d5ea6fa0188efb10b6b555cd4d4f15817fdf4472f5"
+    }
+  ]
+}

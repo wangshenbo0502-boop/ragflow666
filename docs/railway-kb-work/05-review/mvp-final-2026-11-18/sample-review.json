@@ -1,0 +1,746 @@
+{
+  "at": "2026-11-17T16:27:30.330Z",
+  "documents": [
+    {
+      "doc_id": "DOC0006",
+      "original_path": "01-originals/baseline/06_railway-safety.md",
+      "reviewed_samples": [
+        {
+          "chunk_id": "81a279f25ad59498",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "4ff69b65c70f3fce",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "8ce4865102e77d3e",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "14a894be3697c31c",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "f55937611921c8a5",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0007",
+      "original_path": "01-originals/web/S0007.txt",
+      "reviewed_samples": [
+        {
+          "chunk_id": "93ce2284fe5690bd",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "fc01e3ef9b5e35a2",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "4c498abe6e65df88",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "4723e41aaf7d715a",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "599e964ac235fbd2",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0008",
+      "original_path": "01-originals/web/S0008.txt",
+      "reviewed_samples": [
+        {
+          "chunk_id": "c94fde18040d5dd8",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "f198755a587e623e",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "8b80f72b263e05f4",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "ce3682f2d3bbead1",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "fce590621be6b7ac",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0009",
+      "original_path": "01-originals/web/S0009.txt",
+      "reviewed_samples": [
+        {
+          "chunk_id": "951991623e779e1d",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "fc119728bf53ba36",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "1423c339335b3689",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "e4ebb64a80154fec",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "99ab497239e69bb8",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0010",
+      "original_path": "01-originals/web/S0028.txt",
+      "reviewed_samples": [
+        {
+          "chunk_id": "ca4d4a9abc0dcae4",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "8059cddad9751902",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "bac9f4804ec7055a",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "6dfa1c4fcf600699",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "64a2cfacc4367836",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0011",
+      "original_path": "01-originals/web/S0011.txt",
+      "reviewed_samples": [
+        {
+          "chunk_id": "3047fce060ea1381",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "a0afa7a22ae305c1",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "182a80324b1ea396",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "70d954ba2e050838",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "b3a0634fb8eadc61",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0026",
+      "original_path": "01-originals/attachments/S0034-1.docx",
+      "reused_evidence": "05-review/DOC0026-structure-decision-2026-11-17.json",
+      "reviewed_samples": [
+        {
+          "chunk_id": "25d8f6ebdee16eb2",
+          "role": "opening",
+          "source_text_match": "REUSED_NATIVE_TABLE_REVIEW",
+          "manual_semantic_review": "PASS",
+          "reason": "复用现有原生表格、结构裁定及保真试切记录；本次抽样确认原行、共享表头/条件、原空白标识保留。"
+        },
+        {
+          "chunk_id": "33357545c2ed518d",
+          "role": "middle",
+          "source_text_match": "REUSED_NATIVE_TABLE_REVIEW",
+          "manual_semantic_review": "PASS",
+          "reason": "复用现有原生表格、结构裁定及保真试切记录；本次抽样确认原行、共享表头/条件、原空白标识保留。"
+        },
+        {
+          "chunk_id": "973665c7d51d172b",
+          "role": "ending",
+          "source_text_match": "REUSED_NATIVE_TABLE_REVIEW",
+          "manual_semantic_review": "PASS",
+          "reason": "复用现有原生表格、结构裁定及保真试切记录；本次抽样确认原行、共享表头/条件、原空白标识保留。"
+        },
+        {
+          "chunk_id": "47910a719fa95c37",
+          "role": "risk-1",
+          "source_text_match": "REUSED_NATIVE_TABLE_REVIEW",
+          "manual_semantic_review": "PASS",
+          "reason": "复用现有原生表格、结构裁定及保真试切记录；本次抽样确认原行、共享表头/条件、原空白标识保留。"
+        },
+        {
+          "chunk_id": "65ebe94e3b650198",
+          "role": "risk-2",
+          "source_text_match": "REUSED_NATIVE_TABLE_REVIEW",
+          "manual_semantic_review": "PASS",
+          "reason": "复用现有原生表格、结构裁定及保真试切记录；本次抽样确认原行、共享表头/条件、原空白标识保留。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0027",
+      "original_path": "01-originals/attachments/S0035-1.docx",
+      "reused_evidence": "05-review/DOC0027-structure-decision-2026-11-16.json",
+      "reviewed_samples": [
+        {
+          "chunk_id": "e4a40e582221377f",
+          "role": "opening",
+          "source_text_match": "REUSED_NATIVE_TABLE_REVIEW",
+          "manual_semantic_review": "PASS",
+          "reason": "复用现有原生表格、结构裁定及保真试切记录；本次抽样确认原行、共享表头/条件、原空白标识保留。"
+        },
+        {
+          "chunk_id": "ac88f006cf71cbdd",
+          "role": "middle",
+          "source_text_match": "REUSED_NATIVE_TABLE_REVIEW",
+          "manual_semantic_review": "PASS",
+          "reason": "复用现有原生表格、结构裁定及保真试切记录；本次抽样确认原行、共享表头/条件、原空白标识保留。"
+        },
+        {
+          "chunk_id": "9d430110063a0aad",
+          "role": "ending",
+          "source_text_match": "REUSED_NATIVE_TABLE_REVIEW",
+          "manual_semantic_review": "PASS",
+          "reason": "复用现有原生表格、结构裁定及保真试切记录；本次抽样确认原行、共享表头/条件、原空白标识保留。"
+        },
+        {
+          "chunk_id": "4cc3be83065d556f",
+          "role": "risk-1",
+          "source_text_match": "REUSED_NATIVE_TABLE_REVIEW",
+          "manual_semantic_review": "PASS",
+          "reason": "复用现有原生表格、结构裁定及保真试切记录；本次抽样确认原行、共享表头/条件、原空白标识保留。"
+        },
+        {
+          "chunk_id": "02bc752aa0abafac",
+          "role": "risk-2",
+          "source_text_match": "REUSED_NATIVE_TABLE_REVIEW",
+          "manual_semantic_review": "PASS",
+          "reason": "复用现有原生表格、结构裁定及保真试切记录；本次抽样确认原行、共享表头/条件、原空白标识保留。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0015",
+      "original_path": "01-originals/web/S0017.txt",
+      "reviewed_samples": [
+        {
+          "chunk_id": "346fc8eed2e13cd3",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "e30ffdc73c77e041",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "d76048fb62321e4e",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "54f1eab9c88d1650",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "d5d41bcb1e72f55c",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0016",
+      "original_path": "01-originals/web/S0029.txt",
+      "reviewed_samples": [
+        {
+          "chunk_id": "36255d4b31cc06ce",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "64b24ab4d3ced895",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "06a2d86ac8292ca6",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "37181459050b4d94",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "6ca44eb0b50900bb",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0001",
+      "original_path": "01-originals/baseline/01_equipment-quality.md",
+      "reviewed_samples": [
+        {
+          "chunk_id": "cfd2f74c05d58df3",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "60f2f41bfa728a9e",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "38bc2c6f98704b11",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "e3939a096ef3de6f",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "577f3cb1b6ddedea",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0022",
+      "original_path": "01-originals/web/S0037.txt",
+      "reviewed_samples": [
+        {
+          "chunk_id": "85976975a149d516",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "64d0e49ae8e556cb",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "47340fef4a2eb40e",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "486467cae5b259e6",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "6ac51d5da9bb9d21",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0023",
+      "original_path": "01-originals/web/S0038.txt",
+      "reviewed_samples": [
+        {
+          "chunk_id": "671b23af854ad18f",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "c74e5ec89d03a11d",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "6bf746b6ba46a9a8",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "88f87159c8f62092",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "0a414ad5ec252a97",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0002",
+      "original_path": "01-originals/baseline/02_real-name-tickets.md",
+      "reviewed_samples": [
+        {
+          "chunk_id": "9544e53e70c130e8",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "e3abea09a05850ea",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "0a8b1816f07854e4",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "f8c52add7f78c500",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "3eadf72127264a0f",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0003",
+      "original_path": "01-originals/baseline/03_passenger-security.md",
+      "reviewed_samples": [
+        {
+          "chunk_id": "fa421609583153e7",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "e25bde3509e8d4a9",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "46ad4c2407166174",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "510480655a564648",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "d24ac931692d9ea9",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0004",
+      "original_path": "01-originals/baseline/04_passenger-transport.md",
+      "reviewed_samples": [
+        {
+          "chunk_id": "d4855d22b0202f0d",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "cc2b81045d5dee59",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "4e446ac5b4ca2114",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "dcf5d07180e77a1f",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "fd279abf42e030bf",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0005",
+      "original_path": "01-originals/baseline/05_railway-emergency.md",
+      "reviewed_samples": [
+        {
+          "chunk_id": "ae286856f9ec6456",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "c3cd3f3003004202",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "d2267b1ac94f324e",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "5520dd2284cbf35f",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "ea972a5e33697932",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    },
+    {
+      "doc_id": "DOC0019",
+      "original_path": "01-originals/web/S0022.txt",
+      "reviewed_samples": [
+        {
+          "chunk_id": "d28cc497fda197f3",
+          "role": "opening",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "2b8f56f198c91583",
+          "role": "middle",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "8857c6c0d2a79388",
+          "role": "ending",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "bdc2b705d9aeedac",
+          "role": "risk-1",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        },
+        {
+          "chunk_id": "3e611ec5bb764696",
+          "role": "risk-2",
+          "source_text_match": true,
+          "manual_semantic_review": "PASS",
+          "reason": "对照存档原文，抽样的主体、条件、数值单位、否定和依赖含义一致；正文比较仅作辅助。"
+        }
+      ]
+    }
+  ],
+  "scope": "18篇各5片；普通文本人工对照加正文/依赖辅助比对，复杂原生表格复用既有有效证据。不等于全文逐点审查。"
+}
