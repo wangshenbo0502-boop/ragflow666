@@ -2940,6 +2940,10 @@ NER：使用 spaCy NER 和基于规则的关键词提取来抽取 Entities 和 R
         is: '是',
         isNot: '不是',
       },
+      conditionIf: '如果',
+      conditionElseIf: '否则，如果',
+      conditionElse: '否则',
+      conditionCase: '条件 {{number}}',
       switchLogicOperatorOptions: {
         and: '与',
         or: '或',

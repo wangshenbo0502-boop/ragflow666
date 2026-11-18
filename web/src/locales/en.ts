@@ -3352,6 +3352,10 @@ Best for: Documents with flowing, contextually connected content — such as boo
         is: 'Is',
         isNot: 'Is not',
       },
+      conditionIf: 'If',
+      conditionElseIf: 'Else if',
+      conditionElse: 'Else',
+      conditionCase: 'Case {{number}}',
       switchLogicOperatorOptions: {
         and: 'AND',
         or: 'OR',
